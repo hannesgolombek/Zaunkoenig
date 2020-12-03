@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  3 DEC 2020 15:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  3 DEC 2020 17:00
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -58,26 +58,58 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  ("Projektarbeit - Bezeichnungen.tex")
 ("Projektarbeit - Hauptteil.tex") ("Projektarbeit - Grundlagen.tex"
-("Projektarbeit - Glasfaser.tex")) ("Projektarbeit - Zusammenfassung.tex")
-("Projektarbeit - Quellenverzeichnis.tex") [1
+("Projektarbeit - Glasfaser.tex")) ("Projektarbeit - Modellierung des Holms.tex
+"
+Overfull \hbox (22.24297pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/12 Das Ko-or-di-naten-sys-tem des Flugels entspricht dem Flugzeug
+-Koordinatensystem,
+ []
 
-{C:/Users/PC/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] ("Projektarbeit - 
-Abbildungsverzeichnis.tex")
-("Projektarbeit - Anhang.tex") [2] ("Projektarbeit - Main.aux") ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+[1
+
+{C:/Users/PC/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+Overfull \hbox (2.61632pt too wide) in paragraph at lines 4--5
+\OT1/cmr/m/n/12 Der Holm inkl. des Holm-s-tum-mels wird fur die Be-las-tung du
+rch eine Prufkraft
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+) ("Projektarbeit - Zusammenfassung.tex") [2]
+("Projektarbeit - Quellenverzeichnis.tex")
+("Projektarbeit - Abbildungsverzeichnis.tex") ("Projektarbeit - Anhang.tex")
+[3] ("Projektarbeit - Main.aux") ) 
 Here is how much of TeX's memory you used:
- 461 strings out of 479799
- 10163 string characters out of 2871148
- 273939 words of memory out of 3000000
- 17489 multiletter control sequences out of 15000+200000
+ 469 strings out of 479799
+ 10443 string characters out of 2871148
+ 276939 words of memory out of 3000000
+ 17494 multiletter control sequences out of 15000+200000
  539342 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,4n,49p,162b,102s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/PC/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/User
-s/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "Projektarbeit - Main.pdf" (2 pages, 29958 bytes).
+ 43i,4n,49p,724b,102s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/PC/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/PC/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/PC/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/PC/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/PC/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/PC/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "Projektarbeit - Main.pdf" (3 pages, 74244 bytes).
 PDF statistics:
- 17 PDF objects out of 1000 (max. 8388607)
+ 36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
