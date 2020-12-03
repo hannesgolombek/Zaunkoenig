@@ -1,9 +1,5 @@
 \contentsline {section}{\numberline {1}Bezeichnungen}{1}{}%
-<<<<<<< HEAD
-\contentsline {section}{\numberline {2}Hauptteil}{1}{}%
-=======
 \contentsline {section}{\numberline {2}Hauptteil}{2}{}%
->>>>>>> main
 \contentsline {section}{\numberline {3}Grundlagen}{2}{}%
 \contentsline {subsection}{\numberline {3.1}Glasfaser}{2}{}%
 \contentsline {section}{\numberline {4}Modellierung des Holms}{2}{}%
