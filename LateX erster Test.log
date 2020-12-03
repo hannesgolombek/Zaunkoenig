@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  30 NOV 2020 18:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  3 DEC 2020 13:28
 entering extended mode
 **"./LateX erster Test.tex"
 ("LateX erster Test.tex"
@@ -57,43 +57,44 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `"LateX erster Test.toc"'.
 
+ [1
 
-Overfull \hbox (4.17189pt too wide) in paragraph at lines 11--12
+{C:/Users/Henri/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+Overfull \hbox (4.17189pt too wide) in paragraph at lines 15--16
 \OT1/cmr/m/n/10 kon-stru-iert wird. Glas-fasern sind im Ver-gle-ich zu Kohlen-s
 toff-fasern die gunstigere
  []
 
-[1
 
-{C:/Users/Henri/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Overfull \hbox (19.33392pt too wide) in paragraph at lines 18--22
+Overfull \hbox (19.33392pt too wide) in paragraph at lines 22--26
 \OT1/cmr/m/n/10 ger-ing und es musste auf an-dere Fasern, wie zum Beispiel Koh
 le-fasern zuruckgegriffen
  []
 
 [2]
-Overfull \hbox (12.26297pt too wide) in paragraph at lines 32--32
+Overfull \hbox (12.26297pt too wide) in paragraph at lines 36--36
 []\OT1/cmr/bx/n/14.4 Ausdetaillierung und Ver-i-fizierung mit-tels FEM 
  []
 
 [3] ("LateX erster Test.aux") ) 
 Here is how much of TeX's memory you used:
- 415 strings out of 479799
- 7589 string characters out of 2869723
- 279912 words of memory out of 3000000
- 17481 multiletter control sequences out of 15000+200000
- 537287 words of font info for 36 fonts, out of 3000000 for 9000
+ 418 strings out of 479799
+ 7630 string characters out of 2869723
+ 278912 words of memory out of 3000000
+ 17483 multiletter control sequences out of 15000+200000
+ 537628 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,4n,49p,1104b,130s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/l
-jfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Henri/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Henri/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Henri/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Henri/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "LateX erster Test.pdf" (3 pages, 84281 bytes).
+jfour/jknappen/ec/dpi600\tcbx1200.pk> <C:\Users\Henri\AppData\Local\MiKTeX\font
+s/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Henri/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Henri/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Henri/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/
+Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "LateX erster Test.pdf" (3 pages, 85752 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
+ 39 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
