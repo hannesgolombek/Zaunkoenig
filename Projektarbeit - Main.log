@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  3 DEC 2020 17:33
+=======
 This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  3 DEC 2020 17:30
+>>>>>>> main
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -61,6 +65,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
  []
 
+<<<<<<< HEAD
+) ("Projektarbeit - Hauptteil.tex") ("Projektarbeit - Grundlagen.tex"
+("Projektarbeit - Glasfaser.tex")) [1
+=======
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--10
 
@@ -82,7 +90,10 @@ Overfull \hbox (22.24297pt too wide) in paragraph at lines 2--3
 -Koordinatensystem,
  []
 
+>>>>>>> main
 
+{C:/Users/PC/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] ("Projektarbeit - 
+Modellierung des Holms.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -114,6 +125,17 @@ Here is how much of TeX's memory you used:
  17494 multiletter control sequences out of 15000+200000
  539342 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
+<<<<<<< HEAD
+ 43i,5n,49p,792b,106s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/PC/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/PC/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/PC/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/PC/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/PC/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/PC/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "Projektarbeit - Main.pdf" (3 pages, 76586 bytes).
+=======
  43i,5n,49p,724b,114s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Henri/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Henri/AppData/Local/Progra
@@ -124,6 +146,7 @@ enri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
 Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb>
 Output written on "Projektarbeit - Main.pdf" (3 pages, 75433 bytes).
+>>>>>>> main
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
