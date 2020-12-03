@@ -1,12 +1,7 @@
 \contentsline {section}{\numberline {1}Bezeichnungen}{1}{}%
-\contentsline {section}{\numberline {2}Hauptteil}{1}{}%
-<<<<<<< HEAD
-\contentsline {section}{\numberline {3}Zusammenfassung}{1}{}%
-\contentsline {section}{\numberline {4}Quellenverzeichnis}{1}{}%
-\contentsline {section}{\numberline {5}Anhang}{2}{}%
-=======
-\contentsline {section}{\numberline {3}Grundlagen}{1}{}%
-\contentsline {subsection}{\numberline {3.1}Glasfaser}{1}{}%
+\contentsline {section}{\numberline {2}Hauptteil}{2}{}%
+\contentsline {section}{\numberline {3}Grundlagen}{2}{}%
+\contentsline {subsection}{\numberline {3.1}Glasfaser}{2}{}%
 \contentsline {section}{\numberline {4}Modellierung des Holms}{2}{}%
 \contentsline {subsection}{\numberline {4.1}Annahmen zur Modellierung}{2}{}%
 \contentsline {subsection}{\numberline {4.2}Analytische Lösung der Modellierung}{3}{}%
@@ -14,4 +9,3 @@
 \contentsline {section}{\numberline {6}Quellenverzeichnis}{3}{}%
 \contentsline {section}{\numberline {7}Abbildungsverzeichnis}{3}{}%
 \contentsline {section}{\numberline {8}Anhang}{3}{}%
->>>>>>> dfc138c09f865e512c13145e49b1ef178abfd9aa
