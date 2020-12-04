@@ -1,4 +1,4 @@
-\subsection{Annahmen zur Modellierung}
+\subsection{Annahmen zur Modellierung (T.B.)}
 Das Koordinatensystem des Flügels entspricht dem Flugzeugkoordinatensystem, sodass die Flügellängskoordinate durch y definiert ist. Der Koordinatenursprung ist im Lager A positioniert. \\
 
 \noindent Der Holm inkl. des Holmstummels wird für die Belastung durch eine Prüfkraft $F_{pruef}$ in negative z-Richtung als Biegebalken ausgelegt. Dafür ist er an zwei Stellen gelagert, dem Lager $A$ und Lager $B$, dabei repräsentieren sie die Verstiftungen (siehe Bauteil "U-Profil"). Um eine Überbestimmung des Systems zu vermeiden, wird das Lager $B$ als Loslager angenommen. Die Querkraftbolzen werden nicht durch ein Lager, sondern durch eine zusätzlich angreifende Kraft $F_{Q}$ simuliert, da keine Absenkung, sondern lediglich eine Kraftaufnahme der Wurzelrippen möglich ist. \\
@@ -30,7 +30,105 @@ Das Koordinatensystem des Flügels entspricht dem Flugzeugkoordinatensystem, sod
 	\label{fig:Holmmodellierung}
 \end{figure}
 
-\subsection{Analytische Lösung der Modellierung}
+\subsection{Analytische Lösung der Modellierung (T.B.)}
+Um die der Differentialgleichungen der Balkenbiegung lösen zu können, wird das System vorerst in drei Teilbereiche $I$, $II$, und $III$ aufgeteilt, die sich von Lager $A$ nach $B$, von Lager $B$ zur Wurzelrippe $C$ und von dort us bis zur Flügelspitze. \\
+
+\noindent Dadurch ergeben sich folgende zwölf Differentialgleichungen:
+\begin{equation}
+	EI\cdot w_{I}^{''''}(y) = q_{I}(y)
+\end{equation}
+\begin{equation}
+	EI\cdot w_{I}^{'''}(y) = q_{I}(y)\cdot y + R_{1} = -Q_{I}(y)
+\end{equation}
+\begin{equation}
+	EI\cdot w_{I}^{''}(y) = \frac{q_{I}(y)}{2}\cdot y^{2} + R_{1}\cdot y + R_{2} = -M_{I}(y)
+\end{equation}
+\begin{equation}
+	EI\cdot w_{I}^{'}(y) = \frac{q_{I}(y)}{6}\cdot y^{3} + \frac{R_{1}}{2}\cdot y^{2} + R_{2}\cdot y + R_{3} 
+\end{equation}
+\begin{equation}
+	EI\cdot w_{I}(y) = \frac{q_{I}(y)}{24}\cdot y^{4} + \frac{R_{1}}{6}\cdot y^{3} + \frac{R_{3}}{2}\cdot y^{2} + R_{3}\cdot y + R_{4}
+\end{equation}\\
+\begin{equation}
+	EI\cdot w_{II}^{''''}(y) = q_{II}(y)
+\end{equation}
+\begin{equation}
+	EI\cdot w_{II}^{'''}(y) = q_{II}(y)\cdot y + R_{5} = -Q_{II}(y)
+\end{equation}
+\begin{equation}
+	EI\cdot w_{II}^{''}(y) = \frac{q_{II}(y)}{2}\cdot y^{2} + R_{5}\cdot y + R_{6} = -M_{II}(y)
+\end{equation}
+\begin{equation}
+	EI\cdot w_{II}^{'}(y) = \frac{q_{II}(y)}{6}\cdot y^{3} + \frac{R_{5}}{2}\cdot y^{2} + R_{6}\cdot y + R_{7} 
+\end{equation}
+\begin{equation}
+	EI\cdot w_{II}(y) = \frac{q_{II}(y)}{24}\cdot y^{4} + \frac{R_{5}}{6}\cdot y^{3} + \frac{R_{6}}{2}\cdot y^{2} + R_{7}\cdot y + R_{8}
+\end{equation}\\
+\begin{equation}
+EI\cdot w_{III}^{''''}(y) = q_{III}(y)
+\end{equation}
+\begin{equation}
+EI\cdot w_{III}^{'''}(y) = q_{III}(y)\cdot y + R_{9} = -Q_{I}(y)
+\end{equation}
+\begin{equation}
+EI\cdot w_{III}^{''}(y) = \frac{q_{III}(y)}{2}\cdot y^{2} + R_{9}\cdot y + R_{10} = -M_{I}(y)
+\end{equation}
+\begin{equation}
+EI\cdot w_{IIII}^{'}(y) = \frac{q_{III}(y)}{6}\cdot y^{3} + \frac{R_{9}}{2}\cdot y^{2} + R_{10}\cdot y + R_{11} 
+\end{equation}
+\begin{equation}
+EI\cdot w_{III}(y) = \frac{q_{III}(y)}{24}\cdot y^{4} + \frac{R_{9}}{6}\cdot y^{10} + \frac{R_{3}}{2}\cdot y^{2} + R_{11}\cdot y + R_{12}
+\end{equation}\\
+
+\noindent Die Randbedingungen der Modellierung ergeben sich folgend: 
+\begin{equation}
+	w_{I}(l=0)=0
+\end{equation}
+\begin{equation}
+	M_{I}(l=0)=0
+\end{equation}\\
+\begin{equation}
+	w_{I}(l=l{1}) = 0
+\end{equation}
+\begin{equation}
+	w_{II}(l=l{1}) = 0
+\end{equation}
+\begin{equation}
+	w_{I}^{'}(l=l{1}) = w_{II}^{'}(l=l{1})
+\end{equation}
+\begin{equation}
+	M_{I}(l=l{1}) = M_{II}(l=l{1})
+\end{equation}\\
+\begin{equation}
+	w_{II}(l=l{1}+l_{2}) = w_{III}(l=l{1}+l_{2})
+\end{equation}
+\begin{equation}
+	w_{II}^{'}(l=l{1}+l_{2}) = w_{III}^{'}(l=l{1}+l_{2})
+\end{equation}
+\begin{equation}
+	M_{II}(l=l{1}+l_{2}) = M_{III}(l=l{1}+l_{2})
+\end{equation}
+\begin{equation}
+	Q_{II}(l=l{1}+l_{2}) = Q_{III}(l=l{1}+l_{2})+F_{Q}
+\end{equation}\\
+\begin{equation}
+	M_{III}(l=l_{1}+l_{2}+l_{3})=0
+\end{equation}
+\begin{equation}
+	Q_{III}(l=l_{1}+l_{2}+l_{3})=F
+\end{equation}
+Zusätzlich wird angenommen, dass $q_{I}(y)=q_{II}(y)=q_{III}(y)=0$ gilt, da keine Streckenlast angreift.\\
+
+\noindent Als Lösung dieser Differentialgleichungen lässt sich die Querkraft $Q(y)$, das Moment $M(y)$ und die Biegelinie $w(y)$ ermitteln:\\
+
+\begin{equation}
+	$Q(y)$=\left\{\begin{array}{ll}
+		$(-F\cdot \frac{l_{2}+l_{3}}{l_{1}}-F_{Q}\cdot \frac{l_{2}}{l_{1}}),&$y\epsilon (0,l_{1})$\\
+		$F$&$y\epsilon (l_{1}+l{2})$\\
+		$F$&$y\epsilon (l_{1}+l{2}+l{3})$
+	\end{array}\right
+\end{equation}
+
 
 
 
