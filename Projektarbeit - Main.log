@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  3 DEC 2020 17:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  4 DEC 2020 14:49
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
 LaTeX2e <2020-10-01> patch level 2
 L3 programming layer <2020-10-27> xparse <2020-03-03>
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count175
@@ -21,8 +21,8 @@ File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex
-.def
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count183
 \l__pdf_internal_box=\box47
@@ -73,7 +73,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
 ) [1
 
-{C:/Users/PC/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+{C:/Users/Henri/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 ("Projektarbeit - Hauptteil.tex") ("Projektarbeit - Grundlagen.tex"
 ("Projektarbeit - Glasfaser.tex")) ("Projektarbeit - Modellierung des Holms.tex
 "
@@ -101,9 +101,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 ("Projektarbeit - Quellenverzeichnis.tex")
 ("Projektarbeit - Abbildungsverzeichnis.tex"
 ! Undefined control sequence.
-<recently read> \includegraphics 
-                                 
-l.2 	\includegraphics
+l.3 	\includegraphics
                      [width=1.0\textwidth]{Balkenmodell}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -114,7 +112,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.2 	\includegraphics[width=1.0\textwidth]
+l.3 	\includegraphics[width=1.0\textwidth]
                                           {Balkenmodell}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -123,7 +121,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.2 	\includegraphics[width=1.0\textwidth]
+l.3 	\includegraphics[width=1.0\textwidth]
                                           {Balkenmodell}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -134,22 +132,22 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 ) ("Projektarbeit - Anhang.tex") [3] ("Projektarbeit - Main.aux") ) 
 Here is how much of TeX's memory you used:
- 471 strings out of 479799
- 10480 string characters out of 2871148
+ 470 strings out of 479799
+ 9821 string characters out of 2869723
  275939 words of memory out of 3000000
- 17496 multiletter control sequences out of 15000+200000
+ 17495 multiletter control sequences out of 15000+200000
  539342 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,5n,49p,792b,141s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/PC
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Us
-ers/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-<C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8
-.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr8.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb>
-Output written on "Projektarbeit - Main.pdf" (3 pages, 77014 bytes).
+<C:/Users/He
+nri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:
+/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
+2.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmmi8.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmr12.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmr8.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "Projektarbeit - Main.pdf" (3 pages, 77280 bytes).
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
