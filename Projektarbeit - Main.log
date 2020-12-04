@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  5 DEC 2020 00:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  4 DEC 2020 19:21
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -352,21 +352,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--15
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--26
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 22--28
 
  []
 
-[6]) ("Projektarbeit - Hauptteil.tex") ("Projektarbeit - Grundlagen.tex"
+) ("Projektarbeit - Hauptteil.tex") ("Projektarbeit - Grundlagen.tex"
 ("Projektarbeit - Glasfaser.tex")) ("Projektarbeit - Modellierung des Holms.tex
 "
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
@@ -388,64 +383,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 File: Bilder/Balkenmodell.jpg Graphic file (type jpg)
 <use Bilder/Balkenmodell.jpg>
 Package pdftex.def Info: Bilder/Balkenmodell.jpg  used on input line 28.
-(pdftex.def)             Requested size: 455.24411pt x 256.07507pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
+(pdftex.def)             Requested size: 390.0pt x 219.37004pt.
+) ("Projektarbeit - VDI2013.tex" [8 <./Bilder/Balkenmodell.jpg>]
+Overfull \hbox (3.32295pt too wide) in paragraph at lines 4--4
+[]\OT1/cmr/bx/n/14.4 Dimensionierung der Gur-te zur Ein-hal-tung der An-
  []
 
-[8 <./Bilder/Balkenmodell.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
-
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--121
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-
- []
-
-) ("Projektarbeit - VDI2013.tex" [10]
-<Bilder/RechteckHolm.jpg, id=106, 963.6pt x 542.025pt>
+<Bilder/RechteckHolm.jpg, id=94, 963.6pt x 542.025pt>
 File: Bilder/RechteckHolm.jpg Graphic file (type jpg)
 <use Bilder/RechteckHolm.jpg>
 Package pdftex.def Info: Bilder/RechteckHolm.jpg  used on input line 6.
@@ -455,41 +399,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-
+[9 <./Bilder/RechteckHolm.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
-[11 <./Bilder/RechteckHolm.jpg>]) ("Projektarbeit - Zusammenfassung.tex")
+) ("Projektarbeit - Zusammenfassung.tex")
 ("Projektarbeit - Quellenverzeichnis.tex")
-("Projektarbeit - Abbildungsverzeichnis.tex") ("Projektarbeit - Anhang.tex")
-[12] ("Projektarbeit - Main.aux") ) 
+("Projektarbeit - Abbildungsverzeichnis.tex"
+File: Bilder/Balkenmodell.jpg Graphic file (type jpg)
+<use Bilder/Balkenmodell.jpg>
+Package pdftex.def Info: Bilder/Balkenmodell.jpg  used on input line 3.
+(pdftex.def)             Requested size: 390.0pt x 219.37004pt.
+ [10]) ("Projektarbeit - Anhang.tex") [11] ("Projektarbeit - Main.aux") ) 
 Here is how much of TeX's memory you used:
- 3910 strings out of 479799
- 61005 string characters out of 2871148
- 376285 words of memory out of 3000000
- 20819 multiletter control sequences out of 15000+200000
- 539691 words of font info for 44 fonts, out of 3000000 for 9000
+ 3442 strings out of 479799
+ 53468 string characters out of 2869723
+ 344999 words of memory out of 3000000
+ 20361 multiletter control sequences out of 15000+200000
+ 539689 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,17n,80p,817b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/PC/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/PC/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/PC/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/PC/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/PC/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/PC/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/
-PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/U
-sers/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><
-C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.p
-fb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmsy6.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmsy8.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmti10.pfb>
-Output written on "Projektarbeit - Main.pdf" (12 pages, 961024 bytes).
+ 69i,17n,80p,817b,436s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Us
+ers/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.p
+fb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmmi8.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Henri/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Henri/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "Projektarbeit - Main.pdf" (11 pages, 898923 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
