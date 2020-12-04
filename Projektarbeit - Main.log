@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  4 DEC 2020 23:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  4 DEC 2020 23:54
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -421,6 +421,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
+
+ []
+
 [12]) ("Projektarbeit - Zusammenfassung.tex")
 ("Projektarbeit - Quellenverzeichnis.tex")
 ("Projektarbeit - Abbildungsverzeichnis.tex"
@@ -455,7 +460,7 @@ nri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
 /Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8
 .pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmti12.pfb>
-Output written on "Projektarbeit - Main.pdf" (14 pages, 998745 bytes).
+Output written on "Projektarbeit - Main.pdf" (14 pages, 999746 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -9,7 +9,8 @@
 \contentsline {section}{\numberline {5}Auslegung des Holms nach VDI 2013}{8}{}%
 \contentsline {subsection}{\numberline {5.1}Dimensionierung der Gurte}{10}{}%
 \contentsline {subsection}{\numberline {5.2}Nachrechnung der angepassten Gurte}{12}{}%
+\contentsline {subsection}{\numberline {5.3}Bestimmung der Lagenanzahl des Steges}{13}{}%
 \contentsline {section}{\numberline {6}Zusammenfassung}{13}{}%
 \contentsline {section}{\numberline {7}Quellenverzeichnis}{13}{}%
-\contentsline {section}{\numberline {8}Abbildungsverzeichnis}{13}{}%
-\contentsline {section}{\numberline {9}Anhang}{13}{}%
+\contentsline {section}{\numberline {8}Abbildungsverzeichnis}{14}{}%
+\contentsline {section}{\numberline {9}Anhang}{14}{}%
