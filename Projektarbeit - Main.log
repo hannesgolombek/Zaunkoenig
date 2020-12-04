@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  3 DEC 2020 17:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  3 DEC 2020 17:40
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -26,20 +26,7 @@ File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count183
 \l__pdf_internal_box=\box47
-) ("Projektarbeit - Main.aux"
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 <
-     <<<<<< HEAD
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-)
+) ("Projektarbeit - Main.aux")
 \openout1 = `"Projektarbeit - Main.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
@@ -56,86 +43,15 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
- ("Projektarbeit - Deckblatt.tex") ("Projektarbeit - Aufgabenstellung.tex")
-("Projektarbeit - Übersicht.tex") ("Projektarbeit - Main.toc"
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...line {section}{\numberline {2}Hauptteil}{1}
-                                                  {}%
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...line {section}{\numberline {2}Hauptteil}{1}
-                                                  {}%
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...line {section}{\numberline {2}Hauptteil}{2}
-                                                  {}%
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...line {section}{\numberline {2}Hauptteil}{2}
-                                                  {}%
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 ...ine {section}{\numberline {3}Grundlagen}{2}
-                                                  {}%
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 ...ine {section}{\numberline {3}Grundlagen}{2}
-                                                  {}%
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+ ("Projektarbeit - Deckblatt.tex")
+("Projektarbeit - Aufgabenstellung.tex") ("Projektarbeit - Übersicht.tex")
+("Projektarbeit - Main.toc"
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 8.
+(Font)              <12> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 8.
+(Font)              <8> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 8.
+(Font)              <6> on input line 4.
 )
 \tf@toc=\write3
 \openout3 = `"Projektarbeit - Main.toc"'.
@@ -155,9 +71,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-[1
+) [1
 
-{C:/Users/PC/AppData/Local/MiKTeX/pdftex/config/pdftex.map}])
+{C:/Users/PC/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 ("Projektarbeit - Hauptteil.tex") ("Projektarbeit - Grundlagen.tex"
 ("Projektarbeit - Glasfaser.tex")) ("Projektarbeit - Modellierung des Holms.tex
 "
@@ -188,27 +104,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 <recently read> \includegraphics 
                                  
 l.2 	\includegraphics
-                     [with=1\textwith]{test}
+                     [width=1.0\textwidth]{Balkenmodell}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.2 	\includegraphics[with=1\textwith
-                                     ]{test}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.2 	\includegraphics[width=1.0\textwidth]
+                                          {Balkenmodell}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
-) ("Projektarbeit - Anhang.tex") [3] ("Projektarbeit - Main.aux")
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.2 	\includegraphics[width=1.0\textwidth]
+                                          {Balkenmodell}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+) ("Projektarbeit - Anhang.tex") [3] ("Projektarbeit - Main.aux") ) 
 Here is how much of TeX's memory you used:
  471 strings out of 479799
  10480 string characters out of 2871148
@@ -216,15 +140,16 @@ Here is how much of TeX's memory you used:
  17496 multiletter control sequences out of 15000+200000
  539342 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,5n,49p,792b,139s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmmi12.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi8.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmr8.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Projektarbeit - Main.pdf" (3 pages, 77420 bytes).
+ 43i,5n,49p,792b,141s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/PC
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Us
+ers/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+<C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8
+.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr12.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr8.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb>
+Output written on "Projektarbeit - Main.pdf" (3 pages, 77014 bytes).
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
