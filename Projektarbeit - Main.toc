@@ -1,11 +1,12 @@
-\contentsline {section}{\numberline {1}Bezeichnungen}{1}{}%
-\contentsline {section}{\numberline {2}Hauptteil}{2}{}%
-\contentsline {section}{\numberline {3}Grundlagen}{2}{}%
-\contentsline {subsection}{\numberline {3.1}Glasfaser}{2}{}%
-\contentsline {section}{\numberline {4}Modellierung des Holms}{2}{}%
-\contentsline {subsection}{\numberline {4.1}Annahmen zur Modellierung}{2}{}%
-\contentsline {subsection}{\numberline {4.2}Analytische Lösung der Modellierung}{3}{}%
-\contentsline {section}{\numberline {5}Zusammenfassung}{3}{}%
-\contentsline {section}{\numberline {6}Quellenverzeichnis}{3}{}%
-\contentsline {section}{\numberline {7}Abbildungsverzeichnis}{3}{}%
-\contentsline {section}{\numberline {8}Anhang}{3}{}%
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Bezeichnungen}{6}{}%
+\contentsline {section}{\numberline {2}Hauptteil}{7}{}%
+\contentsline {section}{\numberline {3}Grundlagen}{7}{}%
+\contentsline {subsection}{\numberline {3.1}Glasfaser}{7}{}%
+\contentsline {section}{\numberline {4}Modellierung des Holms}{7}{}%
+\contentsline {subsection}{\numberline {4.1}Annahmen zur Modellierung}{7}{}%
+\contentsline {subsection}{\numberline {4.2}Analytische Lösung der Modellierung}{8}{}%
+\contentsline {section}{\numberline {5}Zusammenfassung}{8}{}%
+\contentsline {section}{\numberline {6}Quellenverzeichnis}{8}{}%
+\contentsline {section}{\numberline {7}Abbildungsverzeichnis}{9}{}%
+\contentsline {section}{\numberline {8}Anhang}{9}{}%
