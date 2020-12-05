@@ -1,12 +1,16 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  5 DEC 2020 18:05
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  5 DEC 2020 14:33
+>>>>>>> main
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
 LaTeX2e <2020-10-01> patch level 2
 L3 programming layer <2020-10-27> xparse <2020-03-03>
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
 File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count175
@@ -21,16 +25,16 @@ File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2020/10/27 3.51 The Babel package
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
 File: babel.def 2020/10/27 3.51 Babel common definitions
 \babel@savecnt=\count183
 \U@D=\dimen139
 \l@babelnohyphens=\language79
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 )
 \bbl@dirlevel=\count184
@@ -38,29 +42,32 @@ File: babel.def 2020/10/27 3.51 Babel common definitions
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ldf
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ld
+f
 Language: ngerman 2020/07/21 v2.12 German support for babel (post-1996 orthogra
 phy)
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.ldf
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.l
+df
 Language: ngermanb 2020/07/21 v2.12 German support for babel (post-1996 orthogr
 aphy)
 Package babel Info: Making " an active character on input line 121.
-))) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+)))
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 \Gm@cnth=\count185
@@ -76,32 +83,35 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutvoffset=\dimen147
 \Gm@dimlist=\toks16
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
-) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+)
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count188
 \calc@Bcount=\count189
@@ -114,10 +124,10 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count190
 \calc@Cskip=\skip51
 )
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2020/09/27 v2.0i eso-pic (RN)
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
@@ -125,10 +135,10 @@ with kernel methods
 \ESO@tempdima=\dimen152
 \ESO@tempdimb=\dimen153
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -145,7 +155,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 \AM@pagewidth=\dimen154
 \AM@pageheight=\dimen155
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box47
@@ -155,8 +165,8 @@ File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count192
 \AM@templatesizebox=\box48
 )
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex
-.def
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count193
 \l__pdf_internal_box=\box49
@@ -212,7 +222,9 @@ LaTeX Font Info:    ... okay on input line 6.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count194
 \scratchdimen=\dimen156
@@ -226,16 +238,15 @@ LaTeX Font Info:    ... okay on input line 6.
 \makeMPintoPDFobject=\count199
 \everyMPtoPDFconversion=\toks20
 )
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base
-.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
-
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
@@ -266,7 +277,11 @@ ut line 2.
 
 [1
 
+<<<<<<< HEAD
 {C:/Users/PC/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+=======
+{C:/Users/Henri/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+>>>>>>> main
 File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 <use PDFs/Aufgabenstellung Gruppe 2.pdf, page 1>
 Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page1 used on inp
@@ -316,7 +331,12 @@ File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page3 used on inp
 ut line 2.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+<<<<<<< HEAD
  [4 <./PDFs/Aufgabenstellung Gruppe 2.pdf>]
+=======
+
+[4 <./PDFs/Aufgabenstellung Gruppe 2.pdf>]
+>>>>>>> main
 <PDFs/Aufgabenstellung Gruppe 2.pdf, id=73, page=4, 597.55246pt x 845.07718pt>
 File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 <use PDFs/Aufgabenstellung Gruppe 2.pdf, page 4>
@@ -333,8 +353,13 @@ File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page4 used on inp
 ut line 2.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+<<<<<<< HEAD
  [5 <./PDFs/Aufgabenstellung Gruppe 2.pdf>])
 ("Projektarbeit - Übersicht.tex") ("Projektarbeit - Main.toc"
+=======
+ [5 <./PDFs/Aufgabenstellung Gruppe 2.pdf>]) ("Projektarbeit - Übersicht.tex")
+ ("Projektarbeit - Main.toc"
+>>>>>>> main
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -356,12 +381,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
+<<<<<<< HEAD
 [6]
+=======
+
+>>>>>>> main
 Underfull \hbox (badness 10000) in paragraph at lines 22--28
 
  []
 
+<<<<<<< HEAD
 ) ("Projektarbeit - Hauptteil.tex") ("Projektarbeit - Grundlagen.tex"
+=======
+[6]) ("Projektarbeit - Hauptteil.tex") ("Projektarbeit - Grundlagen.tex"
+>>>>>>> main
 ("Projektarbeit - Glasfaser.tex")) ("Projektarbeit - Modellierung des Holms.tex
 "
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
@@ -409,12 +442,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
+<<<<<<< HEAD
 [9]
+=======
+
+>>>>>>> main
 Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
+<<<<<<< HEAD
 
+=======
+[9]
+>>>>>>> main
 Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
@@ -439,6 +480,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
+<<<<<<< HEAD
 [10]
 Underfull \hbox (badness 10000) in paragraph at lines 144--146
 
@@ -468,6 +510,10 @@ Package pdftex.def Info: Bilder/Grafiken Festigkeit.png  used on input line 169
 (pdftex.def)             Requested size: 455.24411pt x 397.99338pt.
 [11] [12 <./Bilder/Grafiken Steifigkeit.png>]) ("Projektarbeit - VDI2013.tex"
 <Bilder/RechteckHolm.jpg, id=116, 963.6pt x 542.025pt>
+=======
+[10]) ("Projektarbeit - VDI2013.tex"
+<Bilder/RechteckHolm.jpg, id=105, 963.6pt x 542.025pt>
+>>>>>>> main
 File: Bilder/RechteckHolm.jpg Graphic file (type jpg)
 <use Bilder/RechteckHolm.jpg>
 Package pdftex.def Info: Bilder/RechteckHolm.jpg  used on input line 6.
@@ -482,7 +528,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
+<<<<<<< HEAD
 
+=======
+[11]
+>>>>>>> main
 Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
@@ -492,7 +542,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
+<<<<<<< HEAD
 [13] [14 <./Bilder/Grafiken Festigkeit.png>]
+=======
+[12 <./Bilder/RechteckHolm.jpg>]
+>>>>>>> main
 Overfull \hbox (13.34036pt too wide) in paragraph at lines 48--49
 \OT1/cmr/m/n/10.95 Den Da-ten ist zu ent-neh-men, dass brei-te Gur-te ge-rin-ge
 r Di-cke bei glei-chem Fl[]achentr[]agheitsmoment
@@ -508,20 +562,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--52
 
  []
 
+<<<<<<< HEAD
 [15 <./Bilder/RechteckHolm.jpg>]
+=======
+
+>>>>>>> main
 Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
 
+<<<<<<< HEAD
 LaTeX Warning: Reference `KrummerGurt' on page 16 undefined on input line 63.
 
 <Bilder/KrummerGurt.jpg, id=128, 1160.83687pt x 342.27875pt>
+=======
+LaTeX Warning: Reference `KrummerGurt' on page 13 undefined on input line 63.
+
+<Bilder/KrummerGurt.jpg, id=113, 1160.83687pt x 342.27875pt>
+>>>>>>> main
 File: Bilder/KrummerGurt.jpg Graphic file (type jpg)
 <use Bilder/KrummerGurt.jpg>
 Package pdftex.def Info: Bilder/KrummerGurt.jpg  used on input line 65.
 (pdftex.def)             Requested size: 455.24411pt x 134.2298pt.
+<<<<<<< HEAD
 
+=======
+[13]
+>>>>>>> main
 Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
@@ -531,7 +599,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
+<<<<<<< HEAD
 [16]
+=======
+
+>>>>>>> main
 Underfull \hbox (badness 10000) in paragraph at lines 75--77
 
  []
@@ -541,7 +613,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
+<<<<<<< HEAD
 [17 <./Bilder/KrummerGurt.jpg>]
+=======
+[14 <./Bilder/KrummerGurt.jpg>]
+>>>>>>> main
 Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
  []
@@ -551,15 +627,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
+<<<<<<< HEAD
 ) ("Projektarbeit - Auslegung der Holmstabilität.tex")
 ("Projektarbeit - Zusammenfassung.tex") ("Projektarbeit - Quellenverzeichnis.te
 x" [18]) ("Projektarbeit - Abbildungsverzeichnis.tex")
 ("Projektarbeit - Anhang.tex") [19] ("Projektarbeit - Main.aux")
+=======
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
+
+ []
+
+) ("Projektarbeit - Zusammenfassung.tex")
+("Projektarbeit - Quellenverzeichnis.tex" [16])
+("Projektarbeit - Abbildungsverzeichnis.tex") ("Projektarbeit - Anhang.tex")
+[17] ("Projektarbeit - Main.aux")
+>>>>>>> main
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  3940 strings out of 479799
  61926 string characters out of 2871148
  376341 words of memory out of 3000000
@@ -586,4 +680,33 @@ PDF statistics:
  184 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 3921 strings out of 479799
+ 60726 string characters out of 2869723
+ 372323 words of memory out of 3000000
+ 20829 multiletter control sequences out of 15000+200000
+ 539691 words of font info for 44 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 69i,17n,80p,1062b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmbx10.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmex10.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Henri/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Henri/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Henri/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Henri/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/
+Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
+/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmsy6.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmti10.pfb>
+Output written on "Projektarbeit - Main.pdf" (17 pages, 1056811 bytes).
+PDF statistics:
+ 172 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> main
 
