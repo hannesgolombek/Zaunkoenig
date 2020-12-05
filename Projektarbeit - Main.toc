@@ -6,10 +6,11 @@
 \contentsline {section}{\numberline {4}Modellierung des Holms}{7}{}%
 \contentsline {subsection}{\numberline {4.1}Annahmen zur Modellierung (T.B.)}{7}{}%
 \contentsline {subsection}{\numberline {4.2}Analytische Lösung der Modellierung (T.B.)}{8}{}%
+\contentsline {subsection}{\numberline {4.3}Ermittlung der Biegesteifigkeit}{11}{}%
 \contentsline {section}{\numberline {5}Auslegung des Holms nach VDI 2013}{11}{}%
-\contentsline {subsection}{\numberline {5.1}Dimensionierung der Gurte}{11}{}%
-\contentsline {subsection}{\numberline {5.2}Nachrechnung der angepassten Gurte}{13}{}%
-\contentsline {subsection}{\numberline {5.3}Bestimmung der Lagenanzahl des Steges}{14}{}%
+\contentsline {subsection}{\numberline {5.1}Dimensionierung der Gurte}{12}{}%
+\contentsline {subsection}{\numberline {5.2}Nachrechnung der angepassten Gurte}{14}{}%
+\contentsline {subsection}{\numberline {5.3}Bestimmung der Lagenanzahl des Steges}{15}{}%
 \contentsline {section}{\numberline {6}Zusammenfassung}{16}{}%
 \contentsline {section}{\numberline {7}Quellenverzeichnis}{16}{}%
 \contentsline {section}{\numberline {8}Abbildungsverzeichnis}{17}{}%
