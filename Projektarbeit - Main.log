@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  5 DEC 2020 13:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  5 DEC 2020 18:05
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -241,22 +241,349 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 ("Projektarbeit - Deckblatt.tex") ("Projektarbeit - Aufgabenstellung.tex"
-! I can't write on file `"Projektarbeit - Main.pdf"'.
-Please type another file name for output
-! Emergency stop.
-<argument> \pdfximage 
-                      \ifnum 0\ifx \Gin@decode \@empty \else 1\fi \ifGin@int...
-l.2 ...ages=-]{PDFs/Aufgabenstellung Gruppe 2.pdf}
-                                                  
-*** (job aborted, file error in nonstop mode)
+<PDFs/Aufgabenstellung Gruppe 2.pdf, id=1, 597.55246pt x 845.07718pt>
+File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
+<use PDFs/Aufgabenstellung Gruppe 2.pdf>
+Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf  used on input line
+ 2.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
+<use PDFs/Aufgabenstellung Gruppe 2.pdf>
+Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf  used on input line
+ 2.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+<PDFs/Aufgabenstellung Gruppe 2.pdf, id=4, page=1, 597.55246pt x 845.07718pt>
+File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
+<use PDFs/Aufgabenstellung Gruppe 2.pdf, page 1>
+Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page1 used on inp
+ut line 2.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
+<use PDFs/Aufgabenstellung Gruppe 2.pdf, page 1>
+Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page1 used on inp
+ut line 2.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 
- 
+[1
+
+{C:/Users/PC/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
+<use PDFs/Aufgabenstellung Gruppe 2.pdf, page 1>
+Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page1 used on inp
+ut line 2.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
+<use PDFs/Aufgabenstellung Gruppe 2.pdf, page 1>
+Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page1 used on inp
+ut line 2.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
+<use PDFs/Aufgabenstellung Gruppe 2.pdf, page 1>
+Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page1 used on inp
+ut line 2.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+ [2 <./PDFs/Aufgabenstellung Gruppe 2.pdf>]
+<PDFs/Aufgabenstellung Gruppe 2.pdf, id=49, page=2, 597.55246pt x 845.07718pt>
+File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
+<use PDFs/Aufgabenstellung Gruppe 2.pdf, page 2>
+Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page2 used on inp
+ut line 2.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
+<use PDFs/Aufgabenstellung Gruppe 2.pdf, page 2>
+Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page2 used on inp
+ut line 2.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
+<use PDFs/Aufgabenstellung Gruppe 2.pdf, page 2>
+Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page2 used on inp
+ut line 2.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+ [3 <./PDFs/Aufgabenstellung Gruppe 2.pdf>]
+<PDFs/Aufgabenstellung Gruppe 2.pdf, id=65, page=3, 597.55246pt x 845.07718pt>
+File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
+<use PDFs/Aufgabenstellung Gruppe 2.pdf, page 3>
+Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page3 used on inp
+ut line 2.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
+<use PDFs/Aufgabenstellung Gruppe 2.pdf, page 3>
+Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page3 used on inp
+ut line 2.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
+<use PDFs/Aufgabenstellung Gruppe 2.pdf, page 3>
+Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page3 used on inp
+ut line 2.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+ [4 <./PDFs/Aufgabenstellung Gruppe 2.pdf>]
+<PDFs/Aufgabenstellung Gruppe 2.pdf, id=73, page=4, 597.55246pt x 845.07718pt>
+File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
+<use PDFs/Aufgabenstellung Gruppe 2.pdf, page 4>
+Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page4 used on inp
+ut line 2.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
+<use PDFs/Aufgabenstellung Gruppe 2.pdf, page 4>
+Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page4 used on inp
+ut line 2.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
+<use PDFs/Aufgabenstellung Gruppe 2.pdf, page 4>
+Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page4 used on inp
+ut line 2.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+ [5 <./PDFs/Aufgabenstellung Gruppe 2.pdf>])
+("Projektarbeit - Übersicht.tex") ("Projektarbeit - Main.toc"
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 5.
+)
+\tf@toc=\write3
+\openout3 = `"Projektarbeit - Main.toc"'.
+
+
+("Projektarbeit - Bezeichnungen.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 2--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 22--28
+
+ []
+
+) ("Projektarbeit - Hauptteil.tex") ("Projektarbeit - Grundlagen.tex"
+("Projektarbeit - Glasfaser.tex")) ("Projektarbeit - Modellierung des Holms.tex
+"
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+[7]
+<Bilder/Balkenmodell.jpg, id=91, 963.6pt x 542.025pt>
+File: Bilder/Balkenmodell.jpg Graphic file (type jpg)
+<use Bilder/Balkenmodell.jpg>
+Package pdftex.def Info: Bilder/Balkenmodell.jpg  used on input line 28.
+(pdftex.def)             Requested size: 455.24411pt x 256.07507pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+[8 <./Bilder/Balkenmodell.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 144--146
+
+ []
+
+
+Overfull \hbox (23.99394pt too wide) detected at line 156
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+
+ []
+
+<Bilder/Grafiken Steifigkeit.png, id=105, 492.03825pt x 424.58624pt>
+File: Bilder/Grafiken Steifigkeit.png Graphic file (type png)
+<use Bilder/Grafiken Steifigkeit.png>
+Package pdftex.def Info: Bilder/Grafiken Steifigkeit.png  used on input line 16
+2.
+(pdftex.def)             Requested size: 455.24411pt x 392.83978pt.
+<Bilder/Grafiken Festigkeit.png, id=107, 483.60675pt x 422.7795pt>
+File: Bilder/Grafiken Festigkeit.png Graphic file (type png)
+<use Bilder/Grafiken Festigkeit.png>
+Package pdftex.def Info: Bilder/Grafiken Festigkeit.png  used on input line 169
+.
+(pdftex.def)             Requested size: 455.24411pt x 397.99338pt.
+[11] [12 <./Bilder/Grafiken Steifigkeit.png>]) ("Projektarbeit - VDI2013.tex"
+<Bilder/RechteckHolm.jpg, id=116, 963.6pt x 542.025pt>
+File: Bilder/RechteckHolm.jpg Graphic file (type jpg)
+<use Bilder/RechteckHolm.jpg>
+Package pdftex.def Info: Bilder/RechteckHolm.jpg  used on input line 6.
+(pdftex.def)             Requested size: 455.24411pt x 256.07507pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+[13] [14 <./Bilder/Grafiken Festigkeit.png>]
+Overfull \hbox (13.34036pt too wide) in paragraph at lines 48--49
+\OT1/cmr/m/n/10.95 Den Da-ten ist zu ent-neh-men, dass brei-te Gur-te ge-rin-ge
+r Di-cke bei glei-chem Fl[]achentr[]agheitsmoment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
+
+ []
+
+[15 <./Bilder/RechteckHolm.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+
+LaTeX Warning: Reference `KrummerGurt' on page 16 undefined on input line 63.
+
+<Bilder/KrummerGurt.jpg, id=128, 1160.83687pt x 342.27875pt>
+File: Bilder/KrummerGurt.jpg Graphic file (type jpg)
+<use Bilder/KrummerGurt.jpg>
+Package pdftex.def Info: Bilder/KrummerGurt.jpg  used on input line 65.
+(pdftex.def)             Requested size: 455.24411pt x 134.2298pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+[17 <./Bilder/KrummerGurt.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+) ("Projektarbeit - Auslegung der Holmstabilität.tex")
+("Projektarbeit - Zusammenfassung.tex") ("Projektarbeit - Quellenverzeichnis.te
+x" [18]) ("Projektarbeit - Abbildungsverzeichnis.tex")
+("Projektarbeit - Anhang.tex") [19] ("Projektarbeit - Main.aux")
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3794 strings out of 479799
- 56841 string characters out of 2871148
- 352323 words of memory out of 3000000
- 20757 multiletter control sequences out of 15000+200000
- 535388 words of font info for 30 fonts, out of 3000000 for 9000
+ 3940 strings out of 479799
+ 61926 string characters out of 2871148
+ 376341 words of memory out of 3000000
+ 20842 multiletter control sequences out of 15000+200000
+ 539691 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,0n,75p,265b,136s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 69i,17n,80p,817b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmex10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/PC/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/PC/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/PC/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/PC/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/PC/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/PC/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "Projektarbeit - Main.pdf" (19 pages, 1133756 bytes).
+PDF statistics:
+ 184 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+
