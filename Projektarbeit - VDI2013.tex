@@ -86,7 +86,7 @@ Die Auslegung des Steges erfolgt auch anhand der VDI 2013. Dabei muss beachtet w
  \begin{equation}
  	p_{\epsilon}=n*\bar{q}*K_{Ex}*\epsilon_{Gurt}
  \end{equation} 
-ermitteln lässt. $ K_{Ex} $ ist dabei ein verallgemeinerter Dimensionierungskennwert, der Tafel 3 der VDI 2013 entnommen wird. Die Dimensionierungskennwerte der VDI sind nur für bestimmte Verbunde als exakt anzusehen, dennoch liefern sie für die Vorauslegung hinreichend genaue Werte, die in einem späteren Schritt mithilfe eines Laminatrechners überprüft werden können.\\
+ermitteln lässt. $ K_{Ex} $ ist dabei ein verallgemeinerter Dimensionierungskennwert, der Tafel 3 der VDI 2013 zu $ K_{Ex}=1150*10^{3}m $ entnommen wird. Die Dimensionierungskennwerte der VDI sind nur für bestimmte Verbunde als exakt anzusehen, dennoch liefern sie für die Vorauslegung hinreichend genaue Werte, die in einem späteren Schritt mithilfe eines Laminatrechners überprüft werden können.\\
 
 \noindent Es ist zu beachten, dass in der VDI mit veralteten Einheiten, wie dem Kilopond, gerechnet wird. Flächengewichte $ \bar{q} $ sind durch Multiplikation der auf die Fläche bezogene Masse $ \frac{m_{f}}{L*b} $ mit der Erdbeschleunigung $ \vec{g} $ zu ermitteln. $ n $ kennzeichnet erneut die Lagenanzahl.\\
 
@@ -104,4 +104,18 @@ Die Normalkräfte an den Gurten bilden im Allgemeinen einen Winkel $ \neq180^{\c
  	p_{A||}=p_{A}*cos^{2}\left(45^{\circ} \right)
  \end{equation} 
 
-Darüber hinaus erfährt der Steg einen Schubkraftfluss durch den Querkraftschub. Wegen der vernachlässigbaren Längskraftaufnahme des Steges im Vergleich zu den Gurten, kann der Querkraftschub über die Höhe des Steges als konstant angenommen werden. Es muss berücksichtigt werden, dass die Modellierung des Holmes als Balken, der an zwei Punkten gelagert ist und durch die Querkraftbolzen eine weitere Kraft erfährt, zu einem anderen Querkraftverlauf führt als dem konstanten, der in VDI 2013 für den Kragbalken angenommen wurde. Den Berechnungen des Querkraftverlaufs kann eine maximale Querkraft von
+Darüber hinaus erfährt der Steg einen Schubkraftfluss durch den Querkraftschub. Wegen der vernachlässigbaren Längskraftaufnahme des Steges im Vergleich zu den Gurten, kann der Querkraftschub über die Höhe des Steges als konstant angenommen werden. Es muss berücksichtigt werden, dass die Modellierung des Holmes als Balken, der an zwei Punkten gelagert ist und durch die Querkraftbolzen eine weitere Kraft erfährt, zu einem anderen Querkraftverlauf führt als dem konstanten, der in der Richtlinie für den Kragbalken angenommen wurde. Den Berechnungen des Holms als Balken kann eine maximale Querkraft von $ 5085,5N $ im Bereich $ 2 $ und eine maximale Querkraft von $ 500N $ im Bereich $ 3 $ entnommen werden. Mit dem Ziel, im langen Bereich $ 3 $ Gewicht einzusparen, ist es vorteilhaft diesen Bereich geringer Querkraft getrennt von den höher beanspruchten Bereichen $ 1 $ und $ 2 $ auszulegen. Die resultierende Druckbeanspruchung berechnet sich mithilfe der folgenden Formel.
+\begin{equation}
+	p_{s||}=p_{s}=\frac{Q}{h_{i}}
+\end{equation}
+Der Kraftfluss, der durch den Steg aufgenommen werden muss, ergibt sich aus der Überlagerung der drei Kraftflüsse $ p_{s||}, p_{A||}, p_{\epsilon||} $. Die Tragfähigkeit einer Schicht des Verbundes wird durch $ K_{\sigma d} $ charakterisiert und kann ebenfalls Tafel 3 der VDI entnommen werden.Da ein Teil der Schubbeanspruchung durch die Matrix geleitet wird, besteht die Gefahr eines Zwischenfaserbruches. VDI 2013 schlägt deshalb die Verwendung von $ K_{\sigma d}=30*10^{3}m $ vor.  Zusätzlich muss der Anteil der Glasmengen in Kette und Schuß durch den Faktor $ k_{||} $ berücksichtigt werden. Das zur Verfügung stehende Gewebe Interglas 90070 hat annähernd gleiche Fadenanzahlen in Kette- und Schußrichtung, damit ist $ k_{||}=0,5 $. 
+\begin{equation}
+	n*\bar{q}*K_{\sigma d}*k_{||}=p_{s||}+p_{A||}+p_{\epsilon||}
+\end{equation}
+Die Anzahl der notwendigen Gewebelagen n im Steg lässt sich nun durch Umstellen der Gleichungen und Einsetzen der bekannten Werte ermitteln.\\
+\begin{equation}
+	n=\frac{\frac{2*F_{Pruef}*l_{3}*\epsilon_{Gurt}}{h_{m}^{2}*2}+\frac{Q}{h_{i}}}{\bar{q}*\left(k_{||}*K_{\sigma d}-K_{Ex}*\epsilon_{Gurt}*0,5\right)}
+\end{equation}
+Damit ergibt sich die Lagenanzahl von $ n\left(500N\right)=1,99 $ für den Bereich $ 3 $ und $ n\left(5085,5N\right)=18,13 $ für die Bereiche $ 1 $ und $ 2 $. Um einen symmetrischen Lagenaufbau zu ermöglichen, sind also $ 2 $ Lagen für den Bereich $ 3 $ und $ 20 $ Lagen für die Bereiche $ 1 $ und $ 2 $ vorzusehen.\\
+
+\noindent Es ist zu betonen, dass diese Lagenanzahlen maßgeblich durch die Annahmen der Dimensionierungskennwerte $ K_{Ex} $ und $ K_{\sigma d} $ beeinflusst werden. 
