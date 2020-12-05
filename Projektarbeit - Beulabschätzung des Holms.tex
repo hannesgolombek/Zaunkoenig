@@ -4,7 +4,7 @@ Nachdem die Holmgurte auf festigkeit und Steifigkeit ausgelegt worden sind, muss
 \noindent Dazu werden folgende Annahmen getroffen:
 
 \begin{enumerate}
-	\item Die Berechnung erfolgt nach Hertel, "LEichtbau - Bauelemente, Bemessungen und Konstruktion von Flugzeugen und anderen Leichtbauwerken", Springer-Verlag, 1980, Kapitel 3.2
+	\item Die Berechnung erfolgt nach Hertel, "Leichtbau - Bauelemente, Bemessungen und Konstruktion von Flugzeugen und anderen Leichtbauwerken", Springer-Verlag, 1980, Kapitel 3.2
 	\item Es wird angenommen, dass die orthotropen Gewebe hinreichend mit den Gleichungen für isotropes Material gerechnet werden kann. Diese Entscheidung wird mit erfolgten Zulassungen für Segelflugzeuge begründet anhand dieser Formeln.
 	\item Die Gurte werden als ebene, unendlich lange Streifen betrachtet. Die tatsächliche Krümmung dieser beeinflusst die Beulsicherheit positiv.
 	\item Da die Mitte (in $x$-Richtung) der Holmgurte mit dem Holmsteg verklebt ist, kann diese Klebelinie als freie Lagerung gesehen werden. Somit halbiert sich die angenommene Holmgurtbreite.
@@ -13,5 +13,83 @@ Nachdem die Holmgurte auf festigkeit und Steifigkeit ausgelegt worden sind, muss
 	\item Der Gurt wird nur durch Druckspannungen beansprucht. Die Schubspannungen werden durch das hohe Verhältnis von Länge zu  Höhe vernachlässigt.
 	\item Als größt mögliche Länge bei höchster Biegespannung wird $l_{3}$ bestimmt.
 \end{enumerate}
+Das Seitenverhältnis beträgt 
+\begin{equation}
+	\frac{b}{a}=\frac{\frac{28 mm}{2}}{773 mm}=0,018 \approx 0
+\end{equation}
+. Nach [Hertel, Abbildung 84] ergibt sich
+\begin{equation}
+	k_{d}=0,4
+\end{equation}
+und somit die kritische Spannung
+\begin{equation}
+	\sigma_{krit,d}=k_{d}\cdot E_{\parallel}\cdot\biggl(\frac{d}{b}\biggr)^{2}\\
+	= 242,82 MPa
+\end{equation}
+Im Vergleich mit der tatsächlich maximal auftretenden Randfaserspannung der Gurte ergibt sich die Sicherheit gegen Beulen zu 
+\begin{equation}
+	j=\frac{242,81 MPa}{224,96 MPa}=1,08
+\end{equation}
+
 
 \subsection{Beulsicherheit des Steges (T.B.)}
+Ebenfalls muss der Holmsteg nach der Auslegung hinsichtlich der Sicherheit gegen Beulen geprüft werden. Folgende Annahmen werden dafür getroffen:\\
+\begin{enumerate}
+	\item Die BErechnung erfolgt, wie bei der Berechnung der Holmgurte, nach Hertel.
+	\item Es wird angenommen, dass die orthotropen Gewebe hinreichend mit den Gleichnugen für isotropes Material gerechnet werden kann, Diese Entscheidung wir debenfalls mit erfolgten Zulassungen für Segelflugzeuge begründet.
+	\item Der Steg wird als ebener, unendlich langer Streifen betrachtet.
+	\item Die Verklebung des Steges wird als gestützte, gelenkige Lagerung an allen vier Kanten angenommen.
+	\item Der Steg wird durch Biegung und Schubspannung beansprucht.
+\end{enumerate}
+Für den Steg müssen die drei Bereiche der Holmauslegung auf die Beulsicherheit geprüft werden. \\
+\noindent Im Folgenden wir die Beulsicherheit des Bereichs $I$ berechnet:\\
+\noindent Das Seitenverhältnis ergibt sich zu 
+\begin{equation}
+	\frac{b}{a}=\frac{35,8 mm-2\cdot 1,941 mm}{76 mm}=0,042
+\end{equation}
+Dadurch lässt sich mit 
+\begin{equation}
+	\frac{\sigma_{max}}{\sigma_{min}}=-1
+\end{equation}
+nach [Hertel, Abbildung 85] der Beulfaktor ermitteln zu
+\begin{equation}
+	k_{b} = 21,8
+\end{equation}.
+Da das Dickenverhältnis von Steglagen zu Schaumkern sehr klein ausgelegt werden soll, wird
+\begin{equation}
+	\kappa = 1
+\end{equation}
+definiert. Dadurch ergibt sich die kritische Biegespannung zu
+\begin{equation}
+	\sigma_{krit,B}=\kappa\cdot\ k_{b}\cdot E_{\parallel}\cdot\Bigl(\frac{1,882 mm}{35,8 mm-2\cdot 1,941 mm}\Bigr)^{2}=Ergebnis
+\end{equation}
+Das Verhältnis der Biegespannung zur kritischen Biegespannung ist
+\begin{equation}
+	j_{1}=\frac{200,56 Mpa}{Ergebnis}
+\end{equation}. Für den Schub wird nach [Hertel, Abbildung NR.?]
+\begin{equation}
+	k_{s}=5,5
+\end{equation}
+Damit wir die kritische Schubspannung zu 
+\begin{equation}
+	\tau_{krit}=\kappa\cdot k\cdot E_{\#}\cdot\Bigl(\frac{1,88 2mm}{58,88 mm - 2\cdot 1,941  mm}\Bigr)^{2}=164,02 MPa
+\end{equation}
+. Die tatsächlich auftretende Schubspannung beträgt 
+\begin{equation}
+	\tau=\frac{3}{2}\cdot \frac{5085,5 N}{1,882 mm\cdot(35,8 mm-2\cdot 1,941 mm)}=126,99 Mpa
+\end{equation}
+, sodass das Verhältnis der Schubspannung zur kritischen 
+\begin{equation}
+	j_{2}=\frac{126,99 MPa}{164,02 MPa}
+\end{equation}
+ergibt. Die Gesamtsicherheit beträgt nach [Quelle?]
+\begin{equation}
+	j=\sqrt{\frac{1}{j_{1}^{2}+j_{2}^{2}}}=1,148
+\end{equation}
+. Somit kann rückgeschlossen werden, dass dieser Bereich des Holsteges ohne Schaumkern schon sicher gegen Beulen ist.\\
+\noindent Nun wird der Bereich $II$ betrachtet:
+Da keine innere Querkraft herrscht, kann die Sicherheit durch Biegung außer Acht gelassen werden. Die Sicherheit gegen Beulen entspricht demnach der Sicherheit gegen Beulen, alleinig beeinflusst durch Schubspannungen:
+
+
+
+
