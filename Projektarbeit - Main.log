@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  5 DEC 2020 20:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  5 DEC 2020 14:33
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -364,12 +364,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 22--28
 
  []
 
-) ("Projektarbeit - Hauptteil.tex") ("Projektarbeit - Grundlagen.tex"
+[6]) ("Projektarbeit - Hauptteil.tex") ("Projektarbeit - Grundlagen.tex"
 ("Projektarbeit - Glasfaser.tex")) ("Projektarbeit - Modellierung des Holms.tex
 "
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
@@ -417,12 +417,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
-[9]
+
 Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
-
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
@@ -447,124 +447,114 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
-[10]
-Overfull \hbox (23.99394pt too wide) detected at line 157
-[]
- []
-
-) ("Projektarbeit - VDI2013.tex" [11]
-<Bilder/RechteckHolm.jpg, id=109, 963.6pt x 542.025pt>
+[10]) ("Projektarbeit - VDI2013.tex"
+<Bilder/RechteckHolm.jpg, id=105, 963.6pt x 542.025pt>
 File: Bilder/RechteckHolm.jpg Graphic file (type jpg)
 <use Bilder/RechteckHolm.jpg>
-Package pdftex.def Info: Bilder/RechteckHolm.jpg  used on input line 7.
+Package pdftex.def Info: Bilder/RechteckHolm.jpg  used on input line 6.
 (pdftex.def)             Requested size: 455.24411pt x 256.07507pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--18
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
 [12 <./Bilder/RechteckHolm.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 20--22
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
-
- []
-
-
-Overfull \hbox (13.34036pt too wide) in paragraph at lines 49--50
+Overfull \hbox (13.34036pt too wide) in paragraph at lines 48--49
 \OT1/cmr/m/n/10.95 Den Da-ten ist zu ent-neh-men, dass brei-te Gur-te ge-rin-ge
 r Di-cke bei glei-chem Fl[]achentr[]agheitsmoment
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--53
-
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
 
  []
 
 
-LaTeX Warning: Reference `KrummerGurt' on page 14 undefined on input line 64.
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
-<Bilder/KrummerGurt.jpg, id=117, 1160.83687pt x 342.27875pt>
+ []
+
+
+LaTeX Warning: Reference `KrummerGurt' on page 13 undefined on input line 63.
+
+<Bilder/KrummerGurt.jpg, id=113, 1160.83687pt x 342.27875pt>
 File: Bilder/KrummerGurt.jpg Graphic file (type jpg)
 <use Bilder/KrummerGurt.jpg>
-Package pdftex.def Info: Bilder/KrummerGurt.jpg  used on input line 66.
+Package pdftex.def Info: Bilder/KrummerGurt.jpg  used on input line 65.
 (pdftex.def)             Requested size: 455.24411pt x 134.2298pt.
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 [14 <./Bilder/KrummerGurt.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--95
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 119--121
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
 
  []
 
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 123--125
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
 
  []
 
-) ("Projektarbeit - CAD-Modell.tex"
-Underfull \hbox (badness 10000) in paragraph at lines 1--2
-
- []
-
-) [17] ("Projektarbeit - Zusammenfassung.tex")
-("Projektarbeit - Quellenverzeichnis.tex")
+) ("Projektarbeit - Zusammenfassung.tex")
+("Projektarbeit - Quellenverzeichnis.tex" [16])
 ("Projektarbeit - Abbildungsverzeichnis.tex") ("Projektarbeit - Anhang.tex")
-[18] ("Projektarbeit - Main.aux")
+[17] ("Projektarbeit - Main.aux")
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3928 strings out of 479799
- 60926 string characters out of 2869723
- 375334 words of memory out of 3000000
- 20833 multiletter control sequences out of 15000+200000
+ 3921 strings out of 479799
+ 60726 string characters out of 2869723
+ 372323 words of memory out of 3000000
+ 20829 multiletter control sequences out of 15000+200000
  539691 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,17n,80p,1062b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -583,9 +573,9 @@ Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
 /cm/cmsy6.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmti10.pfb>
-Output written on "Projektarbeit - Main.pdf" (18 pages, 1064690 bytes).
+Output written on "Projektarbeit - Main.pdf" (17 pages, 1056811 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
+ 172 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
