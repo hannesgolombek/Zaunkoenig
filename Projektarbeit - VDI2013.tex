@@ -43,11 +43,6 @@ Mit den gegebenen Materialkennwerten bestimmt sich $ E_{11} = 31580 MPa $. Damit
 	\end{center}
 \end{table}
 
-\begin{figure}
-	\includegraphics[width=1.0\textwidth]{Bilder/KrummerGurt.jpg}
-	\caption{Der rechteckige Gurt ist gestrichelt dargestellt, der angepasste gekrümmte Gurt mit einer durchgezogenen Linie.}
-	\label{fig: KrummerGurt}
-\end{figure}
 
 
 \noindent Den Daten ist zu entnehmen, dass breite Gurte geringer Dicke bei gleichem Flächenträgheitsmoment geringere Querschnittsflächen aufweisen. Aus diesem Grund sollen die Gurte möglichst breit gewählt werden. Die Breite der Gurte ist durch die vorgegebene Konstruktion der Platte zur Aufnahme der Tragfläche am Teststand begrenzt. Die vorgesehene Aussparung weist eine Breite von $ 30mm $ auf. Für die weitere Berechnung soll $ b=28mm $ gelten. Diese Annahme wird dadurch begründet, dass die Fertigung des Holms im Bereich des Modellbaus von Hand erfolgen würde, womit nur grobe Toleranzen einhaltbar sind.\\
@@ -63,17 +58,50 @@ Mit den gegebenen Materialkennwerten bestimmt sich $ E_{11} = 31580 MPa $. Damit
 \noindent Mit $ \left(\frac{m_{f}}{L*b}\right) = 220\frac{g}{m^{2}} $ und $ t_{soll}=h $ ergibt sich $ n=8,55 $. Es sind also 9 Lagen des Gewebes 92145 für jeden Gurt vorzusehen.Die sich aus 9 Lagen ergebende Gurthöhe kann durch Umstellen von Gleichung ~\ref{gurtlagen} zu $ \tilde{h}=1,941mm $ bestimmt werden. Für den zunächst angenommenen Fall von Gurten mit rechteckigen Querschnitten ist die Auslegung zur Einhaltung der Anforderungen an die Steifigkeit damit abgeschlossen.\\
 
 
+
 \subsection{Nachrechnung der angepassten Gurte}
  Die Modellierung der Haut und der Holmgurte in einem CAD-Programm zeigt, dass die Gurte mit den berechneten Bemaßungen nicht innerhalb des Profils mit der als $ 0,75mm $ dick angenommenen Haut liegen. Die Anpassung der Konstruktion der Gurte erfolgt so, dass sich die Gurtoberseite der Innenseite der Haut anschmiegt.Die Gesamtbreite von $ 28mm $, sowie die Gurtdicke bleiben dabei gleich. Da die Wölbungsrücklage ungleich der Dickenrücklage ist, muss die Gesamthöhe $ h_{a} $ auf $ \tilde{h_{a}}=35,8mm $ leicht verringert werden. Abbildung ~\ref{KrummerGurt} veranschaulicht die gekrümmte Form des oberen Holmgurtes.\\
+ \begin{figure}
+ 	\includegraphics[width=1.0\textwidth]{Bilder/KrummerGurt.jpg}
+ 	\caption{Der rechteckige Gurt ist gestrichelt dargestellt, der angepasste gekrümmte Gurt mit einer durchgezogenen Linie.}
+ 	\label{fig: KrummerGurt}
+ \end{figure}
+
+\noindent Die angepasste Krümmung der Gurte führt zu einem veränderten Flächenträg-heitsmoment $ \tilde{I_{x}} $ des Balkens, dass mithilfe des CAD-Programms exakt zu $ \tilde{I_{x}}=3,075406*10^{-8}m^{4} $ bestimmt werden kann. Da $ 3,075406*10^{-8}m^{4} > 3,01631*10^{-8}m^{4} $ ist, genügen auch die veränderten Gurte der Steifigkeitsanforderung.\\
  
-\noindent Die angepasste Krümmung der Gurte führt zu einem veränderten Flächenträg-heitsmoment $ \tilde{I_{x}} $ des Balkens, dass mithilfe des CAD-Programms exakt zu $ \tilde{I_{x}}=3,075406*10^{-8}m^{4} $ bestimmt werden kann. Da $ 3,075406*10^{-8}m^{4} > 3,01631*10^{-8}m^{4} $ ist, genügen auch die veränderten Gurte der Steifigkeitsanforderung. Abschließend wird gezeigt, dass die Festigkeit der Gurte einer Belastung der Flügelspitze durch $ F_{pruef}=500N $ standhält. Die aus der Biegung resultierenden und betragsmäßig gleichen Zug- und Druckspannungen werden dazu mit den vorhandenen UD-Festigkeitskennwerten des Handlaminats verglichen. Die Resultate der Balkenberechnungen zeigen, dass das maximale Biegemoment im Holm an Punkt C auftritt und $ M^{b}=500N*0,773m=386,5Nm $ beträgt.In den Randfasern der Gurte resultieren Spannungen, die sich nach\\
+\noindent Abschließend wird gezeigt, dass die Festigkeit der Gurte einer Belastung der Flügelspitze durch $ F_{pruef}=500N $ standhält. Die aus der Biegung resultierenden und betragsmäßig gleichen Zug- und Druckspannungen werden dazu mit den vorhandenen UD-Festigkeitskennwerten des Handlaminats verglichen. Die Resultate der Balkenberechnungen zeigen, dass das maximale Biegemoment im Holm an Punkt C auftritt und $ M^{b}=500N*0,773m=386,5Nm $ beträgt.In den Randfasern der Gurte resultieren Spannungen, die sich nach\\
 \begin{equation}
 	\sigma_{b}=\frac{M_{b}*\tilde{h_{a}}}{\tilde{I_{x}}*2}
 \end{equation} 
 zu $ \sigma_{b}=224,96MPa $ berechnen. Da $ \sigma_{b}< R^{(+)}_{||}=597,9 MPa < R^{(-)}_{||}=650,0 MPa $, ist der Festigkeitsnachweis erbracht. Es kann davon ausgegangen werden, dass die Gurte bei einer Prüfkraft von $ F_{pruef}=500N $ nicht versagen. \\
 
 \subsection{Bestimmung der Lagenanzahl des Steges}
-Die Auslegung des Steges erfolgt auch anhand der VDI 2013. Dabei muss beachtet werden, dass der Steg sowohl durch Schubkräfte als auch durch Normalkräfte senkrecht und parallel zu den Gurten Belastungen erfährt. Die Dehnungen der Innenseiten der Gurte werden dem Steg aufgeprägt, da beide Bauteile stoffschlüssig miteinander verbunden sind. Anders als in der VDI 2013 wird jedoch nicht die Bruchdehnung der Gurte betrachtet, sondern die Dehnungen der Innenseiten der Gurte bei einer Prüfkraft von 500N. So soll die Dimensionierung des Steges auf die Anforderungen an die Festigkeit angepasst werden, um Leichtbaupotentiale bestmöglich auszuschöpfen.
- 
+Die Auslegung des Steges erfolgt auch anhand der VDI 2013. Dabei muss beachtet werden, dass der Steg sowohl durch Schubkräfte als auch durch Normalkräfte senkrecht und parallel zu den Gurten Belastungen erfährt. Die Dehnungen der Innenseiten der Gurte werden dem Steg aufgeprägt, da beide Bauteile stoffschlüssig miteinander verbunden sind. Anders als in der VDI 2013 wird jedoch nicht die Bruchdehnung der Gurte betrachtet, sondern die Dehnungen der Innenseiten bei einer Prüfkraft von 500N. So soll die Dimensionierung des Steges auf die Anforderungen an die Festigkeit angepasst werden, um Leichtbaupotentiale bestmöglich auszuschöpfen.\\
 
-  
+\noindent Die größte Längsdehnung der Gurte tritt an der Stelle C auf, da dort das größte Biegemoment wirkt. Sie lässt sich für die Innenseite der Gurte durch
+\begin{equation}
+	\epsilon_{Gurt}=\frac{\sigma_{innen}}{E_{11}}=\frac{\frac{F_{pruef}*l_{3}*h_{i}}{\tilde{I}_{x}*2}}{E_{11}}
+\end{equation}  
+ zu $ \epsilon_{Gurt}=6,351*10^{-3} $ berechnen. Auf der Zugseite ist die Dehnung positiv, auf der Druckseite negativ. Die dem Steg aufgeprägte Dehnung führt in Längsrichtung des Steges zu einem Normalkraftfluss, der sich nach VDI 2013 mit
+ \begin{equation}
+ 	p_{\epsilon}=n*\bar{q}*K_{Ex}*\epsilon_{Gurt}
+ \end{equation} 
+ermitteln lässt. $ K_{Ex} $ ist dabei ein verallgemeinerter Dimensionierungskennwert, der Tafel 3 der VDI 2013 entnommen wird. Die Dimensionierungskennwerte der VDI sind nur für bestimmte Verbunde als exakt anzusehen, dennoch liefern sie für die Vorauslegung hinreichend genaue Werte, die in einem späteren Schritt mithilfe eines Laminatrechners überprüft werden können.\\
+
+\noindent Es ist zu beachten, dass in der VDI mit veralteten Einheiten, wie dem Kilopond, gerechnet wird. Flächengewichte $ \bar{q} $ sind durch Multiplikation der auf die Fläche bezogene Masse $ \frac{m_{f}}{L*b} $ mit der Erdbeschleunigung $ \vec{g} $ zu ermitteln. $ n $ kennzeichnet erneut die Lagenanzahl.\\
+
+\noindent Zur kraftflussgerechten Gestaltung des Steges werden die Gewebelagen unter einem Winkel von $ 45^{\circ} $ zu den Holmgurten angeordnet. Deshalb muss die Belastung parallel zu den Fadenrichtungen mithilfe einer Transformationsformel nach VDI 2013 berechnet werden.
+\begin{equation}
+	p_{\epsilon||}=p_{\epsilon}*cos^{2}\left(45^{\circ} \right)=p_{\epsilon}*0,5 
+\end{equation}
+
+Die Normalkräfte an den Gurten bilden im Allgemeinen einen Winkel $ \neq180^{\circ} $ zueinander, da der Holm eine Absenkung erfährt. Daraus resultiert eine Normalkraft auf den Steg, die senkrecht zu den Gurten steht. Diese Abtriebskraft berechnet sich nach VDI 2013 zu:
+\begin{equation}
+	p_{A}=\frac{2*F_{pruef}*l_{3}*\epsilon_{Gurt}}{h_{m}^{2}}
+\end{equation}
+ Mit der oben genannten Transformationsformel ergibt sich die Belastung in Faserrichtung.
+ \begin{equation}
+ 	p_{A||}=p_{A}*cos^{2}\left(45^{\circ} \right)
+ \end{equation} 
+
+Darüber hinaus erfährt der Steg einen Schubkraftfluss durch den Querkraftschub. Wegen der vernachlässigbaren Längskraftaufnahme des Steges im Vergleich zu den Gurten, kann der Querkraftschub über die Höhe des Steges als konstant angenommen werden. Es muss berücksichtigt werden, dass die Modellierung des Holmes als Balken, der an zwei Punkten gelagert ist und durch die Querkraftbolzen eine weitere Kraft erfährt, zu einem anderen Querkraftverlauf führt als dem konstanten, der in VDI 2013 für den Kragbalken angenommen wurde. Den Berechnungen des Querkraftverlaufs kann eine maximale Querkraft von
