@@ -122,21 +122,21 @@ Zusätzlich wird angenommen, dass $q_{I}(y)=q_{II}(y)=q_{III}(y)=0$ gilt, da kei
 \noindent Als Lösung dieser Differentialgleichungen lässt sich die Querkraft $Q(y)$, das Moment $M(y)$ und die Biegelinie $w(y)$ ermitteln:\\
 
 \begin{equation}
-	Q(y)=\left\{\begin{array}{ll}
+	Q(y,F,F_{Q},EI)=\left\{\begin{array}{ll}
 		F\cdot \frac{l_{2}+l_{3}}{l_{1}}-F_{Q}\cdot \frac{l_{2}}{l_{1}}&,y\epsilon (0,l_{1})\\
 		F+F_{Q}&,y\epsilon (l_{1}+l{2})\\
 		F&,y\epsilon (l_{1}+l{2}+l{3})
 	\end{array}\right.
 \end{equation}\\
 \begin{equation}
-	M(y)=\left\{\begin{array}{ll}
+	M(y,F,F_{Q},EI)=\left\{\begin{array}{ll}
 		(-F\cdot \frac{l_{2}+l_{3}}{l_{1}}-F_{Q}\cdot \frac{l_{2}}{l_{1}})\cdot y&,y\epsilon (0,l_{1})\\
 		(F+F_{Q})\cdot y - F\cdot (l_{1}+l_{2}+l_{3})-F_{Q}\cdot (l_{1}+L_{2})&,y\epsilon (l_{1}+l{2})\\
 		F\cdot y - F\cdot (l_{1}+l_{2}+l_{3})&,y\epsilon (l_{1}+l{2}+l{3})
 	\end{array}\right.
 \end{equation}\\
 \begin{equation}
-	w(y)=\left\{\begin{array}{ll}
+	w(y,F,F_{Q},EI)=\left\{\begin{array}{ll}
 		\frac{1}{EI}\cdot\frac{1}{6}\cdot\biggl(F\cdot \frac{l_{2}+l_{3}}{l_{1}}-F_{Q}\cdot \frac{l_{2}}{l_{1}})\cdot y^{3}-\Bigl((l_{2}+l_{3})\cdot l_{1}\cdot F-l_{1}\cdot l_{2}\cdot F_{Q}\Bigl)\cdot y \biggr)&\\,y\epsilon (0,l_{1})\\
 		\frac{1}{EI}\cdot\biggl(\frac{(-F-F_{Q})}{6}\cdot y^{3} + \frac{F\cdot (l_{1}+l_{2}+l_{3})+F_{Q}\cdot (l_{1}+L_{2})}{2}\cdot y^{2}\\ + \Bigl(F\cdot(-\frac{1}{2}\cdot l_{1}^{2}-\frac{2}{3}\cdot l_{1}\cdot l_{2}-\frac{2}{3}\cdot l_{1}\cdot l_{3})+ F_{Q}\cdot(-\frac{1}{2}l_{1}^{2}-\frac{2}{3}\cdot l_{1}\cdot l_{2})\Bigr)\cdot y \\+ F\cdot\frac{1}{6}\cdot(l_{1}^{3}+l_{1}^{2}\cdot l_{2}+l_{1}^{2}\cdot l_{3}) + F_{Q}\cdot\frac{1}{6}\cdot(l_{1}^{3}+l_{1}^{2}\cdot l_{2})\biggr)&\\,y\epsilon (l_{1}+l{2})\\
 		\frac{1}{EI}\cdot\biggl(-\frac{F}{6}\cdot y^{3} + \frac{ F\cdot (l_{1}+l_{2}+l_{3})}{2}\cdot y^{2} + \Bigl(F\cdot(-\frac{1}{2}\cdot l_{1}^{2} -\frac{2}{3}\cdot l_{1}\cdot l_{2}-\frac{2}{3}\cdot l_{1}\cdot l_{3})\\ + F_{Q}\cdot(\frac{1}{2}\cdot l_{2}^{2}+\frac{1}{2}\cdot l_{1}\cdot l_{2})\Bigr)\cdot y +F\cdot\frac{1}{6}\cdot(l_{1}^{3}+l_{1}^{2}\cdot l_{2}+l_{1}^{2}\cdot l_{3}) + \\F_{Q}\cdot(-\frac{1}{6}\cdot l_{2}^{3}-\frac{1}{3}\cdot l_{1}^{2}\cdot l_{2}-\frac{1}{2}\cdot l_{2}^{2}\cdot l_{1})\biggr)&\\,y\epsilon (l_{1}+l{2}+l{3})
@@ -145,6 +145,15 @@ Zusätzlich wird angenommen, dass $q_{I}(y)=q_{II}(y)=q_{III}(y)=0$ gilt, da kei
 Die Herleitung der Lösung ist dem Anhang beigefügt.
 
 \subsection{Ermittlung der Biegesteifigkeit}
+Um nun für die Biegesteifigeit $EI$ ein Ergebnis zu erhalten, wird die Gleichung $w(y,F,F_{Q})$ nach $EI(y,F,F_{Q},w)$ umgestellt. Die eingesetzten Werte ergeben sich aus der Auslegung auf Steifigkeit. Über die Wurzelrippe werden Kräfte des Holms in die Querkraftbolzen abgesetzt. Aufgrund der biegeweichen Wurzelrippe darf die Absenkung des Holms dort nicht mit Null angenommen werden. Vereinfacht wird definiert, dass die eingeleitete Prüfkraft $F_{pruef}$ an den Querkraftbolzen um ihren Betrag abgesetzt wird, wie es tatsächlich an einem Flugzeugrumpf geschehen würde. 
 
+\begin{equation}
+	\begin{array}{l}
+		EI(0.961m, 100N, -100N, 0.022m)= \\
+		\frac{1}{w}\cdot\biggl(-\frac{F}{6}\cdot y^{3} + \frac{ F\cdot (l_{1}+l_{2}+l_{3})}{2}\cdot y^{2} + \Bigl(F\cdot(-\frac{1}{2}\cdot l_{1}^{2} -\frac{2}{3}\cdot l_{1}\cdot l_{2}-\frac{2}{3}\cdot l_{1}\cdot l_{3}) +		F_{Q}\cdot(\frac{1}{2}\cdot l_{2}^{2}+\frac{1}{2}\cdot l_{1}\cdot l_{2})\Bigr)\cdot y +\\
+		F\cdot\frac{1}{6}\cdot(l_{1}^{3}+l_{1}^{2}\cdot l_{2}+l_{1}^{2}\cdot l_{3}) + F_{Q}\cdot(-\frac{1}{6}\cdot l_{2}^{3}-\frac{1}{3}\cdot l_{1}^{2}\cdot l_{2}-\frac{1}{2}\cdot l_{2}^{2}\cdot l_{1})\biggr)\\
+		=3,102631\cdot10^{-8}m^{4}
+	\end{array}
+\end{equation}
 
 
