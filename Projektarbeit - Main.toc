@@ -13,7 +13,9 @@
 \contentsline {section}{\numberline {5}Beulabschätzung des Holms}{22}{}%
 \contentsline {subsection}{\numberline {5.1}Beulsicherheit der Gurte (T.B.)}{22}{}%
 \contentsline {subsection}{\numberline {5.2}Beulsicherheit des Steges (T.B.)}{23}{}%
-\contentsline {section}{\numberline {6}Auslegung der Verklebungen}{26}{}%
+\contentsline {section}{\numberline {6}Auslegung der Klebeverbindung}{26}{}%
+\contentsline {subsection}{\numberline {6.1}Klebeverbindung Steg - Gurt (T.B.)}{26}{}%
+\contentsline {subsection}{\numberline {6.2}Klebeverbindung Holm - Rippen (T.B.)}{26}{}%
 \contentsline {section}{\numberline {7}CAD-Modell}{27}{}%
 \contentsline {section}{\numberline {8}Zusammenfassung}{28}{}%
 \contentsline {section}{\numberline {9}FEM}{29}{}%

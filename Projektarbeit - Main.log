@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  8 DEC 2020 20:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  8 DEC 2020 21:28
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -579,8 +579,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--118
 
  []
 
-[24]) [25] ("Projektarbeit - Auslegung der Verklebungen.tex") [26]
-("Projektarbeit - CAD-Modell.tex"
+[24]) [25] ("Projektarbeit - Auslegung der Verklebungen.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+
+ []
+
+) [26] ("Projektarbeit - CAD-Modell.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -588,7 +592,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 ) [27] ("Projektarbeit - Zusammenfassung.tex") [28] ("Projektarbeit - FEM.tex"
 Overfull \hbox (76.52371pt too wide) in paragraph at lines 5--6
 \T1/cmr/m/n/10.95 Für die Be-rech-nung der Elas-to-sta-tik sind die Gleich-ge-w
-ichts-be-din-gung (83[]), Verzerrungs-Verschiebungsbedingung
+ichts-be-din-gung (90[]), Verzerrungs-Verschiebungsbedingung
  []
 
 [29]) [30] ("Projektarbeit - Quellenverzeichnis.tex") [31]
@@ -622,9 +626,9 @@ rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/PC/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/PC/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/PC/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (33 pages, 1196654 bytes).
+Output written on "Projektarbeit - Main.pdf" (33 pages, 1202332 bytes).
 PDF statistics:
- 499 PDF objects out of 1000 (max. 8388607)
+ 507 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
