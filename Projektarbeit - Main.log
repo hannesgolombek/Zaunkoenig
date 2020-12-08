@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  8 DEC 2020 21:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  9 DEC 2020 00:50
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -343,11 +343,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 4.
-)
+ [6])
 \tf@toc=\write3
 \openout3 = `"Projektarbeit - Main.toc"'.
 
- [6]
+ [7]
 ("Projektarbeit - Bezeichnungen.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
@@ -363,8 +363,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--28
 
  []
 
-) [7] ("Projektarbeit - Grundlagen.tex" ("Projektarbeit - Glasfaser.tex"))
-[8] ("Projektarbeit - Modellierung des Holms.tex"
+) [8] ("Projektarbeit - Grundlagen.tex" ("Projektarbeit - Glasfaser.tex"))
+[9] ("Projektarbeit - Modellierung des Holms.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -379,7 +379,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-<Bilder/Balkenmodell.jpg, id=95, 963.6pt x 542.025pt>
+<Bilder/Balkenmodell.jpg, id=98, 963.6pt x 542.025pt>
 File: Bilder/Balkenmodell.jpg Graphic file (type jpg)
 <use Bilder/Balkenmodell.jpg>
 Package pdftex.def Info: Bilder/Balkenmodell.jpg  used on input line 28.
@@ -389,7 +389,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-[9]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
@@ -399,7 +399,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
-[10 <./Bilder/Balkenmodell.jpg>]
+[11 <./Bilder/Balkenmodell.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
@@ -429,7 +429,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
-[11]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
@@ -452,26 +452,26 @@ Overfull \hbox (23.99394pt too wide) detected at line 156
 
 Underfull \vbox (badness 5460) has occurred while \output is active []
 
- [12]
+ [13]
 Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
-<Bilder/Grafiken Steifigkeit.png, id=114, 492.03825pt x 424.58624pt>
+<Bilder/Grafiken Steifigkeit.png, id=118, 492.03825pt x 424.58624pt>
 File: Bilder/Grafiken Steifigkeit.png Graphic file (type png)
 <use Bilder/Grafiken Steifigkeit.png>
 Package pdftex.def Info: Bilder/Grafiken Steifigkeit.png  used on input line 16
 2.
 (pdftex.def)             Requested size: 455.24411pt x 392.83978pt.
-<Bilder/Grafiken Festigkeit.png, id=116, 483.60675pt x 422.7795pt>
+<Bilder/Grafiken Festigkeit.png, id=120, 483.60675pt x 422.7795pt>
 File: Bilder/Grafiken Festigkeit.png Graphic file (type png)
 <use Bilder/Grafiken Festigkeit.png>
 Package pdftex.def Info: Bilder/Grafiken Festigkeit.png  used on input line 169
 .
 (pdftex.def)             Requested size: 455.24411pt x 397.99338pt.
-) [13] [14 <./Bilder/Grafiken Steifigkeit.png>] [15 <./Bilder/Grafiken Festigke
+) [14] [15 <./Bilder/Grafiken Steifigkeit.png>] [16 <./Bilder/Grafiken Festigke
 it.png>] ("Projektarbeit - VDI2013.tex"
-<Bilder/RechteckHolm.jpg, id=129, 963.6pt x 542.025pt>
+<Bilder/RechteckHolm.jpg, id=132, 963.6pt x 542.025pt>
 File: Bilder/RechteckHolm.jpg Graphic file (type jpg)
 <use Bilder/RechteckHolm.jpg>
 Package pdftex.def Info: Bilder/RechteckHolm.jpg  used on input line 7.
@@ -486,7 +486,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
  []
 
-[16 <./Bilder/RechteckHolm.jpg>]
+[17 <./Bilder/RechteckHolm.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 20--22
 
  []
@@ -501,7 +501,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
-[17]
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 51--53
 
  []
@@ -512,9 +512,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--60
  []
 
 
-LaTeX Warning: Reference `KrummerGurt' on page 18 undefined on input line 64.
+LaTeX Warning: Reference `KrummerGurt' on page 19 undefined on input line 64.
 
-<Bilder/KrummerGurt.jpg, id=136, 1160.83687pt x 342.27875pt>
+<Bilder/KrummerGurt.jpg, id=139, 1160.83687pt x 342.27875pt>
 File: Bilder/KrummerGurt.jpg Graphic file (type jpg)
 <use Bilder/KrummerGurt.jpg>
 Package pdftex.def Info: Bilder/KrummerGurt.jpg  used on input line 66.
@@ -524,7 +524,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-[18 <./Bilder/KrummerGurt.jpg>]
+[19 <./Bilder/KrummerGurt.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
@@ -544,7 +544,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--95
 
  []
 
-[19]
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
@@ -554,12 +554,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--121
 
  []
 
-[20]
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 123--125
 
  []
 
-) [21] ("Projektarbeit - BeulabschÃ¤tzung des Holms.tex"
+) [22] ("Auslegung nach Puck.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--35
+
+ []
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 36.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 36.
+
+Missing character: There is no ° in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+) [23] ("Projektarbeit - BeulabschÃ¤tzung des Holms.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -569,7 +601,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
-[22] [23]
+[24] [25]
 Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
  []
@@ -579,35 +611,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--118
 
  []
 
-[24]) [25] ("Projektarbeit - Auslegung der Verklebungen.tex"
+[26]) [27] ("Projektarbeit - Auslegung der Verklebungen.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
  []
 
-) [26] ("Projektarbeit - CAD-Modell.tex"
+) [28] ("Projektarbeit - CAD-Modell.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-) [27] ("Projektarbeit - Zusammenfassung.tex") [28] ("Projektarbeit - FEM.tex"
+) [29] ("Projektarbeit - Zusammenfassung.tex") [30] ("Projektarbeit - FEM.tex"
 Overfull \hbox (76.52371pt too wide) in paragraph at lines 5--6
 \T1/cmr/m/n/10.95 Für die Be-rech-nung der Elas-to-sta-tik sind die Gleich-ge-w
 ichts-be-din-gung (90[]), Verzerrungs-Verschiebungsbedingung
  []
 
-[29]) [30] ("Projektarbeit - Quellenverzeichnis.tex") [31]
-("Projektarbeit - Abbildungsverzeichnis.tex") [32] ("Projektarbeit - Anhang.tex
-") [33] ("Projektarbeit - Main.aux")
+[31]) [32] ("Projektarbeit - Quellenverzeichnis.tex") [33]
+("Projektarbeit - Abbildungsverzeichnis.tex") [34] ("Projektarbeit - Anhang.tex
+") [35] ("Projektarbeit - Main.aux")
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4168 strings out of 479799
- 63988 string characters out of 2871148
+ 4176 strings out of 479799
+ 64205 string characters out of 2871148
  375416 words of memory out of 3000000
- 21058 multiletter control sequences out of 15000+200000
- 543151 words of font info for 45 fonts, out of 3000000 for 9000
+ 21062 multiletter control sequences out of 15000+200000
+ 543492 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,17n,80p,1108b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti109
@@ -626,9 +658,9 @@ rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/PC/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/PC/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/PC/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (33 pages, 1202332 bytes).
+Output written on "Projektarbeit - Main.pdf" (35 pages, 1209638 bytes).
 PDF statistics:
- 507 PDF objects out of 1000 (max. 8388607)
+ 522 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
