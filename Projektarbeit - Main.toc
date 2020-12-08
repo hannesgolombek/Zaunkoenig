@@ -1,4 +1,5 @@
 \babel@toc {ngerman}{}
+<<<<<<< HEAD
 \contentsline {section}{\numberline {1}Bezeichnungen}{8}{}%
 \contentsline {section}{\numberline {2}Grundlagen}{9}{}%
 \contentsline {subsection}{\numberline {2.1}Glasfaser}{9}{}%
@@ -34,3 +35,31 @@
 \contentsline {section}{\numberline {11}Quellenverzeichnis}{33}{}%
 \contentsline {section}{\numberline {12}Abbildungsverzeichnis}{34}{}%
 \contentsline {section}{\numberline {13}Anhang}{35}{}%
+=======
+\contentsline {section}{\numberline {1}Bezeichnungen}{6}{}%
+\contentsline {section}{\numberline {2}Hauptteil}{7}{}%
+\contentsline {section}{\numberline {3}Grundlagen}{7}{}%
+\contentsline {subsection}{\numberline {3.1}Glasfaser}{7}{}%
+\contentsline {section}{\numberline {4}Modellierung des Holms}{7}{}%
+\contentsline {subsection}{\numberline {4.1}Annahmen zur Modellierung (T.B.)}{7}{}%
+\contentsline {subsection}{\numberline {4.2}Analytische Lösung der Modellierung (T.B.)}{8}{}%
+\contentsline {subsection}{\numberline {4.3}Analyse der Modellierung (T.B.)}{11}{}%
+\contentsline {section}{\numberline {5}Auslegung des Holms nach VDI 2013}{13}{}%
+\contentsline {subsection}{\numberline {5.1}Dimensionierung der Gurte}{13}{}%
+\contentsline {subsection}{\numberline {5.2}Nachrechnung der angepassten Gurte}{16}{}%
+\contentsline {subsection}{\numberline {5.3}Bestimmung der Lagenanzahl des Steges}{17}{}%
+\contentsline {section}{\numberline {6}Beulabschätzung des Holms}{19}{}%
+\contentsline {subsection}{\numberline {6.1}Beulsicherheit der Gurte (T.B.)}{19}{}%
+\contentsline {subsection}{\numberline {6.2}Beulsicherheit des Steges (T.B.)}{20}{}%
+\contentsline {section}{\numberline {7}Auslegung der Verklebungen}{22}{}%
+\contentsline {section}{\numberline {8}CAD-Modell}{22}{}%
+\contentsline {section}{\numberline {9}Zusammenfassung}{23}{}%
+\contentsline {section}{\numberline {10}FEM}{24}{}%
+\contentsline {subsection}{\numberline {10.1}Warum FEM?}{24}{}%
+\contentsline {subsection}{\numberline {10.2}Wie funktioniert FEM?}{25}{}%
+\contentsline {subsubsection}{\numberline {10.2.1}Schwache Lösung der Elastostatik}{25}{}%
+\contentsline {subsubsection}{\numberline {10.2.2}Diskretisierung}{25}{}%
+\contentsline {section}{\numberline {11}Quellenverzeichnis}{26}{}%
+\contentsline {section}{\numberline {12}Abbildungsverzeichnis}{26}{}%
+\contentsline {section}{\numberline {13}Anhang}{26}{}%
+>>>>>>> main

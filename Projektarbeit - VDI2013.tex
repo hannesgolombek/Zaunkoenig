@@ -18,7 +18,7 @@ Zur Bestimmung des Flächenträgheitsmomentes $ I_{x} $ wird der E-Modul in Län
 \begin{equation}
  E_{11}=  \phi*E_{f,11}+\left( 1-\phi \right) * E_{M}
 \end{equation}
-Mit den gegebenen Materialkennwerten bestimmt sich $ E_{11} = 31580 MPa $. Damit ergibt sich ein benötigtes Flächenträgheitsmoment von $ I_{x} = 3,04722 * 10^{-8} m^{4} $.\\
+Mit den gegebenen Materialkennwerten bestimmt sich $ E_{11} = 31580 MPa $. Damit ergibt sich ein benötigtes Flächenträgheitsmoment von $ I_{x,min} = 3,04722 * 10^{-8} m^{4} $.\\
 
 \noindent Das Flächenträgheitsmoment der Gurte bestimmt sich aus den Flächenträg-heitsmomenten der beiden Rechteckquerschnitte und ihren zugehörigen Steiner-Anteilen.
 \begin{equation}
@@ -68,7 +68,12 @@ Mit den gegebenen Materialkennwerten bestimmt sich $ E_{11} = 31580 MPa $. Damit
  	\label{fig: KrummerGurt}
  \end{figure}
 
-\noindent Die angepasste Krümmung der Gurte führt zu einem veränderten Flächenträg-heitsmoment $ \tilde{I_{x}} $ des Balkens, dass mithilfe des CAD-Programms exakt zu $ \tilde{I_{x}}=3,075406*10^{-8}m^{4} $ bestimmt werden kann. Da $ 3,075406*10^{-8}m^{4} > 3,01631*10^{-8}m^{4} $ ist, genügen auch die veränderten Gurte der Steifigkeitsanforderung.\\
+\noindent Die angepasste Krümmung der Gurte führt zu einem veränderten Flächenträg-heitsmoment $ \tilde{I_{x}} $ des Balkens, dass mithilfe des CAD-Programms exakt zu $ \tilde{I_{x}}=3,075406*10^{-8}m^{4} $ bestimmt werden kann. Da 
+\begin{equation}
+	\label{IVergleich}
+	\tilde{I_{x}}=3,075406*10^{-8}m^{4} > I_{x,min}=3,04722*10^{-8}m^{4}
+\end{equation}
+gilt, genügen auch die veränderten Gurte der Steifigkeitsanforderung.\\
  
 \noindent Abschließend wird gezeigt, dass die Festigkeit der Gurte einer Belastung der Flügelspitze durch $ F_{pruef}=500N $ standhält. Die aus der Biegung resultierenden und betragsmäßig gleichen Zug- und Druckspannungen werden dazu mit den vorhandenen UD-Festigkeitskennwerten des Handlaminats verglichen. Die Resultate der Balkenberechnungen zeigen, dass das maximale Biegemoment im Holm an Punkt C auftritt und $ M^{b}=500N*0,773m=386,5Nm $ beträgt.In den Randfasern der Gurte resultieren Spannungen, die sich nach\\
 \begin{equation}
