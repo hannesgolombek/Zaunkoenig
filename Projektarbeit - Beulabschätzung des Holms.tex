@@ -35,7 +35,7 @@ Im Vergleich mit der tatsächlich maximal auftretenden Randfaserspannung der Gur
 \subsection{Beulsicherheit des Steges (T.B.)}
 Ebenfalls muss der Holmsteg nach der Auslegung hinsichtlich der Sicherheit gegen Beulen geprüft werden. Folgende Annahmen werden dafür getroffen:\\
 \begin{enumerate}
-	\item Die BErechnung erfolgt, wie bei der Berechnung der Holmgurte, nach Hertel.
+	\item Die Berechnung erfolgt, wie bei der Berechnung der Holmgurte, nach Hertel.
 	\item Es wird angenommen, dass die orthotropen Gewebe hinreichend mit den Gleichnugen für isotropes Material gerechnet werden kann, Diese Entscheidung wir debenfalls mit erfolgten Zulassungen für Segelflugzeuge begründet.
 	\item Der Steg wird als ebener, unendlich langer Streifen betrachtet.
 	\item Die Verklebung des Steges wird als gestützte, gelenkige Lagerung an allen vier Kanten angenommen.
@@ -66,13 +66,13 @@ definiert. Dadurch ergibt sich die kritische Biegespannung zu
 Das Verhältnis der Biegespannung zur kritischen Biegespannung ist
 \begin{equation}
 	j_{1}=\frac{200,56 Mpa}{Ergebnis}
-\end{equation}. Für den Schub wird nach [Hertel, Abbildung NR.?]
+\end{equation}. Für den Schub wird nach [Hertel, Abbildung NR.?] der Beulfaktor zu
 \begin{equation}
 	k_{s}=5,5
 \end{equation}
-Damit wir die kritische Schubspannung zu 
+. Damit wir die kritische Schubspannung zu 
 \begin{equation}
-	\tau_{krit}=\kappa\cdot k\cdot E_{\#}\cdot\Bigl(\frac{1,88 2mm}{58,88 mm - 2\cdot 1,941  mm}\Bigr)^{2}=164,02 MPa
+	\tau_{krit}=\kappa\cdot k\cdot E_{\#}\cdot\Bigl(\frac{1,88 2mm}{35,8 mm - 2\cdot 1,941  mm}\Bigr)^{2}=164,02 MPa
 \end{equation}
 . Die tatsächlich auftretende Schubspannung beträgt 
 \begin{equation}
@@ -86,10 +86,79 @@ ergibt. Die Gesamtsicherheit beträgt nach [Quelle?]
 \begin{equation}
 	j=\sqrt{\frac{1}{j_{1}^{2}+j_{2}^{2}}}=1,148
 \end{equation}
-. Somit kann rückgeschlossen werden, dass dieser Bereich des Holsteges ohne Schaumkern schon sicher gegen Beulen ist.\\
+. Somit kann rückgeschlossen werden, dass dieser Bereich des Holsteges schon ohne Schaumkern sicher gegen Beulen ist.\\
+
 \noindent Nun wird der Bereich $II$ betrachtet:
-Da keine innere Querkraft herrscht, kann die Sicherheit durch Biegung außer Acht gelassen werden. Die Sicherheit gegen Beulen entspricht demnach der Sicherheit gegen Beulen, alleinig beeinflusst durch Schubspannungen:
+Da keine innere Querkraft herrscht, kann die Sicherheit durch Biegung außer Acht gelassen werden. Die Sicherheit gegen Beulen ist demnach nur von dem Schub abhängig.
+Das Seitenverhältnis beträgt 
+\begin{equation}
+	\frac{a}{b}=\frac{35,8mm - 2\cdot 1,941mm}{37mm}=0,863
+\end{equation}
+Damit ergibt sich der Beulfaktor zu 
+\begin{equation}
+	k_{s}=6,8
+\end{equation}
+und weiterhin wird mit 
+\begin{equation}
+	\kappa = 1 
+\end{equation}
+gerechnet. Damit lässt sich 
+\begin{equation}
+	 \tau_{krit} = k_{s}\cdot \kappa\cdot G_{\#}\cdot \Bigl(\frac{1,882mm}{35,8mm-2\cdot 1,941mm}\Bigr)^{2}= 202,79 MPa
+\end{equation}
+berechne. Mit dem gleichen maximalen Schub
+\begin{equation}
+	\tau=126,99 MPa
+\end{equation}
+ wie in Bereich kann somit die Sicherheit zu 
+ \begin{equation}
+ 	j=\frac{202,79M MPa}{126,99 MPa}=1,59
+ \end{equation}
+bestimmt werden. Auch dieser Stegbereich $II$ ist gegen Beulen sicher.\\
 
-
-
-
+\noindent Abschließend wird der verbliebene Bereich $III$ überprüft.\\
+\noindent Erneut wird das Seitenverhältnis ermittelt zu 
+\begin{equation}
+	\frac{b}{a}=\frac{35,88mm - 2\cdot 1,941mm}{773mm}=0,041\approx 0
+\end{equation}
+Dadurch ist
+\begin{equation}
+	k_{d}=21,8
+\end{equation}
+nach [Hertel, Abb. ?] für 
+\begin{equation}
+	\frac{\sigma_{max}}{\sigma_{min}}=-1
+\end{equation} 
+und nach [Hertel, Abb. ?]
+\begin{equation}
+	k_{s} = 4,8
+\end{equation}
+Für die Belastung auf Druck durch Biegung wirkt maximal die Schubspannung
+\begin{equation}
+	\sigma_{b} = \frac{500N\cdot 0,773m}{3,075406\cdot 10^{-8}m^{4}}\cdot\frac{0,0358m - 2\cdot 1,941\cdot 10^{-3}m}{2}=200,56 MPa
+\end{equation}
+, für den Schub wirkt die maximale Schubspannung von
+\begin{equation}
+	\tau_{max}=\frac{3}{2}\frac{500N}{0,313mm\cdot(35,8mm-2\cdot 1,941mm)}=75,07mm
+\end{equation}
+. Die Sicherheit gegen Beulen berechnet sich nun zu 
+\begin{equation}
+	j=\sqrt{\frac{1}{(\frac{\sigma_{v}}{\sigma_{krit}})^{2}+(\frac{\tau}{\tau_{krit}})^{2}}}
+\end{equation}
+mit 
+\begin{equation}
+	\sigma_{krit}=k\cdot k\cdot E_{\parallel}\cdot \Bigl(\frac{0,313mm+x}{35,8mm -2\cdot 1,941mm}\Bigr)^{2}
+\end{equation}
+und
+\begin{equation}
+	\tau_{krit} = \kappa\cdot k_{s}\cdot G_{\#}\cdot\Bigl(\frac{0,313mm + x}{35,8mm -2\cdot 1,941mm}\Bigr)^{2}
+\end{equation}
+. Dieses mal kann $\kappa=3$ genutzt werden, sofern eien ausreichende Dicke $x$ auftritt, dessen Lösung analytisch ermittelt wird. Dabei wird eine Mindestdicke von 
+\begin{equation}
+	x=0,569mm
+\end{equation}
+ermittelt, allerdings soll ein Schaum der Dicke $x=2mm$ verbaut werden, um das exakte Anpassen der Bauteilmaße zu vereinfachen. Damit ergibt sich eine Beulsicherheit im Bereich $III$ von
+\begin{equation}
+	j=6,88
+\end{equation}
+. Damit die äußeren Steglagen eine konstante Stegdicke bilden, soll in den Bereichen $I$ und $II$ eine Schaumdicke von $x=0,431mm$ verbaut werden. Der geschliffene Schaum erhöht zudem in diesen Bereichen die Beulsicherheit, obwohl kein zusätzlicher Schaum benötigt wäre. Der Übergang der beiden Schaumdicken soll zudem nicht direkt an der WUrzelrippe beginnen, sondern erst $23mm$ zur Flügelspitze versetzt erfolgen, um direkt an dem Kraftangriffspunk $C$ die Sicherheit ebenfalls zu erhöhen.
