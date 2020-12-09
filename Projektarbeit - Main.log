@@ -1,16 +1,12 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  9 DEC 2020 00:50
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  8 DEC 2020 22:41
->>>>>>> main
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.9)  9 DEC 2020 14:26
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
 LaTeX2e <2020-10-01> patch level 2
 L3 programming layer <2020-10-27> xparse <2020-03-03>
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+("C:\Program Files\MiKTeX\tex/latex/base\article.cls"
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+("C:\Program Files\MiKTeX\tex/latex/base\size11.clo"
 File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count175
@@ -25,16 +21,16 @@ File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+("C:\Program Files\MiKTeX\tex/generic/babel\babel.sty"
 Package: babel 2020/10/27 3.51 The Babel package
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+("C:\Program Files\MiKTeX\tex/generic/babel\babel.def"
 File: babel.def 2020/10/27 3.51 Babel common definitions
 \babel@savecnt=\count183
 \U@D=\dimen139
 \l@babelnohyphens=\language79
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+("C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def")
 \bbl@readstream=\read2
 )
 \bbl@dirlevel=\count184
@@ -42,33 +38,33 @@ File: babel.def 2020/10/27 3.51 Babel common definitions
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+("C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ld
-f
+("C:\Program Files\MiKTeX\tex/latex/babel-german\ngerman.ldf"
 Language: ngerman 2020/07/21 v2.12 German support for babel (post-1996 orthogra
 phy)
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.l
-df
+("C:\Program Files\MiKTeX\tex/latex/babel-german\ngermanb.ldf"
 Language: ngermanb 2020/07/21 v2.12 German support for babel (post-1996 orthogr
 aphy)
 Package babel Info: Making " an active character on input line 121.
-))) (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+)))
+("C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty"
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-) (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+)
+("C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty"
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+("C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+("C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty"
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+("C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty"
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 \Gm@cnth=\count185
@@ -84,35 +80,34 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutvoffset=\dimen147
 \Gm@dimlist=\toks16
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+("C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty"
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+("C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty"
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+("C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+("C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def"
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
 )
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+("C:\Program Files\MiKTeX\tex/latex/pdfpages\pdfpages.sty"
 Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+("C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+("C:\Program Files\MiKTeX\tex/latex/tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count188
 \calc@Bcount=\count189
@@ -125,21 +120,15 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count190
 \calc@Cskip=\skip51
 )
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
-Package: eso-pic 2020/09/27 v2.0i eso-pic (RN)
-
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
-Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
-ge
-with kernel methods
-)
+("C:\Program Files\MiKTeX\tex/latex/eso-pic\eso-pic.sty"
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 \ESO@tempdima=\dimen152
 \ESO@tempdimb=\dimen153
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+("C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -156,7 +145,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 \AM@pagewidth=\dimen154
 \AM@pageheight=\dimen155
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+("C:\Program Files\MiKTeX\tex/latex/pdfpages\pppdftex.def"
 File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box47
@@ -166,12 +155,12 @@ File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count192
 \AM@templatesizebox=\box48
 )
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
+("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def"
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count193
 \l__pdf_internal_box=\box49
-) ("Projektarbeit - Main.aux")
+)
+("Projektarbeit - Main.aux")
 \openout1 = `"Projektarbeit - Main.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -223,9 +212,7 @@ LaTeX Font Info:    ... okay on input line 7.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count194
 \scratchdimen=\dimen156
@@ -238,22 +225,24 @@ ii
 \MPnumerator=\count198
 \makeMPintoPDFobject=\count199
 \everyMPtoPDFconversion=\toks20
-)
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+("C:\Program Files\MiKTeX\tex/latex/pdflscape\pdflscape.sty"
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty"
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-("Projektarbeit - Deckblatt.tex") ("Projektarbeit - Aufgabenstellung.tex"
-<PDFs/Aufgabenstellung Gruppe 2.pdf, id=1, 597.55246pt x 845.07718pt>
+("Projektarbeit - Deckblatt.tex") [1
+
+{C:/Users/hgolo/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] ("Projektarbeit
+ - Aufgabenstellung.tex"
+<PDFs/Aufgabenstellung Gruppe 2.pdf, id=6, 597.55246pt x 845.07718pt>
 File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 <use PDFs/Aufgabenstellung Gruppe 2.pdf>
 Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf  used on input line
@@ -264,7 +253,7 @@ File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf  used on input line
  2.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-<PDFs/Aufgabenstellung Gruppe 2.pdf, id=4, page=1, 597.55246pt x 845.07718pt>
+<PDFs/Aufgabenstellung Gruppe 2.pdf, id=9, page=1, 597.55246pt x 845.07718pt>
 File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 <use PDFs/Aufgabenstellung Gruppe 2.pdf, page 1>
 Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page1 used on inp
@@ -275,10 +264,6 @@ File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page1 used on inp
 ut line 2.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-
-[1
-
-{C:/Users/Henri/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 <use PDFs/Aufgabenstellung Gruppe 2.pdf, page 1>
 Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page1 used on inp
@@ -328,8 +313,7 @@ File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page3 used on inp
 ut line 2.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-
-[4 <./PDFs/Aufgabenstellung Gruppe 2.pdf>]
+ [4 <./PDFs/Aufgabenstellung Gruppe 2.pdf>]
 <PDFs/Aufgabenstellung Gruppe 2.pdf, id=73, page=4, 597.55246pt x 845.07718pt>
 File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 <use PDFs/Aufgabenstellung Gruppe 2.pdf, page 4>
@@ -346,34 +330,25 @@ File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page4 used on inp
 ut line 2.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
- [5 <./PDFs/Aufgabenstellung Gruppe 2.pdf>]) ("Projektarbeit - Übersicht.tex")
- ("Projektarbeit - Main.toc"
+ [5 <./PDFs/Aufgabenstellung Gruppe 2.pdf>])
+("Projektarbeit - Übersicht.tex") ("Projektarbeit - Main.toc"
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 5.
+(Font)              <10.95> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 5.
+(Font)              <8> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-<<<<<<< HEAD
 (Font)              <6> on input line 4.
- [6])
-\tf@toc=\write3
-\openout3 = `"Projektarbeit - Main.toc"'.
-
- [7]
-=======
-(Font)              <6> on input line 5.
 )
 \tf@toc=\write3
 \openout3 = `"Projektarbeit - Main.toc"'.
 
-
->>>>>>> main
+ [6]
 ("Projektarbeit - Bezeichnungen.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
  []
 
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
@@ -383,14 +358,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--28
 
  []
 
-<<<<<<< HEAD
-) [8] ("Projektarbeit - Grundlagen.tex" ("Projektarbeit - Glasfaser.tex"))
-[9] ("Projektarbeit - Modellierung des Holms.tex"
-=======
-) ("Projektarbeit - Hauptteil.tex") ("Projektarbeit - Grundlagen.tex"
-("Projektarbeit - Glasfaser.tex")) ("Projektarbeit - Modellierung des Holms.tex
-"
->>>>>>> main
+) [7] ("Projektarbeit - Grundlagen.tex" ("Projektarbeit - Glasfaser.tex"))
+[8] ("Projektarbeit - Modellierung des Holms.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -400,16 +369,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-[7]
+
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-<<<<<<< HEAD
-<Bilder/Balkenmodell.jpg, id=98, 963.6pt x 542.025pt>
-=======
-<Bilder/Balkenmodell.jpg, id=92, 963.6pt x 542.025pt>
->>>>>>> main
+<Bilder/Balkenmodell.jpg, id=95, 963.6pt x 542.025pt>
 File: Bilder/Balkenmodell.jpg Graphic file (type jpg)
 <use Bilder/Balkenmodell.jpg>
 Package pdftex.def Info: Bilder/Balkenmodell.jpg  used on input line 28.
@@ -419,25 +384,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-<<<<<<< HEAD
-[10]
-=======
-
->>>>>>> main
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-[8]
+
 Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
-<<<<<<< HEAD
-[11 <./Bilder/Balkenmodell.jpg>]
-=======
-[9 <./Bilder/Balkenmodell.jpg>]
->>>>>>> main
+[10 <./Bilder/Balkenmodell.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
@@ -467,11 +424,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
-<<<<<<< HEAD
-[12]
-=======
-
->>>>>>> main
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
@@ -481,7 +434,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
-[10]
+
 Underfull \hbox (badness 10000) in paragraph at lines 144--146
 
  []
@@ -492,44 +445,28 @@ Overfull \hbox (23.99394pt too wide) detected at line 156
  []
 
 
-<<<<<<< HEAD
 Underfull \vbox (badness 5460) has occurred while \output is active []
 
- [13]
-=======
->>>>>>> main
+ [12]
 Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
-<<<<<<< HEAD
-<Bilder/Grafiken Steifigkeit.png, id=118, 492.03825pt x 424.58624pt>
-=======
-<Bilder/Grafiken Steifigkeit.png, id=107, 492.03825pt x 424.58624pt>
->>>>>>> main
+<Bilder/Grafiken Steifigkeit.png, id=114, 492.03825pt x 424.58624pt>
 File: Bilder/Grafiken Steifigkeit.png Graphic file (type png)
 <use Bilder/Grafiken Steifigkeit.png>
 Package pdftex.def Info: Bilder/Grafiken Steifigkeit.png  used on input line 16
 2.
 (pdftex.def)             Requested size: 455.24411pt x 392.83978pt.
-<<<<<<< HEAD
-<Bilder/Grafiken Festigkeit.png, id=120, 483.60675pt x 422.7795pt>
-=======
-<Bilder/Grafiken Festigkeit.png, id=109, 483.60675pt x 422.7795pt>
->>>>>>> main
+<Bilder/Grafiken Festigkeit.png, id=116, 483.60675pt x 422.7795pt>
 File: Bilder/Grafiken Festigkeit.png Graphic file (type png)
 <use Bilder/Grafiken Festigkeit.png>
 Package pdftex.def Info: Bilder/Grafiken Festigkeit.png  used on input line 169
 .
 (pdftex.def)             Requested size: 455.24411pt x 397.99338pt.
-<<<<<<< HEAD
-) [14] [15 <./Bilder/Grafiken Steifigkeit.png>] [16 <./Bilder/Grafiken Festigke
+) [13] [14 <./Bilder/Grafiken Steifigkeit.png>] [15 <./Bilder/Grafiken Festigke
 it.png>] ("Projektarbeit - VDI2013.tex"
-<Bilder/RechteckHolm.jpg, id=132, 963.6pt x 542.025pt>
-=======
-[11] [12 <./Bilder/Grafiken Steifigkeit.png>]) ("Projektarbeit - VDI2013.tex"
-<Bilder/RechteckHolm.jpg, id=118, 963.6pt x 542.025pt>
->>>>>>> main
+<Bilder/RechteckHolm.jpg, id=129, 963.6pt x 542.025pt>
 File: Bilder/RechteckHolm.jpg Graphic file (type jpg)
 <use Bilder/RechteckHolm.jpg>
 Package pdftex.def Info: Bilder/RechteckHolm.jpg  used on input line 7.
@@ -544,11 +481,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
  []
 
-<<<<<<< HEAD
-[17 <./Bilder/RechteckHolm.jpg>]
-=======
-
->>>>>>> main
+[16 <./Bilder/RechteckHolm.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 20--22
 
  []
@@ -558,16 +491,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-[13] [14 <./Bilder/Grafiken Festigkeit.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
-<<<<<<< HEAD
-[18]
-=======
-[15 <./Bilder/RechteckHolm.jpg>]
->>>>>>> main
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 51--53
 
  []
@@ -578,30 +507,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--60
  []
 
 
-<<<<<<< HEAD
-LaTeX Warning: Reference `KrummerGurt' on page 19 undefined on input line 64.
+LaTeX Warning: Reference `KrummerGurt' on page 18 undefined on input line 64.
 
-<Bilder/KrummerGurt.jpg, id=139, 1160.83687pt x 342.27875pt>
-=======
-LaTeX Warning: Reference `KrummerGurt' on page 16 undefined on input line 64.
-
-<Bilder/KrummerGurt.jpg, id=130, 1160.83687pt x 342.27875pt>
->>>>>>> main
+<Bilder/KrummerGurt.jpg, id=136, 1160.83687pt x 342.27875pt>
 File: Bilder/KrummerGurt.jpg Graphic file (type jpg)
 <use Bilder/KrummerGurt.jpg>
 Package pdftex.def Info: Bilder/KrummerGurt.jpg  used on input line 66.
 (pdftex.def)             Requested size: 455.24411pt x 134.2298pt.
-
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-
- []
-
-[19 <./Bilder/KrummerGurt.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-=======
+[18 <./Bilder/KrummerGurt.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 75--77
->>>>>>> main
 
  []
 
@@ -610,7 +524,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
-[16]
+
 Underfull \hbox (badness 10000) in paragraph at lines 85--87
 
  []
@@ -620,28 +534,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
-<<<<<<< HEAD
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-=======
-[17 <./Bilder/KrummerGurt.jpg>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 98--100
->>>>>>> main
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
 
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 119--121
+Underfull \hbox (badness 10000) in paragraph at lines 128--130
 
  []
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 123--125
-
- []
-
-) [22] ("Auslegung nach Puck.tex"
+) [21] ("Auslegung nach Puck.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
@@ -673,156 +586,128 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
-) [23] ("Projektarbeit - Beulabschätzung des Holms.tex"
+) [22] ("Projektarbeit - Beulabschätzung des Holms.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
-
- []
-
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 124--126
->>>>>>> main
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--130
-
- []
-
-<<<<<<< HEAD
-[24] [25]
-Underfull \hbox (badness 10000) in paragraph at lines 88--90
-=======
-) ("Projektarbeit - Beulabschätzung des Holms.tex"
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
->>>>>>> main
-
- []
-
-[19]
 Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
-<<<<<<< HEAD
-[26]) [27] ("Projektarbeit - Auslegung der Verklebungen.tex"
+[23] [24]
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
+
+ []
+
+[25]) [26] ("Projektarbeit - Auslegung der Verklebungen.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
  []
 
-) [28] ("Projektarbeit - CAD-Modell.tex"
+) [27] (Bolzenberechnung.tex) [28] ("Projektarbeit - CAD-Modell.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-) [29] ("Projektarbeit - Zusammenfassung.tex") [30] ("Projektarbeit - FEM.tex"
-=======
-[20] [21]) ("Projektarbeit - Auslegung der Verklebungen.tex")
-("Projektarbeit - CAD-Modell.tex"
-Underfull \hbox (badness 10000) in paragraph at lines 1--2
-
- []
-
-<Bilder/Kontur.jpg, id=150, 1445.90187pt x 326.72063pt>
+<Bilder/Kontur.jpg, id=172, 1445.90187pt x 326.72063pt>
 File: Bilder/Kontur.jpg Graphic file (type jpg)
 <use Bilder/Kontur.jpg>
 Package pdftex.def Info: Bilder/Kontur.jpg  used on input line 7.
 (pdftex.def)             Requested size: 455.24411pt x 102.86768pt.
 
+LaTeX Warning: Reference `fig: Kontur' on page 29 undefined on input line 11.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 4--12
 
  []
 
-[22]
-<Bilder/StegPrinzip.jpg, id=154, 963.6pt x 542.025pt>
+
+Underfull \vbox (badness 1852) has occurred while \output is active []
+
+ [29 <./Bilder/Kontur.jpg>]
+<Bilder/StegPrinzip.jpg, id=176, 963.6pt x 542.025pt>
 File: Bilder/StegPrinzip.jpg Graphic file (type jpg)
 <use Bilder/StegPrinzip.jpg>
 Package pdftex.def Info: Bilder/StegPrinzip.jpg  used on input line 14.
 (pdftex.def)             Requested size: 455.24411pt x 256.07507pt.
-) ("Projektarbeit - Zusammenfassung.tex") ("Projektarbeit - FEM.tex"
-[23 <./Bilder/Kontur.jpg>]
->>>>>>> main
-Overfull \hbox (76.52371pt too wide) in paragraph at lines 5--6
+
+
+LaTeX Warning: Reference `fig: Steg' on page 30 undefined on input line 19.
+
+
+Underfull \vbox (badness 1122) has occurred while \output is active []
+
+ [30 <./Bilder/StegPrinzip.jpg>]) [31] ("Projektarbeit - Zusammenfassung.tex") 
+[32]
+("Projektarbeit - FEM.tex"
+
+LaTeX Warning: Reference `GGB' on page 33 undefined on input line 5.
+
+
+LaTeX Warning: Reference `VVB' on page 33 undefined on input line 5.
+
+
+LaTeX Warning: Reference `SG' on page 33 undefined on input line 5.
+
+
+Overfull \hbox (77.45078pt too wide) in paragraph at lines 5--6
 \T1/cmr/m/n/10.95 F�r die Be-rech-nung der Elas-to-sta-tik sind die Gleich-ge-w
-ichts-be-din-gung (67[]), Verzerrungs-Verschiebungsbedingung
+ichts-be-din-gung ([]), Verzerrungs-Verschiebungsbedingung
  []
 
-<<<<<<< HEAD
-[31]) [32] ("Projektarbeit - Quellenverzeichnis.tex") [33]
-("Projektarbeit - Abbildungsverzeichnis.tex") [34] ("Projektarbeit - Anhang.tex
-") [35] ("Projektarbeit - Main.aux")
-=======
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Reference `VVB' on page 33 undefined on input line 24.
 
- [24 <./Bilder/StegPrinzip.jpg>] [25]) ("Projektarbeit - Quellenverzeichnis.tex
-")
-("Projektarbeit - Abbildungsverzeichnis.tex") ("Projektarbeit - Anhang.tex")
-[26] ("Projektarbeit - Main.aux")
->>>>>>> main
+
+LaTeX Warning: Reference `SG' on page 33 undefined on input line 24.
+
+[33]
+
+LaTeX Warning: Reference `SL' on page 34 undefined on input line 31.
+
+) [34] ("Projektarbeit - Quellenverzeichnis.tex") [35]
+("Projektarbeit - Abbildungsverzeichnis.tex") [36] ("Projektarbeit - Anhang.tex
+") [37] ("Projektarbeit - Main.aux")
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 4176 strings out of 479799
- 64205 string characters out of 2871148
- 375416 words of memory out of 3000000
- 21062 multiletter control sequences out of 15000+200000
+ 4175 strings out of 479832
+ 62059 string characters out of 2880873
+ 374383 words of memory out of 3000000
+ 21029 multiletter control sequences out of 15000+200000
  543492 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,17n,80p,1108b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti109
-5.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx
-1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
-cbx1095.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecbx1440.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
-i600\ecrm1095.pk><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmex10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmmi6.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/PC/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/PC/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/PC/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/PC/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/PC/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/PC/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (35 pages, 1209638 bytes).
+ 71i,17n,82p,1589b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\hgolo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
+1095.pk> <C:\Users\hgolo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecbx1200.pk> <C:\Users\hgolo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx1095.pk> <C:\Users\hgolo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecbx1440.pk> <C:\Users\hgolo\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecrm1095.pk><C:/Program Files/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/P
+rogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cms
+y10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/P
+rogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "Projektarbeit - Main.pdf" (37 pages, 1378115 bytes).
 PDF statistics:
- 522 PDF objects out of 1000 (max. 8388607)
-=======
- 4187 strings out of 479799
- 63855 string characters out of 2869723
- 375443 words of memory out of 3000000
- 21072 multiletter control sequences out of 15000+200000
- 543151 words of font info for 45 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 69i,17n,80p,1578b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
-1095.pk> <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecbx1200.pk> <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecbx1095.pk> <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecbx1440.pk> <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecrm1095.pk><C:/Users/Henri/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Henri/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Henri/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Henri/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Hen
-ri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/U
-sers/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pf
-b><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr8.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmsy6.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (26 pages, 1353009 bytes).
-PDF statistics:
- 482 PDF objects out of 1000 (max. 8388607)
->>>>>>> main
+ 528 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
