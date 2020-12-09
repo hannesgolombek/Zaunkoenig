@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {3.1}Annahmen zur Modellierung (T.B.)}{10}{}%
 \contentsline {subsection}{\numberline {3.2}Analytische Lösung der Modellierung (T.B.)}{10}{}%
 \contentsline {subsection}{\numberline {3.3}Analyse der Modellierung (T.B.)}{14}{}%
-\contentsline {section}{\numberline {4}Auslegung des Holms nach VDI 2013}{17}{}%
+\contentsline {section}{\numberline {4}Auslegung des Holms nach VDI 2013 (H.K.)}{17}{}%
 \contentsline {subsection}{\numberline {4.1}Dimensionierung der Gurte}{17}{}%
 \contentsline {subsection}{\numberline {4.2}Nachrechnung der angepassten Gurte}{19}{}%
 \contentsline {subsection}{\numberline {4.3}Bestimmung der Lagenanzahl des Steges}{20}{}%
@@ -18,23 +18,25 @@
 \contentsline {subsection}{\numberline {5.1}Grundlagen der CLT}{23}{}%
 \contentsline {subsection}{\numberline {5.2}Versagneskriterium nach Puck}{23}{}%
 \contentsline {subsection}{\numberline {5.3}eLamX (T.B.)}{23}{}%
-\contentsline {section}{\numberline {6}Beulabschätzung des Holms}{24}{}%
-\contentsline {subsection}{\numberline {6.1}Beulsicherheit der Gurte (T.B.)}{24}{}%
-\contentsline {subsection}{\numberline {6.2}Beulsicherheit des Steges (T.B.)}{25}{}%
-\contentsline {section}{\numberline {7}Auslegung der Klebeverbindung}{28}{}%
-\contentsline {subsection}{\numberline {7.1}Klebeverbindung Steg - Gurt (T.B.)}{28}{}%
-\contentsline {subsection}{\numberline {7.2}Klebeverbindung Holm - Rippen (T.B.)}{28}{}%
-\contentsline {section}{\numberline {8}CAD-Modell}{29}{}%
-\contentsline {subsection}{\numberline {8.1}Konstruktion der Gurte}{29}{}%
-\contentsline {subsection}{\numberline {8.2}Konstruktion des Stegs}{30}{}%
-\contentsline {subsection}{\numberline {8.3}Konstruktion der Haut und der Rippen}{30}{}%
-\contentsline {subsection}{\numberline {8.4}Holzkonstruktion an der Aufnahme der Hauptbolzen}{32}{}%
-\contentsline {section}{\numberline {9}Zusammenfassung}{33}{}%
-\contentsline {section}{\numberline {10}FEM}{34}{}%
-\contentsline {subsection}{\numberline {10.1}Warum FEM?}{34}{}%
-\contentsline {subsection}{\numberline {10.2}Wie funktioniert FEM?}{34}{}%
-\contentsline {subsubsection}{\numberline {10.2.1}Schwache Lösung der Elastostatik}{34}{}%
-\contentsline {subsubsection}{\numberline {10.2.2}Diskretisierung}{35}{}%
-\contentsline {section}{\numberline {11}Quellenverzeichnis}{36}{}%
-\contentsline {section}{\numberline {12}Abbildungsverzeichnis}{37}{}%
-\contentsline {section}{\numberline {13}Anhang}{38}{}%
+\contentsline {section}{\numberline {6}Beulabschätzung des Holms}{25}{}%
+\contentsline {subsection}{\numberline {6.1}Beulsicherheit der Gurte (T.B.)}{25}{}%
+\contentsline {subsection}{\numberline {6.2}Beulsicherheit des Steges (T.B.)}{26}{}%
+\contentsline {section}{\numberline {7}Auslegung der Klebeverbindung}{29}{}%
+\contentsline {subsection}{\numberline {7.1}Klebeverbindung Steg - Gurt (T.B.)}{29}{}%
+\contentsline {subsection}{\numberline {7.2}Klebeverbindung Holm - Rippen (T.B.)}{29}{}%
+\contentsline {section}{\numberline {8}CAD-Modell (H.K.)}{30}{}%
+\contentsline {subsection}{\numberline {8.1}Konstruktion der Gurte}{30}{}%
+\contentsline {subsection}{\numberline {8.2}Konstruktion des Stegs}{31}{}%
+\contentsline {subsection}{\numberline {8.3}Konstruktion der Haut und der Rippen}{31}{}%
+\contentsline {subsection}{\numberline {8.4}Holzkonstruktion an der Aufnahme der Hauptbolzen}{33}{}%
+\contentsline {section}{\numberline {9}Zusammenfassung}{34}{}%
+\contentsline {section}{\numberline {10}FEM}{35}{}%
+\contentsline {subsection}{\numberline {10.1}Warum FEM?}{35}{}%
+\contentsline {subsection}{\numberline {10.2}Wie funktioniert FEM?}{35}{}%
+\contentsline {subsubsection}{\numberline {10.2.1}Schwache Lösung der Elastostatik}{35}{}%
+\contentsline {subsubsection}{\numberline {10.2.2}Diskretisierung}{36}{}%
+\contentsline {section}{\numberline {11}Quellenverzeichnis}{37}{}%
+\contentsline {section}{\numberline {12}Abbildungsverzeichnis}{38}{}%
+\contentsline {section}{\numberline {13}Tabellenverzeichnis}{39}{}%
+\contentsline {section}{\numberline {14}Anhang}{40}{}%
+\contentsline {subsection}{\numberline {14.1}Abbildungen}{40}{}%
