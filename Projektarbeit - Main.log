@@ -1,12 +1,16 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  9 DEC 2020 22:00
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  9 DEC 2020 21:20
+>>>>>>> main
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
 LaTeX2e <2020-10-01> patch level 2
 L3 programming layer <2020-10-27> xparse <2020-03-03>
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
 File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count175
@@ -21,16 +25,16 @@ File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2020/10/27 3.51 The Babel package
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
 File: babel.def 2020/10/27 3.51 Babel common definitions
 \babel@savecnt=\count183
 \U@D=\dimen139
 \l@babelnohyphens=\language79
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 )
 \bbl@dirlevel=\count184
@@ -38,32 +42,33 @@ File: babel.def 2020/10/27 3.51 Babel common definitions
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ldf
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ld
+f
 Language: ngerman 2020/07/21 v2.12 German support for babel (post-1996 orthogra
 phy)
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.ldf
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.l
+df
 Language: ngermanb 2020/07/21 v2.12 German support for babel (post-1996 orthogr
 aphy)
 Package babel Info: Making " an active character on input line 121.
-))) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+))) (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-)
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 \Gm@cnth=\count185
@@ -79,32 +84,35 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutvoffset=\dimen147
 \Gm@dimlist=\toks16
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
-) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+)
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count188
 \calc@Bcount=\count189
@@ -117,10 +125,10 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count190
 \calc@Cskip=\skip51
 )
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2020/09/27 v2.0i eso-pic (RN)
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
@@ -128,10 +136,10 @@ with kernel methods
 \ESO@tempdima=\dimen152
 \ESO@tempdimb=\dimen153
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -148,7 +156,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 \AM@pagewidth=\dimen154
 \AM@pageheight=\dimen155
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box47
@@ -158,6 +166,7 @@ File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count192
 \AM@templatesizebox=\box48
 )
+<<<<<<< HEAD
 (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tabto-ltx\tabto.sty
 Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
 \CurrentLineWidth=\dimen156
@@ -165,6 +174,10 @@ Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
 )
 (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex
 .def
+=======
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+>>>>>>> main
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count193
 \l__pdf_internal_box=\box49
@@ -256,7 +269,9 @@ LaTeX Font Info:    ... okay on input line 8.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count194
 \scratchdimen=\dimen158
@@ -270,24 +285,23 @@ LaTeX Font Info:    ... okay on input line 8.
 \makeMPintoPDFobject=\count199
 \everyMPtoPDFconversion=\toks20
 )
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base
-.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
-
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 ("Projektarbeit - Deckblatt.tex") [1
 
-{C:/Users/PC/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] ("Projektarbeit - 
-Aufgabenstellung.tex"
+{C:/Users/Henri/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] ("Projektarbeit
+ - Aufgabenstellung.tex"
 <PDFs/Aufgabenstellung Gruppe 2.pdf, id=6, 597.55246pt x 845.07718pt>
 File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 <use PDFs/Aufgabenstellung Gruppe 2.pdf>
@@ -955,50 +969,94 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--12
 
  []
 
+<<<<<<< HEAD
 
 Underfull \vbox (badness 1852) has occurred while \output is active []
 
  [30 <./Bilder/Kontur.jpg>]
 <Bilder/StegPrinzip.jpg, id=180, 963.6pt x 542.025pt>
+=======
+[30]
+<Bilder/StegPrinzip.jpg, id=179, 963.6pt x 542.025pt>
+>>>>>>> main
 File: Bilder/StegPrinzip.jpg Graphic file (type jpg)
 <use Bilder/StegPrinzip.jpg>
 Package pdftex.def Info: Bilder/StegPrinzip.jpg  used on input line 14.
 (pdftex.def)             Requested size: 455.24411pt x 256.07507pt.
 
-Underfull \vbox (badness 1122) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
- [31 <./Bilder/StegPrinzip.jpg>]) [32] ("Projektarbeit - Zusammenfassung.tex") 
-[33]
-("Projektarbeit - FEM.tex"
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+[31 <./Bilder/Kontur.jpg>] [32 <./Bilder/StegPrinzip.jpg>]
+<Bilder/Seite.jpg, id=187, 691.58376pt x 187.19937pt>
+File: Bilder/Seite.jpg Graphic file (type jpg)
+<use Bilder/Seite.jpg>
+Package pdftex.def Info: Bilder/Seite.jpg  used on input line 39.
+(pdftex.def)             Requested size: 455.24411pt x 123.22919pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+<Bilder/Klotz.jpg, id=188, 638.88687pt x 274.52562pt>
+File: Bilder/Klotz.jpg Graphic file (type jpg)
+<use Bilder/Klotz.jpg>
+Package pdftex.def Info: Bilder/Klotz.jpg  used on input line 50.
+(pdftex.def)             Requested size: 455.24411pt x 195.61829pt.
+) [33 <./Bilder/Seite.jpg>] [34 <./Bilder/Klotz.jpg>]
+("Projektarbeit - Zusammenfassung.tex") [35] ("Projektarbeit - FEM.tex"
 Overfull \hbox (76.52371pt too wide) in paragraph at lines 5--6
 \T1/cmr/m/n/10.95 F�r die Be-rech-nung der Elas-to-sta-tik sind die Gleich-ge-w
 ichts-be-din-gung (91[]), Verzerrungs-Verschiebungsbedingung
  []
 
-[34]) [35] ("Projektarbeit - Quellenverzeichnis.tex") [36]
+[36]) [37] ("Projektarbeit - Quellenverzeichnis.tex") [38]
 ("Projektarbeit - Main.lof")
 \tf@lof=\write4
 \openout4 = `"Projektarbeit - Main.lof"'.
 
- [37] ("Projektarbeit - Main.lot")
+ [39] ("Projektarbeit - Main.lot")
 \tf@lot=\write5
 \openout5 = `"Projektarbeit - Main.lot"'.
 
- [38]
+ [40]
 ("Projektarbeit - Anhang.tex"
+<<<<<<< HEAD
 <Bilder/Lagenaufbau Holmgurte.png, id=208, 588.39825pt x 178.86826pt>
+=======
+<Bilder/Lagenaufbau Holmgurte.png, id=215, 588.39825pt x 178.86826pt>
+>>>>>>> main
 File: Bilder/Lagenaufbau Holmgurte.png Graphic file (type png)
 <use Bilder/Lagenaufbau Holmgurte.png>
 Package pdftex.def Info: Bilder/Lagenaufbau Holmgurte.png  used on input line 3
 .
 (pdftex.def)             Requested size: 455.24411pt x 138.39493pt.
+<<<<<<< HEAD
 <Bilder/Lagenaufbau Steg dünn.png, id=209, 584.78474pt x 161.403pt>
+=======
+<Bilder/Lagenaufbau Steg dünn.png, id=216, 584.78474pt x 161.403pt>
+>>>>>>> main
 File: Bilder/Lagenaufbau Steg dünn.png Graphic file (type png)
 <use Bilder/Lagenaufbau Steg dünn.png>
 Package pdftex.def Info: Bilder/Lagenaufbau Steg dünn.png  used on input line 
 8.
 (pdftex.def)             Requested size: 455.24411pt x 125.64755pt.
+<<<<<<< HEAD
 <Bilder/Lagenaufbau Steg dick.png, id=210, 343.2825pt x 496.85625pt>
+=======
+<Bilder/Lagenaufbau Steg dick.png, id=217, 343.2825pt x 496.85625pt>
+>>>>>>> main
 File: Bilder/Lagenaufbau Steg dick.png Graphic file (type png)
 <use Bilder/Lagenaufbau Steg dick.png>
 Package pdftex.def Info: Bilder/Lagenaufbau Steg dick.png  used on input line 1
@@ -1008,42 +1066,67 @@ Package pdftex.def Info: Bilder/Lagenaufbau Steg dick.png  used on input line 1
 
 LaTeX Warning: Float too large for page by 93.09843pt on input line 16.
 
+<<<<<<< HEAD
 <Bilder/Berechnung Holmgurte.png, id=211, 894.9435pt x 463.7325pt>
+=======
+<Bilder/Berechnung Holmgurte.png, id=218, 894.9435pt x 463.7325pt>
+>>>>>>> main
 File: Bilder/Berechnung Holmgurte.png Graphic file (type png)
 <use Bilder/Berechnung Holmgurte.png>
 Package pdftex.def Info: Bilder/Berechnung Holmgurte.png  used on input line 18
 .
 (pdftex.def)             Requested size: 455.24411pt x 235.8919pt.
+<<<<<<< HEAD
 <Bilder/Berechnung Steg dünn.png, id=212, 901.56825pt x 440.847pt>
+=======
+<Bilder/Berechnung Steg dünn.png, id=219, 901.56825pt x 440.847pt>
+>>>>>>> main
 File: Bilder/Berechnung Steg dünn.png Graphic file (type png)
 <use Bilder/Berechnung Steg dünn.png>
 Package pdftex.def Info: Bilder/Berechnung Steg dünn.png  used on input line 2
 3.
 (pdftex.def)             Requested size: 455.24411pt x 222.60243pt.
+<<<<<<< HEAD
 <Bilder/Berechnung Steg dick.png, id=213, 542.025pt x 504.08325pt>
+=======
+<Bilder/Berechnung Steg dick.png, id=220, 542.025pt x 504.08325pt>
+>>>>>>> main
 File: Bilder/Berechnung Steg dick.png Graphic file (type png)
 <use Bilder/Berechnung Steg dick.png>
 Package pdftex.def Info: Bilder/Berechnung Steg dick.png  used on input line 28
 .
 (pdftex.def)             Requested size: 455.24411pt x 423.38858pt.
+<<<<<<< HEAD
 <Bilder/Konstanten Holmgurte.png, id=214, 595.023pt x 370.38374pt>
+=======
+<Bilder/Konstanten Holmgurte.png, id=221, 595.023pt x 370.38374pt>
+>>>>>>> main
 File: Bilder/Konstanten Holmgurte.png Graphic file (type png)
 <use Bilder/Konstanten Holmgurte.png>
 Package pdftex.def Info: Bilder/Konstanten Holmgurte.png  used on input line 33
 .
 (pdftex.def)             Requested size: 455.24411pt x 283.38219pt.
+<<<<<<< HEAD
 <Bilder/Konstanten Steg dünn.png, id=215, 590.205pt x 374.5995pt>
+=======
+<Bilder/Konstanten Steg dünn.png, id=222, 590.205pt x 374.5995pt>
+>>>>>>> main
 File: Bilder/Konstanten Steg dünn.png Graphic file (type png)
 <use Bilder/Konstanten Steg dünn.png>
 Package pdftex.def Info: Bilder/Konstanten Steg dünn.png  used on input line 3
 8.
 (pdftex.def)             Requested size: 455.24411pt x 288.94551pt.
+<<<<<<< HEAD
 <Bilder/Konstanten Steg dick.png, id=216, 585.98924pt x 369.7815pt>
+=======
+<Bilder/Konstanten Steg dick.png, id=223, 585.98924pt x 369.7815pt>
+>>>>>>> main
 File: Bilder/Konstanten Steg dick.png Graphic file (type png)
 <use Bilder/Konstanten Steg dick.png>
 Package pdftex.def Info: Bilder/Konstanten Steg dick.png  used on input line 43
 .
 (pdftex.def)             Requested size: 455.24411pt x 287.28299pt.
+<<<<<<< HEAD
 ) [39 <./Bilder/Lagenaufbau Holmgurte.png> <./Bilder/Lagenaufbau Steg dünn.png
 >] [40 <./Bilder/Lagenaufbau Steg dick.png>] [41 <./Bilder/Berechnung Holmgurte
 .png> <./Bilder/Berechnung Steg dünn.png>] [42 <./Bilder/Berechnung Steg dick.
@@ -1080,6 +1163,13 @@ l.61 \bibcite{Sch�rmann}{3}
 I'm ignoring this, since I wasn't doing a \csname.
 
 )
+=======
+) [41 <./Bilder/Lagenaufbau Holmgurte.png> <./Bilder/Lagenaufbau Steg dünn.png
+>] [42 <./Bilder/Lagenaufbau Steg dick.png>] [43 <./Bilder/Berechnung Holmgurte
+.png> <./Bilder/Berechnung Steg dünn.png>] [44 <./Bilder/Berechnung Steg dick.
+png>] [45 <./Bilder/Konstanten Holmgurte.png>] [46 <./Bilder/Konstanten Steg d�
+�nn.png>] [47 <./Bilder/Konstanten Steg dick.png>] ("Projektarbeit - Main.aux")
+>>>>>>> main
 
 LaTeX Warning: There were undefined references.
 
@@ -1088,6 +1178,7 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  4291 strings out of 479799
  67216 string characters out of 2871148
  379268 words of memory out of 3000000
@@ -1115,6 +1206,35 @@ AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 Output written on "Projektarbeit - Main.pdf" (45 pages, 2047128 bytes).
 PDF statistics:
  583 PDF objects out of 1000 (max. 8388607)
+=======
+ 4273 strings out of 479799
+ 66260 string characters out of 2869723
+ 375552 words of memory out of 3000000
+ 21143 multiletter control sequences out of 15000+200000
+ 543492 words of font info for 46 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 69i,17n,80p,1582b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
+1095.pk> <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecbx1200.pk> <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx1095.pk> <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecbx1440.pk> <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecrm1095.pk><C:/Users/Henri/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Henri/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Henri/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Henri/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Hen
+ri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/U
+sers/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pf
+b><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr8.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmsy6.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "Projektarbeit - Main.pdf" (47 pages, 2253990 bytes).
+PDF statistics:
+ 595 PDF objects out of 1000 (max. 8388607)
+>>>>>>> main
  0 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
