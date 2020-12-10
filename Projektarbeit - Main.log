@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  10 DEC 2020 22:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  10 DEC 2020 23:39
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -636,12 +636,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
  []
 
-) [31] ("Projektarbeit - CAD-Modell.tex"
+) [31] (Bolzenberechnung.tex) [32] ("Projektarbeit - CAD-Modell.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-<Bilder/Kontur.jpg, id=185, 1445.90187pt x 326.72063pt>
+<Bilder/Kontur.jpg, id=188, 1445.90187pt x 326.72063pt>
 File: Bilder/Kontur.jpg Graphic file (type jpg)
 <use Bilder/Kontur.jpg>
 Package pdftex.def Info: Bilder/Kontur.jpg  used on input line 7.
@@ -654,49 +654,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--12
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[32]
-<Bilder/StegPrinzip.jpg, id=189, 963.6pt x 542.025pt>
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+<Bilder/StegPrinzip.jpg, id=192, 963.6pt x 542.025pt>
 File: Bilder/StegPrinzip.jpg Graphic file (type jpg)
 <use Bilder/StegPrinzip.jpg>
-Package pdftex.def Info: Bilder/StegPrinzip.jpg  used on input line 14.
+Package pdftex.def Info: Bilder/StegPrinzip.jpg  used on input line 18.
 (pdftex.def)             Requested size: 455.24411pt x 256.07507pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
- []
-
-[33 <./Bilder/Kontur.jpg> <./Bilder/StegPrinzip.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-
- []
-
-<Bilder/Seite.jpg, id=193, 691.58376pt x 187.19937pt>
-File: Bilder/Seite.jpg Graphic file (type jpg)
-<use Bilder/Seite.jpg>
-Package pdftex.def Info: Bilder/Seite.jpg  used on input line 37.
-(pdftex.def)             Requested size: 455.24411pt x 123.22919pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-
-Underfull \vbox (badness 3000) has occurred while \output is active []
-
- [34]
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+[34 <./Bilder/Kontur.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
+<Bilder/Seite.jpg, id=196, 691.58376pt x 187.19937pt>
+File: Bilder/Seite.jpg Graphic file (type jpg)
+<use Bilder/Seite.jpg>
+Package pdftex.def Info: Bilder/Seite.jpg  used on input line 30.
+(pdftex.def)             Requested size: 455.24411pt x 123.22919pt.
 <Bilder/Klotz.jpg, id=197, 638.88687pt x 274.52562pt>
 File: Bilder/Klotz.jpg Graphic file (type jpg)
 <use Bilder/Klotz.jpg>
-Package pdftex.def Info: Bilder/Klotz.jpg  used on input line 50.
+Package pdftex.def Info: Bilder/Klotz.jpg  used on input line 38.
 (pdftex.def)             Requested size: 455.24411pt x 195.61829pt.
-) [35 <./Bilder/Seite.jpg>] [36 <./Bilder/Klotz.jpg>]
+)
+Underfull \vbox (badness 6526) has occurred while \output is active []
+
+ [35 <./Bilder/StegPrinzip.jpg> <./Bilder/Seite.jpg>] [36 <./Bilder/Klotz.jpg>]
+
 ("Projektarbeit - Zusammenfassung.tex") [37] ("Projektarbeit - FEM.tex"
 Overfull \hbox (76.52371pt too wide) in paragraph at lines 5--6
 \T1/cmr/m/n/10.95 Für die Be-rech-nung der Elas-to-sta-tik sind die Gleich-ge-w
@@ -779,13 +774,13 @@ png>] [47 <./Bilder/Konstanten Holmgurte.png>] [48 <./Bilder/Konstanten Steg dÃ
 ¼nn.png>] [49 <./Bilder/Konstanten Steg dick.png>] ("Projektarbeit - Main.aux")
  ) 
 Here is how much of TeX's memory you used:
- 4305 strings out of 479799
- 66876 string characters out of 2869723
- 376967 words of memory out of 3000000
- 21170 multiletter control sequences out of 15000+200000
+ 4310 strings out of 479799
+ 67002 string characters out of 2869723
+ 376971 words of memory out of 3000000
+ 21172 multiletter control sequences out of 15000+200000
  543492 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,17n,80p,1582b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,17n,80p,1605b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
 1095.pk> <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm1095.pk> <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -804,9 +799,9 @@ ts/cm/cmr8.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (49 pages, 2268518 bytes).
+Output written on "Projektarbeit - Main.pdf" (49 pages, 2273462 bytes).
 PDF statistics:
- 618 PDF objects out of 1000 (max. 8388607)
+ 620 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
