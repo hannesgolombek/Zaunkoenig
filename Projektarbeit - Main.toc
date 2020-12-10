@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {4.3}Bestimmung der Lagenanzahl des Steges}{21}{}%
 \contentsline {section}{\numberline {5}Auslegung nach CLT}{24}{}%
 \contentsline {subsection}{\numberline {5.1}Grundlagen der CLT}{24}{}%
-\contentsline {subsection}{\numberline {5.2}Versagneskriterium nach Puck}{24}{}%
+\contentsline {subsection}{\numberline {5.2}Versagenskriterium nach Puck}{24}{}%
 \contentsline {subsection}{\numberline {5.3}eLamX (T.B.)}{24}{}%
 \contentsline {section}{\numberline {6}Beulabschätzung des Holms}{26}{}%
 \contentsline {subsection}{\numberline {6.1}Beulsicherheit der Gurte (T.B.)}{26}{}%
