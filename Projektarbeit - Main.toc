@@ -1,42 +1,47 @@
 \babel@toc {ngerman}{}
 \contentsline {section}{\numberline {1}Bezeichnungen}{8}{}%
-\contentsline {section}{\numberline {2}Grundlagen}{10}{}%
-\contentsline {subsection}{\numberline {2.1}Glasfaser}{10}{}%
-\contentsline {subsection}{\numberline {2.2}Matrix}{10}{}%
-\contentsline {subsection}{\numberline {2.3}Netztheorie}{10}{}%
-\contentsline {subsection}{\numberline {2.4}Klassische Laminatheorie}{10}{}%
-\contentsline {subsection}{\numberline {2.5}Versagenskriterium nach Puck}{10}{}%
-\contentsline {section}{\numberline {3}Modellierung des Holms}{11}{}%
-\contentsline {subsection}{\numberline {3.1}Annahmen zur Modellierung (T.B.)}{11}{}%
-\contentsline {subsection}{\numberline {3.2}Analytische Lösung der Modellierung (T.B.)}{11}{}%
-\contentsline {subsection}{\numberline {3.3}Analyse der Modellierung (T.B.)}{15}{}%
-\contentsline {section}{\numberline {4}Auslegung des Holms nach VDI 2013 (H.K.)}{18}{}%
-\contentsline {subsection}{\numberline {4.1}Dimensionierung der Gurte}{18}{}%
-\contentsline {subsection}{\numberline {4.2}Nachrechnung der angepassten Gurte}{20}{}%
-\contentsline {subsection}{\numberline {4.3}Bestimmung der Lagenanzahl des Steges}{21}{}%
-\contentsline {section}{\numberline {5}Auslegung nach CLT}{24}{}%
-\contentsline {subsection}{\numberline {5.1}Grundlagen der CLT}{24}{}%
-\contentsline {subsection}{\numberline {5.2}Versagenskriterium nach Puck}{24}{}%
-\contentsline {subsection}{\numberline {5.3}eLamX (T.B.)}{24}{}%
-\contentsline {section}{\numberline {6}Beulabschätzung des Holms}{26}{}%
-\contentsline {subsection}{\numberline {6.1}Beulsicherheit der Gurte (T.B.)}{26}{}%
-\contentsline {subsection}{\numberline {6.2}Beulsicherheit des Steges (T.B.)}{27}{}%
-\contentsline {section}{\numberline {7}Auslegung der Klebeverbindung}{30}{}%
-\contentsline {subsection}{\numberline {7.1}Klebeverbindung Steg - Gurt (T.B.)}{30}{}%
-\contentsline {subsection}{\numberline {7.2}Klebeverbindung Holm - Rippen (T.B.)}{30}{}%
-\contentsline {section}{\numberline {8}CAD-Modell (H.K.)}{31}{}%
-\contentsline {subsection}{\numberline {8.1}Konstruktion der Gurte}{31}{}%
-\contentsline {subsection}{\numberline {8.2}Konstruktion des Stegs}{32}{}%
-\contentsline {subsection}{\numberline {8.3}Konstruktion der Haut und der Rippen}{34}{}%
-\contentsline {subsection}{\numberline {8.4}Holzkonstruktion an der Aufnahme der Hauptbolzen}{34}{}%
-\contentsline {section}{\numberline {9}Zusammenfassung}{35}{}%
-\contentsline {section}{\numberline {10}FEM}{36}{}%
-\contentsline {subsection}{\numberline {10.1}Warum FEM?}{36}{}%
-\contentsline {subsection}{\numberline {10.2}Wie funktioniert FEM?}{36}{}%
-\contentsline {subsubsection}{\numberline {10.2.1}Schwache Lösung der Elastostatik}{36}{}%
-\contentsline {subsubsection}{\numberline {10.2.2}Diskretisierung}{37}{}%
-\contentsline {section}{\numberline {11}Quellenverzeichnis}{38}{}%
-\contentsline {section}{\numberline {12}Abbildungsverzeichnis}{39}{}%
-\contentsline {section}{\numberline {13}Tabellenverzeichnis}{40}{}%
-\contentsline {section}{\numberline {14}Anhang}{41}{}%
-\contentsline {subsection}{\numberline {14.1}Abbildungen}{41}{}%
+\contentsline {section}{\numberline {2}Einleitung}{10}{}%
+\contentsline {subsection}{\numberline {2.1}Projektbeschreibung}{10}{}%
+\contentsline {subsection}{\numberline {2.2}Motivation}{10}{}%
+\contentsline {subsection}{\numberline {2.3}Herangehensweise}{10}{}%
+\contentsline {section}{\numberline {3}Grundlagen}{11}{}%
+\contentsline {subsection}{\numberline {3.1}Glasfaser}{11}{}%
+\contentsline {subsection}{\numberline {3.2}Matrix}{11}{}%
+\contentsline {subsection}{\numberline {3.3}Netztheorie}{11}{}%
+\contentsline {subsection}{\numberline {3.4}Klassische Laminatheorie}{11}{}%
+\contentsline {subsection}{\numberline {3.5}Versagenskriterium nach Puck}{11}{}%
+\contentsline {subsection}{\numberline {3.6}Bauweise}{11}{}%
+\contentsline {section}{\numberline {4}Modellierung des Holms}{13}{}%
+\contentsline {subsection}{\numberline {4.1}Annahmen zur Modellierung (T.B.)}{13}{}%
+\contentsline {subsection}{\numberline {4.2}Analytische Lösung der Modellierung (T.B.)}{13}{}%
+\contentsline {subsection}{\numberline {4.3}Analyse der Modellierung (T.B.)}{17}{}%
+\contentsline {section}{\numberline {5}Auslegung des Holms nach VDI 2013 (H.K.)}{20}{}%
+\contentsline {subsection}{\numberline {5.1}Dimensionierung der Gurte}{20}{}%
+\contentsline {subsection}{\numberline {5.2}Nachrechnung der angepassten Gurte}{22}{}%
+\contentsline {subsection}{\numberline {5.3}Bestimmung der Lagenanzahl des Steges}{23}{}%
+\contentsline {section}{\numberline {6}Auslegung nach CLT}{26}{}%
+\contentsline {subsection}{\numberline {6.1}Grundlagen der CLT}{26}{}%
+\contentsline {subsection}{\numberline {6.2}Versagenskriterium nach Puck}{26}{}%
+\contentsline {subsection}{\numberline {6.3}eLamX (T.B.)}{26}{}%
+\contentsline {section}{\numberline {7}Beulabschätzung des Holms}{28}{}%
+\contentsline {subsection}{\numberline {7.1}Beulsicherheit der Gurte (T.B.)}{28}{}%
+\contentsline {subsection}{\numberline {7.2}Beulsicherheit des Steges (T.B.)}{29}{}%
+\contentsline {section}{\numberline {8}Auslegung der Klebeverbindung}{32}{}%
+\contentsline {subsection}{\numberline {8.1}Klebeverbindung Steg - Gurt (T.B.)}{32}{}%
+\contentsline {subsection}{\numberline {8.2}Klebeverbindung Holm - Rippen (T.B.)}{32}{}%
+\contentsline {section}{\numberline {9}CAD-Modell (H.K.)}{33}{}%
+\contentsline {subsection}{\numberline {9.1}Konstruktion der Gurte}{33}{}%
+\contentsline {subsection}{\numberline {9.2}Konstruktion des Stegs}{34}{}%
+\contentsline {subsection}{\numberline {9.3}Konstruktion der Haut und der Rippen}{36}{}%
+\contentsline {subsection}{\numberline {9.4}Holzkonstruktion an der Aufnahme der Hauptbolzen}{36}{}%
+\contentsline {section}{\numberline {10}Zusammenfassung}{37}{}%
+\contentsline {section}{\numberline {11}FEM}{38}{}%
+\contentsline {subsection}{\numberline {11.1}Warum FEM?}{38}{}%
+\contentsline {subsection}{\numberline {11.2}Wie funktioniert FEM?}{38}{}%
+\contentsline {subsubsection}{\numberline {11.2.1}Schwache Lösung der Elastostatik}{38}{}%
+\contentsline {subsubsection}{\numberline {11.2.2}Diskretisierung}{39}{}%
+\contentsline {section}{\numberline {12}Quellenverzeichnis}{40}{}%
+\contentsline {section}{\numberline {13}Abbildungsverzeichnis}{41}{}%
+\contentsline {section}{\numberline {14}Tabellenverzeichnis}{42}{}%
+\contentsline {section}{\numberline {15}Anhang}{43}{}%
+\contentsline {subsection}{\numberline {15.1}Abbildungen}{43}{}%
