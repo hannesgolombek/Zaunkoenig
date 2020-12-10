@@ -4,7 +4,8 @@
 \usepackage[left=2cm,right=3cm]{geometry}
 \usepackage{graphicx}
 \usepackage{pdfpages}
-\begin {document}
+\usepackage{tabto}
+\begin{document}
 \input{Projektarbeit - Deckblatt}
 \newpage
 \input{Projektarbeit - Aufgabenstellung}
@@ -16,13 +17,16 @@
 \section{Bezeichnungen}
 \input{Projektarbeit - Bezeichnungen}
 \newpage
+\section{Einleitung}
+\input{Projektarbeit - Einleitung}
+\newpage
 \section{Grundlagen}
 \input{Projektarbeit - Grundlagen}
 \newpage
 \section{Modellierung des Holms}
 \input{Projektarbeit - Modellierung des Holms}
 \newpage
-\section{Auslegung des Holms nach VDI 2013}
+\section{Auslegung des Holms nach VDI 2013 (H.K.)}
 \input{Projektarbeit - VDI2013}
 \newpage
 \section{Auslegung nach CLT}
@@ -34,10 +38,7 @@
 \section{Auslegung der Klebeverbindung}
 \input{Projektarbeit - Auslegung der Verklebungen}
 \newpage
-\section{Bolzenauslegung}
-\input{Bolzenberechnung}
-\newpage
-\section{CAD-Modell}
+\section{CAD-Modell (H.K.)}
 \input{Projektarbeit - CAD-Modell}
 \newpage
 \section{Zusammenfassung}
@@ -50,7 +51,10 @@
 \input{Projektarbeit - Quellenverzeichnis}
 \newpage
 \section{Abbildungsverzeichnis}
-\input{Projektarbeit - Abbildungsverzeichnis}
+\listoffigures
+\newpage
+\section{Tabellenverzeichnis}
+\listoftables
 \newpage
 \section{Anhang}
 \input{Projektarbeit - Anhang}
