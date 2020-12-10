@@ -1,9 +1,9 @@
 \subsection{Annahmen zur Modellierung (T.B.)}
 Das Koordinatensystem des Flügels entspricht dem Flugzeugkoordinatensystem, sodass die \\Flügellängskoordinate durch $y$ definiert ist. Der Koordinatenursprung ist im Lager A positioniert. \\
 
-\noindent Der Holm inklusive des Holmstummels wird für die Belastung durch eine Prüfkraft $F_{pruef}$ in negative z-Richtung als Biegebalken ausgelegt. Dafür ist er an zwei Stellen gelagert, dem Lager $A$ und Lager $B$. Die Lager entsprechen den Verstiftungen (siehe Bauteil U-Profil). Um eine Überbestimmung des Systems zu vermeiden, wird das Lager $B$ als Loslager angenommen. Die Querkraftbolzen werden nicht durch ein Lager, sondern durch eine zusätzlich angreifende Kraft $F_{Q}$ simuliert, da die biegeweiche Wurzelrippe eine Absenkung erlaubt.
+\noindent Der Holm inklusive des Holmstummels wird für die Belastung durch eine Prüfkraft $F_{pruef}$ in negative z-Richtung als Biegebalken ausgelegt. Dafür ist er an zwei Stellen gelagert, dem Lager $A$ und Lager $B$. Die Lager entsprechen den Verstiftungen (siehe Bauteil U-Profil). Um eine Überbestimmung des Systems zu vermeiden, wird das Lager $B$ als Loslager angenommen. Die Querkraftbolzen werden nicht durch ein Lager, sondern durch eine zusätzlich angreifende Kraft $F_{Q}$ simuliert, da die biegeweiche Wurzelrippe eine nicht definierbare Absenkung erlaubt.\\
 
-\noindent Als Randbedingungen der Modellierung sind die Halbspannweite $s$ und die Absenkung $w$ gegeben. Für die Absenkung $w$ soll eine Sicherheit $j=1,1$ gesetzt werden. Zwischen Lager $A$ und $B$ wird die Länge $l_{1}$ angenommen, zwischen Lager $B$ und der Wurzelrippe $C$ die Länge $l_{2}$. Die verbleibende Länge bis zur Flügelspitze, an der die Prüfkraft $F_{pruef}$ wirkt, wird $l_{3}$ bezeichnet. Die Halbspannweite $s$ wird beginnend in der Mitte der Verstiftungen bis zur Flügelspitze gemessen. Das Holmstummelende wird ab dem Lager $A$ mit $l_{0}$ als Länge definiert. Diese Länge ist jedoch unerheblich für die Modellierung, sondern wird erst für die Massenbestimmung benötigt.\\
+\noindent Als Randbedingungen der Modellierung sind die Halbspannweite $s$ und die Absenkung $w$ gegeben. Für die Absenkung $w$ soll eine Sicherheit $j=1,1$ gesetzt werden. Zwischen Lager $A$ und $B$ wird die Länge $l_{1}$ angenommen, zwischen Lager $B$ und der Wurzelrippe $C$ die Länge $l_{2}$. Die verbleibende Länge bis zur Flügelspitze, an der die Prüfkraft $F_{pruef}$ wirkt, wird $l_{3}$ bezeichnet. Die Halbspannweite $s$ wird beginnend in der Mitte der Verstiftungen bis zur Flügelspitze gemessen. Die Länge vom Holmstummelende bis zu dem Lager $A$ wird als $l_{0}$ definiert. Diese Länge ist jedoch unerheblich für die Modellierung, sondern wird erst für die Massenbestimmung benötigt.\\
 
 \noindent Anhand der Randbedingungen und der Einspannvorrichtung für den Versuchsaufbau ergeben sich folgende Längen (ebenfalls in Abb. ~\ref{fig:Holmmodellierung}~ dargestellt): 
 \begin{equation}
@@ -82,40 +82,40 @@ EI_{x}\cdot w_{III}(y) = \frac{q_{III}(y)}{24}\cdot y^{4} + \frac{R_{9}}{6}\cdot
 
 \noindent Die Randbedingungen der Modellierung ergeben sich folgend: 
 \begin{equation}
-	w_{I}(l=0)=0
+	w_{I}(y=0)=0
 \end{equation}
 \begin{equation}
-	M_{I}(l=0)=0
+	M_{I}(y=0)=0
 \end{equation}\\
 \begin{equation}
-	w_{I}(l=l_{1}) = 0
+	w_{I}(y=l_{1}) = 0
 \end{equation}
 \begin{equation}
-	w_{II}(l=l_{1}) = 0
+	w_{II}(y=l_{1}) = 0
 \end{equation}
 \begin{equation}
-	w_{I}^{'}(l=l_{1}) = w_{II}^{'}(l=l_{1})
+	w_{I}^{'}(y=l_{1}) = w_{II}^{'}(y=l_{1})
 \end{equation}
 \begin{equation}
-	M_{I}(l=l_{1}) = M_{II}(l=l_{1})
+	M_{I}(y=l_{1}) = M_{II}(y=l_{1})
 \end{equation}\\
 \begin{equation}
-	w_{II}(l=l_{1}+l_{2}) = w_{III}(l=l_{1}+l_{2})
+	w_{II}(y=l_{1}+l_{2}) = w_{III}(y=l_{1}+l_{2})
 \end{equation}
 \begin{equation}
-	w_{II}^{'}(l=l_{1}+l_{2}) = w_{III}^{'}(l=l_{1}+l_{2})
+	w_{II}^{'}(y=l_{1}+l_{2}) = w_{III}^{'}(y=l_{1}+l_{2})
 \end{equation}
 \begin{equation}
-	M_{II}(l=l_{1}+l_{2}) = M_{III}(l=l_{1}+l_{2})
+	M_{II}(y=l_{1}+l_{2}) = M_{III}(y=l_{1}+l_{2})
 \end{equation}
 \begin{equation}
-	Q_{II}(l=l_{1}+l_{2}) = Q_{III}(l=l_{1}+l_{2})+F_{Q}
+	Q_{II}(y=l_{1}+l_{2}) = Q_{III}(y=l_{1}+l_{2})+F_{Q}
 \end{equation}\\
 \begin{equation}
-	M_{III}(l=l_{1}+l_{2}+l_{3})=0
+	M_{III}(y=l_{1}+l_{2}+l_{3})=0
 \end{equation}
 \begin{equation}
-	Q_{III}(l=l_{1}+l_{2}+l_{3})=F_{pruef}
+	Q_{III}(y=l_{1}+l_{2}+l_{3})=F_{pruef}
 \end{equation}
 Zusätzlich wird angenommen, dass $q_{I}(y)=q_{II}(y)=q_{III}(y)=0$ gilt, da keine Streckenlast angreift.\\
 
@@ -131,19 +131,19 @@ Zusätzlich wird angenommen, dass $q_{I}(y)=q_{II}(y)=q_{III}(y)=0$ gilt, da kei
 \begin{equation}
 	M(y,F_{pruef},F_{Q},EI_{x})=\left\{\begin{array}{ll}
 		(-F_{pruef}\cdot \frac{l_{2}+l_{3}}{l_{1}}-F_{Q}\cdot \frac{l_{2}}{l_{1}})\cdot y&,y\epsilon (0,l_{1})\\
-		(F_{pruef}+F_{Q})\cdot y - F_{pruef}\cdot (l_{1}+l_{2}+l_{3})-F_{Q}\cdot (l_{1}+l_{2})&,y\epsilon (l_{1}+l_{2})\\
-		F_{pruef}\cdot y - F_{pruef}\cdot (l_{1}+l_{2}+l_{3})&,y\epsilon (l_{1}+l_{2}+l_{3})
+		F_{pruef}\cdot (y-l_{1}+l_{2}+l_{3})+F_{Q}\cdot (y-l_{1}+l_{2})&,y\epsilon (l_{1}+l_{2})\\
+		F_{pruef}\cdot (y-l_{1}+l_{2}+l_{3})&,y\epsilon (l_{1}+l_{2}+l_{3})
 	\end{array}\right.
 \end{equation}\\
 \begin{equation}
 	w(y,F_{pruef},F_{Q},EI_{x})=\left\{\begin{array}{ll}
-		\frac{1}{EI_{x}}\cdot\frac{1}{6}\cdot\biggl(F\cdot \frac{l_{2}+l_{3}}{l_{1}}-F_{Q}\cdot \frac{l_{2}}{l_{1}})\cdot y^{3}-\Bigl((l_{2}+l_{3})\cdot l_{1}\cdot F_{pruef}-l_{1}\cdot l_{2}\cdot F_{Q}\Bigl)\cdot y \biggr)&\\,y\epsilon (0,l_{1})\\
+		\frac{1}{EI_{x}}\cdot\frac{1}{6}\cdot\biggl(F\cdot( \frac{l_{2}+l_{3}}{l_{1}}-F_{Q}\cdot \frac{l_{2}}{l_{1}})\cdot y^{3}-\Bigl((l_{2}+l_{3})\cdot l_{1}\cdot F_{pruef}-l_{1}\cdot l_{2}\cdot F_{Q}\Bigl)\cdot y \biggr)&\\,y\epsilon (0,l_{1})\\
 		\frac{1}{EI_{x}}\cdot\biggl(\frac{(-F_{pruef}-F_{Q})}{6}\cdot y^{3} + \frac{F_{pruef}\cdot (l_{1}+l_{2}+l_{3})+F_{Q}\cdot (l_{1}+L_{2})}{2}\cdot y^{2}\\ + \Bigl(F_{pruef}\cdot(-\frac{1}{2}\cdot l_{1}^{2}-\frac{2}{3}\cdot l_{1}\cdot l_{2}-\frac{2}{3}\cdot l_{1}\cdot l_{3})+ F_{Q}\cdot(-\frac{1}{2}l_{1}^{2}-\frac{2}{3}\cdot l_{1}\cdot l_{2})\Bigr)\cdot y \\+ F_{pruef}\cdot\frac{1}{6}\cdot(l_{1}^{3}+l_{1}^{2}\cdot l_{2}+l_{1}^{2}\cdot l_{3}) + F_{Q}\cdot\frac{1}{6}\cdot(l_{1}^{3}+l_{1}^{2}\cdot l_{2})\biggr)&\\,y\epsilon (l_{1}+l_{2})\\
 		\frac{1}{EI_{x}}\cdot\biggl(-\frac{F_{pruef}}{6}\cdot y^{3} + \frac{ F_{pruef}\cdot (l_{1}+l_{2}+l_{3})}{2}\cdot y^{2} + \Bigl(F_{pruef} \\
 		\cdot(-\frac{1}{2}\cdot l_{1}^{2} -\frac{2}{3}\cdot l_{1}\cdot l_{2}-\frac{2}{3}\cdot l_{1}\cdot l_{3}) + F_{Q}\cdot(\frac{1}{2}\cdot l_{2}^{2}+\frac{1}{2}\cdot l_{1}\cdot l_{2})\Bigr)\cdot y \\ +F_{pruef}\cdot\frac{1}{6}\cdot(l_{1}^{3}+l_{1}^{2}\cdot l_{2}+l_{1}^{2}\cdot l_{3}) + F_{Q}\cdot(-\frac{1}{6}\cdot l_{2}^{3}-\frac{1}{3}\cdot l_{1}^{2}\cdot l_{2}-\frac{1}{2}\cdot l_{2}^{2}\cdot l_{1})\biggr)&\\,y\epsilon (l_{1}+l_{2}+l_{3})
 	\end{array}\right.
 \end{equation}\\
-Die Herleitung der Lösung ist dem Anhang beigefügt.\\
+Die Herleitung der Lösung wird dem Anhang beigefügt.\\
 
 \noindent Um nun für die Biegesteifigkeit $EI_{x}$ ein Ergebnis zu erhalten, wird die Gleichung $w(y,F_{pruef},F_{Q})$ nach $EI_{x}(y,F_{pruef},F_{Q},w)$ umgestellt. Die eingesetzten Werte ergeben sich aus der Auslegung auf Steifigkeit. Über die Wurzelrippe werden Kräfte des Holms in die Querkraftbolzen abgesetzt. Aufgrund der biegeweichen Wurzelrippe darf die Absenkung des Holms dort nicht mit null angenommen werden. Vereinfacht wird definiert, dass die eingeleitete Prüfkraft $F_{pruef}$ an den Querkraftbolzen um ihren Betrag abgesetzt wird, wie es tatsächlich an einem Flugzeugrumpf geschehen würde. 
 
@@ -156,7 +156,7 @@ Die Herleitung der Lösung ist dem Anhang beigefügt.\\
 \end{equation}
 
 \subsection{Analyse der Modellierung (T.B.)}
-In Abb. ~\ref{fig:Steifigkeitsauslegung} werden der Querkraftverläufe $Q(y,F_{pruef},F_{Q},EI_{x})$ als innere Schnittkraft, der Momentenverlauf $M(y,F_{pruef},F_{Q},EI_{x})$ als inneres Schnittmoment und die Biegelinie $w(y,F_{pruef},F_{Q},EI_{x})$,für den Nachweis der Steifigkeit graphisch dargestellt, über die gesamte Holmlänge und in einem vergrößerten Ausschnitt im Bereich der Lager. \\
+In Abb. ~\ref{fig:Steifigkeitsauslegung} werden der Querkraftverläufe $Q(y,F_{pruef},F_{Q},EI_{x})$ als innere Schnittkraft, der Momentenverlauf $M(y,F_{pruef},F_{Q},EI_{x})$ als inneres Schnittmoment und die Biegelinie $w(y,F_{pruef},F_{Q},EI_{x})$ für den Nachweis der Steifigkeit graphisch dargestellt, über die gesamte Holmlänge und in einem vergrößerten Ausschnitt im Bereich der Lager. \\
 
 \begin{figure}
 	\includegraphics[width=1.0\textwidth]{Bilder/Grafiken Steifigkeit.png}
