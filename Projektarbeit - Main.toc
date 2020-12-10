@@ -1,5 +1,17 @@
 \babel@toc {ngerman}{}
 \contentsline {section}{\numberline {1}Bezeichnungen}{8}{}%
+<<<<<<< HEAD
+\contentsline {section}{\numberline {2}Grundlagen}{10}{}%
+\contentsline {subsection}{\numberline {2.1}Glasfaser}{10}{}%
+\contentsline {subsection}{\numberline {2.2}Matrix}{10}{}%
+\contentsline {subsection}{\numberline {2.3}Netztheorie}{10}{}%
+\contentsline {subsection}{\numberline {2.4}Klassische Laminatheorie}{10}{}%
+\contentsline {subsection}{\numberline {2.5}Versagenskriterium nach Puck}{10}{}%
+\contentsline {section}{\numberline {3}Modellierung des Holms}{11}{}%
+\contentsline {subsection}{\numberline {3.1}Annahmen zur Modellierung (T.B.)}{11}{}%
+\contentsline {subsection}{\numberline {3.3}Analyse der Modellierung (T.B.)}{13}{}%
+\contentsline {section}{\numberline {4}Auslegung des Holms nach VDI 2013}{17}{}%
+=======
 \contentsline {section}{\numberline {2}Grundlagen}{9}{}%
 \contentsline {subsection}{\numberline {2.1}Glasfaser}{9}{}%
 \contentsline {subsection}{\numberline {2.2}Matrix}{9}{}%
@@ -11,6 +23,7 @@
 \contentsline {subsection}{\numberline {3.2}Analytische Lösung der Modellierung (T.B.)}{10}{}%
 \contentsline {subsection}{\numberline {3.3}Analyse der Modellierung (T.B.)}{14}{}%
 \contentsline {section}{\numberline {4}Auslegung des Holms nach VDI 2013 (H.K.)}{17}{}%
+>>>>>>> main
 \contentsline {subsection}{\numberline {4.1}Dimensionierung der Gurte}{17}{}%
 \contentsline {subsection}{\numberline {4.2}Nachrechnung der angepassten Gurte}{19}{}%
 \contentsline {subsection}{\numberline {4.3}Bestimmung der Lagenanzahl des Steges}{20}{}%
