@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  10 DEC 2020 23:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  11 DEC 2020 00:01
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -362,18 +362,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) [8] ("Projektarbeit - Einleitung.tex") [9] ("Projektarbeit - Grundlagen.tex"
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
 <Bilder/Holmarten.png, id=99, 158.994pt x 52.998pt>
 File: Bilder/Holmarten.png Graphic file (type png)
 <use Bilder/Holmarten.png>
-Package pdftex.def Info: Bilder/Holmarten.png  used on input line 18.
+Package pdftex.def Info: Bilder/Holmarten.png  used on input line 22.
 (pdftex.def)             Requested size: 455.24411pt x 151.77124pt.
-) [10] [11 <./Bilder/Holmarten.png>]
-("Projektarbeit - Modellierung des Holms.tex"
+) [10] [11 <./Bilder/Holmarten.png>] ("Projektarbeit - Modellierung des Holms.t
+ex"
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
@@ -432,24 +433,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
-
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 
-Overfull \hbox (30.62935pt too wide) detected at line 137
-\OML/cmm/m/it/10.95 M\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 y; F[]; F[]; EI[]\
-OT1/cmr/m/n/10.95 ) = []
- []
-
-[14]
 Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
 
-Overfull \hbox (35.12991pt too wide) detected at line 145
+Overfull \hbox (39.38826pt too wide) detected at line 145
 \OML/cmm/m/it/10.95 w\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 y; F[]; F[]; EI[]\
 OT1/cmr/m/n/10.95 ) = []
  []
@@ -465,15 +460,14 @@ Overfull \hbox (32.55057pt too wide) detected at line 156
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4886) has occurred while \output is active []
 
  [15]
-Overfull \hbox (47.40448pt too wide) in paragraph at lines 159--160
+Overfull \hbox (30.76666pt too wide) in paragraph at lines 159--160
 \T1/cmr/m/n/10.95 men-ten-ver-lauf $\OML/cmm/m/it/10.95 M\OT1/cmr/m/n/10.95 (\O
 ML/cmm/m/it/10.95 y; F[]; F[]; EI[]\OT1/cmr/m/n/10.95 )$ \T1/cmr/m/n/10.95 als 
 in-ne-res Schnitt-mo-ment und die Bie-ge-li-nie $\OML/cmm/m/it/10.95 w\OT1/cmr/
-m/n/10.95 (\OML/cmm/m/it/10.95 y; F[]; F[]; EI[]\OT1/cmr/m/n/10.95 )$\T1/cmr/m/
-n/10.95 ,für
+m/n/10.95 (\OML/cmm/m/it/10.95 y; F[]; F[]; EI[]\OT1/cmr/m/n/10.95 )$
  []
 
 
@@ -780,7 +774,7 @@ png>] [47 <./Bilder/Konstanten Holmgurte.png>] [48 <./Bilder/Konstanten Steg dÃ
 Here is how much of TeX's memory you used:
  4310 strings out of 479799
  67002 string characters out of 2869723
- 376971 words of memory out of 3000000
+ 377971 words of memory out of 3000000
  21172 multiletter control sequences out of 15000+200000
  543492 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -803,9 +797,9 @@ ts/cm/cmr8.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (49 pages, 2273757 bytes).
+Output written on "Projektarbeit - Main.pdf" (49 pages, 2275130 bytes).
 PDF statistics:
- 620 PDF objects out of 1000 (max. 8388607)
+ 624 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

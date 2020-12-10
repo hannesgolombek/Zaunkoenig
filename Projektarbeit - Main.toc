@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {3.3}Netztheorie}{10}{}%
 \contentsline {subsection}{\numberline {3.4}Klassische Laminattheorie}{10}{}%
 \contentsline {subsection}{\numberline {3.5}Versagenskriterium nach Puck}{10}{}%
-\contentsline {subsection}{\numberline {3.6}Bauweise}{10}{}%
+\contentsline {subsection}{\numberline {3.6}Bauweise}{11}{}%
 \contentsline {section}{\numberline {4}Modellierung des Holms}{12}{}%
 \contentsline {subsection}{\numberline {4.1}Annahmen zur Modellierung (T.B.)}{12}{}%
 \contentsline {subsection}{\numberline {4.2}Analytische Lösung der Modellierung (T.B.)}{12}{}%
