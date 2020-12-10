@@ -28,7 +28,7 @@ Mit den gegebenen Materialkennwerten bestimmt sich $ E_{11} = 31580 MPa $. Damit
 
 \noindent Es wird nach einer Kombination aus Gurtbreite $ b $ und Gurthöhe $ h $ gesucht, die die Anforderungen an das Flächenträgheitsmoment erfüllt, aber dennoch zu einer möglichst geringen Gurtquerschnittsfläche und damit zu einer möglichst geringen Masse der Gurte führt. Um die Steiner-Anteile der Gurte zu maximieren, sollen die Gurte in einem möglichst großen Abstand zur neutralen Faser angeordnet werden. Vorgegeben ist eine Profildicke von $ 37,5mm $, allerdings muss berücksichtigt werden, dass die nach innen gelegte Haut, die Wölbungsrücklage und die Dickenrücklage die maximale Höhe des Holmes einschränken. Deshalb wird die gesamte Gurthöhe auf $ h_{a}=36mm $ abgeschätzt. Die dadurch begrenzte Anzahl der Lagen in der Haut wird im Abschnitt "CAD-Modell" weiter erläutert.\\ 
 
-\noindent Die nachstehende Tabelle ~\ref{bh} enthält Werte der Gurtquerschnittsfläche bei verschiedenen Kombinationen von $ b $ und $ h $, die zu einem gesamten Flächenträg-heitsmoment von $ I_{x} = 3,01631 * 10^{-8} m^{4} $ führen.\\
+\noindent Tabelle ~\ref{bh} enthält Werte der Gurtquerschnittsfläche bei verschiedenen Kombinationen von $ b $ und $ h $, die zu einem gesamten Flächenträgheitsmoment von $ I_{x} = 3,01631 * 10^{-8} m^{4} $ führen.\\
 \begin{table}
 	\caption{Verschiedene Kombinationsmöglichkeiten von $ b $ und $ h $}
 	\label{bh}
@@ -49,7 +49,7 @@ Mit den gegebenen Materialkennwerten bestimmt sich $ E_{11} = 31580 MPa $. Damit
 \noindent Den Daten ist zu entnehmen, dass breite Gurte geringer Dicke bei gleichem Flächenträgheitsmoment geringere Querschnittsflächen aufweisen. Aus diesem Grund sollen die Gurte möglichst breit gewählt werden. Die Breite der Gurte ist durch die vorgegebene Konstruktion der Platte zur Aufnahme der Tragfläche am Teststand begrenzt. Die vorgesehene Aussparung weist eine Breite von $ 30mm $ auf. Für die weitere Berechnung soll $ b=28mm $ gelten. Diese Annahme wird dadurch begründet, dass die Fertigung des Holms im Bereich des Modellbaus von Hand erfolgen würde, womit nur grobe Toleranzen einhaltbar sind.\\
 
 \noindent Mithilfe eines Solvers bestimmt sich aus dem Flächenträgheitsmoment und der Gurtbreite die Gurthöhe $ h=1,866mm $.\\
-\noindent Im nächsten Schritt wird die zu stapelnde Lagenanzahl ermittelt. Als unidirektionales Material steht das Glasgewebe Interglas 92145 mit einem Flächengewicht von $ 220\frac{g}{m^{2}} $zur Verfügung. Nach [3] berechnet sich die Lagenanzahl $ n $ für eine Dicke des Verbundes $ t_{soll} $ zu:\\
+\noindent Im nächsten Schritt wird die zu stapelnde Lagenanzahl ermittelt. Als unidirektionales Material steht das Glasgewebe Interglas 92145 mit einem Flächengewicht von $ 220\frac{g}{m^{2}} $zur Verfügung. Nach \cite{item3} berechnet sich die Lagenanzahl $ n $ für eine Dicke des Verbundes $ t_{soll} $ zu:\\
 
 \begin{equation}
 	\label{gurtlagen}
@@ -68,7 +68,7 @@ Mit den gegebenen Materialkennwerten bestimmt sich $ E_{11} = 31580 MPa $. Damit
  	\label{fig: KrummerGurt}
  \end{figure}
 
-\noindent Die angepasste Krümmung der Gurte führt zu einem veränderten Flächenträg-heitsmoment $ \tilde{I_{x}} $ des Balkens, dass mithilfe des CAD-Programms exakt zu $ \tilde{I_{x}}=3,075406*10^{-8}m^{4} $ bestimmt werden kann. Da 
+\noindent Die angepasste Krümmung der Gurte führt zu einem veränderten Flächenträgheitsmoment $ \tilde{I_{x}} $ des Balkens, dass mithilfe des CAD-Programms exakt zu $ \tilde{I_{x}}=3,075406*10^{-8}m^{4} $ bestimmt werden kann. Da 
 \begin{equation}
 	\label{IVergleich}
 	\tilde{I_{x}}=3,075406*10^{-8}m^{4} > I_{x,min}=3,04722*10^{-8}m^{4}
