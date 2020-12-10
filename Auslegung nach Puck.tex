@@ -1,7 +1,7 @@
 \subsection{Grundlagen der CLT}
 \subsection{Versagenskriterium nach Puck}
 \subsection{eLamX (T.B.)}
-ELamX ist eine Laminatberechnungsprogramm, das anhand der klassischen Laminattheorie mit unterschiedlichen Versagenskriterien berechnen kann, inwiefern ein gewählter Lagenaufbau den Festigkeitskriterien standhält. Zusätzlich sind weitere Funktionen, wie z.B. Beulberechnungen, Optimierungen etc. nutzbar, jedoch für diese Auslegung irrelevant.
+ELamX ist ein Laminatberechnungsprogramm, das anhand der klassischen Laminattheorie mit unterschiedlichen Versagenskriterien berechnen kann, inwiefern ein gewählter Lagenaufbau den Festigkeitskriterien gerecht wird. Zusätzlich sind weitere Funktionen, wie zum Beispiel Beulberechnungen, Optimierungen etc. nutzbar, jedoch für diese Auslegung irrelevant.
 
 \noindent Vorerst wurden die gegeben Materialeigenschaften der Aufgabenstellung als Fasermaterial, Matrixmaterial und  Materialeigenschaften definiert.\\
 
@@ -12,11 +12,11 @@ ELamX ist eine Laminatberechnungsprogramm, das anhand der klassischen Laminatthe
 	\hline
 	$E_{f,11}$ & $74000MPa$  & $E_{M}$ & $3300MPa$  & $R_{\parallel}^{-}$ & $650,0MPa$\\
 	\hline
-	$E_{f,22}$ & $74000MPa$  & $G_{M}$ & $1222MPa$  & $R_{\perp}^{+}$ & $37,7MPa$\\
+	$E_{f,22}$ & $74000MPa$  &  &   & $R_{\perp}^{+}$ & $37,7MPa$\\
 	\hline
-	$G_{f,12}$ & $30800MPa$ & $\nu_{M}$ & $0,35$  & $R_{\perp}^{+-}$ & $130,0MPa$\\
+	$G_{f,12}$ & $30800MPa$ & $G_{M}$ & $1222MPa$ & $R_{\perp}^{+-}$ & $130,0MPa$\\
 	\hline
-	$\nu_{f,21}$ & $0,2$  & &   & $R_{\parallel\perp}$ & $37,5MPa$\\
+	$\nu_{f,21}$ & $0,2$  &$\nu_{M}$ &  $0,35$  & $R_{\parallel\perp}$ & $37,5MPa$\\
 \end{tabular}\\
 
 \noindent Mit einem Faservolumenanteil $\varphi=0,4$ ergeben sich folgende weitere Materialeigenschaften:\\
@@ -33,11 +33,11 @@ ELamX ist eine Laminatberechnungsprogramm, das anhand der klassischen Laminatthe
 	$G_{\parallel\perp}$ & $1984,5 MPa$\\
 \end{tabular}\\
 
-\noindent Anschließend werden die nach Kapitel ? (VDI 2013) berechneten Laminate bzw. Lagenzusammensetzungen aus aus mehreren Material-Lagen zusammengesetzt. Eine Gewebelage wird dabei durch zwei einzelne Materiallagen mit einem Winkel von $90°$ zueinander simuliert, sodass sich die doppelte Anzahl des Materials gegenüber der Lagenanzahl ergibt.Für die Holmgurte ergibt sich ein Lagenaufbau nach ~\ref{fig:Lagenaufbau Holmgurte} und für den dünnen Steg nach ~\ref{fig:Lagenaufbau Steg dünn}. Für den dicken Steg ergibt sich der gleich Aufbau wie bei dem dünnen Steg, allerdings mit 24 Lagen (siehe Abb. ~\ref{fig:Lagenaufbau Steg dick}). Weshalb die sich die Anzahl der Gewebelagen gegenüber der Auslegung nach [VDI 2013] unterscheidet, wird folgend beschrieben.\\ 
+\noindent Anschließend werden die nach Kapitel ~\ref{VDI2013} berechneten Laminate bzw. Lagenzusammensetzungen aus mehreren Material-Lagen zusammengesetzt. Eine Gewebelage wird dabei durch zwei einzelne Materiallagen mit einem Winkel von $90^{\circ}$ zueinander simuliert, sodass sich die doppelte Anzahl des Materials gegenüber der Lagenanzahl ergibt.Für die Holmgurte ergibt sich ein Lagenaufbau nach Abbildung ~\ref{fig:Lagenaufbau Holmgurte} und für den dünnen Steg nach Abbildung ~\ref{fig:Lagenaufbau Steg dünn}. Für den dicken Steg ergibt sich der gleiche Aufbau wie bei dem dünnen Steg, allerdings mit 24 Lagen (siehe Abb. ~\ref{fig:Lagenaufbau Steg dick}). Weshalb sich die Anzahl der Gewebelagen gegenüber der Auslegung nach VDI 2013 unterscheidet, wird folgend beschrieben.\\ 
 
-\noindent Anschließend werden die nach [VDI 2013] errechneten Normalkraft- und Schubflüsse bzw. Dehnungen eingegeben, sodass nun die Sicherheiten nach den Versagenskriterien von Puck ermittelt werden können. Zu beachten ist dabei, dass diese auf das allgemeine Koordinatensystem und nicht auf die der einzelnen Lagen bezogen werden. Es wird automatisch die niedrigste Sicherheit mit dem jeweiligen Versagenskriterium ausgegeben.\\
+\noindent Anschließend werden die nach VDI 2013 errechneten Normalkraft- und Schubflüsse bzw. Dehnungen eingegeben, sodass nun die Sicherheiten nach den Versagenskriterien von Puck ermittelt werden können. Zu beachten ist dabei, dass diese auf das allgemeine Koordinatensystem und nicht auf die der einzelnen Lagen bezogen werden. Es wird automatisch die niedrigste Sicherheit mit dem jeweiligen Versagenskriterium ausgegeben.\\
 
-\noindent Um stets eine Sicherheit von $j>1$ zu garantieren, müssen im Steg noch weitere Lagen hinzugefügt werden, sodass sich eine Gesamt-Lagenanzahl von 4 und 24 statt 2 und 18 ergibt. Dieses kann u.a. daran liegen, dass die [VDI 2013] mit Konstanten rechnet, die nur beispielhaft an einem Gewebe ermittelt wurden und somit nicht exakt für die gegebenen Gewebe der Aufgabenstellung gelten können.
-Dargestellt sind die Rechnungen in Abb. ~\ref{fig:Berechnung Holmgurte}, Abb.~\ref{fig:Berechnung Steg dünn} und Abb.~\ref{fig:Berechnung Steg dick} (im Folgenden wird für den Steg nur noch die eine symmetrische Hälfte gezeigt).\\
+\noindent Um stets eine Sicherheit von $j>1$ zu garantieren, müssen im Steg noch weitere Lagen hinzugefügt werden, sodass sich eine Gesamt-Lagenanzahl von 4 und 24 statt 2 und 20 ergibt. Dieses kann u.a. daran liegen, dass die VDI 2013 mit Konstanten rechnet, die nur beispielhaft an einem Gewebe ermittelt wurden und somit nicht exakt für die gegebenen Gewebe der Aufgabenstellung gelten können.
+Dargestellt sind die Rechnungen in Abb. ~\ref{fig:Berechnung Holmgurte}, Abb.~\ref{fig:Berechnung Steg dünn} und Abb.~\ref{fig:Berechnung Steg dick}.\\
 
-\noindent Als nächstes können die Ingenieurskonstanten ermittelt werden, welche man für die spätere Beulabschätzung benötigt werden (siehe Abb. ~\ref{fig:Ingenieurskonstanten Holmgurte}, Abb.~\ref{fig:Ingenieurskonstanten Steg dick} und Abb.~\ref{fig:Ingenieurskonstanten Steg dünn}).
+\noindent Als nächstes können die Ingenieurskonstanten ermittelt werden, welche für die spätere Beulabschätzung benötigt werden (siehe Abb. ~\ref{fig:Ingenieurskonstanten Holmgurte}, Abb.~\ref{fig:Ingenieurskonstanten Steg dick} und Abb.~\ref{fig:Ingenieurskonstanten Steg dünn}).

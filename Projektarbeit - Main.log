@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  10 DEC 2020 18:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  10 DEC 2020 21:34
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -361,24 +361,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [8] ("Projektarbeit - Einleitung.tex")
-Underfull \vbox (badness 7451) has occurred while \output is active []
-
- [9]
-[10] ("Projektarbeit - Grundlagen.tex"
-<Bilder/Holmarten.png, id=101, 158.994pt x 52.998pt>
+) [8] ("Projektarbeit - Einleitung.tex") [9] ("Projektarbeit - Grundlagen.tex"
+<Bilder/Holmarten.png, id=99, 158.994pt x 52.998pt>
 File: Bilder/Holmarten.png Graphic file (type png)
 <use Bilder/Holmarten.png>
 Package pdftex.def Info: Bilder/Holmarten.png  used on input line 18.
 (pdftex.def)             Requested size: 455.24411pt x 151.77124pt.
-) [11] [12 <./Bilder/Holmarten.png>]
-("Projektarbeit - Modellierung des Holms.tex"
+) [10] [11 <./Bilder/Holmarten.png>] ("Projektarbeit - Modellierung des Holms.t
+ex"
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
@@ -387,7 +378,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-<Bilder/Balkenmodell.jpg, id=108, 963.6pt x 542.025pt>
+<Bilder/Balkenmodell.jpg, id=106, 963.6pt x 542.025pt>
 File: Bilder/Balkenmodell.jpg Graphic file (type jpg)
 <use Bilder/Balkenmodell.jpg>
 Package pdftex.def Info: Bilder/Balkenmodell.jpg  used on input line 28.
@@ -397,7 +388,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-[13]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
@@ -407,7 +398,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
-[14 <./Bilder/Balkenmodell.jpg>]
+[13 <./Bilder/Balkenmodell.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
@@ -437,53 +428,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
-[15]
+
 Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 
+Overfull \hbox (30.62935pt too wide) detected at line 137
+\OML/cmm/m/it/10.95 M\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 y; F[]; F[]; EI[]\
+OT1/cmr/m/n/10.95 ) = []
+ []
+
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--146
+Overfull \hbox (35.12991pt too wide) detected at line 145
+\OML/cmm/m/it/10.95 w\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 y; F[]; F[]; EI[]\
+OT1/cmr/m/n/10.95 ) = []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
 
  []
 
 
-Overfull \hbox (23.99394pt too wide) detected at line 156
+Overfull \hbox (32.55057pt too wide) detected at line 156
 []
  []
 
 
-Underfull \vbox (badness 5460) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16]
+ [15]
+Overfull \hbox (47.40448pt too wide) in paragraph at lines 159--160
+\T1/cmr/m/n/10.95 men-ten-ver-lauf $\OML/cmm/m/it/10.95 M\OT1/cmr/m/n/10.95 (\O
+ML/cmm/m/it/10.95 y; F[]; F[]; EI[]\OT1/cmr/m/n/10.95 )$ \T1/cmr/m/n/10.95 als 
+in-ne-res Schnitt-mo-ment und die Bie-ge-li-nie $\OML/cmm/m/it/10.95 w\OT1/cmr/
+m/n/10.95 (\OML/cmm/m/it/10.95 y; F[]; F[]; EI[]\OT1/cmr/m/n/10.95 )$\T1/cmr/m/
+n/10.95 ,f�r
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
-<Bilder/Grafiken Steifigkeit.png, id=129, 492.03825pt x 424.58624pt>
+<Bilder/Grafiken Steifigkeit.png, id=126, 492.03825pt x 424.58624pt>
 File: Bilder/Grafiken Steifigkeit.png Graphic file (type png)
 <use Bilder/Grafiken Steifigkeit.png>
 Package pdftex.def Info: Bilder/Grafiken Steifigkeit.png  used on input line 16
 2.
 (pdftex.def)             Requested size: 455.24411pt x 392.83978pt.
-<Bilder/Grafiken Festigkeit.png, id=131, 483.60675pt x 422.7795pt>
+<Bilder/Grafiken Festigkeit.png, id=128, 483.60675pt x 422.7795pt>
 File: Bilder/Grafiken Festigkeit.png Graphic file (type png)
 <use Bilder/Grafiken Festigkeit.png>
 Package pdftex.def Info: Bilder/Grafiken Festigkeit.png  used on input line 169
 .
 (pdftex.def)             Requested size: 455.24411pt x 397.99338pt.
-) [17] [18 <./Bilder/Grafiken Steifigkeit.png>] [19 <./Bilder/Grafiken Festigke
+) [16] [17 <./Bilder/Grafiken Steifigkeit.png>] [18 <./Bilder/Grafiken Festigke
 it.png>] ("Projektarbeit - VDI2013.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-<Bilder/RechteckHolm.jpg, id=144, 963.6pt x 542.025pt>
+<Bilder/RechteckHolm.jpg, id=140, 963.6pt x 542.025pt>
 File: Bilder/RechteckHolm.jpg Graphic file (type jpg)
 <use Bilder/RechteckHolm.jpg>
 Package pdftex.def Info: Bilder/RechteckHolm.jpg  used on input line 9.
@@ -501,12 +513,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-[20]
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-[21 <./Bilder/RechteckHolm.jpg>]
+[20 <./Bilder/RechteckHolm.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 50--52
 
  []
@@ -516,7 +528,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-<Bilder/KrummerGurt.jpg, id=151, 1160.83687pt x 342.27875pt>
+<Bilder/KrummerGurt.jpg, id=148, 1160.83687pt x 342.27875pt>
 File: Bilder/KrummerGurt.jpg Graphic file (type jpg)
 <use Bilder/KrummerGurt.jpg>
 Package pdftex.def Info: Bilder/KrummerGurt.jpg  used on input line 64.
@@ -534,7 +546,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-[22]
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
@@ -544,27 +556,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
-[23 <./Bilder/KrummerGurt.jpg>]
+[22 <./Bilder/KrummerGurt.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 96--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 122--124
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--128
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
 
  []
 
-) [25] ("Auslegung nach Puck.tex"
+) [24] ("Auslegung nach Puck.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
@@ -585,13 +597,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--35
  []
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 36.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 36.
-
-Missing character: There is no � in font cmr10!
-
 Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
@@ -606,7 +611,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
-[26]) [27] ("Projektarbeit - Beulabschätzung des Holms.tex"
+[25]) [26] ("Projektarbeit - Beulabschätzung des Holms.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -616,7 +621,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
-[28] [29]
+[27] [28]
 Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
  []
@@ -626,17 +631,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--118
 
  []
 
-[30]) [31] ("Projektarbeit - Auslegung der Verklebungen.tex"
+[29]) [30] ("Projektarbeit - Auslegung der Verklebungen.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
  []
 
-) [32] ("Projektarbeit - CAD-Modell.tex"
+) [31] ("Projektarbeit - CAD-Modell.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-<Bilder/Kontur.jpg, id=187, 1445.90187pt x 326.72063pt>
+<Bilder/Kontur.jpg, id=185, 1445.90187pt x 326.72063pt>
 File: Bilder/Kontur.jpg Graphic file (type jpg)
 <use Bilder/Kontur.jpg>
 Package pdftex.def Info: Bilder/Kontur.jpg  used on input line 7.
@@ -649,8 +654,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--12
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[33]
-<Bilder/StegPrinzip.jpg, id=191, 963.6pt x 542.025pt>
+[32]
+<Bilder/StegPrinzip.jpg, id=189, 963.6pt x 542.025pt>
 File: Bilder/StegPrinzip.jpg Graphic file (type jpg)
 <use Bilder/StegPrinzip.jpg>
 Package pdftex.def Info: Bilder/StegPrinzip.jpg  used on input line 14.
@@ -660,12 +665,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-[34 <./Bilder/Kontur.jpg> <./Bilder/StegPrinzip.jpg>]
+[33 <./Bilder/Kontur.jpg> <./Bilder/StegPrinzip.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-<Bilder/Seite.jpg, id=195, 691.58376pt x 187.19937pt>
+<Bilder/Seite.jpg, id=193, 691.58376pt x 187.19937pt>
 File: Bilder/Seite.jpg Graphic file (type jpg)
 <use Bilder/Seite.jpg>
 Package pdftex.def Info: Bilder/Seite.jpg  used on input line 37.
@@ -681,47 +686,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
 Underfull \vbox (badness 3000) has occurred while \output is active []
 
- [35]
+ [34]
 Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-<Bilder/Klotz.jpg, id=199, 638.88687pt x 274.52562pt>
+<Bilder/Klotz.jpg, id=197, 638.88687pt x 274.52562pt>
 File: Bilder/Klotz.jpg Graphic file (type jpg)
 <use Bilder/Klotz.jpg>
 Package pdftex.def Info: Bilder/Klotz.jpg  used on input line 50.
 (pdftex.def)             Requested size: 455.24411pt x 195.61829pt.
-) [36 <./Bilder/Seite.jpg>] [37 <./Bilder/Klotz.jpg>]
-("Projektarbeit - Zusammenfassung.tex") [38] ("Projektarbeit - FEM.tex"
+) [35 <./Bilder/Seite.jpg>] [36 <./Bilder/Klotz.jpg>]
+("Projektarbeit - Zusammenfassung.tex") [37] ("Projektarbeit - FEM.tex"
 Overfull \hbox (76.52371pt too wide) in paragraph at lines 5--6
 \T1/cmr/m/n/10.95 F�r die Be-rech-nung der Elas-to-sta-tik sind die Gleich-ge-w
 ichts-be-din-gung (92[]), Verzerrungs-Verschiebungsbedingung
  []
 
-[39]) [40] ("Projektarbeit - Quellenverzeichnis.tex") [41]
+[38]) [39] ("Projektarbeit - Quellenverzeichnis.tex") [40]
 ("Projektarbeit - Main.lof")
 \tf@lof=\write4
 \openout4 = `"Projektarbeit - Main.lof"'.
 
- [42] ("Projektarbeit - Main.lot")
+ [41] ("Projektarbeit - Main.lot")
 \tf@lot=\write5
 \openout5 = `"Projektarbeit - Main.lot"'.
 
- [43]
+ [42]
 ("Projektarbeit - Anhang.tex"
-<Bilder/Lagenaufbau Holmgurte.png, id=227, 588.39825pt x 178.86826pt>
+<Bilder/Lagenaufbau Holmgurte.png, id=223, 588.39825pt x 178.86826pt>
 File: Bilder/Lagenaufbau Holmgurte.png Graphic file (type png)
 <use Bilder/Lagenaufbau Holmgurte.png>
 Package pdftex.def Info: Bilder/Lagenaufbau Holmgurte.png  used on input line 3
 .
 (pdftex.def)             Requested size: 455.24411pt x 138.39493pt.
-<Bilder/Lagenaufbau Steg dünn.png, id=228, 584.78474pt x 161.403pt>
+<Bilder/Lagenaufbau Steg dünn.png, id=224, 584.78474pt x 161.403pt>
 File: Bilder/Lagenaufbau Steg dünn.png Graphic file (type png)
 <use Bilder/Lagenaufbau Steg dünn.png>
 Package pdftex.def Info: Bilder/Lagenaufbau Steg dünn.png  used on input line 
 8.
 (pdftex.def)             Requested size: 455.24411pt x 125.64755pt.
-<Bilder/Lagenaufbau Steg dick.png, id=229, 343.2825pt x 496.85625pt>
+<Bilder/Lagenaufbau Steg dick.png, id=225, 343.2825pt x 496.85625pt>
 File: Bilder/Lagenaufbau Steg dick.png Graphic file (type png)
 <use Bilder/Lagenaufbau Steg dick.png>
 Package pdftex.def Info: Bilder/Lagenaufbau Steg dick.png  used on input line 1
@@ -731,52 +736,52 @@ Package pdftex.def Info: Bilder/Lagenaufbau Steg dick.png  used on input line 1
 
 LaTeX Warning: Float too large for page by 93.09843pt on input line 16.
 
-<Bilder/Berechnung Holmgurte.png, id=230, 894.9435pt x 463.7325pt>
+<Bilder/Berechnung Holmgurte.png, id=226, 894.9435pt x 463.7325pt>
 File: Bilder/Berechnung Holmgurte.png Graphic file (type png)
 <use Bilder/Berechnung Holmgurte.png>
 Package pdftex.def Info: Bilder/Berechnung Holmgurte.png  used on input line 18
 .
 (pdftex.def)             Requested size: 455.24411pt x 235.8919pt.
-<Bilder/Berechnung Steg dünn.png, id=231, 901.56825pt x 440.847pt>
+<Bilder/Berechnung Steg dünn.png, id=227, 901.56825pt x 440.847pt>
 File: Bilder/Berechnung Steg dünn.png Graphic file (type png)
 <use Bilder/Berechnung Steg dünn.png>
 Package pdftex.def Info: Bilder/Berechnung Steg dünn.png  used on input line 2
 3.
 (pdftex.def)             Requested size: 455.24411pt x 222.60243pt.
-<Bilder/Berechnung Steg dick.png, id=232, 542.025pt x 504.08325pt>
+<Bilder/Berechnung Steg dick.png, id=228, 542.025pt x 504.08325pt>
 File: Bilder/Berechnung Steg dick.png Graphic file (type png)
 <use Bilder/Berechnung Steg dick.png>
 Package pdftex.def Info: Bilder/Berechnung Steg dick.png  used on input line 28
 .
 (pdftex.def)             Requested size: 455.24411pt x 423.38858pt.
-<Bilder/Konstanten Holmgurte.png, id=233, 595.023pt x 370.38374pt>
+<Bilder/Konstanten Holmgurte.png, id=229, 595.023pt x 370.38374pt>
 File: Bilder/Konstanten Holmgurte.png Graphic file (type png)
 <use Bilder/Konstanten Holmgurte.png>
 Package pdftex.def Info: Bilder/Konstanten Holmgurte.png  used on input line 33
 .
 (pdftex.def)             Requested size: 455.24411pt x 283.38219pt.
-<Bilder/Konstanten Steg dünn.png, id=234, 590.205pt x 374.5995pt>
+<Bilder/Konstanten Steg dünn.png, id=230, 590.205pt x 374.5995pt>
 File: Bilder/Konstanten Steg dünn.png Graphic file (type png)
 <use Bilder/Konstanten Steg dünn.png>
 Package pdftex.def Info: Bilder/Konstanten Steg dünn.png  used on input line 3
 8.
 (pdftex.def)             Requested size: 455.24411pt x 288.94551pt.
-<Bilder/Konstanten Steg dick.png, id=235, 585.98924pt x 369.7815pt>
+<Bilder/Konstanten Steg dick.png, id=231, 585.98924pt x 369.7815pt>
 File: Bilder/Konstanten Steg dick.png Graphic file (type png)
 <use Bilder/Konstanten Steg dick.png>
 Package pdftex.def Info: Bilder/Konstanten Steg dick.png  used on input line 43
 .
 (pdftex.def)             Requested size: 455.24411pt x 287.28299pt.
-) [44 <./Bilder/Lagenaufbau Holmgurte.png> <./Bilder/Lagenaufbau Steg dünn.png
->] [45 <./Bilder/Lagenaufbau Steg dick.png>] [46 <./Bilder/Berechnung Holmgurte
-.png> <./Bilder/Berechnung Steg dünn.png>] [47 <./Bilder/Berechnung Steg dick.
-png>] [48 <./Bilder/Konstanten Holmgurte.png>] [49 <./Bilder/Konstanten Steg d�
-�nn.png>] [50 <./Bilder/Konstanten Steg dick.png>] ("Projektarbeit - Main.aux")
+) [43 <./Bilder/Lagenaufbau Holmgurte.png> <./Bilder/Lagenaufbau Steg dünn.png
+>] [44 <./Bilder/Lagenaufbau Steg dick.png>] [45 <./Bilder/Berechnung Holmgurte
+.png> <./Bilder/Berechnung Steg dünn.png>] [46 <./Bilder/Berechnung Steg dick.
+png>] [47 <./Bilder/Konstanten Holmgurte.png>] [48 <./Bilder/Konstanten Steg d�
+�nn.png>] [49 <./Bilder/Konstanten Steg dick.png>] ("Projektarbeit - Main.aux")
  ) 
 Here is how much of TeX's memory you used:
  4305 strings out of 479799
- 66882 string characters out of 2869723
- 375958 words of memory out of 3000000
+ 66876 string characters out of 2869723
+ 376967 words of memory out of 3000000
  21170 multiletter control sequences out of 15000+200000
  543492 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -799,9 +804,9 @@ ts/cm/cmr8.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (50 pages, 2268835 bytes).
+Output written on "Projektarbeit - Main.pdf" (49 pages, 2268815 bytes).
 PDF statistics:
- 621 PDF objects out of 1000 (max. 8388607)
+ 618 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
