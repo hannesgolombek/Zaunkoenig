@@ -94,9 +94,9 @@ Die Auslegung des Steges erfolgt auch anhand der VDI 2013. Dabei muss beachtet w
 \end{equation}  
  zu $ \epsilon_{Gurt}=6,351*10^{-3} $ berechnen. Auf der Zugseite ist die Dehnung positiv, auf der Druckseite negativ. Die dem Steg aufgeprägte Dehnung führt in Längsrichtung des Steges zu einem Normalkraftfluss, der sich nach VDI 2013 mit
  \begin{equation}
- 	p_{\epsilon}=n*\bar{q}*K_{Ex}*\epsilon_{Gurt}
+ 	p_{\epsilon}=n*\bar{q}*K_{E\#}*\epsilon_{Gurt}
  \end{equation} 
-ermitteln lässt. $ K_{Ex} $ ist dabei ein verallgemeinerter Dimensionierungskennwert, der Tafel 3 der VDI 2013 zu $ K_{Ex}=1150*10^{3}m $ entnommen wird. Die Dimensionierungskennwerte der VDI sind nur für bestimmte Verbunde als exakt anzusehen, dennoch liefern sie für die Vorauslegung hinreichend genaue Werte, die in einem späteren Schritt mithilfe eines Laminatrechners überprüft werden können.\\
+ermitteln lässt. $ K_{E\#} $ ist dabei ein verallgemeinerter Dimensionierungskennwert, der Tafel 3 der VDI 2013 zu $ K_{E\#}=1150*10^{3}m $ entnommen wird. Die Dimensionierungskennwerte der VDI sind nur für bestimmte Verbunde als exakt anzusehen, dennoch liefern sie für die Vorauslegung hinreichend genaue Werte, die in einem späteren Schritt mithilfe eines Laminatrechners überprüft werden können.\\
 
 \noindent Es ist zu beachten, dass in der VDI mit veralteten Einheiten, wie dem Kilopond, gerechnet wird. Flächengewichte $ \bar{q} $ sind durch Multiplikation der auf die Fläche bezogene Masse $ \frac{m_{f}}{L*b} $ mit der Erdbeschleunigung $ \vec{g} $ zu ermitteln. $ n $ kennzeichnet erneut die Lagenanzahl.\\
 
@@ -105,7 +105,7 @@ ermitteln lässt. $ K_{Ex} $ ist dabei ein verallgemeinerter Dimensionierungsken
 	p_{\epsilon||}=p_{\epsilon}*cos^{2}\left(45^{\circ} \right)=p_{\epsilon}*0,5 
 \end{equation}
 
-Die Normalkräfte an den Gurten bilden im Allgemeinen einen Winkel $ \neq180^{\circ} $ zueinander, da der Holm eine Absenkung erfährt. Daraus resultiert eine Normalkraft auf den Steg, die senkrecht zu den Gurten steht. Diese Abtriebskraft berechnet sich nach VDI 2013 zu:
+Die Normalkräfte in Längsrichtung an den Gurten bilden im Allgemeinen einen Winkel $ \neq180^{\circ} $ zueinander, da der Holm eine Absenkung erfährt. Daraus resultiert eine Normalkraft auf den Steg, die senkrecht zu den Gurten steht. Diese Abtriebskraft berechnet sich nach VDI 2013 zu:
 \begin{equation}
 	p_{A}=\frac{2*F_{pruef}*l_{3}*\epsilon_{Gurt}}{h_{m}^{2}}
 \end{equation}
@@ -124,8 +124,8 @@ Der Kraftfluss, der durch den Steg aufgenommen werden muss, ergibt sich aus der 
 \end{equation}
 Die Anzahl der notwendigen Gewebelagen n im Steg lässt sich nun durch Umstellen der Gleichungen und Einsetzen der bekannten Werte ermitteln.\\
 \begin{equation}
-	n=\frac{\frac{2*F_{Pruef}*l_{3}*\epsilon_{Gurt}}{h_{m}^{2}*2}+\frac{Q}{h_{i}}}{\bar{q}*\left(k_{||}*K_{\sigma d}-K_{Ex}*\epsilon_{Gurt}*0,5\right)}
+	n=\frac{\frac{2*F_{Pruef}*l_{3}*\epsilon_{Gurt}}{h_{m}^{2}*2}+\frac{Q}{h_{i}}}{\bar{q}*\left(k_{||}*K_{\sigma d}-K_{E\#}*\epsilon_{Gurt}*0,5\right)}
 \end{equation}
 Damit ergibt sich die Lagenanzahl von $ n\left(500N\right)=1,99 $ für den Bereich $ 3 $ und $ n\left(5085,5N\right)=18,13 $ für die Bereiche $ 1 $ und $ 2 $. Um einen symmetrischen Lagenaufbau zu ermöglichen, sind also $ 2 $ Lagen für den Bereich $ 3 $ und $ 20 $ Lagen für die Bereiche $ 1 $ und $ 2 $ vorzusehen.\\
 
-\noindent Es ist zu betonen, dass diese Lagenanzahlen maßgeblich durch die Annahmen der Dimensionierungskennwerte $ K_{Ex} $ und $ K_{\sigma d} $ beeinflusst werden. Diese stimmen nicht exakt mit den Kennwerten des vorliegenden Laminats überein. Im Abschnitt "Auslegung nach Puck" wird die ermittelte Lagenanzahl überprüft und angepasst.
+\noindent Es ist zu betonen, dass diese Lagenanzahlen maßgeblich durch die Annahmen der Dimensionierungskennwerte $ K_{E\#} $ und $ K_{\sigma d} $ beeinflusst werden. Diese stimmen nicht exakt mit den Kennwerten des vorliegenden Laminats überein. Im Abschnitt "Auslegung nach Puck" wird die ermittelte Lagenanzahl überprüft und angepasst.
