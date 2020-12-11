@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 \babel@toc {ngerman}{}
 \contentsline {section}{\numberline {1}Bezeichnungen}{8}{}%
 \contentsline {section}{\numberline {2}Einleitung}{9}{}%
@@ -12,7 +10,7 @@
 \contentsline {subsection}{\numberline {3.3}Netztheorie}{10}{}%
 \contentsline {subsection}{\numberline {3.4}Klassische Laminattheorie}{10}{}%
 \contentsline {subsection}{\numberline {3.5}Versagenskriterium nach Puck}{10}{}%
-\contentsline {subsection}{\numberline {3.6}Bauweise}{11}{}%
+\contentsline {subsection}{\numberline {3.6}Bauweise}{10}{}%
 \contentsline {section}{\numberline {4}Modellierung des Holms}{12}{}%
 \contentsline {subsection}{\numberline {4.1}Annahmen zur Modellierung (T.B.)}{12}{}%
 \contentsline {subsection}{\numberline {4.2}Analytische Lösung der Modellierung (T.B.)}{12}{}%
@@ -22,9 +20,7 @@
 \contentsline {subsection}{\numberline {5.2}Nachrechnung der angepassten Gurte}{21}{}%
 \contentsline {subsection}{\numberline {5.3}Bestimmung der Lagenanzahl des Steges}{22}{}%
 \contentsline {section}{\numberline {6}Auslegung nach CLT}{25}{}%
-\contentsline {subsection}{\numberline {6.1}Grundlagen der CLT}{25}{}%
-\contentsline {subsection}{\numberline {6.2}Versagenskriterium nach Puck}{25}{}%
-\contentsline {subsection}{\numberline {6.3}eLamX (T.B.)}{25}{}%
+\contentsline {subsection}{\numberline {6.1}eLamX (T.B.)}{25}{}%
 \contentsline {section}{\numberline {7}Beulabschätzung des Holms}{27}{}%
 \contentsline {subsection}{\numberline {7.1}Beulsicherheit der Gurte (T.B.)}{27}{}%
 \contentsline {subsection}{\numberline {7.2}Beulsicherheit des Steges (T.B.)}{28}{}%
@@ -49,4 +45,3 @@
 \contentsline {section}{\numberline {15}Tabellenverzeichnis}{42}{}%
 \contentsline {section}{\numberline {16}Anhang}{43}{}%
 \contentsline {subsection}{\numberline {16.1}Abbildungen}{43}{}%
->>>>>>> main
