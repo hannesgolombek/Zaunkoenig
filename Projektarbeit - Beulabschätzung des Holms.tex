@@ -21,14 +21,14 @@ Das Seitenverhältnis beträgt
 \begin{equation}
 	k_{d}=0,4
 \end{equation}
-und somit die kritische Spannung:
+und somit die kritische Spannung mit $E_{xx}=31580MPa$,$d=1,941mm$ und $b=14mm$:
 \begin{equation}
-	\sigma_{krit,d}=k_{d}\cdot E_{\parallel}\cdot\biggl(\frac{d}{b}\biggr)^{2}\\
+	\sigma_{krit,d}=k_{d}\cdot E_{xx}\cdot\biggl(\frac{d}{b}\biggr)^{2}\\
 	= 242,82 MPa
 \end{equation}
 Im Vergleich zu der tatsächlich maximal auftretenden Randfaserspannung der Gurte ergibt sich die Sicherheit gegen Beulen zu 
 \begin{equation}
-	j_{Gurt}=\frac{\sigma_{krit,d}}{\sigma_{d}}=\frac{242,81 MPa}{224,96 MPa}=1,08
+	j_{Gurt}=\frac{\sigma_{krit,d}}{\sigma_{b}}=\frac{242,81 MPa}{224,96 MPa}=1,08
 \end{equation}
 
 
@@ -51,7 +51,7 @@ Dadurch lässt sich mit
 \begin{equation}
 	\frac{\sigma_{max}}{\sigma_{min}}=-1
 \end{equation}
-nach Hertel, Abbildung 85 der Beulfaktor ermitteln zu
+(symmetrisch) nach Hertel, Abbildung 85 der Beulfaktor ermitteln zu
 \begin{equation}
 	k_{b} = 21,8
 \end{equation}
@@ -59,20 +59,20 @@ Da das Dickenverhältnis von Steglagen zu Schaumkern sehr klein ausgelegt werden
 \begin{equation}
 	\kappa = 1
 \end{equation}
-definiert. Dadurch ergibt sich die kritische Biegespannung zu
+definiert. Dadurch ergibt sich die kritische Biegespannung mit $E_{xx}=6639,8MPa$, $d=1,882mm$ und $b=35,8mm-2\cdot 1,941mm$zu
 \begin{equation}
-	\sigma_{krit,B}=\kappa\cdot\ k_{b}\cdot E_{\parallel}\cdot\Bigl(\frac{1,882 mm}{35,8 mm-2\cdot 1,941 mm}\Bigr)^{2}=15596,73MPPa
+	\sigma_{krit,B}=\kappa\cdot\ k_{b}\cdot E_{xx}\cdot\Bigl(\frac{d}{b}\Bigr)^{2}=503,24MPa
 \end{equation}
 Das Verhältnis der Biegespannung zur kritischen Biegespannung ist
 \begin{equation}
-	j_{1}=\frac{200,56 Mpa}{Ergebnis}
+	j_{1}=\frac{200,56 Mpa}{503,24MPa}=0,398
 \end{equation}. Für den Schub wird nach Hertel der Beulfaktor zu
 \begin{equation}
 	k_{s}=5,5
 \end{equation}
-Damit wir die kritische Schubspannung zu 
+Damit wir die kritische Schubspannung mit $G_{xy}=8577,8MPa$zu 
 \begin{equation}
-	\tau_{krit}=\kappa\cdot k\cdot E_{\#}\cdot\Bigl(\frac{1,88 2mm}{35,8 mm - 2\cdot 1,941  mm}\Bigr)^{2}=164,02 MPa
+	\tau_{krit}=\kappa\cdot k\cdot G_{xy}\cdot\Bigl(\frac{1,88 2mm}{35,8 mm - 2\cdot 1,941  mm}\Bigr)^{2}=164,02 MPa
 \end{equation}
 Die tatsächlich auftretende Schubspannung beträgt 
 \begin{equation}
@@ -80,9 +80,9 @@ Die tatsächlich auftretende Schubspannung beträgt
 \end{equation}
 sodass das Verhältnis der Schubspannung zur kritischen 
 \begin{equation}
-	j_{2}=\frac{126,99 MPa}{164,02 MPa}
+	j_{2}=\frac{126,99 MPa}{164,02 MPa}=
 \end{equation}
-ergibt. Die Gesamtsicherheit beträgt nach [Quelle?]
+ergibt. Die Gesamtsicherheit beträgt nach [Quelle noch nicht aufgeführt]
 \begin{equation}
 	j=\sqrt{\frac{1}{j_{1}^{2}+j_{2}^{2}}}=1,148
 \end{equation}
@@ -104,7 +104,7 @@ und weiterhin wird mit
 \end{equation}
 gerechnet. Damit lässt sich 
 \begin{equation}
-	 \tau_{krit} = k_{s}\cdot \kappa\cdot G_{\#}\cdot \Bigl(\frac{1,882mm}{35,8mm-2\cdot 1,941mm}\Bigr)^{2}= 202,79 MPa
+	 \tau_{krit} = k_{s}\cdot \kappa\cdot G_{xy}\cdot \Bigl(\frac{1,882mm}{35,8mm-2\cdot 1,941mm}\Bigr)^{2}= 202,79 MPa
 \end{equation}
 berechnen. Mit dem gleichen maximalen Schub
 \begin{equation}
@@ -119,7 +119,7 @@ bestimmt werden. Auch dieser Stegbereich $II$ ist gegen Beulen sicher.\\
 \noindent Abschließend wird der verbliebene Bereich $III$ überprüft.\\
 \noindent Erneut wird das Seitenverhältnis ermittelt zu 
 \begin{equation}
-	\frac{b}{a}=\frac{35,88mm - 2\cdot 1,941mm}{773mm}=0,041\approx 0
+	\frac{b}{a}=\frac{35,8mm - 2\cdot 1,941mm}{773mm}=0,041\approx 0
 \end{equation}
 Dadurch ist
 \begin{equation}
@@ -129,7 +129,7 @@ nach \cite{item1} für
 \begin{equation}
 	\frac{\sigma_{max}}{\sigma_{min}}=-1
 \end{equation} 
-und
+(symmetrisch) und
 \begin{equation}
 	k_{s} = 4,8
 \end{equation}
@@ -147,11 +147,11 @@ Die Sicherheit gegen Beulen berechnet sich nun zu
 \end{equation}
 mit 
 \begin{equation}
-	\sigma_{krit}=k\cdot k\cdot E_{\parallel}\cdot \Bigl(\frac{0,313mm+x}{35,8mm -2\cdot 1,941mm}\Bigr)^{2}
+	\sigma_{krit}=k\cdot k\cdot E_{xx}\cdot \Bigl(\frac{0,313mm+x}{35,8mm -2\cdot 1,941mm}\Bigr)^{2}
 \end{equation}
 und
 \begin{equation}
-	\tau_{krit} = \kappa\cdot k_{s}\cdot G_{\#}\cdot\Bigl(\frac{0,313mm + x}{35,8mm -2\cdot 1,941mm}\Bigr)^{2}
+	\tau_{krit} = \kappa\cdot k_{s}\cdot G_{xy}\cdot\Bigl(\frac{0,313mm + x}{35,8mm -2\cdot 1,941mm}\Bigr)^{2}
 \end{equation}
 Dieses mal kann $\kappa=3$ genutzt werden, sofern eine ausreichende Dicke $x$ auftritt, dessen Lösung analytisch ermittelt wird. Dabei wird eine Mindestdicke von 
 \begin{equation}
