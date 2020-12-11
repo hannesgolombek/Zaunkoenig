@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  11 DEC 2020 01:08
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  11 DEC 2020 00:01
+>>>>>>> main
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -361,7 +365,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Bilder/Holmarten.png, id=99, 158.994pt x 52.998pt>
 File: Bilder/Holmarten.png Graphic file (type png)
 <use Bilder/Holmarten.png>
-Package pdftex.def Info: Bilder/Holmarten.png  used on input line 18.
+Package pdftex.def Info: Bilder/Holmarten.png  used on input line 22.
 (pdftex.def)             Requested size: 455.24411pt x 151.77124pt.
 ) [10] [11 <./Bilder/Holmarten.png>] ("Projektarbeit - Modellierung des Holms.t
 ex"
@@ -440,7 +444,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--138
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (60.54778pt too wide) detected at line 145
+=======
+Overfull \hbox (39.38826pt too wide) detected at line 145
+>>>>>>> main
 \OML/cmm/m/it/10.95 w\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 y; F[]; F[]; EI[]\
 OT1/cmr/m/n/10.95 ) = []
  []
@@ -733,4 +741,81 @@ Package pdftex.def Info: Bilder/Lagenaufbau Steg dick.png  used on input line 1
 
 LaTeX Warning: Float too large for page by 93.09843pt on input line 16.
 
+<<<<<<< HEAD
 <Bilder/Berechnung Holmgurte.p
+=======
+<Bilder/Berechnung Holmgurte.png, id=226, 894.9435pt x 463.7325pt>
+File: Bilder/Berechnung Holmgurte.png Graphic file (type png)
+<use Bilder/Berechnung Holmgurte.png>
+Package pdftex.def Info: Bilder/Berechnung Holmgurte.png  used on input line 18
+.
+(pdftex.def)             Requested size: 455.24411pt x 235.8919pt.
+<Bilder/Berechnung Steg d체nn.png, id=227, 901.56825pt x 440.847pt>
+File: Bilder/Berechnung Steg d체nn.png Graphic file (type png)
+<use Bilder/Berechnung Steg d체nn.png>
+Package pdftex.def Info: Bilder/Berechnung Steg d체nn.png  used on input line 2
+3.
+(pdftex.def)             Requested size: 455.24411pt x 222.60243pt.
+<Bilder/Berechnung Steg dick.png, id=228, 542.025pt x 504.08325pt>
+File: Bilder/Berechnung Steg dick.png Graphic file (type png)
+<use Bilder/Berechnung Steg dick.png>
+Package pdftex.def Info: Bilder/Berechnung Steg dick.png  used on input line 28
+.
+(pdftex.def)             Requested size: 455.24411pt x 423.38858pt.
+<Bilder/Konstanten Holmgurte.png, id=229, 595.023pt x 370.38374pt>
+File: Bilder/Konstanten Holmgurte.png Graphic file (type png)
+<use Bilder/Konstanten Holmgurte.png>
+Package pdftex.def Info: Bilder/Konstanten Holmgurte.png  used on input line 33
+.
+(pdftex.def)             Requested size: 455.24411pt x 283.38219pt.
+<Bilder/Konstanten Steg d체nn.png, id=230, 590.205pt x 374.5995pt>
+File: Bilder/Konstanten Steg d체nn.png Graphic file (type png)
+<use Bilder/Konstanten Steg d체nn.png>
+Package pdftex.def Info: Bilder/Konstanten Steg d체nn.png  used on input line 3
+8.
+(pdftex.def)             Requested size: 455.24411pt x 288.94551pt.
+<Bilder/Konstanten Steg dick.png, id=231, 585.98924pt x 369.7815pt>
+File: Bilder/Konstanten Steg dick.png Graphic file (type png)
+<use Bilder/Konstanten Steg dick.png>
+Package pdftex.def Info: Bilder/Konstanten Steg dick.png  used on input line 43
+.
+(pdftex.def)             Requested size: 455.24411pt x 287.28299pt.
+) [43 <./Bilder/Lagenaufbau Holmgurte.png> <./Bilder/Lagenaufbau Steg d체nn.png
+>] [44 <./Bilder/Lagenaufbau Steg dick.png>] [45 <./Bilder/Berechnung Holmgurte
+.png> <./Bilder/Berechnung Steg d체nn.png>] [46 <./Bilder/Berechnung Steg dick.
+png>] [47 <./Bilder/Konstanten Holmgurte.png>] [48 <./Bilder/Konstanten Steg d�
+펝n.png>] [49 <./Bilder/Konstanten Steg dick.png>] ("Projektarbeit - Main.aux")
+ ) 
+Here is how much of TeX's memory you used:
+ 4310 strings out of 479799
+ 67002 string characters out of 2869723
+ 377971 words of memory out of 3000000
+ 21172 multiletter control sequences out of 15000+200000
+ 543492 words of font info for 46 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 69i,17n,80p,1605b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
+1095.pk> <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1095.pk> <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx1095.pk> <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecbx1440.pk> <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecbx1200.pk><C:/Users/Henri/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Henri/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Henri/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Henri
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Use
+rs/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb
+><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mr6.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "Projektarbeit - Main.pdf" (49 pages, 2275130 bytes).
+PDF statistics:
+ 624 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+>>>>>>> main
