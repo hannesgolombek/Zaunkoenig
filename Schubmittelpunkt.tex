@@ -1,8 +1,13 @@
 
-\subsection{Schubmittelpunkt}
-\subsubsection{Theorie}
+\subsection{Theorie}
+schubfluss
+koordinatensysteme
+mehrzeller...?
+\begin{equation}\label{qs}
+	q(s)=-(Q_{\bar{z}}\frac{S_{\bar{y}}(s)I_{\bar{z}}-S_{\bar{z}}(s)I_{\bar{yz}}}{I_{\bar{y}}I_{\bar{z}}-I_{\bar{yz}}^2}+Q_{\bar{y}}\frac{S_{\bar{z}}(s)I_{\bar{y}}-S_{\bar{y}}(s)I_{\bar{yz}}}{I_{\bar{z}}I_{\bar{y}}-I_{\bar{yz}}^2})+q_0
+\end{equation}
 Text folgt
-\subsubsection{Berechnung}
+\subsection{Idealisierung}
 Für die Berechnung des Schubmittelpunkts wird das Flügelprofil als vereinfachter Mehrzeller angenommen.
 Dabei wird der Ursprung des Koordinatensystems am unteren rechten Rand gesetzt. Das Modell wird in 10 Teilstrecken $s_{i}$ aufgeteilt. Die Dicke wird über die Schale konstant angenommen und die Dicke des Stegs wird mit $t_{1}=1,882\mathrm{mm}$ angenommen, sowie die Dicke der Gurte mit $\mathrm{D}=1,941\mathrm{mm}$.
 \begin{figure}[h]
@@ -11,7 +16,7 @@ Dabei wird der Ursprung des Koordinatensystems am unteren rechten Rand gesetzt. 
  \caption{vereinfachtes Model}
  \label{fig:Model1}
 \end{figure}
-
+\subsection{Schwerpunktkoordinaten}\label{SP-Koord}
 Zunächst werden die statischen Momente in den einzelnen Teilstücken berechnet.
 \begin{equation}
 	S_{z}=\int_{A}^{}y \mathrm{d}A =t\int_{s}^{}y \mathrm{d}s
@@ -44,7 +49,7 @@ Bauteilabschnitt&$S_{y}$&$S_{z}$\\
 	y_{0}=\frac{\int_{s}{}t(s)y\mathrm{d}s}{\int_{s}{}t(s)\mathrm{d}s}=\frac{S_{z}}{A}
 \end{equation}
 \begin{equation}
-	y_{0}=\frac{\int_{s}{}t(s)z\mathrm{d}s}{\int_{s}{}t(s)\mathrm{d}s}=\frac{S_{y}}{A}
+	z_{0}=\frac{\int_{s}{}t(s)z\mathrm{d}s}{\int_{s}{}t(s)\mathrm{d}s}=\frac{S_{y}}{A}
 \end{equation}
 Mit einer Dicke von $t=1\mathrm{mm}$ ergeben sich Lagen der Schwerpunktkoordinaten zu:
 \begin{equation}
@@ -54,14 +59,14 @@ Mit einer Dicke von $t=1\mathrm{mm}$ ergeben sich Lagen der Schwerpunktkoordinat
 	z_{0}=-32,60mm
 \end{equation}
 
-Damit können nun die statischen Momente im Bezug auf den Schwerpunkt ermittelt werden:
+Damit können nun der Verlauf der statischen Momente im Bezug auf den Schwerpunkt ermittelt werden, wobei die Endwerte der vorherigen Verläufe nach dem hydrodynamischen Analogon den Anfangswert $s_0$ bestimmen. Dabei ergeben sich folgende Endwerte:
 \begin{center}
 \begin{tabular}[h]{l|c|c}
 Bauteilabschnitt&$S_{\bar{y}}$&$S_{\bar{z}}$\\
 \hline
-1&-467,32&-3475,48\\
-2&-849,15&-1160,75\\
-3&-198,33&-1498,19\\
+1werte&-467,32&-3475,48\\
+2noch&-849,15&-1160,75\\
+3anpassen&-198,33&-1498,19\\
 4&-772,01&-589,50\\
 5&-1142,51&4954,62\\
 6&188,66&2641,77\\
@@ -71,10 +76,29 @@ Bauteilabschnitt&$S_{\bar{y}}$&$S_{\bar{z}}$\\
 10&597,74&-2020,44\\
 \end{tabular}
 \end{center}
-Für ein offenes Profil muss gelten, dass an der Schnittstelle das statische Moment $ 0 $ ist. Das Profil wird in diesem Fall an der Stelle 1 geschnitten.Die Verrechnung der statischen Momente ergibt 0, wodurch die statischen Momente als richtig angenommen werden können.
+Für ein offenes Profil muss gelten, dass an den freien Rändern das statische Moment $ 0 $ ist. Das Profil wird in diesem Fall an den Stellen 1 und 3 geschnitten. Für die nun freien Enden an den diesen Bereichen wird $s_0=0$ und auch die Endwerte des Bereichs 10 werden zu $0$.
 
-
-Nun müssen die Flächenträgheitsmomente $I_{y}$, $I_{z}$und $I_{zy}$ mit dem Drehwinkel $\alpha$ , sowie die schwerpunktbezogenen Flächenträgheitsmomente $I_{\bar{y}}$, $I_{\bar{z}}$ und $I_{\bar{zy}}$ mit Hilfe des Steiner-Anteils, ermittelt werden.Dafür werden die Winkelverschiebungen zum Koordinatensystem verwendet.
+Nun werden die Flächenträgheitsmomente 
+\begin{equation}
+	I_{y} = \int_{A}^{}z^2dA
+\end{equation}
+\begin{equation}
+I_{z} = \int_{A}^{}y^2dA
+\end{equation}
+\begin{equation}
+I_{yz} = \int_{A}^{}zydA
+\end{equation}
+ zuerst aus ihrem eigenen Schwerpunkt aus errechnet, sodass die auf den Gesamtschwerpunkt bezogenen Flächenträgheitsmomente $I_{\bar{y}}$, $I_{\bar{z}}$ und $I_{\bar{zy}}$ mit Hilfe des Steinerschen Satz
+ \begin{equation}
+ 	I_{\bar{y}} = I_{y} + z^2A
+ \end{equation}
+\begin{equation}
+I_{\bar{z}} = I_{z} + y^2A
+\end{equation}
+\begin{equation}
+I_{\bar{yz}} = I_{yz} + zyA
+\end{equation}
+ ermittelt werden können.
 Es ergibt sich:
 \begin{center}
 
@@ -95,7 +119,24 @@ Bauteilabschnitt&$I_{y}$&$I_{z}$&$I_{zy}$&$I_{\bar{y}}$&$I_{\bar{z}}$&$I_{\bar{z
 $\sum{}$&-&-&-&137990,78&1028658,46&-30092,48
 \end{tabular}
 \end{center}
-Für das offene Profil lässt sich die Lage des Schubmittelpunkts nun mit folgenden Gleichungen bestimmen:
+Es kann sofort erkenne, dass $I_{\bar{yz}} \neq 0$ ist und es sich somit nicht um ein Hauptachensystem handelt. Das Devitionsmoment  $I_{\bar{yz}}$ ist jedoch im Vergleich zu den anderen Flächenträgheitsmomenten sehr niedrig. 
+Aus dem Zusammenhang
+\begin{equation}
+	tan(\varphi)=\frac{2I_{\bar{yz}}}{I_{\bar{z}}-I_{\bar{y}}}
+\end{equation}
+lässt sich erkennen, dass der Winken ($\varphi = WERT$) zwischen dem Hauptachsen- und Schwerpunktkoordinatensystem nur sehr gering ist. Im folgenden finden alle Betrachtungen weiterhin nur im Schwerpunktkoordinatensystem statt.
+
+\subsection{Schubmittelpunkt}
+Nun ist es von Interesse, und im Rahmen der Aufgabenstellung auch gefordert, den Schubmittelpunkt, an dem eine angreifende Kraft reine Biegung ohne Torsion bewirkt, zu bestimmen.
+Zunächst wird der Schubmittelpunkt des wie in Abschnitt \ref{SP-Koord} aufgeschnittene Profils betrachtet. Wir betrachten die Kraft $Q$, die im Schubmittelpunkt angreift und Äquivalent zu $q(s)$ nach
+\begin{equation}
+	Q=\int_{s}^{}q(s)ds
+\end{equation}
+ist. Gleichzeitig ergibt sich aus der Momentenäquivalenz 
+\begin{equation}
+	Qr=\int_{s}q(s)r(s)ds
+\end{equation}
+wobei $r$ der jeweilige Hebelarm zu einem beliebigen Pol ist. Unter Anwendung des Superpositionsprinzips lässt sich immer jeweils eine Komponente der Äußeren Kraft $Q$ gleich null setzten und zusammen mit Gleichung (\ref{qs}) erhält man dadurch die folgenden Gleichungen zur Bestimmung des Schubmittelpunkts beim offenen Profils:
 \begin{equation}
 	y_{M}=\frac{-I_{\bar{z}}\int S_{\bar{y}}(s) r_{t}\mathrm{d}s+I_{\bar{yz}}\int S_{\bar{z}}(s) r_{t}\mathrm{d}s}{I_{\bar{y}}I_{\bar{z}}-I_{\bar{yz}}^2}
 \end{equation}
@@ -151,7 +192,7 @@ ergibt sich für die Lage des Schubmittelpunkts:
 	z_{M_{g}}=-31,58mm
 \end{equation}
 
-\subsubsection{Torsion}
+\subsection{Torsion}
 Um die Torsion zu berechnen werden die Gleichungen
 \begin{equation}
 	M_{xT}=-(y_{0}-\frac{l}{4})\cdot F=2\sum q_{0i}\cdot A_{0i}

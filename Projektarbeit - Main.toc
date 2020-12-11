@@ -29,25 +29,26 @@
 \contentsline {subsection}{\numberline {8.2}Klebeverbindung Holm - Rippen (T.B.)}{31}{}%
 \contentsline {section}{\numberline {9}Bolzenauslegung}{32}{}%
 \contentsline {subsection}{\numberline {9.1}Bolzenberechnung}{32}{}%
-\contentsline {section}{\numberline {10}Schubmittelpunkt}{33}{}%
-\contentsline {subsection}{\numberline {10.1}Schubmittelpunkt}{33}{}%
-\contentsline {subsubsection}{\numberline {10.1.1}Theorie}{33}{}%
-\contentsline {subsubsection}{\numberline {10.1.2}Berechnung}{33}{}%
-\contentsline {subsubsection}{\numberline {10.1.3}Torsion}{36}{}%
-\contentsline {section}{\numberline {11}CAD-Modell (H.K.)}{37}{}%
-\contentsline {subsection}{\numberline {11.1}Konstruktion der Gurte}{37}{}%
-\contentsline {subsection}{\numberline {11.2}Konstruktion des Stegs}{38}{}%
-\contentsline {subsection}{\numberline {11.3}Konstruktion der Haut und der Rippen}{38}{}%
-\contentsline {subsection}{\numberline {11.4}Holzkonstruktion an der Aufnahme der Hauptbolzen}{40}{}%
-\contentsline {subsection}{\numberline {11.5}Problematik der Montage auf dem Teststand}{40}{}%
-\contentsline {section}{\numberline {12}Zusammenfassung}{42}{}%
-\contentsline {section}{\numberline {13}FEM}{43}{}%
-\contentsline {subsection}{\numberline {13.1}Warum FEM?}{43}{}%
-\contentsline {subsection}{\numberline {13.2}Wie funktioniert FEM?}{43}{}%
-\contentsline {subsubsection}{\numberline {13.2.1}Schwache Lösung der Elastostatik}{43}{}%
-\contentsline {subsubsection}{\numberline {13.2.2}Diskretisierung}{44}{}%
-\contentsline {section}{\numberline {14}Quellenverzeichnis}{45}{}%
-\contentsline {section}{\numberline {15}Abbildungsverzeichnis}{46}{}%
-\contentsline {section}{\numberline {16}Tabellenverzeichnis}{47}{}%
-\contentsline {section}{\numberline {17}Anhang}{48}{}%
-\contentsline {subsection}{\numberline {17.1}Abbildungen}{48}{}%
+\contentsline {section}{\numberline {10}Schubfluss}{33}{}%
+\contentsline {subsection}{\numberline {10.1}Theorie}{33}{}%
+\contentsline {subsection}{\numberline {10.2}Idealisierung}{33}{}%
+\contentsline {subsection}{\numberline {10.3}Schwerpunktkoordinaten}{33}{}%
+\contentsline {subsection}{\numberline {10.4}Schubmittelpunkt}{36}{}%
+\contentsline {subsection}{\numberline {10.5}Torsion}{37}{}%
+\contentsline {section}{\numberline {11}CAD-Modell (H.K.)}{38}{}%
+\contentsline {subsection}{\numberline {11.1}Konstruktion der Gurte}{38}{}%
+\contentsline {subsection}{\numberline {11.2}Konstruktion des Stegs}{39}{}%
+\contentsline {subsection}{\numberline {11.3}Konstruktion der Haut und der Rippen}{39}{}%
+\contentsline {subsection}{\numberline {11.4}Holzkonstruktion an der Aufnahme der Hauptbolzen}{41}{}%
+\contentsline {subsection}{\numberline {11.5}Problematik der Montage auf dem Teststand}{41}{}%
+\contentsline {section}{\numberline {12}Zusammenfassung}{43}{}%
+\contentsline {section}{\numberline {13}FEM}{44}{}%
+\contentsline {subsection}{\numberline {13.1}Warum FEM?}{44}{}%
+\contentsline {subsection}{\numberline {13.2}Wie funktioniert FEM?}{44}{}%
+\contentsline {subsubsection}{\numberline {13.2.1}Schwache Lösung der Elastostatik}{44}{}%
+\contentsline {subsubsection}{\numberline {13.2.2}Diskretisierung}{45}{}%
+\contentsline {section}{\numberline {14}Quellenverzeichnis}{46}{}%
+\contentsline {section}{\numberline {15}Abbildungsverzeichnis}{47}{}%
+\contentsline {section}{\numberline {16}Tabellenverzeichnis}{48}{}%
+\contentsline {section}{\numberline {17}Anhang}{49}{}%
+\contentsline {subsection}{\numberline {17.1}Abbildungen}{49}{}%
