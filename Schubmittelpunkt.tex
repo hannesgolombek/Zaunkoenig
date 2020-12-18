@@ -59,13 +59,20 @@ Bauteilabschnitt&$S_{y}$&$S_{z}$\\
 \end{equation}
 Mit einer Dicke von $t=1\mathrm{mm}$ ergeben sich Lagen der Schwerpunktkoordinaten zu:
 \begin{equation}
-	y_{0}=180,94mm
+	y_{0}=57,6mm
 \end{equation}
 \begin{equation}
-	z_{0}=-32,60mm
+	z_{0}=-17,3mm
 \end{equation}
 
-Damit können nun der Verlauf der statischen Momente im Bezug auf den Schwerpunkt ermittelt werden, wobei die Endwerte der vorherigen Verläufe nach dem hydrodynamischen Analogon den Anfangswert $s_0$ bestimmen. Dabei ergeben sich folgende Endwerte:
+Damit können nun mit
+\begin{equation}
+	S_{\bar{y}}=S_y-z_0A
+\end{equation} 
+\begin{equation}
+S_{\bar{z}}=S_z-y_0A
+\end{equation} 
+die Verläufe der statischen Momente im Bezug auf den Schwerpunkt ermittelt werden, wobei die Endwerte der vorherigen Verläufe nach dem hydrodynamischen Analogon den Anfangswert $s_0$ bestimmen. Dabei ergeben sich folgende Endwerte:
 \begin{center}
 \begin{tabular}[h]{l|c|c}
 Bauteilabschnitt&$S_{\bar{y}}$&$S_{\bar{z}}$\\
@@ -130,7 +137,7 @@ Aus dem Zusammenhang
 \begin{equation}
 	tan(\varphi)=\frac{2I_{\bar{yz}}}{I_{\bar{z}}-I_{\bar{y}}}
 \end{equation}
-lässt sich erkennen, dass der Winken ($\varphi = WERT^\circ$) zwischen dem Hauptachsen- und Schwerpunktkoordinatensystem nur sehr gering ist. Im folgenden finden alle Betrachtungen weiterhin nur im Schwerpunktkoordinatensystem statt.
+lässt sich erkennen, dass der Winken ($\varphi =1,19^\circ$) zwischen dem Hauptachsen- und Schwerpunktkoordinatensystem nur sehr gering ist. Im folgenden finden alle Betrachtungen weiterhin nur im Schwerpunktkoordinatensystem statt.
 
 \subsection{Schubmittelpunkt}
 Nun ist es von Interesse, und im Rahmen der Aufgabenstellung auch gefordert, den Schubmittelpunkt, an dem eine angreifende Kraft reine Biegung ohne Torsion bewirkt, zu bestimmen.
@@ -151,10 +158,10 @@ wobei $r$ der jeweilige Hebelarm zu einem beliebigen Pol ist. Unter Anwendung de
 \end{equation}
 Daraus folgt:
 \begin{equation}
-	y_{M}=180,94mm
+	y_{M}=213,7mm
 \end{equation}
 \begin{equation}
-	z_{M}=-32,60mm
+	z_{M}=-20,9mm
 \end{equation}
 Im nächsten Schritt wird das Profil geschlossen, sodass ein Zweizeller entsteht. An den vorher noch geschlossenen Kanten kann nun Schubfluss herrschen. Dies wird durch die Konstanten $q_{0b,1}$ und $q_{0b,2}$ in der jeweiligen Zelle erreicht.
 Da die Verwindung $\vartheta$ für beide Zellen gleich und im Falle der reinen Biegung null sein müssen, erhält man für jede Koordinatenrichtung zwei Gleichungen mit zwei unbekannten.
@@ -173,16 +180,16 @@ Mit den Werten für die umschlossenen Flächen:
 \end{equation}
 ergeben sich die Konstanten:
 \begin{equation}
-	q_{0b,1\bar{z}}=123mmQ_{\bar{z}}
+	q_{0b,1\bar{z}}=-9,7\cdot10^{-4}mmQ_{\bar{z}}
 \end{equation}
 \begin{equation}
-	q_{0b,2\bar{z}}=345mmQ_{\bar{z}}
+	q_{0b,2\bar{z}}=-1,2\cdot10^{-4}mmQ_{\bar{z}}
 \end{equation}
 \begin{equation}
-	q_{0b,1\bar{y}}=567mmQ_{\bar{y}}
+	q_{0b,1\bar{y}}=-1,4\cdot10^{-5}mmQ_{\bar{y}}
 \end{equation}
 \begin{equation}
-	q_{0b,2\bar{y}}=789mmQ_{\bar{y}}
+	q_{0b,2\bar{y}}=-2,4\cdot10^{-4}mmQ_{\bar{y}}
 \end{equation}
 Mit den Schubfluss des geschlossenen Profils in Gleichung (\ref{verdrillung}) eingesetzt ergibt sich der Schubmittelpunkt ($y_{Mg}, z_{Mg}$) zu:
 \begin{equation}
@@ -193,10 +200,10 @@ Q_{\bar{y}}(z_{Mg}-z_{M})=\sum_{i=0}^{2}q_{0b,i\bar{y}}2A_{0,i}
 \end{equation}
 
 \begin{equation}
-	y_{M_{g}}=138,24mm
+	y_{M_{g}}=207,3mm
 \end{equation}
 \begin{equation}
-	z_{M_{g}}=-31,58mm
+	z_{M_{g}}=-20,1mm
 \end{equation}
 
 \subsection{Torsion}
@@ -210,18 +217,21 @@ entsteht, das noch zusätzlichen Schubfluss und eine Verdrillung $\vartheta$ bew
 \end{equation}
 Wenn für die Momentenbetrachtung der Schubmittelpunkt gewählt wird, fallen definitionsgemäß alle bisher berechenten Terme aus der Gleichung raus, sodass nur noch die Anteile $q_{0T,i}$ betrachtet werden müssen.
 \begin{equation}
+	\vartheta_{i} = \frac{1}{2A_{0i}G}(q_{0T,i}\oint\frac{1}{t(s)}ds-q_{0T,i\pm1}\int\frac{1}{t(s)})
+\end{equation}
+\begin{equation}
 		M_{xT}=2\sum q_{0T,i}\cdot A_{0i}
 \end{equation}
 Für eine Prüflast von $100N$ erhält man
 \begin{equation}
-	q_{0T,1}=WERT N/mm
+	q_{0T,1}=-8,67 N/mm
 \end{equation}
 \begin{equation}
-	q_{0T,2}=WERT N/mm
+	q_{0T,2}=-9 N/mm
 \end{equation}
 Es reicht nun diese Werte in die Gleichung (\ref{verdrillung}) für eine der beiden Zellen einzusetzen.
 \begin{equation}
-	\vartheta =WERT ^\circ
+	\vartheta =-0,026 ^\circ
 \end{equation}
 
 \subsection{Schubspannung}
@@ -233,15 +243,15 @@ Das Ziel dieser Berechnung war nicht nur den Schubmittelpunkt und die Verdrillun
 \end{equation}
 erneut durchgeführt. Somit nähert man sich Schritt für Schritt dem Idealwert, bei dem die vorliegende Dicke der erforderlichen Dicke entspricht.
 
-Nach einigen Iterationen entwickelt sich der Wert $t = WERT mm$ als Grenzwert heraus. Da für die Haut das Laminat aus einer ganzzahligen Anzahl von Schichten bestehen muss, wird der Wert auf 
+Nach einigen Iterationen entwickelt sich der Wert $t = 0,169 mm$ als Grenzwert heraus. Da für die Haut das Laminat aus einer ganzzahligen Anzahl von Schichten bestehen muss, wird der Wert auf 
 \begin{equation}
-	t = WERT mm
+	t = 0,169 mm
 \end{equation}
 aufgerundet, was $WERT$ Lagen entspricht.
 
 Alle in dies Kapitel errechneten Werte sind mit dieser Dicke errechnet worden. Der Verlauf der Schubflüsse ergibt sich mit der maximalen Schubspannung
 \begin{equation}
-\tau_{max}=\tau(s_1=WERT)=WERT N/mm^2
+\tau_{max}=\tau(s_1=18)=50,4 N/mm^2
 \end{equation}
 zu den Verläufen, wie sie in Abbildung \ref{s1}-\ref{s10} zu sehen sind.
 

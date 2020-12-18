@@ -1,4 +1,8 @@
+<<<<<<< refs/remotes/origin/main
 This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.9)  17 DEC 2020 17:12
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  17 DEC 2020 19:14
+>>>>>>> Werte verändert
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -659,10 +663,10 @@ Package pdftex.def Info: Bilder/Model1.png  used on input line 21.
 (pdftex.def)             Requested size: 318.66948pt x 225.2265pt.
  [33 <./Bilder/Model1.png>] [34] [35] [36] [37]
 
-LaTeX Warning: Reference `s1' on page 38 undefined on input line 246.
+LaTeX Warning: Reference `s1' on page 38 undefined on input line 256.
 
 
-LaTeX Warning: Reference `s10' on page 38 undefined on input line 246.
+LaTeX Warning: Reference `s10' on page 38 undefined on input line 256.
 
 ) [38] ("Projektarbeit - CAD-Modell.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
@@ -719,7 +723,7 @@ Package pdftex.def Info: Bilder/Klotz.jpg  used on input line 38.
 [43] ("Projektarbeit - Zusammenfassung.tex") [44] ("Projektarbeit - FEM.tex"
 Overfull \hbox (81.96765pt too wide) in paragraph at lines 5--6
 \T1/cmr/m/n/10.95 F�r die Be-rech-nung der Elas-to-sta-tik sind die Gleich-ge-w
-ichts-be-din-gung (144[]), Verzerrungs-Verschiebungsbedingung
+ichts-be-din-gung (147[]), Verzerrungs-Verschiebungsbedingung
  []
 
 [45]) [46] ("Projektarbeit - Quellenverzeichnis.tex") [47]
@@ -807,6 +811,7 @@ Here is how much of TeX's memory you used:
  21177 multiletter control sequences out of 15000+200000
  546587 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
+<<<<<<< refs/remotes/origin/main
  71i,17n,82p,1621b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\hgolo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
 1095.pk> <C:\Users\hgolo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
@@ -827,6 +832,30 @@ ic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 
 Output written on "Projektarbeit - Main.pdf" (56 pages, 2477014 bytes).
+=======
+ 69i,17n,80p,1621b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Neu1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1
+095.pk> <C:\Users\Neu1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
+ecbx1200.pk> <C:\Users\Neu1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
+i600\tcrm1095.pk> <C:\Users\Neu1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecbx1095.pk> <C:\Users\Neu1\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
+ppen/ec/dpi600\ecbx1440.pk> <C:\Users\Neu1\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Neu1\AppData\Local\MiKTeX\fonts/pk/l
+jfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\Neu1\AppData\Local\MiKTeX\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Users/Neu1/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Neu1/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Neu1/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Neu1
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Use
+rs/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+<C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+6.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr8.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmsy6.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "Projektarbeit - Main.pdf" (56 pages, 2477797 bytes).
+>>>>>>> Werte verändert
 PDF statistics:
  700 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
