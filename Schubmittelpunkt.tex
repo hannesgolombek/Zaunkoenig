@@ -20,7 +20,7 @@ Dabei wird der Ursprung des Koordinatensystems am unteren rechten Rand gesetzt. 
  \centering
  \includegraphics[width=0.7\textwidth]{Bilder/Model1}
  \caption{vereinfachtes Model}
- \label{fig:Model1}
+ \label{fig:Fluegel1}
 \end{figure}
 \subsection{Schwerpunktkoordinaten}\label{SP-Koord}
 Zunächst werden die statischen Momente in den einzelnen Teilstücken berechnet.
@@ -140,6 +140,12 @@ Aus dem Zusammenhang
 lässt sich erkennen, dass der Winken ($\varphi =1,19^\circ$) zwischen dem Hauptachsen- und Schwerpunktkoordinatensystem nur sehr gering ist. Im folgenden finden alle Betrachtungen weiterhin nur im Schwerpunktkoordinatensystem statt.
 
 \subsection{Schubmittelpunkt}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{Bilder/Flügel-Pol-offen}
+	\caption{offenes Profil mit Pol}
+	\label{fig:Fluegel2}
+\end{figure}
 Nun ist es von Interesse, und im Rahmen der Aufgabenstellung auch gefordert, den Schubmittelpunkt, an dem eine angreifende Kraft reine Biegung ohne Torsion bewirkt, zu bestimmen.
 Zunächst wird der Schubmittelpunkt des wie in Abschnitt \ref{SP-Koord} aufgeschnittene Profils betrachtet. Wir betrachten die Kraft $Q$, die im Schubmittelpunkt angreift und äquivalent zu $q(s)$ nach
 \begin{equation}
@@ -247,11 +253,11 @@ Nach einigen Iterationen entwickelt sich der Wert $t = 0,169 mm$ als Grenzwert h
 \begin{equation}
 	t = 0,169 mm
 \end{equation}
-aufgerundet, was $WERT$ Lagen entspricht.
+aufgerundet, was $2$ Lagen entspricht.
 
 Alle in dies Kapitel errechneten Werte sind mit dieser Dicke errechnet worden. Der Verlauf der Schubflüsse ergibt sich mit der maximalen Schubspannung
 \begin{equation}
-\tau_{max}=\tau(s_1=18)=50,4 N/mm^2
+\tau_{max}\approx\tau(s_1=18)=50,4 N/mm^2
 \end{equation}
 zu den Verläufen, wie sie in Abbildung \ref{s1}-\ref{s10} zu sehen sind.
 
