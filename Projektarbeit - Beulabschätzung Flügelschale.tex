@@ -1,0 +1,37 @@
+Nachdem die Flügelhaut auf Festigkeit ausgelegt worden ist, muss überprüft werden, ob der Effekt des Beulens auftritt.\\
+
+\noindent Dazu werden folgende Annahmen getroffen:
+
+\begin{enumerate}
+	\item Die Berechnung erfolgt nach [1]
+	\item Es wird angenommen, dass die orthotropen Gewebe hinreichend mit den Gleichungen für isotropes Material berechnet werden können. Diese Annahme wird mit erfolgten Zulassungen für Segelflugzeuge anhand dieser Formeln begründet.
+	\item Die Flügelschale wird als ebener, unendlicher Streifen betrachtet. Die tatsächliche Krümmung und die Knicke erhöhen die Stabilität deutlich, sodass durch diese konservative Rechnung die Sicherheit gewährleistet bleibt.
+	\item Es tritt lediglich die ermittelte Schubspannung auf. In der Realität auftretende Zug- und Druckspannungen, hervorgerufen durch aufgeprägte Dehnungen des Holms und durch die Prüfkraft, werden in der Rechnung vernachlässigt.
+	\item Die Flügelschale wird als an beiden Rippen fest gelagert betrachtet. Eine Verformung der Rippen wird außer Acht gelassen.
+	\item Die Flügelnase und Klappenkante werden als stützende Lager angenommen, da diese einen engen Krümmungsradius aufweisen, welcher stabile und steife Strukturen hervorbringt.
+	\item Der Holmsteg wird ebenfalls an seinen beiden Enden als freies Lager angenommen.
+	\item Dadurch ergibt sich die maximale Breite eines Streifens zu $124,5 mm$ - von der Klappenkante zum oberen Steg-Lager.
+\end{enumerate}
+
+\noindent Die Berechnung erfolgt nach den gleichen Formeln der Berechnung des Kapitels \ref{Beulsicherheit Steg}.\\
+
+\noindent Das Seitenverhältnis beträgt für die maximale Streifenbreite
+\begin{equation}
+	\frac{b}{a}=\frac{124,5 mm}{773 mm}=0,16
+\end{equation}
+und somit wird der Beulfaktor für Schub zu 
+\begin{equation}
+	k=0,5
+\end{equation} ermittelt. Auch hier beträgt die Steifigkeitserhöhung $\kappa=3$ und der Schubmodul $G_{xy}=8577,8 MPa$. Dadurch lässt sich die zulässige Schubspannung ermitteln:
+\begin{equation}
+	\tau_{krit}=3\cdot 5\cdot 8577,8 MPa\cdot\biggl(\frac{4\cdot 0,078mm + 3mm}{124,5 mm}\biggr)^{2} =91,06 MPa
+\end{equation}
+Die Schaumdicke wird durch konstruktive Vorgaben auf $3 mm$ gesetzt. Dia maximal auftretende Schubspannung beträgt
+\begin{equation}
+	\tau_{max}=42,346 MPa
+\end{equation}
+(im Bereich der unteren Steg-Lagerung), sodass die Sicherheit gegen Beulen 
+\begin{equation}
+	j=2,15
+\end{equation}
+beträgt. Zusätzlich wird die Sicherheit durch den gekrümmten Verlauf erhöht.
