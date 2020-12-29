@@ -3,6 +3,7 @@
 schubfluss
 koordinatensysteme
 mehrzeller...?
+$dA=tds$
 \begin{equation}\label{qs}
 	q(s)=-(Q_{\bar{z}}\frac{S_{\bar{y}}(s)I_{\bar{z}}-S_{\bar{z}}(s)I_{\bar{yz}}}{I_{\bar{y}}I_{\bar{z}}-I_{\bar{yz}}^2}+Q_{\bar{y}}\frac{S_{\bar{z}}(s)I_{\bar{y}}-S_{\bar{y}}(s)I_{\bar{yz}}}{I_{\bar{z}}I_{\bar{y}}-I_{\bar{yz}}^2})+q_0
 \end{equation}
@@ -15,12 +16,13 @@ mehrzeller...?
 Text folgt
 \subsection{Idealisierung}
 Für die Berechnung des Schubmittelpunkts wird das Flügelprofil als vereinfachter Mehrzeller angenommen.
-Dabei wird der Ursprung des Koordinatensystems am unteren rechten Rand gesetzt. Das Modell wird in 10 Teilstrecken $s_{i}$ aufgeteilt. Die Dicke wird über die Schale konstant angenommen und die Dicke des Stegs wird mit $t_{1}=1,882\mathrm{mm}$ angenommen, sowie die Dicke der Gurte mit $\mathrm{D}=1,941\mathrm{mm}$.
+Dabei wird der Ursprung des Koordinatensystems am unteren rechten Rand gesetzt. Das Modell wird in 10 Teilstrecken $s_{i}$ aufgeteilt. Die Dicke $t$ wird über die Schale konstant angenommen. Der Schaum wird in allen Abschnitten der Schale und im Holm vernachlässigt, da seine Hauptaufgabe der Beulsteifigkeit gilt und er bei der Schubaufnahme im Vergleich zum Laminat nur eine unbedeutende Rolle spielt. Der Steg ist in 2 Abschnitte unterteilt. Für die maximale Belastung und somit auch die Auslegung relevant ist nur der Teil mit dem dünneren Gewebe, sodass hier für die Dicke des Stegs $t_{1}=0,314\mathrm{mm}$ angenommen wird. Für die Gurte gilt, dass alle Fasern parallel in x-Richtung ausgerichtet sind. Sie werden in dieser Rechnung ignoriert, da sie folglich im Gegensatz zum $\pm45^\circ$-Gewebe vernachlässigbare Schubkräfte aufnehmen können. Außerdem würde ein über die Dicke variabler Schubmodul die Rechnung unnötig verkomplizieren.
+Diese Annahmen bezüglich Schaum und Gurte sind unproblematisch, da sie so getroffen wurden, dass der Flügel sogar noch höheren Belastungen als errechnet standhalten könnte.
 \begin{figure}[h]
  \centering
  \includegraphics[width=0.7\textwidth]{Bilder/Model1}
  \caption{vereinfachtes Model}
- \label{fig:Fluegel1}
+ \label{Fluegel1}
 \end{figure}
 \subsection{Schwerpunktkoordinaten}\label{SP-Koord}
 Zunächst werden die statischen Momente in den einzelnen Teilstücken berechnet.
@@ -30,40 +32,40 @@ Zunächst werden die statischen Momente in den einzelnen Teilstücken berechnet.
 \begin{equation}
 	S_{y}=\int_{A}^{}z \mathrm{d}A =t\int_{s}^{}z \mathrm{d}s 
 \end{equation}
-Damit ergeben sich für die statischen Momente:
+Damit ergeben sich für die statischen Momente in $\mathrm{mm}^3$:
 
 \begin{center}
 \begin{tabular}[h]{l|c|c}
 	
-Bauteilabschnitt&$S_{y}$&$S_{z}$\\
+Bauteilabschnitt&$S_{y}/\mathrm{mm}^3$&$S_{z}/\mathrm{mm}^3$\\
 \hline
-1& -1406,25&802,6823346\\
-2&-1505,45762&1829,650931\\
-3&-1323,28125&3627,555\\
-4&-1428,32286&2400,902794\\
-5&-2859,540449&12778,1555\\
-6&-290,6472468&4825,70943\\
-7&0&8949,4158\\
-8&0&2408,679\\
-9&0&1832,243\\
-10&0&703,125\\
+1& -281,25&160,54\\
+2&-120,382&124,42\\
+3&-220,78&605,24\\
+4&-97,13&163,27\\
+5&-571,91&2555,63\\
+6&-58,13&965,14\\
+7&0&1789,88\\
+8&0&163,80\\
+9&0&124,60\\
+10&0&140,63\\
 \end{tabular}
 \end{center}
 
-\noindent Nun kann aus den statischen Momenten der Schwerpunkt bestimmt werden:
+\noindent Nun kann aus den statischen Momenten der Schwerpunkt bestimmt werden, indem das Statische Moment über alles Flächen zusammen addiert wird:
 \begin{equation}
 	y_{0}=\frac{\int_{s}{}t(s)y\mathrm{d}s}{\int_{s}{}t(s)\mathrm{d}s}=\frac{S_{z}}{A}
 \end{equation}
 \begin{equation}
 	z_{0}=\frac{\int_{s}{}t(s)z\mathrm{d}s}{\int_{s}{}t(s)\mathrm{d}s}=\frac{S_{y}}{A}
 \end{equation}
-Mit einer Dicke von $t=1\mathrm{mm}$ ergeben sich Lagen der Schwerpunktkoordinaten zu:
-\begin{equation}
-	y_{0}=57,6mm
-\end{equation}
-\begin{equation}
-	z_{0}=-17,3mm
-\end{equation}
+Mit einer Dicke von $t=0,2\mathrm{mm}$ ergeben sich Lagen der Schwerpunktkoordinaten zu:
+$$
+	y_{0}=78,53\mathrm{mm}
+$$
+$$
+	z_{0}=-15,39\mathrm{mm}
+$$
 
 Damit können nun mit
 \begin{equation}
@@ -72,21 +74,21 @@ Damit können nun mit
 \begin{equation}
 S_{\bar{z}}=S_z-y_0A
 \end{equation} 
-die Verläufe der statischen Momente im Bezug auf den Schwerpunkt ermittelt werden, wobei die Endwerte der vorherigen Verläufe nach dem hydrodynamischen Analogon den Anfangswert $s_0$ bestimmen. Dabei ergeben sich folgende Endwerte:
+die Verläufe der statischen Momente im Bezug auf den Schwerpunkt ermittelt werden, wobei die Endwerte der vorherigen Verläufe nach dem hydrodynamischen Analogon den Anfangswert $s_0$ des folgenden Bereichs bestimmen. Dabei ergeben sich folgende Endwerte in $\mathrm{mm}^3$:
 \begin{center}
 \begin{tabular}[h]{l|c|c}
-Bauteilabschnitt&$S_{\bar{y}}$&$S_{\bar{z}}$\\
+Bauteilabschnitt&$S_{\bar{y}}/\mathrm{mm}^3$&$S_{\bar{z}}/\mathrm{mm}^3$\\
 \hline
-1werte&-467,32&-3475,48\\
-2noch&-849,15&-1160,75\\
-3anpassen&-198,33&-1498,19\\
-4&-772,01&-589,50\\
-5&-1142,51&4954,62\\
-6&188,66&2641,77\\
-7&1330,33&2887,85\\
-8&656,30&-581,72\\
-9&656,30&-1158,16\\
-10&597,74&-2020,44\\
+1&-99,91&-764,60\\
+2&-159,18&-860,06\\
+3&-39,53&-319,43\\
+4&-252,75&-1236,10\\
+5&-493,03&-372,27\\
+6&-458,59&120,60\\
+7&-201,65&599,69\\
+8&-158,55&543,61\\
+9&-155,45&448,34\\
+10&0&0\\
 \end{tabular}
 \end{center}
 Für ein offenes Profil muss gelten, dass an den freien Rändern das statische Moment $ 0 $ ist. Das Profil wird in diesem Fall an den Stellen 1 und 3 geschnitten. Für die nun freien Enden an den diesen Bereichen wird $s_0=0$ und auch die Endwerte des Bereichs 10 werden zu $0$.
@@ -101,7 +103,7 @@ I_{z} = \int_{A}^{}y^2dA
 \begin{equation}
 I_{yz} = \int_{A}^{}zydA
 \end{equation}
- zuerst aus ihrem eigenen Schwerpunkt aus errechnet, sodass die auf den Gesamtschwerpunkt bezogenen Flächenträgheitsmomente $I_{\bar{y}}$, $I_{\bar{z}}$ und $I_{\bar{zy}}$ mit Hilfe des Steinerschen Satz
+ zuerst aus ihrem eigenen Schwerpunkt aus errechnet, sodass die auf den Gesamtschwerpunkt bezogenen Flächenträgheitsmomente $I_{\bar{y}}$, $I_{\bar{z}}$ und $I_{\bar{y}\bar{z}}$ mit Hilfe des Steinerschen Satz
  \begin{equation}
  	I_{\bar{y}} = I_{y} + z^2A
  \end{equation}
@@ -109,16 +111,16 @@ I_{yz} = \int_{A}^{}zydA
 I_{\bar{z}} = I_{z} + y^2A
 \end{equation}
 \begin{equation}
-I_{\bar{yz}} = I_{yz} + zyA
+I_{\bar{y}\bar{z}} = I_{yz} + zyA
 \end{equation}
  ermittelt werden können.
 Es ergibt sich:
 \begin{center}
 
 \begin{tabular}[h]{l|c|c|c||c|c|c}
-Bauteilabschnitt&$I_{y}$&$I_{z}$&$I_{zy}$&$I_{\bar{y}}$&$I_{\bar{z}}$&$I_{\bar{zy}}$\\
+Bauteilabschnitt&$I_{y}/\mathrm{mm}^4$&$I_{z}/\mathrm{mm}^4$&$I_{zy}/\mathrm{mm}^4$&$I_{\bar{y}}/\mathrm{mm}^4$&$I_{\bar{z}}/\mathrm{mm}^4$&$I_{\bar{y}\bar{z}}/\mathrm{mm}^4$\\
 \hline
-1&14288,06&14288,06&703,13&29254,35&86976,91&-32279,94\\
+1WERTE&14288,06&14288,06&703,13&29254,35&86976,91&-32279,94\\
 2&41,19&660,99&85,25&17553,77&33384,13&24024,05\\
 3&8270,51&20,83&0&8827,87&31825,09&4210,30\\
 4&41,19&660,99&85,25&14516,69&9101,00&11138,45\\
@@ -132,26 +134,26 @@ Bauteilabschnitt&$I_{y}$&$I_{z}$&$I_{zy}$&$I_{\bar{y}}$&$I_{\bar{z}}$&$I_{\bar{z
 $\sum{}$&-&-&-&137990,78&1028658,46&-30092,48
 \end{tabular}
 \end{center}
-Es kann sofort erkenne, dass $I_{\bar{yz}} \neq 0$ ist und es sich somit nicht um ein Hauptachensystem handelt. Das Devitionsmoment  $I_{\bar{yz}}$ ist jedoch im Vergleich zu den anderen Flächenträgheitsmomenten sehr niedrig. 
+Es kann sofort erkannt werden, dass $I_{\bar{y}\bar{z}} \neq 0$ ist und es sich somit nicht um ein Hauptachensystem handelt. Das Devitionsmoment  $I_{\bar{y}\bar{z}}$ ist jedoch im Vergleich zu den anderen Flächenträgheitsmomenten sehr niedrig. 
 Aus dem Zusammenhang
 \begin{equation}
-	tan(\varphi)=\frac{2I_{\bar{yz}}}{I_{\bar{z}}-I_{\bar{y}}}
+	tan(\varphi)=\frac{2I_{\bar{y}\bar{z}}}{I_{\bar{z}}-I_{\bar{y}}}
 \end{equation}
-lässt sich erkennen, dass der Winken ($\varphi =1,19^\circ$) zwischen dem Hauptachsen- und Schwerpunktkoordinatensystem nur sehr gering ist. Im folgenden finden alle Betrachtungen weiterhin nur im Schwerpunktkoordinatensystem statt.
+lässt sich erkennen, dass der Winken ($\varphi =-3,15^\circ$) zwischen dem Hauptachsen- und Schwerpunktkoordinatensystem nur sehr gering ist. Im folgenden finden alle Betrachtungen trotzdem weiterhin mit den Koordinatenachsen in dieser Ausrichtung statt.
 
 \subsection{Schubmittelpunkt}
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\textwidth]{Bilder/Flügel-Pol-offen}
 	\caption{offenes Profil mit Pol}
-	\label{fig:Fluegel2}
+	\label{Fluegel2}
 \end{figure}
 Nun ist es von Interesse, und im Rahmen der Aufgabenstellung auch gefordert, den Schubmittelpunkt, an dem eine angreifende Kraft reine Biegung ohne Torsion bewirkt, zu bestimmen.
-Zunächst wird der Schubmittelpunkt des wie in Abschnitt \ref{SP-Koord} aufgeschnittene Profils betrachtet. Wir betrachten die Kraft $Q$, die im Schubmittelpunkt angreift und äquivalent zu $q(s)$ nach
+Zunächst wird der Schubmittelpunkt des wie in Abschnitt \ref{SP-Koord} aufgeschnittene Profils betrachtet (siehe Abb. \ref{Fluegel2}). Wir betrachten die Kraft $Q$, die im Schubmittelpunkt angreift und äquivalent zu $q(s)$ nach
 \begin{equation}
 	Q=\int_{s}^{}q(s)ds
 \end{equation}
-ist. Gleichzeitig ergibt sich die genaue Verteilung aus der Momentenäquivalenz 
+ist. Gleichzeitig muss aus der Momentenäquivalenz gelten
 \begin{equation}
 	Qr=\int_{s}q(s)r(s)ds
 \end{equation}
@@ -163,41 +165,41 @@ wobei $r$ der jeweilige Hebelarm zu einem beliebigen Pol ist. Unter Anwendung de
 	z_{M}=\frac{-I_{\bar{yz}}\int S_{\bar{y}}(s) r_{t}\mathrm{d}s+I_{\bar{y}}\int S_{\bar{z}}(s) r_{t}\mathrm{d}s}{I_{\bar{y}}I_{\bar{z}}-I_{\bar{yz}}^2}
 \end{equation}
 Daraus folgt:
+$$
+	y_{M}=174,74\mathrm{mm}
+$$
+$$
+	z_{M}=-37,62\mathrm{mm}
+$$
+Im nächsten Schritt wird das Profil geschlossen, sodass ein Zweizeller entsteht. An den vorher noch geschnittenen Kanten kann nun Schubfluss herrschen. Dies wird durch die Konstanten $q_{0b,1}$ und $q_{0b,2}$ in der jeweiligen Zelle erreicht.
+Da die Verwindung $\vartheta$ für beide Zellen gleich und im Falle der weiterhin reinen Biegung null sein müssen, erhält man für jede Koordinatenrichtung zwei Gleichungen mit zwei unbekannten.
 \begin{equation}
-	y_{M}=213,7mm
+	\vartheta_{1}=\vartheta_{2}=0
 \end{equation}
 \begin{equation}
-	z_{M}=-20,9mm
-\end{equation}
-Im nächsten Schritt wird das Profil geschlossen, sodass ein Zweizeller entsteht. An den vorher noch geschlossenen Kanten kann nun Schubfluss herrschen. Dies wird durch die Konstanten $q_{0b,1}$ und $q_{0b,2}$ in der jeweiligen Zelle erreicht.
-Da die Verwindung $\vartheta$ für beide Zellen gleich und im Falle der reinen Biegung null sein müssen, erhält man für jede Koordinatenrichtung zwei Gleichungen mit zwei unbekannten.
-\begin{equation}\label{verdrillung}
 	\vartheta_{i} = \frac{1}{2A_{0i}G}\oint\frac{q(s)}{t(s)}ds
 \end{equation}
 \begin{equation}
 	\vartheta_{i} = \frac{1}{2A_{0i}G}(\oint\frac{q_{offen}(s)}{t(s)}ds+q_{0b,i}\oint\frac{1}{t(s)}ds-q_{0b,i\pm1}\int\frac{1}{t(s)})
 \end{equation}
-Mit den Werten für die umschlossenen Flächen:
-\begin{equation}
-	A_{01}=3087,57mm^2
-\end{equation}
-\begin{equation}
-	A_{02}=1616,41mm^2
-\end{equation}
+Mit den Werten für die umschlossenen Flächen
+$$
+	A_{01}=3087,57\mathrm{mm}^2
+$$
+$$
+	A_{02}=1616,41\mathrm{mm}^2
+$$
 ergeben sich die Konstanten:
-\begin{equation}
-	q_{0b,1\bar{z}}=-9,7\cdot10^{-4}mmQ_{\bar{z}}
-\end{equation}
-\begin{equation}
-	q_{0b,2\bar{z}}=-1,2\cdot10^{-4}mmQ_{\bar{z}}
-\end{equation}
-\begin{equation}
-	q_{0b,1\bar{y}}=-1,4\cdot10^{-5}mmQ_{\bar{y}}
-\end{equation}
-\begin{equation}
-	q_{0b,2\bar{y}}=-2,4\cdot10^{-4}mmQ_{\bar{y}}
-\end{equation}
-Mit den Schubfluss des geschlossenen Profils in Gleichung (\ref{verdrillung}) eingesetzt ergibt sich der Schubmittelpunkt ($y_{Mg}, z_{Mg}$) zu:
+$$
+	q_{0b,1\bar{z}}=-1,72\cdot10^{-2}\mathrm{mm}Q_{\bar{z}}
+$$$$
+	q_{0b,2\bar{z}}=-4,47\cdot10^{-4}\mathrm{mm}Q_{\bar{z}}
+$$$$
+	q_{0b,1\bar{y}}=-2,54\cdot10^{-3}\mathrm{mm}Q_{\bar{y}}
+$$$$
+	q_{0b,2\bar{y}}=-4,53\cdot10^{-4}\mathrm{mm}Q_{\bar{y}}
+$$
+Mit den Schubfluss des geschlossenen Profils in die Momentenäquivalenz eingesetzt, ergibt sich der Schubmittelpunkt ($y_{Mg}, z_{Mg}$) zu:
 \begin{equation}
 	Q_{\bar{z}}(y_{Mg}-y_{M})=\sum_{i=0}^{2}q_{0b,i\bar{z}}2A_{0,i}
 \end{equation}
@@ -205,62 +207,73 @@ Mit den Schubfluss des geschlossenen Profils in Gleichung (\ref{verdrillung}) ei
 Q_{\bar{y}}(z_{Mg}-z_{M})=\sum_{i=0}^{2}q_{0b,i\bar{y}}2A_{0,i}
 \end{equation}
 
-\begin{equation}
-	y_{M_{g}}=207,3mm
-\end{equation}
-\begin{equation}
-	z_{M_{g}}=-20,1mm
-\end{equation}
-
+$$
+	y_{M_{g}}=70,09\mathrm{mm}
+$$
+$$
+	z_{M_{g}}=-20,46\mathrm{mm}
+$$
 \subsection{Torsion}
-In den bisherigen Berechnungen wurde immer davon ausgegangen, dass die Kraft im Schubmittelpunkt angreift. Durch den Versuchsaufbau ist aber vorgegeben, dass eine Prüflast in z-Richtung an den $l/4$-Linie aufgebracht wird. Mit dem errechneten Schubmittelpunkt lässt sich erkennen, dass ein Torsionsmoment 
+In den bisherigen Berechnungen wurde immer davon ausgegangen, dass die Kraft im Schubmittelpunkt angreift. Durch den Versuchsaufbau ist jedoch vorgegeben, dass eine Prüflast in z-Richtung an den $l/4$-Linie aufgebracht wird. Mit dem errechneten Schubmittelpunkt lässt sich erkennen, dass ein Torsionsmoment 
 \begin{equation}
 	M_{xT}=(y_{l/4}-y_{0})\cdot F
 \end{equation}
-entsteht, das noch zusätzlichen Schubfluss und eine Verdrillung $\vartheta$ bewirkt. Wieder können die konstanten Schubanteile $q_{0T,i}$ aus der Momentenäquivalenz und der Verdrillung bestimmt werden. Wobei zu beachten ist, dass die Verdrillen hier nicht merh wie bei der reinen Biegung null ist, sondern über die Verträglichkeitsbedingung gilt
+entsteht, das noch zusätzlichen Schubfluss und eine Verdrillung $\vartheta$ bewirkt. Wieder können die konstanten Schubanteile $q_{0T,i}$ aus der Momentenäquivalenz und der Verdrillung bestimmt werden. Wobei zu beachten ist, dass die Verdrillen hier nicht mehr wie bei der reinen Biegung null ist, aber über die Verträglichkeitsbedingung weiterhin gelten muss
 \begin{equation}
-	\vartheta_{1}=\vartheta_{2}=\vartheta
+	\vartheta_{1}=\vartheta_{2}=\vartheta.
 \end{equation}
-Wenn für die Momentenbetrachtung der Schubmittelpunkt gewählt wird, fallen definitionsgemäß alle bisher berechenten Terme aus der Gleichung raus, sodass nur noch die Anteile $q_{0T,i}$ betrachtet werden müssen.
-\begin{equation}
-	\vartheta_{i} = \frac{1}{2A_{0i}G}(q_{0T,i}\oint\frac{1}{t(s)}ds-q_{0T,i\pm1}\int\frac{1}{t(s)})
+Da die bisherigen Anteile des Schubflusses definitionsgemäß weder Verdrillung verursachen, noch bezüglich des Schubmittelpunkts ein Moment kompensieren, fallen sie aus den Gleichungen raus. Es bleiben nur noch die Konstanten $q_{0T,i}$ übrig. Damit ergeben sich die vereinfachten Formlen für die Verdrillung und die Momentenäqivalenz:
+\begin{equation}\label{verdrillung}
+	\vartheta_{i} = \frac{1}{2A_{0i}G}(q_{0T,i}\oint\frac{1}{t(s)}ds-q_{0T,i\pm1}\int\frac{1}{t(s)}ds)
 \end{equation}
 \begin{equation}
 		M_{xT}=2\sum q_{0T,i}\cdot A_{0i}
 \end{equation}
-Für eine Prüflast von $100N$ erhält man
-\begin{equation}
-	q_{0T,1}=-8,67 N/mm
-\end{equation}
-\begin{equation}
-	q_{0T,2}=-9 N/mm
-\end{equation}
-Es reicht nun diese Werte in die Gleichung (\ref{verdrillung}) für eine der beiden Zellen einzusetzen.
-\begin{equation}
-	\vartheta =-0,026 ^\circ
-\end{equation}
+Für eine maximale Prüflast von $F=500\mathrm{N}$ die der Flügel aushalten muss, erhält man
+$$
+	q_{0T,1}=-1,45\mathrm{N/mm}
+$$
+$$
+	q_{0T,2}=-1,51\mathrm{N/mm}.
+$$
+Setzt man nun diese Werte in Gleichung (\ref{verdrillung}) erhält man für beide Zellen einen Drillwinkel von
+$$
+	\vartheta =-0,00195 ^\circ.
+$$
 
 \subsection{Schubspannung}
-Das Ziel dieser Berechnung war nicht nur den Schubmittelpunkt und die Verdrillung zu bestimmen, sondern hauptsächlich die Schubspannung in der Haut zu erhalten, um diese auslegen zu können. Da die Hautdicke auf dem gesamten Umfang konstant bleiben soll, ist an dieser Stelle nur die maximale Schubspannung für die gesamte Haut $\tau_{max}$, die sich einfach aus Gleichung (\ref{tau}) ermitteln lässt, interessant. Die Dicke $t$ ist jedoch nicht einfach aus den gesamten Rechnungen rausziehbar, weil es auch Anteile, wie zum Beispiel den Holm, gibt, die von $t$ unabhängig sind. Deswegen wird iterativ vorgegangen, wobei zuerst mit einer zufällig gewählten Dicke die Rechenschritte durchgeführt werden. Am Ende der Berechnung wird aus der maximalen Schubschubspannung über die Materialfestigkeit des Gewebes die erforderliche Dicke \begin{equation}
-	t_{erf} = \frac{\tau_{max}}{R_{\tau}}
-\end{equation} bestimmt. Nun wird die gesamte Rechnung mit einer neuen Dicke
+Das Ziel dieser Berechnung war nicht nur den Schubmittelpunkt und die Verdrillung zu bestimmen, sondern hauptsächlich die Schubspannung in der Haut zu erhalten, um diese auslegen zu können. Da die Hautdicke auf dem gesamten Umfang konstant bleiben soll, ist an dieser Stelle nur die maximale Schubspannung für alle Bereiche der Haut $\tau_{max}$, die sich einfach aus Gleichung (\ref{tau}) ermitteln lässt, interessant. Die Dicke $t$ ist jedoch nicht einfach aus den gesamten Rechnungen rausziehbar, weil es auch Anteile, wie zum Beispiel den Holm, gibt, die von $t$ unabhängig sind. Deswegen wird iterativ vorgegangen, wobei zuerst mit einer zufällig gewählten Dicke die Rechenschritte durchgeführt werden, in unserem Fall mit $t=0,2\mathrm{mm}$. Am Ende der Berechnung wird aus den maximalen Schubfluss die minimale Dicke
 \begin{equation}
-	t_{i+1} =\frac{t_{i,erf}+t_{i}}{2}
-\end{equation}
-erneut durchgeführt. Somit nähert man sich Schritt für Schritt dem Idealwert, bei dem die vorliegende Dicke der erforderlichen Dicke entspricht.
+	t_{min} = \frac{q_{max}}{R_{\tau}}.
+\end{equation} 
+bestimmt. Die Festigkeit bei reiner Schubbelastung $R_{\tau} = 166,67\mathrm{N/mm^2}$ wurde mittels ELamX bestimmt. Diese Dicke kann jedoch nicht als einfach so als Ergebnis genommen werden, da sich der Schubfluss mit variabler Dicke mit verändert. Die Rechnung muss mit dem neuen Wert erneut durchgeführt werden. Somit nähert man sich Schritt für Schritt dem Idealwert, bei dem die vorliegende Dicke der minimalen Dicke entspricht.
 
-Nach einigen Iterationen entwickelt sich der Wert $t = 0,169 mm$ als Grenzwert heraus. Da für die Haut das Laminat aus einer ganzzahligen Anzahl von Schichten bestehen muss, wird der Wert auf 
+Nach einigen Iterationen bildet sich der Wert $t = 0,03\mathrm{mm}$ als Grenzwert heraus. Die bisher in diesem Kapitel errechneten Werte sind mit dieser Dicke bestimmt worden. Da dies ungefähr 0,4 Lagen des $\pm45^\circ$-Gewebes entspricht, muss für die Fertigung des Flügels auf eine ganzzahlige Lagenanzahl aufgerundet werden. Hier wurde eine Dicke von 
 \begin{equation}
-	t = 0,169 mm
+	t = 0,1566 \mathrm{mm}
 \end{equation}
-aufgerundet, was $2$ Lagen entspricht.
+gewählt, was $2$ Lagen entspricht. Dies macht einen symmetrischen Aufbau der Haut möglich und gewährleistet die beste Beulsteifigkeit.
 
-Alle in dies Kapitel errechneten Werte sind mit dieser Dicke errechnet worden. Der Verlauf der Schubflüsse ergibt sich mit der maximalen Schubspannung
-\begin{equation}
-\tau_{max}\approx\tau(s_1=18)=50,4 N/mm^2
-\end{equation}
-zu den Verläufen, wie sie in Abbildung \ref{s1}-\ref{s10} zu sehen sind.
-
+Mit dieser Dicke verändern sich die Werte des entgültigen Flügels im Vergleich zu den bisher in diesem Kapitel durchgeführten Berechnungen. Der Schubmittelpunkt verschiebt sich minimal zu
+$$
+	y_{M_{g}}=69,29\mathrm{mm}
+$$
+$$
+	z_{M_{g}}=-20,27\mathrm{mm}.
+$$
+Auch der Drillwinkel vergrößert sich leicht durch die gesenkte Steifigkeit zu
+$$
+	\vartheta =-0,0024 ^\circ.
+$$
+Aus den Verläufen der Schubflüsse, wie sie in Abbildung \ref{fig:S1}-\ref{fig:S10} zu sehen, erkennt man, dass die betragsmäßig maximale Schubspannung am Endpunkt des Bereichs 8 auftritt.
+$$
+	\tau_{max}=\tau(s_8=14)=-42,35\mathrm{N/mm^2}\leq R_{\tau}
+$$
+Durch die aufgerundete Dicke ergibt sich also eine Sicherheit von
+$$
+	S\approx4.
+$$
+Im Steg (Bereich 3) tritt zwar ein deutlich höherer Schubfluss auf, jedoch ergibt sich durch die ebenfalls deutlich höhere Dicke eine geringere Spannung.
 
 
 
