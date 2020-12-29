@@ -45,14 +45,17 @@
 \contentsline {section}{\numberline {12}Massenabschätzung (H.K.)}{45}{}%
 \contentsline {subsection}{\numberline {12.1}Masse der Gurte}{45}{}%
 \contentsline {subsection}{\numberline {12.2}Masse des Stegs}{45}{}%
-\contentsline {section}{\numberline {13}Zusammenfassung}{47}{}%
-\contentsline {section}{\numberline {14}FEM}{48}{}%
-\contentsline {subsection}{\numberline {14.1}Warum FEM?}{48}{}%
-\contentsline {subsection}{\numberline {14.2}Wie funktioniert FEM?}{48}{}%
-\contentsline {subsubsection}{\numberline {14.2.1}Schwache Lösung der Elastostatik}{48}{}%
-\contentsline {subsubsection}{\numberline {14.2.2}Diskretisierung}{49}{}%
-\contentsline {section}{\numberline {15}Quellenverzeichnis}{50}{}%
-\contentsline {section}{\numberline {16}Abbildungsverzeichnis}{51}{}%
-\contentsline {section}{\numberline {17}Tabellenverzeichnis}{52}{}%
-\contentsline {section}{\numberline {18}Anhang}{53}{}%
-\contentsline {subsection}{\numberline {18.1}Abbildungen}{53}{}%
+\contentsline {subsection}{\numberline {12.3}Masse der Haut}{46}{}%
+\contentsline {subsection}{\numberline {12.4}Masse der Holzklötze und Rippen}{47}{}%
+\contentsline {subsection}{\numberline {12.5}Abschätzung der Verklebungen und der Gesamtmasse}{47}{}%
+\contentsline {section}{\numberline {13}Zusammenfassung}{49}{}%
+\contentsline {section}{\numberline {14}FEM}{50}{}%
+\contentsline {subsection}{\numberline {14.1}Warum FEM?}{50}{}%
+\contentsline {subsection}{\numberline {14.2}Wie funktioniert FEM?}{50}{}%
+\contentsline {subsubsection}{\numberline {14.2.1}Schwache Lösung der Elastostatik}{50}{}%
+\contentsline {subsubsection}{\numberline {14.2.2}Diskretisierung}{51}{}%
+\contentsline {section}{\numberline {15}Quellenverzeichnis}{52}{}%
+\contentsline {section}{\numberline {16}Abbildungsverzeichnis}{53}{}%
+\contentsline {section}{\numberline {17}Tabellenverzeichnis}{54}{}%
+\contentsline {section}{\numberline {18}Anhang}{55}{}%
+\contentsline {subsection}{\numberline {18.1}Abbildungen}{55}{}%

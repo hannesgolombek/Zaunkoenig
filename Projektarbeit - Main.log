@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  29 DEC 2020 16:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  29 DEC 2020 22:24
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -747,37 +747,42 @@ Package pdftex.def Info: Bilder/Stegflaeche.jpg  used on input line 29.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[45]) [46 <./Bilder/Stegflaeche.jpg>] ("Projektarbeit - Zusammenfassung.tex")
-[47] ("Projektarbeit - FEM.tex"
-Overfull \hbox (81.96765pt too wide) in paragraph at lines 5--6
-\T1/cmr/m/n/10.95 F�r die Be-rech-nung der Elas-to-sta-tik sind die Gleich-ge-w
-ichts-be-din-gung (157[]), Verzerrungs-Verschiebungsbedingung
+[45] [46 <./Bilder/Stegflaeche.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
  []
 
-[48]) [49] ("Projektarbeit - Quellenverzeichnis.tex") [50]
+[47]) [48] ("Projektarbeit - Zusammenfassung.tex") [49]
+("Projektarbeit - FEM.tex"
+Overfull \hbox (81.96765pt too wide) in paragraph at lines 5--6
+\T1/cmr/m/n/10.95 F�r die Be-rech-nung der Elas-to-sta-tik sind die Gleich-ge-w
+ichts-be-din-gung (167[]), Verzerrungs-Verschiebungsbedingung
+ []
+
+[50]) [51] ("Projektarbeit - Quellenverzeichnis.tex") [52]
 ("Projektarbeit - Main.lof")
 \tf@lof=\write4
 \openout4 = `"Projektarbeit - Main.lof"'.
 
- [51] ("Projektarbeit - Main.lot")
+ [53] ("Projektarbeit - Main.lot")
 \tf@lot=\write5
 \openout5 = `"Projektarbeit - Main.lot"'.
 
- [52]
+ [54]
 ("Projektarbeit - Anhang.tex"
-<Bilder/Lagenaufbau Holmgurte.png, id=260, 588.39825pt x 178.86826pt>
+<Bilder/Lagenaufbau Holmgurte.png, id=266, 588.39825pt x 178.86826pt>
 File: Bilder/Lagenaufbau Holmgurte.png Graphic file (type png)
 <use Bilder/Lagenaufbau Holmgurte.png>
 Package pdftex.def Info: Bilder/Lagenaufbau Holmgurte.png  used on input line 3
 .
 (pdftex.def)             Requested size: 455.24411pt x 138.39493pt.
-<Bilder/Lagenaufbau Steg dünn.png, id=261, 584.78474pt x 161.403pt>
+<Bilder/Lagenaufbau Steg dünn.png, id=267, 584.78474pt x 161.403pt>
 File: Bilder/Lagenaufbau Steg dünn.png Graphic file (type png)
 <use Bilder/Lagenaufbau Steg dünn.png>
 Package pdftex.def Info: Bilder/Lagenaufbau Steg dünn.png  used on input line 
 8.
 (pdftex.def)             Requested size: 455.24411pt x 125.64755pt.
-<Bilder/Lagenaufbau Steg dick.png, id=262, 343.2825pt x 496.85625pt>
+<Bilder/Lagenaufbau Steg dick.png, id=268, 343.2825pt x 496.85625pt>
 File: Bilder/Lagenaufbau Steg dick.png Graphic file (type png)
 <use Bilder/Lagenaufbau Steg dick.png>
 Package pdftex.def Info: Bilder/Lagenaufbau Steg dick.png  used on input line 1
@@ -787,47 +792,47 @@ Package pdftex.def Info: Bilder/Lagenaufbau Steg dick.png  used on input line 1
 
 LaTeX Warning: Float too large for page by 93.09843pt on input line 16.
 
-<Bilder/Berechnung Holmgurte.png, id=263, 894.9435pt x 463.7325pt>
+<Bilder/Berechnung Holmgurte.png, id=269, 894.9435pt x 463.7325pt>
 File: Bilder/Berechnung Holmgurte.png Graphic file (type png)
 <use Bilder/Berechnung Holmgurte.png>
 Package pdftex.def Info: Bilder/Berechnung Holmgurte.png  used on input line 18
 .
 (pdftex.def)             Requested size: 455.24411pt x 235.8919pt.
-<Bilder/Berechnung Steg dünn.png, id=264, 901.56825pt x 440.847pt>
+<Bilder/Berechnung Steg dünn.png, id=270, 901.56825pt x 440.847pt>
 File: Bilder/Berechnung Steg dünn.png Graphic file (type png)
 <use Bilder/Berechnung Steg dünn.png>
 Package pdftex.def Info: Bilder/Berechnung Steg dünn.png  used on input line 2
 3.
 (pdftex.def)             Requested size: 455.24411pt x 222.60243pt.
-<Bilder/Berechnung Steg dick.png, id=265, 542.025pt x 504.08325pt>
+<Bilder/Berechnung Steg dick.png, id=271, 542.025pt x 504.08325pt>
 File: Bilder/Berechnung Steg dick.png Graphic file (type png)
 <use Bilder/Berechnung Steg dick.png>
 Package pdftex.def Info: Bilder/Berechnung Steg dick.png  used on input line 28
 .
 (pdftex.def)             Requested size: 455.24411pt x 423.38858pt.
-<Bilder/Konstanten Holmgurte.png, id=266, 595.023pt x 370.38374pt>
+<Bilder/Konstanten Holmgurte.png, id=272, 595.023pt x 370.38374pt>
 File: Bilder/Konstanten Holmgurte.png Graphic file (type png)
 <use Bilder/Konstanten Holmgurte.png>
 Package pdftex.def Info: Bilder/Konstanten Holmgurte.png  used on input line 33
 .
 (pdftex.def)             Requested size: 455.24411pt x 283.38219pt.
-<Bilder/Konstanten Steg dünn.png, id=267, 590.205pt x 374.5995pt>
+<Bilder/Konstanten Steg dünn.png, id=273, 590.205pt x 374.5995pt>
 File: Bilder/Konstanten Steg dünn.png Graphic file (type png)
 <use Bilder/Konstanten Steg dünn.png>
 Package pdftex.def Info: Bilder/Konstanten Steg dünn.png  used on input line 3
 8.
 (pdftex.def)             Requested size: 455.24411pt x 288.94551pt.
-<Bilder/Konstanten Steg dick.png, id=268, 585.98924pt x 369.7815pt>
+<Bilder/Konstanten Steg dick.png, id=274, 585.98924pt x 369.7815pt>
 File: Bilder/Konstanten Steg dick.png Graphic file (type png)
 <use Bilder/Konstanten Steg dick.png>
 Package pdftex.def Info: Bilder/Konstanten Steg dick.png  used on input line 43
 .
 (pdftex.def)             Requested size: 455.24411pt x 287.28299pt.
-) [53 <./Bilder/Lagenaufbau Holmgurte.png> <./Bilder/Lagenaufbau Steg dünn.png
->] [54 <./Bilder/Lagenaufbau Steg dick.png>] [55 <./Bilder/Berechnung Holmgurte
-.png> <./Bilder/Berechnung Steg dünn.png>] [56 <./Bilder/Berechnung Steg dick.
-png>] [57 <./Bilder/Konstanten Holmgurte.png>] [58 <./Bilder/Konstanten Steg d�
-�nn.png>] [59 <./Bilder/Konstanten Steg dick.png>] ("Projektarbeit - Main.aux")
+) [55 <./Bilder/Lagenaufbau Holmgurte.png> <./Bilder/Lagenaufbau Steg dünn.png
+>] [56 <./Bilder/Lagenaufbau Steg dick.png>] [57 <./Bilder/Berechnung Holmgurte
+.png> <./Bilder/Berechnung Steg dünn.png>] [58 <./Bilder/Berechnung Steg dick.
+png>] [59 <./Bilder/Konstanten Holmgurte.png>] [60 <./Bilder/Konstanten Steg d�
+�nn.png>] [61 <./Bilder/Konstanten Steg dick.png>] ("Projektarbeit - Main.aux")
 
 LaTeX Warning: There were undefined references.
 
@@ -835,7 +840,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  4396 strings out of 479799
  68734 string characters out of 2869723
- 378334 words of memory out of 3000000
+ 377334 words of memory out of 3000000
  21241 multiletter control sequences out of 15000+200000
  546587 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -860,9 +865,9 @@ ublic/amsfonts/cm/cmr8.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Henri/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Henri/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (59 pages, 2573915 bytes).
+Output written on "Projektarbeit - Main.pdf" (61 pages, 2580867 bytes).
 PDF statistics:
- 712 PDF objects out of 1000 (max. 8388607)
+ 720 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

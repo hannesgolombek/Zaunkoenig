@@ -48,8 +48,59 @@ Für die jeweiligen Volumina folgt mit der Dichte $ \rho_{Verbund} $ und der Dic
 	m_{Steg,Verb}=V_{Steg,Verb}\cdot\rho_{Verbund}=0,0315kg
 \end{equation}
 \begin{equation}
-		m_{Steg,Schaum}=V_{Steg,Schaum}\cdot\rho_{Schaum}=1,73\cdot10^{-3}kg
+		m_{Steg,Schaum}=V_{Steg,Schaum}\cdot\rho_{Schaum}=0,00173kg
 \end{equation}
-Für den Schaum steht Styrodur zur Verfügung. Laut Trendbericht aus dem Magazin "Kunststoffe" in der Ausgabe 10/2008 \cite{item7}, beträgt die Dichte von extrudiertem Polystyrol-Hartschaumstoff (XPS) $ 25\frac{kg}{m^{3}} $ bis $ 45\frac{kg}{m^{3}} $. Für die Massenabschätzung wurde der Mittelwert von $ 35\frac{kg}{m^{3}} $ angenommen.
+Für den Schaum steht Styrodur zur Verfügung. Laut Trendbericht aus dem Magazin "Kunststoffe" in der Ausgabe 10/2008 \cite{item7}, beträgt die Dichte von extrudiertem Polystyrol-Hartschaumstoff (XPS) $ 25\frac{kg}{m^{3}} $ bis $ 45\frac{kg}{m^{3}} $. Für die Massenabschätzung wurde der Mittelwert von $ 35\frac{kg}{m^{3}} $ angenommen. Die Bohrungen für die Hauptbolzen senken die Masse des Stegs leicht. Aufgrund des sehr geringen Volumens der Bohrungen im Vergleich zum Gesamtvolumen des Stegs, kann dieser Einfluss vernachlässigt werden. 
 
+\subsection{Masse der Haut}
+Für das Hautsandwich, bestehend aus einem 3mm dicken Schaumkern und je einer Lage Interglas 90070 auf der Innen- und Außenseite, wird erneut die Querschnittsfläche im CAD-Programm bestimmt. Sie beträgt $ A_{Haut,Schaum}=853,3mm^{2} $. Multipliziert mit der Extrusionslänge des betrachteten Schaumkerns ergibt sich das Volumen 
+\begin{equation}
+	V_{Haut,Schaum}=A_{Haut,Schaum}\cdot l_{3}=6,6\cdot10^{-4}m^{3}
+\end{equation}
+und mit der Dichte $ \rho_{Schaum} $ schließlich
+\begin{equation}
+	m_{Haut,Schaum}=V_{Haut,Schaum}\cdot\rho_{Schaum}=0,023kg.
+\end{equation}
+Zur Bestimmung der Masse des Faserverbundanteils in der Haut wird die Länge der abgewickelten Hautschicht mit dem CAD-Programm bestimmt. Für die innere und die äußere Schicht ergeben sich:
+\begin{equation}
+	l_{Haut,innen}=346,46mm
+\end{equation}
+\begin{equation}
+	l_{Haut,aussen}=367,83mm
+\end{equation}
+Die Dicke einer Schicht des Interglas 90070 Gewebes mit einer flächenbezogenen Masse von $ 80\frac{g}{m^{2}} $
+berechnet sich nach \cite{item3} mit der Formel:
+\begin{equation}
+	t=n\cdot\frac{m}{Lb}\cdot\frac{1}{\varphi\cdot\rho_{f}}
+\end{equation}
+Für eine Schicht, $ \varphi=0,4 $ und $ \rho_{f}=2550\frac{kg}{m^{3}} $ ist $ t_{Haut}=0,078mm $.
+Die Breite entspricht Länge $ l_{3} $, damit ergibt sich das Volumen der inneren und äußeren Hautschicht zu:
+\begin{equation}
+	V_{Haut,innen}=l_{Haut,innen}\cdot l_{3}\cdot t_{Haut}=2,089\cdot 10^{-5}m^{3}
+\end{equation}
+\begin{equation}
+	V_{Haut,aussen}=l_{Haut,aussen}\cdot l_{3}\cdot t_{Haut}=2,218\cdot 10^{-5}m^{3}
+\end{equation}
+und für die Massen folgt:
+\begin{equation}
+	m_{Haut,innen}=V_{Haut,innen}\cdot \rho_{Verbund}=0,036kg
+\end{equation}
+\begin{equation}
+	m_{Haut,aussen}=V_{Haut,aussen}\cdot \rho_{Verbund}=0,038kg.
+\end{equation}
+
+\subsection{Masse der Holzklötze und Rippen}
+Da die Holzklötze eine komplizierte Geometrie aufweisen, wird ihre Masse der Einfachheit halber mit dem CAD-Programm berechnet. Als Material wird Kiefernholz gewählt,das mit $ \rho_{Kiefer}=559\frac{kg}{m^{3}} $ im mittleren Bereich der Dichten im CAD-Programm verfügbarer Hölzer liegt. Die Masse eines jeden Holzklotzes wird damit zu $ m_{Klotz}=0,015kg $ bestimmt.
+Auf die gleiche Weise wird zur Bestimmung der Massen der Rippen verfahren. Die Wurzelrippe und die Endrippe bestehen jeweils aus zwei Teilen, die Masse einer Rippe wird mithilfe des Programms für Kiefernholz zu $ m_{Rippe}=0,004kg $ bestimmt.
+
+\subsection{Abschätzung der Verklebungen und der Gesamtmasse}
+Einen weiteren Anteil an der Gesamtmasse liefern die Klebeverbindungen.Zur Verklebung der Rippen mit dem Holm sind Holzklötze vorgesehen, die an die Vorder- und Hinterseite des Stegs geklebt werden und dadurch eine ausreichend große Klebefläche zur Verfügung stellen. Die Breite der Klötze wurde im Abschnitt 8.2 zu $ 1,12mm $ berechnet. Zur einfachen Fertigung können Holzleisten mit einem quadratischen Querschnitt von $ 2mm x 2mm $ gewählt werden. Bei einer Länge von $ \tilde{h_{i}} $ beträgt die Masse jeder Leiste weniger als $ 0,1g $. Da nur vier Leisten vorgesehen sind, kann die Masse vernachlässigt werden. Die Verklebungen von Steg und Gurt, sowie die Klebestellen zwischen den Halbschalen, sollen ohne den Einsatz zusätzlicher Gewebelagen oder Leisten erfolgen. Eine Abschätzung, wie präzise Mumpe aufgetragen werden kann und mit welcher Dichte der Klebemasse beim Einsatz von Mikroballons gerechnet werden kann, ist nur schwer möglich. Die Masse der Klebestellen wird auf wenige zehn Gramm abgeschätzt.\\
+
+\noindent Abschließend wird die Gesamtmasse aus der Summe der einzelnen Massen berechnet. Sie ergibt sich zu:
+\begin{equation}
+\begin{array}{l}
+	m_{ges}= m_{Gurt,o}+m_{Gurt,u}+m_{Steg,Verb}+m_{Steg,Schaum} \\ +m_{Haut,Schaum}+m_{Haut,innen}+m_{Haut,aussen} \\ +2\cdot m_{Rippe}+2\cdot m_{Klotz} \\=0,340kg
+\end{array}  
+\end{equation}
+Die Gewichtslimitierung von 0,75kg wird mit großer Sicherheit eingehalten.
 
