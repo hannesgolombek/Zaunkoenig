@@ -1,4 +1,5 @@
 \babel@toc {ngerman}{}
+<<<<<<< Updated upstream
 \contentsline {figure}{\numberline {1}{\ignorespaces a) I-Holm b) C-Holm c) Kastenholm}}{11}{}%
 \contentsline {figure}{\numberline {2}{\ignorespaces Modellierung des Holms}}{13}{}%
 \contentsline {figure}{\numberline {3}{\ignorespaces Steifigkeitsauslegung}}{17}{}%
@@ -21,3 +22,25 @@
 \contentsline {figure}{\numberline {20}{\ignorespaces Ingenieurskonstanten Holmgurte}}{57}{}%
 \contentsline {figure}{\numberline {21}{\ignorespaces BerechnIngenieurskonstantenung Steg Bereich $III$}}{58}{}%
 \contentsline {figure}{\numberline {22}{\ignorespaces Ingenieurskonstanten Steg Bereich $I$\&$II$}}{59}{}%
+=======
+\contentsline {figure}{\numberline {1}{\ignorespaces a) I-Holm b) C-Holm c) Kastenholm}}{10}{}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Modellierung des Holms}}{12}{}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Steifigkeitsauslegung}}{16}{}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Festigkeitsauslegung}}{17}{}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Bezeichnungen des I-Holms}}{19}{}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Angepasste gekrümmte Gurtkontur}}{21}{}%
+\contentsline {figure}{\numberline {7}{\ignorespaces vereinfachtes Model}}{32}{}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Haut und Gurte nach dem ersten Schritt der Konstruktion in Solid Edge.}}{39}{}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Prinzipskizze der Sandwichstruktur im Steg in der Draufsicht.}}{40}{}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Seitenansicht auf die Endrippe}}{40}{}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Konstruktion der Holzklötze und Positionierung am Steg.}}{41}{}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Lagenaufbau Holmgurte}}{49}{}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Lagenaufbau Steg Bereich $III$}}{49}{}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Lagenaufbau Steg Bereich $I$\&$II$}}{50}{}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Berechnung Holmgurte}}{51}{}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Berechnung Steg Bereich $III$}}{51}{}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Berechnung Steg Bereich $I$\&$II$}}{52}{}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Ingenieurskonstanten Holmgurte}}{53}{}%
+\contentsline {figure}{\numberline {19}{\ignorespaces BerechnIngenieurskonstantenung Steg Bereich $III$}}{54}{}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Ingenieurskonstanten Steg Bereich $I$\&$II$}}{55}{}%
+>>>>>>> Stashed changes
