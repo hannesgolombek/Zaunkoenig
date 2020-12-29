@@ -42,14 +42,17 @@
 \contentsline {subsection}{\numberline {11.3}Konstruktion der Haut und der Rippen}{41}{}%
 \contentsline {subsection}{\numberline {11.4}Holzkonstruktion an der Aufnahme der Hauptbolzen}{43}{}%
 \contentsline {subsection}{\numberline {11.5}Problematik der Montage auf dem Teststand}{43}{}%
-\contentsline {section}{\numberline {12}Zusammenfassung}{45}{}%
-\contentsline {section}{\numberline {13}FEM}{46}{}%
-\contentsline {subsection}{\numberline {13.1}Warum FEM?}{46}{}%
-\contentsline {subsection}{\numberline {13.2}Wie funktioniert FEM?}{46}{}%
-\contentsline {subsubsection}{\numberline {13.2.1}Schwache Lösung der Elastostatik}{46}{}%
-\contentsline {subsubsection}{\numberline {13.2.2}Diskretisierung}{47}{}%
-\contentsline {section}{\numberline {14}Quellenverzeichnis}{48}{}%
-\contentsline {section}{\numberline {15}Abbildungsverzeichnis}{49}{}%
-\contentsline {section}{\numberline {16}Tabellenverzeichnis}{50}{}%
-\contentsline {section}{\numberline {17}Anhang}{51}{}%
-\contentsline {subsection}{\numberline {17.1}Abbildungen}{51}{}%
+\contentsline {section}{\numberline {12}Massenabschätzung (H.K.)}{45}{}%
+\contentsline {subsection}{\numberline {12.1}Masse der Gurte}{45}{}%
+\contentsline {subsection}{\numberline {12.2}Masse des Stegs}{45}{}%
+\contentsline {section}{\numberline {13}Zusammenfassung}{47}{}%
+\contentsline {section}{\numberline {14}FEM}{48}{}%
+\contentsline {subsection}{\numberline {14.1}Warum FEM?}{48}{}%
+\contentsline {subsection}{\numberline {14.2}Wie funktioniert FEM?}{48}{}%
+\contentsline {subsubsection}{\numberline {14.2.1}Schwache Lösung der Elastostatik}{48}{}%
+\contentsline {subsubsection}{\numberline {14.2.2}Diskretisierung}{49}{}%
+\contentsline {section}{\numberline {15}Quellenverzeichnis}{50}{}%
+\contentsline {section}{\numberline {16}Abbildungsverzeichnis}{51}{}%
+\contentsline {section}{\numberline {17}Tabellenverzeichnis}{52}{}%
+\contentsline {section}{\numberline {18}Anhang}{53}{}%
+\contentsline {subsection}{\numberline {18.1}Abbildungen}{53}{}%

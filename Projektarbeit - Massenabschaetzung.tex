@@ -1,0 +1,55 @@
+Auf Basis der Dimensionierung der einzelnen Komponenten, kann die Masse der Tragfläche abgeschätzt werden. Im Folgenden werden die Volumina berechnet, um mithilfe der Dichte des jeweiligen Werkstoffes auf die Masse zu schließen.
+\subsection{Masse der Gurte}
+Zur Bestimmung des Volumens wird die seitliche Querschnittsfläche des oberen und unteren Gurts mithilfe des CAD-Programms bestimmt und mit der Extrusionslänge multipliziert. Die Querschnittsfläche des oberen Gurts beträgt $A_{Gurt,o}=54,4mm^{2}$, die des unteren Gurtes $ A_{Gurt,u}=54,37mm^{2} $. Da sich der Gurtquerschnitt über die gesamte Länge $l_{0}+l_{1}+l_{2}+l_{3}=0,916m$ nicht ändert, werden die Volumina zu 
+\begin{equation}
+	V_{Gurt,o}=A_{Gurt,o}\cdot \left(l_{0}+l_{1}+l_{2}+l_{3}\right)\\
+	=4,983\cdot 10^{-5}m^{3}
+\end{equation}
+\begin{equation}
+	V_{Gurt,u}=A_{Gurt,u}\cdot \left(l_{0}+l_{1}+l_{2}+l_{3}\right)\\
+	=4,98\cdot 10^{-5}m^{3}
+\end{equation}
+berechnet. Im nächsten Schritt wird die Dichte der Faserverbundbauteile bestimmt. Sie errechnet sich gemäß der Mischungsregel nach \cite{item3} zu
+\begin{equation}
+	\rho_{Verbund}=\varphi\cdot\rho_{f}+\left(1-\varphi\right)\cdot\rho_{m}
+	=1728\frac{kg}{m^{3}}.
+\end{equation}
+Damit ergeben sich die Massen der Gurte zu
+\begin{equation}
+	m_{Gurt,o}=V_{Gurt,o}\cdot\rho_{Verbund}=0,0861kg
+\end{equation}
+\begin{equation}
+		m_{Gurt,u}=V_{Gurt,u}\cdot\rho_{Verbund}=0,086kg .
+\end{equation}
+
+\subsection{Masse des Stegs}
+Zur Massenabschätzung des Stegs wird vereinfacht angenommen, dass die Kontaktflächen zu den Gurten eben sind. Aufgrund der sehr großen Krümmungsradien der Gurte führt diese Annahme zu nur kleinen Abweichungen.  
+Der von oben betrachtete Steg wird in Teilflächen zerlegt, deren Flächeninhalte mit den Maßen aus den vorangegangenen Abschnitten berechnet werden können.
+\begin{figure}[h]
+	\includegraphics[width=1.0\textwidth]{Bilder/Stegflaeche.jpg}
+	\caption{Prinzipskizze des Stegs mit Flächeninhalten der Teilflächen.}
+	\label{fig: StegFlaeche}
+\end{figure}
+Die Fläche der Verbundbauteile berechnet sich aus der Summe der zugehörigen Teilflächen und der Symmetrie bezüglich der y-Richtung zu
+\begin{equation}
+	A_{Steg,Verb}=2\cdot\left(156,206mm^{2}+11,76mm^{2}+117,75mm^{2}\right)
+	=571,432mm^{2}.
+\end{equation}
+
+Die Fläche des Schaums ist durch $ A_{Steg,Schaum}=1548,19mm^{2} $ gegeben.Der Steg misst $ \tilde{h_{i}}=\tilde{h_{a}-2}\cdot\tilde{h}=35,8mm-2\cdot1,941mm $ in die z-Richtung. Damit ergeben sich die Volumina des Schaumes und des Verbund-Anteils zu
+\begin{equation}
+	V_{Steg,Verb}=A_{Steg,Verb}\cdot\tilde{h_{i}}=1,824\cdot10^{-5}m^{3}
+\end{equation}
+\begin{equation}
+	V_{Steg,Schaum}=A_{Schaum}\cdot\tilde{h_{i}}=4,941\cdot10^{-5}m^{3}.
+\end{equation}
+Für die jeweiligen Volumina folgt mit der Dichte $ \rho_{Verbund} $ und der Dichte des Schaums $ \rho_{Schaum}=35\frac{kg}{m^{3}} $:
+\begin{equation}
+	m_{Steg,Verb}=V_{Steg,Verb}\cdot\rho_{Verbund}=0,0315kg
+\end{equation}
+\begin{equation}
+		m_{Steg,Schaum}=V_{Steg,Schaum}\cdot\rho_{Schaum}=1,73\cdot10^{-3}kg
+\end{equation}
+Für den Schaum steht Styrodur zur Verfügung. Laut Trendbericht aus dem Magazin "Kunststoffe" in der Ausgabe 10/2008 \cite{item7}, beträgt die Dichte von extrudiertem Polystyrol-Hartschaumstoff (XPS) $ 25\frac{kg}{m^{3}} $ bis $ 45\frac{kg}{m^{3}} $. Für die Massenabschätzung wurde der Mittelwert von $ 35\frac{kg}{m^{3}} $ angenommen.
+
+
