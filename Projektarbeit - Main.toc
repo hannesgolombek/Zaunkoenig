@@ -61,5 +61,9 @@
 \contentsline {section}{\numberline {18}Abbildungsverzeichnis}{56}{}%
 \contentsline {section}{\numberline {19}Tabellenverzeichnis}{57}{}%
 \contentsline {section}{\numberline {20}Anhang}{58}{}%
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {20.1}Berechnung: Analytischen Lösung der Holm-Modellierung}{58}{}%
 \contentsline {subsection}{\numberline {20.2}Abbildungen}{60}{}%
+=======
+\contentsline {subsection}{\numberline {20.1}Abbildungen}{58}{}%
+>>>>>>> main
