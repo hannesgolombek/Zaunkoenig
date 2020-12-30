@@ -1,11 +1,23 @@
 
 
 \subsection{Bolzenberechnung}
-Im Folgenden werden die Bolzen, die den Holm im für den Versuchsaufbau vorgegebenen U-Profil fixieren, ausgelegt. Die Bolzen sind auf Biegung belastet, wodurch sich die Gleichung:
+Zunächst muss eine Auslegung für die Flächenpressung erfolgen. Dabei ist für Buche $\sigma_{p,zul}=60\frac{N}{mm^2}$
+Die projizierte Fläche ist $A=a*d$ , d ist hierbei der Durchmesser des Bolzens und a die Länge des Lochs im Steg.\\
+Die Flächenpressung ist nun: 
+\begin{equation}
+	p=\frac{F}{A}=\frac{5085,5\mathrm{N}}{a*8mm}
+\end{equation}
+Mit der zulässigen Flächenpressung für Buchenholz lässt sich die Gleichung nun nach a auflösen:
+\begin{equation}
+	a=\frac{F}{\sigma_{p,zul}*d}=\frac{5085,5\mathrm{N}}{60\frac{N}{mm^{2}}*8mm}=10,59mm
+\end{equation}
+Somit muss die Holzverstärkung des Stegs an der Stelle der Lager mindestens eine Breite von 10,59$\mathrm{mm}$ aufweisen. Im Weiteren wird eine Breite von 11$\mathrm{mm}$ angenommen.\\
+ 
+Nun werden die Bolzen, die den Holm im für den Versuchsaufbau vorgegebenen U-Profil fixieren, ausgelegt. Die Bolzen sind auf Biegung belastet, wodurch sich die Gleichung:
 \begin{equation}
 	\sigma_{b}=\frac{M_{b}}{W} 
 \end{equation}
-,ergibt.
+,ergibt.\\
  Mit: 
  \begin{equation}
  	W_{Kreis}=\frac{\pi*d^{3}}{32}
@@ -22,26 +34,12 @@ Die zu ertragende Kraft ist $5085,5 \mathrm{N}$. Diese lässt sich jetzt noch ha
  \begin{equation}
  	F_{bel}=\frac{F}{2} =2542,75 \mathrm{N}
  \end{equation}
- Nun kann mit $d=8mm$ und $l=14,059mm$ ein passendes Material gesucht werden. Für Stahl gilt $\sigma_{b,F}\approx1,2*R_{e}$, somit muss 
+ Nun kann mit $d=8mm$ und $l=8,559mm$ ein passendes Material gesucht werden. Für Stahl gilt $\sigma_{b,F}\approx1,2*R_{e}$, somit muss 
  \begin{equation}
- 	F*\frac{32*l}{1,2*\pi*d^{3}}=592,27\mathrm{MPa}\leq
+ 	F*\frac{32*l}{1,2*\pi*d^{3}}=360,8\mathrm{MPa}\leq
 R_{e} \end{equation}  sein.\\
 
- Mit den getroffenden Annahmen ist S620Q mit einer Streckgrenze von $R_{e}=620\frac{N}{mm^{2}}$ ein geeigneter Stahl.\\
- 
- \noindent Nun muss noch eine Auslegung für die Flächenpressung erfolgen.Dabei ist für Buche $\sigma_{p,zul}=60\frac{N}{mm^2}$
-Die projizierte Fläche ist $A=a*d$ , d ist hierbei der Durchmesser des Bolzens und a die Länge des Lochs im Steg.\\
-Die Flächenpressung ist nun: 
-\begin{equation}
-	p=\frac{F}{A}=\frac{5085,5\mathrm{N}}{a*8mm}
-\end{equation}
-Mit der zulässigen Flächenpressung für Buchenholz lässt sich die Gleichung nun nach a auflösen:
-\begin{equation}
-	a=\frac{F}{\sigma_{p,zul}*d}=\frac{5085,5\mathrm{N}}{60\frac{N}{mm^{2}}*8mm}=10,59mm
-\end{equation}
-Somit muss die Holzverstärkung des Stegs an der Stelle der Lager mindestens eine Breite von 10,59$\mathrm{mm}$ aufweisen.\cite{item6}\\
-
-\noindent Es fehlt noch die min. Breite des Stegs für dessen zulässige Flächenpressung!
+ Mit den getroffenden Annahmen ist S620Q (anderer) mit einer Streckgrenze von $R_{e}=620\frac{N}{mm^{2}}$ ein geeigneter Stahl.\cite{item6}\\
  
  
  
