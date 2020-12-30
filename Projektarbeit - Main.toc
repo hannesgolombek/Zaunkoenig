@@ -36,6 +36,7 @@
 \contentsline {subsection}{\numberline {10.4}Schubmittelpunkt}{36}{}%
 \contentsline {subsection}{\numberline {10.5}Torsion}{38}{}%
 \contentsline {subsection}{\numberline {10.6}Schubspannung}{39}{}%
+<<<<<<< Updated upstream
 \contentsline {section}{\numberline {11}CAD-Modell (H.K.)}{40}{}%
 \contentsline {subsection}{\numberline {11.1}Konstruktion der Gurte}{40}{}%
 \contentsline {subsection}{\numberline {11.2}Konstruktion des Stegs}{41}{}%
@@ -59,3 +60,31 @@
 \contentsline {section}{\numberline {17}Tabellenverzeichnis}{54}{}%
 \contentsline {section}{\numberline {18}Anhang}{55}{}%
 \contentsline {subsection}{\numberline {18.1}Abbildungen}{55}{}%
+=======
+\contentsline {section}{\numberline {11}Auslegung der Flügelschale nach CLT}{40}{}%
+\contentsline {subsection}{\numberline {11.1}eLamX (T.B.)}{40}{}%
+\contentsline {section}{\numberline {12}Beulabschätzung der Flügelschale (T.B.)}{41}{}%
+\contentsline {section}{\numberline {13}CAD-Modell (H.K.)}{43}{}%
+\contentsline {subsection}{\numberline {13.1}Konstruktion der Gurte}{43}{}%
+\contentsline {subsection}{\numberline {13.2}Konstruktion des Stegs}{44}{}%
+\contentsline {subsection}{\numberline {13.3}Konstruktion der Haut und der Rippen}{44}{}%
+\contentsline {subsection}{\numberline {13.4}Holzkonstruktion an der Aufnahme der Hauptbolzen}{46}{}%
+\contentsline {subsection}{\numberline {13.5}Problematik der Montage auf dem Teststand}{46}{}%
+\contentsline {section}{\numberline {14}Massenabschätzung (H.K.)}{48}{}%
+\contentsline {subsection}{\numberline {14.1}Masse der Gurte}{48}{}%
+\contentsline {subsection}{\numberline {14.2}Masse des Stegs}{48}{}%
+\contentsline {subsection}{\numberline {14.3}Masse der Haut}{49}{}%
+\contentsline {subsection}{\numberline {14.4}Masse der Holzklötze und Rippen}{50}{}%
+\contentsline {subsection}{\numberline {14.5}Abschätzung der Verklebungen und der Gesamtmasse}{50}{}%
+\contentsline {section}{\numberline {15}Zusammenfassung}{52}{}%
+\contentsline {section}{\numberline {16}FEM}{53}{}%
+\contentsline {subsection}{\numberline {16.1}Warum FEM?}{53}{}%
+\contentsline {subsection}{\numberline {16.2}Wie funktioniert FEM?}{53}{}%
+\contentsline {subsubsection}{\numberline {16.2.1}Schwache Lösung der Elastostatik}{53}{}%
+\contentsline {subsubsection}{\numberline {16.2.2}Diskretisierung}{54}{}%
+\contentsline {section}{\numberline {17}Quellenverzeichnis}{55}{}%
+\contentsline {section}{\numberline {18}Abbildungsverzeichnis}{56}{}%
+\contentsline {section}{\numberline {19}Tabellenverzeichnis}{57}{}%
+\contentsline {section}{\numberline {20}Anhang}{58}{}%
+\contentsline {subsection}{\numberline {20.1}Abbildungen}{58}{}%
+>>>>>>> Stashed changes
