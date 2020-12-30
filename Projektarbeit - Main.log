@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  29 DEC 2020 22:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  29 DEC 2020 22:50
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -255,11 +255,8 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-("Projektarbeit - Deckblatt.tex") [1
-
-{C:/Users/Henri/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] ("Projektarbeit
- - Aufgabenstellung.tex"
-<PDFs/Aufgabenstellung Gruppe 2.pdf, id=8, 597.55246pt x 845.07718pt>
+("Projektarbeit - Deckblatt.tex") ("Projektarbeit - Aufgabenstellung.tex"
+<PDFs/Aufgabenstellung Gruppe 2.pdf, id=1, 597.55246pt x 845.07718pt>
 File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 <use PDFs/Aufgabenstellung Gruppe 2.pdf>
 Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf  used on input line
@@ -270,7 +267,7 @@ File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf  used on input line
  2.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-<PDFs/Aufgabenstellung Gruppe 2.pdf, id=11, page=1, 597.55246pt x 845.07718pt>
+<PDFs/Aufgabenstellung Gruppe 2.pdf, id=4, page=1, 597.55246pt x 845.07718pt>
 File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 <use PDFs/Aufgabenstellung Gruppe 2.pdf, page 1>
 Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page1 used on inp
@@ -281,6 +278,10 @@ File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page1 used on inp
 ut line 2.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+
+[1
+
+{C:/Users/Henri/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 <use PDFs/Aufgabenstellung Gruppe 2.pdf, page 1>
 Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page1 used on inp
@@ -330,7 +331,8 @@ File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page3 used on inp
 ut line 2.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
- [4 <./PDFs/Aufgabenstellung Gruppe 2.pdf>]
+
+[4 <./PDFs/Aufgabenstellung Gruppe 2.pdf>]
 <PDFs/Aufgabenstellung Gruppe 2.pdf, id=75, page=4, 597.55246pt x 845.07718pt>
 File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 <use PDFs/Aufgabenstellung Gruppe 2.pdf, page 4>
@@ -347,8 +349,8 @@ File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page4 used on inp
 ut line 2.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
- [5 <./PDFs/Aufgabenstellung Gruppe 2.pdf>])
-("Projektarbeit - Übersicht.tex") ("Projektarbeit - Main.toc"
+ [5 <./PDFs/Aufgabenstellung Gruppe 2.pdf>]) ("Projektarbeit - Übersicht.tex")
+ ("Projektarbeit - Main.toc"
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -359,8 +361,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `"Projektarbeit - Main.toc"'.
 
- [7]
-("Projektarbeit - Bezeichnungen.tex"
+
+[7] ("Projektarbeit - Bezeichnungen.tex"
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -620,7 +622,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--41
 
  []
 
-[25]) [26] ("Projektarbeit - Beulabschätzung des Holms.tex"
+[25]
+
+LaTeX Warning: Reference `fig:Ingenieurskonstanten Steg dick' on page 26 undefi
+ned on input line 42.
+
+) [26] ("Projektarbeit - Beulabschätzung des Holms.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -664,22 +671,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--43
 <Bilder/Model1.png, id=190, 658.8615pt x 465.6597pt>
 File: Bilder/Model1.png Graphic file (type png)
 <use Bilder/Model1.png>
-Package pdftex.def Info: Bilder/Model1.png  used on input line 21.
+Package pdftex.def Info: Bilder/Model1.png  used on input line 23.
 (pdftex.def)             Requested size: 318.66948pt x 225.2265pt.
- [33 <./Bilder/Model1.png>] [34] [35]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[33] [34 <./Bilder/Model1.png>] [35]
 <Bilder/Flügel-Pol-offen.png, id=200, 541.42274pt x 233.07076pt>
 File: Bilder/Flügel-Pol-offen.png Graphic file (type png)
 <use Bilder/Flügel-Pol-offen.png>
-Package pdftex.def Info: Bilder/Flügel-Pol-offen.png  used on input line 145.
+Package pdftex.def Info: Bilder/Flügel-Pol-offen.png  used on input line 147.
 (pdftex.def)             Requested size: 455.24411pt x 195.97725pt.
- [36 <./Bilder/Flügel-Pol-offen.png>] [37] [38]
-
-LaTeX Warning: Reference `s1' on page 39 undefined on input line 262.
-
-
-LaTeX Warning: Reference `s10' on page 39 undefined on input line 262.
-
-) [39] ("Projektarbeit - CAD-Modell.tex"
+ [36 <./Bilder/Flügel-Pol-offen.png>]
+[37] [38]) [39] ("Projektarbeit - CAD-Modell.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -756,7 +761,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--98
 ("Projektarbeit - FEM.tex"
 Overfull \hbox (81.96765pt too wide) in paragraph at lines 5--6
 \T1/cmr/m/n/10.95 F�r die Be-rech-nung der Elas-to-sta-tik sind die Gleich-ge-w
-ichts-be-din-gung (167[]), Verzerrungs-Verschiebungsbedingung
+ichts-be-din-gung (151[]), Verzerrungs-Verschiebungsbedingung
  []
 
 [50]) [51] ("Projektarbeit - Quellenverzeichnis.tex") [52]
@@ -822,26 +827,73 @@ File: Bilder/Konstanten Steg dünn.png Graphic file (type png)
 Package pdftex.def Info: Bilder/Konstanten Steg dünn.png  used on input line 3
 8.
 (pdftex.def)             Requested size: 455.24411pt x 288.94551pt.
-<Bilder/Konstanten Steg dick.png, id=274, 585.98924pt x 369.7815pt>
-File: Bilder/Konstanten Steg dick.png Graphic file (type png)
-<use Bilder/Konstanten Steg dick.png>
-Package pdftex.def Info: Bilder/Konstanten Steg dick.png  used on input line 43
-.
-(pdftex.def)             Requested size: 455.24411pt x 287.28299pt.
+<Bilder/S1.png, id=274, 637.1805pt x 274.626pt>
+File: Bilder/S1.png Graphic file (type png)
+<use Bilder/S1.png>
+Package pdftex.def Info: Bilder/S1.png  used on input line 43.
+(pdftex.def)             Requested size: 455.24411pt x 196.2178pt.
+<Bilder/S2.png, id=275, 639.5895pt x 275.8305pt>
+File: Bilder/S2.png Graphic file (type png)
+<use Bilder/S2.png>
+Package pdftex.def Info: Bilder/S2.png  used on input line 48.
+(pdftex.def)             Requested size: 455.24411pt x 196.33345pt.
+<Bilder/S3.png, id=276, 637.78275pt x 274.626pt>
+File: Bilder/S3.png Graphic file (type png)
+<use Bilder/S3.png>
+Package pdftex.def Info: Bilder/S3.png  used on input line 53.
+(pdftex.def)             Requested size: 455.24411pt x 196.03343pt.
+<Bilder/S4.png, id=277, 638.385pt x 275.8305pt>
+File: Bilder/S4.png Graphic file (type png)
+<use Bilder/S4.png>
+Package pdftex.def Info: Bilder/S4.png  used on input line 58.
+(pdftex.def)             Requested size: 455.24411pt x 196.69962pt.
+<Bilder/S5.png, id=278, 637.78275pt x 275.22826pt>
+File: Bilder/S5.png Graphic file (type png)
+<use Bilder/S5.png>
+Package pdftex.def Info: Bilder/S5.png  used on input line 63.
+(pdftex.def)             Requested size: 455.24411pt x 196.46333pt.
+<Bilder/S6.png, id=279, 637.78275pt x 275.22826pt>
+File: Bilder/S6.png Graphic file (type png)
+<use Bilder/S6.png>
+Package pdftex.def Info: Bilder/S6.png  used on input line 68.
+(pdftex.def)             Requested size: 455.24411pt x 196.46333pt.
+<Bilder/S7.png, id=280, 638.385pt x 276.43275pt>
+File: Bilder/S7.png Graphic file (type png)
+<use Bilder/S7.png>
+Package pdftex.def Info: Bilder/S7.png  used on input line 73.
+(pdftex.def)             Requested size: 455.24411pt x 197.12909pt.
+<Bilder/S8.png, id=281, 638.98724pt x 274.626pt>
+File: Bilder/S8.png Graphic file (type png)
+<use Bilder/S8.png>
+Package pdftex.def Info: Bilder/S8.png  used on input line 78.
+(pdftex.def)             Requested size: 455.24411pt x 195.66048pt.
+<Bilder/S9.png, id=282, 637.78275pt x 274.02374pt>
+File: Bilder/S9.png Graphic file (type png)
+<use Bilder/S9.png>
+Package pdftex.def Info: Bilder/S9.png  used on input line 83.
+(pdftex.def)             Requested size: 455.24411pt x 195.60353pt.
+<Bilder/S10.png, id=283, 638.385pt x 276.43275pt>
+File: Bilder/S10.png Graphic file (type png)
+<use Bilder/S10.png>
+Package pdftex.def Info: Bilder/S10.png  used on input line 88.
+(pdftex.def)             Requested size: 455.24411pt x 197.12909pt.
 ) [55 <./Bilder/Lagenaufbau Holmgurte.png> <./Bilder/Lagenaufbau Steg dünn.png
 >] [56 <./Bilder/Lagenaufbau Steg dick.png>] [57 <./Bilder/Berechnung Holmgurte
 .png> <./Bilder/Berechnung Steg dünn.png>] [58 <./Bilder/Berechnung Steg dick.
 png>] [59 <./Bilder/Konstanten Holmgurte.png>] [60 <./Bilder/Konstanten Steg d�
-�nn.png>] [61 <./Bilder/Konstanten Steg dick.png>] ("Projektarbeit - Main.aux")
+�nn.png> <./Bilder/S1.png>] [61 <./Bilder/S2.png> <./Bilder/S3.png>] [62 <./Bil
+der/S4.png> <./Bilder/S5.png>] [63 <./Bilder/S6.png> <./Bilder/S7.png>]
+[64 <./Bilder/S8.png> <./Bilder/S9.png>] [65 <./Bilder/S10.png>]
+("Projektarbeit - Main.aux")
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4396 strings out of 479799
- 68734 string characters out of 2869723
- 377334 words of memory out of 3000000
- 21241 multiletter control sequences out of 15000+200000
+ 4459 strings out of 479799
+ 69511 string characters out of 2869723
+ 378428 words of memory out of 3000000
+ 21295 multiletter control sequences out of 15000+200000
  546587 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,17n,80p,1621b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -865,9 +917,9 @@ ublic/amsfonts/cm/cmr8.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Henri/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Henri/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (61 pages, 2580867 bytes).
+Output written on "Projektarbeit - Main.pdf" (65 pages, 2695159 bytes).
 PDF statistics:
- 720 PDF objects out of 1000 (max. 8388607)
+ 741 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 191 words of extra memory for PDF output out of 10000 (max. 10000000)
 

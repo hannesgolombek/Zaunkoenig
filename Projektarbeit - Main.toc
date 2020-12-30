@@ -32,10 +32,10 @@
 \contentsline {section}{\numberline {10}Schubfluss}{33}{}%
 \contentsline {subsection}{\numberline {10.1}Theorie}{33}{}%
 \contentsline {subsection}{\numberline {10.2}Idealisierung}{33}{}%
-\contentsline {subsection}{\numberline {10.3}Schwerpunktkoordinaten}{34}{}%
+\contentsline {subsection}{\numberline {10.3}Schwerpunktkoordinaten}{33}{}%
 \contentsline {subsection}{\numberline {10.4}Schubmittelpunkt}{36}{}%
 \contentsline {subsection}{\numberline {10.5}Torsion}{38}{}%
-\contentsline {subsection}{\numberline {10.6}Schubspannung}{38}{}%
+\contentsline {subsection}{\numberline {10.6}Schubspannung}{39}{}%
 \contentsline {section}{\numberline {11}CAD-Modell (H.K.)}{40}{}%
 \contentsline {subsection}{\numberline {11.1}Konstruktion der Gurte}{40}{}%
 \contentsline {subsection}{\numberline {11.2}Konstruktion des Stegs}{41}{}%
