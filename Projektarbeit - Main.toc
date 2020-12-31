@@ -19,12 +19,12 @@
 \contentsline {subsection}{\numberline {5.1}Dimensionierung der Gurte mit rechteckigem Querschnitt}{19}{}%
 \contentsline {subsection}{\numberline {5.2}Nachrechnung der angepassten Gurte}{21}{}%
 \contentsline {subsection}{\numberline {5.3}Bestimmung der Lagenanzahl des Steges}{22}{}%
-\contentsline {section}{\numberline {6}Auslegung nach CLT}{25}{}%
+\contentsline {section}{\numberline {6}Auslegung des Holms nach CLT}{25}{}%
 \contentsline {subsection}{\numberline {6.1}eLamX (T.B.)}{25}{}%
 \contentsline {section}{\numberline {7}Beulabschätzung des Holms}{27}{}%
 \contentsline {subsection}{\numberline {7.1}Beulsicherheit der Gurte (T.B.)}{27}{}%
 \contentsline {subsection}{\numberline {7.2}Beulsicherheit des Steges (T.B.)}{28}{}%
-\contentsline {section}{\numberline {8}Auslegung der Klebeverbindung}{31}{}%
+\contentsline {section}{\numberline {8}Auslegung der Klebeverbindung (T.B.)}{31}{}%
 \contentsline {subsection}{\numberline {8.1}Klebeverbindung Steg - Gurt (T.B.)}{31}{}%
 \contentsline {subsection}{\numberline {8.2}Klebeverbindung Holm - Rippen (T.B.)}{31}{}%
 \contentsline {section}{\numberline {9}Bolzenauslegung}{32}{}%
@@ -36,26 +36,29 @@
 \contentsline {subsection}{\numberline {10.4}Schubmittelpunkt}{36}{}%
 \contentsline {subsection}{\numberline {10.5}Torsion}{38}{}%
 \contentsline {subsection}{\numberline {10.6}Schubspannung}{39}{}%
-\contentsline {section}{\numberline {11}CAD-Modell (H.K.)}{40}{}%
-\contentsline {subsection}{\numberline {11.1}Konstruktion der Gurte}{40}{}%
-\contentsline {subsection}{\numberline {11.2}Konstruktion des Stegs}{41}{}%
-\contentsline {subsection}{\numberline {11.3}Konstruktion der Haut und der Rippen}{41}{}%
-\contentsline {subsection}{\numberline {11.4}Holzkonstruktion an der Aufnahme der Hauptbolzen}{43}{}%
-\contentsline {subsection}{\numberline {11.5}Problematik der Montage auf dem Teststand}{43}{}%
-\contentsline {section}{\numberline {12}Massenabschätzung (H.K.)}{45}{}%
-\contentsline {subsection}{\numberline {12.1}Masse der Gurte}{45}{}%
-\contentsline {subsection}{\numberline {12.2}Masse des Stegs}{45}{}%
-\contentsline {subsection}{\numberline {12.3}Masse der Haut}{46}{}%
-\contentsline {subsection}{\numberline {12.4}Masse der Holzklötze und Rippen}{47}{}%
-\contentsline {subsection}{\numberline {12.5}Abschätzung der Verklebungen und der Gesamtmasse}{47}{}%
-\contentsline {section}{\numberline {13}Zusammenfassung}{49}{}%
-\contentsline {section}{\numberline {14}FEM}{50}{}%
-\contentsline {subsection}{\numberline {14.1}Warum FEM?}{50}{}%
-\contentsline {subsection}{\numberline {14.2}Wie funktioniert FEM?}{50}{}%
-\contentsline {subsubsection}{\numberline {14.2.1}Schwache Lösung der Elastostatik}{50}{}%
-\contentsline {subsubsection}{\numberline {14.2.2}Diskretisierung}{51}{}%
-\contentsline {section}{\numberline {15}Quellenverzeichnis}{52}{}%
-\contentsline {section}{\numberline {16}Abbildungsverzeichnis}{53}{}%
-\contentsline {section}{\numberline {17}Tabellenverzeichnis}{54}{}%
-\contentsline {section}{\numberline {18}Anhang}{55}{}%
-\contentsline {subsection}{\numberline {18.1}Abbildungen}{55}{}%
+\contentsline {section}{\numberline {11}Auslegung der Flügelschale nach CLT}{40}{}%
+\contentsline {subsection}{\numberline {11.1}eLamX (T.B.)}{40}{}%
+\contentsline {section}{\numberline {12}Beulabschätzung der Flügelschale (T.B.)}{41}{}%
+\contentsline {section}{\numberline {13}CAD-Modell (H.K.)}{43}{}%
+\contentsline {subsection}{\numberline {13.1}Konstruktion der Gurte}{43}{}%
+\contentsline {subsection}{\numberline {13.2}Konstruktion des Stegs}{44}{}%
+\contentsline {subsection}{\numberline {13.3}Konstruktion der Haut und der Rippen}{44}{}%
+\contentsline {subsection}{\numberline {13.4}Holzkonstruktion an der Aufnahme der Hauptbolzen}{45}{}%
+\contentsline {subsection}{\numberline {13.5}Problematik der Montage auf dem Teststand}{46}{}%
+\contentsline {section}{\numberline {14}Massenabschätzung (H.K.)}{48}{}%
+\contentsline {subsection}{\numberline {14.1}Masse der Gurte}{48}{}%
+\contentsline {subsection}{\numberline {14.2}Masse des Stegs}{48}{}%
+\contentsline {subsection}{\numberline {14.3}Masse der Haut}{49}{}%
+\contentsline {subsection}{\numberline {14.4}Masse der Holzklötze und Rippen}{51}{}%
+\contentsline {subsection}{\numberline {14.5}Abschätzung der Verklebungen und der Gesamtmasse}{51}{}%
+\contentsline {section}{\numberline {15}Zusammenfassung}{52}{}%
+\contentsline {section}{\numberline {16}FEM}{53}{}%
+\contentsline {subsection}{\numberline {16.1}Warum FEM?}{53}{}%
+\contentsline {subsection}{\numberline {16.2}Wie funktioniert FEM?}{53}{}%
+\contentsline {subsubsection}{\numberline {16.2.1}Schwache Lösung der Elastostatik}{53}{}%
+\contentsline {subsubsection}{\numberline {16.2.2}Diskretisierung}{54}{}%
+\contentsline {section}{\numberline {17}Quellenverzeichnis}{55}{}%
+\contentsline {section}{\numberline {18}Abbildungsverzeichnis}{56}{}%
+\contentsline {section}{\numberline {19}Tabellenverzeichnis}{57}{}%
+\contentsline {section}{\numberline {20}Anhang}{58}{}%
+\contentsline {subsection}{\numberline {20.1}Abbildungen}{58}{}%
