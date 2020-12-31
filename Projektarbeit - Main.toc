@@ -49,12 +49,12 @@
 \contentsline {subsection}{\numberline {14.2}Konstruktion des Stegs}{46}{}%
 \contentsline {subsection}{\numberline {14.3}Konstruktion der Haut und der Rippen}{46}{}%
 \contentsline {subsection}{\numberline {14.4}Holzkonstruktion an der Aufnahme der Hauptbolzen}{47}{}%
-\contentsline {subsection}{\numberline {14.5}Problematik der Montage auf dem Teststand}{48}{}%
-\contentsline {section}{\numberline {15}Massenabschätzung (H.K.)}{50}{}%
-\contentsline {subsection}{\numberline {15.1}Masse der Gurte}{50}{}%
+\contentsline {subsection}{\numberline {14.5}Querkraftbolzen und Montage auf dem Teststand}{47}{}%
+\contentsline {section}{\numberline {15}Massenabschätzung (H.K.)}{49}{}%
+\contentsline {subsection}{\numberline {15.1}Masse der Gurte}{49}{}%
 \contentsline {subsection}{\numberline {15.2}Masse des Stegs}{50}{}%
-\contentsline {subsection}{\numberline {15.3}Masse der Haut}{51}{}%
-\contentsline {subsection}{\numberline {15.4}Masse der Holzklötze und Rippen}{52}{}%
+\contentsline {subsection}{\numberline {15.3}Masse der Haut}{50}{}%
+\contentsline {subsection}{\numberline {15.4}Masse der Holzklötze und Rippen}{51}{}%
 \contentsline {subsection}{\numberline {15.5}Abschätzung der Verklebungen und der Gesamtmasse}{52}{}%
 \contentsline {section}{\numberline {16}Anleitung für Flügelbau (T.B.)}{53}{}%
 \contentsline {section}{\numberline {17}Zusammenfassung}{55}{}%
