@@ -39,26 +39,28 @@
 \contentsline {section}{\numberline {11}Auslegung der Flügelschale nach CLT}{40}{}%
 \contentsline {subsection}{\numberline {11.1}eLamX (T.B.)}{40}{}%
 \contentsline {section}{\numberline {12}Beulabschätzung der Flügelschale (T.B.)}{41}{}%
-\contentsline {section}{\numberline {13}CAD-Modell (H.K.)}{43}{}%
-\contentsline {subsection}{\numberline {13.1}Konstruktion der Gurte}{43}{}%
-\contentsline {subsection}{\numberline {13.2}Konstruktion des Stegs}{44}{}%
-\contentsline {subsection}{\numberline {13.3}Konstruktion der Haut und der Rippen}{44}{}%
-\contentsline {subsection}{\numberline {13.4}Holzkonstruktion an der Aufnahme der Hauptbolzen}{45}{}%
-\contentsline {subsection}{\numberline {13.5}Problematik der Montage auf dem Teststand}{46}{}%
-\contentsline {section}{\numberline {14}Massenabschätzung (H.K.)}{48}{}%
-\contentsline {subsection}{\numberline {14.1}Masse der Gurte}{48}{}%
-\contentsline {subsection}{\numberline {14.2}Masse des Stegs}{48}{}%
-\contentsline {subsection}{\numberline {14.3}Masse der Haut}{49}{}%
-\contentsline {subsection}{\numberline {14.4}Masse der Holzklötze und Rippen}{51}{}%
-\contentsline {subsection}{\numberline {14.5}Abschätzung der Verklebungen und der Gesamtmasse}{51}{}%
-\contentsline {section}{\numberline {15}Zusammenfassung}{52}{}%
-\contentsline {section}{\numberline {16}FEM}{53}{}%
-\contentsline {subsection}{\numberline {16.1}Warum FEM?}{53}{}%
-\contentsline {subsection}{\numberline {16.2}Wie funktioniert FEM?}{53}{}%
-\contentsline {subsubsection}{\numberline {16.2.1}Schwache Lösung der Elastostatik}{53}{}%
-\contentsline {subsubsection}{\numberline {16.2.2}Diskretisierung}{54}{}%
-\contentsline {section}{\numberline {17}Quellenverzeichnis}{55}{}%
-\contentsline {section}{\numberline {18}Abbildungsverzeichnis}{56}{}%
-\contentsline {section}{\numberline {19}Tabellenverzeichnis}{57}{}%
-\contentsline {section}{\numberline {20}Anhang}{58}{}%
-\contentsline {subsection}{\numberline {20.1}Abbildungen}{58}{}%
+\contentsline {section}{\numberline {13}FEM}{43}{}%
+\contentsline {subsection}{\numberline {13.1}Warum FEM?}{43}{}%
+\contentsline {subsection}{\numberline {13.2}Wie funktioniert FEM?}{43}{}%
+\contentsline {subsubsection}{\numberline {13.2.1}Schwache Lösung der Elastostatik}{43}{}%
+\contentsline {subsubsection}{\numberline {13.2.2}Diskretisierung}{44}{}%
+\contentsline {section}{\numberline {14}CAD-Modell (H.K.)}{45}{}%
+\contentsline {subsection}{\numberline {14.1}Konstruktion der Gurte}{45}{}%
+\contentsline {subsection}{\numberline {14.2}Konstruktion des Stegs}{46}{}%
+\contentsline {subsection}{\numberline {14.3}Konstruktion der Haut und der Rippen}{46}{}%
+\contentsline {subsection}{\numberline {14.4}Holzkonstruktion an der Aufnahme der Hauptbolzen}{47}{}%
+\contentsline {subsection}{\numberline {14.5}Problematik der Montage auf dem Teststand}{48}{}%
+\contentsline {section}{\numberline {15}Massenabschätzung (H.K.)}{50}{}%
+\contentsline {subsection}{\numberline {15.1}Masse der Gurte}{50}{}%
+\contentsline {subsection}{\numberline {15.2}Masse des Stegs}{50}{}%
+\contentsline {subsection}{\numberline {15.3}Masse der Haut}{51}{}%
+\contentsline {subsection}{\numberline {15.4}Masse der Holzklötze und Rippen}{52}{}%
+\contentsline {subsection}{\numberline {15.5}Abschätzung der Verklebungen und der Gesamtmasse}{52}{}%
+\contentsline {section}{\numberline {16}Anleitung für Flügelbau (T.B.)}{53}{}%
+\contentsline {section}{\numberline {17}Zusammenfassung}{55}{}%
+\contentsline {section}{\numberline {18}Quellenverzeichnis}{56}{}%
+\contentsline {section}{\numberline {19}Abbildungsverzeichnis}{57}{}%
+\contentsline {section}{\numberline {20}Tabellenverzeichnis}{58}{}%
+\contentsline {section}{\numberline {21}Anhang}{59}{}%
+\contentsline {subsection}{\numberline {21.1}Berechnung: Analytischen Lösung der Holm-Modellierung}{59}{}%
+\contentsline {subsection}{\numberline {21.2}Abbildungen}{61}{}%

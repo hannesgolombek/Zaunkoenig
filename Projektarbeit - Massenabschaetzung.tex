@@ -1,20 +1,20 @@
-Auf Basis der Dimensionierung der einzelnen Komponenten, kann die Masse der Tragfläche abgeschätzt werden. Im Folgenden werden die Volumina berechnet, um mithilfe der Dichte des jeweiligen Werkstoffes auf die Masse zu schließen.
+Auf Basis der Dimensionierung der einzelnen Komponenten, kann die Masse der Tragfläche abgeschätzt werden. Im Folgenden werden die Volumina bestimmt, um mithilfe der Dichte des jeweiligen Werkstoffes auf die Masse zu schließen.
 \subsection{Masse der Gurte}
-Zur Bestimmung des Volumens wird die seitliche Querschnittsfläche des oberen und unteren Gurts mithilfe des CAD-Programms bestimmt und mit der Extrusionslänge multipliziert. Die Querschnittsfläche des oberen Gurts beträgt $A_{Gurt,o}=54,4mm^{2}$, die des unteren Gurtes $ A_{Gurt,u}=54,37mm^{2} $. Da sich der Gurtquerschnitt über die gesamte Länge $l_{0}+l_{1}+l_{2}+l_{3}=0,916m$ nicht ändert, werden die Volumina zu 
+Mithilfe des CAD-Programms können die Volumina zeitsparend und exakt bestimmt werden. Dies ist besonders für komplizierte Geometrien, zum Beispiel für die gekrümmten Gurte hilfreich. Für den oberen und unteren Gurt ergeben sich folgende Werte: 
 \begin{equation}
 	V_{Gurt,o}=A_{Gurt,o}\cdot \left(l_{0}+l_{1}+l_{2}+l_{3}\right)\\
 	=4,983\cdot 10^{-5}m^{3}
 \end{equation}
 \begin{equation}
 	V_{Gurt,u}=A_{Gurt,u}\cdot \left(l_{0}+l_{1}+l_{2}+l_{3}\right)\\
-	=4,98\cdot 10^{-5}m^{3}
+	=4,98\cdot 10^{-5}m^{3}.
 \end{equation}
-berechnet. Im nächsten Schritt wird die Dichte der Faserverbundbauteile bestimmt. Sie errechnet sich gemäß der Mischungsregel nach \cite{item3} zu
+ Im nächsten Schritt wird die Dichte der Faserverbundbauteile bestimmt. Sie errechnet sich gemäß der Mischungsregel nach \cite{item3} zu
 \begin{equation}
 	\rho_{Verbund}=\varphi\cdot\rho_{f}+\left(1-\varphi\right)\cdot\rho_{m}
 	=1728\frac{kg}{m^{3}}.
 \end{equation}
-Damit ergeben sich die Massen der Gurte zu
+Gemäß dieser Formel sind die Dichten der Verbundbauteile unabhängig von den verwendeten Geweben und ihren Flächengewichten, solange das gleiche Fasermaterial und der gleiche Faservolumengehalt vorliegen. Damit ergeben sich die Massen der Gurte zu
 \begin{equation}
 	m_{Gurt,o}=V_{Gurt,o}\cdot\rho_{Verbund}=0,0861kg
 \end{equation}
@@ -23,45 +23,32 @@ Damit ergeben sich die Massen der Gurte zu
 \end{equation}
 
 \subsection{Masse des Stegs}
-Zur Massenabschätzung des Stegs wird vereinfacht angenommen, dass die Kontaktflächen zu den Gurten eben sind. Aufgrund der sehr großen Krümmungsradien der Gurte führt diese Annahme zu nur kleinen Abweichungen.  
-Der von oben betrachtete Steg wird in Teilflächen zerlegt, deren Flächeninhalte mit den Maßen aus den vorangegangenen Abschnitten berechnet werden können (vgl. Abbildung \ref{fig: StegFlaeche}).
-\begin{figure}[h]
-	\includegraphics[width=1.0\textwidth]{Bilder/Stegflaeche.jpg}
-	\caption{Prinzipskizze des Stegs mit Flächeninhalten der Teilflächen.}
-	\label{fig: StegFlaeche}
-\end{figure}
-Die Fläche der Verbundbauteile berechnet sich aus der Summe der zugehörigen Teilflächen und der Symmetrie bezüglich der y-Richtung zu
+Unterteilt in den Anteil des Schaums und den des Verbundmaterials, ergeben sich für den Steg folgende Volumina:
 \begin{equation}
-	A_{Steg,Verb}=2\cdot\left(156,206mm^{2}+11,76mm^{2}+117,75mm^{2}\right)
-	=571,432mm^{2}.
-\end{equation}
-
-Die Fläche des Schaums ist durch $ A_{Steg,Schaum}=1548,19mm^{2} $ gegeben.Der Steg misst $ \tilde{h_{i}}=\tilde{h_{a}-2}\cdot\tilde{h}=35,8mm-2\cdot1,941mm $ in die z-Richtung. Damit ergeben sich die Volumina des Schaumes und des Verbund-Anteils zu
-\begin{equation}
-	V_{Steg,Verb}=A_{Steg,Verb}\cdot\tilde{h_{i}}=1,824\cdot10^{-5}m^{3}
+	V_{Steg,Verb}=A_{Steg,Verb}\cdot\tilde{h_{i}}=1,813\cdot10^{-5}m^{3}
 \end{equation}
 \begin{equation}
-	V_{Steg,Schaum}=A_{Schaum}\cdot\tilde{h_{i}}=4,941\cdot10^{-5}m^{3}.
+	V_{Steg,Schaum}=A_{Schaum}\cdot\tilde{h_{i}}=4,953\cdot10^{-5}m^{3}.
 \end{equation}
 Für die jeweiligen Volumina folgt mit der Dichte $ \rho_{Verbund} $ und der Dichte des Schaums $ \rho_{Schaum}=35\frac{kg}{m^{3}} $:
 \begin{equation}
-	m_{Steg,Verb}=V_{Steg,Verb}\cdot\rho_{Verbund}=0,0315kg
+	m_{Steg,Verb}=V_{Steg,Verb}\cdot\rho_{Verbund}=0,031kg
 \end{equation}
 \begin{equation}
-		m_{Steg,Schaum}=V_{Steg,Schaum}\cdot\rho_{Schaum}=0,00173kg
+		m_{Steg,Schaum}=V_{Steg,Schaum}\cdot\rho_{Schaum}=0,002kg
 \end{equation}
-Für den Schaum steht Styrodur zur Verfügung. Laut Trendbericht aus dem Magazin "Kunststoffe" in der Ausgabe 10/2008 \cite{item7}, beträgt die Dichte von extrudiertem Polystyrol-Hartschaumstoff (XPS) $ 25\frac{kg}{m^{3}} $ bis $ 45\frac{kg}{m^{3}} $. Für die Massenabschätzung wurde der Mittelwert von $ 35\frac{kg}{m^{3}} $ angenommen. Die Bohrungen für die Hauptbolzen senken die Masse des Stegs leicht. Aufgrund des sehr geringen Volumens der Bohrungen im Vergleich zum Gesamtvolumen des Stegs, kann dieser Einfluss vernachlässigt werden. 
+Als Werkstoff für den Schaum steht Styrodur zur Verfügung. Laut Trendbericht aus dem Magazin "Kunststoffe" in der Ausgabe 10/2008 \cite{item7}, beträgt die Dichte von extrudiertem Polystyrol-Hartschaumstoff (XPS) $ 25\frac{kg}{m^{3}} $ bis $ 45\frac{kg}{m^{3}} $. Für die Massenabschätzung wurde der Mittelwert von $ 35\frac{kg}{m^{3}} $ angenommen.
 
 \subsection{Masse der Haut}
-Für das Hautsandwich, bestehend aus einem 3mm dicken Schaumkern und je einer Lage Interglas 90070 auf der Innen- und Außenseite, wird erneut die Querschnittsfläche im CAD-Programm bestimmt. Sie beträgt $ A_{Haut,Schaum}=794,69mm^{2} $. Multipliziert mit der Extrusionslänge des betrachteten Schaumkerns ergibt sich das Volumen 
+Das Volumen des Schaumkerns der Haut beträgt 
 \begin{equation}
-	V_{Haut,Schaum}=A_{Haut,Schaum}\cdot l_{3}=6,143\cdot10^{-4}m^{3}
+	V_{Haut,Schaum}=A_{Haut,Schaum}\cdot l_{3}=6,143\cdot10^{-4}m^{3}.
 \end{equation}
-und mit der Dichte $ \rho_{Schaum} $ schließlich
+Mit der Dichte $ \rho_{Schaum} $ beträgt die Masse des Kerns
 \begin{equation}
 	m_{Haut,Schaum}=V_{Haut,Schaum}\cdot\rho_{Schaum}=0,022kg.
 \end{equation}
-Zur Bestimmung der Masse des Faserverbundanteils in der Haut wird die Länge der abgewickelten Hautschicht mit dem CAD-Programm bestimmt. Für die innere und die äußere Schicht ergeben sich:
+Zur Bestimmung der Masse des Faserverbundanteils in der Haut wird die Länge der abgewickelten Hautschichten mit dem CAD-Programm bestimmt. Für die innere und die äußere Schicht ergeben sich:
 \begin{equation}
 	l_{Haut,innen}=346,46mm
 \end{equation}
@@ -88,7 +75,7 @@ und für die Massen folgt:
 \begin{equation}
 	m_{Haut,aussen}=V_{Haut,aussen}\cdot \rho_{Verbund}=0,038kg.
 \end{equation}
-Für die Gesamtdicke der Haut wurden in der Auslegung $ 0,75mm $ vorgesehen. Aus der wesentlich geringeren tatsächlichen Dicke ergeben sich ober- und unterhalb der Gurte Freiräume mit einer Dicke von $t_{frei}= 0,75mm-2\cdot 0,078mm=0,594mm $. Dieser Freiraum wird mit Harz ausgefüllt. Die Länge des Bereichs, in dem kein Schaumkern die innere und äußere Lage trennt und in der dieser Freiraum auftritt, wird im CAD-Programm für die Oberseite zu $ l_{frei,o}= 31,18mm $ und für die Unterseite zu $ l_{frei,u}=32,1mm $ bestimmt. Die Krümmung in diesem Bereich kann wegen des großen Krümmungsradius und der kleinen Länge vernachlässigt werden. Es ergeben sich die Querschnittsflächen der Freiräume:
+Für die Gesamtdicke des Verbundanteils der Haut wurde in der Auslegung $ 0,75mm $ vorgesehen. Aus der wesentlich geringeren tatsächlichen Dicke ergeben sich ober- und unterhalb der Gurte Freiräume mit einer Dicke von $t_{frei}= 0,75mm-2\cdot 0,078mm=0,594mm $. Dieser Freiraum wird mit Harz ausgefüllt und muss zusätzlich berechnet werden. Die Länge des Bereichs, in dem kein Schaumkern die innere und äußere Lage trennt und in der folglich dieser Freiraum auftritt, wird im CAD-Programm für die Oberseite zu $ l_{frei,o}= 31,18mm $ und für die Unterseite zu $ l_{frei,u}=32,1mm $ bestimmt. Die Krümmung in diesem Bereich kann wegen des großen Krümmungsradius und der kleinen Länge vernachlässigt werden. Es ergeben sich die Querschnittsflächen der Freiräume:
 \begin{equation}
 \begin{array}{l}
 		A_{frei,o}=l_{frei,o}\cdot t_{frei}=18,52mm^{2} \\
@@ -111,11 +98,11 @@ und mit der Dichte $ \rho_{m}=1180\frac{kg}{m^{3}} $:
 \end{equation}
 
 \subsection{Masse der Holzklötze und Rippen}
-Da die Holzklötze eine komplizierte Geometrie aufweisen, wird ihre Masse der Einfachheit halber mit dem CAD-Programm berechnet. Als Material wird Kiefernholz gewählt,das mit $ \rho_{Kiefer}=559\frac{kg}{m^{3}} $ im mittleren Bereich der Dichten im CAD-Programm verfügbarer Hölzer liegt. Die Masse eines jeden Holzklotzes wird damit zu $ m_{Klotz}=0,015kg $ bestimmt.
-Auf die gleiche Weise wird zur Bestimmung der Massen der Rippen verfahren. Die Wurzelrippe und die Endrippe bestehen jeweils aus zwei Teilen, die Masse einer Rippe wird mithilfe des Programms für Kiefernholz zu $ m_{Rippe}=0,004kg $ bestimmt.Darüber hinaus müssen die Massen der Hülsen bestimmt werden. Als Werkstoff ist Messing vorgesehen, dessen Dichte in Solid Edge mit $ \rho_{Messing}=8470\frac{kg}{m^{3}} $ angenommen wird. Die beiden Hülsen der Hauptbolzen wiegen damit jeweils $ m_{Haupthuelse}=0,003kg $ und die der Querkraftbolzen jeweils $ m_{Querhuelse}=0,001kg $.
+Da die Holzklötze ebenfalls eine komplizierte Geometrie aufweisen, wird auch ihre Masse der Einfachheit halber mit dem CAD-Programm berechnet. Als Material wird Kiefernholz gewählt,das mit $ \rho_{Kiefer}=559\frac{kg}{m^{3}} $ im mittleren Bereich der Dichten im CAD-Programm verfügbarer Hölzer liegt. Die Masse eines jeden Holzklotzes wird damit zu $ m_{Klotz}=0,015kg $ bestimmt.
+Auf die gleiche Weise wird zur Bestimmung der Massen der Rippen verfahren. Die Wurzelrippe und die Endrippe bestehen jeweils aus zwei Teilen, die Masse einer Rippe wird mithilfe des Programms für Kiefernholz zu $ m_{Rippe}=0,004kg $ bestimmt.Darüber hinaus müssen die Massen der Hülsen ermittelt werden. Als Werkstoff ist Messing vorgesehen, dessen Dichte in Solid Edge mit $ \rho_{Messing}=8470\frac{kg}{m^{3}} $ angenommen wird. Die beiden Hülsen der Hauptbolzen wiegen damit jeweils $ m_{Haupthuelse}=0,003kg $ und die der Querkraftbolzen jeweils $ m_{Querhuelse}=0,001kg $.
 
 \subsection{Abschätzung der Verklebungen und der Gesamtmasse}
-Einen weiteren Anteil an der Gesamtmasse liefern die Klebeverbindungen.Zur Verklebung der Rippen mit dem Holm sind Holzklötze vorgesehen, die an die Vorder- und Hinterseite des Stegs geklebt werden und dadurch eine ausreichend große Klebefläche zur Verfügung stellen. Die Breite der Klötze wurde im Abschnitt 8.2 zu $ 1,12mm $ berechnet. Zur einfachen Fertigung können Holzleisten mit einem quadratischen Querschnitt von $ 2mm\cdot2mm $ gewählt werden. Bei einer Länge von $ \tilde{h_{i}} $ beträgt die Masse jeder Leiste weniger als $ 0,1g $. Da nur vier Leisten vorgesehen sind, kann die Masse vernachlässigt werden. Die Verklebungen von Steg und Gurt, sowie die Klebestellen zwischen den Halbschalen, sollen ohne den Einsatz zusätzlicher Gewebelagen oder Leisten erfolgen. Eine Abschätzung, wie präzise Mumpe aufgetragen werden kann und mit welcher Dichte der Klebemasse beim Einsatz von Mikroballons gerechnet werden kann, ist nur schwer möglich. Die Masse der Klebestellen wird auf wenige zehn Gramm abgeschätzt.\\
+Einen weiteren Anteil an der Gesamtmasse liefern die Klebeverbindungen.Zur Verklebung der Rippen mit dem Holm sind Holzklötze vorgesehen, die an die Vorder- und Hinterseite des Stegs geklebt werden und dadurch eine ausreichend große Klebefläche zur Verfügung stellen. Die Breite der Klötze wurde im Abschnitt 8.2 zu $ 1,56mm $ berechnet. Zur einfachen Fertigung können Holzleisten mit einem quadratischen Querschnitt von $ 2mm\cdot2mm $ gewählt werden. Bei einer Länge von $ \tilde{h_{i}} $ beträgt die Masse jeder Leiste weniger als $ 0,1g $. Da nur vier Leisten vorgesehen sind, kann die Masse vernachlässigt werden. Die Verklebungen von Steg und Gurt, sowie die Klebestellen zwischen den Halbschalen, sollen ohne den Einsatz zusätzlicher Gewebelagen oder Leisten erfolgen. Eine Abschätzung, wie präzise Mumpe aufgetragen werden kann und mit welcher Dichte der Klebemasse beim Einsatz von Mikroballons gerechnet werden kann, ist nur schwer möglich. Die Masse der Klebestellen wird auf wenige zehn Gramm abgeschätzt.\\
 
 \noindent Abschließend wird die Gesamtmasse aus der Summe der einzelnen Massen berechnet. Sie ergibt sich zu:
 \begin{equation}
@@ -123,7 +110,7 @@ Einen weiteren Anteil an der Gesamtmasse liefern die Klebeverbindungen.Zur Verkl
 	m_{ges}= m_{Gurt,o}+m_{Gurt,u}+m_{Steg,Verb}+m_{Steg,Schaum} \\ +m_{Haut,Schaum}+m_{Haut,innen}+m_{Haut,aussen} \\ +2\cdot m_{Rippe}+2\cdot m_{Klotz} \\
 	+2\cdot m_{Haupthuelse}+2\cdot m_{Querhuelse}\\
 	+m_{frei,o}+m_{frei,u}\\
-	=0,348kg
+	=0,347kg
 \end{array}  
 \end{equation}
 Die Gewichtslimitierung von 0,75kg wird mit großer Sicherheit eingehalten.
