@@ -2,18 +2,18 @@
 \contentsline {section}{\numberline {1}Bezeichnungen}{8}{}%
 \contentsline {section}{\numberline {2}Einleitung}{9}{}%
 \contentsline {subsection}{\numberline {2.1}Projektbeschreibung}{9}{}%
-\contentsline {subsection}{\numberline {2.2}Motivation}{9}{}%
+\contentsline {subsection}{\numberline {2.2}Motivation (O.S.)}{9}{}%
 \contentsline {subsection}{\numberline {2.3}Herangehensweise}{9}{}%
 \contentsline {section}{\numberline {3}Grundlagen}{10}{}%
 \contentsline {subsection}{\numberline {3.1}Glasfaser}{10}{}%
 \contentsline {subsection}{\numberline {3.2}Matrix}{10}{}%
 \contentsline {subsection}{\numberline {3.3}Netztheorie}{10}{}%
 \contentsline {subsection}{\numberline {3.4}Klassische Laminattheorie}{10}{}%
-\contentsline {subsection}{\numberline {3.5}Versagenskriterium nach Puck}{10}{}%
-\contentsline {subsection}{\numberline {3.6}Bauweise}{10}{}%
+\contentsline {subsection}{\numberline {3.5}Versagenskriterium nach Puck (O.S.)}{10}{}%
+\contentsline {subsection}{\numberline {3.6}Bauweise (O.S.)}{11}{}%
 \contentsline {section}{\numberline {4}Modellierung des Holms}{12}{}%
 \contentsline {subsection}{\numberline {4.1}Annahmen zur Modellierung (T.B.)}{12}{}%
-\contentsline {subsection}{\numberline {4.2}Analytische Lösung der Modellierung (T.B.)}{12}{}%
+\contentsline {subsection}{\numberline {4.2}Analytische Lösung der Modellierung (T.B.)}{13}{}%
 \contentsline {subsection}{\numberline {4.3}Analyse der Modellierung (T.B.)}{16}{}%
 \contentsline {section}{\numberline {5}Auslegung des Holms nach VDI 2013 (H.K.)}{19}{}%
 \contentsline {subsection}{\numberline {5.1}Dimensionierung der Gurte mit rechteckigem Querschnitt}{19}{}%
@@ -34,14 +34,14 @@
 \contentsline {subsection}{\numberline {10.2}Idealisierung}{33}{}%
 \contentsline {subsection}{\numberline {10.3}Schwerpunktkoordinaten}{33}{}%
 \contentsline {subsection}{\numberline {10.4}Schubmittelpunkt}{36}{}%
-\contentsline {subsection}{\numberline {10.5}Torsion}{38}{}%
-\contentsline {subsection}{\numberline {10.6}Schubspannung}{39}{}%
+\contentsline {subsection}{\numberline {10.5}Torsion (O.S.)}{38}{}%
+\contentsline {subsection}{\numberline {10.6}Schubspannung (O.S.)}{39}{}%
 \contentsline {section}{\numberline {11}Auslegung der Flügelschale nach CLT}{40}{}%
 \contentsline {subsection}{\numberline {11.1}eLamX (T.B.)}{40}{}%
 \contentsline {section}{\numberline {12}Beulabschätzung der Flügelschale (T.B.)}{41}{}%
 \contentsline {section}{\numberline {13}FEM}{43}{}%
-\contentsline {subsection}{\numberline {13.1}Warum FEM?}{43}{}%
-\contentsline {subsection}{\numberline {13.2}Wie funktioniert FEM?}{43}{}%
+\contentsline {subsection}{\numberline {13.1}Warum FEM? (O.S.)}{43}{}%
+\contentsline {subsection}{\numberline {13.2}Wie funktioniert FEM? (O.S.)}{43}{}%
 \contentsline {subsubsection}{\numberline {13.2.1}Schwache Lösung der Elastostatik}{43}{}%
 \contentsline {subsubsection}{\numberline {13.2.2}Diskretisierung}{44}{}%
 \contentsline {section}{\numberline {14}CAD-Modell (H.K.)}{45}{}%
