@@ -59,8 +59,8 @@
 \contentsline {section}{\numberline {16}Anleitung für Flügelbau (T.B.)}{53}{}%
 \contentsline {section}{\numberline {17}Zusammenfassung}{55}{}%
 \contentsline {section}{\numberline {18}Quellenverzeichnis}{56}{}%
-\contentsline {section}{\numberline {19}Abbildungsverzeichnis}{57}{}%
-\contentsline {section}{\numberline {20}Tabellenverzeichnis}{58}{}%
-\contentsline {section}{\numberline {21}Anhang}{59}{}%
-\contentsline {subsection}{\numberline {21.1}Berechnung: Analytischen Lösung der Holm-Modellierung}{59}{}%
-\contentsline {subsection}{\numberline {21.2}Abbildungen}{61}{}%
+\contentsline {section}{\numberline {19}Abbildungsverzeichnis}{58}{}%
+\contentsline {section}{\numberline {20}Tabellenverzeichnis}{59}{}%
+\contentsline {section}{\numberline {21}Anhang}{60}{}%
+\contentsline {subsection}{\numberline {21.1}Berechnung: Analytischen Lösung der Holm-Modellierung}{60}{}%
+\contentsline {subsection}{\numberline {21.2}Abbildungen}{62}{}%
