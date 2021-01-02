@@ -12,15 +12,78 @@ Text folgt noch, hiermit soll jedoch nicht gerechnet werden.
 \subsection{Klassische Laminattheorie}
 Text folgt noch
 \subsection{Versagenskriterium nach Puck (O.S.)}
-Da für einen anisotropen FKV nicht das Versagen mittels einer allgemeinen resultierenden Spannung für jeden Lastfall ermittelt werden kann, müssen Versagenskriterien für die speziellen Beanspruchungsmodi definiert werden. Für die in dieser Projektarbeit durchgeführten Auslegungen wurden die Festigkeitskriterien von Puck verwendet. Hierbei werden die einzelnen UD-Schichten des Laminats getrennt betrachtet. Auch wenn diese Betrachtungen physikalisch begründet sind (vgl. \cite{EdL}), hat dies zur Folge, dass Effekte wie Delamination nicht berücksichtigt werden.
-Zunächst sind einige Begriffe zu definieren. An einer UD-Schicht können zwei verschiedene Normalspannungen wirken, die sich je nachdem, ob es sich um Druck- oder Zugbelastungen handelt, unterschiedlich auf das Versagen auswirken: Die Längsbeanspruchung $\sigma_{\parallel}$ parallel und die Querbeanspruchung $\sigma_{\perp}$ orthogonal zur Faserrichtung. Auch bei der Schubspannung muss zwischen der Quer-/Quer-Schubbeanspruchung $\tau_{\perp\perp}$ und der Längs-/Quer-Schubbeanspruchung $\tau_{\parallel\perp}$ unterschieden werden. Wegen des durch die Fasern bedingten stark anisotropen Aufbaus muss zwischen zwei grundlegenden Versagensarten unterschieden werden: Dem Faserbruch (Zb) und den Zwischenfaserbruch (Zfb). Der Begriff Bruch ist hier bewusst als Schadensbezeichnung gewählt, da bei beiden Fällen kein plastisches Verhalten auftritt und es sich um einen Sprödbruch ohne nennenswertes Fließen handelt.
+Da für einen anisotropen FKV nicht das Versagen mittels einer allgemeinen resultierenden Spannung für jeden Lastfall ermittelt werden kann, müssen Versagenskriterien für die speziellen Beanspruchungsmodi definiert werden. Für die in dieser Projektarbeit durchgeführten Auslegungen wurden die Festigkeitskriterien von Puck verwendet. Hierbei werden die einzelnen UD-Schichten des Laminats getrennt betrachtet. Auch wenn diese Betrachtungen physikalisch begründet sind (vgl. \cite{EdL}), hat dies zur Folge, dass Effekte wie Delamitnation nicht berücksichtigt werden.
+\subsubsection{Definitionen}
+Zunächst sind einige Begriffe zu definieren. An einer UD-Schicht können zwei verschiedene Normalspannungen wirken, die sich je nachdem, ob es sich um Druck- oder Zugbelastung handelt, unterschiedlich auf das Versagen auswirken: Die Längsbeanspruchung $\sigma_{\parallel}$ parallel zur und die Querbeanspruchung $\sigma_{\perp}$ orthogonal zur Faserrichtung. Auch bei der Schubspannung muss zwischen der Quer-/Quer-Schubbeanspruchung $\tau_{\perp\perp}$ und der Längs-/Quer-Schubbeanspruchung $\tau_{\parallel\perp}$ unterschieden werden. Wegen des durch die Fasern bedingten stark anisotropen Aufbau muss zwischen zwei grundlegenden Versagensarten unterschieden werden: Den Faserbruch (Fb) und den Zwischenfaserbruch (Zfb). Der Begriff Bruch ist hier bewusst als Schadensbezeichnung gewählt, da bei beiden Fällen kein plastisches Verhalten auftritt und es sich um einen Sprödbruch ohne nennenswertes Fließen handelt.
+Für das Versagenskriterium wird die genaue Definition der Anstrengung $f_E$ gesucht. Er ist abhängig vom Spannungszustand und immer so definiert, dass bei $f_E=1$ das Versagen eintritt, er also bei Belastungen, die das Material aushält, Werte kleiner als $1$ und bei überkritischen Lasten größer $1$ annimmt.
 
-\noindent Beim Zfb stimmt die Bruchebene nicht unbedingt mit der Wirkebene, der Ebene mit der höchsten Beanspruchung, überein. Auf anderen Ebenen können andere Festigkeiten herrschen, die früher überschritten werden. Generell gilt für sie, dass die Bruchebene immer parallel zu den Fasern sein muss. Puck führt analog zur Festigkeit den Bruchwiderstand der Wirkebene $R^A$ ein, der als "derjenige Widerstand [definiert ist], den eine Schnittebene ihrem Bruch infolge einer einzelnen in ihr wirkenden Beanspruchung (bei Zfb: $\sigma_\perp^+$ oder $\tau_{\perp\perp}$ oder $\tau_{\parallel\perp}$) entgegensetzt"\cite{item3}.
+Beim Zfb stimmt die Bruchebene nicht unbedingt mit der Wirkebene, der Ebene mit der höchsten Beanspruchung, überein. Auf anderen Ebenen können andere Festigkeiten herrschen, die früher überschritten werden. Generell gilt für sie, dass die Bruchebene immer parallel zu den Fasern sein muss. Puck führt analog zur Festigkeit den Bruchwiderstand der Wirkebene $R^A$ der als "derjenige Widerstand [definiert ist], den eine Schnittebene ihrem Bruch infolge einer einzelnen in ihr wirkenden Beanspruchung (bei Zfb: $\sigma_\perp^+$ oder $\tau_{\perp\perp}$ oder $\tau_{\parallel\perp}$) entgegensetzt"\cite{item3}.
+\subsubsection{Zwischenfaserbruch ohne Längsspannung}
+Ignoriert man die Längsspannung $\sigma_1$, da diese erst bei sehr hohen Werten Einfluss auf einen Zfb hat, ergibt sich ein Spannungszustand aus den beiden übrigen Normalspannungen $\sigma_2$ und $\sigma_3$ orthogonal zu den Fasern und den Schubspannungen $\tau_{12}$, $\tau_{23}$ und $\tau_{31}$. Um nun die Bruchebene bestimmen zu können, muss der Spannungszustand in den dieser Ebene mittels der Matrix aus Gleichung \ref{Bruchebene} transformiert werden. Aus der Bedingung, dass die Bruchebene parallel zu den Fasern liegen muss, ergibt sich eine Drehung um die $x_1$-Achse, die in Faserrichtung zeigt, mit dem Winkel $\theta$. In der Bruchebene liegen dann nur noch die beiden Schubspannungen $\tau_{nt}$ normal und tangential zur Ebene, $\tau_{n1}$ normal und in Faserrichtung und die Normalspannung $\sigma_n$ senkrecht auf der Bruchebene.
+\begin{equation}\label{Bruchebene}
+	\begin{pmatrix}
+		\sigma_n \\ \tau_{nt} \\ \tau_{n1}
+	\end{pmatrix}
+	=
+	\begin{pmatrix}
+		c^2 & s^2 & 2cs & 0 & 0\\
+		-cs & sc & (c^2-s^2) & 0 & 0\\
+		0 & 0 & 0 & s & c
+	\end{pmatrix}
+	\cdot
+	\begin{pmatrix}
+		\sigma_2 \\ \sigma_3 \\ \tau_{23} \\ \tau_{31} \\ \tau_{12}
+	\end{pmatrix}
+\end{equation}
+Mit
+\begin{equation}
+	c = cos\theta
+\end{equation}
+und
+\begin{equation}
+	s = sin\theta.
+\end{equation}
+%Die Schubspannungen lassen sich des weiteren zu einer Resultierenden 
+%\begin{equation}
+%	\tau_{n\psi} = \sqrt{\tau_{nt}^2 + \tau_{n1}^2}
+%\end{equation}
+%zusammen fassen.
+Mit diesen Werten definiert Puck seine Bruchbedingungen aus der Mohrschen Bruchhypothese\cite{item3}, wobei er zwischen $\sigma_n < 0$:
+\begin{equation}\label{Zfb1}
+	f_{E,\mathrm{Zfb}} = \sqrt{\biggl[\biggl(\frac{1}{R_{\perp}^+}-\frac{p_{\perp\psi}^+}{R_{\perp\psi}^A}\biggl)\sigma_n\biggl]^2 + \biggl(\frac{\tau_{nt}}{R_{\perp\perp}^A}\biggr)^2 + \biggl(\frac{\tau_{n1}}{R_{\perp\parallel}}\biggr)^2} +  \frac{p_{\perp\psi}^+}{R_{\perp\psi}^A}\sigma_n
+\end{equation}
+und $\sigma_n \geq 0$
+\begin{equation}\label{Zfb2}
+	f_{E,\mathrm{Zfb}} = \sqrt{\biggl(\frac{p_{\perp\psi}^-}{R_{\perp\psi}^A}\sigma_n\biggr)^2 + \biggl(\frac{\tau_{nt}}{R_{\perp\perp}^A}\biggr)^2 + \biggl(\frac{\tau_{n1}}{R_{\perp\parallel}}\biggr)^2} +  \frac{p_{\perp\psi}^-}{R_{\perp\psi}^A}\sigma_n
+\end{equation}
+unterscheidet. Mit den experimentell ermittelten Bruchwiderständen $R$ und Steigungsparametern $p_{\perp\perp}^\pm$ lassen sich aus der Bedingung, dass der Bruchkörper, der sich aus $f_{E,\mathrm{Zfb}} = 1$ ergibt, sprung- und knickfrei sein müssen, die Neigungsparapameter $p_{\perp\psi}^\pm$ bestimmen. Nun lässt sich die Anstrengung in Abhängigkeit des Drehwinkels $\theta$ errechnen. Für die meisten Fälle ist dies jedoch nicht analytisch möglich, sodass die Werte numerisch bestimmt werden müssen. In Ebene mit der höchsten Anstrengung kann es am ehesten zum Bruch kommen. Der Reservefaktor ist als der Kehrwert der Anstrengung definiert und gibt ein Maß für die Sicherheit gegen das Versagen. Falls die Anstrengung den Wert von $1$ überschreitet, wird die Ebene der UD-Schicht zur Bruchebene, wo der Reservefaktor zuerst null wird. Es kommt zum Zwischenfaserbruch.
+\subsubsection{Einfluss der Längsspannung}
+In diesen Betrachtungen wurde bisher der Einfluss der Spannung in Faserrichtung $\sigma_1$ vernachlässigt. Jedoch treten bei höheren Spannung Effekte auf die sich auch auf den Zfb auswirken und die Bruchwiderstände gesenkt werden. Zum einen wird durch starke Dehnung in Faserrichtung die Matrix überproportional beansprucht und Poren werden verstärkt geöffnet, zum anderen kann es auch, bevor Faserbruch eintritt, zum Bruch einzelner Filamente kommen, die Risse in der Matrix begünstigen. Außerdem können sich durch Druckspannungen in Faserrichtung diese leicht wellen, was zusätzliche $\tau_{\perp\parallel}$-Beanspruchung in das Material einträgt.
+
+Puck berücksichtigt diese Senkung der Bruchwiderstände durch einen Schwächungsfaktor $\eta_\mathrm{w} < 1$. Um die Einbeziehung dieses Faktors besser handhabbar zu machen, wir er für alle Bruchwiderstände gleich gewählt. Somit lässt er sich wohl aus Gleichung \ref{Zfb1} als auch \ref{Zfb2} ausklammern. Es lässt sich also die Bruchbedingung unter Einbezug der Längsspannung $f_{E1} = 1$ als
+\begin{equation}
+	f_{E1} = \frac{f_{E0}}{\eta_\mathrm{W}} = 1
+\end{equation}
+schreiben, wobei der Index 0 für die Anstrengung ohne $\sigma_1$ steht. Durch die gleich starke Absenken aller Bruchwiderstände bleibt auch der Bruchwinkel erhalten. Für die Abhängigkeit des Schwächungsfaktors von $\sigma_1$ wird eine Ellipsenbeziehung gewählt, wobei wieder Druck- und Zugspannung unterschieden wird, da die Zugspannung einen stärkeren Einfluss auf den Zfb hat. Dadurch ergibt sich für den Bruchkörper eine Zigarrenform.
+
+Auch wenn Zwischenfaserbrüche nicht unbedingt zum Totalversagen des Laminats führen, sind sie hier trotzdem als Auslegungskriterium zu sehen, da sie negative Auswirkungen auf die Festigkeiten, Lebensdauer und Sicherheit haben. Die Risse in der Matrix können Delamination auslösen oder auch durch Kerbwirkung anliegende Schichten schwächen. Sowohl der Quer-Längs-Schubmodul, als auch die Bruchfestigkeit $R_\parallel^-$ nehmen ab. Des Weiteren können durch die Risse korrosive Medien an die Fasern gelangen und diese schädigen.
+\subsubsection{Faserbruch}
+Ein viel kritischer Fall tritt ein, wenn beim Faserbruch die Fasern reißen oder brechen. Als Versagen gilt hier nicht der Bruch einzelner Fasern, sonder ganzer Bündel. Dies ist unter allen Umständen zu vermeiden, da die hohen Spannungen, bei denen das Material versagt, meist nicht über andere Lastpfade kompensiert werden kann. Während die Spannung in Faserrichtung $\sigma_{\parallel}$ für den Zfb nur eine zweitrangige Rolle spielt, ist sie für den Fb maßgebend.
+\paragraph{Zugspannung $\sigma_{\parallel}^+$}~\\
+Die Bruchwiderstand in Faserrichtung bei Zugbeanspruchung $R_\parallel^+$ wird in der Regel rechnerisch und nicht experimentell bestimmt. Der genaue Wert für die Festigkeit wird meistens nicht benötigt, weil bei FKV viel schneller durchs Versagen der Matrix ein Zfb auftreten kann und die Konstruktionen bei schwingender Beanspruchung durch Ermüdung versagen. Außerdem ist die Bestimmung des Wertes im Versuch möglich, weil die wegen der hohen Bruchspannungen an den Einspannungen zu mehrachsige Spannungszuständen kommt. Da die Fasern quasi die gesamte Spannung aufnehmen und die Matrix dem gegenüber vernachlässigbar ist, lässt sich die Festigkeit des Laminats rein aus der der Fasern $R_{f \parallel}^+$ und des Faservolumenanteils $\varphi$ bestimmen:
+\begin{equation}
+	R_\parallel^+ = R_{f \parallel}^+\varphi
+\end{equation}
+Hieran lässt sich auch erkennen, dass die Spannungen, die in den Fasern herrschen antiproportional mit dem Faservolumenanteil steigen. Jedoch kann man diesen Wert nicht ohne weiteres verwenden, sondern muss ihn durch einen Abminderungsfaktor korrigieren, da die wahre Festigkeit durch einige Effekte gesenkt wird.
+
+Schon in der Fertigung und Verarbeitung können Schädigungen an einzelnen Filamenten entstehen, sodass diese früher versagen und benachbarte Fasern einer erhöhten Belastung ausgesetzt sind. Auch eine leicht unterschiedliche Ausrichtung oder Vorspannung kann zu einer unterschiedlichen Spannungsverteilung führen, die das vorzeitige Versagen bewirkt. Die örtliche Streuung der Festigkeit sorgt dafür, dass einige Fasern zuerst brechen und anliegende ihr Last zusätzlich tragen müssen. Auch wenn dadurch die Gesamtfestigkeit des VFKs gesenkt wird, ermöglicht dies das vorzeitige Erkennen des Versagens, was erwünscht ist.
+\paragraph{Druckspannung $\sigma_{\parallel}^-$}~\\
+
 \subsection{Bauweise (O.S.)}
-In der Aufgabenstellung wird gefordert, dass der Flügel in der Holm-Bauweise konstruiert wird. Ein Holm besteht aus zwei parallelen Gurten, die durch einen oder mehrere Stege miteinander verbunden werden. Dabei sind verschiedene Varianten möglich. Abbildung ~\ref{fig: Holmarten} veranschaulicht Konstruktionsmöglichkeiten. Neben der Festigkeit ist die Steifigkeit die einzige strukturmechanische Anforderung. Somit lässt sich das Problem als Biegebalken betrachten, der bei der vorgegebenen Prüflast $ F_{pruef}=100N $ am freien Ende die vorgegebene Durchbiegung $ w(100N)=22mm $ einhält. Das entstehende Biegemoment wird hauptsächlich von den Gurten getragen, weswegen man sich bei der Wahl des Steges auf andere Kriterien konzentrieren kann. Da kein maximaler Drillwinkel vorgegeben ist und die Torsionssteifigkeit fast ausschließlich von der Haut bewirkt wird, führen mehrere Stege, wie man sie bei einem geschlossenen Profil hat, nur zu unerwünschter Gewichtszunahme. Nach diesen Überlegungen wurde der I-Holm ausgewählt, da dieser bei einfacher Fertigung die gewünschten Eigenschaften mit sich bringt.
+In der Aufgabenstellung wird gefordert, dass der Flügel in der Holm-Bauweise konstruiert wird. Ein Holm besteht aus zwei parallelen Gurten, die durch einen oder mehrere Stege miteinander verbunden werden. Dabei sind verschiedene Varianten möglich. Abbildung ~\ref{fig: Holmarten} veranschaulicht Konstruktionsmöglichkeiten. Neben der Festigkeit ist die Steifigkeit die einzige strukturmechanische Anforderung. Somit lässt sich das Problem als Biegebalken betrachten, der bei der vorgegebenen Prüflast $ F_{pruef}=100\mathrm{N} $ am freien Ende die vorgegebene Durchbiegung $ w(100\mathrm{N})=22\mathrm{mm} $ einhält. Das entstehende Biegemoment wird hauptsächlich von den Gurten getragen, weswegen man sich bei der Wahl des Steges auf andere Kriterien konzentrieren kann. Da kein maximaler Drillwinkel vorgegeben ist und die Torsionssteifigkeit fast ausschließlich von der Haut bewirkt wird, führen mehrere Stege, wie man sie bei einem geschlossenen Profil hat, nur zu unerwünschter Gewichtszunahme. Nach diesen Überlegungen wurde der I-Holm ausgewählt, da dieser bei einfacher Fertigung die gewünschten Eigenschaften mit sich bringt.
 \begin{figure}
 	\includegraphics[width=1.0\textwidth]{Bilder/Holmarten.png}
 	\caption{a) I-Holm   b) C-Holm    c) Kastenholm}
 	\label{fig: Holmarten}
 \end{figure} 
-Das aerodynamische Profil des Flügels wird durch Schalenbauweise erreicht. Hierbei wird eine dünne Haut nur an kritischen Stellen mit der Sandwichbauweise oder Rippen verstärkt, um Beulen zu verhindern. Die Schale trägt dabei so gut wie gar nicht die Last des Flügels, jedoch ist sie für die Torsionssteifigkeit entscheidend.
+Das aerodynamische Profil des Flügels wird durch die Schale erreicht. Hierbei wird eine dünne Haut nur an kritischen Stellen mit der Sandwichbauweise oder Rippen verstärkt, um Beulen zu verhindern. Die Schale trägt dabei so gut wie gar nicht die Last des Flügels, jedoch ist sie für die Torsionssteifigkeit entscheidend.

@@ -1,5 +1,5 @@
 
-Auf Basis der in der Balkenberechnung bestimmten Parameter Biegesteifigkeit, maximales Biegemoment und der maximalen Querkraft, sollen die Gurte und der Steg dimensioniert werden. Die Vorauslegung soll dabei anhand der VDI-Richtlinie 2013 erfolgen, diese enthält in einem Unterkapitel Informationen speziell zur Auslegung eines I-Trägers. Dabei ist zu beachten, dass für die Auslegung vorgeschlagene Kennwerte verwendet werden, die im Allgemeinen nicht exakt den tatsächlichen Materialkennwerten des gewählten Verbundes entsprechen. Zusätzlich sei angemerkt, dass die erste Auslegung nur an ausgewählten Stellen Sicherheitsfaktoren ungleich eins berücksichtigt. Grund dafür ist die Annahme, dass in den bereitgestellten Materialkennwerten ausreichende Sicherheiten verrechnet worden sind. Die grobe Vorauslegung hat den Anspruch die Grundlage für die aufbauende Berechnung mithilfe eines Laminatrechners zu legen.
+Auf Basis der in der Balkenberechnung bestimmten Parameter Biegesteifigkeit, maximales Biegemoment und der maximalen Querkraft, sollen die Gurte und der Steg dimensioniert werden. Die Vorauslegung erfolgt dabei anhand der VDI-Richtlinie 2013, diese enthält in einem Unterkapitel Informationen speziell zur Auslegung eines I-Trägers. Dabei ist zu beachten, dass für die Auslegung vorgeschlagene Kennwerte verwendet werden, die im Allgemeinen nicht exakt den tatsächlichen Materialkennwerten des gewählten Verbundes entsprechen. Zusätzlich sei angemerkt, dass die erste Auslegung nur an ausgewählten Stellen Sicherheitsfaktoren ungleich eins berücksichtigt. Grund dafür ist die Annahme, dass in den bereitgestellten Materialkennwerten ausreichende Sicherheiten verrechnet worden sind. Die grobe Vorauslegung hat den Anspruch die Grundlage für die aufbauende Berechnung mithilfe eines Laminatrechners zu legen.
 
 \subsection{Dimensionierung der Gurte mit rechteckigem Querschnitt}
 \label{GurtDim}
@@ -11,14 +11,14 @@ Bei der Auslegung der Gurte auf Steifigkeit wird angenommen, dass der Steg des I
 	\label{fig: Rechteckholm}
 \end{figure}
 
-\noindent Die Gurte werden zur Bestimmung der notwendigen Lagenanzahl als rechteckig angenommen, erst in einem späteren Schritt soll die Form der Kontur der vorgegebenen Haut angepasst werden. Die Maße sind über die gesamte Länge des Holms als konstant anzusehen.\\
-Zur Bestimmung des Flächenträgheitsmomentes $ I_{x} $ wird der E-Modul in Längsrichtung der Fasern nach der Mischungsregel gemäß [3] berechnet.\\
+\noindent Die Gurtquerschnitte werden zur Bestimmung der notwendigen Lagenanzahl als rechteckig angenommen, erst in einem späteren Schritt soll die Form der Kontur der vorgegebenen Haut angepasst werden. Die Maße sind über die gesamte Länge des Holms als konstant anzusehen.\\
+Zur Bestimmung des Flächenträgheitsmomentes $ I_{x} $ wird der E-Modul in Längsrichtung der Fasern gemäß der Mischungsregel nach \cite{item3} berechnet.\\
 \begin{equation}
  E_{11}=  \varphi\cdot E_{f,11}+\left( 1-\varphi \right) \cdot E_{M}
 \end{equation}
 Mit den gegebenen Materialkennwerten $ E_{f,11}=74000MPa $, $ E_{m}=3300MPa $ und $ \varphi=0,4 $ bestimmt sich $ E_{11} = 31580 MPa $. Damit ergibt sich ein benötigtes Flächenträgheitsmoment von 
 \begin{equation}
-	I_{x,min} = \frac{962,31Nm^{2}}{31580\cdot 10^{6}Pa} =3,04722 \cdot 10^{-8} m^{4}
+	I_{x,min} = \frac{962,552Nm^{2}}{31580\cdot 10^{6}Pa} =3,0479 \cdot 10^{-8} m^{4}
 \end{equation}
 
 \noindent Das Flächenträgheitsmoment der Gurte bestimmt sich aus den Flächenträgheitsmomenten der beiden Rechteckquerschnitte und ihren zugehörigen Steiner-Anteilen, die aus der Verschiebung der Gurte um jeweils $ \frac{h_{m}}{2} $ in z-Richtung resultieren.
@@ -27,7 +27,7 @@ Mit den gegebenen Materialkennwerten $ E_{f,11}=74000MPa $, $ E_{m}=3300MPa $ un
 	I_{x}=2\cdot\left(\frac{b\cdot h^{3}}{12}+b\cdot h\cdot\left(\frac{h_{m}}{2}\right)^{2}\right)
 \end{equation}
 
-\noindent Es wird nach einer Kombination aus Gurtbreite $ b $ und Gurthöhe $ h $ gesucht, die die Anforderungen an das Flächenträgheitsmoment erfüllt, aber dennoch zu einer möglichst geringen Gurtquerschnittsfläche und damit zu einer möglichst geringen Masse der Gurte führt. Um die Steiner-Anteile der Gurte zu maximieren, sollen die Gurte in einem möglichst großen Abstand zur neutralen Faser angeordnet werden. Vorgegeben ist eine Profildicke von $ 37,5mm $, allerdings muss berücksichtigt werden, dass die nach innen gelegte Haut, die Wölbungsrücklage und die Dickenrücklage die maximale Höhe des Holmes einschränken. Deshalb wird die gesamte Gurthöhe auf $ h_{a}=36mm $ abgeschätzt. Die dadurch begrenzte Anzahl der Lagen in der Haut wird im Abschnitt "CAD-Modell" weiter erläutert.\\ 
+\noindent Es wird nach einer Kombination aus Gurtbreite $ b $ und Gurthöhe $ h $ gesucht, die die Anforderungen an das Flächenträgheitsmoment erfüllt, aber dennoch zu einer möglichst geringen Gurtquerschnittsfläche und damit zu einer möglichst geringen Masse der Gurte führt. Um die Steiner-Anteile der Gurte zu maximieren, sollen die Gurte in einem möglichst großen Abstand zur neutralen Faser angeordnet werden. Gemäß der gegebenen technischen Zeichnung der Profilkontur, lässt sich das Profil von einem Rechteck der Höhe $ 37,5mm $ umrahmen. Dies entspricht jedoch nicht der Profildicke, da die Punkte mit dem größten Abstand zur Profilsehne auf der Ober- und Unterseite bei verschiedenen Flügeltiefen vorliegen. Zusätzlich muss oberhalb und unterhalb der Gurte ein Freiraum für die umliegenden Haut berücksichtigt werden. Deshalb wird die gesamte Gurthöhe auf $ h_{a}=36mm $ abgeschätzt. Die dadurch begrenzte Anzahl der Lagen in der Haut wird im Abschnitt "CAD-Modell" weiter erläutert.\\ 
 
 \noindent Tabelle ~\ref{bh} enthält Werte der Gurtquerschnittsfläche bei verschiedenen Kombinationen von $ b $ und $ h $, die zum erforderlichen gesamten Flächenträgheitsmoment von $ I_{x,min} = 3,04722 \cdot 10^{-8} m^{4} $ führen.\\
 \begin{table}[h]
