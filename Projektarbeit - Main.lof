@@ -1,34 +1,35 @@
 \babel@toc {ngerman}{}
-\contentsline {figure}{\numberline {1}{\ignorespaces a) I-Holm b) C-Holm c) Kastenholm}}{16}{}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Modellierung des Holms}}{18}{}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Steifigkeitsauslegung}}{22}{}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Festigkeitsauslegung}}{23}{}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Bezeichnungen des I-Holms}}{25}{}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Angepasste gekrümmte Gurtkontur}}{27}{}%
-\contentsline {figure}{\numberline {7}{\ignorespaces vereinfachtes Model}}{40}{}%
-\contentsline {figure}{\numberline {8}{\ignorespaces offenes Profil mit Pol}}{42}{}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Haut und Gurte nach dem ersten Schritt der Konstruktion}}{51}{}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Prinzipskizze der Sandwichstruktur im Steg}}{53}{}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Hautsandwich am Übergang zum Gurt}}{54}{}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Holzklötze und Hülsen}}{55}{}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Lagenaufbau Holmgurte}}{68}{}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Lagenaufbau Steg Bereich $III$}}{68}{}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Lagenaufbau Steg Bereich $I$\&$II$}}{69}{}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Lagenaufbau Flügelschale}}{70}{}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Berechnung Holmgurte}}{70}{}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Berechnung Steg Bereich $III$}}{71}{}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Berechnung Steg Bereich $I$\&$II$}}{72}{}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Berechnung Flügelschale}}{73}{}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Ingenieurskonstanten Holmgurte}}{73}{}%
-\contentsline {figure}{\numberline {22}{\ignorespaces BerechnIngenieurskonstantenung Steg Bereich $III$}}{74}{}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Ingenieurskonstanten Flügelschale}}{75}{}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Schubfluss Bereich 1}}{75}{}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Schubfluss Bereich 2}}{76}{}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Schubfluss Bereich 3}}{76}{}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Schubfluss Bereich 4}}{77}{}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Schubfluss Bereich 5}}{77}{}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Schubfluss Bereich 6}}{78}{}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Schubfluss Bereich 7}}{78}{}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Schubfluss Bereich 8}}{79}{}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Schubfluss Bereich 9}}{79}{}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Schubfluss Bereich 10}}{80}{}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Schubknicken}}{16}{}%
+\contentsline {figure}{\numberline {2}{\ignorespaces a) I-Holm b) C-Holm c) Kastenholm}}{17}{}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Modellierung des Holms}}{19}{}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Steifigkeitsauslegung}}{23}{}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Festigkeitsauslegung}}{24}{}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Bezeichnungen des I-Holms}}{26}{}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Angepasste gekrümmte Gurtkontur}}{28}{}%
+\contentsline {figure}{\numberline {8}{\ignorespaces vereinfachtes Model}}{41}{}%
+\contentsline {figure}{\numberline {9}{\ignorespaces offenes Profil mit Pol}}{43}{}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Haut und Gurte nach dem ersten Schritt der Konstruktion}}{52}{}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Prinzipskizze der Sandwichstruktur im Steg}}{54}{}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Hautsandwich am Übergang zum Gurt}}{55}{}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Holzklötze und Hülsen}}{56}{}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Lagenaufbau Holmgurte}}{69}{}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Lagenaufbau Steg Bereich $III$}}{69}{}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Lagenaufbau Steg Bereich $I$\&$II$}}{70}{}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Lagenaufbau Flügelschale}}{71}{}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Berechnung Holmgurte}}{71}{}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Berechnung Steg Bereich $III$}}{72}{}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Berechnung Steg Bereich $I$\&$II$}}{73}{}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Berechnung Flügelschale}}{74}{}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Ingenieurskonstanten Holmgurte}}{74}{}%
+\contentsline {figure}{\numberline {23}{\ignorespaces BerechnIngenieurskonstantenung Steg Bereich $III$}}{75}{}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Ingenieurskonstanten Flügelschale}}{76}{}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Schubfluss Bereich 1}}{76}{}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Schubfluss Bereich 2}}{77}{}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Schubfluss Bereich 3}}{77}{}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Schubfluss Bereich 4}}{78}{}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Schubfluss Bereich 5}}{78}{}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Schubfluss Bereich 6}}{79}{}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Schubfluss Bereich 7}}{79}{}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Schubfluss Bereich 8}}{80}{}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Schubfluss Bereich 9}}{80}{}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Schubfluss Bereich 10}}{81}{}%

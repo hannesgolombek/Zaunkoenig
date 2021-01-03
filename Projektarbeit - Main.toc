@@ -16,57 +16,57 @@
 \contentsline {subsubsection}{\numberline {3.5.4}Faserbruch}{15}{}%
 \contentsline {paragraph}{Zugspannung $\sigma _{\parallel }^+$}{15}{}%
 \contentsline {paragraph}{Druckspannung $\sigma _{\parallel }^-$}{15}{}%
-\contentsline {subsection}{\numberline {3.6}Bauweise (O.S.)}{15}{}%
-\contentsline {section}{\numberline {4}Modellierung des Holms}{17}{}%
-\contentsline {subsection}{\numberline {4.1}Annahmen zur Modellierung (T.B.)}{17}{}%
-\contentsline {subsection}{\numberline {4.2}Analytische Lösung der Modellierung (T.B.)}{17}{}%
-\contentsline {subsection}{\numberline {4.3}Analyse der Modellierung (T.B.)}{21}{}%
-\contentsline {section}{\numberline {5}Auslegung des Holms nach VDI 2013 (H.K.)}{24}{}%
-\contentsline {subsection}{\numberline {5.1}Dimensionierung der Gurte mit rechteckigem Querschnitt}{24}{}%
-\contentsline {subsection}{\numberline {5.2}Nachrechnung der angepassten Gurte}{26}{}%
-\contentsline {subsection}{\numberline {5.3}Bestimmung der Lagenanzahl des Steges}{27}{}%
-\contentsline {section}{\numberline {6}Auslegung des Holms nach CLT}{30}{}%
-\contentsline {subsection}{\numberline {6.1}eLamX (T.B.)}{30}{}%
-\contentsline {section}{\numberline {7}Beulabschätzung des Holms}{32}{}%
-\contentsline {subsection}{\numberline {7.1}Beulsicherheit der Gurte (T.B.)}{32}{}%
-\contentsline {subsection}{\numberline {7.2}Beulsicherheit des Steges (T.B.)}{33}{}%
-\contentsline {section}{\numberline {8}Auslegung der Klebeverbindung (T.B.)}{37}{}%
-\contentsline {subsection}{\numberline {8.1}Klebeverbindung Steg - Gurt (T.B.)}{37}{}%
-\contentsline {subsection}{\numberline {8.2}Klebeverbindung Holm - Rippen (T.B.)}{37}{}%
-\contentsline {section}{\numberline {9}Bolzenauslegung}{38}{}%
-\contentsline {subsection}{\numberline {9.1}Bolzenberechnung}{38}{}%
-\contentsline {section}{\numberline {10}Schubfluss}{39}{}%
-\contentsline {subsection}{\numberline {10.1}Theorie}{39}{}%
-\contentsline {subsection}{\numberline {10.2}Idealisierung}{39}{}%
-\contentsline {subsection}{\numberline {10.3}Schwerpunktkoordinaten}{39}{}%
-\contentsline {subsection}{\numberline {10.4}Schubmittelpunkt}{42}{}%
-\contentsline {subsection}{\numberline {10.5}Torsion (O.S.)}{44}{}%
-\contentsline {subsection}{\numberline {10.6}Schubspannung (O.S.)}{45}{}%
-\contentsline {section}{\numberline {11}Auslegung der Flügelschale nach CLT}{46}{}%
-\contentsline {subsection}{\numberline {11.1}eLamX (T.B.)}{46}{}%
-\contentsline {section}{\numberline {12}Beulabschätzung der Flügelschale (T.B.)}{47}{}%
-\contentsline {section}{\numberline {13}FEM}{49}{}%
-\contentsline {subsection}{\numberline {13.1}Warum FEM? (O.S.)}{49}{}%
-\contentsline {subsection}{\numberline {13.2}Wie funktioniert FEM? (O.S.)}{49}{}%
-\contentsline {subsubsection}{\numberline {13.2.1}Schwache Lösung der Elastostatik}{49}{}%
-\contentsline {subsubsection}{\numberline {13.2.2}Diskretisierung}{50}{}%
-\contentsline {section}{\numberline {14}CAD-Modell (H.K.)}{51}{}%
-\contentsline {subsection}{\numberline {14.1}Konstruktion der Gurte}{51}{}%
-\contentsline {subsection}{\numberline {14.2}Konstruktion des Stegs}{52}{}%
-\contentsline {subsection}{\numberline {14.3}Konstruktion der Haut und der Rippen}{52}{}%
-\contentsline {subsection}{\numberline {14.4}Holzkonstruktion an der Aufnahme der Hauptbolzen}{53}{}%
-\contentsline {subsection}{\numberline {14.5}Querkraftbolzen und Montage auf dem Teststand}{53}{}%
-\contentsline {section}{\numberline {15}Massenabschätzung (H.K.)}{55}{}%
-\contentsline {subsection}{\numberline {15.1}Masse der Gurte}{55}{}%
-\contentsline {subsection}{\numberline {15.2}Masse des Stegs}{56}{}%
-\contentsline {subsection}{\numberline {15.3}Masse der Haut}{56}{}%
-\contentsline {subsection}{\numberline {15.4}Masse der Holzklötze und Rippen}{57}{}%
-\contentsline {subsection}{\numberline {15.5}Abschätzung der Verklebungen und der Gesamtmasse}{58}{}%
-\contentsline {section}{\numberline {16}Anleitung für Flügelbau (T.B.)}{59}{}%
-\contentsline {section}{\numberline {17}Zusammenfassung}{61}{}%
-\contentsline {section}{\numberline {18}Quellenverzeichnis}{62}{}%
-\contentsline {section}{\numberline {19}Abbildungsverzeichnis}{64}{}%
-\contentsline {section}{\numberline {20}Tabellenverzeichnis}{65}{}%
-\contentsline {section}{\numberline {21}Anhang}{66}{}%
-\contentsline {subsection}{\numberline {21.1}Berechnung: Analytischen Lösung der Holm-Modellierung}{66}{}%
-\contentsline {subsection}{\numberline {21.2}Abbildungen}{68}{}%
+\contentsline {subsection}{\numberline {3.6}Bauweise (O.S.)}{17}{}%
+\contentsline {section}{\numberline {4}Modellierung des Holms}{18}{}%
+\contentsline {subsection}{\numberline {4.1}Annahmen zur Modellierung (T.B.)}{18}{}%
+\contentsline {subsection}{\numberline {4.2}Analytische Lösung der Modellierung (T.B.)}{18}{}%
+\contentsline {subsection}{\numberline {4.3}Analyse der Modellierung (T.B.)}{22}{}%
+\contentsline {section}{\numberline {5}Auslegung des Holms nach VDI 2013 (H.K.)}{25}{}%
+\contentsline {subsection}{\numberline {5.1}Dimensionierung der Gurte mit rechteckigem Querschnitt}{25}{}%
+\contentsline {subsection}{\numberline {5.2}Nachrechnung der angepassten Gurte}{27}{}%
+\contentsline {subsection}{\numberline {5.3}Bestimmung der Lagenanzahl des Steges}{28}{}%
+\contentsline {section}{\numberline {6}Auslegung des Holms nach CLT}{31}{}%
+\contentsline {subsection}{\numberline {6.1}eLamX (T.B.)}{31}{}%
+\contentsline {section}{\numberline {7}Beulabschätzung des Holms}{33}{}%
+\contentsline {subsection}{\numberline {7.1}Beulsicherheit der Gurte (T.B.)}{33}{}%
+\contentsline {subsection}{\numberline {7.2}Beulsicherheit des Steges (T.B.)}{34}{}%
+\contentsline {section}{\numberline {8}Auslegung der Klebeverbindung (T.B.)}{38}{}%
+\contentsline {subsection}{\numberline {8.1}Klebeverbindung Steg - Gurt (T.B.)}{38}{}%
+\contentsline {subsection}{\numberline {8.2}Klebeverbindung Holm - Rippen (T.B.)}{38}{}%
+\contentsline {section}{\numberline {9}Bolzenauslegung}{39}{}%
+\contentsline {subsection}{\numberline {9.1}Bolzenberechnung}{39}{}%
+\contentsline {section}{\numberline {10}Schubfluss}{40}{}%
+\contentsline {subsection}{\numberline {10.1}Theorie}{40}{}%
+\contentsline {subsection}{\numberline {10.2}Idealisierung}{40}{}%
+\contentsline {subsection}{\numberline {10.3}Schwerpunktkoordinaten}{40}{}%
+\contentsline {subsection}{\numberline {10.4}Schubmittelpunkt}{43}{}%
+\contentsline {subsection}{\numberline {10.5}Torsion (O.S.)}{45}{}%
+\contentsline {subsection}{\numberline {10.6}Schubspannung (O.S.)}{46}{}%
+\contentsline {section}{\numberline {11}Auslegung der Flügelschale nach CLT}{47}{}%
+\contentsline {subsection}{\numberline {11.1}eLamX (T.B.)}{47}{}%
+\contentsline {section}{\numberline {12}Beulabschätzung der Flügelschale (T.B.)}{48}{}%
+\contentsline {section}{\numberline {13}FEM}{50}{}%
+\contentsline {subsection}{\numberline {13.1}Warum FEM? (O.S.)}{50}{}%
+\contentsline {subsection}{\numberline {13.2}Wie funktioniert FEM? (O.S.)}{50}{}%
+\contentsline {subsubsection}{\numberline {13.2.1}Schwache Lösung der Elastostatik}{50}{}%
+\contentsline {subsubsection}{\numberline {13.2.2}Diskretisierung}{51}{}%
+\contentsline {section}{\numberline {14}CAD-Modell (H.K.)}{52}{}%
+\contentsline {subsection}{\numberline {14.1}Konstruktion der Gurte}{52}{}%
+\contentsline {subsection}{\numberline {14.2}Konstruktion des Stegs}{53}{}%
+\contentsline {subsection}{\numberline {14.3}Konstruktion der Haut und der Rippen}{53}{}%
+\contentsline {subsection}{\numberline {14.4}Holzkonstruktion an der Aufnahme der Hauptbolzen}{54}{}%
+\contentsline {subsection}{\numberline {14.5}Querkraftbolzen und Montage auf dem Teststand}{54}{}%
+\contentsline {section}{\numberline {15}Massenabschätzung (H.K.)}{56}{}%
+\contentsline {subsection}{\numberline {15.1}Masse der Gurte}{56}{}%
+\contentsline {subsection}{\numberline {15.2}Masse des Stegs}{57}{}%
+\contentsline {subsection}{\numberline {15.3}Masse der Haut}{57}{}%
+\contentsline {subsection}{\numberline {15.4}Masse der Holzklötze und Rippen}{58}{}%
+\contentsline {subsection}{\numberline {15.5}Abschätzung der Verklebungen und der Gesamtmasse}{59}{}%
+\contentsline {section}{\numberline {16}Anleitung für Flügelbau (T.B.)}{60}{}%
+\contentsline {section}{\numberline {17}Zusammenfassung}{62}{}%
+\contentsline {section}{\numberline {18}Quellenverzeichnis}{63}{}%
+\contentsline {section}{\numberline {19}Abbildungsverzeichnis}{65}{}%
+\contentsline {section}{\numberline {20}Tabellenverzeichnis}{66}{}%
+\contentsline {section}{\numberline {21}Anhang}{67}{}%
+\contentsline {subsection}{\numberline {21.1}Berechnung: Analytischen Lösung der Holm-Modellierung}{67}{}%
+\contentsline {subsection}{\numberline {21.2}Abbildungen}{69}{}%
