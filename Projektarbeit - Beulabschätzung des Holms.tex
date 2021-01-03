@@ -1,12 +1,12 @@
-\subsection{Beulsicherheit der Gurte (T.B.)}
-Nachdem die Holmgurte auf Festigkeit und Steifigkeit ausgelegt worden sind, muss überprüft werden, ob der Effekt des Beulens auftritt.\\
+\subsubsection{Beulsicherheit der Gurte (T.B.)}
+Nachdem die Holmgurte auf Festigkeit und Steifigkeit ausgelegt worden sind, muss überprüft werden, ob der Effekt des Beulens, ein  Versagen aufgrund mangelnder Stabilität, auftritt.\\
 
 \noindent Dazu werden folgende Annahmen getroffen:
 
 \begin{enumerate}
 	\item Die Berechnung erfolgt nach [1]
 	\item Es wird angenommen, dass die orthotropen Gewebe hinreichend mit den Gleichungen für isotropes Material berechnet werden können. Diese Annahme wird mit erfolgten Zulassungen für Segelflugzeuge anhand dieser Formeln begründet.
-	\item Die Gurte werden als ebene, unendlich lange Streifen betrachtet. Die tatsächliche Krümmung dieser beeinflusst die Beulsicherheit positiv.
+	\item Die Gurte werden als ebene, unendlich lange Streifen betrachtet. Die tatsächliche Krümmung dieser in x-Richtung beeinflusst die Beulsicherheit positiv.
 	\item Da die Mitte in $x$-Richtung der Holmgurte mit dem Holmsteg verklebt ist, kann diese Klebelinie als freie Lagerung gesehen werden. Somit halbiert sich die angenommene Holmgurtbreite.
 	\item Die äußeren Kanten in $x$-Richtung sind frei und nicht gelagert.
 	\item Die äußeren Kanten in $y$-Richtung werden an den jeweiligen Rippen gestützt.
@@ -21,7 +21,7 @@ Das Seitenverhältnis beträgt
 \begin{equation}
 	k_{d}=0,4
 \end{equation}
-und somit die kritische Spannung mit $E_{xx}=31580MPa$,$d=1,941mm$ und $b=14mm$:
+und somit die kritische Spannung mit $E_{xx}=31580MPa$, $d=1,941mm$ und $b=14mm$:
 \begin{equation}
 	\sigma_{krit,d}=k_{d}\cdot E_{xx}\cdot\biggl(\frac{d}{b}\biggr)^{2}\\
 	= 242,82 MPa
@@ -32,7 +32,7 @@ Im Vergleich zu der tatsächlich maximal auftretenden Randfaserspannung der Gurt
 \end{equation}
 
 
-\subsection{Beulsicherheit des Steges (T.B.)}
+\subsubsection{Beulsicherheit des Steges (T.B.)}
 \label{Beulsicherheit Steg}
 Ebenfalls muss der Holmsteg nach der Auslegung hinsichtlich der Sicherheit gegen Beulen überprüft werden. Folgende Annahmen werden dafür getroffen:\\
 \begin{enumerate}
@@ -42,7 +42,7 @@ Ebenfalls muss der Holmsteg nach der Auslegung hinsichtlich der Sicherheit gegen
 	\item Die Verklebung des Steges wird als gestützte, gelenkige Lagerung an allen vier Kanten angenommen.
 	\item Der Steg wird durch Biegung und Schubspannung beansprucht.
 \end{enumerate}
-Für den Steg müssen die drei Bereiche der Holmauslegung auf die Beulsicherheit geprüft werden. \\
+Für den Steg müssen alle drei Bereiche der Holmauslegung auf die Beulsicherheit geprüft werden. \\
 \noindent Im Folgenden wir die Beulsicherheit des Bereichs $I$ berechnet:\\
 \noindent Das Seitenverhältnis ergibt sich zu 
 \begin{equation}
@@ -52,7 +52,7 @@ Dadurch lässt sich mit
 \begin{equation}
 	\frac{\sigma_{max}}{\sigma_{min}}=-1
 \end{equation}
-(symmetrisch) nach Hertel, Abbildung 85 der Beulfaktor ermitteln zu
+(symmetrisch) nach [Hertel, Abbildung 85] der Beulfaktor ermitteln zu
 \begin{equation}
 	k_{b} = 21,8
 \end{equation}
@@ -60,7 +60,7 @@ Da das Dickenverhältnis von Steglagen zu Schaumkern sehr klein ausgelegt werden
 \begin{equation}
 	\kappa = 1
 \end{equation}
-definiert. Dadurch ergibt sich die kritische Biegespannung mit $E_{xx}=6639,8MPa$, $d=1,882mm$ und $b=35,8mm-2\cdot 1,941mm$zu
+definiert. Dadurch ergibt sich die kritische Biegespannung mit $E_{xx}=6639,8MPa$, $d=1,882mm$ und $b=35,8mm-2\cdot 1,941mm$ zu
 \begin{equation}
 	\sigma_{krit,B}=\kappa\cdot\ k_{b}\cdot E_{xx}\cdot\Bigl(\frac{d}{b}\Bigr)^{2}=503,24MPa
 \end{equation}
@@ -77,23 +77,23 @@ Damit wir die kritische Schubspannung mit $G_{xy}=8577,8MPa$zu
 \end{equation}
 Die tatsächlich auftretende Schubspannung beträgt 
 \begin{equation}
-	\tau=\frac{3}{2}\cdot \frac{5085,5 N}{1,882 mm\cdot(35,8 mm-2\cdot 1,941 mm)}=126,99 Mpa
+	\tau=\frac{3}{2}\cdot \frac{5085,5 N}{1,882 mm\cdot(35,8 mm-2\cdot 1,941 mm)}=126,99 MPa
 \end{equation}
 sodass das Verhältnis der Schubspannung zur kritischen 
 \begin{equation}
-	j_{2}=\frac{126,99 MPa}{164,02 MPa}=
+	j_{2}=\frac{126,99 MPa}{164,02 MPa}= 0,774
 \end{equation}
-ergibt. Die Gesamtsicherheit beträgt nach [Quelle noch nicht aufgeführt]
+ergibt. Die Gesamtsicherheit beträgt nach [Hertel einfügen]
 \begin{equation}
 	j=\sqrt{\frac{1}{j_{1}^{2}+j_{2}^{2}}}=1,148
 \end{equation}
 Somit kann rückgeschlossen werden, dass dieser Bereich des Holmsteges schon ohne Schaumkern sicher gegen Beulen ist.\\
 
-\noindent Nun wird der Bereich $II$ betrachtet:
+\noindent Nun wird der Bereich $II$ betrachtet:\\
 Da keine innere Querkraft herrscht, kann die Sicherheit durch Biegung außer Acht gelassen werden. Die Sicherheit gegen Beulen ist demnach nur von dem Schub abhängig.
 Das Seitenverhältnis beträgt 
 \begin{equation}
-	\frac{a}{b}=\frac{35,8mm - 2\cdot 1,941mm}{37mm}=0,863
+	\frac{b}{a}=\frac{35,8mm - 2\cdot 1,941mm}{37mm}=0,863
 \end{equation}
 Damit ergibt sich der Beulfaktor zu 
 \begin{equation}
@@ -117,7 +117,7 @@ berechnen. Mit dem gleichen maximalen Schub
  \end{equation}
 bestimmt werden. Auch dieser Stegbereich $II$ ist gegen Beulen sicher.\\
 
-\noindent Abschließend wird der verbliebene Bereich $III$ überprüft.\\
+\noindent Abschließend wird der verbliebene Bereich $III$ überprüft:\\
 \noindent Erneut wird das Seitenverhältnis ermittelt zu 
 \begin{equation}
 	\frac{b}{a}=\frac{35,8mm - 2\cdot 1,941mm}{773mm}=0,041\approx 0
@@ -154,11 +154,11 @@ und
 \begin{equation}
 	\tau_{krit} = \kappa\cdot k_{s}\cdot G_{xy}\cdot\Bigl(\frac{0,313mm + x}{35,8mm -2\cdot 1,941mm}\Bigr)^{2}
 \end{equation}
-Dieses mal kann $\kappa=3$ genutzt werden, sofern eine ausreichende Dicke $x$ auftritt, dessen Lösung analytisch ermittelt wird. Dabei wird eine Mindestdicke von 
+Dieses mal kann $\kappa=3$ genutzt werden, sofern eine ausreichende Schaumstoff-Dicke $x$ auftritt, dessen Lösung analytisch herausgefunden wird. Dabei wird eine Mindestdicke von 
 \begin{equation}
 	x=0,569mm
 \end{equation}
-ermittelt, allerdings soll ein Schaum der Dicke $x=2mm$ verbaut werden, um das exakte Anpassen der Bauteilmaße zu vereinfachen. Damit ergibt sich eine Beulsicherheit im Bereich $III$ von
+ermittelt, allerdings soll ein Schaum der Dicke $x=2mm$ verbaut werden, um das exakte Anpassen der Bauteilmaße während der Fertigung zu vereinfachen. Damit ergibt sich eine Beulsicherheit im Bereich $III$ von
 \begin{equation}
 	j=6,88
 \end{equation}

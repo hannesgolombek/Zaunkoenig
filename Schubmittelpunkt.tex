@@ -1,5 +1,5 @@
 
-\subsection{Theorie}
+\subsubsection{Theorie}
 schubfluss
 koordinatensysteme
 mehrzeller...?
@@ -14,7 +14,7 @@ $dA=tds$
 	q(s)=\tau(s)t(s)
 \end{equation}
 Text folgt
-\subsection{Idealisierung}
+\subsubsection{Idealisierung}
 Für die Berechnung des Schubmittelpunkts wird das Flügelprofil als vereinfachter Mehrzeller angenommen.
 Dabei wird der Ursprung des Koordinatensystems am unteren rechten Rand gesetzt. Das Modell wird in 10 Teilstrecken $s_{i}$ aufgeteilt. Die Dicke $t$ wird über die Schale konstant angenommen. Der Schaum wird in allen Abschnitten der Schale und im Holm vernachlässigt, da seine Hauptaufgabe der Beulsteifigkeit gilt und er bei der Schubaufnahme im Vergleich zum Laminat nur eine unbedeutende Rolle spielt. Der Steg ist in 2 Abschnitte unterteilt. Für die maximale Belastung und somit auch die Auslegung relevant ist nur der Teil mit dem dünneren Gewebe, sodass hier für die Dicke des Stegs $t_{1}=0,314\mathrm{mm}$ angenommen wird. Für die Gurte gilt, dass alle Fasern parallel in x-Richtung ausgerichtet sind. Sie werden in dieser Rechnung ignoriert, da sie folglich im Gegensatz zum $\pm45^\circ$-Gewebe vernachlässigbare Schubkräfte aufnehmen können. Außerdem würde ein über die Dicke variabler Schubmodul die Rechnung unnötig verkomplizieren.
 Diese Annahmen bezüglich Schaum und Gurte sind unproblematisch, da sie so getroffen wurden, dass der Flügel sogar noch höheren Belastungen als errechnet standhalten könnte. Als einziges ist zu betrachten, dass durch das wegfallen des Schaums in der Schale die GFK-Schichten des Sandwichs aufeinander fallen und ihre Position somit um wenige Millimeter ungenau ist. Da die genau errechnete Dicke auf eine Lagenschicht aufgerundet werden muss, ist dies vermutlich kompensierbar, sollte jedoch im Hinterkopf behalten werden.
@@ -24,7 +24,7 @@ Diese Annahmen bezüglich Schaum und Gurte sind unproblematisch, da sie so getro
  \caption{vereinfachtes Model}
  \label{Fluegel1}
 \end{figure}
-\subsection{Schwerpunktkoordinaten}\label{SP-Koord}
+\subsubsection{Schwerpunktkoordinaten}\label{SP-Koord}
 Zunächst werden die statischen Momente in den einzelnen Teilstücken berechnet.
 \begin{equation}
 	S_{z}=\int_{A}^{}y \mathrm{d}A =t\int_{s}^{}y \mathrm{d}s
@@ -141,7 +141,7 @@ Aus dem Zusammenhang
 \end{equation}
 lässt sich erkennen, dass der Winken ($\varphi =-3,15^\circ$) zwischen dem Hauptachsen- und Schwerpunktkoordinatensystem nur sehr gering ist. Im folgenden finden alle Betrachtungen trotzdem weiterhin mit den Koordinatenachsen in dieser Ausrichtung statt.
 
-\subsection{Schubmittelpunkt}
+\subsubsection{Schubmittelpunkt}
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\textwidth]{Bilder/Flügel-Pol-offen}
@@ -213,7 +213,7 @@ $$
 $$
 	z_{M_{g}}=-20,46\mathrm{mm}
 $$
-\subsection{Torsion (O.S.)}
+\subsubsection{Torsion (O.S.)}
 In den bisherigen Berechnungen wurde immer davon ausgegangen, dass die Kraft im Schubmittelpunkt angreift. Durch den Versuchsaufbau ist jedoch vorgegeben, dass eine Prüflast in z-Richtung an den $l/4$-Linie aufgebracht wird. Mit dem errechneten Schubmittelpunkt lässt sich erkennen, dass ein Torsionsmoment 
 \begin{equation}
 	M_{xT}=(y_{l/4}-y_{0})\cdot F
@@ -241,7 +241,7 @@ $$
 	\vartheta =-0,00195 ^\circ.
 $$
 
-\subsection{Schubspannung (O.S.)}
+\subsubsection{Schubspannung (O.S.)}
 Das Ziel dieser Berechnung war nicht nur den Schubmittelpunkt und die Verdrillung zu bestimmen, sondern hauptsächlich die Schubspannung in der Haut zu erhalten, um diese auslegen zu können. Da die Hautdicke auf dem gesamten Umfang konstant bleiben soll, ist an dieser Stelle nur die maximale Schubspannung für alle Bereiche der Haut $\tau_{max}$, die sich einfach aus Gleichung (\ref{tau}) ermitteln lässt, interessant. Die Dicke $t$ ist jedoch nicht einfach aus den gesamten Rechnungen rausziehbar, weil es auch Anteile, wie zum Beispiel den Holm, gibt, die von $t$ unabhängig sind. Deswegen wird iterativ vorgegangen, wobei zuerst mit einer zufällig gewählten Dicke die Rechenschritte durchgeführt werden, in dem in diesem Kapitel gezeigten Fall mit $t=0,2\mathrm{mm}$. Am Ende der Berechnung wird aus den maximalen Schubfluss die minimale Dicke
 \begin{equation}
 	t_{min} = \frac{q_{max}}{R_{\tau}}.

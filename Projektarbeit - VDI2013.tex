@@ -1,7 +1,7 @@
 
 Auf Basis der in der Balkenberechnung bestimmten Parameter Biegesteifigkeit, maximales Biegemoment und der maximalen Querkraft, sollen die Gurte und der Steg dimensioniert werden. Die Vorauslegung erfolgt dabei anhand der VDI-Richtlinie 2013, diese enthält in einem Unterkapitel Informationen speziell zur Auslegung eines I-Trägers. Dabei ist zu beachten, dass für die Auslegung vorgeschlagene Kennwerte verwendet werden, die im Allgemeinen nicht exakt den tatsächlichen Materialkennwerten des gewählten Verbundes entsprechen. Zusätzlich sei angemerkt, dass die erste Auslegung nur an ausgewählten Stellen Sicherheitsfaktoren ungleich eins berücksichtigt. Grund dafür ist die Annahme, dass in den bereitgestellten Materialkennwerten ausreichende Sicherheiten verrechnet worden sind. Die grobe Vorauslegung hat den Anspruch die Grundlage für die aufbauende Berechnung mithilfe eines Laminatrechners zu legen.
 
-\subsection{Dimensionierung der Gurte mit rechteckigem Querschnitt}
+\subsubsection{Dimensionierung der Gurte mit rechteckigem Querschnitt}
 \label{GurtDim}
 Bei der Auslegung der Gurte auf Steifigkeit wird angenommen, dass der Steg des I-Trägers keine Längskräfte aufnimmt und der Biegung nicht entgegenwirken kann. Die in der Balkenberechnung ermittelte Biegesteifigkeit $ EI_{x} = 962,552 Nm^{2} $, die erforderlich ist, damit bei einer Kraft $ F_{pruef}=100N $ die Flügelspitze eine Absenkung von $ w_{j=1,1}=20mm $ erfährt, muss allein durch die Gurte aufgebracht werden. Im Sinne der kraftflussgerechten Gestaltung sollen die Glasfasern unidirektional in Längsrichtung des Gurtes angeordnet werden. Die Bezeichnungen der Längenangaben des Holmes orientieren sich an Abb.~\ref{fig: Rechteckholm}~.\\
 
@@ -27,7 +27,7 @@ Mit den gegebenen Materialkennwerten $ E_{f,11}=74000MPa $, $ E_{m}=3300MPa $ un
 	I_{x}=2\cdot\left(\frac{b\cdot h^{3}}{12}+b\cdot h\cdot\left(\frac{h_{m}}{2}\right)^{2}\right)
 \end{equation}
 
-\noindent Es wird nach einer Kombination aus Gurtbreite $ b $ und Gurthöhe $ h $ gesucht, die die Anforderungen an das Flächenträgheitsmoment erfüllt, aber dennoch zu einer möglichst geringen Gurtquerschnittsfläche und damit zu einer möglichst geringen Masse der Gurte führt. Um die Steiner-Anteile der Gurte zu maximieren, sollen die Gurte in einem möglichst großen Abstand zur neutralen Faser angeordnet werden. Gemäß der gegebenen technischen Zeichnung der Profilkontur, lässt sich das Profil von einem Rechteck der Höhe $ 37,5mm $ umrahmen. Dies entspricht jedoch nicht der Profildicke, da die Punkte mit dem größten Abstand zur Profilsehne auf der Ober- und Unterseite bei verschiedenen Flügeltiefen vorliegen. Zusätzlich muss oberhalb und unterhalb der Gurte ein Freiraum für die umliegenden Haut berücksichtigt werden. Deshalb wird die gesamte Gurthöhe auf $ h_{a}=36mm $ abgeschätzt. Die dadurch begrenzte Anzahl der Lagen in der Haut wird im Abschnitt "CAD-Modell" weiter erläutert.\\ 
+\noindent Es wird nach einer Kombination aus Gurtbreite $ b $ und Gurthöhe $ h $ gesucht, die die Anforderungen an das Flächenträgheitsmoment erfüllt, aber dennoch zu einer möglichst geringen Gurtquerschnittsfläche und damit zu einer möglichst geringen Masse der Gurte führt. Um die Steiner-Anteile der Gurte zu maximieren, sollen die Gurte in einem möglichst großen Abstand zur neutralen Faser angeordnet werden. Gemäß der gegebenen technischen Zeichnung der Profilkontur, lässt sich das Profil von einem Rechteck der Höhe $ 37,5mm $ umrahmen. Dies entspricht jedoch nicht der Profildicke, da die Punkte mit dem größten Abstand zur Profilsehne auf der Ober- und Unterseite bei verschiedenen Flügeltiefen vorliegen. Zusätzlich muss oberhalb und unterhalb der Gurte ein Freiraum für die umliegenden Haut berücksichtigt werden. Deshalb wird die gesamte Gurthöhe auf $ h_{a}=36mm $ abgeschätzt. Die dadurch begrenzte Anzahl der Lagen in der Haut wird im Kapitel \ref{CAD} weiter erläutert.\\ 
 
 \noindent Tabelle ~\ref{bh} enthält Werte der Gurtquerschnittsfläche bei verschiedenen Kombinationen von $ b $ und $ h $, die zum erforderlichen gesamten Flächenträgheitsmoment von $ I_{x,min} = 3,04722 \cdot 10^{-8} m^{4} $ führen.\\
 \begin{table}[h]
@@ -58,7 +58,7 @@ Mit den gegebenen Materialkennwerten $ E_{f,11}=74000MPa $, $ E_{m}=3300MPa $ un
 \noindent Mit $ \left(\frac{m_{f}}{L\cdot b}\right) = 220\frac{g}{m^{2}} $, $ t_{soll}=h $ und $ \rho_{f}=2550\frac{kg}{m^{3}} $ ergibt sich $ n=8,653 $. Es sind also 9 Lagen des Gewebes 92145 für jeden Gurt vorzusehen.Die sich aus 9 Lagen ergebende Gurthöhe kann durch Umstellen von Gleichung ~\ref{gurtlagen} zu $ \tilde{h}=1,941mm $ bestimmt werden. Für den zunächst angenommenen Fall von Gurten mit rechteckigen Querschnitten ist die Auslegung zur Einhaltung der Anforderungen an die Steifigkeit damit abgeschlossen.\\
 
 
-\subsection{Nachrechnung der angepassten Gurte}
+\subsubsection{Nachrechnung der angepassten Gurte}
  Die Modellierung der Haut und der Holmgurte in einem CAD-Programm zeigt, dass die Gurte mit den berechneten Bemaßungen nicht innerhalb des Profils mit der als $ 0,75mm $ dick angenommenen Haut liegen. Die Anpassung der Konstruktion der Gurte erfolgt so, dass die Gurtoberseite an der Innenseite der Haut anliegt.Die Gesamtbreite von $ 28mm $, sowie die Gurtdicke $ h $ bleiben dabei erhalten. Die Gesamthöhe $ h_{a} $ muss auf $ \tilde{h_{a}}=35,8mm $ leicht verringert werden. Abbildung ~\ref{fig: KrummerGurt} veranschaulicht die gekrümmte Form des oberen Holmgurtes.
  \begin{figure}[h]
  	\includegraphics[width=1.0\textwidth]{Bilder/KrummerGurt.jpg}
@@ -83,7 +83,7 @@ zu $ \sigma_{b}=224,96MPa $ berechnen. Da
 \end{equation} 
 gilt, ist der Festigkeitsnachweis erbracht. Es kann davon ausgegangen werden, dass die Gurte bei einer Prüfkraft von $ F_{pruef}=500N $ nicht versagen. \\
 
-\subsection{Bestimmung der Lagenanzahl des Steges}
+\subsubsection{Bestimmung der Lagenanzahl des Steges}
 Die Auslegung des Steges erfolgt auch anhand der VDI 2013. Dabei muss beachtet werden, dass der Steg sowohl durch Schubkräfte als auch durch Normalkräfte senkrecht und parallel zu den Gurten Belastungen erfährt. Die Dehnungen der Innenseiten der Gurte werden dem Steg aufgeprägt, da beide Bauteile stoffschlüssig miteinander verbunden sind. Anders als in der VDI 2013 wird jedoch nicht die Bruchdehnung der Gurte betrachtet, sondern die Dehnungen der Innenseiten bei einer Prüfkraft von 500N. So soll die Dimensionierung des Steges auf die Anforderungen an die Festigkeit angepasst werden, um Leichtbaupotentiale bestmöglich auszuschöpfen.\\
 
 \noindent Die größte Längsdehnung der Gurte tritt an der Stelle C auf, da dort das größte Biegemoment wirkt. Sie lässt sich für die Innenseite der Gurte durch
@@ -114,7 +114,7 @@ ermitteln lässt. $ K_{E\#} $ ist dabei ein verallgemeinerter Dimensionierungske
 \begin{equation}
 	p_{s||}=p_{s}=\frac{Q}{h_{i}}
 \end{equation}
-Der Kraftfluss, der durch den Steg aufgenommen werden muss, ergibt sich aus der Überlagerung der drei Kraftflüsse $ p_{s||}, p_{A||}, p_{\epsilon||} $. Die Tragfähigkeit einer Schicht des Verbundes wird durch $ K_{\sigma d} $ charakterisiert und kann ebenfalls Tafel 3 der VDI entnommen werden.Da ein Teil der Schubbeanspruchung durch die Matrix geleitet wird, besteht die Gefahr eines Zwischenfaserbruches. VDI 2013 schlägt deshalb die Verwendung von $ K_{\sigma d}=30*10^{3}m $ vor.  Zusätzlich muss der Anteil der Glasmengen in Kette und Schuß durch den Faktor $ k_{||} $ berücksichtigt werden. Das zur Verfügung stehende Gewebe Interglas 90070 hat annähernd gleiche Fadenanzahlen in Kette- und Schußrichtung, damit ist $ k_{||}=0,5 $. 
+Der Kraftfluss, der durch den Steg aufgenommen werden muss, ergibt sich aus der Überlagerung der drei Kraftflüsse $ p_{s||}, p_{A||}, p_{\epsilon||} $. Die Tragfähigkeit einer Schicht des Verbundes wird durch $ K_{\sigma d} $ charakterisiert und kann ebenfalls Tafel 3 der VDI entnommen werden. Da ein Teil der Schubbeanspruchung durch die Matrix geleitet wird, besteht die Gefahr eines Zwischenfaserbruches. VDI 2013 schlägt deshalb die Verwendung von $ K_{\sigma d}=30*10^{3}m $ vor.  Zusätzlich muss der Anteil der Glasmengen in Kette und Schuß durch den Faktor $ k_{||} $ berücksichtigt werden. Das zur Verfügung stehende Gewebe Interglas 90070 hat annähernd gleiche Fadenanzahlen in Kette- und Schußrichtung, damit ist $ k_{||}=0,5 $. 
 \begin{equation}
 	n\cdot \bar{q}\cdot K_{\sigma d}\cdot k_{||}=p_{s||}+p_{A||}+p_{\epsilon||}
 \end{equation}
@@ -124,4 +124,4 @@ Die Anzahl der notwendigen Gewebelagen n im Steg lässt sich nun durch Umstellen
 \end{equation}
 Damit ergibt sich die Lagenanzahl von $ n\left(500N\right)=1,99 $ für den Bereich $ 3 $ und $ n\left(5085,5N\right)=18,13 $ für die Bereiche $ 1 $. Um einen symmetrischen Lagenaufbau im Falle einer Sandwichkonstruktion zu ermöglichen, sind also $ 2 $ Lagen für den Bereich $ 3 $ und $ 20 $ Lagen für die Bereiche $ 1 $ und $ 2 $ vorzusehen.\\
 
-\noindent Es ist zu betonen, dass diese Lagenanzahlen maßgeblich durch die Annahmen der Dimensionierungskennwerte $ K_{E\#} $ und $ K_{\sigma d} $ beeinflusst werden. Diese stimmen nicht exakt mit den Kennwerten des vorliegenden Laminats überein. Im Abschnitt \textit{Auslegung nach Puck} wird die ermittelte Lagenanzahl überprüft und angepasst.
+\noindent Es ist zu betonen, dass diese Lagenanzahlen maßgeblich durch die Annahmen der Dimensionierungskennwerte $ K_{E\#} $ und $ K_{\sigma d} $ beeinflusst werden. Diese stimmen nicht exakt mit den Kennwerten des vorliegenden Laminats überein. Im Kapitel \ref{Puck} wird die ermittelte Lagenanzahl überprüft und angepasst.
