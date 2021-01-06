@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  6 JAN 2021 12:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  6 JAN 2021 13:32
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -445,6 +445,18 @@ ut line 2.
 \openout3 = `"Projektarbeit - Main.toc"'.
 
  [8] ("Projektarbeit - Bezeichnungen.tex"
+Overfull \hbox (16.82408pt too wide) in paragraph at lines 4--24
+[][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (5.53725pt too wide) in paragraph at lines 49--61
+[][] 
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1299,8 +1311,8 @@ Here is how much of TeX's memory you used:
  70i,17n,80p,1566b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Neu1\AppData\Local\MiKTeX\fon
 ts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\Neu1\AppData\Local\MiKTe
-X\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Neu1\AppData\Local\
-MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\Neu1\AppData\L
+X\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\Neu1\AppData\Local\
+MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Neu1\AppData\L
 ocal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\Neu1\AppD
 ata\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Neu1
 \AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users
@@ -1316,7 +1328,7 @@ TeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Neu1/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Neu1/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Neu1/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (95 pages, 3746155 bytes).
+Output written on "Projektarbeit - Main.pdf" (95 pages, 3746983 bytes).
 PDF statistics:
  896 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
