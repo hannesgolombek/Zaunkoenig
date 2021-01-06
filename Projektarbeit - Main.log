@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  6 JAN 2021 16:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  6 JAN 2021 23:35
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -445,7 +445,7 @@ ut line 2.
 \openout3 = `"Projektarbeit - Main.toc"'.
 
  [8] ("Projektarbeit - Bezeichnungen.tex"
-Overfull \hbox (16.82408pt too wide) in paragraph at lines 4--24
+Overfull \hbox (112.61855pt too wide) in paragraph at lines 4--24
 [][] 
  []
 
@@ -1331,7 +1331,7 @@ TeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Neu1/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Neu1/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Neu1/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (97 pages, 3749092 bytes).
+Output written on "Projektarbeit - Main.pdf" (97 pages, 3749130 bytes).
 PDF statistics:
  905 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
