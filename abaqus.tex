@@ -20,7 +20,7 @@ Daraufhin werden für die Materialien die Kennwerte in das Programm integriert. 
 \end{figure}
 \newpage
 
-Als nächstes wird das Schalenmodell in die Verschiedenen Segmente Unterteilt , denen dann Materialien und deren entsprechenden Dicken und Anzahl von Schichten zugeortnet. Hierbei wird das Bauteil in den Dicken und den dünnen Teil des Stegs,die Gurte,die Haut,sowie den Steg eingeteilt.(Materialdicken und Schichten nennen)
+Als nächstes wird das Schalenmodell in die Verschiedenen Segmente Unterteilt , denen dann Materialien und deren entsprechenden Dicken und Anzahl von Schichten zugeortnet werden. Hierbei wird das Bauteil in den Dicken und den dünnen Teil des Stegs, die Gurte, die Haut, sowie die Rippen unterteilt. Für die Bauteile aus GFK werden erst zwei um 45 und -45 Grad gedrehte GFK-Schichten definiert, dann der Schaum und daraufhin erneut zwei versetzte GFK-Schichten. Eine Schicht hat hierbei ein Viertel der zuvor berechneten Dicke ohne des Schaums. Für die Rippen wird eine Dicke von 3mm angenommen.
 \begin{figure}[h]
  \centering
  \includegraphics[scale=0.4]{Bilder/Steg_Material}
@@ -29,7 +29,7 @@ Als nächstes wird das Schalenmodell in die Verschiedenen Segmente Unterteilt , 
 \end{figure}
 Als nächstes werden die Randbedingungen und Angreifenden Kräfte festgelegt. Der Holm ist in der Einspannung fest gelagert. Daher wird an der Stelle der Lager A und B eine feste Einspannung angenommen. Die Aufgenommenen Kräfte durch die Querkraftbolzen werden als Kräfte angebracht.Die Prüfkraft wird am L/4-Punkt eingeleitet.
 
-Daraufhin wird das Bauteil vernetzt. Hierbei wird eine Anzahl an Knoten pro Längeneinheit eingegeben und das Programm verbindet diese zu einem Netz aus Vierecken. Durch die Begrenzung auf 1000 Knoten ist das Netz jedoch recht grob. \\
+Daraufhin wird das Bauteil vernetzt. Hierbei wird eine Anzahl an Knoten pro Längeneinheit eingegeben und das Programm verbindet diese zu einem Netz aus Flächen.Durch die Begrenzung auf 1000 Knoten ist das Netz jedoch recht grob. \\
 \newpage
 \subsubsection{Analyse}
 Zunächst wird eine Prüfkraft von 100N angelegt, um die maximale Absenkung zu ermitteln. Hierbei ergibt sich für die Absenkung $z_{max}=17,34mm$, welche erwartungsgemäß an der Spitze des Flügels auftritt. Dies ist weniger als die geforderte Absenkung von $z_{max}=22mm$ und somit kann dieses Aufgabenkriterium als erfüllt angesehen werden.(siehe Abb.\ref{Absenkung})
