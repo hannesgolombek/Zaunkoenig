@@ -7,15 +7,15 @@
 \contentsline {section}{\numberline {3}Grundlagen}{12}{}%
 \contentsline {subsection}{\numberline {3.1}Glasfaser}{12}{}%
 \contentsline {subsection}{\numberline {3.2}Matrix}{12}{}%
-\contentsline {subsection}{\numberline {3.3}Netztheorie}{12}{}%
-\contentsline {subsection}{\numberline {3.4}Klassische Laminattheorie}{12}{}%
-\contentsline {subsection}{\numberline {3.5}Versagenskriterium nach Puck (O.S.)}{12}{}%
+\contentsline {subsection}{\numberline {3.3}Netztheorie(HG)}{12}{}%
+\contentsline {subsection}{\numberline {3.4}Klassische Laminattheorie}{13}{}%
+\contentsline {subsection}{\numberline {3.5}Versagenskriterium nach Puck (O.S.)}{13}{}%
 \contentsline {subsubsection}{\numberline {3.5.1}Definitionen}{13}{}%
-\contentsline {subsubsection}{\numberline {3.5.2}Zwischenfaserbruch ohne Längsspannung}{13}{}%
-\contentsline {subsubsection}{\numberline {3.5.3}Einfluss der Längsspannung}{14}{}%
+\contentsline {subsubsection}{\numberline {3.5.2}Zwischenfaserbruch ohne Längsspannung}{14}{}%
+\contentsline {subsubsection}{\numberline {3.5.3}Einfluss der Längsspannung}{15}{}%
 \contentsline {subsubsection}{\numberline {3.5.4}Faserbruch}{15}{}%
 \contentsline {paragraph}{Zugspannung $\sigma _{\parallel }^+$}{15}{}%
-\contentsline {paragraph}{Druckspannung $\sigma _{\parallel }^-$}{15}{}%
+\contentsline {paragraph}{Druckspannung $\sigma _{\parallel }^-$}{16}{}%
 \contentsline {subsection}{\numberline {3.6}Bauweise (O.S.)}{17}{}%
 \contentsline {section}{\numberline {4}Auselgung des Holms nach Handbuchmethoden}{18}{}%
 \contentsline {subsection}{\numberline {4.1}Modellierung des Holms}{18}{}%
