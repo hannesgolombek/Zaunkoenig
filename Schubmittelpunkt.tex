@@ -36,11 +36,11 @@ Hier lässt sich direkt erkennen, wie diese Formel durch die Wahl eines besseren
 ist nur bei geschlossenen Profilen ungleich null. Sie sich aus einem Teil, der aus der Biegung entsteht $q_{0b}$ und einem aus der Torsion $q_{0T}$ zusammen. Es gibt einen Punkt in der y-z-Ebene für jedes Profil, wo eine angreifende Kraft keine Torsion verursacht. Dieser Punkt ist von hoher Bedeutung und wir Schubmittelpunkt genannt.
 \subsubsection{Idealisierung}
 Für die Berechnung des Schubmittelpunkts wird das Flügelprofil als vereinfachter Mehrzeller angenommen.
-Dabei wird der Ursprung des Koordinatensystems am unteren rechten Rand gesetzt. Das Modell wird in 10 Teilstrecken $s_{i}$ aufgeteilt. Die Dicke $t$ wird über die Schale konstant angenommen. Der Schaum wird in allen Abschnitten der Schale und im Holm vernachlässigt, da seine Hauptaufgabe der Beulsteifigkeit gilt und er bei der Schubaufnahme im Vergleich zum Laminat nur eine unbedeutende Rolle spielt. Der Steg ist in 2 Abschnitte unterteilt. Für die maximale Belastung und somit auch die Auslegung relevant ist nur der Teil mit dem dünneren Gewebe, sodass hier für die Dicke des Stegs $t_{1}=0,314\mathrm{mm}$ angenommen wird. Für die Gurte gilt, dass alle Fasern parallel in x-Richtung ausgerichtet sind. Sie werden in dieser Rechnung ignoriert, da sie folglich im Gegensatz zum $\pm45^\circ$-Gewebe vernachlässigbare Schubkräfte aufnehmen können. Außerdem würde ein über die Dicke variabler Schubmodul die Rechnung unnötig verkomplizieren, da die uns bekannten Methoden zur Schubflussberechnung nur für homogene Werkstoffe gültig sind.
+Dabei wird der Ursprung des Koordinatensystems am unteren rechten Rand gesetzt. Das Modell wird in 10 Teilstrecken $s_{i}$ aufgeteilt. Die Dicke $t$ wird über die Schale konstant angenommen. Der Schaum wird in allen Abschnitten der Schale und im Holm vernachlässigt, da seine Hauptaufgabe der Beulsteifigkeit gilt und er bei der Schubaufnahme im Vergleich zum Laminat nur eine unbedeutende Rolle spielt. Der Steg ist in 2 Abschnitte unterteilt. Für die maximale Belastung und somit für die Auslegung relevant ist nur der Teil mit dem dünneren Gewebe, sodass hier für die Dicke des Stegs $t_{1}=0,314\mathrm{mm}$ angenommen wird. Für die Gurte gilt, dass alle Fasern parallel in x-Richtung ausgerichtet sind. Sie werden in dieser Rechnung ignoriert, da sie folglich im Gegensatz zum $\pm45^\circ$-Gewebe vernachlässigbare Schubkräfte aufnehmen können (D = $t$). Außerdem würde ein über die Dicke variabler Schubmodul die Rechnung unnötig verkomplizieren, da die uns bekannten Methoden zur Schubflussberechnung nur für homogene Werkstoffe gültig sind.
 Diese Annahmen bezüglich des Schaums und der Gurte sind unproblematisch, da sie so getroffen wurden, dass der Flügel sogar noch höheren Belastungen als errechnet standhalten könnte. Als einziges ist zu betrachten, dass durch das Wegfallen des Schaums in der Schale die GFK-Schichten des Sandwichs aufeinander fallen und ihre Position somit um wenige Millimeter ungenau ist. Da die genau errechnete Dicke auf eine Lagenschicht aufgerundet werden muss, ist dies vermutlich kompensierbar, sollte jedoch im Hinterkopf behalten werden.
 \begin{figure}[h]
  \centering
- \includegraphics[width=0.7\textwidth]{Bilder/Model1}
+ \includegraphics[width=1\textwidth]{Bilder/Model1}
  \caption{vereinfachtes Model}
  \label{Fluegel1}
 \end{figure}
@@ -233,7 +233,17 @@ $$
 $$
 	z_{M_{g}}=-20,46\mathrm{mm}
 $$
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{Bilder/SMP}
+	\caption{Schubmittelpunkt des geschlossenen und offenen Profils}
+\end{figure}
 \subsubsection{Torsion (O.S.)}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{Bilder/Torsion}
+	\caption{Angreifende Kraft und positive Drehrichtung}
+\end{figure}
 In den bisherigen Berechnungen wurde immer davon ausgegangen, dass die Kraft im Schubmittelpunkt angreift. Durch den Versuchsaufbau ist jedoch vorgegeben, dass eine Prüflast in z-Richtung an den $l/4$-Linie aufgebracht wird. Mit dem errechneten Schubmittelpunkt lässt sich erkennen, dass ein Torsionsmoment 
 \begin{equation}
 	M_{xT}=(y_{l/4}-y_{0})\cdot F
@@ -287,7 +297,7 @@ $$
 $$
 Aus den Verläufen der Schubflüsse, wie sie in Abbildung \ref{fig:S1}-\ref{fig:S10} zu sehen, erkennt man, dass die betragsmäßig maximale Schubspannung am Endpunkt des Bereichs 8 auftritt.
 $$
-	|\tau_{max}|=|\tau(s_8=14)|=42,35\mathrm{N/mm^2}\leq R_{\tau}
+	|\tau_{max}|=\tau(s_8=14)=42,35\mathrm{N/mm^2}\leq R_{\tau}
 $$
 Im Steg (Bereich 3) tritt zwar ein deutlich höherer Schubfluss auf, jedoch ergibt sich durch die ebenfalls deutlich höhere Dicke eine geringere Spannung.
 
