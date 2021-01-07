@@ -1,14 +1,14 @@
 \babel@toc {ngerman}{}
 \contentsline {section}{\numberline {1}Bezeichnungen}{9}{}%
 \contentsline {section}{\numberline {2}Einleitung}{12}{}%
-\contentsline {subsection}{\numberline {2.1}Projektbeschreibung}{12}{}%
+\contentsline {subsection}{\numberline {2.1}Projektbeschreibung H.G.}{12}{}%
 \contentsline {subsection}{\numberline {2.2}Motivation (O.S.)}{12}{}%
-\contentsline {subsection}{\numberline {2.3}Lösungsstrategie}{12}{}%
+\contentsline {subsection}{\numberline {2.3}Lösungsstrategie H.G.}{12}{}%
 \contentsline {section}{\numberline {3}Grundlagen}{13}{}%
 \contentsline {subsection}{\numberline {3.1}Glasfaser(HG)}{13}{}%
 \contentsline {subsection}{\numberline {3.2}Matrix(HG)}{13}{}%
 \contentsline {subsection}{\numberline {3.3}Netztheorie(HG)}{13}{}%
-\contentsline {subsection}{\numberline {3.4}Klassische Laminattheorie}{14}{}%
+\contentsline {subsection}{\numberline {3.4}Klassische Laminattheorie H.G.}{14}{}%
 \contentsline {subsection}{\numberline {3.5}Versagenskriterium nach Puck (O.S.)}{14}{}%
 \contentsline {subsubsection}{\numberline {3.5.1}Definitionen}{14}{}%
 \contentsline {subsubsection}{\numberline {3.5.2}Zwischenfaserbruch ohne Längsspannung}{15}{}%
@@ -72,6 +72,10 @@
 \contentsline {subsection}{\numberline {8.5}Abschätzung der Verklebungen und der Gesamtmasse}{70}{}%
 \contentsline {section}{\numberline {9}Bauanleitung für Flügelbau (T.B.)}{72}{}%
 \contentsline {section}{\numberline {10}Zusammenfassung}{74}{}%
+\contentsline {subsection}{\numberline {10.1}Was ist geschehen H.K.}{74}{}%
+\contentsline {subsection}{\numberline {10.2}Gewichtsnormalisiertes Festigkeitskriterium O.S.}{74}{}%
+\contentsline {subsection}{\numberline {10.3}Diskussion der Ergebnisse}{74}{}%
+\contentsline {subsection}{\numberline {10.4}Optimierungsmöglichkeiten}{74}{}%
 \contentsline {section}{\numberline {11}Quellenverzeichnis}{75}{}%
 \contentsline {section}{\numberline {12}Abbildungsverzeichnis}{76}{}%
 \contentsline {section}{\numberline {13}Tabellenverzeichnis}{78}{}%
