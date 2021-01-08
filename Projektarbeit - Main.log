@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  7 JAN 2021 23:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  8 JAN 2021 10:40
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -1350,11 +1350,11 @@ Package pdftex.def Info: PDFs/Holmquerschnitte.pdf , page1 used on input line 1
 87.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 [86 <./PDFs/Holmquerschnitte.pdf>]
-<Bilder/AufbauGesamt.jpg, id=458, 989.6975pt x 344.78813pt>
+<Bilder/AufbauGesamt.jpg, id=458, 623.83063pt x 419.06563pt>
 File: Bilder/AufbauGesamt.jpg Graphic file (type jpg)
 <use Bilder/AufbauGesamt.jpg>
 Package pdftex.def Info: Bilder/AufbauGesamt.jpg  used on input line 190.
-(pdftex.def)             Requested size: 455.24411pt x 158.59393pt.
+(pdftex.def)             Requested size: 455.24411pt x 305.81944pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1407,7 +1407,7 @@ amsfonts/cm/cmr8.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmsy10.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Henri/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (100 pages, 4113030 bytes).
+Output written on "Projektarbeit - Main.pdf" (100 pages, 4113134 bytes).
 PDF statistics:
  929 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
