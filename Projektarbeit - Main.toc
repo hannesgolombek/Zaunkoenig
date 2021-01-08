@@ -1,9 +1,9 @@
 \babel@toc {ngerman}{}
 \contentsline {section}{\numberline {1}Bezeichnungen}{9}{}%
 \contentsline {section}{\numberline {2}Einleitung}{12}{}%
-\contentsline {subsection}{\numberline {2.1}Projektbeschreibung H.G.}{12}{}%
+\contentsline {subsection}{\numberline {2.1}Projektbeschreibung (H.G.)}{12}{}%
 \contentsline {subsection}{\numberline {2.2}Motivation (O.S.)}{12}{}%
-\contentsline {subsection}{\numberline {2.3}Lösungsstrategie H.G.}{12}{}%
+\contentsline {subsection}{\numberline {2.3}Lösungsstrategie (H.G.)}{12}{}%
 \contentsline {section}{\numberline {3}Grundlagen}{13}{}%
 \contentsline {subsection}{\numberline {3.1}Glasfaser(HG)}{13}{}%
 \contentsline {subsection}{\numberline {3.2}Matrix(HG)}{13}{}%
