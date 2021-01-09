@@ -25,8 +25,28 @@ Für die Verwendung der Netztheorie sollte das Gelege zunächst in ein Hauptachs
 Da der gesamte Kraftfluss als Summe der Kraftflüsse in den einzelnen Fasern angenommen werden kann, lässt sich dadurch der Kraftfluss in den einzelnen Faserschichten und somit die benötigte Dicke der Schichten, bzw. Anzahl der Lagen bestimmen.\cite{item3}
 
 In der Folgenden Berechnung wird die Netztheorie jedoch nicht verwendet, da die Auslegung mit der VDI 2013 erfolgt.
-\subsection{Klassische Laminattheorie H.G.}
-Text folgt noch
+\subsection{Klassische Laminattheorie (H.G.)}
+Das Prinzip der klassischen Laminattheorie ist die Beschreibung des Elastizitätsgesetzes eines FVK durch die Elastizitätsgesetze der einzelnen Schichten. Dies lässt sich durch die Annahme eines ideal elastischem und fehlerfrei verklebten FKV realisieren.\\
+Der Kraftfluss $\hat{n}$ im ganzen Laminat lässt sich durch die Summe der Kraftflüsse in den einzelnen Schichten zusammensetzen.
+\begin{equation}
+\label{Kraftfluss}
+\hat{n}_{x}=\hat{\sigma}_{x}*t=\sum n_{xk}=\sum\sigma_{xk}*t_{k}
+\end{equation}
+
+\begin{equation}
+\hat{n}_{y}=\hat{\sigma}_{y}*t=\sum n_{yk}=\sum\sigma_{yk}*t_{k}
+\end{equation}
+
+\begin{equation}
+\hat{n}_{xy}=\hat{\tau}_{xy}*t=\sum n_{xyk}=\sum\sigma_{xyk}*t_{k}
+\end{equation}
+Mit der Annahme, dass die Verzerrung in allen Schichten gleich ist, lässt sich nun das Elastizitätsgesetz aufstellen.
+\begin{equation}
+\lbrace n\rbrace= [A]* \lbrace\varepsilon\rbrace
+\end{equation}
+$[A]$ ist hierbei die Steifigkeitsmatrix des FVK. Mit Hilfe der Kraftfluss- Spannungsbeziehung aus Gleichung \ref{Kraftfluss}, lässt sich dann auf die Spannung schließen.
+Als nächstes muss die Verzerrungsmatrix noch in die Richtung der Einzelschichten mit dem Faserwinkel $\alpha_{k}$ transformiert werden.\\
+Nun lässt sich mit Hilfe der E-Module und Querkontraktionszahlen die Spannung in den einzelnen Fasern bestimmen.Um ein passende Anzahl an Faserschichten zu bekommen kann das Ergebnis nun iterativ angepasst werden.\cite{item3}
 \subsection{Versagenskriterium nach Puck (O.S.)}
 Da für einen anisotropen FKV nicht das Versagen mittels einer allgemeinen resultierenden Spannung für jeden Lastfall ermittelt werden kann, müssen Versagenskriterien für die speziellen Beanspruchungsmodi definiert werden. Für die in dieser Projektarbeit durchgeführten Auslegungen wurden die Festigkeitskriterien von Puck verwendet. Hierbei werden die einzelnen UD-Schichten des Laminats getrennt betrachtet. Auch wenn diese Betrachtungen physikalisch begründet sind (vgl. \cite{EdL}), hat dies zur Folge, dass Effekte wie Delamination nicht berücksichtigt werden.
 \subsubsection{Definitionen}
