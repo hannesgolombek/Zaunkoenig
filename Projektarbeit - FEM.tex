@@ -4,7 +4,7 @@ Nachdem der Flügel nun analytisch ausgelegt wurde, stellt sich die Frage, ob ei
 \subsubsection{Schwache Lösung der Elastostatik}
 Für die Berechnung der Elastostatik sind die Gleichgewichtsbedingung (\ref{GGB}),  Verzerrungs-Verschiebungsbedingung (\ref{VVB}) und das Stoffgesetz (\ref{SG}) auch bei der Finiten Elemente Methode (FEM) ausschlaggebend.
 \begin{equation}\label{GGB}
-	\underline{0} = \underline{X} + \underline{\underline{E}}^T \sigma 
+	\underline{0} = \underline{X} + \underline{\underline{D}}^T \sigma 
 \end{equation}
 \begin{equation}\label{VVB}
 	\underline{\epsilon} = \underline{\underline{D}} \underline{u}
@@ -12,7 +12,7 @@ Für die Berechnung der Elastostatik sind die Gleichgewichtsbedingung (\ref{GGB}
 \begin{equation}\label{SG}
 	\underline{\sigma} = \underline{\underline{E}} \underline{\epsilon}
 \end{equation}
-Wobei \underline{$X$} der Vektor der Volumenkräfte, \underline{\underline{$E$}} die Steifigkeitsmatrix, \underline{$\epsilon$} der Verzerrungsvektor, \underline{$u$} der Verschiebungsvektor und \underline{\underline{$D$}} die Operatormatrix ist.\\
+Nach \cite{item14}. Wobei \underline{$X$} der Vektor der Volumenkräfte, \underline{\underline{$E$}} die Steifigkeitsmatrix, \underline{$\epsilon$} der Verzerrungsvektor, \underline{$u$} der Verschiebungsvektor und \underline{\underline{$D$}} die Operatormatrix ist.\\
 Um einer aufwendigen Bestimmung der analytischen Lösung zu entgehen, bedient sich die FEM an dem Prinzip der \textit{schwachen Lösung}. Hierbei hat man eine Differenzialgleichung, die in dem betrachteten Gebiet gleich null ist. Für die Elastostatik kann man hierbei die Gleichgewichtsbedingung verwenden. Diese kann man mit $\delta\underline{u}$ multiplizieren und über das Gebiet integrieren, sodass man
 \begin{equation}
 	\int_{V}^{}\delta\underline{u}^T\underline{\underline{D}}^T\underline{\sigma}\,dV + \int_{V}^{}\delta\underline{u}^T\underline{X}\,dV = 0
@@ -36,4 +36,4 @@ Wobei sich das linke Integral zu der Elementsteifigkeitsmatrix $\underline{\unde
 \begin{equation}
 	\underline{\underline{K}}^{(e)} = \int_{V}^{}\underline{\underline{N}}^T\underline{\underline{D}}^T\underline{\underline{E}}\underline{\underline{D}}\underline{\underline{N}}\,dV
 \end{equation}
-Die einzelnen Elementsteifigkeitsmatrixen lassen sich zu einer Gesamtsteifigkeitsmatrix zusammenfassen, mit der dann die Lösung berechent wird. --> Beispiel einfügen?
+Die einzelnen Elementsteifigkeitsmatrixen lassen sich zu einer Gesamtsteifigkeitsmatrix zusammenfassen, mit der dann die Lösung berechent wird.

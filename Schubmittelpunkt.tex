@@ -18,13 +18,25 @@ und der Normalkraftfluss als
 definiert. Für diese Kraftflüsse gilt das hydrodynamische Analogon. Das heißt mit einer Änderung der Dicke muss der Kraftfluss antiproportional ab- bzw. zunehmen, damit das Kräftegleichgewicht erfüllt bleibt. Für Knotenpunkte muss auch gelten, dass der Betrag der Kraftflüsse in den Knoten hinein denen aus ihm heraus gleichen. Des Weiteren lässt sich noch zwischen offenen und geschlossenen Profilen unterscheiden, wobei es sich bei zweiterem um Ein- oder Mehrzeller handeln kann.\cite{item15}
 
 \paragraph{Koordinatensysteme}~\\
-Bei den Berechnungen kann viel Arbeit gespart werden, indem das Koordinatensystem mit Ursprung und Achsenausrichtung klug gewählt wird. Das allgemeine Koordinatensystem, das unabhängig vom betrachteten Profil ist, bietet hierbei die wenigstem um nicht zu sagen keine Vorteile. Verschiebt man seinen Ursprung in den Schwerpunkt erhält man das Schwerpunkt-Koordinatensystem. Es wird mit einem Querstrich über den Koordinaten gekennzeichnet ($\bar{x},\bar{y},\bar{z}$). Hier ergibt sich das Flächenmoment 1. Ordnung  $S$ (siehe Gleichungen \ref{SM1}, \ref{SM2}), auch statisches Moment genannt, über das gesamte Profil zu null.
-
-Aus dem Kräftegleichgewicht an einem infinitesimalen Volumen des dünnwandigen Profils ergibt sich der Zusammenhang zwischen den Kraftflüssen zu
+Bei den Berechnungen kann viel Arbeit gespart werden, indem das Koordinatensystem mit Ursprung und Achsenausrichtung klug gewählt wird. Das allgemeine Koordinatensystem, das unabhängig vom betrachteten Profil ist, bietet hierbei die wenigstem um nicht zu sagen keine Vorteile. Verschiebt man seinen Ursprung in den Schwerpunkt erhält man das Schwerpunkt-Koordinatensystem. Es wird mit einem Querstrich über den Koordinaten gekennzeichnet ($\bar{x},\bar{y},\bar{z}$). Es ist sinnvoll aus dieser Perspektive den Schubfluss zu betrachten.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{Bilder/schubfluss-infinit}
+	\caption{Infinitesimales Profilelement aus \cite{item15}}
+	\label{schubfluss-infinit}
+\end{figure}
+Aus dem Kräftegleichgewicht in $x$- und $s$-Richtung an einem infinitesimalen Volumen des dünnwandigen Profils ergibt sich der Zusammenhang zwischen den Kraftflüssen zu
+\begin{equation}
+	\frac{\partial n_x}{\partial x} + \frac{\partial q}{\partial s} = 0
+\end{equation}
+\begin{equation}\label{n_s}
+\frac{\partial n_s}{\partial s} + \frac{\partial q}{\partial x} = 0
+\end{equation}
+Da jedoch eine Krümmung in $s$-Richtung vorliegen kann, zeigt die Resultierende des Normalkraftflusses $n_s$ aus der Ebene heraus. Da bei dünnen Scheibenelementen ein ebener Spannungszustand herrscht, darf dies nicht sein. Daraus folgt, dass beide Terme in Gleichung \ref{n_s} gleich null sein müssen. Der Schubfluss ist also in $x$-Richtung konstant und lässt sich somit zu
 \begin{equation}
 	q(s)=-\int\frac{\partial n_x(x,s)}{\partial x}ds+q_0.
 \end{equation}
-Wird nun der Normalkraftfluss in Abhängigkeit von der Querkraft $Q$ gesetzt, ergibt sich die $Q$-$SI$nen-Formel:
+integrieren. Wird nun der Normalkraftfluss in Abhängigkeit von der Querkraft $Q$ gesetzt, ergibt sich die $Q$-$SI$nen-Formel nach \cite{item15}:
 \begin{equation}\label{qs}
 	q(s)=-(Q_{\bar{z}}\frac{S_{\bar{y}}(s)I_{\bar{z}}-S_{\bar{z}}(s)I_{\bar{yz}}}{I_{\bar{y}}I_{\bar{z}}-I_{\bar{yz}}^2}+Q_{\bar{y}}\frac{S_{\bar{z}}(s)I_{\bar{y}}-S_{\bar{y}}(s)I_{\bar{yz}}}{I_{\bar{z}}I_{\bar{y}}-I_{\bar{yz}}^2})+q_0
 \end{equation}
@@ -97,7 +109,7 @@ Damit können nun mit
 \begin{equation}
 S_{\bar{z}}=S_z-y_0A
 \end{equation} 
-die Verläufe der statischen Momente in Bezug auf den Schwerpunkt ermittelt werden, wobei die Endwerte der vorherigen Verläufe nach dem hydrodynamischen Analogon den Anfangswert $s_0$ des folgenden Bereichs bestimmen. Dabei ergeben sich folgende Endwerte in $\mathrm{mm}^3$:
+die Verläufe der statischen Momente in Bezug auf den Schwerpunkt ermittelt werden, wobei die Endwerte der vorherigen Verläufe nach dem hydrodynamischen Analogon den Anfangswert $s_0$ des folgenden Bereichs bestimmen. Dabei ergeben sich folgende Endwerte nach \cite{TMk} in $\mathrm{mm}^3$:
 \begin{center}
 \begin{tabular}[h]{l|c|c}
 Bauteilabschnitt&$S_{\bar{y}}/\mathrm{mm}^3$&$S_{\bar{z}}/\mathrm{mm}^3$\\
@@ -114,7 +126,8 @@ Bauteilabschnitt&$S_{\bar{y}}/\mathrm{mm}^3$&$S_{\bar{z}}/\mathrm{mm}^3$\\
 10&0&0\\
 \end{tabular}
 \end{center}
-Für ein offenes Profil muss gelten, dass an den freien Rändern das statische Moment $ 0 $ ist. Das Profil wird in diesem Fall an den Stellen 1 und 3 geschnitten. Für die nun freien Enden an den diesen Bereichen wird $s_0=0$ und auch die Endwerte des Bereichs 10 werden zu $0$.
+Für ein offenes Profil muss gelten, dass an den freien Rändern der Schubfluss $ 0 $ ist, was automatisch dadurch erfüllt ist, dass beide statischen Momente ungefähr null sind. Das Profil wird in diesem Fall an den Stellen 1 und 3 geschnitten.
+
 
 Nun werden die Flächenträgheitsmomente 
 \begin{equation}\label{FT1}
@@ -162,7 +175,7 @@ Aus dem Zusammenhang
 \begin{equation}
 	tan(\varphi)=\frac{2I_{\bar{y}\bar{z}}}{I_{\bar{z}}-I_{\bar{y}}}
 \end{equation}
-lässt sich erkennen, dass der Winkel ($\varphi =-3,15^\circ$) zwischen dem Hauptachsen- und Schwerpunkt-Koordinatensystem nur sehr gering ist. Im Folgenden finden alle Betrachtungen trotzdem weiterhin mit den Koordinatenachsen in dieser Ausrichtung statt.
+nach \cite{item15} lässt sich erkennen, dass der Winkel ($\varphi =-3,15^\circ$) zwischen dem Hauptachsen- und Schwerpunkt-Koordinatensystem nur sehr gering ist. Im Folgenden finden alle Betrachtungen trotzdem weiterhin mit den Koordinatenachsen in dieser Ausrichtung statt.
 
 \subsubsection{Schubmittelpunkt}
 \begin{figure}[h]
@@ -180,7 +193,7 @@ ist. Gleichzeitig muss aus der Momentenäquivalenz gelten
 \begin{equation}
 	Qr=\int_{s}q(s)r(s)ds
 \end{equation}
-wobei $r$ der jeweilige Hebelarm zu einem beliebigen Pol ist. Unter Anwendung des Superpositionsprinzips lässt sich die Querkraft $Q$ in ihre Komponenten der Koordinatenrichtungen zerlegen und jeweils eine gleich null setzten. Zusammen mit Gleichung (\ref{qs}) erhält man dadurch die folgenden Gleichungen zur Bestimmung des Schubmittelpunkts beim offenen Profil:
+wobei $r$ der jeweilige Hebelarm zu einem beliebigen Pol ist. Unter Anwendung des Superpositionsprinzips lässt sich die Querkraft $Q$ in ihre Komponenten der Koordinatenrichtungen zerlegen und jeweils eine gleich null setzten. Zusammen mit Gleichung (\ref{qs}) erhält man dadurch die folgenden Gleichungen zur Bestimmung des Schubmittelpunkts beim offenen Profil nach \cite{item15}:
 \begin{equation}
 	y_{M}=\frac{-I_{\bar{z}}\int S_{\bar{y}}(s) r_{t}\mathrm{d}s+I_{\bar{yz}}\int S_{\bar{z}}(s) r_{t}\mathrm{d}s}{I_{\bar{y}}I_{\bar{z}}-I_{\bar{yz}}^2}
 \end{equation}
@@ -199,6 +212,7 @@ Da die Verwindung $\vartheta$ für beide Zellen gleich und im Falle der weiterhi
 \begin{equation}
 	\vartheta_{1}=\vartheta_{2}=0
 \end{equation}
+Nach \cite{item15}:
 \begin{equation}
 	\vartheta_{i} = \frac{1}{2A_{0i}G}\oint\frac{q(s)}{t(s)}ds
 \end{equation}
