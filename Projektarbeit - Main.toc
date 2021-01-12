@@ -5,9 +5,9 @@
 \contentsline {subsection}{\numberline {2.2}Motivation (O.S.)}{12}{}%
 \contentsline {subsection}{\numberline {2.3}Lösungsstrategie (H.G.)}{12}{}%
 \contentsline {section}{\numberline {3}Grundlagen}{13}{}%
-\contentsline {subsection}{\numberline {3.1}Glasfaser(HG)}{13}{}%
-\contentsline {subsection}{\numberline {3.2}Matrix(HG)}{13}{}%
-\contentsline {subsection}{\numberline {3.3}Netztheorie(HG)}{13}{}%
+\contentsline {subsection}{\numberline {3.1}Glasfaser(H.G.)}{13}{}%
+\contentsline {subsection}{\numberline {3.2}Matrix(H.G.)}{13}{}%
+\contentsline {subsection}{\numberline {3.3}Netztheorie(H.G.)}{13}{}%
 \contentsline {subsection}{\numberline {3.4}Klassische Laminattheorie (H.G.)}{14}{}%
 \contentsline {subsection}{\numberline {3.5}Versagenskriterium nach Puck (O.S.)}{15}{}%
 \contentsline {subsubsection}{\numberline {3.5.1}Definitionen}{15}{}%
@@ -42,7 +42,7 @@
 \contentsline {subsubsection}{\numberline {5.1.1}Theorie (O.S.)}{43}{}%
 \contentsline {paragraph}{Zylindrische, dünnwandige Profile}{43}{}%
 \contentsline {paragraph}{Koordinatensysteme}{43}{}%
-\contentsline {subsubsection}{\numberline {5.1.2}Idealisierung}{44}{}%
+\contentsline {subsubsection}{\numberline {5.1.2}Idealisierung}{45}{}%
 \contentsline {subsubsection}{\numberline {5.1.3}Schwerpunktkoordinaten}{45}{}%
 \contentsline {subsubsection}{\numberline {5.1.4}Schubmittelpunkt}{48}{}%
 \contentsline {subsubsection}{\numberline {5.1.5}Torsion (O.S.)}{50}{}%

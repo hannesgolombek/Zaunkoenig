@@ -1,10 +1,11 @@
 \subsection{Allgemeine Informationen zu der Richtlinie}
-Auf Basis der in der Balkenberechnung bestimmten Parameter Biegesteifigkeit, maximales Biegemoment und der maximalen Querkraft, sollen die Gurte und der Steg dimensioniert werden. Die Vorauslegung erfolgt dabei anhand der VDI-Richtlinie 2013, diese enthält in einem Unterkapitel Informationen speziell zur Auslegung eines I-Trägers.   
-Zusätzlich sei angemerkt, dass die gesamte Auslegung nur an ausgewählten und speziell gekennzeichneten Stellen Sicherheitsfaktoren ungleich eins berücksichtigt. Grund dafür ist die Annahme, dass in den bereitgestellten Materialkennwerten ausreichende Sicherheiten verrechnet worden sind. Die grobe Vorauslegung hat den Anspruch die Grundlage für die aufbauende Berechnung mithilfe eines Laminatrechners zu legen.
+Auf Basis der in der Balkenberechnung bestimmten Parameter Biegesteifigkeit, maximales Biegemoment und der maximalen Querkraft, sollen die Gurte und der Steg dimensioniert werden. Die Vorauslegung erfolgt dabei anhand der VDI-Richtlinie 2013, diese enthält in einem Unterkapitel Informationen speziell zur Auslegung eines I-Trägers. Zur Festigkeitsauslegung werden Gurte und Steg in der Richtlinie getrennt voneinander betrachtet, unter der Annahme, dass der Gurt unter Vernachlässigung der Schubflussaufnahme das gesamte Biegemoment aufnehmen soll und der Steg neben einem über die Höhe konstanten Schubfluss auch durch die aufgeprägte Deformation der Gurte beansprucht wird. Das orthotrope Werkstoffverhalten des Laminats, sowie das Versagensverhalten bei verschiedenen Beanspruchungen, werden allein durch die "charakteristischen K-Werte", die für verschiedene Materialgruppen gültig sind, berücksichtigt. Die Berechnungen der Richtlinie erlauben auf diese Weise keine Aussagen über resultierende Versagensformen des ausgelegten Bauteils. Die vorangestellte Auslegung der Gurte ist in dieser Form nicht Teil der Richtlinie, erfolgt jedoch unter den gleichen Annahmen.     
+Zusätzlich sei angemerkt, dass kapitelübergreifend die gesamte Auslegung nur an ausgewählten und speziell gekennzeichneten Stellen Sicherheitsfaktoren ungleich eins berücksichtigt. Grund dafür ist die Annahme, dass in den bereitgestellten Materialkennwerten ausreichende Sicherheiten verrechnet worden sind. Die grobe Vorauslegung hat den Anspruch die Grundlage für die aufbauende Berechnung mithilfe eines Laminatrechners zu legen.
 
 \subsubsection{Dimensionierung der Gurte mit rechteckigem Querschnitt}
-\label{GurtDim}
-Bei der Auslegung der Gurte auf Steifigkeit wird angenommen, dass der Steg des I-Trägers keine Längskräfte aufnimmt. Die in der Balkenberechnung ermittelte Biegesteifigkeit $ EI_{x} = 962,552 Nm^{2} $, die erforderlich ist, damit bei einer Kraft $ F_{pruef}=100N $ die Flügelspitze eine Absenkung von $ w_{j=1,1}=20mm $ erfährt, muss allein durch die Gurte aufgebracht werden. Im Sinne der kraftflussgerechten Gestaltung sollen die Glasfasern unidirektional in Längsrichtung des Gurtes angeordnet werden. Die Bezeichnungen der Längenangaben des Holmes orientieren sich an Abb.~\ref{fig: Rechteckholm}~.\\
+\label{GurtDim} 
+Im ersten Auslegungsschritt der schubstarren Gurte wird die Einhaltung der Anforderungen an die Steifigkeit betrachtet.   
+Die in der Balkenberechnung ermittelte Biegesteifigkeit $ EI_{x} = 962,552 Nm^{2} $, die erforderlich ist, damit bei einer Kraft $ F_{pruef}=100N $ die Flügelspitze eine Absenkung von $ w_{j=1,1}=20mm $ erfährt, muss, wegen oben genannter Annahmen, allein durch die Gurte aufgebracht werden. Im Sinne der kraftflussgerechten Gestaltung sollen die Glasfasern unidirektional in Längsrichtung des Gurtes angeordnet werden. Die Bezeichnungen der Längenangaben des Holms orientieren sich an Abbildung~\ref{fig: Rechteckholm}~.\\
 
 \begin{figure}[h]
 	\includegraphics[width=1.0\textwidth]{Bilder/RechteckHolm.jpg}
@@ -12,7 +13,7 @@ Bei der Auslegung der Gurte auf Steifigkeit wird angenommen, dass der Steg des I
 	\label{fig: Rechteckholm}
 \end{figure}
 
-\noindent Die Gurtquerschnitte werden zur Bestimmung der notwendigen Lagenanzahl als rechteckig angenommen, erst in einem späteren Schritt soll die Form der Kontur der vorgegebenen Haut angepasst werden. Die Maße sind über die gesamte Länge des Holms als konstant anzusehen.\\
+\noindent Die Gurtquerschnitte werden zur Bestimmung der notwendigen Lagenanzahl als rechteckig angenommen, erst in einem späteren Schritt soll die Form der Kontur dem vorgegebenen Hautprofil angepasst werden. Die Maße sind über die gesamte Länge des Holms als konstant anzusehen.\\
 Zur Bestimmung des Flächenträgheitsmomentes $ I_{x} $ wird der E-Modul in Längsrichtung der Fasern gemäß der Mischungsregel nach \cite{item3} berechnet.\\
 \begin{equation}
  E_{11}=  \varphi\cdot E_{f,11}+\left( 1-\varphi \right) \cdot E_{M}
@@ -22,7 +23,7 @@ Mit den gegebenen Materialkennwerten $ E_{f,11}=74000MPa $, $ E_{m}=3300MPa $ un
 	I_{x,min} = \frac{962,552Nm^{2}}{31580\cdot 10^{6}Pa} =3,0479 \cdot 10^{-8} m^{4}
 \end{equation}
 
-\noindent Das Flächenträgheitsmoment der Gurte bestimmt sich aus den Flächenträgheitsmomenten der beiden Rechteckquerschnitte und ihren zugehörigen Steiner-Anteilen, die aus der Verschiebung der Gurte um jeweils $ \frac{h_{m}}{2} $ in z-Richtung resultieren.
+\noindent Das Flächenträgheitsmoment der Gurte bestimmt sich aus den Flächenträgheitsmomenten der beiden Rechteckquerschnitte und ihren zugehörigen Steiner-Anteilen, die aus der Verschiebung der Gurte um jeweils $ \frac{h_{m}}{2} $ in z-Richtung resultieren. Da die Gurtdicke noch nicht bekannt ist, wird auf die Annahme der Gurte als "punktförmige Flächen" \cite{item15} verzichtet und der Eigenanteil mitbetrachtet. 
 \begin{equation}
 	\label{Ix}
 	I_{x}=2\cdot\left(\frac{b\cdot h^{3}}{12}+b\cdot h\cdot\left(\frac{h_{m}}{2}\right)^{2}\right)
@@ -60,7 +61,7 @@ Mit den gegebenen Materialkennwerten $ E_{f,11}=74000MPa $, $ E_{m}=3300MPa $ un
 
 
 \subsubsection{Nachrechnung der angepassten Gurte}
- Die Modellierung der Haut und der Holmgurte in einem CAD-Programm zeigt, dass die Gurte mit den berechneten Bemaßungen nicht innerhalb des Profils mit der als $ 0,75mm $ dick angenommenen Haut liegen. Die Anpassung der Konstruktion der Gurte erfolgt so, dass die Gurtoberseite an der Innenseite der Haut anliegt.Die Gesamtbreite von $ 28mm $, sowie die Gurtdicke $ h $ bleiben dabei erhalten. Die Gesamthöhe $ h_{a} $ muss auf $ \tilde{h_{a}}=35,8mm $ leicht verringert werden. Abbildung ~\ref{fig: KrummerGurt} veranschaulicht die gekrümmte Form des oberen Holmgurtes.
+ Die Modellierung der Haut und der Holmgurte in einem CAD-Programm zeigt, dass die Gurte mit den berechneten Bemaßungen nicht innerhalb des Profils mit der als $ 0,75mm $ dick angenommenen Haut liegen. Die Anpassung der Konstruktion der Gurte erfolgt so, dass die Gurtoberseite an der Innenseite der Haut anliegt (vgl. Abschnitt \ref{GurtKonstrukt}).Die Gesamtbreite von $ 28mm $, sowie die Gurtdicke $ h $ bleiben dabei erhalten. Die Gesamthöhe $ h_{a} $ muss auf $ \tilde{h_{a}}=35,8mm $ leicht verringert werden. Abbildung ~\ref{fig: KrummerGurt} veranschaulicht die gekrümmte Form des oberen Holmgurtes.
  \begin{figure}[h]
  	\includegraphics[width=1.0\textwidth]{Bilder/KrummerGurt.jpg}
  	\caption{Angepasste gekrümmte Gurtkontur}
@@ -74,7 +75,7 @@ Mit den gegebenen Materialkennwerten $ E_{f,11}=74000MPa $, $ E_{m}=3300MPa $ un
 \end{equation}
 gilt, genügen auch die veränderten Gurte der Steifigkeitsanforderung.\\
  
-\noindent Abschließend wird gezeigt, dass die Festigkeit der Gurte einer Belastung der Flügelspitze durch $ F_{pruef}=500N $ standhält. Die aus der Biegung resultierenden und betragsmäßig gleichen Zug- und Druckspannungen werden dazu mit den vorhandenen UD-Festigkeitskennwerten des Handlaminats verglichen. Die Resultate der Balkenberechnungen zeigen, dass das maximale Biegemoment im Holm an Punkt C auftritt und $ M_{b}=500N\cdot 0,773m=386,5Nm $ beträgt.In den Randfasern der Gurte resultieren Spannungen, die sich nach\\
+\noindent Abschließend wird gezeigt, dass die Festigkeit der Gurte einer Belastung der Flügelspitze durch $ F_{pruef}=500N $ standhält. Die aus der Biegung resultierenden und betragsmäßig gleichen Zug- und Druckspannungen werden dazu mit den vorhandenen UD-Festigkeitskennwerten des Handlaminats verglichen. Die Resultate der Balkenberechnungen zeigen, dass das maximale Biegemoment im Holm an Punkt C auftritt und $ M_{b}=500N\cdot 0,773m=386,5Nm $ beträgt.In den Randfasern der Gurte resultieren Spannungen, die sich gemäß \cite{item15} nach\\
 \begin{equation}
 	\sigma_{b}=\frac{M_{b}\cdot \tilde{h_{a}}}{\tilde{I_{x}}\cdot 2}
 \end{equation} 
@@ -115,7 +116,7 @@ ermitteln lässt. $ K_{E\#} $ ist dabei ein verallgemeinerter Dimensionierungske
 \begin{equation}
 	p_{s||}=p_{s}=\frac{Q}{h_{i}}
 \end{equation}
-Der Kraftfluss, der durch den Steg aufgenommen werden muss, ergibt sich aus der Überlagerung der drei Kraftflüsse $ p_{s||}, p_{A||}, p_{\epsilon||} $. Die Tragfähigkeit einer Schicht des Verbundes wird durch $ K_{\sigma d} $ charakterisiert und kann ebenfalls Tafel 3 der VDI entnommen werden. Da ein Teil der Schubbeanspruchung durch die Matrix geleitet wird, besteht die Gefahr eines Zwischenfaserbruches. VDI 2013 schlägt deshalb die Verwendung von $ K_{\sigma d}=30*10^{3}m $ vor.  Zusätzlich muss der Anteil der Glasmengen in Kette und Schuß durch den Faktor $ k_{||} $ berücksichtigt werden. Das zur Verfügung stehende Gewebe Interglas 90070 hat annähernd gleiche Fadenanzahlen in Kette- und Schußrichtung, damit ist $ k_{||}=0,5 $. 
+Der Kraftfluss, der durch den Steg aufgenommen werden muss, ergibt sich aus der Überlagerung der drei Kraftflüsse $ p_{s||}, p_{A||}, p_{\epsilon||} $. Die Tragfähigkeit einer Schicht des Verbundes unter Druckbeanspruchung wird durch $ K_{\sigma d} $ charakterisiert und kann ebenfalls Tafel 3 der VDI entnommen werden. An dieser Stelle geht die Richtlinie davon aus, dass die Druckfestigkeit des Laminats im Allgemeinen geringer ist als die Zugfestigkeit. Im vorliegenden Fall zeigen die gegebenen Materialkennwerte des Laminats, dass die Druckfestigkeiten $ R_{||}^{-} $ und $ R_{\perp}^{-} $ deutlich größer als die Zugfestigkeiten $ R_{||}^{+} $, bzw. $ R_{\perp}^{+} $ sind. Dies begründet die Vermutung, dass die vorgestellten Dimensionierungswerte nur für die Vorauslegung auf den vorliegenden Fall übertragbar sind. Da ein Teil der Schubbeanspruchung durch die Matrix geleitet wird, besteht die Gefahr eines Zwischenfaserbruches. VDI 2013 schlägt deshalb die Verwendung von $ K_{\sigma d}=30*10^{3}m $ vor. Zusätzlich muss der Anteil der Glasmengen in Kette und Schuß durch den Faktor $ k_{||} $ berücksichtigt werden. Das zur Verfügung stehende Gewebe Interglas 90070 hat annähernd gleiche Fadenanzahlen in Kette- und Schußrichtung, damit ist $ k_{||}=0,5 $. 
 \begin{equation}
 	n\cdot \bar{q}\cdot K_{\sigma d}\cdot k_{||}=p_{s||}+p_{A||}+p_{\epsilon||}
 \end{equation}
@@ -125,4 +126,4 @@ Die Anzahl der notwendigen Gewebelagen n im Steg lässt sich nun durch Umstellen
 \end{equation}
 Damit ergibt sich die Lagenanzahl von $ n\left(500N\right)=1,99 $ für den Bereich $ 3 $ und $ n\left(5085,5N\right)=18,13 $ für die Bereiche $ 1 $. Um einen symmetrischen Lagenaufbau im Falle einer Sandwichkonstruktion zu ermöglichen, sind also $ 2 $ Lagen für den Bereich $ 3 $ und $ 20 $ Lagen für die Bereiche $ 1 $ und $ 2 $ vorzusehen.\\
 
-\noindent Es ist zu betonen, dass diese Lagenanzahlen maßgeblich durch die Annahmen der Dimensionierungskennwerte $ K_{E\#} $ und $ K_{\sigma d} $ beeinflusst werden. Diese stimmen nicht exakt mit den Kennwerten des vorliegenden Laminats überein. Im Kapitel \ref{Puck} wird die ermittelte Lagenanzahl mit einem Laminatrechner überprüft und angepasst.
+\noindent Es ist zu betonen, dass diese Lagenanzahlen maßgeblich durch die Annahmen der Dimensionierungskennwerte $ K_{E\#} $ und $ K_{\sigma d} $ beeinflusst werden. Aus oben genannten Gründen können sie nicht als für diesen Fall exakt angenommen werden. Im Kapitel \ref{Puck} wird die hier ermittelte Lagenanzahl mit tatsächlichen Laminatkennwerten und einem Laminatrechner überprüft und angepasst.
