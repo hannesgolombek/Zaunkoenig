@@ -1,6 +1,6 @@
 \babel@toc {ngerman}{}
 \contentsline {figure}{\numberline {1}{\ignorespaces Schubknicken}}{18}{}%
-\contentsline {figure}{\numberline {2}{\ignorespaces a) I-Holm b) C-Holm c) Kastenholm}}{19}{}%
+\contentsline {figure}{\numberline {2}{\ignorespaces a) I-Holm b) C-Holm c) Kastenholm}}{20}{}%
 \contentsline {figure}{\numberline {3}{\ignorespaces Modellierung des Holms}}{21}{}%
 \contentsline {figure}{\numberline {4}{\ignorespaces Steifigkeitsauslegung}}{25}{}%
 \contentsline {figure}{\numberline {5}{\ignorespaces Festigkeitsauslegung}}{26}{}%
@@ -8,39 +8,40 @@
 \contentsline {figure}{\numberline {7}{\ignorespaces Angepasste gekrümmte Gurtkontur}}{30}{}%
 \contentsline {figure}{\numberline {8}{\ignorespaces vereinfachtes Model}}{45}{}%
 \contentsline {figure}{\numberline {9}{\ignorespaces offenes Profil mit Pol}}{48}{}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Schubmittelpunkt des geschlossenen und offenen Profils}}{49}{}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Schubmittelpunkt des geschlossenen und offenen Profils}}{50}{}%
 \contentsline {figure}{\numberline {11}{\ignorespaces Angreifende Kraft und positive Drehrichtung}}{50}{}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Schalenmodell}}{57}{}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Beispiel GFK}}{58}{}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Beispiel:Steg}}{59}{}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Absenkung bei einer Belastung von 100N}}{60}{}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Einspannung am Lager C}}{62}{}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Beispiel Beulform}}{63}{}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Haut und Gurte nach dem ersten Schritt der Konstruktion}}{64}{}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Prinzipskizze der Sandwichstruktur im Steg}}{65}{}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Hautsandwich am Übergang zum Gurt}}{66}{}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Holzklötze und Hülsen}}{67}{}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Lagenaufbau Holmgurte}}{83}{}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Lagenaufbau Steg Bereich $III$}}{83}{}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Lagenaufbau Steg Bereich $I$\&$II$}}{88}{}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Lagenaufbau Flügelschale}}{89}{}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Berechnung Holmgurte}}{89}{}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Berechnung Steg Bereich $III$}}{90}{}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Berechnung Steg Bereich $I$\&$II$}}{91}{}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Berechnung Flügelschale}}{92}{}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Ingenieurskonstanten Holmgurte}}{92}{}%
-\contentsline {figure}{\numberline {31}{\ignorespaces BerechnIngenieurskonstantenung Steg Bereich $III$}}{93}{}%
-\contentsline {figure}{\numberline {32}{\ignorespaces BerechnIngenieurskonstantenung Steg Bereich $I\&II$}}{94}{}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Ingenieurskonstanten Flügelschale}}{95}{}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Schubfluss Bereich 1}}{95}{}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Schubfluss Bereich 2}}{96}{}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Schubfluss Bereich 3}}{96}{}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Schubfluss Bereich 4}}{97}{}%
-\contentsline {figure}{\numberline {38}{\ignorespaces Schubfluss Bereich 5}}{97}{}%
-\contentsline {figure}{\numberline {39}{\ignorespaces Schubfluss Bereich 6}}{98}{}%
-\contentsline {figure}{\numberline {40}{\ignorespaces Schubfluss Bereich 7}}{98}{}%
-\contentsline {figure}{\numberline {41}{\ignorespaces Schubfluss Bereich 8}}{99}{}%
-\contentsline {figure}{\numberline {42}{\ignorespaces Schubfluss Bereich 9}}{99}{}%
-\contentsline {figure}{\numberline {43}{\ignorespaces Schubfluss Bereich 10}}{100}{}%
-\contentsline {figure}{\numberline {44}{\ignorespaces CAD-Modell der Tragfläche und des Teststandes}}{100}{}%
-\contentsline {figure}{\numberline {45}{\ignorespaces Montage der Tragfläche auf dem Teststand}}{101}{}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Schalenmodell}}{58}{}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Beispiel GFK}}{59}{}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Beispiel:Steg}}{60}{}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Absenkung bei einer Belastung von 100N}}{61}{}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Einspannung am Lager C}}{63}{}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Beispiel Beulform}}{64}{}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Haut und Gurte nach dem ersten Schritt der Konstruktion}}{65}{}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Prinzipskizze der Sandwichstruktur im Steg}}{66}{}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Hautsandwich am Übergang zum Gurt}}{67}{}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Holzklötze und Hülsen}}{68}{}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Lagenaufbau Holmgurte}}{84}{}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Lagenaufbau Steg Bereich $III$}}{84}{}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Lagenaufbau Steg Bereich $I$\&$II$}}{89}{}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Lagenaufbau Flügelschale}}{90}{}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Berechnung Holmgurte}}{90}{}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Berechnung Steg Bereich $III$}}{91}{}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Berechnung Steg Bereich $I$\&$II$}}{92}{}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Berechnung Flügelschale}}{93}{}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Ingenieurskonstanten Holmgurte}}{93}{}%
+\contentsline {figure}{\numberline {31}{\ignorespaces BerechnIngenieurskonstantenung Steg Bereich $III$}}{94}{}%
+\contentsline {figure}{\numberline {32}{\ignorespaces BerechnIngenieurskonstantenung Steg Bereich $I\&II$}}{95}{}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Ingenieurskonstanten Flügelschale}}{96}{}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Wertebereich der Laufvariablen $s_i$}}{96}{}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Schubfluss Bereich 1}}{97}{}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Schubfluss Bereich 2}}{97}{}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Schubfluss Bereich 3}}{98}{}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Schubfluss Bereich 4}}{98}{}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Schubfluss Bereich 5}}{99}{}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Schubfluss Bereich 6}}{99}{}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Schubfluss Bereich 7}}{100}{}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Schubfluss Bereich 8}}{100}{}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Schubfluss Bereich 9}}{101}{}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Schubfluss Bereich 10}}{101}{}%
+\contentsline {figure}{\numberline {45}{\ignorespaces CAD-Modell der Tragfläche und des Teststandes}}{102}{}%
+\contentsline {figure}{\numberline {46}{\ignorespaces Montage der Tragfläche auf dem Teststand}}{102}{}%
