@@ -74,11 +74,11 @@
 \contentsline {section}{\numberline {10}Zusammenfassung}{75}{}%
 \contentsline {subsection}{\numberline {10.1}Was ist geschehen H.K.}{75}{}%
 \contentsline {subsection}{\numberline {10.2}Gewichtsnormalisiertes Festigkeitskriterium O.S.}{75}{}%
-\contentsline {subsection}{\numberline {10.3}Diskussion der Ergebnisse}{75}{}%
-\contentsline {subsection}{\numberline {10.4}Optimierungsmöglichkeiten}{75}{}%
-\contentsline {section}{\numberline {11}Quellenverzeichnis}{76}{}%
-\contentsline {section}{\numberline {12}Abbildungsverzeichnis}{77}{}%
-\contentsline {section}{\numberline {13}Tabellenverzeichnis}{79}{}%
-\contentsline {section}{\numberline {14}Anhang}{80}{}%
-\contentsline {subsection}{\numberline {14.1}Berechnung: Analytischen Lösung der Modellierung}{80}{}%
-\contentsline {subsection}{\numberline {14.2}Abbildungen}{82}{}%
+\contentsline {subsection}{\numberline {10.3}Diskussion der Ergebnisse}{76}{}%
+\contentsline {subsection}{\numberline {10.4}Optimierungsmöglichkeiten}{76}{}%
+\contentsline {section}{\numberline {11}Quellenverzeichnis}{77}{}%
+\contentsline {section}{\numberline {12}Abbildungsverzeichnis}{78}{}%
+\contentsline {section}{\numberline {13}Tabellenverzeichnis}{80}{}%
+\contentsline {section}{\numberline {14}Anhang}{81}{}%
+\contentsline {subsection}{\numberline {14.1}Berechnung: Analytischen Lösung der Modellierung}{81}{}%
+\contentsline {subsection}{\numberline {14.2}Abbildungen}{83}{}%
