@@ -18,7 +18,7 @@ und der Normalkraftfluss als
 definiert. Für diese Kraftflüsse gilt das hydrodynamische Analogon. Das heißt mit einer Änderung der Dicke muss der Kraftfluss antiproportional ab- bzw. zunehmen, damit das Kräftegleichgewicht erfüllt bleibt. Für Knotenpunkte muss auch gelten, dass der Betrag der Kraftflüsse in den Knoten hinein denen aus ihm heraus gleichen. Des Weiteren lässt sich noch zwischen offenen und geschlossenen Profilen unterscheiden, wobei es sich bei zweiterem um Ein- oder Mehrzeller handeln kann.\cite{item15}
 
 \paragraph{Koordinatensysteme}~\\
-Bei den Berechnungen kann viel Arbeit gespart werden, indem das Koordinatensystem mit Ursprung und Achsenausrichtung klug gewählt wird. Das allgemeine Koordinatensystem, das unabhängig vom betrachteten Profil ist, bietet hierbei die wenigstem um nicht zu sagen keine Vorteile. Verschiebt man seinen Ursprung in den Schwerpunkt erhält man das Schwerpunkt-Koordinatensystem. Es wird mit einem Querstrich über den Koordinaten gekennzeichnet ($\bar{x},\bar{y},\bar{z}$). Hier ergibt sich das Flächenmoment 1. Ordnung  $S$ (siehe Gleichungen \ref{SM1}, \ref{SM2}), auch statisches Moment genannt, über das gesamte Profil zu null.
+Bei den Berechnungen kann viel Arbeit gespart werden, indem das Koordinatensystem mit Ursprung und Achsenausrichtung klug gewählt wird. Das allgemeine Koordinatensystem, das unabhängig vom betrachteten Profil ist, bietet hierbei die wenigstem um nicht zu sagen keine Vorteile. Verschiebt man seinen Ursprung in den Schwerpunkt erhält man das Schwerpunkt-Koordinatensystem. Es wird mit einem Querstrich über den Koordinaten gekennzeichnet ($\bar{x},\bar{y},\bar{z}$). Es ist sinnvoll aus dieser Perspektive den Schubfluss zu betrachten.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\textwidth]{Bilder/schubfluss-infinit}
@@ -32,7 +32,7 @@ Aus dem Kräftegleichgewicht in $x$- und $s$-Richtung an einem infinitesimalen V
 \begin{equation}\label{n_s}
 \frac{\partial n_s}{\partial s} + \frac{\partial q}{\partial x} = 0
 \end{equation}
-Da jedoch eine Krümmung in $s$-Richtung vorliegen kann, zeigt die Resultierende des Normalkraftflusses $n_s$ aus der Ebene heraus. Da bei dünnen Scheibenelementen ein ebener Spannungszustand herrscht, darf dies nicht sein. Daraus folgt, dass beide Terme in Gleichung \ref{n_s} gleich Null sein müssen. Der Schubfluss ist also in $x$-Richtung konstant und lässt sich somit zu
+Da jedoch eine Krümmung in $s$-Richtung vorliegen kann, zeigt die Resultierende des Normalkraftflusses $n_s$ aus der Ebene heraus. Da bei dünnen Scheibenelementen ein ebener Spannungszustand herrscht, darf dies nicht sein. Daraus folgt, dass beide Terme in Gleichung \ref{n_s} gleich null sein müssen. Der Schubfluss ist also in $x$-Richtung konstant und lässt sich somit zu
 \begin{equation}
 	q(s)=-\int\frac{\partial n_x(x,s)}{\partial x}ds+q_0.
 \end{equation}
@@ -126,7 +126,8 @@ Bauteilabschnitt&$S_{\bar{y}}/\mathrm{mm}^3$&$S_{\bar{z}}/\mathrm{mm}^3$\\
 10&0&0\\
 \end{tabular}
 \end{center}
-Für ein offenes Profil muss gelten, dass an den freien Rändern das statische Moment $ 0 $ ist. Das Profil wird in diesem Fall an den Stellen 1 und 3 geschnitten. Für die nun freien Enden an den diesen Bereichen wird $s_0=0$ und auch die Endwerte des Bereichs 10 werden zu $0$.
+Für ein offenes Profil muss gelten, dass an den freien Rändern der Schubfluss $ 0 $ ist, was automatisch dadurch erfüllt ist, dass beide statischen Momente ungefähr null sind. Das Profil wird in diesem Fall an den Stellen 1 und 3 geschnitten.
+
 
 Nun werden die Flächenträgheitsmomente 
 \begin{equation}\label{FT1}
