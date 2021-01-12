@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.9)  12 JAN 2021 11:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.9)  12 JAN 2021 12:15
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -454,11 +454,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) [9] [10] [11] ("Projektarbeit - Einleitung.tex") [12]
-("Projektarbeit - Grundlagen.tex" [13]
-
-LaTeX Warning: Reference `Kraftfluss' on page 14 undefined on input line 47.
-
-[14]
+("Projektarbeit - Grundlagen.tex" [13] [14]
 Underfull \vbox (badness 2401) has occurred while \output is active []
 
  [15]
@@ -778,15 +774,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--56
  []
 
 ) [42] (Schubmittelpunkt.tex [43]
-
-LaTeX Warning: Reference `fig:LaengenS' on page 44 undefined on input line 43.
-
 <Bilder/Model1.png, id=225, 808.82175pt x 422.7795pt>
 File: Bilder/Model1.png Graphic file (type png)
 <use Bilder/Model1.png>
 Package pdftex.def Info: Bilder/Model1.png  used on input line 46.
 (pdftex.def)             Requested size: 455.24411pt x 237.96124pt.
-[44]
+ [44]
 Underfull \vbox (badness 3849) has occurred while \output is active []
 
  [45 <./Bilder/Model1.png>] [46]
@@ -844,7 +837,7 @@ OT1/cmr/m/n/10.95 8\OML/cmm/m/it/10.95 MPa$\T1/cmr/m/n/10.95 .
 [54]) [55] ("Projektarbeit - FEM.tex"
 Overfull \hbox (81.96887pt too wide) in paragraph at lines 5--6
 \T1/cmr/m/n/10.95 Für die Be-rech-nung der Elas-to-sta-tik sind die Gleich-ge-w
-ichts-be-din-gung (153[]), Verzerrungs-Verschiebungsbedingung
+ichts-be-din-gung (157[]), Verzerrungs-Verschiebungsbedingung
  []
 
 [56]) [57] (abaqus.tex
@@ -857,16 +850,16 @@ Package pdftex.def Info: Bilder/FlÃ¼gel_ABAQUS.png  used on input line 8.
 <Bilder/Material_GFK.png, id=278, 522.45187pt x 478.03593pt>
 File: Bilder/Material_GFK.png Graphic file (type png)
 <use Bilder/Material_GFK.png>
-Package pdftex.def Info: Bilder/Material_GFK.png  used on input line 17.
+Package pdftex.def Info: Bilder/Material_GFK.png  used on input line 16.
 (pdftex.def)             Requested size: 208.97704pt x 191.21098pt.
  [59 <./Bilder/Material_GFK.png>]
 <Bilder/Steg_Material.png, id=283, 469.00218pt x 368.87813pt>
 File: Bilder/Steg_Material.png Graphic file (type png)
 <use Bilder/Steg_Material.png>
-Package pdftex.def Info: Bilder/Steg_Material.png  used on input line 26.
+Package pdftex.def Info: Bilder/Steg_Material.png  used on input line 24.
 (pdftex.def)             Requested size: 187.59755pt x 147.54863pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--32
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
 
@@ -874,18 +867,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--32
 <Bilder/Absenkung_100N.png, id=288, 590.205pt x 391.4625pt>
 File: Bilder/Absenkung_100N.png Graphic file (type png)
 <use Bilder/Absenkung_100N.png>
-Package pdftex.def Info: Bilder/Absenkung_100N.png  used on input line 37.
+Package pdftex.def Info: Bilder/Absenkung_100N.png  used on input line 36.
 (pdftex.def)             Requested size: 236.0778pt x 156.58221pt.
  [61 <./Bilder/Absenkung_100N.png>] [62]
 <Bilder/Beuleinspannung.png, id=297, 542.025pt x 422.32782pt>
 File: Bilder/Beuleinspannung.png Graphic file (type png)
 <use Bilder/Beuleinspannung.png>
-Package pdftex.def Info: Bilder/Beuleinspannung.png  used on input line 53.
+Package pdftex.def Info: Bilder/Beuleinspannung.png  used on input line 52.
 (pdftex.def)             Requested size: 216.80615pt x 168.92813pt.
 <Bilder/Beulen100N.png, id=298, 833.36343pt x 460.72125pt>
 File: Bilder/Beulen100N.png Graphic file (type png)
 <use Bilder/Beulen100N.png>
-Package pdftex.def Info: Bilder/Beulen100N.png  used on input line 71.
+Package pdftex.def Info: Bilder/Beulen100N.png  used on input line 70.
 (pdftex.def)             Requested size: 333.33946pt x 184.28523pt.
 
 
@@ -1394,14 +1387,11 @@ Bilder/AufbauGesamt.jpg> <./Bilder/MontagePlatte.jpg>]
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  5734 strings out of 479832
  87710 string characters out of 2880873
- 396147 words of memory out of 3000000
+ 396156 words of memory out of 3000000
  22464 multiletter control sequences out of 15000+200000
  545716 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1422,7 +1412,7 @@ iKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cms
 y6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (102 pages, 4129407 bytes).
+Output written on "Projektarbeit - Main.pdf" (102 pages, 4129599 bytes).
 PDF statistics:
  936 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
