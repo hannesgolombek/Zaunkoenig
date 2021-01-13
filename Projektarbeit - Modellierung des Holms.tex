@@ -1,7 +1,23 @@
-\subsubsection{Annahmen zur Modellierung (T.B.)}
-Das Koordinatensystem des Flügels entspricht dem linkshändigem Flugzeugkoordinatensystem, sodass die \\Flügellängskoordinate durch $y$ definiert ist. Der Koordinatenursprung ist im Lager A positioniert. \\
+\subsubsection{Einführung in die Balkenbiegung}
+Anhand der Balkentheorie soll im Folgenden das mechanische Verhalten des Holms unter gegebenen Rahmenbedingungen ermittelt werden. Dazu werden einführend diese Theorie und andere Zusammenhänge kurz dargestellt.\\
 
-\noindent Der Holm inklusive des Holmstummels wird für die Belastung durch eine Prüfkraft $F_{pruef}$ in negative z-Richtung als Biegebalken ausgelegt. Dafür ist er an zwei Stellen gelagert, am Lager $A$ und am Lager $B$. Die Lager entsprechen den Verstiftungen (siehe Bauteil U-Profil). Um eine Überbestimmung des Systems zu vermeiden, wird das Lager $B$ als Loslager angenommen. Die Querkraftbolzen werden nicht durch ein Lager, sondern durch eine zusätzlich angreifende Kraft $F_{Q}$ simuliert, da die biegeweiche Wurzelrippe eine nicht definierbare, unbekannte Absenkung erlaubt.\\
+\noindent Die Balkentheorie beschreibt eine Verformung eines Balkens beliebigen Querschnitts, resultierend durch angreifende Kräfte und Momente. Diese können durch Lager oder äußere angreifende Lasten in einen solchen Körper eingeleitet werden. 
+Dadurch erfährt der Balken innere Normal- und Querkräfte und innere Momente $(N, Q, M)$. Mittels des Freischneidens können diese an beliebigen Stellen berechnet werden. Folgend ergeben sich Normal- und Schubspannungen $(\sigma, \tau)$, die wiederum über das \textit{Hook´sche Gesetz} zu Dehnungen und Verzerrungen $(\epsilon, \gamma)$ führen, sodass letztendlich anhand derer beschriebene Verformung $(u, v, w)$ zu erkennen sind.\\
+
+\noindent Für die Reaktionseigenschaften auf angreifende Lasten sind Materialkennwerte und die Geometrie des Balkens verantwortlich mit Biegesteifigkeit $EI$, welche durch den E-Modul $E$ un dem Flächenträgheitsmoment $I$ gebildet wird. Während Ersteres eine Eigenschaft des Materials ist, ist Letzteres von der Querschnittsform abhängig. Neben der eigentlichen Form können ebenfalls Steiner-Anteile das Flächenträgheitsmoment erhöhen. Für die zu verwendenen Formeln wird auf das spätere Kapitel 5.1.3 verwiesen.\\
+Ebenfalls besitzt ein Balken eine Schubsteifigkeit, durch ein großes Verhältnis der Balkenlänge gegenüber den Abmessungen quer dazu kann diese für die folgenden Kapitel vernachlässigt werden. \\
+
+\noindent Innerhalb des gebogenen Balkens gibt es stets eine neutrale Faser, die eine Linie bzw. Fläche ohne eine relative Längenänderung unter angreifenden Kräften und Momenten repräsentiert. Diese Linie wird auch Biegelinie genannt, für welche die \textit{Differntialgleichung des Biegebalkens}
+\begin{equation}
+	w^{''}=-\frac{M}{EI}
+\end{equation}
+aufgestellt wurde. Neben der Krümmung $w^{''}$ kann mittels Integration der Biegewinkel $w^{'}$ und die Absenkung $w$ bestimmt werden. Über Differntiationen werden auch Kräfte und Streckenlasten in der Balkentheorie beachtet. Es sei außerdem angemerkt, dass jederzeit Superpositions-Eigenschaften gelten.
+
+
+\subsubsection{Annahmen zur Modellierung (T.B.)}
+Das Koordinatensystem des Flügels entspricht einem linkshändigem Flugzeug-Koordinatensystem, sodass die Flügellängskoordinate durch $y$ definiert ist. Der Koordinatenursprung ist im Lager A positioniert. \\
+
+\noindent Der Holm inklusive des Holmstummels wird für die Belastung durch eine Prüfkraft $F_{pruef}$ in negative z-Richtung als Biegebalken ausgelegt. Dafür ist er an zwei Stellen gelagert, am Lager $A$ und am Lager $B$. Die Lager entsprechen den Verstiftungen (siehe Bauteil U-Profil). Um eine Überbestimmung des Systems zu vermeiden, wird das Lager $B$ als Loslager angenommen. Die Querkraftbolzen werden nicht durch ein Lager, sondern durch eine zusätzlich angreifende Kraft $F_{Q}$ simuliert, da eine biegeweiche Wurzelrippe eine nicht definierbare, unbekannte Absenkung erlaubt.\\
 
 \noindent Als Randbedingungen der Modellierung sind die Halbspannweite $s$ und die Absenkung $w$ gegeben. Für die Absenkung $w$ soll eine Sicherheit $j=1,1$ gesetzt werden. Zwischen Lager $A$ und $B$ wird die Länge $l_{1}$ angenommen, zwischen Lager $B$ und der Wurzelrippe $C$ die Länge $l_{2}$. Die verbleibende Länge bis zur Flügelspitze, an der die Prüfkraft $F_{pruef}$ wirkt, wird $l_{3}$ bezeichnet. Die Halbspannweite $s$ wird, beginnend in der Mitte der Verstiftungen, bis zur Flügelspitze gemessen. Ausgehend von dem Holmstummelende bis zum Lager $A$ wird $l_{0}$ als Länge definiert. Diese Länge ist jedoch unerheblich für die Modellierung, sie wird erst für die Massenbestimmung benötigt.\\
 
@@ -31,7 +47,7 @@ Das Koordinatensystem des Flügels entspricht dem linkshändigem Flugzeugkoordin
 \end{figure}
 
 \subsubsection{Analytische Lösung der Modellierung (T.B.)}
-Um die Differentialgleichungen der Balkenbiegung lösen zu können, wird das System vorerst in drei Teilbereiche $I$, $II$ und $III$ aufgeteilt, die sich von Lager $A$ zu $B$, von Lager $B$ zur Wurzelrippe $C$ und von dort aus bis zur Flügelspitze erstrecken. \\
+Um die Differentialgleichungen der Balkenbiegung lösen zu können, wird der Biegebalken vorerst in drei Teilbereiche $I$, $II$ und $III$ aufgeteilt, die sich von Lager $A$ zu $B$, von Lager $B$ zur Wurzelrippe $C$ und von dort aus bis zur Flügelspitze erstrecken. \\
 
 \noindent Dadurch ergeben sich folgende zwölf Differentialgleichungen:
 \begin{equation} \label{eq:7}
@@ -65,22 +81,22 @@ Um die Differentialgleichungen der Balkenbiegung lösen zu können, wird das Sys
 	EI_{x}\cdot w_{II}(y) = \frac{q_{II}(y)}{24}\cdot y^{4} + \frac{R_{5}}{6}\cdot y^{3} + \frac{R_{6}}{2}\cdot y^{2} + R_{7}\cdot y + R_{8}
 \end{equation}\\
 \begin{equation}\label{eq:17}
-EI_{x}\cdot w_{III}^{''''}(y) = q_{III}(y)
+	EI_{x}\cdot w_{III}^{''''}(y) = q_{III}(y)
 \end{equation}
 \begin{equation}\label{eq:18}
-EI_{x}\cdot w_{III}^{'''}(y) = q_{III}(y)\cdot y + R_{9} = -Q_{I}(y)
+	EI_{x}\cdot w_{III}^{'''}(y) = q_{III}(y)\cdot y + R_{9} = -Q_{I}(y)
 \end{equation}
 \begin{equation}\label{eq:19}
-EI_{x}\cdot w_{III}^{''}(y) = \frac{q_{III}(y)}{2}\cdot y^{2} + R_{9}\cdot y + R_{10} = -M_{I}(y)
+	EI_{x}\cdot w_{III}^{''}(y) = \frac{q_{III}(y)}{2}\cdot y^{2} + R_{9}\cdot y + R_{10} = -M_{I}(y)
 \end{equation}
 \begin{equation}\label{eq:20}
-EI_{x}\cdot w_{III}^{'}(y) = \frac{q_{III}(y)}{6}\cdot y^{3} + \frac{R_{9}}{2}\cdot y^{2} + R_{10}\cdot y + R_{11} 
+	EI_{x}\cdot w_{III}^{'}(y) = \frac{q_{III}(y)}{6}\cdot y^{3} + \frac{R_{9}}{2}\cdot y^{2} + R_{10}\cdot y + R_{11} 
 \end{equation}
 \begin{equation}\label{eq:21}
-EI_{x}\cdot w_{III}(y) = \frac{q_{III}(y)}{24}\cdot y^{4} + \frac{R_{9}}{6}\cdot y^{3} + \frac{R_{10}}{2}\cdot y^{2} + R_{11}\cdot y + R_{12}
+	EI_{x}\cdot w_{III}(y) = \frac{q_{III}(y)}{24}\cdot y^{4} + \frac{R_{9}}{6}\cdot y^{3} + \frac{R_{10}}{2}\cdot y^{2} + R_{11}\cdot y + R_{12}
 \end{equation}\\
 
-\noindent Die Randbedingungen der Modellierung ergeben sich folgend: 
+\noindent Die Randbedingungen der Modellierung ergeben sich folgend nach gegebenen Definitionen von Lagern und angreifenden Kräften: 
 \begin{equation}\label{eq:22}
 	w_{I}(y=0)=0
 \end{equation}
@@ -117,7 +133,7 @@ EI_{x}\cdot w_{III}(y) = \frac{q_{III}(y)}{24}\cdot y^{4} + \frac{R_{9}}{6}\cdot
 \begin{equation}\label{eq:33}
 	Q_{III}(y=l_{1}+l_{2}+l_{3})=F_{pruef}
 \end{equation}
-Zusätzlich wird angenommen, dass $q_{I}(y)=q_{II}(y)=q_{III}(y)=0$ gilt, da keine Streckenlast angreift.\\
+Zusätzlich wird angenommen, dass $q_{I}(y)=q_{II}(y)=q_{III}(y)=0$ gilt, da keine Streckenlast angreift. Unter anderem bildet die Schwerkraft der Erde eine Streckenlast, diese kann jedoch aufgrund ihres kleinen Einflusses auf die Absenkung gegenüber der Prüfkraft vernachlässigt werden. Ein weiteres Beispiel für eine Streckenlast bildet die Auftriebsverteilung eines Flügels während einer Anströmung. Jedoch wird genau auf diese im Versuchsstand verzichtet und durch die Prüfkraft repräsentiert.\\
 
 \noindent Als Lösung dieser Differentialgleichungen lässt sich die Querkraft $Q(y)$, das Moment $M(y)$ und die Biegelinie $w(y)$ ermitteln:\\
 
@@ -143,9 +159,9 @@ Zusätzlich wird angenommen, dass $q_{I}(y)=q_{II}(y)=q_{III}(y)=0$ gilt, da kei
 		\cdot(-\frac{1}{2}\cdot l_{1}^{2} -\frac{2}{3}\cdot l_{1}\cdot l_{2}-\frac{2}{3}\cdot l_{1}\cdot l_{3}) + F_{Q}\cdot(\frac{1}{2}\cdot l_{2}^{2}+\frac{1}{2}\cdot l_{1}\cdot l_{2})\Bigr)\cdot y \\ +F_{pruef}\cdot\frac{1}{6}\cdot(l_{1}^{3}+l_{1}^{2}\cdot l_{2}+l_{1}^{2}\cdot l_{3}) + F_{Q}\cdot(-\frac{1}{6}\cdot l_{2}^{3}-\frac{1}{3}\cdot l_{1}^{2}\cdot l_{2}-\frac{1}{2}\cdot l_{2}^{2}\cdot l_{1})\biggr)&\\,y\epsilon (l_{1}+l_{2}, l_{1}+l_{2}+l_{3})
 	\end{array}\right.
 \end{equation}\\
-Die Herleitung der Lösung kann im Kapitel \ref{Lösung} nachvollzogen werden beigefügt.\\
+Die Herleitung der Lösung kann im Kapitel \ref{Lösung} nachvollzogen werden.\\
 
-\noindent Um nun für die Biegesteifigkeit $EI_{x}$ ein Ergebnis zu erhalten, wird die Gleichung $w(y,F_{pruef},F_{Q}, EI_{x})$ nach $EI_{x}(y,F_{pruef},F_{Q},w)$ umgestellt. Die eingesetzten Werte ergeben sich aus der Auslegung auf Steifigkeit. Über die Wurzelrippe werden Kräfte des Holms in die Querkraftbolzen abgesetzt. Aufgrund der biegeweichen Wurzelrippe darf die Absenkung des Holms dort nicht mit null angenommen werden. Vereinfacht wird definiert, dass die eingeleitete Prüfkraft $F_{pruef}$ an den Querkraftbolzen um ihren Betrag abgesetzt wird, wie es tatsächlich an einem Flugzeugrumpf geschehen würde. Dieses entspricht sehr wahrscheinlich jedoch nicht der tatsächlichen Kraftaufnahme im Versuchsaufbau.
+\noindent Um nun für die später geforderte Biegesteifigkeit $EI_{x}$ ein Ergebnis zu erhalten, wird die Gleichung $w(y,F_{pruef},F_{Q}, EI_{x})$ nach $EI_{x}(y,F_{pruef},F_{Q},w)$ umgestellt. Die eingesetzten Werte ergeben sich aus der Auslegung auf Steifigkeit. Über die Wurzelrippe werden Kräfte des Holms in die Querkraftbolzen abgesetzt. Aufgrund der biegeweichen Wurzelrippe als Verbindungselement zwischen Holm und den Querkraftbolzen darf die Absenkung des Holms dort nicht mit Null angenommen werden. Vereinfacht wird definiert, dass die eingeleitete Prüfkraft $F_{pruef}$ an den Querkraftbolzen um ihren Betrag abgesetzt wird, wie es tatsächlich an einem Flugzeugrumpf geschehen würde. Dieses entspricht sehr wahrscheinlich jedoch nicht der tatsächlichen Kraftaufnahme im Versuchsaufbau.
 \begin{equation}
 	\begin{array}{l}
 		EI_{x}(0.961m, 100N, -100N, 0.022m)= \\
