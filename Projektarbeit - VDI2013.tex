@@ -1,5 +1,5 @@
 \subsection{Allgemeine Informationen zu der Richtlinie}
-Auf Basis der in der Balkenberechnung bestimmten Parameter Biegesteifigkeit, maximales Biegemoment und der maximalen Querkraft, sollen die Gurte und der Steg dimensioniert werden. Die Vorauslegung erfolgt dabei anhand der VDI-Richtlinie 2013, diese enthält in einem Unterkapitel Informationen speziell zur Auslegung eines I-Trägers. Zur Festigkeitsauslegung werden Gurte und Steg in der Richtlinie getrennt voneinander betrachtet, unter der Annahme, dass der Gurt unter Vernachlässigung der Schubflussaufnahme das gesamte Biegemoment aufnehmen soll und der Steg neben einem über die Höhe konstanten Schubfluss auch durch die aufgeprägte Deformation der Gurte beansprucht wird. Das orthotrope Werkstoffverhalten des Laminats, sowie das Versagensverhalten bei verschiedenen Beanspruchungen, werden allein durch die "charakteristischen K-Werte", die für verschiedene Materialgruppen gültig sind, berücksichtigt. Die Berechnungen der Richtlinie erlauben auf diese Weise keine Aussagen über resultierende Versagensformen des ausgelegten Bauteils. Die vorangestellte Auslegung der Gurte ist in dieser Form nicht Teil der Richtlinie, erfolgt jedoch unter den gleichen Annahmen.     
+Auf Basis der in der Balkenberechnung bestimmten Parameter Biegesteifigkeit, maximales Biegemoment und der maximalen Querkraft, sollen die Gurte und der Steg dimensioniert werden. Die Vorauslegung erfolgt dabei anhand der VDI-Richtlinie 2013 \cite{item5}, diese enthält in einem Unterkapitel Informationen speziell zur Auslegung eines I-Trägers. Zur Festigkeitsauslegung werden Gurte und Steg in der Richtlinie getrennt voneinander betrachtet, unter der Annahme, dass der Gurt unter Vernachlässigung der Schubflussaufnahme das gesamte Biegemoment aufnehmen soll und der Steg neben einem über die Höhe konstanten Schubfluss auch durch die aufgeprägte Deformation der Gurte beansprucht wird. Das orthotrope Werkstoffverhalten des Laminats, sowie das Versagensverhalten bei verschiedenen Beanspruchungen, werden allein durch die "charakteristischen K-Werte", die für verschiedene Materialgruppen gültig sind, berücksichtigt. Die Berechnungen der Richtlinie erlauben auf diese Weise keine Aussagen über resultierende Versagensformen des ausgelegten Bauteils. Die vorangestellte Auslegung der Gurte ist in dieser Form nicht Teil der Richtlinie, erfolgt jedoch unter den gleichen Annahmen.     
 Zusätzlich sei angemerkt, dass kapitelübergreifend die gesamte Auslegung nur an ausgewählten und speziell gekennzeichneten Stellen Sicherheitsfaktoren ungleich eins berücksichtigt. Grund dafür ist die Annahme, dass in den bereitgestellten Materialkennwerten ausreichende Sicherheiten verrechnet worden sind. Die grobe Vorauslegung hat den Anspruch die Grundlage für die aufbauende Berechnung mithilfe eines Laminatrechners zu legen.
 
 \subsubsection{Dimensionierung der Gurte mit rechteckigem Querschnitt}
@@ -86,7 +86,7 @@ zu $ \sigma_{b}=224,96MPa $ berechnen. Da
 gilt, ist der Festigkeitsnachweis erbracht. Es kann davon ausgegangen werden, dass die Gurte bei einer Prüfkraft von $ F_{pruef}=500N $ nicht versagen. \\
 
 \subsubsection{Bestimmung der Lagenanzahl des Steges}
-Bei der Auslegung des Steges muss beachtet werden, dass der Steg sowohl durch Schubkräfte als auch durch Normalkräfte senkrecht und parallel zu den Gurten Belastungen erfährt. Die Dehnungen der Innenseiten der Gurte werden dem Steg aufgeprägt, da beide Bauteile stoffschlüssig miteinander verbunden sind. Anders als in der VDI 2013 wird jedoch nicht die Bruchdehnung der Gurte betrachtet, sondern die Dehnungen der Innenseiten bei einer Prüfkraft von 500N. So soll die Dimensionierung des Steges auf die Anforderungen an die Festigkeit angepasst werden, um eine Überdimensionierung zu vermeiden.\\
+Bei der Auslegung des Steges muss beachtet werden, dass der Steg sowohl durch Schubkräfte als auch durch Normalkräfte senkrecht und parallel zu den Gurten Belastungen erfährt. Die Dehnungen der Innenseiten der Gurte werden dem Steg aufgeprägt, da beide Bauteile stoffschlüssig miteinander verbunden sind. Anders als in der VDI 2013 wird jedoch nicht die Bruchdehnung der Gurte betrachtet, sondern die Dehnungen der Innenseiten bei einer Prüfkraft von 500N. So soll die Dimensionierung des Steges auf die Anforderungen an die Festigkeit angepasst werden, um eine Überdimensionierung zu vermeiden. Im Folgenden bezeichnen $ n_{\epsilon}, n_{A} $ und $ q_{s} $ Kraftflüsse, $ n $ ohne einen Index die Lagenanzahl und $ \bar{q} $ das Flächengewicht des trockenen Gewebes.\\
 
 \noindent Die größte Längsdehnung der Gurte tritt an der Stelle C auf, da dort das größte Biegemoment wirkt. Sie lässt sich für die Innenseiten der Gurte nach \cite{item16} durch
 \begin{equation}
@@ -94,33 +94,38 @@ Bei der Auslegung des Steges muss beachtet werden, dass der Steg sowohl durch Sc
 \end{equation}  
  zu $ \epsilon_{Gurt}=6,351\cdot 10^{-3} $ berechnen. Auf der Zugseite ist die Dehnung positiv, auf der Druckseite negativ. Die dem Steg aufgeprägte Dehnung führt in Längsrichtung des Steges zu einem Normalkraftfluss, der sich nach VDI 2013 mit
  \begin{equation}
- 	p_{\epsilon}=n\cdot \bar{q}\cdot K_{E\#}\cdot \epsilon_{Gurt}
+ 	n_{\epsilon}=n\cdot \bar{q}\cdot K_{E\#}\cdot \epsilon_{Gurt}
  \end{equation} 
-ermitteln lässt. $ K_{E\#} $ ist die Dehnsteifigkeit, ein verallgemeinerter Dimensionierungskennwert, der Tafel 3 der VDI 2013 zu $ K_{E\#}=1150\cdot 10^{3}m $ entnommen wird. Die Dehnsteifigkeit nach \cite{item5} bezieht die Lagen-Elastizitätsgröße $ \bar{E_{\#}}=\bar{\sigma}/ \epsilon $, die unter einem Winkel von 45° zur Fadenrichtung den Zusammenhang von Spannungen und Dehnungen in einer Laminatschicht beschreibt, auf das Flächengewicht $ \bar{q} $.
-Es ist zu beachten, dass in der VDI mit veralteten Einheiten, wie dem Kilopond, gerechnet wird. Flächengewichte $ \bar{q} $ sind durch Multiplikation der auf die Fläche bezogene Masse $ \frac{m_{f}}{L\cdot b} $ mit der Norm des Erdbeschleunigungsvektors $ \vec{g} $ zu ermitteln. Zur Berechnung von Hand wurden alle Kennwerte auf die SI-Einheiten zurückgeführt und liegen in dieser Form vor. $ n $ kennzeichnet auch hier die Lagenanzahl.\\
+ermitteln lässt. $ K_{E\#} $ ist die Dehnsteifigkeit, ein verallgemeinerter Dimensionierungskennwert, der Tafel 3 der VDI 2013 zu $ K_{E\#}=1150\cdot 10^{3}m $ entnommen wird. Die Dehnsteifigkeit bezieht die Lagen-Elastizitätsgröße $ \bar{E_{\#}}=\bar{\sigma}/ \epsilon $, die unter einem Winkel von 45° zur Fadenrichtung den Zusammenhang von Spannungen und Dehnungen in einer Laminatschicht beschreibt, auf das Flächengewicht $ \bar{q} $.
+Es ist zu beachten, dass in der VDI mit veralteten Einheiten, wie dem Kilopond, gerechnet wird. Flächengewichte $ \bar{q} $ sind durch Multiplikation der auf die Fläche bezogene Masse $ \frac{m_{f}}{L\cdot b} $ mit der Norm des Erdbeschleunigungsvektors $ \vec{g} $ zu ermitteln. Zur Berechnung von Hand wurden alle Kennwerte auf die SI-Einheiten zurückgeführt und liegen in dieser Form vor.\\
 
 \noindent Zur kraftflussgerechten Gestaltung des Steges werden die Gewebelagen unter einem Winkel von $ 45^{\circ} $ zu den Holmgurten angeordnet. Deshalb muss die Belastung parallel zu den Faserrichtungen mithilfe einer Transformationsformel nach VDI 2013 berechnet werden.
 \begin{equation}
-	p_{\epsilon||}=p_{\epsilon}\cdot cos^{2}\left(45^{\circ} \right)=p_{\epsilon}\cdot 0,5 
+	n_{\epsilon||}=n_{\epsilon}\cdot cos^{2}\left(45^{\circ} \right)=n_{\epsilon}\cdot 0,5 
 \end{equation}
 
-\noindent Die Normalkräfte in Längsrichtung an den Gurten bilden im Allgemeinen einen Winkel $ \neq180^{\circ} $ zueinander, da der Holm eine Absenkung erfährt. Daraus resultiert eine Normalkraft auf den Steg, die senkrecht zu den Gurten steht. Der resultierende Kraftfluss berechnet sich zu:
+\noindent Die Normalkräfte in Längsrichtung an den Gurten bilden im Allgemeinen einen Winkel $ \neq180^{\circ} $ zueinander, da der Holm eine Absenkung erfährt. Daraus resultiert eine Druckkraft auf den Steg, die senkrecht zu den Gurten steht und in der VDI als Abtriebskraft bezeichnet wird. Abbildung \ref{fig: Abtriebskraft} veranschaulicht die Entstehung der Abtriebskraft $ F_{A} $. Der resultierende Kraftfluss berechnet sich zu:
 \begin{equation}
-	p_{A}=\frac{2\cdot F_{pruef}\cdot l_{3}\cdot\epsilon_{Gurt}}{h_{m}^{2}}
+	n_{A}=\frac{2\cdot F_{pruef}\cdot l_{3}\cdot\epsilon_{Gurt}}{h_{m}^{2}}
 \end{equation}
  Mit der oben genannten Transformationsformel ergibt sich die Belastung in Faserrichtung.
  \begin{equation}
- 	p_{A||}=p_{A}\cdot cos^{2}\left(45^{\circ} \right)
+ 	n_{A||}=n_{A}\cdot cos^{2}\left(45^{\circ} \right)
  \end{equation} 
 
-\noindent Darüber hinaus erfährt der Steg einen Schubkraftfluss durch die Querkraft. Wegen der vernachlässigbaren Längskraftaufnahme des Steges im Vergleich zu den Gurten, kann der Schubfluss über die Höhe des Steges als konstant angenommen werden. Die VDI-Richtlinie orientiert sich hier an den Berechnungsmethoden der Schubfeldtheorie, wie sie im entsprechenden Kapitel in \cite{item15} ausgeführt wird. Es muss berücksichtigt werden, dass die Modellierung des Holmes als Balken, der an zwei Punkten gelagert ist und durch die Querkraftbolzen eine weitere Kraft erfährt, zu einem anderen Querkraftverlauf führt als dem konstanten, der in der Richtlinie für den Kragbalken angenommen wurde. Den Berechnungen des Holms als Biegebalken kann für eine Kraft $ F_{prue}=500N $ eine maximale Querkraft von $ 5085,5N $ im Bereich $ 1 $ und eine betragsmäßig maximale Querkraft von $ 500N $ im Bereich $ 3 $ entnommen werden. Mit dem Ziel, im langen Bereich $ 3 $ Gewicht einzusparen, ist es vorteilhaft diesen Bereich geringer Querkraft getrennt von dem höher beanspruchten Bereich $ 1 $ auszulegen. Der resultierende Schubfluss berechnet sich mithilfe der folgenden Formel:\\
+\begin{figure}[h]
+	\includegraphics[width=1.0\textwidth]{Bilder/Abtriebskraft.jpg}
+	\caption{Prinzip der Druckkraft auf den Steg}
+	\label{fig: Abtriebskraft}
+\end{figure}
+\noindent Darüber hinaus erfährt der Steg einen Schubkraftfluss durch die Querkraft. Wegen der vernachlässigbaren Längskraftaufnahme des Steges im Vergleich zu den Gurten, kann der Schubfluss über die Höhe des Steges als konstant angenommen werden. Die VDI-Richtlinie orientiert sich hier an den Berechnungsmethoden der Schubfeldtheorie, wie sie im entsprechenden Kapitel in \cite{item15} ausgeführt wird. Es muss berücksichtigt werden, dass die Modellierung des Holmes als Balken, der an zwei Punkten gelagert ist und durch die Querkraftbolzen eine weitere Kraft erfährt, zu einem anderen Querkraftverlauf führt als dem konstanten, der in der Richtlinie für den Kragbalken angenommen wurde. Den Berechnungen des Holms als Biegebalken kann für eine Kraft $ F_{prue}=500N $ eine maximale Querkraft von $ Q_{1}=5085,5N $ im Bereich $ 1 $ und eine betragsmäßig maximale Querkraft von $Q_{3}=500N $ im Bereich $ 3 $ entnommen werden. Mit dem Ziel, im langen Bereich $ 3 $ Gewicht einzusparen, ist es vorteilhaft diesen Bereich geringer Querkraft getrennt von dem höher beanspruchten Bereich $ 1 $ auszulegen. Der resultierende Schubfluss berechnet sich mithilfe der folgenden Formel:\\
 \begin{equation}
-	p_{s||}=p_{s}=\frac{Q}{h_{i}}
+	q_{s||}=q_{s}=\frac{Q}{h_{i}}
 \end{equation}
-Der gesamte Kraftfluss, der durch den Steg aufgenommen werden muss, ergibt sich dann aus der Überlagerung der drei Kraftflüsse $ p_{s||}, p_{A||}, p_{\epsilon||} $. 
+Der gesamte Kraftfluss, der durch den Steg aufgenommen werden muss, ergibt sich dann aus der Überlagerung der drei Kraftflüsse $q_{s||}, n_{A||}, n_{\epsilon||} $. 
 
 \begin{equation}
-	n\cdot \bar{q}\cdot K_{\sigma d}\cdot k_{||}=p_{s||}+p_{A||}+p_{\epsilon||}
+	n\cdot \bar{q}\cdot K_{\sigma d}\cdot k_{||}=q_{s||}+n_{A||}+n_{\epsilon||}
 \end{equation}
 
 Die Tragfähigkeit einer Schicht des Verbundes unter Druckbeanspruchung wird durch $ K_{\sigma d} $ charakterisiert und kann ebenfalls Tafel 3 der VDI entnommen werden. An dieser Stelle geht die Richtlinie davon aus, dass die Druckfestigkeit des Laminats im Allgemeinen geringer ist als die Zugfestigkeit. Im vorliegenden Fall zeigen die gegebenen Materialkennwerte des Laminats, dass die Druckfestigkeiten $ R_{||}^{-} $ und $ R_{\perp}^{-} $ deutlich größer als die Zugfestigkeiten $ R_{||}^{+} $, bzw. $ R_{\perp}^{+} $ sind. Dies begründet die Vermutung, dass die vorgestellten Dimensionierungswerte nur für die Vorauslegung auf den vorliegenden Fall übertragbar sind. Da ein Teil der Schubbeanspruchung durch die Matrix geleitet wird, besteht die Gefahr eines Zwischenfaserbruches. VDI 2013 schlägt deshalb die Verwendung von $ K_{\sigma d}=30*10^{3}m $ vor. Zusätzlich muss der Anteil der Glasmengen in Kette und Schuß durch den Faktor $ k_{||} $ berücksichtigt werden. Das zur Verfügung stehende Gewebe Interglas 90070 hat annähernd gleiche Fadenanzahlen und Garnarten in Kette- und Schußrichtung (\cite{item18}), damit ist $ k_{||}=0,5 $. 
@@ -129,6 +134,6 @@ Die Anzahl der notwendigen Gewebelagen n im Steg lässt sich nun durch Umstellen
 \begin{equation}
 	n=\frac{\frac{2\cdot F_{Pruef}\cdot l_{3}\cdot \epsilon_{Gurt}}{h_{m}^{2}\cdot 2}+\frac{Q}{h_{i}}}{\bar{q}\cdot \left(k_{||}\cdot K_{\sigma d}-K_{E\#}\cdot \epsilon_{Gurt}\cdot 0,5\right)}
 \end{equation}
-Damit ergibt sich die Lagenanzahl bei einer Prüfrkraft $ F_{pruef}=500N $ von $ n\left(500N\right)=1,99 $ für den Bereich $ 3 $ und $ n\left(5085,5N\right)=18,13 $ für den Bereich $ 1 $. Bereich $ 2 $ erfährt eine Querkraft von $ 0N $. Da dieser Bereich sehr kurz ist, wird er so wie Bereich $ 1 $ belegt. Um einen symmetrischen Lagenaufbau im Falle einer Sandwichkonstruktion zu ermöglichen, sind also $ 2 $ Lagen für den Bereich $ 3 $ und $ 20 $ Lagen für die Bereiche $ 1 $ und $ 2 $ vorzusehen.\\
+Damit ergibt sich die Lagenanzahl bei einer Prüfrkraft $ F_{pruef}=500N $ von $ n\left(500N\right)=1,99 $ für den Bereich $ 3 $ und $ n\left(5085,5N\right)=18,13 $ für den Bereich $ 1 $. Bereich $ 2 $ erfährt eine Querkraft von $Q_{2}=0N $. Da dieser Bereich sehr kurz ist, wird er so wie Bereich $ 1 $ belegt. Um einen symmetrischen Lagenaufbau im Falle einer Sandwichkonstruktion zu ermöglichen, sind also $ 2 $ Lagen für den Bereich $ 3 $ und $ 20 $ Lagen für die Bereiche $ 1 $ und $ 2 $ vorzusehen.\\
 
 \noindent Es ist zu betonen, dass diese Lagenanzahlen maßgeblich durch die Annahmen der Dimensionierungskennwerte $ K_{E\#} $ und $ K_{\sigma d} $ beeinflusst werden. Aus oben genannten Gründen können sie nicht als für diesen Fall exakt angenommen werden. Im Kapitel \ref{Puck} wird die hier ermittelte Lagenanzahl mit tatsächlichen Laminatkennwerten und einem Laminatrechner überprüft und angepasst.
