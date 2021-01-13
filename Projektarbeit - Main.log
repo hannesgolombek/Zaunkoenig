@@ -1,12 +1,22 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  13 JAN 2021 19:59
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  13 JAN 2021 18:53
+>>>>>>> Stashed changes
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
 LaTeX2e <2020-10-01> patch level 2
 L3 programming layer <2020-10-27> xparse <2020-03-03>
+<<<<<<< Updated upstream
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+=======
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+>>>>>>> Stashed changes
 File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count175
@@ -21,16 +31,27 @@ File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
+<<<<<<< Updated upstream
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2020/10/27 3.51 The Babel package
 
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+=======
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2020/10/27 3.51 The Babel package
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+>>>>>>> Stashed changes
 File: babel.def 2020/10/27 3.51 Babel common definitions
 \babel@savecnt=\count183
 \U@D=\dimen139
 \l@babelnohyphens=\language79
 
+<<<<<<< Updated upstream
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+=======
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+>>>>>>> Stashed changes
 \bbl@readstream=\read2
 )
 \bbl@dirlevel=\count184
@@ -38,6 +59,7 @@ File: babel.def 2020/10/27 3.51 Babel common definitions
 *************************************
 * Local config file bblopts.cfg used
 *
+<<<<<<< Updated upstream
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
@@ -65,6 +87,34 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+=======
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ldf
+Language: ngerman 2020/07/21 v2.12 German support for babel (post-1996 orthogra
+phy)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.ldf
+Language: ngermanb 2020/07/21 v2.12 German support for babel (post-1996 orthogr
+aphy)
+Package babel Info: Making " an active character on input line 121.
+))) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+>>>>>>> Stashed changes
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 \Gm@cnth=\count185
@@ -80,6 +130,7 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutvoffset=\dimen147
 \Gm@dimlist=\toks16
 
+<<<<<<< Updated upstream
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
@@ -97,10 +148,28 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+=======
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+>>>>>>> Stashed changes
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
+<<<<<<< Updated upstream
 )
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
@@ -109,6 +178,15 @@ Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+=======
+) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+>>>>>>> Stashed changes
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count188
 \calc@Bcount=\count189
@@ -121,10 +199,17 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count190
 \calc@Cskip=\skip51
 )
+<<<<<<< Updated upstream
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2020/09/27 v2.0i eso-pic (RN)
 
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+=======
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2020/09/27 v2.0i eso-pic (RN)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+>>>>>>> Stashed changes
 Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
@@ -132,10 +217,17 @@ with kernel methods
 \ESO@tempdima=\dimen152
 \ESO@tempdimb=\dimen153
 
+<<<<<<< Updated upstream
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+=======
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+>>>>>>> Stashed changes
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -152,7 +244,11 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 \AM@pagewidth=\dimen154
 \AM@pageheight=\dimen155
 
+<<<<<<< Updated upstream
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+=======
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+>>>>>>> Stashed changes
 File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box47
@@ -161,32 +257,59 @@ File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 \AM@toc@title=\toks18
 \c@AM@survey=\count192
 \AM@templatesizebox=\box48
+<<<<<<< Updated upstream
 ) (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/tabto-ltx\tabto.sty
+=======
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tabto-ltx\tabto.sty
+>>>>>>> Stashed changes
 Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
 \CurrentLineWidth=\dimen156
 \TabPrevPos=\dimen157
 )
+<<<<<<< Updated upstream
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+=======
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+>>>>>>> Stashed changes
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
+<<<<<<< Updated upstream
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+=======
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+>>>>>>> Stashed changes
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen158
 ))
+<<<<<<< Updated upstream
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen159
 )
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+=======
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen159
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+>>>>>>> Stashed changes
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count193
@@ -227,8 +350,13 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
+<<<<<<< Updated upstream
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
+=======
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex
+.def
+>>>>>>> Stashed changes
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count271
 \l__pdf_internal_box=\box51
@@ -284,9 +412,13 @@ LaTeX Font Info:    ... okay on input line 11.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+<<<<<<< Updated upstream
 
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
+=======
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+>>>>>>> Stashed changes
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count272
 \scratchdimen=\dimen167
@@ -300,6 +432,7 @@ ii
 \makeMPintoPDFobject=\count277
 \everyMPtoPDFconversion=\toks25
 )
+<<<<<<< Updated upstream
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -325,6 +458,32 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
 .sty
+=======
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base
+.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekey
+s.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.st
+y
+>>>>>>> Stashed changes
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -338,9 +497,16 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
 )
+<<<<<<< Updated upstream
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+=======
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+>>>>>>> Stashed changes
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
@@ -371,7 +537,11 @@ ut line 2.
 
 [1
 
+<<<<<<< Updated upstream
 {C:/Users/Henri/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+=======
+{C:/Users/PC/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+>>>>>>> Stashed changes
 File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 <use PDFs/Aufgabenstellung Gruppe 2.pdf, page 1>
 Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page1 used on inp
@@ -1452,6 +1622,7 @@ Package pdftex.def Info: Bilder/AufbauGesamt.jpg  used on input line 196.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<<<<<<< Updated upstream
 <Bilder/SeiteRichtig.jpg, id=507, 723.20187pt x 331.73938pt>
 File: Bilder/SeiteRichtig.jpg Graphic file (type jpg)
 <use Bilder/SeiteRichtig.jpg>
@@ -1461,6 +1632,9 @@ Package pdftex.def Info: Bilder/SeiteRichtig.jpg  used on input line 202.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 <Bilder/MontagePlatte.jpg, id=508, 998.73125pt x 460.72125pt>
+=======
+<Bilder/MontagePlatte.jpg, id=507, 998.73125pt x 460.72125pt>
+>>>>>>> Stashed changes
 File: Bilder/MontagePlatte.jpg Graphic file (type jpg)
 <use Bilder/MontagePlatte.jpg>
 Package pdftex.def Info: Bilder/MontagePlatte.jpg  used on input line 208.
@@ -1483,6 +1657,7 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< Updated upstream
  5793 strings out of 479799
  91141 string characters out of 2869723
  397381 words of memory out of 3000000
@@ -1513,6 +1688,37 @@ ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 Output written on "Projektarbeit - Main.pdf" (115 pages, 4356684 bytes).
 PDF statistics:
  1000 PDF objects out of 1000 (max. 8388607)
+=======
+ 5787 strings out of 479799
+ 91804 string characters out of 2871148
+ 397370 words of memory out of 3000000
+ 22541 multiletter control sequences out of 15000+200000
+ 546097 words of font info for 52 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 70i,17n,80p,1868b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti109
+5.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
+1095.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
+cbx1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1095.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
+i600\ecbx1095.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx1440.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
+/ec/dpi600\ecrm1095.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecbx2074.pk><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmex10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/PC/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/PC/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/PC/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/PC/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/PC/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/PC
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Use
+rs/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "Projektarbeit - Main.pdf" (114 pages, 4276509 bytes).
+PDF statistics:
+ 995 PDF objects out of 1000 (max. 8388607)
+>>>>>>> Stashed changes
  0 named destinations out of 1000 (max. 500000)
  361 words of extra memory for PDF output out of 10000 (max. 10000000)
 
