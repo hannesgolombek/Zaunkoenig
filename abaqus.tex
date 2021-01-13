@@ -10,6 +10,7 @@ Das zuvor erstellte CAD-Modell wird zunächst in ABAQUS importiert. Da es sich n
  \label{Schalenmodell}
 \end{figure}
 \newpage
+\noindent
 Daraufhin werden für die Materialien die Kennwerte in das Programm integriert. Hierbei werden die Werte für GFK, den Schaum und die Rippen eingetragen(siehe Abb.\ref{Material}).Diese wurden in Kapitel 4.3.1 mit Hilfe von elamX festgelegt. Für GFK wird das Material als Laminat erstellt, wodurch der E-Modul parallel und senkrecht zur Faser, sowie die Schubmodule definiert werden können.
 \begin{figure}[h]
  \centering
@@ -18,6 +19,7 @@ Daraufhin werden für die Materialien die Kennwerte in das Programm integriert. 
  \label{Material}
 \end{figure}
 \newpage
+\noindent
 Nun wird das Schalenmodell in die Verschiedenen Segmente Unterteilt , denen dann Materialien und deren entsprechenden Dicken und Anzahl von Schichten zugeortnet werden. Hierbei wird das Bauteil in den dicken und den dünnen Teil des Stegs, die Gurte, die Haut, sowie die Rippen unterteilt. Für die Bauteile aus GFK werden erst zwei zum Flügelkoordinatensystem um 45 und -45 Grad gedrehte GFK-Schichten definiert, dann der Schaum und daraufhin erneut zwei versetzte GFK-Schichten. Eine Schicht hat hierbei ein Viertel der zuvor berechneten Dicke ohne des Schaums. Für die Rippen wird eine Dicke von 3mm angenommen.
 \begin{figure}[h]
  \centering
@@ -26,6 +28,7 @@ Nun wird das Schalenmodell in die Verschiedenen Segmente Unterteilt , denen dann
  \caption{Beispiel:Steg}
 \end{figure}
 
+\noindent
 Als nächstes werden die Randbedingungen und Angreifenden Kräfte festgelegt. Der Holm ist in der Einspannung fest gelagert. Daher wird an der Stelle der Lager A und B eine feste Einspannung angenommen. Die Aufgenommenen Kräfte durch die Querkraftbolzen werden als Kräfte angebracht.Die Prüfkraft wird am L/4-Punkt eingeleitet.\\
 Daraufhin wird das Bauteil vernetzt. Hierbei wird eine Anzahl an Knoten pro Längeneinheit eingegeben und das Programm verbindet diese zu einem Netz aus Flächen.Durch die Begrenzung auf 1000 Knoten ist das Netz jedoch recht grob. \\
 \newpage
@@ -38,10 +41,12 @@ Zunächst wird eine Prüfkraft von 100N angelegt, um die maximale Absenkung zu e
  \label{Absenkung}
 \end{figure}
 \newpage
+\noindent
 Um herauszufinden, ob der Flügel eine hinreichende Festigkeit aufweist wird die Prüfkraft auf 500N erhöht. Nun müssen die maximalen Spannungen im Bauteil mit den Kennwerten verglichen werden. Das Modell zeigt nun maximale Spannungen an der Stelle des Lagers B an. Da sich dort allerdings noch eine nicht mit modellierte Verstärkung durch Holzblöcke befindet sind diese Werte deutlich höher als in der Realität. Daher werden nur die Werte betrachtet, die sich ab der Rippe ergeben.\\
 Die maximale Vergleichsspannung ergibt sich im Steg des Holms. Die Normalspannung in $x_{1}$-Richtung ist im vorderen Teil des Stegs am höchsten und beträgt beim Maximum $85,63\frac{N}{mm^2}$.\\
 Die Normalspannung in $x_{2}$-Richtung ist im Gurt der Unterseite des Flügels (im Veruchsaufbau Oberseite) und beträgt maximal $14,25\frac{N}{mm^2}$.Die Spannung in $x_{3}$-Richtung ist überall 0.\\
 Die Schubspannung ist in der Schale auf der Unterseite am höchsten. Hier ergibt sich ein Maximalwert von $16,72\frac{N}{mm^2}$.\\
+\noindent
 Das Angenommene Koordinatensystem bezieht ich auf die oberste Schicht des Laminats. Daher sind $x_{1}$ und $x_{2}$ immer in Richtung der Faser oder orthogonal dazu.\\
 Die Werte sind durch das Zusammenspiel aller Bauteile sehr viel kleiner als in den Vorherigen Berechnungen. Dadurch bestätigt das FEM- Modell die vorangegangenen Berechnungen.
 \newpage
@@ -63,6 +68,7 @@ Prüfkraft&Beulfaktor\\
 1000N&1,0253\\
 \end{tabular}
 \end{center}
+\noindent
 Diese Werte sind alle größer als 1, damit ist der Flügel für alle drei Belastungsfällen ausreichend gegen das Beulen dimensioniert.
 Das Programm ermöglicht außerdem die Ausgabe möglicher Beulformen. Ein Beispiel in Abbildung \ref{Beulform} dargestellt. Die Haut würde nah am Holmstummel beulen. 
 \begin{figure}[h]

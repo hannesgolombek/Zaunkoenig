@@ -1,46 +1,53 @@
 
 
-\subsubsection{Bolzenberechnung (HG)}
-Zunächst muss eine Auslegung für die Flächenpressung erfolgen. Dabei ist für die Buche $\sigma_{p,zul}=60\frac{N}{mm^2}$
+\subsubsection{Bolzenberechnung (H.G.)}
+Zunächst muss eine Auslegung für die Flächenpressung erfolgen. Dabei ist für die Buche $\sigma_{p,zul}=60\frac{N}{mm^2}$.
 Die projizierte Fläche ist $A=a*d$ , d ist hierbei der Durchmesser des Bolzens und a die Länge des Lochs im Steg.\\
+\noindent
 Die Flächenpressung ist nun: 
 \begin{equation}
 	p=\frac{F}{A}=\frac{5085,5\mathrm{N}}{a*8mm}
 \end{equation}
-Mit der zulässigen Flächenpressung für Buchenholz lässt sich die Gleichung nun nach a auflösen:
+Mit der zulässigen Flächenpressung für Buchenholz lässt sich die Gleichung nun nach a auflösen(siehe Glg. \ref{Fpressung}).
 \begin{equation}
+\label{Fpressung}
 	a=\frac{F}{\sigma_{p,zul}*d}=\frac{5085,5\mathrm{N}}{60\frac{N}{mm^{2}}*8mm}=10,59mm
 \end{equation}
 Somit muss die Holzverstärkung des Stegs an der Stelle der Lager mindestens eine Breite von 10,59$\mathrm{mm}$ aufweisen. Im Weiteren wird eine Breite von 11$\mathrm{mm}$ angenommen.\\
- 
-Nun werden die Bolzen, die den Holm im für den Versuchsaufbau vorgegebenen U-Profil fixieren, ausgelegt. Die Bolzen sind auf Biegung belastet, wodurch sich die Gleichung:
+\noindent
+Nun werden die Bolzen, die den Holm im für den Versuchsaufbau vorgegebenen U-Profil fixieren, ausgelegt. Die Bolzen sind auf Biegung belastet, wodurch Gleichung \ref{Biegespannung1} angenommen wird.
 \begin{equation}
+\label{Biegespannung1}
 	\sigma_{b}=\frac{M_{b}}{W} 
 \end{equation}
-, ergibt.\\
- Mit: 
+ 
  \begin{equation}
+ \label{WKreis}
  	W_{Kreis}=\frac{\pi*d^{3}}{32}
  \end{equation}
- und 
+  
  \begin{equation}
+ \label{Moment}
  	M_{b}=F*l
  \end{equation}
- ergibt sich die Biegespannung zu
+ Mit Gleichung \ref{WKreis} und Gleichung \ref{Moment} ergibt sich die Biegespannung zu Gleichung \ref{Biegespannung}.
  \begin{equation}
  \label{Biegespannung}
  	\sigma_{b}=F*\frac{32*l}{\pi*d^{3}}
  \end{equation}
-Die zu ertragende Kraft ist $5085,5 \mathrm{N}$. Diese lässt sich jetzt noch halbieren, da mit der oben genannten Annahme nur die Hälfte des Bolzens betrachtet wird. Damit ergibt sich:
+Die zu ertragende Kraft ist $5085,5 \mathrm{N}$. Diese lässt sich jetzt noch halbieren, da mit der oben genannten Annahme nur die Hälfte des Bolzens betrachtet wird. Damit ergibt sich die gesuchte Kraft (siehe Glg. \ref{KraftB}).
  \begin{equation}
+ \label{KraftB}
  	F_{bel}=\frac{F}{2} =2542,75 \mathrm{N}
  \end{equation}
- Nun kann mit $d=8mm$ und $l=8,559mm$ ein passendes Material gesucht werden. Für Stahl gilt $\sigma_{b,F}\approx1,2*R_{e}$, somit muss 
+ Nun kann mit $d=8mm$ und $l=8,559mm$ ein passendes Material gesucht werden. Für Stahl gilt $\sigma_{b,F}\approx1,2*R_{e}$, somit wird $R_{e}$ wie in Gleichung \ref{RE} berechnet. 
  \begin{equation}
+ \label{RE}
  	F*\frac{32*l}{1,2*\pi*d^{3}}=360,8\mathrm{MPa}\leq
-R_{e} \end{equation}  sein.\\
-
-Mit den getroffenen Annahmen ist S620Q mit einer Streckgrenze von $R_{e}=620\frac{N}{mm^{2}}$ ein geeigneter Stahl.\\ 
+R_{e} \end{equation}  
+\noindent
+Mit den getroffenen Annahmen ist S620Q mit einer Streckgrenze von $R_{e}=620\frac{N}{mm^{2}}$ ein geeigneter Stahl.\\
+\noindent
 Für die Querkraftbolzen wird ebenfalls S620Q verwendet. Die aufzunehmenden Kräfte lassen sich aus dem Kräftegleichgewicht ermitteln. $Q_{1}$ ist die Kraft Bolzen, der rechts vom Holm ist und $Q_{2}$ die Kraft am Bolzen links vom Holm. Damit ergeben sich bei einer Prüfkraft von 500N folgende Kräfte:
 $$Q_{1}=409,85N$$
 $$Q_{2}=90,15N$$
