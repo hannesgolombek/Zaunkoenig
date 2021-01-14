@@ -75,12 +75,13 @@
 \contentsline {section}{\numberline {9}Bauanleitung für Flügelbau (T.B.)}{79}{}%
 \contentsline {section}{\numberline {10}Zusammenfassung}{82}{}%
 \contentsline {subsection}{\numberline {10.1}Die Berechnungen im Überblick (H.K.)}{82}{}%
-\contentsline {subsection}{\numberline {10.2}Gewichtsnormalisiertes Festigkeitskriterium (O.S.)}{84}{}%
-\contentsline {subsection}{\numberline {10.3}Diskussion der Ergebnisse}{85}{}%
-\contentsline {subsection}{\numberline {10.4}Optimierungsmöglichkeiten}{85}{}%
-\contentsline {section}{\numberline {11}Quellenverzeichnis}{86}{}%
-\contentsline {section}{\numberline {12}Abbildungsverzeichnis}{88}{}%
-\contentsline {section}{\numberline {13}Tabellenverzeichnis}{90}{}%
-\contentsline {section}{\numberline {14}Anhang}{91}{}%
-\contentsline {subsection}{\numberline {14.1}Berechnung: Analytischen Lösung der Modellierung}{91}{}%
-\contentsline {subsection}{\numberline {14.2}Abbildungen}{93}{}%
+\contentsline {subsection}{\numberline {10.2}Die Konstruktion und FEM-Analyse im Überblick (H.K.)}{85}{}%
+\contentsline {subsection}{\numberline {10.3}Gewichtsnormalisiertes Festigkeitskriterium (O.S.)}{86}{}%
+\contentsline {subsection}{\numberline {10.4}Diskussion der Ergebnisse}{87}{}%
+\contentsline {subsection}{\numberline {10.5}Optimierungsmöglichkeiten}{87}{}%
+\contentsline {section}{\numberline {11}Quellenverzeichnis}{88}{}%
+\contentsline {section}{\numberline {12}Abbildungsverzeichnis}{90}{}%
+\contentsline {section}{\numberline {13}Tabellenverzeichnis}{92}{}%
+\contentsline {section}{\numberline {14}Anhang}{93}{}%
+\contentsline {subsection}{\numberline {14.1}Berechnung: Analytischen Lösung der Modellierung}{93}{}%
+\contentsline {subsection}{\numberline {14.2}Abbildungen}{95}{}%
