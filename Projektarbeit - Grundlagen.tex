@@ -14,39 +14,60 @@ Bei der Netztheorie wird das Mittragen der Matrix vernachlässigt. Dadurch lasse
 Durch diese Vereinfachungen kann der Konstrukteur schnell feststellen, ob die Fasern alleine der Belastung standhalten können. Wenn dies nicht der Fall ist werden die Kräfte größtenteils über die Matrix übertragen und das Laminat kann als \textit{ungesund} bezeichnet werden. Durch die Annahme, dass die Matrix nicht tragend ist, wird das Laminat jedoch unterschätzt und weist deutlich höhere Festigkeiten auf, als in der Netztheorie angenommen. Damit wird in jedem Fall eine Sicherheit mit eingerechnet.\\
 Für die Verwendung der Netztheorie sollte das Gelege zunächst in ein Hauptachsenkoordinatensystem überführt werden, damit die Schubspannungen verschwinden. Die Kraftflüsse werden damit zu $\hat{n}_{I}$ und $\hat{n}_{II}$.Nun lässt sich der Winkel $\beta $ zwischen den Fasern und den Achsen des Hauptachsenkoordinatensystems bestimmen. Mit diesem und der Annahme, dass nur $\sigma_{\|}$ auftreten, können nun die Schnittkräfte in den Fasern bestimmt werden:
 \begin{equation}
-\hat{n}_{I}=\sum n_{\|k}*cos^2\beta_{k}
+\hat{n}_{I}=\sum n_{\|k}\cdot cos^2\beta_{k}
 \end{equation}
 \begin{equation}
-\hat{n}_{II}=\sum n_{\|k}*sin^2\beta_{k}
+\hat{n}_{II}=\sum n_{\|k}\cdot sin^2\beta_{k}
 \end{equation}
 \begin{equation}
-0=\frac{1}{2}\sum n_{\|k}*sin2\beta_{k}
+0=\frac{1}{2}\sum n_{\|k}\cdot sin2\beta_{k}
 \end{equation}
 Da der gesamte Kraftfluss als Summe der Kraftflüsse in den einzelnen Fasern angenommen werden kann, lässt sich dadurch der Kraftfluss in den einzelnen Faserschichten und somit die benötigte Dicke der Schichten, bzw. die Anzahl der Lagen bestimmen.\cite{item3}
 
 In der Folgenden Berechnung wird die Netztheorie jedoch nicht verwendet, da die Auslegung mit der VDI 2013 erfolgt.
 \subsection{Klassische Laminattheorie (H.G.)}
-Das Prinzip der klassischen Laminattheorie ist die Beschreibung des Elastizitätsgesetzes eines FVK durch die Elastizitätsgesetze der einzelnen Schichten. Dies lässt sich durch die Annahme eines ideal elastischem und fehlerfrei verklebten FKV realisieren.\\
+Das Prinzip der klassischen Laminattheorie ist die Beschreibung des Elastizitätsgesetzes eines FVK durch die Elastizitätsgesetze der einzelnen Schichten. Dies lässt sich durch die Annahme eines ideal elastischem und fehlerfrei verklebten FKV, wovon ein infinitesimales Scheibenelement betrachtet wird, realisieren. Zusätzlich gilt die Annahme, dass ein ebener Spannungszustand vorliegt, die Schnittspannungen über die Dicke konstant sind und keine Verwölbungen auftreten.\\
+\noindent
 Der Kraftfluss $\hat{n}$ im ganzen Laminat lässt sich durch die Summe der Kraftflüsse in den einzelnen Schichten zusammensetzen.
 \begin{equation}
 \label{Kraftfluss}
-\hat{n}_{x}=\hat{\sigma}_{x}*t=\sum n_{xk}=\sum\sigma_{xk}*t_{k}
+\hat{n}_{x}=\hat{\sigma}_{x}\cdot t=\sum n_{xk}=\sum\sigma_{xk}\cdot t_{k}
 \end{equation}
 
 \begin{equation}
-\hat{n}_{y}=\hat{\sigma}_{y}*t=\sum n_{yk}=\sum\sigma_{yk}*t_{k}
+\hat{n}_{y}=\hat{\sigma}_{y}\cdot t=\sum n_{yk}=\sum\sigma_{yk}\cdot t_{k}
 \end{equation}
 
 \begin{equation}
-\hat{n}_{xy}=\hat{\tau}_{xy}*t=\sum n_{xyk}=\sum\sigma_{xyk}*t_{k}
+\hat{n}_{xy}=\hat{\tau}_{xy}\dot t=\sum n_{xyk}=\sum\sigma_{xyk}\dot t_{k}
 \end{equation}
 Mit der Annahme, dass die Verzerrung in allen Schichten gleich ist, lässt sich nun das Elastizitätsgesetz aufstellen.
 \begin{equation}
-\lbrace n\rbrace= [A]* \lbrace\varepsilon\rbrace
+\lbrace n\rbrace= [A]\cdot \lbrace\varepsilon\rbrace
 \end{equation}
 $[A]$ ist hierbei die Steifigkeitsmatrix des FVK. Mit Hilfe der Kraftfluss- Spannungsbeziehung aus Gleichung \ref{Kraftfluss}, lässt sich dann auf die Spannung schließen.
 Als nächstes muss die Verzerrungsmatrix noch in die Richtung der Einzelschichten mit dem Faserwinkel $\alpha_{k}$ transformiert werden.\\
-Nun lässt sich mit Hilfe der E-Module und Querkontraktionszahlen die Spannung in den einzelnen Fasern bestimmen.Um ein passende Anzahl an Faserschichten zu bekommen kann das Ergebnis nun iterativ angepasst werden.\cite{item3}
+Nun lässt sich mit Hilfe der E-Module und Querkontraktionszahlen die Spannung in den einzelnen Fasern bestimmen(siehe Glg\ref{Faserspannung}).
+\begin{gather}
+\label{Faserspannung}
+\begin{Bmatrix}
+\sigma_{1}\\
+\sigma_{2}\\
+\tau_{21}
+\end{Bmatrix}
+=
+\begin{bmatrix}
+\frac{E_{\|}}{1-\nu_{\bot\|}\cdot \nu_{\|}\bot}&\frac{\nu_{\bot\|}\cdot E_{\bot}}{1-\nu_{\bot\|}\cdot \nu_{\|}\bot}&0\\
+\frac{\nu_{\|\bot}\cdot E_{\|}}{1-\nu_{\bot\|}\cdot \nu_{\|}\bot}&\frac{E_{\bot}}{1-\nu_{\bot\|}\cdot \nu_{\|}\bot}&0\\
+0&0&G_{\bot\|}
+\end{bmatrix}
+\begin{Bmatrix}
+\varepsilon_{1}\\
+\varepsilon_{2}\\
+\gamma_{21}
+\end{Bmatrix}
+\end{gather}
+Um ein passende Anzahl an Faserschichten zu bekommen kann das Ergebnis nun iterativ angepasst werden.\cite{item3}
 \subsection{Versagenskriterium nach Puck (O.S.)}
 Da für einen anisotropen FKV nicht das Versagen mittels einer allgemeinen resultierenden Spannung für jeden Lastfall ermittelt werden kann, müssen Versagenskriterien für die speziellen Beanspruchungsmodi definiert werden. Für die in dieser Projektarbeit durchgeführten Auslegungen wurden die Festigkeitskriterien von Puck verwendet. Hierbei werden die einzelnen UD-Schichten des Laminats getrennt betrachtet. Auch wenn diese Betrachtungen physikalisch begründet sind (vgl. \cite{EdL}), hat dies zur Folge, dass Effekte wie Delamination nicht berücksichtigt werden.
 \subsubsection{Definitionen}
