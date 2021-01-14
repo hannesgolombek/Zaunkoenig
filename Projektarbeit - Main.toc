@@ -29,9 +29,9 @@
 \contentsline {subsubsection}{\numberline {4.2.3}Nachrechnung der angepassten Gurte}{30}{}%
 \contentsline {subsubsection}{\numberline {4.2.4}Bestimmung der Lagenanzahl des Steges}{31}{}%
 \contentsline {subsection}{\numberline {4.3}Auslegung des Holms nach Klassischer Laminattheorie}{35}{}%
-\contentsline {subsubsection}{\numberline {4.3.1}$eLamX^{2}$ (T.B.)}{35}{}%
+\contentsline {subsubsection}{\numberline {4.3.1}Beispielrechnung nach Klassischer Laminattheorie}{35}{}%
+\contentsline {subsubsection}{\numberline {4.3.2}$eLamX^{2}$ (T.B.)}{35}{}%
 \contentsline {subsection}{\numberline {4.4}Beulabschätzung des Holms}{37}{}%
-<<<<<<< HEAD
 \contentsline {subsubsection}{\numberline {4.4.1}Einführung in Stabilitäts-Überprüfungen}{37}{}%
 \contentsline {subsubsection}{\numberline {4.4.2}Beulsicherheit der Gurte (T.B.)}{38}{}%
 \contentsline {subsubsection}{\numberline {4.4.3}Beulsicherheit des Steges (T.B.)}{39}{}%
@@ -76,60 +76,13 @@
 \contentsline {subsection}{\numberline {8.5}Abschätzung der Verklebungen und der Gesamtmasse}{80}{}%
 \contentsline {section}{\numberline {9}Bauanleitung für Flügelbau (T.B.)}{81}{}%
 \contentsline {section}{\numberline {10}Zusammenfassung}{84}{}%
-\contentsline {subsection}{\numberline {10.1}Was ist geschehen H.K.}{84}{}%
-\contentsline {subsection}{\numberline {10.2}Gewichtsnormalisiertes Festigkeitskriterium O.S.}{84}{}%
-=======
-\contentsline {subsubsection}{\numberline {4.4.1}Beulsicherheit der Gurte (T.B.)}{37}{}%
-\contentsline {subsubsection}{\numberline {4.4.2}Beulsicherheit des Steges (T.B.)}{38}{}%
-\contentsline {subsection}{\numberline {4.5}Auslegung der Klebeverbindung (T.B.)}{42}{}%
-\contentsline {subsubsection}{\numberline {4.5.1}Klebeverbindung Steg - Gurt (T.B.)}{42}{}%
-\contentsline {subsubsection}{\numberline {4.5.2}Klebeverbindung Holm - Rippen (T.B.)}{42}{}%
-\contentsline {subsection}{\numberline {4.6}Bolzenauslegung}{44}{}%
-\contentsline {subsubsection}{\numberline {4.6.1}Bolzenberechnung (H.G.)}{44}{}%
-\contentsline {section}{\numberline {5}Auslegung der Flügelschale nach Handbuchmethoden}{46}{}%
-\contentsline {subsection}{\numberline {5.1}Schubfluss}{46}{}%
-\contentsline {subsubsection}{\numberline {5.1.1}Theorie (O.S.)}{46}{}%
-\contentsline {paragraph}{Zylindrische, dünnwandige Profile}{46}{}%
-\contentsline {paragraph}{Koordinatensysteme}{46}{}%
-\contentsline {subsubsection}{\numberline {5.1.2}Idealisierung}{48}{}%
-\contentsline {subsubsection}{\numberline {5.1.3}Schwerpunktkoordinaten}{49}{}%
-\contentsline {subsubsection}{\numberline {5.1.4}Schubmittelpunkt}{52}{}%
-\contentsline {subsubsection}{\numberline {5.1.5}Torsion (O.S.)}{54}{}%
-\contentsline {subsubsection}{\numberline {5.1.6}Schubspannung (O.S.)}{56}{}%
-\contentsline {subsection}{\numberline {5.2}Auslegung der Flügelschale nach Klassischer Laminattheorie}{58}{}%
-\contentsline {subsubsection}{\numberline {5.2.1}$eLamX^{2}$ (T.B.)}{58}{}%
-\contentsline {subsection}{\numberline {5.3}Beulabschätzung der Flügelschale (T.B.)}{59}{}%
-\contentsline {section}{\numberline {6}Numerische Berechnung}{61}{}%
-\contentsline {subsection}{\numberline {6.1}Warum FEM? (O.S.)}{61}{}%
-\contentsline {subsection}{\numberline {6.2}Wie funktioniert FEM? (O.S.)}{61}{}%
-\contentsline {subsubsection}{\numberline {6.2.1}Schwache Lösung der Elastostatik}{61}{}%
-\contentsline {subsubsection}{\numberline {6.2.2}Diskretisierung}{62}{}%
-\contentsline {subsection}{\numberline {6.3}ABAQUS Analyse (H.G.)}{63}{}%
-\contentsline {subsubsection}{\numberline {6.3.1}Modell}{63}{}%
-\contentsline {subsubsection}{\numberline {6.3.2}Analyse}{66}{}%
-\contentsline {subsubsection}{\numberline {6.3.3}Beulanalyse}{68}{}%
-\contentsline {section}{\numberline {7}CAD-Konstruktion des Flügels (H.K.)}{69}{}%
-\contentsline {subsection}{\numberline {7.1}Konstruktion der Gurte}{69}{}%
-\contentsline {subsection}{\numberline {7.2}Konstruktion des Stegs}{70}{}%
-\contentsline {subsection}{\numberline {7.3}Konstruktion der Haut und der Rippen}{72}{}%
-\contentsline {subsection}{\numberline {7.4}Holzkonstruktion an der Aufnahme der Hauptbolzen}{72}{}%
-\contentsline {subsection}{\numberline {7.5}Querkraftbolzen und Montage auf dem Teststand}{73}{}%
-\contentsline {section}{\numberline {8}Massenabschätzung (H.K.)}{75}{}%
-\contentsline {subsection}{\numberline {8.1}Masse der Gurte}{75}{}%
-\contentsline {subsection}{\numberline {8.2}Masse des Stegs}{75}{}%
-\contentsline {subsection}{\numberline {8.3}Masse der Haut}{76}{}%
-\contentsline {subsection}{\numberline {8.4}Masse der Holzklötze und Rippen}{77}{}%
-\contentsline {subsection}{\numberline {8.5}Abschätzung der Verklebungen und der Gesamtmasse}{78}{}%
-\contentsline {section}{\numberline {9}Bauanleitung für Flügelbau (T.B.)}{79}{}%
-\contentsline {section}{\numberline {10}Zusammenfassung}{82}{}%
-\contentsline {subsection}{\numberline {10.1}Die Berechnungen im Überblick (H.K.)}{82}{}%
-\contentsline {subsection}{\numberline {10.2}Gewichtsnormalisiertes Festigkeitskriterium (O.S.)}{84}{}%
->>>>>>> main
-\contentsline {subsection}{\numberline {10.3}Diskussion der Ergebnisse}{85}{}%
-\contentsline {subsection}{\numberline {10.4}Optimierungsmöglichkeiten}{85}{}%
-\contentsline {section}{\numberline {11}Quellenverzeichnis}{86}{}%
-\contentsline {section}{\numberline {12}Abbildungsverzeichnis}{88}{}%
-\contentsline {section}{\numberline {13}Tabellenverzeichnis}{90}{}%
-\contentsline {section}{\numberline {14}Anhang}{91}{}%
-\contentsline {subsection}{\numberline {14.1}Berechnung: Analytischen Lösung der Modellierung}{91}{}%
-\contentsline {subsection}{\numberline {14.2}Abbildungen}{93}{}%
+\contentsline {subsection}{\numberline {10.1}Die Berechnungen im Überblick (H.K.)}{84}{}%
+\contentsline {subsection}{\numberline {10.2}Gewichtsnormalisiertes Festigkeitskriterium (O.S.)}{86}{}%
+\contentsline {subsection}{\numberline {10.3}Diskussion der Ergebnisse}{87}{}%
+\contentsline {subsection}{\numberline {10.4}Optimierungsmöglichkeiten}{87}{}%
+\contentsline {section}{\numberline {11}Quellenverzeichnis}{88}{}%
+\contentsline {section}{\numberline {12}Abbildungsverzeichnis}{90}{}%
+\contentsline {section}{\numberline {13}Tabellenverzeichnis}{92}{}%
+\contentsline {section}{\numberline {14}Anhang}{93}{}%
+\contentsline {subsection}{\numberline {14.1}Berechnung: Analytischen Lösung der Modellierung}{93}{}%
+\contentsline {subsection}{\numberline {14.2}Abbildungen}{95}{}%
