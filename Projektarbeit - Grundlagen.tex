@@ -25,8 +25,8 @@ Für die Verwendung der Netztheorie sollte das Gelege zunächst in ein Hauptachs
 Da der gesamte Kraftfluss als Summe der Kraftflüsse in den einzelnen Fasern angenommen werden kann, lässt sich dadurch der Kraftfluss in den einzelnen Faserschichten und somit die benötigte Dicke der Schichten, bzw. die Anzahl der Lagen bestimmen.\cite{item3}
 
 In der Folgenden Berechnung wird die Netztheorie jedoch nicht verwendet, da die Auslegung mit der VDI 2013 erfolgt.
-\subsection{Klassische Laminattheorie (H.G.)}
-Das Prinzip der klassischen Laminattheorie ist die Beschreibung des Elastizitätsgesetzes eines FVK durch die Elastizitätsgesetze der einzelnen Schichten. Dies lässt sich durch die Annahme eines ideal elastischem und fehlerfrei verklebten FKV, wovon ein infinitesimales Scheibenelement betrachtet wird, realisieren. Zusätzlich gilt die Annahme, dass ein ebener Spannungszustand vorliegt, die Schnittspannungen über die Dicke konstant sind und keine Verwölbungen auftreten.\\
+\subsection{Klassische Laminattheorie (H.G.)}\label{CLT}
+Das Prinzip der klassischen Laminattheorie ist die Beschreibung des Elastizitätsgesetzes eines MSV durch die Elastizitätsgesetze der einzelnen Schichten. Dies lässt sich durch die Annahme eines ideal elastischem und fehlerfrei verklebten MSV, wovon ein infinitesimales Scheibenelement betrachtet wird, realisieren. Zusätzlich gilt die Annahme, dass ein ebener Spannungszustand vorliegt, die Schnittspannungen über die Dicke konstant sind und keine Verwölbungen auftreten.\\
 \noindent
 Der Kraftfluss $\hat{n}$ im ganzen Laminat lässt sich durch die Summe der Kraftflüsse in den einzelnen Schichten zusammensetzen.
 \begin{equation}
@@ -41,13 +41,38 @@ Der Kraftfluss $\hat{n}$ im ganzen Laminat lässt sich durch die Summe der Kraft
 \begin{equation}
 \hat{n}_{xy}=\hat{\tau}_{xy}\dot t=\sum n_{xyk}=\sum\sigma_{xyk}\dot t_{k}
 \end{equation}
-Mit der Annahme, dass die Verzerrung in allen Schichten gleich ist, lässt sich nun das Elastizitätsgesetz aufstellen.
+Nun lässt sich nun das Elastizitätsgesetz für den MSV aufstellen.
 \begin{equation}
-\lbrace n\rbrace= [A]\cdot \lbrace\varepsilon\rbrace
+\label{Aep}
+\lbrace \hat{n}\rbrace= [A]\cdot \lbrace\hat{\varepsilon}\rbrace
 \end{equation}
-$[A]$ ist hierbei die Steifigkeitsmatrix des FVK. Mit Hilfe der Kraftfluss- Spannungsbeziehung aus Gleichung \ref{Kraftfluss}, lässt sich dann auf die Spannung schließen.
+$[A]$ ist hierbei die Steifigkeitsmatrix des MSV. Mit Hilfe der Kraftfluss- Spannungsbeziehung aus Gleichung \ref{Kraftfluss}, lässt sich dann auf die Spannung schließen.
+\begin{gather}
+\begin{Bmatrix}
+\hat{\sigma}_{x}\\
+\hat{\sigma}_{y}\\
+\hat{\tau}_{xy}\\
+\end{Bmatrix}
+=
+\frac{1}{t}
+\begin{bmatrix}
+A_{11}&A_{12}&A_{16}\\
+A_{12}&A_{22}&A_{26}\\
+A_{16}&A_{26}&A_{66}
+\end{bmatrix}
+\cdot
+\begin{Bmatrix}
+\hat{\varepsilon}_{x}\\
+\hat{\varepsilon}_{y}\\
+\hat{\gamma}_{xy}\\
+\end{Bmatrix}
+\end{gather}
+Die Verzerrung des MSV und somit auch die Verzerrung der Einzelschichten, lässt sich nun durch die Umstelung von Gleichung \ref{Aep} bestimmen.
+\begin{equation}
+\lbrace\hat{\varepsilon}\rbrace = [A]^{-1}\cdot\lbrace \hat{n}\rbrace
+\end{equation}
 Als nächstes muss die Verzerrungsmatrix noch in die Richtung der Einzelschichten mit dem Faserwinkel $\alpha_{k}$ transformiert werden.\\
-Nun lässt sich mit Hilfe der E-Module und Querkontraktionszahlen die Spannung in den einzelnen Fasern bestimmen(siehe Glg\ref{Faserspannung}).
+Nun lässt sich mit Hilfe der E-Module und Querkontraktionszahlen die Spannung in den einzelnen Fasern bestimmen(siehe Glg \ref{Faserspannung}).
 \begin{gather}
 \label{Faserspannung}
 \begin{Bmatrix}
@@ -67,7 +92,49 @@ Nun lässt sich mit Hilfe der E-Module und Querkontraktionszahlen die Spannung i
 \gamma_{21}
 \end{Bmatrix}
 \end{gather}
+\noindent
 Um ein passende Anzahl an Faserschichten zu bekommen kann das Ergebnis nun iterativ angepasst werden.\cite{item3}
+\subsubsection{Ingenieurskonstanten des MSV}
+Für den einachsigen Spannungszustand lassen sich die Module und Querkontraktionszahlen für den MSV ableiten.
+Diese lassen sich experimentell über z.B. einen Zugversuch oder rechnerisch aus dem Elastizitätsgesetz des MSV bestimmen.
+\begin{equation}
+\hat{E}_{x}=\frac{1}{A_{11}^{-1}\cdot t}
+;
+\hat{E}_{y}=\frac{1}{A_{22}^{-1}\cdot t}
+;
+\hat{G}_{xy}=\frac{1}{A_{66}^{-1}\cdot t}
+;
+\hat{\nu}_{xy}=-\frac{A_{12}^{-1}}{A_{22}^{-1}}
+;
+\hat{\nu}_{yx}=-\frac{A_{12}^{-1}}{A_{11}^{-1}}
+\end{equation}
+\noindent
+Bei den Elastizitätsmodule ist darauf zu achten, dass es sich um Module ohne Querkontraktionsbehinderung handelt.\cite{item3}
+
+\subsection{Mischungsregel (H.G.)}
+Um die Materialkonstanten des FKV zu ermitteln kann die Mischungsregel verwendet werden. Darin werden die Mateialkonstanten der Fasern und der Matrix im Verhältnis zu ihrem Massenanteil zu einer FKV-Materialkonstante zusammengestellt.\\
+\noindent
+Der E-Modul parallel (siehe Glg. \ref{Eparallel}) und orthogonal (siehe Glg. \ref{Eorthogonal}) kann mit den E-Modulen von Faser und Matrix, sowie dem Faservolumenanteil $\varphi$ errechnet werden. Für den E-Modul orthogonal zur Faserrichtung wird zusätzlich die Querkontraktionszahl $\nu_{m}$ der Matrix benötigt.
+\begin{equation}
+\label{Eparallel}
+E_{\|}=E_{f\|}\cdot \varphi+E_{m}\cdot (1-\varphi)
+\end{equation}
+
+\begin{equation}
+\label{Eorthogonal}
+E_{\bot}=\frac{E_{m}}{1-\nu_{m}^{2}}\cdot \frac{1}{(1-\varphi)\cdot\frac{E_{m}}{(1-\nu_{m}^{2})\cdot E_{f\bot}}\cdot\varphi}
+\end{equation}
+\noindent
+Der Schubmodul in Faser-Quer-Längs-Richtung kann ebenfalls durch die Schubmodule der Fasern und der Matrix ermittelt werden.
+\begin{equation}
+G_{\bot\|}=G_{m}\frac{1}{(1-\varphi)+\frac{G_{m}}{G_{f\bot\|}}\cdot\varphi}
+\end{equation}
+Außerdem lassen sich die Querkontraktionszahlen berechnen.
+\begin{equation}
+\nu_{\bot\|}=\varphi\cdot \nu_{f\bot\|}+(1-\varphi)\cdot \nu_{m}
+\end{equation}
+Aus diesen Werten lassen sich alle weiteren durch die Beziehungen zwischen den Materialkonstanten berechnen.\cite{item3}
+
 \subsection{Versagenskriterium nach Puck (O.S.)}
 Da für einen anisotropen FKV nicht das Versagen mittels einer allgemeinen resultierenden Spannung für jeden Lastfall ermittelt werden kann, müssen Versagenskriterien für die speziellen Beanspruchungsmodi definiert werden. Für die in dieser Projektarbeit durchgeführten Auslegungen wurden die Festigkeitskriterien von Puck verwendet. Hierbei werden die einzelnen UD-Schichten des Laminats getrennt betrachtet. Auch wenn diese Betrachtungen physikalisch begründet sind (vgl. \cite{EdL}), hat dies zur Folge, dass Effekte wie Delamination nicht berücksichtigt werden.
 \subsubsection{Definitionen}

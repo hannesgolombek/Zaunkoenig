@@ -1,16 +1,56 @@
 \subsubsection{Beispielrechnung nach Klassischer Laminattheorie}
-Nachdem im Kapitel . . .  eine Einführung in die klassische Laminattheorie gegeben wurde, wird im Folgenden eine Beispielrechnung, beginnen mit Materialdaten, bis zu den Ingenieurskonstanten eines Lagenaufbaus vorgestellt. Auf diese Berechnungsmethoden bezieht sich die Software $eLamX^{2}$, vorgestellt im folgendem Unterkapitel \ref{elamx}.
+Nachdem im Kapitel \ref{CLT} eine Einführung in die klassische Laminattheorie gegeben wurde, wird im Folgenden eine Beispiel-Berechnung eines Lagenaufbaus vorgestellt. Diese beginnt mit den Materialdaten der verwendeten Faser und Matrix und führt bis zu den resuktierenden Ingenieurskonstanten. Als repäsentatives Beispiel wird ein Laminat aus zwei Lagen Interglas 92145 mit einer Faserwinkeldifferenz von $\Delta\alpha =90°$ gewählt. Wie zuvor wird auch hier der Faservolumengehalt $\varphi = 40\%$ genutzt, sodass die Gesamtdicke sich zu $t= 2\cdot 0,216mm=0,432mm$ beträgt. \\
 
-Für eine repräsentative Vorstellung soll ein Lagenaufbau 
+\noindent Anhand der gegebenen Aufgabenstellung sind Materialdaten der Fasern und der Matrix gegeben, die nachfolgend benötigt werden:\\
+
+\begin{tabular}{ll|ll}
+	\multicolumn{2}{c}{Fasermaterial} &\multicolumn{2}{c}{Matrixmaterial}\\
+	\hline
+	$\rho_{f}$ & $2,55 \frac{g}{cm^{3}}$  & $\rho_{m}$ & $1,18 \frac{g}{cm^{3}}$\\
+	\hline
+	$E_{f,\parallel}$ & $74000MPa$  & $E_{M}$ & $3300MPa$\\
+	\hline
+	$E_{f,\perp\perp}$ & $74000MPa$  &  & - \\
+	\hline
+	$G_{f,\parallel\perp}$ & $30800MPa$ &  & - \\
+	\hline
+	$\nu_{f,\perp\parallel}$ & $0,2$  &$\nu_{m}$ &  $0,35$\\
+\end{tabular}\\
+
+\noindent Da es sich dabei nur um reine, isotrope Materialien handelt, gelten $\nu_{f,\perp\parallel} = \nu_{f,\parallel\perp}$ und $G_{f,\parallel\perp} = G_{f,\perp\parallel}$. Der Schubmodul der Matrix berechnet sich zu
+\begin{equation}
+ 	G_{m}=\frac{E_{M}}{2\cdot (1+\nu_{m})}=1222MPa
+\end{equation}.\\
+
+\noindent Nun werden anhand der Mischungsregel, jedoch ohne eine Beachtung von Querkontraktionsbehinderungen der Matrix durch die Fasern, Kennwerte einer einzelnen Lage Interglas 92145 bestimmt:
+
+\begin{equation}
+	\rho=\rho_{F}\cdot\varphi +\rho_{M}\cdot (1-\varphi)=1,728\frac{g}{cm^{3}}
+\end{equation}
+\begin{equation}
+	E_{\parallel}=E_{f,\parallel}\cdot \varphi+E_{m}\cdot (1-\varphi)=31580 MPa
+\end{equation}
+\begin{equation}
+	E_{\perp}=\frac{E_{f,\perp}\cdot E_{m}}{E_{m}\cdot \varphi+E_{f,\perp}\cdot (1-\varphi)}=5341MPa
+\end{equation}
+\begin{equation}
+	\nu_{\perp\parallel}=\nu_{f,\perp\parallel}\cdot\varphi+\nu_{m}\cdot(1-\varphi)=0,29
+\end{equation}
+\begin{equation}
+	\nu_{\parallel\perp}=\nu_{\perp\parallel}\cdot\frac{E_{\parallel}}{E_{\perp}}=0,049
+\end{equation}\\
+
+\noindent Mit diesen Moduln und Querkontraktionszahlen wird im weiteren die Steifigkeitsmatrix des gesamten Laminats, transformiert in Koordinatensystem.Hauptrichtungen $x$ und $y$ bestimmt. Begonnen wird mit der Steifigkeitsmatrix einer einzelnen Gewebelage, bezogen wird sich auf dessen Faserrichtung.
+
 
 
 \subsubsection{$eLamX^{2}$ (T.B.)}\label{elamx}
 $eLamX^{2}$ ist ein Laminat-Berechnungsprogramm der TU Dresden, Es kann anhand der klassischen Laminattheorie mit unterschiedlichen Versagenskriterien berechnen, inwiefern ein gewählter Lagenaufbau den Festigkeitskriterien gerecht wird. Zusätzlich sind weitere Funktionen, wie zum Beispiel Beulberechnungen, Optimierungen etc. nutzbar und andere Einflüssse, z.B. Temperatureinflüsse anwendbar, jedoch für diese Auslegung irrelevant.
 
-\noindent Vorerst wurden die gegeben Materialeigenschaften der Aufgabenstellung als Fasermaterial, Matrixmaterial und  Materialeigenschaften definiert.\\
+\noindent Auch hier wurden vorerst die gegeben Materialeigenschaften der Aufgabenstellung als Fasermaterial, Matrixmaterial und  UD-Festigkeitskennwerte definiert.\\
 
 \begin{tabular}{ll|ll|ll}
-	\multicolumn{2}{c}{Fasermaterial} &\multicolumn{2}{c}{Matrixmaterial}  &\multicolumn{2}{c}{Materialeigenschaften} \\
+	\multicolumn{2}{c}{Fasermaterial} &\multicolumn{2}{c}{Matrixmaterial}  &\multicolumn{2}{c}{UD-Festigkeitskennwerte} \\
 	\hline
 	$\rho_{f}$ & $2,55 \frac{g}{cm^{3}}$  & $\rho_{m}$ & $1,18 \frac{g}{cm^{3}}$  & $R_{\parallel}^{+}$ & $597,9MPa$ \\
 	\hline

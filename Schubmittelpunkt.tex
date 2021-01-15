@@ -46,7 +46,7 @@ Hier lässt sich direkt erkennen, wie diese Formel durch die Wahl eines besseren
 	q_{0} = q_{0b}+q_{0T}
 \end{equation}
 ist nur bei geschlossenen Profilen ungleich null. Sie sich aus einem Teil, der aus der Biegung entsteht $q_{0b}$ und einem aus der Torsion $q_{0T}$ zusammen. Es gibt einen Punkt in der y-z-Ebene für jedes Profil, wo eine angreifende Kraft keine Torsion verursacht. Dieser Punkt ist von hoher Bedeutung und wir Schubmittelpunkt genannt.
-\subsubsection{Idealisierung}
+\subsubsection{Idealisierung(H.G.)}
 Für die Berechnung des Schubmittelpunkts wird das Flügelprofil als vereinfachter Mehrzeller angenommen.
 Dabei wird der Ursprung des Koordinatensystems am unteren rechten Rand gesetzt. Das Modell wird in 10 Teilstrecken $s_{i}$ aufgeteilt. Die Dicke $t$ wird über die Schale konstant angenommen. Der Schaum wird in allen Abschnitten der Schale und im Holm vernachlässigt, da seine Hauptaufgabe der Beulsteifigkeit gilt und er bei der Schubaufnahme im Vergleich zum Laminat nur eine unbedeutende Rolle spielt. Der Steg ist in 2 Abschnitte unterteilt. Für die maximale Belastung und somit für die Auslegung relevant ist nur der Teil mit dem dünneren Gewebe, sodass hier für die Dicke des Stegs $t_{1}=0,314\mathrm{mm}$ angenommen wird. Für die Gurte gilt, dass alle Fasern parallel in x-Richtung ausgerichtet sind. Sie werden in dieser Rechnung ignoriert, da sie folglich im Gegensatz zum $\pm45^\circ$-Gewebe vernachlässigbare Schubkräfte aufnehmen können (D = $t$). Außerdem würde ein über die Dicke variabler Schubmodul die Rechnung unnötig verkomplizieren, da die uns bekannten Methoden zur Schubflussberechnung nur für homogene Werkstoffe gültig sind \cite{item15}.
 
@@ -59,7 +59,7 @@ Abbildung \ref{Fluegel1} zeigt, dass der Profil durch 4 geraden Strecken und ein
  \caption{vereinfachtes Model}
  \label{Fluegel1}
 \end{figure}
-\subsubsection{Schwerpunktkoordinaten}\label{SP-Koord}
+\subsubsection{Schwerpunktkoordinaten(H.G.)}\label{SP-Koord}
 Zunächst wird von einer Dicke $t=0,2\mathrm{mm}$ ausgegangen und die statischen Momente in den einzelnen Teilstücken berechnet.
 \begin{equation}\label{SM1}
 	S_{z}=\int_{A}^{}y \mathrm{d}A =t\int_{s}^{}y \mathrm{d}s
@@ -177,7 +177,7 @@ Aus dem Zusammenhang
 \end{equation}
 nach \cite{item15} lässt sich erkennen, dass der Winkel ($\varphi =-3,15^\circ$) zwischen dem Hauptachsen- und Schwerpunkt-Koordinatensystem nur sehr gering ist. Im Folgenden finden alle Betrachtungen trotzdem weiterhin mit den Koordinatenachsen in dieser Ausrichtung statt.
 
-\subsubsection{Schubmittelpunkt}
+\subsubsection{Schubmittelpunkt(H.G.)}
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\textwidth]{Bilder/Flügel-Pol-offen}
@@ -219,6 +219,11 @@ Nach \cite{item15}:
 \begin{equation}
 	\vartheta_{i} = \frac{1}{2A_{0i}G}(\oint\frac{q_{offen}(s)}{t(s)}ds+q_{0b,i}\oint\frac{1}{t(s)}ds-q_{0b,i\pm1}\int\frac{1}{t(s)})
 \end{equation}
+Die Verwindung ist als spezifischer Drillwinkel mit
+\begin{equation}
+	\vartheta = \frac{d\varphi}{dx}
+\end{equation}
+definiert, wobei der $\varphi$ den Drillwinkel angibt.
 Mit den Werten für die umschlossenen Flächen
 $$
 	A_{01}=3087,57\mathrm{mm}^2
@@ -265,11 +270,11 @@ In den bisherigen Berechnungen wurde immer davon ausgegangen, dass die Kraft im 
 \begin{equation}
 	M_{xT}=(y_{l/4}-y_{0})\cdot F
 \end{equation}
-entsteht, das noch zusätzlichen Schubfluss und eine Verdrillung $\vartheta$ bewirkt. Genauer gesagt wird hier die St. Vernatsche Torsion behandelt, bei der zwar Verwölbung auftritt, diese aber nicht behindert wird \cite{item15}. Wieder können die konstanten Schubanteile $q_{0T,i}$ aus der Momentenäquivalenz und der Verdrillung bestimmt werden. Wobei zu beachten ist, dass der Drillwinkel hier nicht mehr wie bei der reinen Biegung null ist, aber über die Verträglichkeitsbedingung weiterhin gelten muss
+entsteht, das noch zusätzlichen Schubfluss und eine Verwindung $\vartheta$ bewirkt. Genauer gesagt wird hier die St. Vernatsche Torsion behandelt, bei der zwar Verwölbung auftritt, diese aber nicht behindert wird \cite{item15}. Wieder können die konstanten Schubanteile $q_{0T,i}$ aus der Momentenäquivalenz und der Verwindung bestimmt werden. Wobei zu beachten ist, dass die Verwindung hier nicht mehr wie bei der reinen Biegung null ist, aber über die Verträglichkeitsbedingung weiterhin gelten muss
 \begin{equation}
 	\vartheta_{1}=\vartheta_{2}=\vartheta.
 \end{equation}
-Da die bisherigen Anteile des Schubflusses definitionsgemäß weder Verdrillung verursachen, noch bezüglich des Schubmittelpunkts ein Moment kompensieren, fallen sie aus den Gleichungen raus. Es bleiben nur noch die Konstanten $q_{0T,i}$ übrig. Damit ergeben sich die vereinfachten Formeln für die Verdrillung und die Momentenäqivalenz:
+Da die bisherigen Anteile des Schubflusses definitionsgemäß weder Verwindung verursachen, noch bezüglich des Schubmittelpunkts ein Moment kompensieren, fallen sie aus den Gleichungen raus. Es bleiben nur noch die Konstanten $q_{0T,i}$ übrig. Damit ergeben sich die vereinfachten Formeln für die Verwindung und die Momentenäqivalenz:
 \begin{equation}\label{verdrillung}
 	\vartheta_{i} = \frac{1}{2A_{0i}G}(q_{0T,i}\oint\frac{1}{t(s)}ds-q_{0T,i\pm1}\int\frac{1}{t(s)}ds)
 \end{equation}
@@ -283,13 +288,14 @@ $$
 $$
 	q_{0T,2}=-1,51\mathrm{N/mm}.
 $$
-Setzt man nun diese Werte in Gleichung (\ref{verdrillung}) erhält man für beide Zellen einen Drillwinkel von
+Setzt man nun diese Werte in Gleichung (\ref{verdrillung}) erhält man für beide Zellen einer Verwindung von
 $$
 	\vartheta =-0,00195 ^\circ.
 $$
+Integriert man diesen konstanten Wert über die gesamte Länge des Flügels, erhält man den Drillwinkel am Ende mit $\varphi = -1,5^\circ$.
 
 \subsubsection{Schubspannung (O.S.)}
-Das Ziel dieser Berechnung war nicht nur den Schubmittelpunkt und die Verdrillung zu bestimmen, sondern hauptsächlich die Schubspannung in der Haut zu erhalten, um diese auslegen zu können. Da die Hautdicke auf dem gesamten Umfang konstant bleiben soll, ist an dieser Stelle nur die maximale Schubspannung für alle Bereiche der Haut $\tau_{max}$, die sich einfach aus Gleichung (\ref{tau}) ermitteln lässt, interessant. Die Dicke $t$ ist jedoch nicht einfach aus den gesamten Rechnungen rausziehbar, weil es auch Anteile, wie zum Beispiel den Holm, gibt, die von $t$ unabhängig sind. Deswegen wird iterativ vorgegangen, wobei zuerst mit einer zufällig gewählten Dicke die Rechenschritte durchgeführt werden, in dem in diesem Kapitel gezeigten Fall mit $t=0,2\mathrm{mm}$. Am Ende der Berechnung wird aus den maximalen Schubfluss die minimale Dicke
+Das Ziel dieser Berechnung war nicht nur den Schubmittelpunkt und den Drillinkel zu bestimmen, sondern hauptsächlich die Schubspannung in der Haut zu erhalten, um diese auslegen zu können. Da die Hautdicke auf dem gesamten Umfang konstant bleiben soll, ist an dieser Stelle nur die maximale Schubspannung für alle Bereiche der Haut $\tau_{max}$, die sich einfach aus Gleichung (\ref{tau}) ermitteln lässt, interessant. Die Dicke $t$ ist jedoch nicht einfach aus den gesamten Rechnungen rausziehbar, weil es auch Anteile, wie zum Beispiel den Holm, gibt, die von $t$ unabhängig sind. Deswegen wird iterativ vorgegangen, wobei zuerst mit einer zufällig gewählten Dicke die Rechenschritte durchgeführt werden, in dem in diesem Kapitel gezeigten Fall mit $t=0,2\mathrm{mm}$. Am Ende der Berechnung wird aus den maximalen Schubfluss die minimale Dicke
 \begin{equation}
 	t_{min} = \frac{q_{max}}{R_{\tau}}.
 \end{equation} 
@@ -306,11 +312,11 @@ $$
 	y_{M_{g}}=69,29\mathrm{mm}
 $$
 $$
-	z_{M_{g}}=-20,27\mathrm{mm}.
+	z_{M_{g}}=-22,85\mathrm{mm}.
 $$
 Auch der Drillwinkel vergrößert sich leicht durch die gesenkte dünnere Haut Steifigkeit zu
 $$
-	\vartheta =-0,0024 ^\circ.
+	\varphi =-1,87 ^\circ.
 $$
 Aus den Verläufen der Schubflüsse, wie sie in Abbildung \ref{fig:S1}-\ref{fig:S10} zu sehen, erkennt man, dass die betragsmäßig maximale Schubspannung am Endpunkt des Bereichs 8 auftritt.
 $$
