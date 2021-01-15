@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  15 JAN 2021 23:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  15 JAN 2021 23:48
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -795,6 +795,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+
+ []
+
 ) [36] ("Auslegung nach Puck.tex"
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 2.
@@ -1010,7 +1025,7 @@ OT1/cmr/m/n/10.95 8\OML/cmm/m/it/10.95 MPa$\T1/cmr/m/n/10.95 .
 [64]) [65] ("Projektarbeit - FEM.tex"
 Overfull \hbox (81.96887pt too wide) in paragraph at lines 5--6
 \T1/cmr/m/n/10.95 Für die Be-rech-nung der Elas-to-sta-tik sind die Gleich-ge-w
-ichts-be-din-gung (185[]), Verzerrungs-Verschiebungsbedingung
+ichts-be-din-gung (188[]), Verzerrungs-Verschiebungsbedingung
  []
 
 [66]) [67] (abaqus.tex
@@ -1737,7 +1752,7 @@ ts/cm/cmr8.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (129 pages, 4681979 bytes).
+Output written on "Projektarbeit - Main.pdf" (129 pages, 4682525 bytes).
 PDF statistics:
  1055 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
