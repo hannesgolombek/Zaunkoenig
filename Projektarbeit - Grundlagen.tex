@@ -26,7 +26,7 @@ Da der gesamte Kraftfluss als Summe der Kraftflüsse in den einzelnen Fasern ang
 
 In der Folgenden Berechnung wird die Netztheorie jedoch nicht verwendet, da die Auslegung mit der VDI 2013 erfolgt.
 \subsection{Klassische Laminattheorie (H.G.)}
-Das Prinzip der klassischen Laminattheorie ist die Beschreibung des Elastizitätsgesetzes eines FVK durch die Elastizitätsgesetze der einzelnen Schichten. Dies lässt sich durch die Annahme eines ideal elastischem und fehlerfrei verklebten FKV, wovon ein infinitesimales Scheibenelement betrachtet wird, realisieren. Zusätzlich gilt die Annahme, dass ein ebener Spannungszustand vorliegt, die Schnittspannungen über die Dicke konstant sind und keine Verwölbungen auftreten.\\
+Das Prinzip der klassischen Laminattheorie ist die Beschreibung des Elastizitätsgesetzes eines MSV durch die Elastizitätsgesetze der einzelnen Schichten. Dies lässt sich durch die Annahme eines ideal elastischem und fehlerfrei verklebten MSV, wovon ein infinitesimales Scheibenelement betrachtet wird, realisieren. Zusätzlich gilt die Annahme, dass ein ebener Spannungszustand vorliegt, die Schnittspannungen über die Dicke konstant sind und keine Verwölbungen auftreten.\\
 \noindent
 Der Kraftfluss $\hat{n}$ im ganzen Laminat lässt sich durch die Summe der Kraftflüsse in den einzelnen Schichten zusammensetzen.
 \begin{equation}
@@ -41,11 +41,36 @@ Der Kraftfluss $\hat{n}$ im ganzen Laminat lässt sich durch die Summe der Kraft
 \begin{equation}
 \hat{n}_{xy}=\hat{\tau}_{xy}\dot t=\sum n_{xyk}=\sum\sigma_{xyk}\dot t_{k}
 \end{equation}
-Mit der Annahme, dass die Verzerrung in allen Schichten gleich ist, lässt sich nun das Elastizitätsgesetz aufstellen.
+Nun lässt sich nun das Elastizitätsgesetz für den MSV aufstellen.
 \begin{equation}
-\lbrace n\rbrace= [A]\cdot \lbrace\varepsilon\rbrace
+\label{Aep}
+\lbrace \hat{n}\rbrace= [A]\cdot \lbrace\hat{\varepsilon}\rbrace
 \end{equation}
-$[A]$ ist hierbei die Steifigkeitsmatrix des FVK. Mit Hilfe der Kraftfluss- Spannungsbeziehung aus Gleichung \ref{Kraftfluss}, lässt sich dann auf die Spannung schließen.
+$[A]$ ist hierbei die Steifigkeitsmatrix des MSV. Mit Hilfe der Kraftfluss- Spannungsbeziehung aus Gleichung \ref{Kraftfluss}, lässt sich dann auf die Spannung schließen.
+\begin{gather}
+\begin{Bmatrix}
+\hat{\sigma}_{x}\\
+\hat{\sigma}_{y}\\
+\hat{\tau}_{xy}\\
+\end{Bmatrix}
+=
+\frac{1}{t}
+\begin{bmatrix}
+A_{11}&A_{12}&A_{16}\\
+A_{12}&A_{22}&A_{26}\\
+A_{16}&A_{26}&A_{66}
+\end{bmatrix}
+\cdot
+\begin{Bmatrix}
+\hat{\varepsilon}_{x}\\
+\hat{\varepsilon}_{y}\\
+\hat{\gamma}_{xy}\\
+\end{Bmatrix}
+\end{gather}
+Die Verzerrung des MSV und somit auch die Verzerrung der Einzelschichten, lässt sich nun durch die Umstelung von Gleichung \ref{Aep} bestimmen.
+\begin{equation}
+\lbrace\hat{\varepsilon}\rbrace = [A]^{-1}\cdot\lbrace \hat{n}\rbrace
+\end{equation}
 Als nächstes muss die Verzerrungsmatrix noch in die Richtung der Einzelschichten mit dem Faserwinkel $\alpha_{k}$ transformiert werden.\\
 Nun lässt sich mit Hilfe der E-Module und Querkontraktionszahlen die Spannung in den einzelnen Fasern bestimmen(siehe Glg\ref{Faserspannung}).
 \begin{gather}
