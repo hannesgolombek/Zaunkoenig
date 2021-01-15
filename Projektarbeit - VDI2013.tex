@@ -136,4 +136,67 @@ Die Anzahl der notwendigen Gewebelagen n im Steg lässt sich nun durch Umstellen
 \end{equation}
 Damit ergibt sich die Lagenanzahl bei einer Prüfrkraft $ F_{pruef}=500N $ von $ n\left(500N\right)=1,99 $ für den Bereich $ 3 $ und $ n\left(5085,5N\right)=18,13 $ für den Bereich $ 1 $. Bereich $ 2 $ erfährt eine Querkraft von $Q_{2}=0N $. Da dieser Bereich sehr kurz ist, wird er so wie Bereich $ 1 $ belegt. Um einen symmetrischen Lagenaufbau im Falle einer Sandwichkonstruktion zu ermöglichen, sind also $ 2 $ Lagen für den Bereich $ 3 $ und $ 20 $ Lagen für die Bereiche $ 1 $ und $ 2 $ vorzusehen.\\
 
-\noindent Es ist zu betonen, dass diese Lagenanzahlen maßgeblich durch die Annahmen der Dimensionierungskennwerte $ K_{E\#} $ und $ K_{\sigma d} $ beeinflusst werden. Aus oben genannten Gründen können sie nicht als für diesen Fall exakt angenommen werden. Im Kapitel \ref{Puck} wird die hier ermittelte Lagenanzahl mit tatsächlichen Laminatkennwerten und einem Laminatrechner überprüft und angepasst.
+\noindent Es ist zu betonen, dass diese Lagenanzahlen maßgeblich durch die Annahmen der Dimensionierungskennwerte $ K_{E\#} $ und $ K_{\sigma d} $ beeinflusst werden. Aus oben genannten Gründen können sie nicht als für diesen Fall exakt angenommen werden. Im Kapitel \ref{Puck} wird die hier ermittelte Lagenanzahl mit tatsächlichen Laminatkennwerten und einem Laminatrechner überprüft und angepasst.\\
+
+Zwischenspeicher der Matrizen\\
+
+
+%Steigifkeitsmatrix Q
+$ \underline{\sigma}=\underline{\underline{Q}} \cdot \underline{\epsilon} $\\
+
+\begin{equation}
+\begin{pmatrix}
+	\sigma_{1}\\
+	\sigma_{2}\\
+	\tau_{12}\\
+\end{pmatrix} 
+= \begin{bmatrix}
+	\frac{E_{\|}}{1-\nu_{\perp \|}\cdot \nu_{\| \perp}}&	\frac{\nu_{\| \perp}\cdot E_{\|}}{1-\nu_{\perp \|}\cdot \nu_{\| \perp}}&0\\
+	
+	\frac{\nu_{\perp \|}\cdot E_{\perp}}{1-\nu_{\perp \|}\cdot \nu_{\| \perp}}&\frac{E_{\perp}}{1-\nu_{\perp \|}\cdot \nu_{\| \perp}}&0\\
+	
+	0&0
+\end{bmatrix}
+\cdot 
+\begin{pmatrix}
+	\epsilon_{1}\\
+	\epsilon_{2}\\
+	\gamma_{21}
+\end{pmatrix}
+\end{equation}\\
+
+
+%Q-Strich gleich T mal Q mal T transpo
+
+\begin{equation}
+	\overline{\underline{\underline{Q}}}=\underline{\underline{T}}\cdot \underline{\underline{Q}} \cdot \underline{\underline{T}}^{T}  
+\end{equation}\\
+
+%Trafomatrix T
+
+\begin{equation}
+	\underline{\underline{T}}=
+	\begin{bmatrix}
+		\cos^{2}\alpha&\sin^{2}\alpha&-\sin 2\alpha\\
+		\sin^{2}\alpha&\cos^{2}\alpha&\sin 2\alpha\\
+		0,5\cdot \sin2\alpha&-0,5\cdot\sin2\alpha&\cos 2\alpha
+	\end{bmatrix}
+\end{equation}\\
+
+%ABD
+
+\begin{equation}
+	\begin{pmatrix}
+	\hat{\underline{n}}\\
+	\hat{\underline{m}}
+	\end{pmatrix}
+= \begin{bmatrix}
+	\underline{\underline{A}}&\underline{\underline{B}}\\
+	\underline{\underline{B}}&\underline{\underline{D}}
+\end{bmatrix}
+\cdot \begin{pmatrix}
+	\underline{\epsilon}\\
+	\underline{\kappa}
+\end{pmatrix}
+\end{equation}
+
