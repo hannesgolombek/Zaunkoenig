@@ -173,5 +173,48 @@ Damit ergibt sich die Lagenanzahl bei einer Prüfrkraft $ F_{pruef}=500N $ von $
 	\underline{\epsilon}\\
 	\underline{\kappa}
 \end{pmatrix}
+\end{equation}\\
+
+\begin{equation}
+\begin{pmatrix}
+		\hat{n}_{x}\\
+	\hat{n}_{y}\\
+	\hat{n}_{xy}\\
+	\\
+	\hat{m}_{x}\\
+	\hat{m}_{y}\\
+	\hat{m}_{xy}
+\end{pmatrix}
+=\begin{bmatrix}
+	A_{11}&A_{12}&A_{16}&&B_{11}&B_{12}&B_{13}\\
+	A_{12}&A_{22}&A_{26}&&B_{12}&B_{22}&B_{26}\\
+	A_{16}&A_{26}&A_{66}&&B_{16}&B_{26}&B_{66}\\
+	\\
+	B_{11}&B_{12}&B_{16}&&D_{11}&D_{12}&D_{16}\\
+	B_{12}&B_{22}&B_{26}&&D_{12}&D_{22}&D_{26}\\
+	B_{16}&B_{26}&B_{66}&&D_{16}&D_{12}&D_{16}\\
+\end{bmatrix}
+\cdot \begin{pmatrix}
+	\epsilon_{x}\\
+	\epsilon_{y}\\
+	\gamma_{xy}\\
+	\\
+	\kappa_{x}\\
+	\kappa_{y}\\
+	\kappa_{xy}
+\end{pmatrix}
+\end{equation}\\
+
+%Definitionen der ABD
+\begin{equation}
+	A_{ij}= \sum_{k=1}^{n} \overline{Q}_{ij,k}\cdot t_{k}
+\end{equation}\\
+
+\begin{equation}
+	B_{ij}= \cdot \sum_{k=1}^{n} \overline{Q}_{ij,k}\cdot t_{k}\cdot \left(z_{k}-\frac{t_{k}}{2}\right)
+\end{equation}\\
+
+\begin{equation}
+	D_{ij}=\sum_{k=1}^{n} \overline{Q}_{ij,k}\cdot \left(\frac{t_{k}^{3}}{12}+t_{k}\left(z_{k}-\frac{t_{k}}{2}\right)^{2}\right)
 \end{equation}
 
