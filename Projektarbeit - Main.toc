@@ -61,30 +61,30 @@
 \contentsline {subsubsection}{\numberline {6.2.2}Diskretisierung}{64}{}%
 \contentsline {subsection}{\numberline {6.3}ABAQUS Analyse (H.G.)}{65}{}%
 \contentsline {subsubsection}{\numberline {6.3.1}Modell}{65}{}%
-\contentsline {subsubsection}{\numberline {6.3.2}Analyse}{68}{}%
-\contentsline {subsubsection}{\numberline {6.3.3}Beulanalyse}{70}{}%
-\contentsline {section}{\numberline {7}CAD-Konstruktion des Flügels (H.K.)}{71}{}%
-\contentsline {subsection}{\numberline {7.1}Konstruktion der Gurte}{71}{}%
-\contentsline {subsection}{\numberline {7.2}Konstruktion des Stegs}{72}{}%
-\contentsline {subsection}{\numberline {7.3}Konstruktion der Haut und der Rippen}{74}{}%
-\contentsline {subsection}{\numberline {7.4}Holzkonstruktion an der Aufnahme der Hauptbolzen}{74}{}%
-\contentsline {subsection}{\numberline {7.5}Querkraftbolzen und Montage auf dem Teststand}{75}{}%
-\contentsline {section}{\numberline {8}Massenabschätzung (H.K.)}{77}{}%
-\contentsline {subsection}{\numberline {8.1}Masse der Gurte}{77}{}%
-\contentsline {subsection}{\numberline {8.2}Masse des Stegs}{77}{}%
-\contentsline {subsection}{\numberline {8.3}Masse der Haut}{78}{}%
-\contentsline {subsection}{\numberline {8.4}Masse der Holzklötze und Rippen}{79}{}%
-\contentsline {subsection}{\numberline {8.5}Abschätzung der Verklebungen und der Gesamtmasse}{80}{}%
-\contentsline {section}{\numberline {9}Bauanleitung für Flügelbau (T.B.)}{81}{}%
-\contentsline {section}{\numberline {10}Zusammenfassung}{84}{}%
-\contentsline {subsection}{\numberline {10.1}Die Berechnungen im Überblick (H.K.)}{84}{}%
-\contentsline {subsection}{\numberline {10.2}Die Konstruktion und FEM-Analyse im Überblick (H.K.)}{87}{}%
-\contentsline {subsection}{\numberline {10.3}Gewichtsnormalisiertes Festigkeitskriterium (O.S.)}{88}{}%
-\contentsline {subsection}{\numberline {10.4}Diskussion der Ergebnisse}{89}{}%
-\contentsline {subsection}{\numberline {10.5}Optimierungsmöglichkeiten}{89}{}%
-\contentsline {section}{\numberline {11}Quellenverzeichnis}{90}{}%
-\contentsline {section}{\numberline {12}Abbildungsverzeichnis}{92}{}%
-\contentsline {section}{\numberline {13}Tabellenverzeichnis}{94}{}%
-\contentsline {section}{\numberline {14}Anhang}{95}{}%
-\contentsline {subsection}{\numberline {14.1}Berechnung: Analytischen Lösung der Modellierung}{95}{}%
-\contentsline {subsection}{\numberline {14.2}Abbildungen}{97}{}%
+\contentsline {subsubsection}{\numberline {6.3.2}Analyse}{67}{}%
+\contentsline {subsubsection}{\numberline {6.3.3}Beulanalyse}{69}{}%
+\contentsline {section}{\numberline {7}CAD-Konstruktion des Flügels (H.K.)}{70}{}%
+\contentsline {subsection}{\numberline {7.1}Konstruktion der Gurte}{70}{}%
+\contentsline {subsection}{\numberline {7.2}Konstruktion des Stegs}{71}{}%
+\contentsline {subsection}{\numberline {7.3}Konstruktion der Haut und der Rippen}{73}{}%
+\contentsline {subsection}{\numberline {7.4}Holzkonstruktion an der Aufnahme der Hauptbolzen}{73}{}%
+\contentsline {subsection}{\numberline {7.5}Querkraftbolzen und Montage auf dem Teststand}{74}{}%
+\contentsline {section}{\numberline {8}Massenabschätzung (H.K.)}{76}{}%
+\contentsline {subsection}{\numberline {8.1}Masse der Gurte}{76}{}%
+\contentsline {subsection}{\numberline {8.2}Masse des Stegs}{76}{}%
+\contentsline {subsection}{\numberline {8.3}Masse der Haut}{77}{}%
+\contentsline {subsection}{\numberline {8.4}Masse der Holzklötze und Rippen}{78}{}%
+\contentsline {subsection}{\numberline {8.5}Abschätzung der Verklebungen und der Gesamtmasse}{79}{}%
+\contentsline {section}{\numberline {9}Bauanleitung für Flügelbau (T.B.)}{80}{}%
+\contentsline {section}{\numberline {10}Zusammenfassung}{83}{}%
+\contentsline {subsection}{\numberline {10.1}Die Berechnungen im Überblick (H.K.)}{83}{}%
+\contentsline {subsection}{\numberline {10.2}Die Konstruktion und FEM-Analyse im Überblick (H.K.)}{86}{}%
+\contentsline {subsection}{\numberline {10.3}Gewichtsnormalisiertes Festigkeitskriterium (O.S.)}{87}{}%
+\contentsline {subsection}{\numberline {10.4}Diskussion der Ergebnisse}{88}{}%
+\contentsline {subsection}{\numberline {10.5}Optimierungsmöglichkeiten}{88}{}%
+\contentsline {section}{\numberline {11}Quellenverzeichnis}{89}{}%
+\contentsline {section}{\numberline {12}Abbildungsverzeichnis}{91}{}%
+\contentsline {section}{\numberline {13}Tabellenverzeichnis}{93}{}%
+\contentsline {section}{\numberline {14}Anhang}{94}{}%
+\contentsline {subsection}{\numberline {14.1}Berechnung: Analytischen Lösung der Modellierung}{94}{}%
+\contentsline {subsection}{\numberline {14.2}Abbildungen}{96}{}%
