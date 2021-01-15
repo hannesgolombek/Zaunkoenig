@@ -72,7 +72,7 @@ Die Verzerrung des MSV und somit auch die Verzerrung der Einzelschichten, lässt
 \lbrace\hat{\varepsilon}\rbrace = [A]^{-1}\cdot\lbrace \hat{n}\rbrace
 \end{equation}
 Als nächstes muss die Verzerrungsmatrix noch in die Richtung der Einzelschichten mit dem Faserwinkel $\alpha_{k}$ transformiert werden.\\
-Nun lässt sich mit Hilfe der E-Module und Querkontraktionszahlen die Spannung in den einzelnen Fasern bestimmen(siehe Glg\ref{Faserspannung}).
+Nun lässt sich mit Hilfe der E-Module und Querkontraktionszahlen die Spannung in den einzelnen Fasern bestimmen(siehe Glg \ref{Faserspannung}).
 \begin{gather}
 \label{Faserspannung}
 \begin{Bmatrix}
@@ -92,7 +92,24 @@ Nun lässt sich mit Hilfe der E-Module und Querkontraktionszahlen die Spannung i
 \gamma_{21}
 \end{Bmatrix}
 \end{gather}
+\noindent
 Um ein passende Anzahl an Faserschichten zu bekommen kann das Ergebnis nun iterativ angepasst werden.\cite{item3}
+\subsubsection{Ingenieurskonstanten des MSV}
+Für den einachsigen Spannungszustand lassen sich die Module und Querkontraktionszahlen für den MSV ableiten.
+Diese lassen sich experimentell über z.B. einen Zugversuch oder rechnerisch aus dem Elastizitätsgesetz des MSV bestimmen.
+\begin{equation}
+\hat{E}_{x}=\frac{1}{A_{11}^{-1}\cdot t}
+;
+\hat{E}_{y}=\frac{1}{A_{22}^{-1}\cdot t}
+;
+\hat{G}_{xy}=\frac{1}{A_{66}^{-1}\cdot t}
+;
+\hat{\nu}_{xy}=-\frac{A_{12}^{-1}}{A_{22}^{-1}}
+;
+\hat{\nu}_{yx}=-\frac{A_{12}^{-1}}{A_{11}^{-1}}
+\end{equation}
+\noindent
+Bei den Elastizitätsmodule ist darauf zu achten, dass es sich um Module ohne Querkontraktionsbehinderung handelt.\cite{item3}
 \subsection{Versagenskriterium nach Puck (O.S.)}
 Da für einen anisotropen FKV nicht das Versagen mittels einer allgemeinen resultierenden Spannung für jeden Lastfall ermittelt werden kann, müssen Versagenskriterien für die speziellen Beanspruchungsmodi definiert werden. Für die in dieser Projektarbeit durchgeführten Auslegungen wurden die Festigkeitskriterien von Puck verwendet. Hierbei werden die einzelnen UD-Schichten des Laminats getrennt betrachtet. Auch wenn diese Betrachtungen physikalisch begründet sind (vgl. \cite{EdL}), hat dies zur Folge, dass Effekte wie Delamination nicht berücksichtigt werden.
 \subsubsection{Definitionen}
