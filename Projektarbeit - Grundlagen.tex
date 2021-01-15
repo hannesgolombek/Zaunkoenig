@@ -110,6 +110,31 @@ Diese lassen sich experimentell über z.B. einen Zugversuch oder rechnerisch aus
 \end{equation}
 \noindent
 Bei den Elastizitätsmodule ist darauf zu achten, dass es sich um Module ohne Querkontraktionsbehinderung handelt.\cite{item3}
+
+\subsection{Mischungsregel (H.G.)}
+Um die Materialkonstanten des FKV zu ermitteln kann die Mischungsregel verwendet werden. Darin werden die Mateialkonstanten der Fasern und der Matrix im Verhältnis zu ihrem Massenanteil zu einer FKV-Materialkonstante zusammengestellt.\\
+\noindent
+Der E-Modul parallel (siehe Glg. \ref{Eparallel}) und orthogonal (siehe Glg. \ref{Eorthogonal}) kann mit den E-Modulen von Faser und Matrix, sowie dem Faservolumenanteil $\varphi$ errechnet werden. Für den E-Modul orthogonal zur Faserrichtung wird zusätzlich die Querkontraktionszahl $\nu_{m}$ der Matrix benötigt.
+\begin{equation}
+\label{Eparallel}
+E_{\|}=E_{f\|}\cdot \varphi+E_{m}\cdot (1-\varphi)
+\end{equation}
+
+\begin{equation}
+\label{Eorthogonal}
+E_{\bot}=\frac{E_{m}}{1-\nu_{m}^{2}}\cdot \frac{1}{(1-\varphi)\cdot\frac{E_{m}}{(1-\nu_{m}^{2})\cdot E_{f\bot}}\cdot\varphi}
+\end{equation}
+\noindent
+Der Schubmodul in Faser-Quer-Längs-Richtung kann ebenfalls durch die Schubmodule der Fasern und der Matrix ermittelt werden.
+\begin{equation}
+G_{\bot\|}=G_{m}\frac{1}{(1-\varphi)+\frac{G_{m}}{G_{f\bot\|}}\cdot\varphi}
+\end{equation}
+Außerdem lassen sich die Querkontraktionszahlen berechnen.
+\begin{equation}
+\nu_{\bot\|}=\varphi\cdot \nu_{f\bot\|}+(1-\varphi)\cdot \nu_{m}
+\end{equation}
+Aus diesen Werten lassen sich alle weiteren durch die Beziehungen zwischen den Materialkonstanten berechnen.\cite{item3}
+
 \subsection{Versagenskriterium nach Puck (O.S.)}
 Da für einen anisotropen FKV nicht das Versagen mittels einer allgemeinen resultierenden Spannung für jeden Lastfall ermittelt werden kann, müssen Versagenskriterien für die speziellen Beanspruchungsmodi definiert werden. Für die in dieser Projektarbeit durchgeführten Auslegungen wurden die Festigkeitskriterien von Puck verwendet. Hierbei werden die einzelnen UD-Schichten des Laminats getrennt betrachtet. Auch wenn diese Betrachtungen physikalisch begründet sind (vgl. \cite{EdL}), hat dies zur Folge, dass Effekte wie Delamination nicht berücksichtigt werden.
 \subsubsection{Definitionen}
