@@ -219,6 +219,11 @@ Nach \cite{item15}:
 \begin{equation}
 	\vartheta_{i} = \frac{1}{2A_{0i}G}(\oint\frac{q_{offen}(s)}{t(s)}ds+q_{0b,i}\oint\frac{1}{t(s)}ds-q_{0b,i\pm1}\int\frac{1}{t(s)})
 \end{equation}
+Die Verwindung ist als spezifischer Drillwinkel mit
+\begin{equation}
+	\vartheta = \frac{d\varphi}{dx}
+\end{equation}
+definiert, wobei der $\varphi$ den Drillwinkel angibt.
 Mit den Werten für die umschlossenen Flächen
 $$
 	A_{01}=3087,57\mathrm{mm}^2
@@ -265,11 +270,11 @@ In den bisherigen Berechnungen wurde immer davon ausgegangen, dass die Kraft im 
 \begin{equation}
 	M_{xT}=(y_{l/4}-y_{0})\cdot F
 \end{equation}
-entsteht, das noch zusätzlichen Schubfluss und eine Verdrillung $\vartheta$ bewirkt. Genauer gesagt wird hier die St. Vernatsche Torsion behandelt, bei der zwar Verwölbung auftritt, diese aber nicht behindert wird \cite{item15}. Wieder können die konstanten Schubanteile $q_{0T,i}$ aus der Momentenäquivalenz und der Verdrillung bestimmt werden. Wobei zu beachten ist, dass der Drillwinkel hier nicht mehr wie bei der reinen Biegung null ist, aber über die Verträglichkeitsbedingung weiterhin gelten muss
+entsteht, das noch zusätzlichen Schubfluss und eine Verwindung $\vartheta$ bewirkt. Genauer gesagt wird hier die St. Vernatsche Torsion behandelt, bei der zwar Verwölbung auftritt, diese aber nicht behindert wird \cite{item15}. Wieder können die konstanten Schubanteile $q_{0T,i}$ aus der Momentenäquivalenz und der Verwindung bestimmt werden. Wobei zu beachten ist, dass die Verwindung hier nicht mehr wie bei der reinen Biegung null ist, aber über die Verträglichkeitsbedingung weiterhin gelten muss
 \begin{equation}
 	\vartheta_{1}=\vartheta_{2}=\vartheta.
 \end{equation}
-Da die bisherigen Anteile des Schubflusses definitionsgemäß weder Verdrillung verursachen, noch bezüglich des Schubmittelpunkts ein Moment kompensieren, fallen sie aus den Gleichungen raus. Es bleiben nur noch die Konstanten $q_{0T,i}$ übrig. Damit ergeben sich die vereinfachten Formeln für die Verdrillung und die Momentenäqivalenz:
+Da die bisherigen Anteile des Schubflusses definitionsgemäß weder Verwindung verursachen, noch bezüglich des Schubmittelpunkts ein Moment kompensieren, fallen sie aus den Gleichungen raus. Es bleiben nur noch die Konstanten $q_{0T,i}$ übrig. Damit ergeben sich die vereinfachten Formeln für die Verwindung und die Momentenäqivalenz:
 \begin{equation}\label{verdrillung}
 	\vartheta_{i} = \frac{1}{2A_{0i}G}(q_{0T,i}\oint\frac{1}{t(s)}ds-q_{0T,i\pm1}\int\frac{1}{t(s)}ds)
 \end{equation}
@@ -283,13 +288,14 @@ $$
 $$
 	q_{0T,2}=-1,51\mathrm{N/mm}.
 $$
-Setzt man nun diese Werte in Gleichung (\ref{verdrillung}) erhält man für beide Zellen einen Drillwinkel von
+Setzt man nun diese Werte in Gleichung (\ref{verdrillung}) erhält man für beide Zellen einer Verwindung von
 $$
 	\vartheta =-0,00195 ^\circ.
 $$
+Integriert man diesen konstanten Wert über die gesamte Länge des Flügels, erhält man den Drillwinkel am Ende mit $\varphi = -1,5^\circ$.
 
 \subsubsection{Schubspannung (O.S.)}
-Das Ziel dieser Berechnung war nicht nur den Schubmittelpunkt und die Verdrillung zu bestimmen, sondern hauptsächlich die Schubspannung in der Haut zu erhalten, um diese auslegen zu können. Da die Hautdicke auf dem gesamten Umfang konstant bleiben soll, ist an dieser Stelle nur die maximale Schubspannung für alle Bereiche der Haut $\tau_{max}$, die sich einfach aus Gleichung (\ref{tau}) ermitteln lässt, interessant. Die Dicke $t$ ist jedoch nicht einfach aus den gesamten Rechnungen rausziehbar, weil es auch Anteile, wie zum Beispiel den Holm, gibt, die von $t$ unabhängig sind. Deswegen wird iterativ vorgegangen, wobei zuerst mit einer zufällig gewählten Dicke die Rechenschritte durchgeführt werden, in dem in diesem Kapitel gezeigten Fall mit $t=0,2\mathrm{mm}$. Am Ende der Berechnung wird aus den maximalen Schubfluss die minimale Dicke
+Das Ziel dieser Berechnung war nicht nur den Schubmittelpunkt und den Drillinkel zu bestimmen, sondern hauptsächlich die Schubspannung in der Haut zu erhalten, um diese auslegen zu können. Da die Hautdicke auf dem gesamten Umfang konstant bleiben soll, ist an dieser Stelle nur die maximale Schubspannung für alle Bereiche der Haut $\tau_{max}$, die sich einfach aus Gleichung (\ref{tau}) ermitteln lässt, interessant. Die Dicke $t$ ist jedoch nicht einfach aus den gesamten Rechnungen rausziehbar, weil es auch Anteile, wie zum Beispiel den Holm, gibt, die von $t$ unabhängig sind. Deswegen wird iterativ vorgegangen, wobei zuerst mit einer zufällig gewählten Dicke die Rechenschritte durchgeführt werden, in dem in diesem Kapitel gezeigten Fall mit $t=0,2\mathrm{mm}$. Am Ende der Berechnung wird aus den maximalen Schubfluss die minimale Dicke
 \begin{equation}
 	t_{min} = \frac{q_{max}}{R_{\tau}}.
 \end{equation} 
@@ -306,11 +312,11 @@ $$
 	y_{M_{g}}=69,29\mathrm{mm}
 $$
 $$
-	z_{M_{g}}=-20,27\mathrm{mm}.
+	z_{M_{g}}=-22,85\mathrm{mm}.
 $$
 Auch der Drillwinkel vergrößert sich leicht durch die gesenkte dünnere Haut Steifigkeit zu
 $$
-	\vartheta =-0,0024 ^\circ.
+	\varphi =-1,87 ^\circ.
 $$
 Aus den Verläufen der Schubflüsse, wie sie in Abbildung \ref{fig:S1}-\ref{fig:S10} zu sehen, erkennt man, dass die betragsmäßig maximale Schubspannung am Endpunkt des Bereichs 8 auftritt.
 $$

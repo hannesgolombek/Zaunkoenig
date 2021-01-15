@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  15 JAN 2021 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  15 JAN 2021 16:17
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -895,7 +895,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Bilder/SMP.png, id=283, 1019.60925pt x 348.1005pt>
 File: Bilder/SMP.png Graphic file (type png)
 <use Bilder/SMP.png>
-Package pdftex.def Info: Bilder/SMP.png  used on input line 255.
+Package pdftex.def Info: Bilder/SMP.png  used on input line 260.
 (pdftex.def)             Requested size: 455.24411pt x 155.4221pt.
 
 
@@ -904,22 +904,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Bilder/Torsion.png, id=284, 1007.56425pt x 358.33875pt>
 File: Bilder/Torsion.png Graphic file (type png)
 <use Bilder/Torsion.png>
-Package pdftex.def Info: Bilder/Torsion.png  used on input line 261.
+Package pdftex.def Info: Bilder/Torsion.png  used on input line 266.
 (pdftex.def)             Requested size: 455.24411pt x 161.90707pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 2142) has occurred while \output is active []
-
- [56]
+[56]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57 <./Bilder/SMP.png> <./Bilder/Torsion.png>]
-Underfull \vbox (badness 2698) has occurred while \output is active []
-
- [58])
-[59] ("Projektarbeit - Auslegung der Flügelschale nach CLT.tex"
+ [57 <./Bilder/SMP.png> <./Bilder/Torsion.png>] [58]) [59]
+("Projektarbeit - Auslegung der Flügelschale nach CLT.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -945,7 +939,7 @@ OT1/cmr/m/n/10.95 8\OML/cmm/m/it/10.95 MPa$\T1/cmr/m/n/10.95 .
 [61]) [62] ("Projektarbeit - FEM.tex"
 Overfull \hbox (81.96887pt too wide) in paragraph at lines 5--6
 \T1/cmr/m/n/10.95 F�r die Be-rech-nung der Elas-to-sta-tik sind die Gleich-ge-w
-ichts-be-din-gung (169[]), Verzerrungs-Verschiebungsbedingung
+ichts-be-din-gung (170[]), Verzerrungs-Verschiebungsbedingung
  []
 
 [63]) [64] (abaqus.tex
@@ -1618,7 +1612,7 @@ r/sicher3.png> <./Bilder/sicher4.png>] ("Projektarbeit - Main.aux") )
 Here is how much of TeX's memory you used:
  5830 strings out of 479799
  91688 string characters out of 2870198
- 397592 words of memory out of 3000000
+ 396592 words of memory out of 3000000
  22579 multiletter control sequences out of 15000+200000
  546097 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1644,7 +1638,7 @@ ers/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
 y10.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy6.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (124 pages, 4666554 bytes).
+Output written on "Projektarbeit - Main.pdf" (124 pages, 4666887 bytes).
 PDF statistics:
  1039 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
