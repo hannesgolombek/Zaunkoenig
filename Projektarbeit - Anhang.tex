@@ -75,6 +75,98 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 	\end{equation}
 \end{itemize}
 \newpage
+\subsection{Berechung: Schubfluss und Schubmittelpunkt}
+\begin{itemize}
+	\item Wertebereich der Laufvariable
+	\begin{center}
+		\begin{tabular}[h]{l|c|c}
+			$i$&$s_i\in(0,...)$\\
+			\hline
+			1&58,90\\
+			2&14,00\\
+			3&37,50\\
+			4&14,00\\
+			5&107,72\\
+			6&30,07\\
+			7&83,46\\
+			8&14\\
+			9&14\\
+			10&37,5\\
+		\end{tabular}
+	\end{center}
+	\item Statische Momente im allgemeinen Koordinatensystem mit $s_0$:
+	%1
+	\begin{equation}
+		S_{z,1}(s_1) = t\int_{0}^{s_1} R\bigg(1-cos\bigg(\frac{s}{R}\bigg)\bigg)ds = tR^2\bigg[\frac{s}{R} - sin\bigg(\frac{s}{R}\bigg)\bigg]_{s=0}^{s_1} = tR^2\cdot\bigg(\frac{s_1}{R}-sin\bigg(\frac{s_1}{R}\bigg)\bigg)
+	\end{equation}
+	\begin{equation}
+		S_{y,1}(s_1) = t\int_{0}^{s_1} -Rsin\bigg(\frac{s}{R}\bigg)ds_1 = t\biggl[ R^2 cos\bigg(\frac{s}{R}\bigg)\biggr]^{s_1}_{s=0} = tR^2 \cdot\bigg(cos\bigg(\frac{s_1}{R}\bigg)-1\bigg)
+	\end{equation}
+%2
+\begin{equation}
+	S_{z,2}(s_2) = t\int_{0}^{s_1}\bigg(\bigg)ds + S_{z,1}(s_{1,\mathrm{ende}}) = t\bigg[\bigg]_{s=0}^{s_1} + S_{z,1}(s_{1,\mathrm{ende}}) = t\cdot\bigg(\bigg) + S_{z,1}(s_{1,\mathrm{ende}})
+\end{equation}
+\begin{equation}
+	S_{y,2}(s_2) = t\int_{0}^{s_1}\bigg(\bigg)ds + S_{y,1}(s_{1,\mathrm{ende}}) = t\bigg[\bigg]_{s=0}^{s_1} + S_{y,1}(s_{1,\mathrm{ende}}) = t\cdot\bigg(\bigg) + S_{y,1}(s_{1,\mathrm{ende}})
+\end{equation}
+%3
+\begin{equation}
+	S_{z,3}(s_3) = t\int_{0}^{s_3}\bigg(\bigg)ds = t\bigg[\bigg]_{s=0}^{s_3} = t\cdot\bigg(\bigg)
+\end{equation}
+\begin{equation}
+	S_{y,3}(s_3) = t\int_{0}^{s_3}\bigg(\bigg)ds= t\bigg[\bigg]_{s=0}^{s_3} = t\cdot\bigg(\bigg)
+\end{equation}
+%4
+\begin{equation}
+	S_{z,4} = t\int_{0}^{s_4}\bigg(\bigg)ds + S_{z,2}(s_{2,\mathrm{ende}})  + S_{z,3}(s_{3,\mathrm{ende}}) = t\bigg[\bigg]_{s=0}^{s_4} + S_{z,2}(s_{2,\mathrm{ende}})  + S_{z,3}(s_{3,\mathrm{ende}}) = t\cdot\bigg(\bigg) + S_{z,2}(s_{2,\mathrm{ende}})  + S_{z,3}(s_{3,\mathrm{ende}})
+\end{equation}
+\begin{equation}
+	S_{y,4} = t\int_{0}^{s_4}\bigg(\bigg)ds + S_{y,2}(s_{2,\mathrm{ende}})  + S_{y,3}(s_{3,\mathrm{ende}}) = t\bigg[\bigg]_{s=0}^{s_4} + S_{y,2}(s_{2,\mathrm{ende}})  + S_{y,3}(s_{3,\mathrm{ende}}) = t\cdot\bigg(\bigg) + S_{y,2}(s_{2,\mathrm{ende}})  + S_{y,3}(s_{3,\mathrm{ende}}) 
+\end{equation}
+%5
+\begin{equation}
+	S_{z,5} = t\int_{0}^{s_5}\bigg(\bigg)ds + S_{z,4}(s_{4,\mathrm{ende}}) = t\bigg[\bigg]_{s=0}^{s_5} + S_{z,4}(s_{4,\mathrm{ende}}) = t\cdot\bigg(\bigg) + S_{z,4}(s_{4,\mathrm{ende}})
+\end{equation}
+\begin{equation}
+	S_{y,5} = t\int_{0}^{s_5}\bigg(\bigg)ds + S_{y,4}(s_{4,\mathrm{ende}}) = t\bigg[\bigg]_{s=0}^{s_5} + S_{y,4}(s_{4,\mathrm{ende}}) = t\cdot\bigg(\bigg) + S_{y,4}(s_{4,\mathrm{ende}})
+\end{equation}
+%6
+\begin{equation}
+	S_{z,6} = t\int_{0}^{s_6}\bigg(\bigg)ds + S_{z,5}(s_{5,\mathrm{ende}}) = t\bigg[\bigg]_{s=0}^{s_6} + S_{z,5}(s_{5,\mathrm{ende}}) = t\cdot\bigg(\bigg) + S_{z,5}(s_{5,\mathrm{ende}})
+\end{equation}
+\begin{equation}
+	S_{y,6} = t\int_{0}^{s_6}\bigg(\bigg)ds + S_{y,5}(s_{5,\mathrm{ende}}) = t\bigg[\bigg]_{s=0}^{s_6} + S_{y,5}(s_{5,\mathrm{ende}}) = t\cdot\bigg(\bigg) + S_{y,5}(s_{5,\mathrm{ende}})
+\end{equation}
+%7
+\begin{equation}
+	S_{z,7} = t\int_{0}^{s_7}\bigg(\bigg)ds + S_{z,6}(s_{6,\mathrm{ende}}) = t\bigg[\bigg]_{s=0}^{s_7} + S_{z,6}(s_{6,\mathrm{ende}}) = t\cdot\bigg(\bigg) + S_{z,6}(s_{6,\mathrm{ende}})
+\end{equation}
+\begin{equation}
+	S_{y,7} = t\int_{0}^{s_7}\bigg(\bigg)ds + S_{y,6}(s_{6,\mathrm{ende}}) = t\bigg[\bigg]_{s=0}^{s_7} + S_{y,6}(s_{6,\mathrm{ende}}) = t\cdot\bigg(\bigg) + S_{y,6}(s_{6,\mathrm{ende}})
+\end{equation}
+%8
+\begin{equation}
+	S_{z,8} = t\int_{0}^{s_8}\bigg(\bigg)ds + S_{z,7}(s_{7,\mathrm{ende}}) = t\bigg[\bigg]_{s=0}^{s_8} + S_{z,7}(s_{7,\mathrm{ende}}) = t\cdot\bigg(\bigg) + S_{z,7}(s_{7,\mathrm{ende}})
+\end{equation}
+\begin{equation}
+	S_{y,8} = t\int_{0}^{s_8}\bigg(\bigg)ds + S_{y,7}(s_{7,\mathrm{ende}}) = t\bigg[\bigg]_{s=0}^{s_8} + S_{y,7}(s_{7,\mathrm{ende}}) = t\cdot\bigg(\bigg) + S_{y,7}(s_{7,\mathrm{ende}})
+\end{equation}
+%9
+\begin{equation}
+	S_{z,9} = t\int_{0}^{s_9}\bigg(\bigg)ds + S_{z,8}(s_{8,\mathrm{ende}}) = t\bigg[\bigg]_{s=0}^{s_9} + S_{z,8}(s_{8,\mathrm{ende}}) = t\cdot\bigg(\bigg) + S_{z,8}(s_{8,\mathrm{ende}})
+\end{equation}
+\begin{equation}
+	S_{y,9} = t\int_{0}^{s_9}\bigg(\bigg)ds + S_{y,8}(s_{8,\mathrm{ende}}) = t\bigg[\bigg]_{s=0}^{s_8} + S_{y,8}(s_{8,\mathrm{ende}}) = t\cdot\bigg(\bigg) + S_{y,8}(s_{8,\mathrm{ende}})
+\end{equation}
+%10
+\begin{equation}
+	S_{z,10} = t\int_{0}^{s_{10}☺}\bigg(\bigg)ds + S_{z,9}(s_{9,\mathrm{ende}}) = t\bigg[\bigg]_{s=0}^{s_10} + S_{z,9}(s_{9,\mathrm{ende}}) = t\cdot\bigg(\bigg) + S_{z,9}(s_{9,\mathrm{ende}})
+\end{equation}
+\begin{equation}
+	S_{y,10} = t\int_{0}^{s_{10}}\bigg(\bigg)ds + S_{z,9}(s_{9,\mathrm{ende}}) = t\bigg[\bigg]_{s=0}^{s_{10}} + S_{z,9}(s_{9,\mathrm{ende}}) = t\cdot\bigg(\bigg) + S_{z,9}(s_{9,\mathrm{ende}})
+\end{equation}
+\end{itemize}
+\newpage
 \subsection{Abbildungen}\label{Abbildungen}
 \begin{figure}[h]
 	\includegraphics[width=1.0\textwidth]{Bilder/Lagenaufbau Holmgurte.png}
