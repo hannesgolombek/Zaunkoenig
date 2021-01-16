@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  16 JAN 2021 13:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  16 JAN 2021 16:25
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -1252,207 +1252,207 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--241
 
  []
 
-[103]
-<Bilder/Lagenaufbau Holmgurte.png, id=449, 588.39825pt x 178.86826pt>
+[103] [104]
+<Bilder/Lagenaufbau Holmgurte.png, id=453, 588.39825pt x 178.86826pt>
 File: Bilder/Lagenaufbau Holmgurte.png Graphic file (type png)
 <use Bilder/Lagenaufbau Holmgurte.png>
 Package pdftex.def Info: Bilder/Lagenaufbau Holmgurte.png  used on input line 2
-50.
+94.
 (pdftex.def)             Requested size: 455.24411pt x 138.39493pt.
-<Bilder/Lagenaufbau Steg dünn.png, id=450, 584.78474pt x 161.403pt>
+<Bilder/Lagenaufbau Steg dünn.png, id=454, 584.78474pt x 161.403pt>
 File: Bilder/Lagenaufbau Steg dünn.png Graphic file (type png)
 <use Bilder/Lagenaufbau Steg dünn.png>
 Package pdftex.def Info: Bilder/Lagenaufbau Steg dünn.png  used on input line 
-255.
+299.
 (pdftex.def)             Requested size: 455.24411pt x 125.64755pt.
-<Bilder/Lagenaufbau Steg dick.png, id=451, 343.2825pt x 496.85625pt>
+<Bilder/Lagenaufbau Steg dick.png, id=455, 343.2825pt x 496.85625pt>
 File: Bilder/Lagenaufbau Steg dick.png Graphic file (type png)
 <use Bilder/Lagenaufbau Steg dick.png>
-Package pdftex.def Info: Bilder/Lagenaufbau Steg dick.png  used on input line 2
-60.
+Package pdftex.def Info: Bilder/Lagenaufbau Steg dick.png  used on input line 3
+04.
 (pdftex.def)             Requested size: 455.24411pt x 658.9pt.
 
 
-LaTeX Warning: Float too large for page by 93.09843pt on input line 263.
+LaTeX Warning: Float too large for page by 93.09843pt on input line 307.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Lagenaufbau Haut.png, id=452, 668.4975pt x 95.1555pt>
+<Bilder/Lagenaufbau Haut.png, id=456, 668.4975pt x 95.1555pt>
 File: Bilder/Lagenaufbau Haut.png Graphic file (type png)
 <use Bilder/Lagenaufbau Haut.png>
-Package pdftex.def Info: Bilder/Lagenaufbau Haut.png  used on input line 265.
+Package pdftex.def Info: Bilder/Lagenaufbau Haut.png  used on input line 309.
 (pdftex.def)             Requested size: 455.24411pt x 64.80214pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Berechnung Holmgurte.png, id=453, 894.9435pt x 463.7325pt>
+<Bilder/Berechnung Holmgurte.png, id=457, 894.9435pt x 463.7325pt>
 File: Bilder/Berechnung Holmgurte.png Graphic file (type png)
 <use Bilder/Berechnung Holmgurte.png>
-Package pdftex.def Info: Bilder/Berechnung Holmgurte.png  used on input line 27
-0.
+Package pdftex.def Info: Bilder/Berechnung Holmgurte.png  used on input line 31
+4.
 (pdftex.def)             Requested size: 455.24411pt x 235.8919pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Berechnung Steg dünn.png, id=454, 901.56825pt x 440.847pt>
+<Bilder/Berechnung Steg dünn.png, id=458, 901.56825pt x 440.847pt>
 File: Bilder/Berechnung Steg dünn.png Graphic file (type png)
 <use Bilder/Berechnung Steg dünn.png>
-Package pdftex.def Info: Bilder/Berechnung Steg dünn.png  used on input line 2
-75.
+Package pdftex.def Info: Bilder/Berechnung Steg dünn.png  used on input line 3
+19.
 (pdftex.def)             Requested size: 455.24411pt x 222.60243pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Berechnung Steg dick.png, id=455, 542.025pt x 504.08325pt>
+<Bilder/Berechnung Steg dick.png, id=459, 542.025pt x 504.08325pt>
 File: Bilder/Berechnung Steg dick.png Graphic file (type png)
 <use Bilder/Berechnung Steg dick.png>
-Package pdftex.def Info: Bilder/Berechnung Steg dick.png  used on input line 28
-0.
+Package pdftex.def Info: Bilder/Berechnung Steg dick.png  used on input line 32
+4.
 (pdftex.def)             Requested size: 455.24411pt x 423.38858pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Berechnung Haut.png, id=456, 1000.33725pt x 342.078pt>
+<Bilder/Berechnung Haut.png, id=460, 1000.33725pt x 342.078pt>
 File: Bilder/Berechnung Haut.png Graphic file (type png)
 <use Bilder/Berechnung Haut.png>
-Package pdftex.def Info: Bilder/Berechnung Haut.png  used on input line 285.
+Package pdftex.def Info: Bilder/Berechnung Haut.png  used on input line 329.
 (pdftex.def)             Requested size: 455.24411pt x 155.67703pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Konstanten Holmgurte.png, id=457, 595.023pt x 370.38374pt>
+<Bilder/Konstanten Holmgurte.png, id=461, 595.023pt x 370.38374pt>
 File: Bilder/Konstanten Holmgurte.png Graphic file (type png)
 <use Bilder/Konstanten Holmgurte.png>
-Package pdftex.def Info: Bilder/Konstanten Holmgurte.png  used on input line 29
-0.
+Package pdftex.def Info: Bilder/Konstanten Holmgurte.png  used on input line 33
+4.
 (pdftex.def)             Requested size: 455.24411pt x 283.38219pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Konstanten Steg dünn.png, id=458, 590.205pt x 374.5995pt>
+<Bilder/Konstanten Steg dünn.png, id=462, 590.205pt x 374.5995pt>
 File: Bilder/Konstanten Steg dünn.png Graphic file (type png)
 <use Bilder/Konstanten Steg dünn.png>
-Package pdftex.def Info: Bilder/Konstanten Steg dünn.png  used on input line 2
-95.
+Package pdftex.def Info: Bilder/Konstanten Steg dünn.png  used on input line 3
+39.
 (pdftex.def)             Requested size: 455.24411pt x 288.94551pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Konstanten Steg dick.png, id=459, 585.98924pt x 369.7815pt>
+<Bilder/Konstanten Steg dick.png, id=463, 585.98924pt x 369.7815pt>
 File: Bilder/Konstanten Steg dick.png Graphic file (type png)
 <use Bilder/Konstanten Steg dick.png>
-Package pdftex.def Info: Bilder/Konstanten Steg dick.png  used on input line 30
-0.
+Package pdftex.def Info: Bilder/Konstanten Steg dick.png  used on input line 34
+4.
 (pdftex.def)             Requested size: 455.24411pt x 287.28299pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Konstanten Haut.png, id=460, 648.021pt x 371.58826pt>
+<Bilder/Konstanten Haut.png, id=464, 648.021pt x 371.58826pt>
 File: Bilder/Konstanten Haut.png Graphic file (type png)
 <use Bilder/Konstanten Haut.png>
-Package pdftex.def Info: Bilder/Konstanten Haut.png  used on input line 305.
+Package pdftex.def Info: Bilder/Konstanten Haut.png  used on input line 349.
 (pdftex.def)             Requested size: 455.24411pt x 261.05121pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Längen.png, id=461, 155.3805pt x 224.037pt>
+<Bilder/Längen.png, id=465, 155.3805pt x 224.037pt>
 File: Bilder/Längen.png Graphic file (type png)
 <use Bilder/Längen.png>
-Package pdftex.def Info: Bilder/Längen.png  used on input line 311.
+Package pdftex.def Info: Bilder/Längen.png  used on input line 355.
 (pdftex.def)             Requested size: 136.57462pt x 196.92754pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S1.png, id=462, 620.91975pt x 308.95425pt>
+<Bilder/S1.png, id=466, 620.91975pt x 308.95425pt>
 File: Bilder/S1.png Graphic file (type png)
 <use Bilder/S1.png>
-Package pdftex.def Info: Bilder/S1.png  used on input line 316.
+Package pdftex.def Info: Bilder/S1.png  used on input line 360.
 (pdftex.def)             Requested size: 455.24411pt x 226.52pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S2.png, id=463, 619.113pt x 308.352pt>
+<Bilder/S2.png, id=467, 619.113pt x 308.352pt>
 File: Bilder/S2.png Graphic file (type png)
 <use Bilder/S2.png>
-Package pdftex.def Info: Bilder/S2.png  used on input line 321.
+Package pdftex.def Info: Bilder/S2.png  used on input line 365.
 (pdftex.def)             Requested size: 455.24411pt x 226.74185pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S3.png, id=464, 615.4995pt x 307.1475pt>
+<Bilder/S3.png, id=468, 615.4995pt x 307.1475pt>
 File: Bilder/S3.png Graphic file (type png)
 <use Bilder/S3.png>
-Package pdftex.def Info: Bilder/S3.png  used on input line 325.
+Package pdftex.def Info: Bilder/S3.png  used on input line 369.
 (pdftex.def)             Requested size: 455.24411pt x 227.18716pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S4.png, id=465, 617.30624pt x 307.1475pt>
+<Bilder/S4.png, id=469, 617.30624pt x 307.1475pt>
 File: Bilder/S4.png Graphic file (type png)
 <use Bilder/S4.png>
-Package pdftex.def Info: Bilder/S4.png  used on input line 329.
+Package pdftex.def Info: Bilder/S4.png  used on input line 373.
 (pdftex.def)             Requested size: 455.24411pt x 226.51697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S5.png, id=466, 619.71526pt x 308.95425pt>
+<Bilder/S5.png, id=470, 619.71526pt x 308.95425pt>
 File: Bilder/S5.png Graphic file (type png)
 <use Bilder/S5.png>
-Package pdftex.def Info: Bilder/S5.png  used on input line 334.
+Package pdftex.def Info: Bilder/S5.png  used on input line 378.
 (pdftex.def)             Requested size: 455.24411pt x 226.96785pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S6.png, id=467, 620.91975pt x 307.1475pt>
+<Bilder/S6.png, id=471, 620.91975pt x 307.1475pt>
 File: Bilder/S6.png Graphic file (type png)
 <use Bilder/S6.png>
-Package pdftex.def Info: Bilder/S6.png  used on input line 338.
+Package pdftex.def Info: Bilder/S6.png  used on input line 382.
 (pdftex.def)             Requested size: 455.24411pt x 225.19533pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S7.png, id=468, 620.91975pt x 308.352pt>
+<Bilder/S7.png, id=472, 620.91975pt x 308.352pt>
 File: Bilder/S7.png Graphic file (type png)
 <use Bilder/S7.png>
-Package pdftex.def Info: Bilder/S7.png  used on input line 342.
+Package pdftex.def Info: Bilder/S7.png  used on input line 386.
 (pdftex.def)             Requested size: 455.24411pt x 226.07845pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S8.png, id=469, 620.91975pt x 308.95425pt>
+<Bilder/S8.png, id=473, 620.91975pt x 308.95425pt>
 File: Bilder/S8.png Graphic file (type png)
 <use Bilder/S8.png>
-Package pdftex.def Info: Bilder/S8.png  used on input line 346.
+Package pdftex.def Info: Bilder/S8.png  used on input line 390.
 (pdftex.def)             Requested size: 455.24411pt x 226.52pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S9.png, id=470, 617.9085pt x 307.1475pt>
+<Bilder/S9.png, id=474, 617.9085pt x 307.1475pt>
 File: Bilder/S9.png Graphic file (type png)
 <use Bilder/S9.png>
-Package pdftex.def Info: Bilder/S9.png  used on input line 350.
+Package pdftex.def Info: Bilder/S9.png  used on input line 394.
 (pdftex.def)             Requested size: 455.24411pt x 226.28732pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S10.png, id=471, 619.71526pt x 306.54526pt>
+<Bilder/S10.png, id=475, 619.71526pt x 306.54526pt>
 File: Bilder/S10.png Graphic file (type png)
 <use Bilder/S10.png>
-Package pdftex.def Info: Bilder/S10.png  used on input line 354.
+Package pdftex.def Info: Bilder/S10.png  used on input line 398.
 (pdftex.def)             Requested size: 455.24411pt x 225.19812pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[104 <./Bilder/Lagenaufbau Holmgurte.png> <./Bilder/Lagenaufbau Steg dünn.png>
+[105 <./Bilder/Lagenaufbau Holmgurte.png> <./Bilder/Lagenaufbau Steg dünn.png>
 ]
 
 pdfTeX warning: pdflatex.exe (file ./PDFs/ExplosionConvBez.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<PDFs/ExplosionConvBez.pdf, id=478, 597.55246pt x 845.07718pt>
+<PDFs/ExplosionConvBez.pdf, id=481, 597.55246pt x 845.07718pt>
 File: PDFs/ExplosionConvBez.pdf Graphic file (type pdf)
 <use PDFs/ExplosionConvBez.pdf>
-Package pdftex.def Info: PDFs/ExplosionConvBez.pdf  used on input line 360.
+Package pdftex.def Info: PDFs/ExplosionConvBez.pdf  used on input line 404.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1460,7 +1460,7 @@ pdfTeX warning: pdflatex.exe (file ./PDFs/ExplosionConvBez.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
 File: PDFs/ExplosionConvBez.pdf Graphic file (type pdf)
 <use PDFs/ExplosionConvBez.pdf>
-Package pdftex.def Info: PDFs/ExplosionConvBez.pdf  used on input line 360.
+Package pdftex.def Info: PDFs/ExplosionConvBez.pdf  used on input line 404.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1470,40 +1470,40 @@ pdfTeX warning: pdflatex.exe (file ./PDFs/ExplosionConvBez.pdf): PDF inclusion:
 
 pdfTeX warning: pdflatex.exe (file ./PDFs/ExplosionConvBez.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<PDFs/ExplosionConvBez.pdf, id=481, page=1, 597.55246pt x 845.07718pt>
+<PDFs/ExplosionConvBez.pdf, id=484, page=1, 597.55246pt x 845.07718pt>
 File: PDFs/ExplosionConvBez.pdf Graphic file (type pdf)
 <use PDFs/ExplosionConvBez.pdf, page 1>
-Package pdftex.def Info: PDFs/ExplosionConvBez.pdf , page1 used on input line 3
-60.
+Package pdftex.def Info: PDFs/ExplosionConvBez.pdf , page1 used on input line 4
+04.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: PDFs/ExplosionConvBez.pdf Graphic file (type pdf)
 <use PDFs/ExplosionConvBez.pdf, page 1>
-Package pdftex.def Info: PDFs/ExplosionConvBez.pdf , page1 used on input line 3
-60.
+Package pdftex.def Info: PDFs/ExplosionConvBez.pdf , page1 used on input line 4
+04.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: PDFs/ExplosionConvBez.pdf Graphic file (type pdf)
 <use PDFs/ExplosionConvBez.pdf, page 1>
-Package pdftex.def Info: PDFs/ExplosionConvBez.pdf , page1 used on input line 3
-60.
+Package pdftex.def Info: PDFs/ExplosionConvBez.pdf , page1 used on input line 4
+04.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: PDFs/ExplosionConvBez.pdf Graphic file (type pdf)
 <use PDFs/ExplosionConvBez.pdf, page 1>
-Package pdftex.def Info: PDFs/ExplosionConvBez.pdf , page1 used on input line 3
-60.
+Package pdftex.def Info: PDFs/ExplosionConvBez.pdf , page1 used on input line 4
+04.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: PDFs/ExplosionConvBez.pdf Graphic file (type pdf)
 <use PDFs/ExplosionConvBez.pdf, page 1>
-Package pdftex.def Info: PDFs/ExplosionConvBez.pdf , page1 used on input line 3
-60.
+Package pdftex.def Info: PDFs/ExplosionConvBez.pdf , page1 used on input line 4
+04.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[105 <./PDFs/ExplosionConvBez.pdf>]
+[106 <./PDFs/ExplosionConvBez.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./PDFs/ProfilkonturConv.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<PDFs/ProfilkonturConv.pdf, id=495, 597.55246pt x 845.07718pt>
+<PDFs/ProfilkonturConv.pdf, id=498, 597.55246pt x 845.07718pt>
 File: PDFs/ProfilkonturConv.pdf Graphic file (type pdf)
 <use PDFs/ProfilkonturConv.pdf>
-Package pdftex.def Info: PDFs/ProfilkonturConv.pdf  used on input line 361.
+Package pdftex.def Info: PDFs/ProfilkonturConv.pdf  used on input line 405.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1511,7 +1511,7 @@ pdfTeX warning: pdflatex.exe (file ./PDFs/ProfilkonturConv.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
 File: PDFs/ProfilkonturConv.pdf Graphic file (type pdf)
 <use PDFs/ProfilkonturConv.pdf>
-Package pdftex.def Info: PDFs/ProfilkonturConv.pdf  used on input line 361.
+Package pdftex.def Info: PDFs/ProfilkonturConv.pdf  used on input line 405.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1521,40 +1521,40 @@ pdfTeX warning: pdflatex.exe (file ./PDFs/ProfilkonturConv.pdf): PDF inclusion:
 
 pdfTeX warning: pdflatex.exe (file ./PDFs/ProfilkonturConv.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<PDFs/ProfilkonturConv.pdf, id=498, page=1, 597.55246pt x 845.07718pt>
+<PDFs/ProfilkonturConv.pdf, id=501, page=1, 597.55246pt x 845.07718pt>
 File: PDFs/ProfilkonturConv.pdf Graphic file (type pdf)
 <use PDFs/ProfilkonturConv.pdf, page 1>
-Package pdftex.def Info: PDFs/ProfilkonturConv.pdf , page1 used on input line 3
-61.
+Package pdftex.def Info: PDFs/ProfilkonturConv.pdf , page1 used on input line 4
+05.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: PDFs/ProfilkonturConv.pdf Graphic file (type pdf)
 <use PDFs/ProfilkonturConv.pdf, page 1>
-Package pdftex.def Info: PDFs/ProfilkonturConv.pdf , page1 used on input line 3
-61.
+Package pdftex.def Info: PDFs/ProfilkonturConv.pdf , page1 used on input line 4
+05.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: PDFs/ProfilkonturConv.pdf Graphic file (type pdf)
 <use PDFs/ProfilkonturConv.pdf, page 1>
-Package pdftex.def Info: PDFs/ProfilkonturConv.pdf , page1 used on input line 3
-61.
+Package pdftex.def Info: PDFs/ProfilkonturConv.pdf , page1 used on input line 4
+05.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: PDFs/ProfilkonturConv.pdf Graphic file (type pdf)
 <use PDFs/ProfilkonturConv.pdf, page 1>
-Package pdftex.def Info: PDFs/ProfilkonturConv.pdf , page1 used on input line 3
-61.
+Package pdftex.def Info: PDFs/ProfilkonturConv.pdf , page1 used on input line 4
+05.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: PDFs/ProfilkonturConv.pdf Graphic file (type pdf)
 <use PDFs/ProfilkonturConv.pdf, page 1>
-Package pdftex.def Info: PDFs/ProfilkonturConv.pdf , page1 used on input line 3
-61.
+Package pdftex.def Info: PDFs/ProfilkonturConv.pdf , page1 used on input line 4
+05.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[106 <./PDFs/ProfilkonturConv.pdf>]
+[107 <./PDFs/ProfilkonturConv.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./PDFs/KlotzVorne.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<PDFs/KlotzVorne.pdf, id=511, 597.55246pt x 845.07718pt>
+<PDFs/KlotzVorne.pdf, id=514, 597.55246pt x 845.07718pt>
 File: PDFs/KlotzVorne.pdf Graphic file (type pdf)
 <use PDFs/KlotzVorne.pdf>
-Package pdftex.def Info: PDFs/KlotzVorne.pdf  used on input line 362.
+Package pdftex.def Info: PDFs/KlotzVorne.pdf  used on input line 406.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1562,7 +1562,7 @@ pdfTeX warning: pdflatex.exe (file ./PDFs/KlotzVorne.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
 File: PDFs/KlotzVorne.pdf Graphic file (type pdf)
 <use PDFs/KlotzVorne.pdf>
-Package pdftex.def Info: PDFs/KlotzVorne.pdf  used on input line 362.
+Package pdftex.def Info: PDFs/KlotzVorne.pdf  used on input line 406.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1572,35 +1572,35 @@ pdfTeX warning: pdflatex.exe (file ./PDFs/KlotzVorne.pdf): PDF inclusion: found
 
 pdfTeX warning: pdflatex.exe (file ./PDFs/KlotzVorne.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<PDFs/KlotzVorne.pdf, id=514, page=1, 597.55246pt x 845.07718pt>
+<PDFs/KlotzVorne.pdf, id=517, page=1, 597.55246pt x 845.07718pt>
 File: PDFs/KlotzVorne.pdf Graphic file (type pdf)
 <use PDFs/KlotzVorne.pdf, page 1>
-Package pdftex.def Info: PDFs/KlotzVorne.pdf , page1 used on input line 362.
+Package pdftex.def Info: PDFs/KlotzVorne.pdf , page1 used on input line 406.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: PDFs/KlotzVorne.pdf Graphic file (type pdf)
 <use PDFs/KlotzVorne.pdf, page 1>
-Package pdftex.def Info: PDFs/KlotzVorne.pdf , page1 used on input line 362.
+Package pdftex.def Info: PDFs/KlotzVorne.pdf , page1 used on input line 406.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: PDFs/KlotzVorne.pdf Graphic file (type pdf)
 <use PDFs/KlotzVorne.pdf, page 1>
-Package pdftex.def Info: PDFs/KlotzVorne.pdf , page1 used on input line 362.
+Package pdftex.def Info: PDFs/KlotzVorne.pdf , page1 used on input line 406.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: PDFs/KlotzVorne.pdf Graphic file (type pdf)
 <use PDFs/KlotzVorne.pdf, page 1>
-Package pdftex.def Info: PDFs/KlotzVorne.pdf , page1 used on input line 362.
+Package pdftex.def Info: PDFs/KlotzVorne.pdf , page1 used on input line 406.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: PDFs/KlotzVorne.pdf Graphic file (type pdf)
 <use PDFs/KlotzVorne.pdf, page 1>
-Package pdftex.def Info: PDFs/KlotzVorne.pdf , page1 used on input line 362.
+Package pdftex.def Info: PDFs/KlotzVorne.pdf , page1 used on input line 406.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[107 <./PDFs/KlotzVorne.pdf>]
+[108 <./PDFs/KlotzVorne.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./PDFs/Holmquerschnitte.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<PDFs/Holmquerschnitte.pdf, id=527, 597.55246pt x 845.07718pt>
+<PDFs/Holmquerschnitte.pdf, id=530, 597.55246pt x 845.07718pt>
 File: PDFs/Holmquerschnitte.pdf Graphic file (type pdf)
 <use PDFs/Holmquerschnitte.pdf>
-Package pdftex.def Info: PDFs/Holmquerschnitte.pdf  used on input line 363.
+Package pdftex.def Info: PDFs/Holmquerschnitte.pdf  used on input line 407.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1608,7 +1608,7 @@ pdfTeX warning: pdflatex.exe (file ./PDFs/Holmquerschnitte.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
 File: PDFs/Holmquerschnitte.pdf Graphic file (type pdf)
 <use PDFs/Holmquerschnitte.pdf>
-Package pdftex.def Info: PDFs/Holmquerschnitte.pdf  used on input line 363.
+Package pdftex.def Info: PDFs/Holmquerschnitte.pdf  used on input line 407.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1618,122 +1618,122 @@ pdfTeX warning: pdflatex.exe (file ./PDFs/Holmquerschnitte.pdf): PDF inclusion:
 
 pdfTeX warning: pdflatex.exe (file ./PDFs/Holmquerschnitte.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<PDFs/Holmquerschnitte.pdf, id=530, page=1, 597.55246pt x 845.07718pt>
+<PDFs/Holmquerschnitte.pdf, id=533, page=1, 597.55246pt x 845.07718pt>
 File: PDFs/Holmquerschnitte.pdf Graphic file (type pdf)
 <use PDFs/Holmquerschnitte.pdf, page 1>
-Package pdftex.def Info: PDFs/Holmquerschnitte.pdf , page1 used on input line 3
-63.
+Package pdftex.def Info: PDFs/Holmquerschnitte.pdf , page1 used on input line 4
+07.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: PDFs/Holmquerschnitte.pdf Graphic file (type pdf)
 <use PDFs/Holmquerschnitte.pdf, page 1>
-Package pdftex.def Info: PDFs/Holmquerschnitte.pdf , page1 used on input line 3
-63.
+Package pdftex.def Info: PDFs/Holmquerschnitte.pdf , page1 used on input line 4
+07.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: PDFs/Holmquerschnitte.pdf Graphic file (type pdf)
 <use PDFs/Holmquerschnitte.pdf, page 1>
-Package pdftex.def Info: PDFs/Holmquerschnitte.pdf , page1 used on input line 3
-63.
+Package pdftex.def Info: PDFs/Holmquerschnitte.pdf , page1 used on input line 4
+07.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: PDFs/Holmquerschnitte.pdf Graphic file (type pdf)
 <use PDFs/Holmquerschnitte.pdf, page 1>
-Package pdftex.def Info: PDFs/Holmquerschnitte.pdf , page1 used on input line 3
-63.
+Package pdftex.def Info: PDFs/Holmquerschnitte.pdf , page1 used on input line 4
+07.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: PDFs/Holmquerschnitte.pdf Graphic file (type pdf)
 <use PDFs/Holmquerschnitte.pdf, page 1>
-Package pdftex.def Info: PDFs/Holmquerschnitte.pdf , page1 used on input line 3
-63.
+Package pdftex.def Info: PDFs/Holmquerschnitte.pdf , page1 used on input line 4
+07.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[108 <./PDFs/Holmquerschnitte.pdf>]
-<Bilder/AufbauGesamt.jpg, id=543, 623.83063pt x 419.06563pt>
+[109 <./PDFs/Holmquerschnitte.pdf>]
+<Bilder/AufbauGesamt.jpg, id=546, 623.83063pt x 419.06563pt>
 File: Bilder/AufbauGesamt.jpg Graphic file (type jpg)
 <use Bilder/AufbauGesamt.jpg>
-Package pdftex.def Info: Bilder/AufbauGesamt.jpg  used on input line 366.
+Package pdftex.def Info: Bilder/AufbauGesamt.jpg  used on input line 410.
 (pdftex.def)             Requested size: 455.24411pt x 305.81944pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/SeiteRichtig.jpg, id=544, 723.20187pt x 331.73938pt>
+<Bilder/SeiteRichtig.jpg, id=547, 723.20187pt x 331.73938pt>
 File: Bilder/SeiteRichtig.jpg Graphic file (type jpg)
 <use Bilder/SeiteRichtig.jpg>
-Package pdftex.def Info: Bilder/SeiteRichtig.jpg  used on input line 372.
+Package pdftex.def Info: Bilder/SeiteRichtig.jpg  used on input line 416.
 (pdftex.def)             Requested size: 455.24411pt x 208.8248pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/MontagePlatte.jpg, id=545, 998.73125pt x 460.72125pt>
+<Bilder/MontagePlatte.jpg, id=548, 998.73125pt x 460.72125pt>
 File: Bilder/MontagePlatte.jpg Graphic file (type jpg)
 <use Bilder/MontagePlatte.jpg>
-Package pdftex.def Info: Bilder/MontagePlatte.jpg  used on input line 378.
+Package pdftex.def Info: Bilder/MontagePlatte.jpg  used on input line 422.
 (pdftex.def)             Requested size: 455.24411pt x 210.00812pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Material_GFK.png, id=546, 522.45187pt x 478.03593pt>
+<Bilder/Material_GFK.png, id=549, 522.45187pt x 478.03593pt>
 File: Bilder/Material_GFK.png Graphic file (type png)
 <use Bilder/Material_GFK.png>
-Package pdftex.def Info: Bilder/Material_GFK.png  used on input line 383.
+Package pdftex.def Info: Bilder/Material_GFK.png  used on input line 427.
 (pdftex.def)             Requested size: 364.19667pt x 333.23695pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Steg_Material.png, id=547, 469.00218pt x 368.87813pt>
+<Bilder/Steg_Material.png, id=550, 469.00218pt x 368.87813pt>
 File: Bilder/Steg_Material.png Graphic file (type png)
 <use Bilder/Steg_Material.png>
-Package pdftex.def Info: Bilder/Steg_Material.png  used on input line 389.
+Package pdftex.def Info: Bilder/Steg_Material.png  used on input line 433.
 (pdftex.def)             Requested size: 364.19667pt x 286.44608pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/sicher1.png, id=548, 888.31876pt x 524.55975pt>
+<Bilder/sicher1.png, id=551, 888.31876pt x 524.55975pt>
 File: Bilder/sicher1.png Graphic file (type png)
 <use Bilder/sicher1.png>
-Package pdftex.def Info: Bilder/sicher1.png  used on input line 396.
+Package pdftex.def Info: Bilder/sicher1.png  used on input line 440.
 (pdftex.def)             Requested size: 455.24411pt x 268.8266pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/sicher2.png, id=549, 900.966pt x 344.487pt>
+<Bilder/sicher2.png, id=552, 900.966pt x 344.487pt>
 File: Bilder/sicher2.png Graphic file (type png)
 <use Bilder/sicher2.png>
-Package pdftex.def Info: Bilder/sicher2.png  used on input line 402.
+Package pdftex.def Info: Bilder/sicher2.png  used on input line 446.
 (pdftex.def)             Requested size: 455.24411pt x 174.06705pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/sicher3.png, id=550, 1146.08176pt x 560.0925pt>
+<Bilder/sicher3.png, id=553, 1146.08176pt x 560.0925pt>
 File: Bilder/sicher3.png Graphic file (type png)
 <use Bilder/sicher3.png>
-Package pdftex.def Info: Bilder/sicher3.png  used on input line 407.
+Package pdftex.def Info: Bilder/sicher3.png  used on input line 451.
 (pdftex.def)             Requested size: 455.24411pt x 222.4776pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/sicher4.png, id=551, 1153.30875pt x 558.28575pt>
+<Bilder/sicher4.png, id=554, 1153.30875pt x 558.28575pt>
 File: Bilder/sicher4.png Graphic file (type png)
 <use Bilder/sicher4.png>
-Package pdftex.def Info: Bilder/sicher4.png  used on input line 412.
+Package pdftex.def Info: Bilder/sicher4.png  used on input line 456.
 (pdftex.def)             Requested size: 455.24411pt x 220.37137pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [109 <./Bilder/Lagenaufbau Steg dick.png>] [110 <./Bilder/Lagenaufbau Haut.pn
-g> <./Bilder/Berechnung Holmgurte.png>] [111 <./Bilder/Berechnung Steg dünn.pn
-g>] [112 <./Bilder/Berechnung Steg dick.png>] [113 <./Bilder/Berechnung Haut.pn
-g> <./Bilder/Konstanten Holmgurte.png>] [114 <./Bilder/Konstanten Steg dünn.pn
-g>] [115 <./Bilder/Konstanten Steg dick.png>] [116 <./Bilder/Konstanten Haut.pn
-g> <./Bilder/Längen.png>] [117 <./Bilder/S1.png> <./Bilder/S2.png>] [118 <./Bi
-lder/S3.png> <./Bilder/S4.png>] [119 <./Bilder/S5.png> <./Bilder/S6.png>]
-[120 <./Bilder/S7.png> <./Bilder/S8.png>] [121 <./Bilder/S9.png> <./Bilder/S10.
-png>] [122 <./Bilder/AufbauGesamt.jpg> <./Bilder/SeiteRichtig.jpg>] [123 <./Bil
-der/MontagePlatte.jpg>] [124 <./Bilder/Material_GFK.png>] [125 <./Bilder/Steg_M
-aterial.png>] [126 <./Bilder/sicher1.png> <./Bilder/sicher2.png>] [127 <./Bilde
+) [110 <./Bilder/Lagenaufbau Steg dick.png>] [111 <./Bilder/Lagenaufbau Haut.pn
+g> <./Bilder/Berechnung Holmgurte.png>] [112 <./Bilder/Berechnung Steg dünn.pn
+g>] [113 <./Bilder/Berechnung Steg dick.png>] [114 <./Bilder/Berechnung Haut.pn
+g> <./Bilder/Konstanten Holmgurte.png>] [115 <./Bilder/Konstanten Steg dünn.pn
+g>] [116 <./Bilder/Konstanten Steg dick.png>] [117 <./Bilder/Konstanten Haut.pn
+g> <./Bilder/Längen.png>] [118 <./Bilder/S1.png> <./Bilder/S2.png>] [119 <./Bi
+lder/S3.png> <./Bilder/S4.png>] [120 <./Bilder/S5.png> <./Bilder/S6.png>]
+[121 <./Bilder/S7.png> <./Bilder/S8.png>] [122 <./Bilder/S9.png> <./Bilder/S10.
+png>] [123 <./Bilder/AufbauGesamt.jpg> <./Bilder/SeiteRichtig.jpg>] [124 <./Bil
+der/MontagePlatte.jpg>] [125 <./Bilder/Material_GFK.png>] [126 <./Bilder/Steg_M
+aterial.png>] [127 <./Bilder/sicher1.png> <./Bilder/sicher2.png>] [128 <./Bilde
 r/sicher3.png> <./Bilder/sicher4.png>] ("Projektarbeit - Main.aux") ) 
 Here is how much of TeX's memory you used:
  5833 strings out of 479799
  91717 string characters out of 2870198
- 396460 words of memory out of 3000000
+ 396529 words of memory out of 3000000
  22582 multiletter control sequences out of 15000+200000
  546097 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1759,9 +1759,9 @@ ers/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
 y10.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy6.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (132 pages, 4689645 bytes).
+Output written on "Projektarbeit - Main.pdf" (133 pages, 4693994 bytes).
 PDF statistics:
- 1064 PDF objects out of 1200 (max. 8388607)
+ 1068 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  381 words of extra memory for PDF output out of 10000 (max. 10000000)
 

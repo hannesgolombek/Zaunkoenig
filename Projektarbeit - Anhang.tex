@@ -119,10 +119,10 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 \end{equation}
 %3
 \begin{equation}
-	S_{z,3}(s_3) = t\int_{0}^{s_3}\bigg(37,5\mathrm{mm}+14\mathrm{mm}\bigg)ds = t\bigg[51,5\mathrm{mm}\cdot s\bigg]_{s=0}^{s_3} = t\cdot\bigg(51,5\mathrm{mm}\cdot s_2\bigg)
+	S_{z,3}(s_3) = t_1\int_{0}^{s_3}\bigg(37,5\mathrm{mm}+14\mathrm{mm}\bigg)ds = t_1\bigg[51,5\mathrm{mm}\cdot s\bigg]_{s=0}^{s_3} = t_1\cdot\bigg(51,5\mathrm{mm}\cdot s_3\bigg)
 \end{equation}
 \begin{equation}
-	S_{y,3}(s_3) = t\int_{0}^{s_3}s\ ds= t\bigg[\frac{1}{2}s^2\bigg]_{s=0}^{s_3} = t\cdot\bigg(\frac{1}{2}s^2_3\bigg)
+	S_{y,3}(s_3) = t_1\int_{0}^{s_3}-s\ ds= t_1\bigg[-\frac{1}{2}s^2\bigg]_{s=0}^{s_3} = t_1\cdot\bigg(-\frac{1}{2}s^2_3\bigg)
 \end{equation}
 %4
 \begin{equation}
@@ -213,10 +213,10 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 \begin{equation}
 	S_{y,10} = t\int_{0}^{s_{10}}0\ ds + S_{z,9}(s_{9,\mathrm{ende}}) = S_{z,9}(s_{9,\mathrm{ende}})
 \end{equation}
-	\item Hebelarme um den Pol unter Berücksichtigung des Positiven Drehsinnes
+	\item Hebelarme um den Pol unter Berücksichtigung des positiven Drehsinnes
 		\begin{center}
 		\begin{tabular}[h]{l|c|c}
-			$i$&$r_i$\\
+			$i$&$r_i\mathrm{/mm}$\\
 			\hline
 			1&37,5\\
 			2&37,16\\
@@ -230,17 +230,61 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 			10&0\\
 		\end{tabular}
 	\end{center}
-	\item Integrale über Statische Momente
+	\item Integrale über Statische Momente mit $t=0,2$mm
 	\begin{equation}
 		S_{\bar z}(s) = S_z(s) - y_0ts
 	\end{equation}
 	\begin{equation}
 		S_{\bar y}(s) = S_y(s) - z_0ts
 	\end{equation}
-~\\
+~\\%1
 	\begin{equation}
 		\begin{split}
-			\int S_{\bar z,1}\ ds_1 &= \int  tR^2\cdot\bigg(\frac{s_1}{R}-sin\bigg(\frac{s_1}{R}-\frac{y_0s_1}{R^2}\bigg)-\frac{y_0s_1}{R^2}\bigg)\ ds_1
+			\int S_{\bar z,1}\ ds_1 &= \int  tR^2\cdot\bigg(\frac{s_1}{R}-sin\bigg(\frac{s_1}{R}\bigg)-\frac{y_0s_1}{R^2}\bigg)\ ds_1\\\
+			&=tR^3\bigg[\frac{s_1^2}{2R^2}\bigg(1-\frac{y_0}{R}\bigg)+cos\bigg(\frac{s_1}{R}\bigg)\bigg]_{s_1=0}^{s_{1,\mathrm{ende}}} = -24781,04\mathrm{mm}^4
+		\end{split}
+	\end{equation}
+	\begin{equation}
+		\begin{split}
+			\int S_{\bar y,1}\ ds_1 &= \int tR^2 \cdot\bigg(cos\bigg(\frac{s_1}{R}\bigg)-1 - \frac{z_0s_1}{R^2}\bigg)\ ds_1\\\
+			&=tR^3\bigg[sin\bigg(\frac{s_1}{R}\bigg) -\frac{s_1}{R} - \frac{z_0s_1^2}{2R^3}\bigg]_{s_1=0}^{s_{1,\mathrm{ende}}} = -679,64\mathrm{mm}^4
+		\end{split}
+	\end{equation}
+%2
+	\begin{equation}
+		\begin{split}
+			\int S_{\bar z,2}\ ds_2 &= \int  \bigg(t\cdot\bigg(37,5\mathrm{mm}\cdot s_2 +\frac{cos(\alpha)}{2}\cdot s^2_2\bigg) + S_{z,1}(s_{1,\mathrm{ende}})-y_0ts_2\bigg)\ ds_2\\\
+			&=\bigg[t\bigg(s_2^2\frac{37,5\mathrm{mm}-y_0}{2}+\frac{cos(\alpha)}{6}\cdot s^3_2\bigg)+S_{z,1}(s_{1,\mathrm{ende}})s_2\bigg]_{s_2=0}^{s_{2,\mathrm{ende}}}\\\
+			&= -11417,94\mathrm{mm}^4
+		\end{split}
+	\end{equation}
+	\begin{equation}
+		\begin{split}
+			\int S_{\bar y,2}\ ds_2 &= \int\bigg( t\cdot\bigg(-37,5\mathrm{mm}\cdot s_2 +\frac{sin(\alpha)}{2}\cdot s^2_2\bigg) + S_{y,1}(s_{1,\mathrm{ende}}) - z_0ts_2\bigg)\ ds_2\\\
+			&= \bigg[t\bigg(-s_2^2\frac{37,5\mathrm{mm}+z_0}{2}+\frac{sin(\alpha)}{6}s_2^3\bigg)+S_{y,1}(s_{1,\mathrm{ende}})s_2\bigg]_{s_2=0}^{s_{2,\mathrm{ende}}}\\\
+			&=-1819,86\mathrm{mm}^4
+		\end{split}
+	\end{equation}
+%3
+	\begin{equation}
+		\begin{split}
+			\int S_{\bar z,3}\ ds_3 &= \int \bigg(t_1\cdot\bigg(51,5\mathrm{mm}\cdot s_3\bigg) -y_0t_1s_3\bigg)\ ds_3\\\
+			&=t_1\bigg[\frac{51,5\mathrm{mm}-y_0}{2}s_3^2\bigg]_{s_3=0}^{s_{3,\mathrm{ende}}}\\\
+			&=-5967,72\mathrm{mm}^4
+		\end{split}
+	\end{equation}
+	\begin{equation}
+		\begin{split}
+			\int S_{\bar y,3}\ ds_3 &= \int t_1\cdot\bigg(-\frac{1}{2}s^2_3-z_0s_3\bigg)\ ds_3\\\
+			&=t_1\bigg[-\frac{s_3^3}{6}-\frac{z_0}{2}s_3^2\bigg]\\\
+			&=638,06\mathrm{mm}^4
+		\end{split}
+	\end{equation}
+%4
+	\begin{equation}
+		\begin{split}
+			\int S_{\bar z,4}\ ds_4 &= \int \bigg(t\cdot\bigg(-35,62\mathrm{mm}\cdot s_4 + \frac{1}{2}s^2_4\bigg) + S_{y,2}(s_{2,\mathrm{ende}})  + S_{y,3}(s_{3,\mathrm{ende}})-y_0ts_4\bigg)\ ds_4\\\
+			&= \bigg[t\bigg(-s_4^2\frac{35,62+y_0}{2}+\bigg)\bigg]
 		\end{split}
 	\end{equation}
 \end{itemize}

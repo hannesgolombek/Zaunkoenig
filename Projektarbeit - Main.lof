@@ -20,35 +20,35 @@
 \contentsline {figure}{\numberline {19}{\ignorespaces Prinzipskizze der Sandwichstruktur im Steg}}{76}{}%
 \contentsline {figure}{\numberline {20}{\ignorespaces Hautsandwich am Übergang zum Gurt}}{78}{}%
 \contentsline {figure}{\numberline {21}{\ignorespaces Holzklötze und Hülsen}}{79}{}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Lagenaufbau Holmgurte}}{104}{}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Lagenaufbau Steg Bereich $III$}}{104}{}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Lagenaufbau Steg Bereich $I$\&$II$}}{109}{}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Lagenaufbau Flügelschale}}{110}{}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Berechnung Holmgurte}}{110}{}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Berechnung Steg Bereich $III$}}{111}{}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Berechnung Steg Bereich $I$\&$II$}}{112}{}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Berechnung Flügelschale}}{113}{}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Ingenieurskonstanten Holmgurte}}{113}{}%
-\contentsline {figure}{\numberline {31}{\ignorespaces BerechnIngenieurskonstantenung Steg Bereich $III$}}{114}{}%
-\contentsline {figure}{\numberline {32}{\ignorespaces BerechnIngenieurskonstantenung Steg Bereich $I\&II$}}{115}{}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Ingenieurskonstanten Flügelschale}}{116}{}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Wertebereich der Laufvariablen $s_i$}}{116}{}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Schubfluss Bereich 1}}{117}{}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Schubfluss Bereich 2}}{117}{}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Schubfluss Bereich 3}}{118}{}%
-\contentsline {figure}{\numberline {38}{\ignorespaces Schubfluss Bereich 4}}{118}{}%
-\contentsline {figure}{\numberline {39}{\ignorespaces Schubfluss Bereich 5}}{119}{}%
-\contentsline {figure}{\numberline {40}{\ignorespaces Schubfluss Bereich 6}}{119}{}%
-\contentsline {figure}{\numberline {41}{\ignorespaces Schubfluss Bereich 7}}{120}{}%
-\contentsline {figure}{\numberline {42}{\ignorespaces Schubfluss Bereich 8}}{120}{}%
-\contentsline {figure}{\numberline {43}{\ignorespaces Schubfluss Bereich 9}}{121}{}%
-\contentsline {figure}{\numberline {44}{\ignorespaces Schubfluss Bereich 10}}{121}{}%
-\contentsline {figure}{\numberline {45}{\ignorespaces CAD-Modell der Tragfläche und des Teststandes}}{122}{}%
-\contentsline {figure}{\numberline {46}{\ignorespaces Ursprüngliche Lage des hinteren Langlochs der Querkraftbolzen}}{122}{}%
-\contentsline {figure}{\numberline {47}{\ignorespaces Montage der Tragfläche auf dem Teststand}}{123}{}%
-\contentsline {figure}{\numberline {48}{\ignorespaces ABAQUS Material Beispiel GFK}}{124}{}%
-\contentsline {figure}{\numberline {49}{\ignorespaces ABAQUS Section Beispiel:Steg}}{125}{}%
-\contentsline {figure}{\numberline {50}{\ignorespaces Sicherheit im Steg bei 500N}}{126}{}%
-\contentsline {figure}{\numberline {51}{\ignorespaces Sicherheit in der Haut bei 500N}}{126}{}%
-\contentsline {figure}{\numberline {52}{\ignorespaces Sicherheit am Gurt oben bei 500N}}{127}{}%
-\contentsline {figure}{\numberline {53}{\ignorespaces Sicherheit am Gurt unten bei 500N}}{127}{}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Lagenaufbau Holmgurte}}{105}{}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Lagenaufbau Steg Bereich $III$}}{105}{}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Lagenaufbau Steg Bereich $I$\&$II$}}{110}{}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Lagenaufbau Flügelschale}}{111}{}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Berechnung Holmgurte}}{111}{}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Berechnung Steg Bereich $III$}}{112}{}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Berechnung Steg Bereich $I$\&$II$}}{113}{}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Berechnung Flügelschale}}{114}{}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Ingenieurskonstanten Holmgurte}}{114}{}%
+\contentsline {figure}{\numberline {31}{\ignorespaces BerechnIngenieurskonstantenung Steg Bereich $III$}}{115}{}%
+\contentsline {figure}{\numberline {32}{\ignorespaces BerechnIngenieurskonstantenung Steg Bereich $I\&II$}}{116}{}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Ingenieurskonstanten Flügelschale}}{117}{}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Wertebereich der Laufvariablen $s_i$}}{117}{}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Schubfluss Bereich 1}}{118}{}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Schubfluss Bereich 2}}{118}{}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Schubfluss Bereich 3}}{119}{}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Schubfluss Bereich 4}}{119}{}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Schubfluss Bereich 5}}{120}{}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Schubfluss Bereich 6}}{120}{}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Schubfluss Bereich 7}}{121}{}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Schubfluss Bereich 8}}{121}{}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Schubfluss Bereich 9}}{122}{}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Schubfluss Bereich 10}}{122}{}%
+\contentsline {figure}{\numberline {45}{\ignorespaces CAD-Modell der Tragfläche und des Teststandes}}{123}{}%
+\contentsline {figure}{\numberline {46}{\ignorespaces Ursprüngliche Lage des hinteren Langlochs der Querkraftbolzen}}{123}{}%
+\contentsline {figure}{\numberline {47}{\ignorespaces Montage der Tragfläche auf dem Teststand}}{124}{}%
+\contentsline {figure}{\numberline {48}{\ignorespaces ABAQUS Material Beispiel GFK}}{125}{}%
+\contentsline {figure}{\numberline {49}{\ignorespaces ABAQUS Section Beispiel:Steg}}{126}{}%
+\contentsline {figure}{\numberline {50}{\ignorespaces Sicherheit im Steg bei 500N}}{127}{}%
+\contentsline {figure}{\numberline {51}{\ignorespaces Sicherheit in der Haut bei 500N}}{127}{}%
+\contentsline {figure}{\numberline {52}{\ignorespaces Sicherheit am Gurt oben bei 500N}}{128}{}%
+\contentsline {figure}{\numberline {53}{\ignorespaces Sicherheit am Gurt unten bei 500N}}{128}{}%
