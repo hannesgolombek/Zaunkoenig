@@ -138,32 +138,7 @@ Damit ergibt sich die Lagenanzahl bei einer Prüfrkraft $ F_{pruef}=500N $ von $
 
 \noindent Es ist zu betonen, dass diese Lagenanzahlen maßgeblich durch die Annahmen der Dimensionierungskennwerte $ K_{E\#} $ und $ K_{\sigma d} $ beeinflusst werden. Aus oben genannten Gründen können sie nicht als für diesen Fall exakt angenommen werden. Im Kapitel \ref{Puck} wird die hier ermittelte Lagenanzahl mit tatsächlichen Laminatkennwerten und einem Laminatrechner überprüft und angepasst.\\
 
-Zwischenspeicher der Matrizen\\
-
-
-%Steigifkeitsmatrix Q
-$ \underline{\sigma}=\underline{\underline{Q}} \cdot \underline{\epsilon} $\\
-
-\begin{equation}
-\begin{pmatrix}
-	\sigma_{1}\\
-	\sigma_{2}\\
-	\tau_{12}\\
-\end{pmatrix} 
-= \begin{bmatrix}
-	\frac{E_{\|}}{1-\nu_{\perp \|}\cdot \nu_{\| \perp}}&	\frac{\nu_{\| \perp}\cdot E_{\|}}{1-\nu_{\perp \|}\cdot \nu_{\| \perp}}&0\\
-	
-	\frac{\nu_{\perp \|}\cdot E_{\perp}}{1-\nu_{\perp \|}\cdot \nu_{\| \perp}}&\frac{E_{\perp}}{1-\nu_{\perp \|}\cdot \nu_{\| \perp}}&0\\
-	
-	0&0
-\end{bmatrix}
-\cdot 
-\begin{pmatrix}
-	\epsilon_{1}\\
-	\epsilon_{2}\\
-	\gamma_{21}
-\end{pmatrix}
-\end{equation}\\
+%Zwischenspeicher der Matrizen\\
 
 
 %Q-Strich gleich T mal Q mal T transpo

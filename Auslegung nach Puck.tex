@@ -1,4 +1,4 @@
-\subsubsection{Beispielrechnung nach Klassischer Laminattheorie}
+\subsubsection{Beispielrechnung nach Klassischer Laminattheorie (T.B. und H.K.)}
 Nachdem im Kapitel \ref{CLT} eine Einführung in die klassische Laminattheorie gegeben wurde, wird im Folgenden eine Beispiel-Berechnung eines Lagenaufbaus vorgestellt. Diese beginnt mit den Materialdaten der verwendeten Faser und Matrix und führt bis zu den resuktierenden Ingenieurskonstanten. Als repäsentatives Beispiel wird ein Laminat aus zwei Lagen Interglas 92145 mit einer Faserwinkeldifferenz von $\Delta\alpha =90°$ gewählt. Wie zuvor wird auch hier der Faservolumengehalt $\varphi = 40\%$ genutzt, sodass die Gesamtdicke sich zu $t= 2\cdot 0,216mm=0,432mm$ beträgt. \\
 
 \noindent Anhand der gegebenen Aufgabenstellung sind Materialdaten der Fasern und der Matrix gegeben, die nachfolgend benötigt werden:\\
@@ -40,8 +40,61 @@ Nachdem im Kapitel \ref{CLT} eine Einführung in die klassische Laminattheorie g
 	\nu_{\parallel\perp}=\nu_{\perp\parallel}\cdot\frac{E_{\parallel}}{E_{\perp}}=0,049
 \end{equation}\\
 
-\noindent Mit diesen Moduln und Querkontraktionszahlen wird im weiteren die Steifigkeitsmatrix des gesamten Laminats, transformiert in Koordinatensystem.Hauptrichtungen $x$ und $y$ bestimmt. Begonnen wird mit der Steifigkeitsmatrix einer einzelnen Gewebelage, bezogen wird sich auf dessen Faserrichtung.
+\noindent Mit diesen Moduln und Querkontraktionszahlen wird im weiteren die Steifigkeitsmatrix des gesamten Laminats, transformiert in Koordinatensystem-Hauptrichtungen $x$ und $y$ bestimmt. Begonnen wird mit der Steifigkeitsmatrix einer einzelnen Gewebelage, bezogen wird sich auf dessen Faserrichtung, damit 
+\begin{equation}
+	\underline{\sigma}=\underline{\underline{Q}} \cdot \underline{\epsilon}
+\end{equation}\\gebildet wird. Bei den Steifigkeitsmatrix $\underline{\underline{Q}}$ handelt es sich um Scheiben-Steifigkeiten.
 
+\begin{equation}
+\underline{\underline{Q}}=
+\begin{bmatrix}
+	\frac{E_{\|}}{1-\nu_{\perp \|}\cdot \nu_{\| \perp}}&	\frac{\nu_{\| \perp}\cdot E_{\|}}{1-\nu_{\perp \|}\cdot \nu_{\| \perp}}&0\\
+	
+	\frac{\nu_{\perp \|}\cdot E_{\perp}}{1-\nu_{\perp \|}\cdot \nu_{\| \perp}}&\frac{E_{\perp}}{1-\nu_{\perp \|}\cdot \nu_{\| \perp}}&0\\
+	
+	0&0&G_{\perp\parallel}
+\end{bmatrix} =
+\begin{bmatrix}
+	32035 & 1570 & 0\\
+	1570 & 5418 & 0\\
+	0 & 0 & 1985
+\end{bmatrix} [MPa]
+\end{equation}\\
+
+\noindent Bevor die einzelnen Lagen in ihrer Wirkung zusammengefasst werden können, müssen sie der Ausrichtung entsprechend um den Faserwinkel rotiert werden:
+
+\begin{equation}
+	\underline{\underline{T}}=
+	\begin{bmatrix}
+		\cos^{2}\alpha&\sin^{2}\alpha&-\sin 2\alpha\\
+		\sin^{2}\alpha&\cos^{2}\alpha&\sin 2\alpha\\
+		0,5\cdot \sin2\alpha&-0,5\cdot\sin2\alpha&\cos 2\alpha
+	\end{bmatrix}
+\end{equation}\\
+
+\noindent Somit lauten die neuen Steifigkeitsmatrizen nach 
+\begin{equation}
+	\overline{\underline{\underline{Q}}}=\underline{\underline{T}}\cdot \underline{\underline{Q}} \cdot \underline{\underline{T}}^{T}  
+\end{equation}\\
+
+\begin{equation}
+\overline{\underline{\underline{Q_{k=1}}}}=
+\begin{bmatrix}
+	32035 & 1570 & 0\\
+	1570 & 5418 & 0\\
+	0 & 0 & 1985
+\end{bmatrix} [MPa], \alpha = 0°
+\end{equation}\\
+\begin{equation}
+	\overline{\underline{\underline{Q_{k=2}}}}=
+	\begin{bmatrix}
+		5418 & 1570 & 0\\
+		1570 & 32035 & 0\\
+		0 & 0 & 1985
+	\end{bmatrix} [MPa], \alpha = 90°
+\end{equation}\\
+
+Mittels dessen einzelnen Werten lassen 
 
 
 \subsubsection{$eLamX^{2}$ (T.B.)}\label{elamx}
