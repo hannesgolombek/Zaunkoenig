@@ -1,4 +1,4 @@
-\subsubsection{Beispielrechnung nach Klassischer Laminattheorie (T.B. und H.K.)}
+\subsubsection{Beispielrechnung nach Klassischer Laminattheorie (T.B.)}
 Nachdem im Kapitel \ref{CLT} eine Einführung in die klassische Laminattheorie gegeben wurde, wird im Folgenden eine Beispiel-Berechnung eines Lagenaufbaus vorgestellt. Diese beginnt mit den Materialdaten der verwendeten Faser und Matrix und führt bis zu den resuktierenden Ingenieurskonstanten. Als repäsentatives Beispiel wird ein Laminat aus zwei Lagen Interglas 92145 mit einer Faserwinkeldifferenz von $\Delta\alpha =90°$ gewählt. Wie zuvor wird auch hier der Faservolumengehalt $\varphi = 40\%$ genutzt, sodass die Gesamtdicke sich zu $t= 2\cdot 0,216mm=0,432mm$ beträgt. \\
 
 \noindent Anhand der gegebenen Aufgabenstellung sind Materialdaten der Fasern und der Matrix gegeben, die nachfolgend benötigt werden:\\
@@ -40,10 +40,10 @@ Nachdem im Kapitel \ref{CLT} eine Einführung in die klassische Laminattheorie g
 	\nu_{\parallel\perp}=\nu_{\perp\parallel}\cdot\frac{E_{\parallel}}{E_{\perp}}=0,049
 \end{equation}\\
 
-\noindent Mit diesen Moduln und Querkontraktionszahlen wird im weiteren die Steifigkeitsmatrix des gesamten Laminats, transformiert in Koordinatensystem-Hauptrichtungen $x$ und $y$ bestimmt. Begonnen wird mit der Steifigkeitsmatrix einer einzelnen Gewebelage, bezogen wird sich auf dessen Faserrichtung, damit 
+\noindent Mit diesen Moduln und Querkontraktionszahlen wird im weiteren die Steifigkeitsmatrix des gesamten Laminats, transformiert in Koordinatensystem-Hauptrichtungen $x$ und $y$, bestimmt. Begonnen wird mit der Steifigkeitsmatrix einer einzelnen Gewebelage, bezogen wird sich auf dessen Faserrichtung. Damit kann  
 \begin{equation}
 	\underline{\sigma}=\underline{\underline{Q}} \cdot \underline{\epsilon}
-\end{equation}\\gebildet wird. Bei den Steifigkeitsmatrix $\underline{\underline{Q}}$ handelt es sich um Scheiben-Steifigkeiten.
+\end{equation}\\aufgestellt werden. Bei den Steifigkeitsmatrix $\underline{\underline{Q}}$ handelt es sich um Scheiben-Steifigkeiten.
 
 \begin{equation}
 \underline{\underline{Q}}=
@@ -94,7 +94,7 @@ Nachdem im Kapitel \ref{CLT} eine Einführung in die klassische Laminattheorie g
 	\end{bmatrix} [MPa], \alpha = 90°
 \end{equation}\\
 
-Mittels dessen einzelnen Werten $\overline{Q_{ij, k}}$ lassen sich der Scheiben, der Koppel- und der Plattenquadrant berechnen des Mehrschichtverbundes. In diesem können sich die Berechnungen teilweise vereinfacht werden, da die beiden Lagendicken $t_{k}$ dem Betrag der Abstände $|z_{k}|$ entspricht.
+\noindent Mittels dessen einzelnen Werten $\overline{Q_{ij, k}}$ lassen sich der Scheiben-, der Koppel- und der Plattenquadrant des Mehrschichtverbundes berechnen. In diesem können sich die Berechnungen teilweise vereinfacht werden, da die beiden Lagendicken $t_{k}$ dem Betrag der Abstände $|z_{k}|$ entspricht.
 
 \begin{equation}
 	A_{ij}= \sum_{k=1}^{2} \overline{Q}_{ij,k}\cdot t_{k}
@@ -169,20 +169,20 @@ Mittels dessen einzelnen Werten $\overline{Q_{ij, k}}$ lassen sich der Scheiben,
 \subsubsection{$eLamX^{2}$ (T.B.)}\label{elamx}
 $eLamX^{2}$ ist ein Laminat-Berechnungsprogramm der TU Dresden, Es kann anhand der klassischen Laminattheorie mit unterschiedlichen Versagenskriterien berechnen, inwiefern ein gewählter Lagenaufbau den Festigkeitskriterien gerecht wird. Zusätzlich sind weitere Funktionen, wie zum Beispiel Beulberechnungen, Optimierungen etc. nutzbar und andere Einflüssse, z.B. Temperatureinflüsse anwendbar, jedoch für diese Auslegung irrelevant.
 
-\noindent Auch hier wurden vorerst die gegeben Materialeigenschaften der Aufgabenstellung als Fasermaterial, Matrixmaterial und  UD-Festigkeitskennwerte definiert.\\
+\noindent Auch hier wurden vorerst die gegeben Materialeigenschaften der Aufgabenstellung als Fasermaterial, Matrixmaterial und  UD-Festigkeitskennwerte definiert (Anmerkung: In $eLamX^{2}$ wird bei der Indizierung die Schreibweise \glqq Ursache - Wirkung\grqq statt \glqq Wirkung - Ursache\grqq verwedet). )\\
 
 \begin{tabular}{ll|ll|ll}
 	\multicolumn{2}{c}{Fasermaterial} &\multicolumn{2}{c}{Matrixmaterial}  &\multicolumn{2}{c}{UD-Festigkeitskennwerte} \\
 	\hline
 	$\rho_{f}$ & $2,55 \frac{g}{cm^{3}}$  & $\rho_{m}$ & $1,18 \frac{g}{cm^{3}}$  & $R_{\parallel}^{+}$ & $597,9MPa$ \\
 	\hline
-	$E_{f,11}$ & $74000MPa$  & $E_{M}$ & $3300MPa$  & $R_{\parallel}^{-}$ & $650,0MPa$\\
+	$E_{f,\parallel}$ & $74000MPa$  & $E_{m}$ & $3300MPa$  & $R_{\parallel}^{-}$ & $650,0MPa$\\
 	\hline
-	$E_{f,22}$ & $74000MPa$  &  &   & $R_{\perp}^{+}$ & $37,7MPa$\\
+	$E_{f,\perp\perp}$ & $74000MPa$  &  &   & $R_{\perp}^{+}$ & $37,7MPa$\\
 	\hline
-	$G_{f,12}$ & $30800MPa$ & $G_{M}$ & $1222MPa$ & $R_{\perp}^{+-}$ & $130,0MPa$\\
+	$G_{f,\parallel\perp}$ & $30800MPa$ & $G_{m}$ & $1222MPa$ & $R_{\perp}^{+-}$ & $130,0MPa$\\
 	\hline
-	$\nu_{f,21}$ & $0,2$  &$\nu_{M}$ &  $0,35$  & $R_{\parallel\perp}$ & $37,5MPa$\\
+	$\nu_{f,\perp\parallel}$ & $0,2$  &$\nu_{M}$ &  $0,35$  & $R_{\parallel\perp}$ & $37,5MPa$\\
 \end{tabular}\\
 
 \noindent Mit einem Faservolumenanteil $\varphi=0,4$ ergeben sich folgende weitere Materialeigenschaften:\\
@@ -199,11 +199,11 @@ $eLamX^{2}$ ist ein Laminat-Berechnungsprogramm der TU Dresden, Es kann anhand d
 	$G_{\parallel\perp}$ & $1984,5 MPa$\\
 \end{tabular}\\
 
-\noindent Anschließend werden die nach Kapitel ~\ref{VDI2013} berechneten Laminate bzw. Lagenzusammensetzungen aus mehreren Gewebe-Lagen zusammengesetzt. Eine Gewebelage wird dabei durch zwei einzelne Materiallagen mit einem Winkel von $90^{\circ}$ zueinander simuliert, sodass sich die doppelte Anzahl des Materials gegenüber der Gewebeanzahl ergibt. Für die Holmgurte ergibt sich ein Lagenaufbau nach Abbildung ~\ref{fig:Lagenaufbau Holmgurte} und für den dünnen Steg nach Abbildung ~\ref{fig:Lagenaufbau Steg dünn}. Für den dicken Steg ergibt sich der gleiche Aufbau wie bei dem dünnen Steg, allerdings mit 24 Materiallagen (siehe Abb. ~\ref{fig:Lagenaufbau Steg dick}). Weshalb sich die Anzahl der Gewebelagen gegenüber der Auslegung nach VDI 2013 unterscheidet, wird im Weiteren beschrieben.\\ 
+\noindent Anschließend werden die nach Kapitel ~\ref{VDI2013} berechneten Laminate bzw. Schichtverbunde aus mehreren Gewebe-Lagen zusammengesetzt. Eine Gewebelage wird dabei durch zwei einzelne Materiallagen mit einem Winkel von $90^{\circ}$ zueinander simuliert, sodass sich die doppelte Anzahl des Materials gegenüber der Gewebeanzahl ergibt. Für die Holmgurte ergibt sich ein Lagenaufbau nach Abbildung ~\ref{fig:Lagenaufbau Holmgurte} und für den dünnen Steg nach Abbildung ~\ref{fig:Lagenaufbau Steg dünn}. Für den dicken Steg ergibt sich der gleiche Aufbau wie bei dem dünnen Steg, allerdings mit 24 Materiallagen (siehe Abb. ~\ref{fig:Lagenaufbau Steg dick}). Weshalb sich die Anzahl der Gewebelagen gegenüber der Auslegung nach VDI 2013 unterscheidet, wird im Weiteren beschrieben.\\ 
 
-\noindent Anschließend werden die nach VDI 2013 im Kapitel \ref{VDI} errechneten Normalkraft- und Schubflüsse bzw. Dehnungen eingegeben, sodass nun die Sicherheiten nach den Versagenskriterien von Puck ermittelt werden können. Dabei handelt es sich um leicht abweichende Beträge gegenüber der Realität. Diese Werte stammen aus der Auslegung nach VDI 2013, in der teilweise die Lagenanzahl, wie bereits beschrieben, geringer ist. Zu beachten ist außerdem, dass die Flüsse und Dehnungen auf das allgemeine Koordinatensystem und nicht auf die der einzelnen Lagen bezogen werden. Es wird automatisch die niedrigste Sicherheit mit dem jeweiligen Versagenskriterium ausgegeben. Auch muss berücksichtigt werden, dass für die komplette Überprüfung der Auslegung ebenfalls $\epsilon_{x}$ negativ angenommen werden muss, um den zweiten Gurt mit Druckbelastungen zu betrachten. Dabei ergeben sich jedoch stets höhere Sicherheiten.\\
+\noindent Anschließend werden die nach VDI 2013 im Kapitel \ref{VDI} errechneten Normalkraft- und Schubflüsse bzw. Dehnungen eingegeben, sodass nun die Sicherheiten nach den Versagenskriterien von Puck ermittelt werden können. Dabei handelt es sich um leicht abweichende Flüsse bzw. Dehnungen gegenüber der Realität. Diese Werte stammen aus der Auslegung nach VDI 2013, in der teilweise die Lagenanzahl, wie bereits beschrieben, geringer ist. Zu beachten ist außerdem, dass die Flüsse und Dehnungen auf das allgemeine Koordinatensystem und nicht auf die der einzelnen Lagen bezogen werden. Es wird automatisch die niedrigste Sicherheit mit dem jeweiligen Versagenskriterium ausgegeben. Auch muss berücksichtigt werden, dass für die komplette Überprüfung der Auslegung ebenfalls $\epsilon_{x}$ negativ angenommen werden muss, um den zweiten Gurt mit Druckbelastungen zu betrachten. Dabei ergeben sich jedoch stets höhere Sicherheiten.\\
 
-\noindent Um immer eine Sicherheit von $j>1$ zu garantieren, müssen im Steg noch weitere Lagen zu der ursprünglich berechneten Anzahl hinzugefügt werden, sodass sich eine Gesamt-Lagenanzahl von 4 und 24 statt 2 und 20 ergibt. Diese Abweichung kann u.a. daran liegen, dass die VDI 2013 mit Konstanten rechnet, die nur beispielhaft an einem Gewebe ermittelt wurden und somit nicht exakt für die gegebenen Gewebe der Aufgabenstellung gelten können.
+\noindent Um immer eine Sicherheit von $j>1$ zu garantieren, müssen im Steg nachträglich noch weitere Lagen zu der ursprünglich berechneten Anzahl hinzugefügt werden, sodass sich eine Gesamt-Lagenanzahl von 4 und 24 statt 2 und 20 ergibt. Diese Abweichung kann u.a. daran liegen, dass die VDI 2013 mit Konstanten rechnet, die nur beispielhaft an einem Gewebe ermittelt wurden und somit nicht exakt für die gegebenen Gewebe der Aufgabenstellung gelten können. Außerdem kann der Einfluss, dass lediglich mit der einfachen Mischungsregel ohne Querkontraktionsbehinderung der Matrix gerechnet wurde, eine leichte Abweichung verursachen.
 Dargestellt sind die Rechnungen in Abb. ~\ref{fig:Berechnung Holmgurte}, Abb.~\ref{fig:Berechnung Steg dünn} und Abb.~\ref{fig:Berechnung Steg dick}.\\
 
 \noindent Als nächstes können die Ingenieurskonstanten (E-Moduln des gesamten Laminats in Hauptachsenrichtungen) ermittelt werden, welche für die spätere Stabilitätsabschätzung benötigt werden (siehe Abb. ~\ref{fig:Ingenieurskonstanten Holmgurte}, Abb. \ref{fig:Ingenieurskonstanten Steg dick} und Abb.~\ref{fig:Ingenieurskonstanten Steg dünn}).\\
