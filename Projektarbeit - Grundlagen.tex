@@ -111,6 +111,39 @@ Diese lassen sich experimentell über z.B. einen Zugversuch oder rechnerisch aus
 \noindent
 Bei den Elastizitätsmodule ist darauf zu achten, dass es sich um Module ohne Querkontraktionsbehinderung handelt.\cite{item3}
 
+%Zwischenspeicher der Matrizen\\
+Eine Gleichung für Hannes aus dem Zwischenspeicher, sofern er sie nutzen möchte :D
+\begin{equation}
+	\begin{pmatrix}
+		\hat{n}_{x}\\
+		\hat{n}_{y}\\
+		\hat{n}_{xy}\\
+		\\
+		\hat{m}_{x}\\
+		\hat{m}_{y}\\
+		\hat{m}_{xy}
+	\end{pmatrix}
+	=\begin{bmatrix}
+		A_{11}&A_{12}&A_{16}&&B_{11}&B_{12}&B_{13}\\
+		A_{12}&A_{22}&A_{26}&&B_{12}&B_{22}&B_{26}\\
+		A_{16}&A_{26}&A_{66}&&B_{16}&B_{26}&B_{66}\\
+		\\
+		B_{11}&B_{12}&B_{16}&&D_{11}&D_{12}&D_{16}\\
+		B_{12}&B_{22}&B_{26}&&D_{12}&D_{22}&D_{26}\\
+		B_{16}&B_{26}&B_{66}&&D_{16}&D_{12}&D_{16}\\
+	\end{bmatrix}
+	\cdot \begin{pmatrix}
+		\epsilon_{x}\\
+		\epsilon_{y}\\
+		\gamma_{xy}\\
+		\\
+		\kappa_{x}\\
+		\kappa_{y}\\
+		\kappa_{xy}
+	\end{pmatrix}
+\end{equation}\\
+
+
 \subsection{Mischungsregel (H.G.)}
 Um die Materialkonstanten des FKV zu ermitteln kann die Mischungsregel verwendet werden. Darin werden die Mateialkonstanten der Fasern und der Matrix im Verhältnis zu ihrem Massenanteil zu einer FKV-Materialkonstante zusammengestellt.\\
 \noindent

@@ -94,7 +94,76 @@ Nachdem im Kapitel \ref{CLT} eine Einführung in die klassische Laminattheorie g
 	\end{bmatrix} [MPa], \alpha = 90°
 \end{equation}\\
 
-Mittels dessen einzelnen Werten lassen 
+Mittels dessen einzelnen Werten $\overline{Q_{ij, k}}$ lassen sich der Scheiben, der Koppel- und der Plattenquadrant berechnen des Mehrschichtverbundes. In diesem können sich die Berechnungen teilweise vereinfacht werden, da die beiden Lagendicken $t_{k}$ dem Betrag der Abstände $|z_{k}|$ entspricht.
+
+\begin{equation}
+	A_{ij}= \sum_{k=1}^{2} \overline{Q}_{ij,k}\cdot t_{k}
+\end{equation}
+\begin{equation} \underline{\underline{A}}=
+	\begin{bmatrix}
+		8090,1 & 678,8 & 0\\
+		678,8 & 8090,1 & 0\\
+		0 & 0 & 857,3\\
+	\end{bmatrix} \Bigl[\frac{N}{mm}\Bigr]
+\end{equation}
+
+
+\begin{equation}
+	B_{ij}= \cdot \sum_{k=1}^{2} \overline{Q}_{ij,k}\cdot t_{k}\cdot \left(z_{k}-\frac{t_{k}}{2}\right)
+\end{equation}
+\begin{equation} \underline{\underline{B}}=
+	\begin{bmatrix}
+		620,9 & 0 & 0\\
+		0 & -620,9 & 0\\	
+		0 & 0 & 0\\
+	\end{bmatrix} [N]
+\end{equation}
+
+\begin{equation} \underline{\underline{D}}=
+	D_{ij}=\sum_{k=1}^{2} \overline{Q}_{ij,k}\cdot \left(\frac{t_{k}^{3}}{12}+t_{k}\left(z_{k}-\frac{t_{k}}{2}\right)^{2}\right)
+\end{equation}
+\begin{equation}
+	\begin{bmatrix}
+		125,8 & 10,6 & 0\\
+		10,6 & 125,8 & 0\\
+		0 & 0 & 13,3
+	\end{bmatrix} [Nmm]
+\end{equation}\\
+
+\noindent Aus diesen Matrizen lässt sich nun das \textit{ Elastizitätsgesetz des kombinierten Scheiben-Plattenelements} anwenden:
+
+\begin{equation}
+	\begin{pmatrix}
+		\hat{\underline{n}}\\
+		\hat{\underline{m}}
+	\end{pmatrix}
+	= \begin{bmatrix}
+		\underline{\underline{A}}&\underline{\underline{B}}\\
+		\underline{\underline{B}}&\underline{\underline{D}}
+	\end{bmatrix}
+	\cdot \begin{pmatrix}
+		\underline{\epsilon}\\
+		\underline{\kappa}
+	\end{pmatrix}
+\end{equation}\\
+
+\noindent Mit der Inversen der Scheibenmatrix $\underline{\underline{A^{-1}}}$ werden abschließend die Ingenieurskonstanten des Mehrschichtverbundes ohne Querkontraktionsbehinderung ermittelt:
+
+\begin{equation}
+	\hat{E}_{x}=\frac{1}{A_{11}^{-1}\cdot t} = 18727 MPA
+\end{equation}
+\begin{equation}
+	\hat{E}_{y}=\frac{1}{A_{22}^{-1}\cdot t} = 18727 MPa
+\end{equation}
+\begin{equation}
+	\hat{G}_{xy}=\frac{1}{A_{66}^{-1}\cdot t} = 1984,5 MPa
+\end{equation}
+\begin{equation}
+	\hat{\nu}_{xy}=-\frac{A_{12}^{-1}}{A_{22}^{-1}} = 0,084
+\end{equation}
+\begin{equation}
+	\hat{\nu}_{yx}=-\frac{A_{12}^{-1}}{A_{11}^{-1}} = 0,084
+\end{equation}
 
 
 \subsubsection{$eLamX^{2}$ (T.B.)}\label{elamx}
