@@ -128,30 +128,30 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 \begin{equation}
 \begin{split}
 	S_{z,4} &= t\int_{0}^{s_4}\bigg(37,5\mathrm{mm}+cos(\alpha)(s_{2,\mathrm{ende}}+s)\bigg)ds + S_{z,2}(s_{2,\mathrm{ende}})  + S_{z,3}(s_{3,\mathrm{ende}})\\\
-	&= t\bigg[51,37\mathrm{mm}\cdot s + \frac{1}{2}s^2\bigg]_{s=0}^{s_4} + S_{z,2}(s_{2,\mathrm{ende}})  + S_{z,3}(s_{3,\mathrm{ende}})\\\
-	&= t\cdot\bigg(51,37\mathrm{mm}\cdot s_4 + \frac{1}{2}s^2_4\bigg) + S_{z,2}(s_{2,\mathrm{ende}})  + S_{z,3}(s_{3,\mathrm{ende}})
+	&= t\bigg[51,37\mathrm{mm}\cdot s + \frac{cos(\alpha)}{2}s^2\bigg]_{s=0}^{s_4} + S_{z,2}(s_{2,\mathrm{ende}})  + S_{z,3}(s_{3,\mathrm{ende}})\\\
+	&= t\cdot\bigg(51,37\mathrm{mm}\cdot s_4 + \frac{cos(\alpha)}{2}s^2_4\bigg) + S_{z,2}(s_{2,\mathrm{ende}})  + S_{z,3}(s_{3,\mathrm{ende}})
 \end{split}
 \end{equation}
 \begin{equation}
 \begin{split}
 	S_{y,4} &= t\int_{0}^{s_4}\bigg(-37,5\mathrm{mm}+sin(\alpha)(s_{2,\mathrm{ende}}+s)\bigg)ds + S_{y,2}(s_{2,\mathrm{ende}})  + S_{y,3}(s_{3,\mathrm{ende}})\\\
-	&= t\bigg[-35,63\mathrm{mm}\cdot s + \frac{1}{2}s^2\bigg]_{s=0}^{s_4} + S_{y,2}(s_{2,\mathrm{ende}})  + S_{y,3}(s_{3,\mathrm{ende}})\\\
-	&= t\cdot\bigg(-35,62\mathrm{mm}\cdot s_4 + \frac{1}{2}s^2_4\bigg) + S_{y,2}(s_{2,\mathrm{ende}})  + S_{y,3}(s_{3,\mathrm{ende}})
+	&= t\bigg[-35,63\mathrm{mm}\cdot s + \frac{sin(\alpha)}{2}s^2\bigg]_{s=0}^{s_4} + S_{y,2}(s_{2,\mathrm{ende}})  + S_{y,3}(s_{3,\mathrm{ende}})\\\
+	&= t\cdot\bigg(-35,62\mathrm{mm}\cdot s_4 + \frac{sin(\alpha)}{2}s^2_4\bigg) + S_{y,2}(s_{2,\mathrm{ende}})  + S_{y,3}(s_{3,\mathrm{ende}})
 \end{split}
 \end{equation}
 %5
 \begin{equation}
 	\begin{split}
 		S_{z,5} &= t\int_{0}^{s_5}\bigg(37,5\mathrm{mm}+cos(\alpha)(s_{2,\mathrm{ende}}+s_{4,\mathrm{ende}}+s)\bigg)ds + S_{z,4}(s_{4,\mathrm{ende}})\\\
-		&= t\bigg[65,25\mathrm{mm}\cdot s +\frac{1}{2}s^2\bigg]_{s=0}^{s_5} + S_{z,4}(s_{4,\mathrm{ende}})\\\
-		&= t\cdot\bigg(65,25\mathrm{mm}\cdot s_5 +\frac{1}{2}s^2_5\bigg) + S_{z,4}(s_{4,\mathrm{ende}})
+		&= t\bigg[65,25\mathrm{mm}\cdot s +\frac{cos(\alpha)}{2}s^2\bigg]_{s=0}^{s_5} + S_{z,4}(s_{4,\mathrm{ende}})\\\
+		&= t\cdot\bigg(65,25\mathrm{mm}\cdot s_5 +\frac{cos(\alpha)}{2}s^2_5\bigg) + S_{z,4}(s_{4,\mathrm{ende}})
 	\end{split}
 \end{equation}
 \begin{equation}
 	\begin{split}
 		S_{y,5} &= t\int_{0}^{s_5}\bigg(-37,5\mathrm{mm}+sin(\alpha)(s_{2,\mathrm{ende}}+s_{4,\mathrm{ende}}+s)\bigg)ds + S_{y,4}(s_{4,\mathrm{ende}})\\\
-		&= t\bigg[-33,75\mathrm{mm}\cdot s +\frac{1}{2}s^2\bigg]_{s=0}^{s_5} + S_{y,4}(s_{4,\mathrm{ende}})\\\
-		&= t\cdot\bigg(-33,75\mathrm{mm}\cdot s_5 +\frac{1}{2}s^2_5\bigg) + S_{y,4}(s_{4,\mathrm{ende}})
+		&= t\bigg[-33,75\mathrm{mm}\cdot s +\frac{sin(\alpha)}{2}s^2\bigg]_{s=0}^{s_5} + S_{y,4}(s_{4,\mathrm{ende}})\\\
+		&= t\cdot\bigg(-33,75\mathrm{mm}\cdot s_5 +\frac{sin(\alpha)}{2}s^2_5\bigg) + S_{y,4}(s_{4,\mathrm{ende}})
 	\end{split}
 \end{equation}
 %6
@@ -253,15 +253,15 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 %2
 	\begin{equation}
 		\begin{split}
-			\int S_{\bar z,2}\ ds_2 &= \int  \bigg(t\cdot\bigg(37,5\mathrm{mm}\cdot s_2 +\frac{cos(\alpha)}{2}\cdot s^2_2\bigg) + S_{z,1}(s_{1,\mathrm{ende}})-y_0ts_2\bigg)\ ds_2\\\
-			&=\bigg[t\bigg(s_2^2\frac{37,5\mathrm{mm}-y_0}{2}+\frac{cos(\alpha)}{6}\cdot s^3_2\bigg)+S_{z,1}(s_{1,\mathrm{ende}})s_2\bigg]_{s_2=0}^{s_{2,\mathrm{ende}}}\\\
+			\int S_{\bar z,2}\ ds_2 &= \int  \bigg(t\cdot\bigg(37,5\mathrm{mm}\cdot s_2 +\frac{cos(\alpha)}{2}\cdot s^2_2\bigg) + S_{\bar z,1}(s_{1,\mathrm{ende}})-y_0ts_2\bigg)\ ds_2\\\
+			&=\bigg[t\bigg(s_2^2\frac{37,5\mathrm{mm}-y_0}{2}+\frac{cos(\alpha)}{6}\cdot s^3_2\bigg)+S_{\bar z,1}(s_{1,\mathrm{ende}})s_2\bigg]_{s_2=0}^{s_{2,\mathrm{ende}}}\\\
 			&= -11417,94\mathrm{mm}^4
 		\end{split}
 	\end{equation}
 	\begin{equation}
 		\begin{split}
-			\int S_{\bar y,2}\ ds_2 &= \int\bigg( t\cdot\bigg(-37,5\mathrm{mm}\cdot s_2 +\frac{sin(\alpha)}{2}\cdot s^2_2\bigg) + S_{y,1}(s_{1,\mathrm{ende}}) - z_0ts_2\bigg)\ ds_2\\\
-			&= \bigg[t\bigg(-s_2^2\frac{37,5\mathrm{mm}+z_0}{2}+\frac{sin(\alpha)}{6}s_2^3\bigg)+S_{y,1}(s_{1,\mathrm{ende}})s_2\bigg]_{s_2=0}^{s_{2,\mathrm{ende}}}\\\
+			\int S_{\bar y,2}\ ds_2 &= \int\bigg( t\cdot\bigg(-37,5\mathrm{mm}\cdot s_2 +\frac{sin(\alpha)}{2}\cdot s^2_2\bigg) + S_{\bar y,1}(s_{1,\mathrm{ende}}) - z_0ts_2\bigg)\ ds_2\\\
+			&= \bigg[t\bigg(-s_2^2\frac{37,5\mathrm{mm}+z_0}{2}+\frac{sin(\alpha)}{6}s_2^3\bigg)+S_{\bar y,1}(s_{1,\mathrm{ende}})s_2\bigg]_{s_2=0}^{s_{2,\mathrm{ende}}}\\\
 			&=-1819,86\mathrm{mm}^4
 		\end{split}
 	\end{equation}
@@ -276,15 +276,68 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 	\begin{equation}
 		\begin{split}
 			\int S_{\bar y,3}\ ds_3 &= \int t_1\cdot\bigg(-\frac{1}{2}s^2_3-z_0s_3\bigg)\ ds_3\\\
-			&=t_1\bigg[-\frac{s_3^3}{6}-\frac{z_0}{2}s_3^2\bigg]\\\
+			&=t_1\bigg[-\frac{s_3^3}{6}-\frac{z_0}{2}s_3^2\bigg]_{s_3=0}^{s_{3,\mathrm{ende}}}\\\
 			&=638,06\mathrm{mm}^4
 		\end{split}
 	\end{equation}
 %4
 	\begin{equation}
 		\begin{split}
-			\int S_{\bar z,4}\ ds_4 &= \int \bigg(t\cdot\bigg(-35,62\mathrm{mm}\cdot s_4 + \frac{1}{2}s^2_4\bigg) + S_{y,2}(s_{2,\mathrm{ende}})  + S_{y,3}(s_{3,\mathrm{ende}})-y_0ts_4\bigg)\ ds_4\\\
-			&= \bigg[t\bigg(-s_4^2\frac{35,62+y_0}{2}+\bigg)\bigg]
+			\int S_{\bar z,4}\ ds_4 &= \int \bigg(t\cdot\bigg(51,37\mathrm{mm}\cdot s_4 + \frac{cos(\alpha)}{2}s^2_4\bigg) + S_{\bar z,2}(s_{2,\mathrm{ende}})  + S_{\bar z,3}(s_{3,\mathrm{ende}})-y_0ts_4\bigg)\ ds_4\\\
+			&= \bigg[t\bigg(s_4^2\frac{51,37\mathrm{mm}-y_0}{2}+\frac{cos(\alpha)}{6}s_4^3\bigg)+s_4\bigg(S_{\bar z,2}(s_{2,\mathrm{ende}})  + S_{\bar z,3}(s_{3,\mathrm{ende}})\bigg)\bigg]_{s_4=0}^{s_{4,\mathrm{ende}}}\\\
+			&=-16954,55\mathrm{mm}^4
+		\end{split}
+	\end{equation}
+	\begin{equation}
+		\begin{split}
+			 \int S_{\bar y,4}\ ds_4 &= \int \bigg(t\cdot\bigg(-35,62\mathrm{mm}\cdot s_4 + \frac{sin(\alpha)}{2}s^2_4\bigg) + S_{\bar y,2}(s_{2,\mathrm{ende}})  + S_{\bar y,3}(s_{3,\mathrm{ende}})-tz_0s_4\bigg)\ ds_4\\\
+			 &=\bigg[t\bigg(-s_4^2\frac{35,62\mathrm{mm}+z_0}{2}+s_4^3\frac{sin(\alpha)}{6}\bigg)+ s_4\bigg(S_{\bar y,2}(s_{2,\mathrm{ende}})  + S_{\bar y,3}(s_{3,\mathrm{ende}})\bigg)\bigg]_{s_4=0}^{s_{4,\mathrm{ende}}}\\\
+			 &=-3166,21\mathrm{mm}^4
+		\end{split}
+	\end{equation}
+%5
+	\begin{equation}
+		\begin{split}
+			\int S_{\bar z,5}\ ds_5 &= \int \bigg(t\cdot\bigg(65,25\mathrm{mm}\cdot s_5 +\frac{cos(\alpha)}{2}s^2_5\bigg) + S_{\bar z,4}(s_{4,\mathrm{ende}})-ty_0s_5\bigg)\ ds_5\\\
+			&= \bigg[t\bigg(s_5^2\frac{65,25\mathrm{mm}-y_0}{2}+\frac{cos(\alpha)}{6}s^3_5\bigg)+s_5S_{\bar z,4}(s_{4,\mathrm{ende}})\bigg]_{s_5=0}^{s_{5,\mathrm{ende}}}\\\
+			&=-107261,55\mathrm{mm}^4
+		\end{split}
+	\end{equation}
+	\begin{equation}
+		\begin{split}
+			\int S_{\bar y,5}\ ds_5 &= \int \bigg(t\cdot\bigg(-33,75\mathrm{mm}\cdot s_5 +\frac{sin(\alpha)}{2}s^2_5\bigg) + S_{\bar y,4}(s_{4,\mathrm{ende}})-tz_0s_5\bigg)\ ds_5\\\
+			&=\bigg[t\bigg(-s_5^2\frac{33,75\mathrm{mm}+z_0}{2}+s_5^3\frac{sin(\alpha)}{6}\bigg)+s_5S_{\bar y,4}(s_{4,\mathrm{ende}})\bigg]_{s_5=0}^{s_{5,\mathrm{ende}}}\\\
+			&=-42977,28\mathrm{mm}^4
+		\end{split}
+	\end{equation}
+%6
+	\begin{equation}
+		\begin{split}
+			\int S_{\bar z,6}\ ds_6 &= \int \bigg(t\cdot\bigg(172\mathrm{mm}\cdot s_6-\frac{cos(\beta)}{2}\cdot s^2_6\bigg) + S_{\bar z,5}(s_{5,\mathrm{ende}})-ty_0s_6\bigg)\ ds_6\\\
+			&=\bigg[t\bigg(s_6^2\frac{172\mathrm{mm-y_0}}{2}-s_6^3\frac{cos(\beta)}{6}\bigg)+ s_6S_{\bar z,5}(s_{5,\mathrm{ende}})\bigg]_{s_6=0}^{s_{6,\mathrm{ende}}}\\\
+			&=-3426,83\mathrm{mm}^4
+		\end{split}
+	\end{equation}
+	\begin{equation}
+		\begin{split}
+			\int S_{\bar y,6}\ ds_6 &= \int \bigg(t\cdot\bigg(-19,33\mathrm{mm}\cdot s_6 + \frac{sin(\beta)}{2}\cdot s^2_6\bigg) + S_{\bar y,5}(s_{5,\mathrm{ende}})-tz_0s_6\bigg)\ ds_6\\\
+			&=\bigg[t\bigg(-s_6^2\frac{19,33\mathrm{mm}+z_0}{2}+s_6^3\frac{sin(\beta)}{6}\bigg)+ s_6S_{\bar y,5}(s_{5,\mathrm{ende}})\bigg]_{s_6=0}^{s_{6,\mathrm{ende}}}\\\
+			&=-14579,38\mathrm{mm}^4
+		\end{split}
+	\end{equation}
+%7
+	\begin{equation}
+		\begin{split}
+			\int S_{\bar z,7}\ ds_7 &= \int\bigg(t\cdot\bigg(148,96\mathrm{mm}\cdot s_7-\frac{1}{2}s^2_7\bigg) + S_{\bar z,6}(s_{6,\mathrm{ende}})-ty_os_7\bigg)\ ds_7\\\
+			&=\bigg[t\bigg(s_7^2\frac{148,96\mathrm{mm}-y_0}{2}-\frac{s_7^3}{6}\bigg)+s_7S_{\bar z,6}(s_{6,\mathrm{ende}})\bigg]_{s_7=0}^{s_{7,\mathrm{ende}}}\\\
+			&=39745,58\mathrm{mm}^4
+		\end{split}
+	\end{equation}
+	\begin{equation}
+		\begin{split}
+			\int S_{\bar y,7}\ ds_7 &= \int \bigg(S_{\bar y,6}(s_{6,\mathrm{ende}})-tz_0s_7\bigg)\ ds_7\\\
+			&=\bigg[-s_7^2\frac{tz_0}{2}+s_7S_{\bar y,6}(s_{6,\mathrm{ende}})\bigg]_{s_7=0}^{s_{7,\mathrm{ende}}}\\\
+			&=-27553,07\mathrm{mm}^4
 		\end{split}
 	\end{equation}
 \end{itemize}
