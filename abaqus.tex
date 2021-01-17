@@ -16,7 +16,7 @@ Daraufhin werden die Kennwerte der Materialien in das Programm integriert. Hierb
 Nun wird das Schalenmodell in die Verschiedenen Segmente Unterteilt , denen dann Materialien und deren entsprechenden Dicken und Anzahl von Schichten zugeortnet werden. Hierbei wird das Bauteil in den dicken und den dünnen Teil des Stegs, die Gurte, die Haut, sowie die Rippen unterteilt. Für die Bauteile aus GFK werden erst zwei zum Flügelkoordinatensystem um 45 und -45 Grad gedrehte GFK-Schichten definiert(siehe Abb. \ref{Steg_Material}), dann der Schaum und daraufhin erneut zwei versetzte GFK-Schichten. Eine Schicht hat hierbei ein Viertel der zuvor berechneten Dicke ohne des Schaums. Für die Rippen wird eine Dicke von 3mm angenommen.\\
 \noindent
 Als nächstes werden die Randbedingungen und Angreifenden Kräfte festgelegt. Der Holm ist in der Einspannung fest gelagert. Daher wird an der Stelle der Lager A und B eine feste Einspannung angenommen. Die Aufgenommenen Kräfte durch die Querkraftbolzen werden als Kräfte angebracht.Die Prüfkraft wird am L/4-Punkt eingeleitet.\\
-Daraufhin wird das Bauteil vernetzt. Hierbei wird eine Anzahl an Knoten pro Längeneinheit eingegeben und das Programm verbindet diese zu einem Netz aus Flächen.Durch die Begrenzung auf 1000 Knoten ist das Netz jedoch recht grob. \\
+Daraufhin wird das Bauteil vernetzt. Hierbei wird eine Anzahl an Knoten pro Längeneinheit eingegeben und das Programm verbindet diese zu einem Netz aus Flächen.Durch die Begrenzung auf 1000 Knoten ist das Netz jedoch recht grob, wodurch die Berechnung ebenfalls eine gewissen Ungenauigkeit aufweisen kann. \\
 \newpage
 \subsubsection{Analyse}
 Zunächst wird eine Prüfkraft von 100N angelegt, um die maximale Absenkung zu ermitteln. Hierbei ergibt sich für die Absenkung $z_{max}=17,34mm$, welche erwartungsgemäß an der Spitze des Flügels auftritt. Dies ist weniger als die geforderte Absenkung von $z_{max}=22mm$ und somit kann dieses Aufgabenkriterium als erfüllt angesehen werden.(siehe Abb.\ref{Absenkung})
@@ -35,7 +35,8 @@ Die Schubspannung ist in der Schale auf der Unterseite am höchsten. Hier ergibt
 \noindent
 Das Angenommene Koordinatensystem bezieht ich auf die oberste Schicht des Laminats. Daher sind $x_{1}$ und $x_{2}$ immer in Richtung der Faser oder orthogonal dazu.\\
 Da die Spannungen nicht in allen Schichten gleich seinen müssen haben die Spannungen allerdings eine geringe Aussagekraft. Eine bessere Aussage lässt sich durch die maximale Dehnungen in den einzelnen Koordinatenrichtungen treffen. Durch die Annahme, dass die Dehnung in allen schichten gleich ist, kann diese in elamX eingegeben werden und so eine Sicherheit gegen Bruch ermittelt werden
-(siehe Abb. \ref{sicher-steg} - \ref{sicher-gurt}). Die niedrichste Sicherheit ergibt sich im unteren Gurt mit 1,317.\\
+(siehe Abb. \ref{sicher-steg} - \ref{sicher-gurt}). Die niedrichste Sicherheit ergibt sich im unteren Gurt mit 1,317. Dies ist hinreichend, um die Festigkeit des Flügels zu bestätigen.\\
+\noindent
 Die Werte sind durch das Zusammenspiel aller Bauteile sehr viel kleiner als in den Vorherigen Berechnungen. Dadurch bestätigt das FEM- Modell die vorangegangenen Berechnungen.
 \newpage
 \subsubsection{Beulanalyse}
@@ -45,7 +46,7 @@ Da der Holmstummel bis zum Lager C nicht ausreichend modelliert werden konnte wi
  \includegraphics[scale=0.4]{Bilder/Beuleinspannung}
  \caption{Einspannung am Lager C}
  \label{BEinspannung}
-\end{figure}
+\end{figure}\\
 \noindent
 Nun können die Eigenwerte für die Belastung von 100N, 500N und 1000N abgelesen werden.
 \begin{center}
@@ -63,9 +64,10 @@ Das Programm ermöglicht außerdem die Ausgabe möglicher Beulformen. Ein Beispi
 \begin{figure}[h]
  \centering
  \includegraphics[scale=0.4]{Bilder/Beulen100N}
- \label{Beulform}
  \caption{Beispiel Beulform}
+ \label{Beulform}
 \end{figure}
+\newpage
 \newpage
 
  

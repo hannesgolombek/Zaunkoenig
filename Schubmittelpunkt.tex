@@ -202,10 +202,10 @@ wobei $r$ der jeweilige Hebelarm zu einem beliebigen Pol ist. Unter Anwendung de
 \end{equation}
 Daraus folgt:
 $$
-	y_{M}=174,74\mathrm{mm}
+	y_{M}=207,60\mathrm{mm}
 $$
 $$
-	z_{M}=-37,62\mathrm{mm}
+	z_{M}=-41,35\mathrm{mm}
 $$
 Im nächsten Schritt wird das Profil geschlossen, sodass ein Zweizeller entsteht. An den vorher noch geschnittenen Kanten kann nun Schubfluss herrschen. Dies wird durch die Konstanten $q_{0b,1}$ und $q_{0b,2}$ in der jeweiligen Zelle erreicht.
 Da die Verwindung $\vartheta$ für beide Zellen gleich und im Falle der weiterhin reinen Biegung null sein müssen, erhält man für jede Koordinatenrichtung zwei Gleichungen mit zwei unbekannten.
@@ -216,8 +216,8 @@ Nach \cite{item15}:
 \begin{equation}
 	\vartheta_{i} = \frac{1}{2A_{0i}G}\oint\frac{q(s)}{t(s)}ds
 \end{equation}
-\begin{equation}
-	\vartheta_{i} = \frac{1}{2A_{0i}G}(\oint\frac{q_{offen}(s)}{t(s)}ds+q_{0b,i}\oint\frac{1}{t(s)}ds-q_{0b,i\pm1}\int\frac{1}{t(s)})
+\begin{equation}\label{dickeFormel}
+	\vartheta_{i} = \frac{1}{2A_{0i}G}(\oint\frac{q_{offen}(s)}{t(s)}ds+q_{0b,i}\oint\frac{1}{t(s)}ds-q_{0b,i\pm1}\int\frac{1}{t(s)}ds)
 \end{equation}
 Die Verwindung ist als spezifischer Drillwinkel mit
 \begin{equation}
@@ -233,13 +233,13 @@ $$
 $$
 ergeben sich die Konstanten:
 $$
-	q_{0b,1\bar{z}}=-1,72\cdot10^{-2}\mathrm{mm}Q_{\bar{z}}
+	q_{0b,1\bar{z}}=-1,82\cdot10^{-2}\mathrm{mm}Q_{\bar{z}}
 $$$$
-	q_{0b,2\bar{z}}=-4,47\cdot10^{-4}\mathrm{mm}Q_{\bar{z}}
+	q_{0b,2\bar{z}}=-5,63\cdot10^{-3}\mathrm{mm}Q_{\bar{z}}
 $$$$
-	q_{0b,1\bar{y}}=-2,54\cdot10^{-3}\mathrm{mm}Q_{\bar{y}}
+	q_{0b,1\bar{y}}=-2,61\cdot10^{-3}\mathrm{mm}Q_{\bar{y}}
 $$$$
-	q_{0b,2\bar{y}}=-4,53\cdot10^{-4}\mathrm{mm}Q_{\bar{y}}
+	q_{0b,2\bar{y}}=-1,14\cdot10^{-3}\mathrm{mm}Q_{\bar{y}}
 $$
 Mit den Schubfluss des geschlossenen Profils in die Momentenäquivalenz eingesetzt, ergibt sich der Schubmittelpunkt ($y_{Mg}, z_{Mg}$) zu:
 \begin{equation}
@@ -250,10 +250,10 @@ Q_{\bar{y}}(z_{Mg}-z_{M})=\sum_{i=0}^{2}q_{0b,i\bar{y}}2A_{0,i}
 \end{equation}
 
 $$
-	y_{M_{g}}=70,09\mathrm{mm}
+	y_{M_{g}}=76,78\mathrm{mm}
 $$
 $$
-	z_{M_{g}}=-20,46\mathrm{mm}
+	z_{M_{g}}=-21,56\mathrm{mm}
 $$
 \begin{figure}[h]
 	\centering
@@ -283,16 +283,16 @@ Da die bisherigen Anteile des Schubflusses definitionsgemäß weder Verwindung v
 \end{equation}
 Für eine maximale Prüflast von $F=500\mathrm{N}$ die der Flügel aushalten muss, erhält man
 $$
-	q_{0T,1}=-1,45\mathrm{N/mm}
+	q_{0T,1}=-1,80\mathrm{N/mm}
 $$
 $$
-	q_{0T,2}=-1,51\mathrm{N/mm}.
+	q_{0T,2}=-1,87\mathrm{N/mm}.
 $$
 Setzt man nun diese Werte in Gleichung (\ref{verdrillung}) erhält man für beide Zellen einer Verwindung von
 $$
-	\vartheta =-0,00195 ^\circ.
+	\vartheta =-0,00242 ^\circ.
 $$
-Integriert man diesen konstanten Wert über die gesamte Länge des Flügels, erhält man den Drillwinkel am Ende mit $\varphi = -1,5^\circ$.
+Integriert man diesen konstanten Wert über die gesamte Länge des Flügels, erhält man den Drillwinkel am Ende mit $\varphi = -1,87^\circ$.
 
 \subsubsection{Schubspannung (O.S.)}
 Das Ziel dieser Berechnung war nicht nur den Schubmittelpunkt und den Drillinkel zu bestimmen, sondern hauptsächlich die Schubspannung in der Haut zu erhalten, um diese auslegen zu können. Da die Hautdicke auf dem gesamten Umfang konstant bleiben soll, ist an dieser Stelle nur die maximale Schubspannung für alle Bereiche der Haut $\tau_{max}$, die sich einfach aus Gleichung (\ref{tau}) ermitteln lässt, interessant. Die Dicke $t$ ist jedoch nicht einfach aus den gesamten Rechnungen rausziehbar, weil es auch Anteile, wie zum Beispiel den Holm, gibt, die von $t$ unabhängig sind. Deswegen wird iterativ vorgegangen, wobei zuerst mit einer zufällig gewählten Dicke die Rechenschritte durchgeführt werden, in dem in diesem Kapitel gezeigten Fall mit $t=0,2\mathrm{mm}$. Am Ende der Berechnung wird aus den maximalen Schubfluss die minimale Dicke
@@ -309,18 +309,18 @@ gewählt, was $2$ Lagen entspricht. Dies macht einen symmetrischen Aufbau der Ha
 
 Mit dieser Dicke verändern sich die Werte des endgültigen Flügels im Vergleich zu den bisher in diesem Kapitel mit $t=0,2\mathrm{mm}$ durchgeführten Berechnungen. Der Schubmittelpunkt verschiebt sich minimal zu
 $$
-	y_{M_{g}}=69,29\mathrm{mm}
+	y_{M_{g}}=75,72\mathrm{mm}
 $$
 $$
-	z_{M_{g}}=-22,85\mathrm{mm}.
+	z_{M_{g}}=-21,31\mathrm{mm}.
 $$
 Auch der Drillwinkel vergrößert sich leicht durch die gesenkte dünnere Haut Steifigkeit zu
 $$
-	\varphi =-1,87 ^\circ.
+	\varphi =-2,32 ^\circ.
 $$
 Aus den Verläufen der Schubflüsse, wie sie in Abbildung \ref{fig:S1}-\ref{fig:S10} zu sehen, erkennt man, dass die betragsmäßig maximale Schubspannung am Endpunkt des Bereichs 8 auftritt.
 $$
-	|\tau_{max}|=\tau(s_8=14)=42,35\mathrm{N/mm^2}\leq R_{\tau}
+	|\tau_{max}|=\tau(s_8=14)=47,52\mathrm{N/mm^2}\leq R_{\tau}
 $$
 Im Steg (Bereich 3) tritt zwar ein deutlich höherer Schubfluss auf, jedoch ergibt sich durch die ebenfalls deutlich höhere Dicke eine geringere Spannung.
 
