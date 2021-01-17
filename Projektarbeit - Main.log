@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  16 JAN 2021 23:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  17 JAN 2021 00:44
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -497,7 +497,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--8
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
@@ -509,12 +509,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
 [18]
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
- []
-
-
-Overfull \hbox (4.57469pt too wide) in paragraph at lines 21--22
-\T1/cmr/m/n/10.95 Das Ko-or-di-na-ten-sys-tem des Flü-gels ent-spricht ei-nem l
-inks-hän-di-gem Flugzeug-Koordinatensystem,
  []
 
 
@@ -533,17 +527,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
  []
 
 [19]
-<Bilder/Balkenmodell.jpg, id=157, 781.11826pt x 356.532pt>
-File: Bilder/Balkenmodell.jpg Graphic file (type jpg)
-<use Bilder/Balkenmodell.jpg>
-Package pdftex.def Info: Bilder/Balkenmodell.jpg  used on input line 47.
-(pdftex.def)             Requested size: 455.24411pt x 207.79514pt.
+<Bilder/Balkenmodell2.jpg, id=157, 792.561pt x 371.58826pt>
+File: Bilder/Balkenmodell2.jpg Graphic file (type jpg)
+<use Bilder/Balkenmodell2.jpg>
+Package pdftex.def Info: Bilder/Balkenmodell2.jpg  used on input line 47.
+(pdftex.def)             Requested size: 455.24411pt x 213.44612pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
-[20 <./Bilder/Balkenmodell.jpg>]
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
@@ -553,10 +547,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21]
+[21 <./Bilder/Balkenmodell2.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
@@ -865,7 +856,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--201
  []
 
 
-Underfull \vbox (badness 8075) has occurred while \output is active []
+Underfull \vbox (badness 2753) has occurred while \output is active []
 
  [38]
 Underfull \hbox (badness 10000) in paragraph at lines 202--203
@@ -1731,7 +1722,7 @@ aterial.png>] [125 <./Bilder/sicher1.png> <./Bilder/sicher2.png>] [126 <./Bilde
 r/sicher3.png> <./Bilder/sicher4.png>] ("Projektarbeit - Main.aux") ) 
 Here is how much of TeX's memory you used:
  5492 strings out of 479799
- 84963 string characters out of 2869723
+ 84969 string characters out of 2869723
  390360 words of memory out of 3000000
  22266 multiletter control sequences out of 15000+200000
  546097 words of font info for 52 fonts, out of 3000000 for 9000
@@ -1758,7 +1749,7 @@ ts/cm/cmr8.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (131 pages, 4688290 bytes).
+Output written on "Projektarbeit - Main.pdf" (131 pages, 4708588 bytes).
 PDF statistics:
  1062 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
