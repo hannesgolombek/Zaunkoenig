@@ -82,7 +82,11 @@
 \contentsline {subsection}{\numberline {10.2}Die Konstruktion und FEM-Analyse im Überblick (H.K.)}{90}{}%
 \contentsline {subsection}{\numberline {10.3}Gewichtsnormalisiertes Festigkeitskriterium (O.S.)}{91}{}%
 \contentsline {subsection}{\numberline {10.4}Diskussion der Ergebnisse}{92}{}%
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {10.5}Optimierungsmöglichkeiten}{92}{}%
+=======
+\contentsline {subsection}{\numberline {10.5}Optimierungsmöglichkeiten (H.G.)}{92}{}%
+>>>>>>> main
 \contentsline {section}{\numberline {11}Quellenverzeichnis}{94}{}%
 \contentsline {section}{\numberline {12}Abbildungsverzeichnis}{96}{}%
 \contentsline {section}{\numberline {13}Tabellenverzeichnis}{98}{}%

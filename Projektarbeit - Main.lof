@@ -1,4 +1,5 @@
 \babel@toc {ngerman}{}
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Schubknicken}}{16}{}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces a) I-Holm b) C-Holm c) Kastenholm}}{17}{}%
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Modellierung des Holms}}{21}{}%
@@ -57,3 +58,58 @@
 \contentsline {figure}{\numberline {14.35}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, verschiedenen Randbedingungen für Schub, ohne Versteifungen; nach []}}{135}{}%
 \contentsline {figure}{\numberline {14.36}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, Ränder einseitig gestützt, für Überlagerungnen, ohne Versteifungen; nach []}}{136}{}%
 \contentsline {figure}{\numberline {14.37}{\ignorespaces Sandwichplatte mit unterschiedlichen Hautstärken, Beulsteifigkeit, für Steifigkeits-Erhöhungsfaktor; nach[]}}{136}{}%
+=======
+\contentsline {figure}{\numberline {1}{\ignorespaces Schubknicken}}{16}{}%
+\contentsline {figure}{\numberline {2}{\ignorespaces a) I-Holm b) C-Holm c) Kastenholm}}{17}{}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Modellierung des Holms}}{21}{}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Steifigkeitsauslegung}}{25}{}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Festigkeitsauslegung}}{26}{}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Bezeichnungen des I-Holms}}{28}{}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Angepasste gekrümmte Gurtkontur}}{30}{}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Prinzip der Druckkraft auf den Steg}}{33}{}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Infinitesimales Profilelement aus \cite {item15}}}{53}{}%
+\contentsline {figure}{\numberline {10}{\ignorespaces vereinfachtes Model}}{55}{}%
+\contentsline {figure}{\numberline {11}{\ignorespaces offenes Profil mit Pol}}{59}{}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Schubmittelpunkt des geschlossenen und offenen Profils}}{61}{}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Angreifende Kraft und positive Drehrichtung}}{61}{}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Schalenmodell}}{69}{}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Absenkung bei einer Belastung von 100N}}{71}{}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Einspannung am Lager C}}{73}{}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Beispiel Beulform}}{74}{}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Haut und Gurte nach dem ersten Schritt der Konstruktion}}{75}{}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Prinzipskizze der Sandwichstruktur im Steg}}{76}{}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Hautsandwich am Übergang zum Gurt}}{78}{}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Holzklötze und Hülsen}}{79}{}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Lagenaufbau Holmgurte}}{109}{}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Lagenaufbau Steg Bereich $III$}}{109}{}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Lagenaufbau Steg Bereich $I$\&$II$}}{114}{}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Lagenaufbau Flügelschale}}{115}{}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Berechnung Holmgurte}}{115}{}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Berechnung Steg Bereich $III$}}{116}{}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Berechnung Steg Bereich $I$\&$II$}}{117}{}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Berechnung Flügelschale}}{118}{}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Ingenieurskonstanten Holmgurte}}{118}{}%
+\contentsline {figure}{\numberline {31}{\ignorespaces BerechnIngenieurskonstantenung Steg Bereich $III$}}{119}{}%
+\contentsline {figure}{\numberline {32}{\ignorespaces BerechnIngenieurskonstantenung Steg Bereich $I\&II$}}{120}{}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Ingenieurskonstanten Flügelschale}}{121}{}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Wertebereich der Laufvariablen $s_i$}}{121}{}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Schubfluss Bereich 1}}{122}{}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Schubfluss Bereich 2}}{122}{}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Schubfluss Bereich 3}}{123}{}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Schubfluss Bereich 4}}{123}{}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Schubfluss Bereich 5}}{124}{}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Schubfluss Bereich 6}}{124}{}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Schubfluss Bereich 7}}{125}{}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Schubfluss Bereich 8}}{125}{}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Schubfluss Bereich 9}}{126}{}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Schubfluss Bereich 10}}{126}{}%
+\contentsline {figure}{\numberline {45}{\ignorespaces CAD-Modell der Tragfläche und des Teststandes}}{127}{}%
+\contentsline {figure}{\numberline {46}{\ignorespaces Ursprüngliche Lage des hinteren Langlochs der Querkraftbolzen}}{127}{}%
+\contentsline {figure}{\numberline {47}{\ignorespaces Montage der Tragfläche auf dem Teststand}}{128}{}%
+\contentsline {figure}{\numberline {48}{\ignorespaces ABAQUS Material Beispiel GFK}}{129}{}%
+\contentsline {figure}{\numberline {49}{\ignorespaces ABAQUS Section Beispiel:Steg}}{130}{}%
+\contentsline {figure}{\numberline {50}{\ignorespaces Sicherheit im Steg bei 500N}}{131}{}%
+\contentsline {figure}{\numberline {51}{\ignorespaces Sicherheit in der Haut bei 500N}}{131}{}%
+\contentsline {figure}{\numberline {52}{\ignorespaces Sicherheit am Gurt oben bei 500N}}{132}{}%
+\contentsline {figure}{\numberline {53}{\ignorespaces Sicherheit am Gurt unten bei 500N}}{132}{}%
+>>>>>>> main
