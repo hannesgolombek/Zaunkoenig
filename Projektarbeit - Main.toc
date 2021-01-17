@@ -5,9 +5,9 @@
 \contentsline {subsection}{\numberline {2.2}Motivation (O.S.)}{6}{}%
 \contentsline {subsection}{\numberline {2.3}Lösungsstrategie (H.G.)}{6}{}%
 \contentsline {section}{\numberline {3}Grundlagen}{8}{}%
-\contentsline {subsection}{\numberline {3.1}Glasfaser(H.G.)}{8}{}%
-\contentsline {subsection}{\numberline {3.2}Matrix(H.G.)}{8}{}%
-\contentsline {subsection}{\numberline {3.3}Netztheorie(H.G.)}{8}{}%
+\contentsline {subsection}{\numberline {3.1}Glasfaser (H.G.)}{8}{}%
+\contentsline {subsection}{\numberline {3.2}Matrix (H.G.)}{8}{}%
+\contentsline {subsection}{\numberline {3.3}Netztheorie (H.G.)}{8}{}%
 \contentsline {subsection}{\numberline {3.4}Klassische Laminattheorie (H.G.)}{9}{}%
 \contentsline {subsubsection}{\numberline {3.4.1}Ingenieurskonstanten des MSV}{10}{}%
 \contentsline {subsection}{\numberline {3.5}Mischungsregel (H.G.)}{11}{}%
@@ -82,7 +82,7 @@
 \contentsline {subsection}{\numberline {10.2}Die Konstruktion und FEM-Analyse im Überblick (H.K.)}{90}{}%
 \contentsline {subsection}{\numberline {10.3}Gewichtsnormalisiertes Festigkeitskriterium (O.S.)}{91}{}%
 \contentsline {subsection}{\numberline {10.4}Diskussion der Ergebnisse}{92}{}%
-\contentsline {subsection}{\numberline {10.5}Optimierungsmöglichkeiten}{92}{}%
+\contentsline {subsection}{\numberline {10.5}Optimierungsmöglichkeiten (H.G.)}{92}{}%
 \contentsline {section}{\numberline {11}Quellenverzeichnis}{94}{}%
 \contentsline {section}{\numberline {12}Abbildungsverzeichnis}{96}{}%
 \contentsline {section}{\numberline {13}Tabellenverzeichnis}{98}{}%
