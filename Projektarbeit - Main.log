@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  17 JAN 2021 14:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  17 JAN 2021 15:16
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -1002,11 +1002,11 @@ Package pdftex.def Info: Bilder/Flügel-Pol-offen.png  used on input line 183.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [58] [59 <./Bilder/Flügel-Pol-offen.png>]
-<Bilder/SMP.png, id=296, 1019.60925pt x 348.1005pt>
+<Bilder/SMP.png, id=296, 598.03426pt x 194.52675pt>
 File: Bilder/SMP.png Graphic file (type png)
 <use Bilder/SMP.png>
 Package pdftex.def Info: Bilder/SMP.png  used on input line 260.
-(pdftex.def)             Requested size: 455.24411pt x 155.4221pt.
+(pdftex.def)             Requested size: 455.24411pt x 148.07932pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1427,83 +1427,83 @@ Package pdftex.def Info: Bilder/Längen.png  used on input line 472.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S1.png, id=475, 620.91975pt x 308.95425pt>
+<Bilder/S1.png, id=475, 598.6365pt x 313.17pt>
 File: Bilder/S1.png Graphic file (type png)
 <use Bilder/S1.png>
 Package pdftex.def Info: Bilder/S1.png  used on input line 477.
-(pdftex.def)             Requested size: 455.24411pt x 226.52pt.
+(pdftex.def)             Requested size: 455.24411pt x 238.15979pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S2.png, id=476, 619.113pt x 308.352pt>
+<Bilder/S2.png, id=476, 599.841pt x 313.77225pt>
 File: Bilder/S2.png Graphic file (type png)
 <use Bilder/S2.png>
 Package pdftex.def Info: Bilder/S2.png  used on input line 482.
-(pdftex.def)             Requested size: 455.24411pt x 226.74185pt.
+(pdftex.def)             Requested size: 455.24411pt x 238.1438pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S3.png, id=477, 615.4995pt x 307.1475pt>
+<Bilder/S3.png, id=477, 599.841pt x 316.18124pt>
 File: Bilder/S3.png Graphic file (type png)
 <use Bilder/S3.png>
 Package pdftex.def Info: Bilder/S3.png  used on input line 486.
-(pdftex.def)             Requested size: 455.24411pt x 227.18716pt.
+(pdftex.def)             Requested size: 455.24411pt x 239.97217pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S4.png, id=478, 617.30624pt x 307.1475pt>
+<Bilder/S4.png, id=478, 598.03426pt x 314.3745pt>
 File: Bilder/S4.png Graphic file (type png)
 <use Bilder/S4.png>
 Package pdftex.def Info: Bilder/S4.png  used on input line 490.
-(pdftex.def)             Requested size: 455.24411pt x 226.51697pt.
+(pdftex.def)             Requested size: 455.24411pt x 239.31085pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S5.png, id=479, 619.71526pt x 308.95425pt>
+<Bilder/S5.png, id=479, 598.6365pt x 318.59026pt>
 File: Bilder/S5.png Graphic file (type png)
 <use Bilder/S5.png>
 Package pdftex.def Info: Bilder/S5.png  used on input line 495.
-(pdftex.def)             Requested size: 455.24411pt x 226.96785pt.
+(pdftex.def)             Requested size: 455.24411pt x 242.2818pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S6.png, id=480, 620.91975pt x 307.1475pt>
+<Bilder/S6.png, id=480, 599.23875pt x 313.17pt>
 File: Bilder/S6.png Graphic file (type png)
 <use Bilder/S6.png>
 Package pdftex.def Info: Bilder/S6.png  used on input line 499.
-(pdftex.def)             Requested size: 455.24411pt x 225.19533pt.
+(pdftex.def)             Requested size: 455.24411pt x 237.92087pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S7.png, id=481, 620.91975pt x 308.352pt>
+<Bilder/S7.png, id=481, 599.23875pt x 313.77225pt>
 File: Bilder/S7.png Graphic file (type png)
 <use Bilder/S7.png>
 Package pdftex.def Info: Bilder/S7.png  used on input line 503.
-(pdftex.def)             Requested size: 455.24411pt x 226.07845pt.
+(pdftex.def)             Requested size: 455.24411pt x 238.3784pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S8.png, id=482, 620.91975pt x 308.95425pt>
+<Bilder/S8.png, id=482, 598.6365pt x 316.7835pt>
 File: Bilder/S8.png Graphic file (type png)
 <use Bilder/S8.png>
 Package pdftex.def Info: Bilder/S8.png  used on input line 507.
-(pdftex.def)             Requested size: 455.24411pt x 226.52pt.
+(pdftex.def)             Requested size: 455.24411pt x 240.90779pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S9.png, id=483, 617.9085pt x 307.1475pt>
+<Bilder/S9.png, id=483, 598.6365pt x 313.77225pt>
 File: Bilder/S9.png Graphic file (type png)
 <use Bilder/S9.png>
 Package pdftex.def Info: Bilder/S9.png  used on input line 511.
-(pdftex.def)             Requested size: 455.24411pt x 226.28732pt.
+(pdftex.def)             Requested size: 455.24411pt x 238.6178pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S10.png, id=484, 619.71526pt x 306.54526pt>
+<Bilder/S10.png, id=484, 596.2275pt x 311.9655pt>
 File: Bilder/S10.png Graphic file (type png)
 <use Bilder/S10.png>
 Package pdftex.def Info: Bilder/S10.png  used on input line 515.
-(pdftex.def)             Requested size: 455.24411pt x 225.19812pt.
+(pdftex.def)             Requested size: 455.24411pt x 238.2006pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1796,7 +1796,7 @@ r/sicher3.png> <./Bilder/sicher4.png>] ("Projektarbeit - Main.aux") )
 Here is how much of TeX's memory you used:
  5834 strings out of 479799
  91730 string characters out of 2870198
- 401677 words of memory out of 3000000
+ 401671 words of memory out of 3000000
  22583 multiletter control sequences out of 15000+200000
  546097 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1822,7 +1822,7 @@ ers/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
 y10.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy6.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (136 pages, 4703583 bytes).
+Output written on "Projektarbeit - Main.pdf" (136 pages, 4672525 bytes).
 PDF statistics:
  1077 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
