@@ -34,8 +34,21 @@ Die Normalspannung in $x_{2}$-Richtung ist im Gurt der Unterseite des Flügels (
 Die Schubspannung ist in der Schale auf der Unterseite am höchsten. Hier ergibt sich ein Maximalwert von $16,72\frac{N}{mm^2}$.\\
 \noindent
 Das Angenommene Koordinatensystem bezieht ich auf die oberste Schicht des Laminats. Daher sind $x_{1}$ und $x_{2}$ immer in Richtung der Faser oder orthogonal dazu.\\
-Da die Spannungen nicht in allen Schichten gleich seinen müssen haben die Spannungen allerdings eine geringe Aussagekraft. Eine bessere Aussage lässt sich durch die maximale Dehnungen in den einzelnen Koordinatenrichtungen treffen. Durch die Annahme, dass die Dehnung in allen schichten gleich ist, kann diese in elamX eingegeben werden und so eine Sicherheit gegen Bruch ermittelt werden
-(siehe Abb. \ref{sicher-steg} - \ref{sicher-gurt}). Die niedrichste Sicherheit ergibt sich im unteren Gurt mit 1,317. Dies ist hinreichend, um die Festigkeit des Flügels zu bestätigen.\\
+Da die Spannungen nicht in allen Schichten gleich seinen müssen haben die Spannungen allerdings eine geringe Aussagekraft. Eine bessere Aussage lässt sich durch die maximale Dehnungen in den einzelnen Koordinatenrichtungen treffen. Durch die Annahme, dass die Dehnung in allen Schichten gleich ist, kann diese in elamX eingegeben werden und so eine Sicherheit gegen Bruch ermittelt werden
+(siehe Abb. \ref{sicher-steg} - \ref{sicher-gurt}).
+\begin{center}
+\begin{tabular}[h]{l|c|c|c|c}
+Richtung&Gurt oben&Gurt unten&Steg&Haut\\
+\hline
+$\varepsilon_{x}$&-0,00142&0,00206&0,00276&-0,00107\\
+$\varepsilon_{y}$&-0,0015&0,00226&-0,00275&-0,000664\\
+$\gamma_{xy}$&-0,00754&0,00843&0,00523&-0,00754\\
+minimale Sicherheit&2,332&1,31&2,32&2,785
+\end{tabular}
+\end{center}
+
+\noindent
+Die geringste Sicherheit ergibt sich im unteren Gurt mit 1,31. Dies ist hinreichend, um die Festigkeit des Flügels zu bestätigen.\\
 \noindent
 Die Werte sind durch das Zusammenspiel aller Bauteile sehr viel kleiner als in den Vorherigen Berechnungen. Dadurch bestätigt das FEM- Modell die vorangegangenen Berechnungen.
 \newpage

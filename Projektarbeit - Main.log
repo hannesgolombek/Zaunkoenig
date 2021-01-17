@@ -1,22 +1,12 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  16 JAN 2021 23:05
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  17 JAN 2021 15:16
->>>>>>> OlesAnhang
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.9)  17 JAN 2021 18:00
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
 LaTeX2e <2020-10-01> patch level 2
 L3 programming layer <2020-10-27> xparse <2020-03-03>
-<<<<<<< HEAD
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+("C:\Program Files\MiKTeX\tex/latex/base\article.cls"
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
-=======
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
->>>>>>> OlesAnhang
+("C:\Program Files\MiKTeX\tex/latex/base\size11.clo"
 File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count175
@@ -31,27 +21,16 @@ File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-<<<<<<< HEAD
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+("C:\Program Files\MiKTeX\tex/generic/babel\babel.sty"
 Package: babel 2020/10/27 3.51 The Babel package
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
-=======
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2020/10/27 3.51 The Babel package
-
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
->>>>>>> OlesAnhang
+("C:\Program Files\MiKTeX\tex/generic/babel\babel.def"
 File: babel.def 2020/10/27 3.51 Babel common definitions
 \babel@savecnt=\count183
 \U@D=\dimen139
 \l@babelnohyphens=\language79
 
-<<<<<<< HEAD
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
-=======
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
->>>>>>> OlesAnhang
+("C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def")
 \bbl@readstream=\read2
 )
 \bbl@dirlevel=\count184
@@ -59,63 +38,33 @@ File: babel.def 2020/10/27 3.51 Babel common definitions
 *************************************
 * Local config file bblopts.cfg used
 *
-<<<<<<< HEAD
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+("C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ld
-f
+("C:\Program Files\MiKTeX\tex/latex/babel-german\ngerman.ldf"
 Language: ngerman 2020/07/21 v2.12 German support for babel (post-1996 orthogra
 phy)
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.l
-df
+("C:\Program Files\MiKTeX\tex/latex/babel-german\ngermanb.ldf"
 Language: ngermanb 2020/07/21 v2.12 German support for babel (post-1996 orthogr
 aphy)
 Package babel Info: Making " an active character on input line 121.
-))) (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+)))
+("C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty"
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-) (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+)
+("C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty"
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+("C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+("C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty"
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-=======
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ldf
-Language: ngerman 2020/07/21 v2.12 German support for babel (post-1996 orthogra
-phy)
-
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.ld
-f
-Language: ngermanb 2020/07/21 v2.12 German support for babel (post-1996 orthogr
-aphy)
-Package babel Info: Making " an active character on input line 121.
-))) (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-)
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
-)
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
->>>>>>> OlesAnhang
+("C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty"
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 \Gm@cnth=\count185
@@ -131,63 +80,34 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutvoffset=\dimen147
 \Gm@dimlist=\toks16
 
-<<<<<<< HEAD
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+("C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty"
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+("C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty"
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+("C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
-=======
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
-g
->>>>>>> OlesAnhang
+("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
-<<<<<<< HEAD
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-=======
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
->>>>>>> OlesAnhang
+("C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def"
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
-<<<<<<< HEAD
 )
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+("C:\Program Files\MiKTeX\tex/latex/pdfpages\pdfpages.sty"
 Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+("C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
-=======
-) (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
-Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
->>>>>>> OlesAnhang
+("C:\Program Files\MiKTeX\tex/latex/tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count188
 \calc@Bcount=\count189
@@ -200,35 +120,15 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count190
 \calc@Cskip=\skip51
 )
-<<<<<<< HEAD
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
-Package: eso-pic 2020/09/27 v2.0i eso-pic (RN)
-
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
-=======
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
-Package: eso-pic 2020/09/27 v2.0i eso-pic (RN)
-
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
->>>>>>> OlesAnhang
-Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
-ge
-with kernel methods
-)
+("C:\Program Files\MiKTeX\tex/latex/eso-pic\eso-pic.sty"
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 \ESO@tempdima=\dimen152
 \ESO@tempdimb=\dimen153
 
-<<<<<<< HEAD
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+("C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
-=======
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
->>>>>>> OlesAnhang
+("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -244,12 +144,8 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ))
 \AM@pagewidth=\dimen154
 \AM@pageheight=\dimen155
-<<<<<<< HEAD
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
-=======
- (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
->>>>>>> OlesAnhang
+("C:\Program Files\MiKTeX\tex/latex/pdfpages\pppdftex.def"
 File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box47
@@ -258,58 +154,33 @@ File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 \AM@toc@title=\toks18
 \c@AM@survey=\count192
 \AM@templatesizebox=\box48
-<<<<<<< HEAD
-) (C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/tabto-ltx\tabto.sty
-=======
-) (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/tabto-ltx\tabto.sty
->>>>>>> OlesAnhang
+)
+("C:\Program Files\MiKTeX\tex/latex/tabto-ltx\tabto.sty"
 Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
 \CurrentLineWidth=\dimen156
 \TabPrevPos=\dimen157
 )
-<<<<<<< HEAD
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+("C:\Program Files\MiKTeX\tex/latex/setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-=======
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
-Package: setspace 2011/12/19 v6.7a set line spacing
-)
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
->>>>>>> OlesAnhang
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty"
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-<<<<<<< HEAD
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
-=======
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
-
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
->>>>>>> OlesAnhang
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen158
 ))
-<<<<<<< HEAD
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen159
 )
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
-=======
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen159
-)
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
->>>>>>> OlesAnhang
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count193
@@ -350,8 +221,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
-<<<<<<< HEAD
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+("C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty"
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTleft=\skip55
 \LTright=\skip56
@@ -369,16 +239,12 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \c@LT@chunks=\count275
 \LT@p@ftn=\toks24
 )
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-=======
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
-ex.def
->>>>>>> OlesAnhang
+("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def"
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count276
 \l__pdf_internal_box=\box55
-) ("Projektarbeit - Main.aux")
+)
+("Projektarbeit - Main.aux")
 \openout1 = `"Projektarbeit - Main.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -430,14 +296,7 @@ LaTeX Font Info:    ... okay on input line 12.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-<<<<<<< HEAD
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
-=======
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
-i
->>>>>>> OlesAnhang
+("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count277
 \scratchdimen=\dimen168
@@ -450,58 +309,15 @@ i
 \MPnumerator=\count281
 \makeMPintoPDFobject=\count282
 \everyMPtoPDFconversion=\toks26
-)
-<<<<<<< HEAD
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-=======
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
-se.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.st
-y
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinek
-eys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-))
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
-
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.st
-y
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-))
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.
-sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
->>>>>>> OlesAnhang
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-<<<<<<< HEAD
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
-Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
-(C:\Users\Henri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
-=======
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+("C:\Program Files\MiKTeX\tex/latex/pdflscape\pdflscape.sty"
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
-(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
->>>>>>> OlesAnhang
+("C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty"
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
@@ -532,11 +348,7 @@ ut line 2.
 
 [1
 
-<<<<<<< HEAD
-{C:/Users/Henri/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-=======
-{C:/Users/Neu1/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
->>>>>>> OlesAnhang
+{C:/Users/hgolo/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 <use PDFs/Aufgabenstellung Gruppe 2.pdf, page 1>
 Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page1 used on inp
@@ -611,13 +423,8 @@ ut line 2.
 \openout3 = `"Projektarbeit - Main.toc"'.
 
  [3] ("Projektarbeit - Bezeichnungen.tex"
-<<<<<<< HEAD
 Overfull \hbox (22.55798pt too wide) in alignment at lines 1--23
  [] [] 
-=======
-Overfull \hbox (112.69337pt too wide) in paragraph at lines 4--27
-[][] 
->>>>>>> OlesAnhang
  []
 
 
@@ -681,7 +488,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--8
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
@@ -693,12 +500,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
 [18]
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
- []
-
-
-Overfull \hbox (4.57469pt too wide) in paragraph at lines 21--22
-\T1/cmr/m/n/10.95 Das Ko-or-di-na-ten-sys-tem des Fl�-gels ent-spricht ei-nem l
-inks-h�n-di-gem Flugzeug-Koordinatensystem,
  []
 
 
@@ -717,17 +518,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
  []
 
 [19]
-<Bilder/Balkenmodell.jpg, id=157, 781.11826pt x 356.532pt>
-File: Bilder/Balkenmodell.jpg Graphic file (type jpg)
-<use Bilder/Balkenmodell.jpg>
-Package pdftex.def Info: Bilder/Balkenmodell.jpg  used on input line 47.
-(pdftex.def)             Requested size: 455.24411pt x 207.79514pt.
+<Bilder/Balkenmodell2.jpg, id=157, 792.561pt x 371.58826pt>
+File: Bilder/Balkenmodell2.jpg Graphic file (type jpg)
+<use Bilder/Balkenmodell2.jpg>
+Package pdftex.def Info: Bilder/Balkenmodell2.jpg  used on input line 47.
+(pdftex.def)             Requested size: 455.24411pt x 213.44612pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
-[20 <./Bilder/Balkenmodell.jpg>]
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
@@ -737,10 +538,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21]
+[21 <./Bilder/Balkenmodell2.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
@@ -939,65 +737,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--44
 
  []
 
-<<<<<<< HEAD
 [34] ("Auslegung nach Puck.tex"
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 2.
-=======
->>>>>>> OlesAnhang
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
-
- []
-
-
-Underfull \vbox (badness 6825) has occurred while \output is active []
-
-<<<<<<< HEAD
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
- []
-
-[35]
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
-=======
- [35]
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
->>>>>>> OlesAnhang
-
- []
-
-
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
->>>>>>> OlesAnhang
-
- []
-
-
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
-
- []
-
-) [36] ("Auslegung nach Puck.tex"
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 2.
 
@@ -1025,15 +765,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-[37]
+[35]
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
->>>>>>> OlesAnhang
 
  []
 
 
-<<<<<<< HEAD
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
@@ -1049,7 +786,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
  []
 
 
->>>>>>> OlesAnhang
 LaTeX Warning: Command \textdegree invalid in math mode on input line 86.
 
 
@@ -1061,11 +797,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
-<<<<<<< HEAD
 [36]
-=======
-[38]
->>>>>>> OlesAnhang
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 94.
 
@@ -1079,7 +811,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--96
  []
 
 
-<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
@@ -1097,27 +828,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
 [37]
 Underfull \hbox (badness 10000) in paragraph at lines 172--173
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
->>>>>>> OlesAnhang
 
  []
 
 
-<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 174--187
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 105--118
->>>>>>> OlesAnhang
 
  []
 
 
-<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 188--189
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
->>>>>>> OlesAnhang
 
  []
 
@@ -1127,20 +847,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--201
  []
 
 
-Underfull \vbox (badness 8075) has occurred while \output is active []
+Underfull \vbox (badness 2753) has occurred while \output is active []
 
  [38]
 Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
-<<<<<<< HEAD
 
 Underfull \hbox (badness 10000) in paragraph at lines 204--205
-=======
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
->>>>>>> OlesAnhang
 
  []
 
@@ -1154,15 +869,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
-<<<<<<< HEAD
 
 Underfull \vbox (badness 2401) has occurred while \output is active []
 
  [39])
 [40] ("Projektarbeit - Beulabschätzung des Holms.tex"
-=======
-) [40] ("Projektarbeit - Beulabschätzung des Holms.tex"
->>>>>>> OlesAnhang
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -1257,11 +968,7 @@ Package pdftex.def Info: Bilder/Flügel-Pol-offen.png  used on input line 183.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [58] [59 <./Bilder/Flügel-Pol-offen.png>]
-<<<<<<< HEAD
-<Bilder/SMP.png, id=296, 1019.60925pt x 348.1005pt>
-=======
 <Bilder/SMP.png, id=296, 598.03426pt x 194.52675pt>
->>>>>>> OlesAnhang
 File: Bilder/SMP.png Graphic file (type png)
 <use Bilder/SMP.png>
 Package pdftex.def Info: Bilder/SMP.png  used on input line 260.
@@ -1306,15 +1013,9 @@ OT1/cmr/m/n/10.95 8\OML/cmm/m/it/10.95 MPa$\T1/cmr/m/n/10.95 .
  []
 
 [65]) [66] ("Projektarbeit - FEM.tex"
-<<<<<<< HEAD
 Overfull \hbox (79.55103pt too wide) in paragraph at lines 5--6
 \T1/cmr/m/n/10.95 F�r die Be-rech-nung der Elas-to-sta-tik sind die Gleich-ge-w
 ichts-be-din-gung (6.1[]), Verzerrungs-Verschiebungsbedingung
-=======
-Overfull \hbox (81.96887pt too wide) in paragraph at lines 5--6
-\T1/cmr/m/n/10.95 F�r die Be-rech-nung der Elas-to-sta-tik sind die Gleich-ge-w
-ichts-be-din-gung (193[]), Verzerrungs-Verschiebungsbedingung
->>>>>>> OlesAnhang
  []
 
 [67]) [68] (abaqus.tex
@@ -1338,12 +1039,12 @@ Package pdftex.def Info: Bilder/Absenkung_100N.png  used on input line 25.
 <Bilder/Beuleinspannung.png, id=343, 542.025pt x 422.32782pt>
 File: Bilder/Beuleinspannung.png Graphic file (type png)
 <use Bilder/Beuleinspannung.png>
-Package pdftex.def Info: Bilder/Beuleinspannung.png  used on input line 45.
+Package pdftex.def Info: Bilder/Beuleinspannung.png  used on input line 59.
 (pdftex.def)             Requested size: 216.80615pt x 168.92813pt.
 <Bilder/Beulen100N.png, id=344, 833.36343pt x 460.72125pt>
 File: Bilder/Beulen100N.png Graphic file (type png)
 <use Bilder/Beulen100N.png>
-Package pdftex.def Info: Bilder/Beulen100N.png  used on input line 65.
+Package pdftex.def Info: Bilder/Beulen100N.png  used on input line 79.
 (pdftex.def)             Requested size: 333.33946pt x 184.28523pt.
 
 
@@ -1474,6 +1175,13 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 20.
 
 Missing character: There is no � in font cmr10!
 
+LaTeX Warning: Command \textdegree invalid in math mode on input line 20.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 20.
+
+Missing character: There is no � in font cmr10!
+
 Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
@@ -1483,13 +1191,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-<<<<<<< HEAD
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-[90] [91] [92]) [93] ("Projektarbeit - Quellenverzeichnis.tex" [94]) [95]
+[90] [91]
+Underfull \hbox (badness 10000) in paragraph at lines 52--66
+
+ []
+
+[92]) [93] ("Projektarbeit - Quellenverzeichnis.tex" [94]) [95]
 ("Projektarbeit - Main.lof" [96])
 \tf@lof=\write4
 \openout4 = `"Projektarbeit - Main.lof"'.
@@ -1500,48 +1212,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  [98]
 ("Projektarbeit - Anhang.tex" [99]
-=======
-[90] [91]) [92] ("Projektarbeit - Quellenverzeichnis.tex" [93]) [94]
-("Projektarbeit - Main.lof" [95])
-\tf@lof=\write4
-\openout4 = `"Projektarbeit - Main.lof"'.
-
- [96] ("Projektarbeit - Main.lot")
-\tf@lot=\write5
-\openout5 = `"Projektarbeit - Main.lot"'.
-
- [97]
-("Projektarbeit - Anhang.tex" [98]
->>>>>>> OlesAnhang
 Overfull \hbox (0.58931pt too wide) detected at line 75
 \OML/cmm/m/it/10.95 w\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 y; F[]; F[]; EI[]\
 OT1/cmr/m/n/10.95 ) = []
  []
 
-<<<<<<< HEAD
-[100]
-Overfull \hbox (128.4438pt too wide) detected at line 122
-\OML/cmm/m/it/10.95 S[] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 t [][] [][]ds 
-\OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.95 S[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/1
-0.95 s[]\OT1/cmr/m/n/10.95 ) + \OML/cmm/m/it/10.95 S[]\OT1/cmr/m/n/10.95 (\OML/
-cmm/m/it/10.95 s[]\OT1/cmr/m/n/10.95 ) = \OML/cmm/m/it/10.95 t[][][] \OT1/cmr/m
-/n/10.95 + \OML/cmm/m/it/10.95 S[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 s[]\O
-T1/cmr/m/n/10.95 ) + \OML/cmm/m/it/10.95 S[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/1
-0.95 s[]\OT1/cmr/m/n/10.95 ) = \OML/cmm/m/it/10.95 t \OMS/cmsy/m/n/10.95  [][]
- \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.95 S[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/
-10.95 s[]\OT1/cmr/m/n/10.95 ) + \OML/cmm/m/it/10.95 S[]\OT1/cmr/m/n/10.95 (\OML
-/cmm/m/it/10.95 s[]\OT1/cmr/m/n/10.95 )
-=======
-[99] [100]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [101]
+[100] [101]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [102]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [103]
 Underfull \hbox (badness 10000) in paragraph at lines 222--224
 
->>>>>>> OlesAnhang
  []
 
 
@@ -1549,10 +1233,6 @@ Overfull \hbox (4.02516pt too wide) detected at line 250
 []
  []
 
-<<<<<<< HEAD
-[101] [102]
-<Bilder/Lagenaufbau Holmgurte.png, id=446, 588.39825pt x 178.86826pt>
-=======
 
 Overfull \hbox (27.37506pt too wide) detected at line 250
 []
@@ -1561,7 +1241,7 @@ Overfull \hbox (27.37506pt too wide) detected at line 250
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [103]
+ [104]
 Overfull \hbox (58.56969pt too wide) detected at line 273
 []
  []
@@ -1594,7 +1274,7 @@ Overfull \hbox (27.37506pt too wide) detected at line 295
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [104]
+ [105]
 Overfull \hbox (9.22643pt too wide) detected at line 310
 []
  []
@@ -1607,33 +1287,21 @@ Overfull \hbox (27.37506pt too wide) detected at line 310
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [105]
-Underfull \vbox (badness 2293) has occurred while \output is active []
-
  [106]
-[107]
-<Bilder/Lagenaufbau Holmgurte.png, id=462, 588.39825pt x 178.86826pt>
->>>>>>> OlesAnhang
+[107] [108]
+<Bilder/Lagenaufbau Holmgurte.png, id=465, 588.39825pt x 178.86826pt>
 File: Bilder/Lagenaufbau Holmgurte.png Graphic file (type png)
 <use Bilder/Lagenaufbau Holmgurte.png>
 Package pdftex.def Info: Bilder/Lagenaufbau Holmgurte.png  used on input line 4
 11.
 (pdftex.def)             Requested size: 455.24411pt x 138.39493pt.
-<<<<<<< HEAD
-<Bilder/Lagenaufbau Steg dünn.png, id=447, 584.78474pt x 161.403pt>
-=======
-<Bilder/Lagenaufbau Steg dünn.png, id=463, 584.78474pt x 161.403pt>
->>>>>>> OlesAnhang
+<Bilder/Lagenaufbau Steg dünn.png, id=466, 584.78474pt x 161.403pt>
 File: Bilder/Lagenaufbau Steg dünn.png Graphic file (type png)
 <use Bilder/Lagenaufbau Steg dünn.png>
 Package pdftex.def Info: Bilder/Lagenaufbau Steg dünn.png  used on input line 
 416.
 (pdftex.def)             Requested size: 455.24411pt x 125.64755pt.
-<<<<<<< HEAD
-<Bilder/Lagenaufbau Steg dick.png, id=448, 343.2825pt x 496.85625pt>
-=======
-<Bilder/Lagenaufbau Steg dick.png, id=464, 343.2825pt x 496.85625pt>
->>>>>>> OlesAnhang
+<Bilder/Lagenaufbau Steg dick.png, id=467, 343.2825pt x 496.85625pt>
 File: Bilder/Lagenaufbau Steg dick.png Graphic file (type png)
 <use Bilder/Lagenaufbau Steg dick.png>
 Package pdftex.def Info: Bilder/Lagenaufbau Steg dick.png  used on input line 4
@@ -1646,11 +1314,7 @@ LaTeX Warning: Float too large for page by 93.09843pt on input line 424.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/Lagenaufbau Haut.png, id=449, 668.4975pt x 95.1555pt>
-=======
-<Bilder/Lagenaufbau Haut.png, id=465, 668.4975pt x 95.1555pt>
->>>>>>> OlesAnhang
+<Bilder/Lagenaufbau Haut.png, id=468, 668.4975pt x 95.1555pt>
 File: Bilder/Lagenaufbau Haut.png Graphic file (type png)
 <use Bilder/Lagenaufbau Haut.png>
 Package pdftex.def Info: Bilder/Lagenaufbau Haut.png  used on input line 426.
@@ -1658,11 +1322,7 @@ Package pdftex.def Info: Bilder/Lagenaufbau Haut.png  used on input line 426.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/Berechnung Holmgurte.png, id=450, 894.9435pt x 463.7325pt>
-=======
-<Bilder/Berechnung Holmgurte.png, id=466, 894.9435pt x 463.7325pt>
->>>>>>> OlesAnhang
+<Bilder/Berechnung Holmgurte.png, id=469, 894.9435pt x 463.7325pt>
 File: Bilder/Berechnung Holmgurte.png Graphic file (type png)
 <use Bilder/Berechnung Holmgurte.png>
 Package pdftex.def Info: Bilder/Berechnung Holmgurte.png  used on input line 43
@@ -1671,11 +1331,7 @@ Package pdftex.def Info: Bilder/Berechnung Holmgurte.png  used on input line 43
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/Berechnung Steg dünn.png, id=451, 901.56825pt x 440.847pt>
-=======
-<Bilder/Berechnung Steg dünn.png, id=467, 901.56825pt x 440.847pt>
->>>>>>> OlesAnhang
+<Bilder/Berechnung Steg dünn.png, id=470, 901.56825pt x 440.847pt>
 File: Bilder/Berechnung Steg dünn.png Graphic file (type png)
 <use Bilder/Berechnung Steg dünn.png>
 Package pdftex.def Info: Bilder/Berechnung Steg dünn.png  used on input line 4
@@ -1684,11 +1340,7 @@ Package pdftex.def Info: Bilder/Berechnung Steg dünn.png  used on input line 4
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/Berechnung Steg dick.png, id=452, 542.025pt x 504.08325pt>
-=======
-<Bilder/Berechnung Steg dick.png, id=468, 542.025pt x 504.08325pt>
->>>>>>> OlesAnhang
+<Bilder/Berechnung Steg dick.png, id=471, 542.025pt x 504.08325pt>
 File: Bilder/Berechnung Steg dick.png Graphic file (type png)
 <use Bilder/Berechnung Steg dick.png>
 Package pdftex.def Info: Bilder/Berechnung Steg dick.png  used on input line 44
@@ -1697,11 +1349,7 @@ Package pdftex.def Info: Bilder/Berechnung Steg dick.png  used on input line 44
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/Berechnung Haut.png, id=453, 1000.33725pt x 342.078pt>
-=======
-<Bilder/Berechnung Haut.png, id=469, 1000.33725pt x 342.078pt>
->>>>>>> OlesAnhang
+<Bilder/Berechnung Haut.png, id=472, 1000.33725pt x 342.078pt>
 File: Bilder/Berechnung Haut.png Graphic file (type png)
 <use Bilder/Berechnung Haut.png>
 Package pdftex.def Info: Bilder/Berechnung Haut.png  used on input line 446.
@@ -1709,11 +1357,7 @@ Package pdftex.def Info: Bilder/Berechnung Haut.png  used on input line 446.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/Konstanten Holmgurte.png, id=454, 595.023pt x 370.38374pt>
-=======
-<Bilder/Konstanten Holmgurte.png, id=470, 595.023pt x 370.38374pt>
->>>>>>> OlesAnhang
+<Bilder/Konstanten Holmgurte.png, id=473, 595.023pt x 370.38374pt>
 File: Bilder/Konstanten Holmgurte.png Graphic file (type png)
 <use Bilder/Konstanten Holmgurte.png>
 Package pdftex.def Info: Bilder/Konstanten Holmgurte.png  used on input line 45
@@ -1722,11 +1366,7 @@ Package pdftex.def Info: Bilder/Konstanten Holmgurte.png  used on input line 45
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/Konstanten Steg dünn.png, id=455, 590.205pt x 374.5995pt>
-=======
-<Bilder/Konstanten Steg dünn.png, id=471, 590.205pt x 374.5995pt>
->>>>>>> OlesAnhang
+<Bilder/Konstanten Steg dünn.png, id=474, 590.205pt x 374.5995pt>
 File: Bilder/Konstanten Steg dünn.png Graphic file (type png)
 <use Bilder/Konstanten Steg dünn.png>
 Package pdftex.def Info: Bilder/Konstanten Steg dünn.png  used on input line 4
@@ -1735,11 +1375,7 @@ Package pdftex.def Info: Bilder/Konstanten Steg dünn.png  used on input line 4
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/Konstanten Steg dick.png, id=456, 585.98924pt x 369.7815pt>
-=======
-<Bilder/Konstanten Steg dick.png, id=472, 585.98924pt x 369.7815pt>
->>>>>>> OlesAnhang
+<Bilder/Konstanten Steg dick.png, id=475, 585.98924pt x 369.7815pt>
 File: Bilder/Konstanten Steg dick.png Graphic file (type png)
 <use Bilder/Konstanten Steg dick.png>
 Package pdftex.def Info: Bilder/Konstanten Steg dick.png  used on input line 46
@@ -1748,11 +1384,7 @@ Package pdftex.def Info: Bilder/Konstanten Steg dick.png  used on input line 46
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/Konstanten Haut.png, id=457, 648.021pt x 371.58826pt>
-=======
-<Bilder/Konstanten Haut.png, id=473, 648.021pt x 371.58826pt>
->>>>>>> OlesAnhang
+<Bilder/Konstanten Haut.png, id=476, 648.021pt x 371.58826pt>
 File: Bilder/Konstanten Haut.png Graphic file (type png)
 <use Bilder/Konstanten Haut.png>
 Package pdftex.def Info: Bilder/Konstanten Haut.png  used on input line 466.
@@ -1760,11 +1392,7 @@ Package pdftex.def Info: Bilder/Konstanten Haut.png  used on input line 466.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/Längen.png, id=458, 155.3805pt x 224.037pt>
-=======
-<Bilder/Längen.png, id=474, 155.3805pt x 224.037pt>
->>>>>>> OlesAnhang
+<Bilder/Längen.png, id=477, 155.3805pt x 224.037pt>
 File: Bilder/Längen.png Graphic file (type png)
 <use Bilder/Längen.png>
 Package pdftex.def Info: Bilder/Längen.png  used on input line 472.
@@ -1772,11 +1400,7 @@ Package pdftex.def Info: Bilder/Längen.png  used on input line 472.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/S1.png, id=459, 620.91975pt x 308.95425pt>
-=======
-<Bilder/S1.png, id=475, 598.6365pt x 313.17pt>
->>>>>>> OlesAnhang
+<Bilder/S1.png, id=478, 598.6365pt x 313.17pt>
 File: Bilder/S1.png Graphic file (type png)
 <use Bilder/S1.png>
 Package pdftex.def Info: Bilder/S1.png  used on input line 477.
@@ -1784,11 +1408,7 @@ Package pdftex.def Info: Bilder/S1.png  used on input line 477.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/S2.png, id=460, 619.113pt x 308.352pt>
-=======
-<Bilder/S2.png, id=476, 599.841pt x 313.77225pt>
->>>>>>> OlesAnhang
+<Bilder/S2.png, id=479, 599.841pt x 313.77225pt>
 File: Bilder/S2.png Graphic file (type png)
 <use Bilder/S2.png>
 Package pdftex.def Info: Bilder/S2.png  used on input line 482.
@@ -1796,11 +1416,7 @@ Package pdftex.def Info: Bilder/S2.png  used on input line 482.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/S3.png, id=461, 615.4995pt x 307.1475pt>
-=======
-<Bilder/S3.png, id=477, 599.841pt x 316.18124pt>
->>>>>>> OlesAnhang
+<Bilder/S3.png, id=480, 599.841pt x 316.18124pt>
 File: Bilder/S3.png Graphic file (type png)
 <use Bilder/S3.png>
 Package pdftex.def Info: Bilder/S3.png  used on input line 486.
@@ -1808,11 +1424,7 @@ Package pdftex.def Info: Bilder/S3.png  used on input line 486.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/S4.png, id=462, 617.30624pt x 307.1475pt>
-=======
-<Bilder/S4.png, id=478, 598.03426pt x 314.3745pt>
->>>>>>> OlesAnhang
+<Bilder/S4.png, id=481, 598.03426pt x 314.3745pt>
 File: Bilder/S4.png Graphic file (type png)
 <use Bilder/S4.png>
 Package pdftex.def Info: Bilder/S4.png  used on input line 490.
@@ -1820,11 +1432,7 @@ Package pdftex.def Info: Bilder/S4.png  used on input line 490.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/S5.png, id=463, 619.71526pt x 308.95425pt>
-=======
-<Bilder/S5.png, id=479, 598.6365pt x 318.59026pt>
->>>>>>> OlesAnhang
+<Bilder/S5.png, id=482, 598.6365pt x 318.59026pt>
 File: Bilder/S5.png Graphic file (type png)
 <use Bilder/S5.png>
 Package pdftex.def Info: Bilder/S5.png  used on input line 495.
@@ -1832,11 +1440,7 @@ Package pdftex.def Info: Bilder/S5.png  used on input line 495.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/S6.png, id=464, 620.91975pt x 307.1475pt>
-=======
-<Bilder/S6.png, id=480, 599.23875pt x 313.17pt>
->>>>>>> OlesAnhang
+<Bilder/S6.png, id=483, 599.23875pt x 313.17pt>
 File: Bilder/S6.png Graphic file (type png)
 <use Bilder/S6.png>
 Package pdftex.def Info: Bilder/S6.png  used on input line 499.
@@ -1844,11 +1448,7 @@ Package pdftex.def Info: Bilder/S6.png  used on input line 499.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/S7.png, id=465, 620.91975pt x 308.352pt>
-=======
-<Bilder/S7.png, id=481, 599.23875pt x 313.77225pt>
->>>>>>> OlesAnhang
+<Bilder/S7.png, id=484, 599.23875pt x 313.77225pt>
 File: Bilder/S7.png Graphic file (type png)
 <use Bilder/S7.png>
 Package pdftex.def Info: Bilder/S7.png  used on input line 503.
@@ -1856,11 +1456,7 @@ Package pdftex.def Info: Bilder/S7.png  used on input line 503.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/S8.png, id=466, 620.91975pt x 308.95425pt>
-=======
-<Bilder/S8.png, id=482, 598.6365pt x 316.7835pt>
->>>>>>> OlesAnhang
+<Bilder/S8.png, id=485, 598.6365pt x 316.7835pt>
 File: Bilder/S8.png Graphic file (type png)
 <use Bilder/S8.png>
 Package pdftex.def Info: Bilder/S8.png  used on input line 507.
@@ -1868,11 +1464,7 @@ Package pdftex.def Info: Bilder/S8.png  used on input line 507.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/S9.png, id=467, 617.9085pt x 307.1475pt>
-=======
-<Bilder/S9.png, id=483, 598.6365pt x 313.77225pt>
->>>>>>> OlesAnhang
+<Bilder/S9.png, id=486, 598.6365pt x 313.77225pt>
 File: Bilder/S9.png Graphic file (type png)
 <use Bilder/S9.png>
 Package pdftex.def Info: Bilder/S9.png  used on input line 511.
@@ -1880,11 +1472,7 @@ Package pdftex.def Info: Bilder/S9.png  used on input line 511.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/S10.png, id=468, 619.71526pt x 306.54526pt>
-=======
-<Bilder/S10.png, id=484, 596.2275pt x 311.9655pt>
->>>>>>> OlesAnhang
+<Bilder/S10.png, id=487, 596.2275pt x 311.9655pt>
 File: Bilder/S10.png Graphic file (type png)
 <use Bilder/S10.png>
 Package pdftex.def Info: Bilder/S10.png  used on input line 515.
@@ -1892,45 +1480,33 @@ Package pdftex.def Info: Bilder/S10.png  used on input line 515.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-[103 <./Bilder/Lagenaufbau Holmgurte.png> <./Bilder/Lagenaufbau Steg dünn.png>
-=======
-[108 <./Bilder/Lagenaufbau Holmgurte.png> <./Bilder/Lagenaufbau Steg dünn.png>
->>>>>>> OlesAnhang
+[109 <./Bilder/Lagenaufbau Holmgurte.png> <./Bilder/Lagenaufbau Steg dünn.png>
 ]
 
-pdfTeX warning: pdflatex.exe (file ./PDFs/ExplosionConvBez.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-<<<<<<< HEAD
-<PDFs/ExplosionConvBez.pdf, id=474, 597.55246pt x 845.07718pt>
-=======
-<PDFs/ExplosionConvBez.pdf, id=490, 597.55246pt x 845.07718pt>
->>>>>>> OlesAnhang
+pdfTeX warning: pdflatex (file ./PDFs/ExplosionConvBez.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<PDFs/ExplosionConvBez.pdf, id=493, 597.55246pt x 845.07718pt>
 File: PDFs/ExplosionConvBez.pdf Graphic file (type pdf)
 <use PDFs/ExplosionConvBez.pdf>
 Package pdftex.def Info: PDFs/ExplosionConvBez.pdf  used on input line 521.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./PDFs/ExplosionConvBez.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: pdflatex (file ./PDFs/ExplosionConvBez.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
 File: PDFs/ExplosionConvBez.pdf Graphic file (type pdf)
 <use PDFs/ExplosionConvBez.pdf>
 Package pdftex.def Info: PDFs/ExplosionConvBez.pdf  used on input line 521.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./PDFs/ExplosionConvBez.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: pdflatex (file ./PDFs/ExplosionConvBez.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
 
 
-pdfTeX warning: pdflatex.exe (file ./PDFs/ExplosionConvBez.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-<<<<<<< HEAD
-<PDFs/ExplosionConvBez.pdf, id=477, page=1, 597.55246pt x 845.07718pt>
-=======
-<PDFs/ExplosionConvBez.pdf, id=493, page=1, 597.55246pt x 845.07718pt>
->>>>>>> OlesAnhang
+pdfTeX warning: pdflatex (file ./PDFs/ExplosionConvBez.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<PDFs/ExplosionConvBez.pdf, id=496, page=1, 597.55246pt x 845.07718pt>
 File: PDFs/ExplosionConvBez.pdf Graphic file (type pdf)
 <use PDFs/ExplosionConvBez.pdf, page 1>
 Package pdftex.def Info: PDFs/ExplosionConvBez.pdf , page1 used on input line 5
@@ -1956,44 +1532,32 @@ File: PDFs/ExplosionConvBez.pdf Graphic file (type pdf)
 Package pdftex.def Info: PDFs/ExplosionConvBez.pdf , page1 used on input line 5
 21.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-<<<<<<< HEAD
-[104 <./PDFs/ExplosionConvBez.pdf>]
+[110 <./PDFs/ExplosionConvBez.pdf>]
 
-pdfTeX warning: pdflatex.exe (file ./PDFs/ProfilkonturConv.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-<PDFs/ProfilkonturConv.pdf, id=492, 597.55246pt x 845.07718pt>
-=======
-[109 <./PDFs/ExplosionConvBez.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./PDFs/ProfilkonturConv.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-<PDFs/ProfilkonturConv.pdf, id=507, 597.55246pt x 845.07718pt>
->>>>>>> OlesAnhang
+pdfTeX warning: pdflatex (file ./PDFs/ProfilkonturConv.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<PDFs/ProfilkonturConv.pdf, id=511, 597.55246pt x 845.07718pt>
 File: PDFs/ProfilkonturConv.pdf Graphic file (type pdf)
 <use PDFs/ProfilkonturConv.pdf>
 Package pdftex.def Info: PDFs/ProfilkonturConv.pdf  used on input line 522.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./PDFs/ProfilkonturConv.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: pdflatex (file ./PDFs/ProfilkonturConv.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
 File: PDFs/ProfilkonturConv.pdf Graphic file (type pdf)
 <use PDFs/ProfilkonturConv.pdf>
 Package pdftex.def Info: PDFs/ProfilkonturConv.pdf  used on input line 522.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./PDFs/ProfilkonturConv.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: pdflatex (file ./PDFs/ProfilkonturConv.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
 
 
-pdfTeX warning: pdflatex.exe (file ./PDFs/ProfilkonturConv.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-<<<<<<< HEAD
-<PDFs/ProfilkonturConv.pdf, id=495, page=1, 597.55246pt x 845.07718pt>
-=======
-<PDFs/ProfilkonturConv.pdf, id=510, page=1, 597.55246pt x 845.07718pt>
->>>>>>> OlesAnhang
+pdfTeX warning: pdflatex (file ./PDFs/ProfilkonturConv.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<PDFs/ProfilkonturConv.pdf, id=514, page=1, 597.55246pt x 845.07718pt>
 File: PDFs/ProfilkonturConv.pdf Graphic file (type pdf)
 <use PDFs/ProfilkonturConv.pdf, page 1>
 Package pdftex.def Info: PDFs/ProfilkonturConv.pdf , page1 used on input line 5
@@ -2019,44 +1583,32 @@ File: PDFs/ProfilkonturConv.pdf Graphic file (type pdf)
 Package pdftex.def Info: PDFs/ProfilkonturConv.pdf , page1 used on input line 5
 22.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-<<<<<<< HEAD
-[105 <./PDFs/ProfilkonturConv.pdf>]
+[111 <./PDFs/ProfilkonturConv.pdf>]
 
-pdfTeX warning: pdflatex.exe (file ./PDFs/KlotzVorne.pdf): PDF inclusion: found
- PDF version <1.7>, but at most version <1.5> allowed
-<PDFs/KlotzVorne.pdf, id=508, 597.55246pt x 845.07718pt>
-=======
-[110 <./PDFs/ProfilkonturConv.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./PDFs/KlotzVorne.pdf): PDF inclusion: found
- PDF version <1.7>, but at most version <1.5> allowed
-<PDFs/KlotzVorne.pdf, id=524, 597.55246pt x 845.07718pt>
->>>>>>> OlesAnhang
+pdfTeX warning: pdflatex (file ./PDFs/KlotzVorne.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+<PDFs/KlotzVorne.pdf, id=527, 597.55246pt x 845.07718pt>
 File: PDFs/KlotzVorne.pdf Graphic file (type pdf)
 <use PDFs/KlotzVorne.pdf>
 Package pdftex.def Info: PDFs/KlotzVorne.pdf  used on input line 523.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./PDFs/KlotzVorne.pdf): PDF inclusion: found
- PDF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: pdflatex (file ./PDFs/KlotzVorne.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
 File: PDFs/KlotzVorne.pdf Graphic file (type pdf)
 <use PDFs/KlotzVorne.pdf>
 Package pdftex.def Info: PDFs/KlotzVorne.pdf  used on input line 523.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./PDFs/KlotzVorne.pdf): PDF inclusion: found
- PDF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: pdflatex (file ./PDFs/KlotzVorne.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
 
 
-pdfTeX warning: pdflatex.exe (file ./PDFs/KlotzVorne.pdf): PDF inclusion: found
- PDF version <1.7>, but at most version <1.5> allowed
-<<<<<<< HEAD
-<PDFs/KlotzVorne.pdf, id=511, page=1, 597.55246pt x 845.07718pt>
-=======
-<PDFs/KlotzVorne.pdf, id=527, page=1, 597.55246pt x 845.07718pt>
->>>>>>> OlesAnhang
+pdfTeX warning: pdflatex (file ./PDFs/KlotzVorne.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+<PDFs/KlotzVorne.pdf, id=530, page=1, 597.55246pt x 845.07718pt>
 File: PDFs/KlotzVorne.pdf Graphic file (type pdf)
 <use PDFs/KlotzVorne.pdf, page 1>
 Package pdftex.def Info: PDFs/KlotzVorne.pdf , page1 used on input line 523.
@@ -2077,44 +1629,32 @@ File: PDFs/KlotzVorne.pdf Graphic file (type pdf)
 <use PDFs/KlotzVorne.pdf, page 1>
 Package pdftex.def Info: PDFs/KlotzVorne.pdf , page1 used on input line 523.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-<<<<<<< HEAD
-[106 <./PDFs/KlotzVorne.pdf>]
+[112 <./PDFs/KlotzVorne.pdf>]
 
-pdfTeX warning: pdflatex.exe (file ./PDFs/Holmquerschnitte.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-<PDFs/Holmquerschnitte.pdf, id=524, 597.55246pt x 845.07718pt>
-=======
-[111 <./PDFs/KlotzVorne.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./PDFs/Holmquerschnitte.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-<PDFs/Holmquerschnitte.pdf, id=540, 597.55246pt x 845.07718pt>
->>>>>>> OlesAnhang
+pdfTeX warning: pdflatex (file ./PDFs/Holmquerschnitte.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<PDFs/Holmquerschnitte.pdf, id=543, 597.55246pt x 845.07718pt>
 File: PDFs/Holmquerschnitte.pdf Graphic file (type pdf)
 <use PDFs/Holmquerschnitte.pdf>
 Package pdftex.def Info: PDFs/Holmquerschnitte.pdf  used on input line 524.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./PDFs/Holmquerschnitte.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: pdflatex (file ./PDFs/Holmquerschnitte.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
 File: PDFs/Holmquerschnitte.pdf Graphic file (type pdf)
 <use PDFs/Holmquerschnitte.pdf>
 Package pdftex.def Info: PDFs/Holmquerschnitte.pdf  used on input line 524.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./PDFs/Holmquerschnitte.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: pdflatex (file ./PDFs/Holmquerschnitte.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
 
 
-pdfTeX warning: pdflatex.exe (file ./PDFs/Holmquerschnitte.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-<<<<<<< HEAD
-<PDFs/Holmquerschnitte.pdf, id=527, page=1, 597.55246pt x 845.07718pt>
-=======
-<PDFs/Holmquerschnitte.pdf, id=543, page=1, 597.55246pt x 845.07718pt>
->>>>>>> OlesAnhang
+pdfTeX warning: pdflatex (file ./PDFs/Holmquerschnitte.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<PDFs/Holmquerschnitte.pdf, id=546, page=1, 597.55246pt x 845.07718pt>
 File: PDFs/Holmquerschnitte.pdf Graphic file (type pdf)
 <use PDFs/Holmquerschnitte.pdf, page 1>
 Package pdftex.def Info: PDFs/Holmquerschnitte.pdf , page1 used on input line 5
@@ -2140,13 +1680,8 @@ File: PDFs/Holmquerschnitte.pdf Graphic file (type pdf)
 Package pdftex.def Info: PDFs/Holmquerschnitte.pdf , page1 used on input line 5
 24.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-<<<<<<< HEAD
-[107 <./PDFs/Holmquerschnitte.pdf>]
-<Bilder/AufbauGesamt.jpg, id=540, 623.83063pt x 419.06563pt>
-=======
-[112 <./PDFs/Holmquerschnitte.pdf>]
-<Bilder/AufbauGesamt.jpg, id=556, 623.83063pt x 419.06563pt>
->>>>>>> OlesAnhang
+[113 <./PDFs/Holmquerschnitte.pdf>]
+<Bilder/AufbauGesamt.jpg, id=559, 623.83063pt x 419.06563pt>
 File: Bilder/AufbauGesamt.jpg Graphic file (type jpg)
 <use Bilder/AufbauGesamt.jpg>
 Package pdftex.def Info: Bilder/AufbauGesamt.jpg  used on input line 527.
@@ -2155,11 +1690,7 @@ Package pdftex.def Info: Bilder/AufbauGesamt.jpg  used on input line 527.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/SeiteRichtig.jpg, id=541, 723.20187pt x 331.73938pt>
-=======
-<Bilder/SeiteRichtig.jpg, id=557, 723.20187pt x 331.73938pt>
->>>>>>> OlesAnhang
+<Bilder/SeiteRichtig.jpg, id=560, 723.20187pt x 331.73938pt>
 File: Bilder/SeiteRichtig.jpg Graphic file (type jpg)
 <use Bilder/SeiteRichtig.jpg>
 Package pdftex.def Info: Bilder/SeiteRichtig.jpg  used on input line 533.
@@ -2167,11 +1698,7 @@ Package pdftex.def Info: Bilder/SeiteRichtig.jpg  used on input line 533.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/MontagePlatte.jpg, id=542, 998.73125pt x 460.72125pt>
-=======
-<Bilder/MontagePlatte.jpg, id=558, 998.73125pt x 460.72125pt>
->>>>>>> OlesAnhang
+<Bilder/MontagePlatte.jpg, id=561, 998.73125pt x 460.72125pt>
 File: Bilder/MontagePlatte.jpg Graphic file (type jpg)
 <use Bilder/MontagePlatte.jpg>
 Package pdftex.def Info: Bilder/MontagePlatte.jpg  used on input line 539.
@@ -2179,11 +1706,7 @@ Package pdftex.def Info: Bilder/MontagePlatte.jpg  used on input line 539.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/Material_GFK.png, id=543, 522.45187pt x 478.03593pt>
-=======
-<Bilder/Material_GFK.png, id=559, 522.45187pt x 478.03593pt>
->>>>>>> OlesAnhang
+<Bilder/Material_GFK.png, id=562, 522.45187pt x 478.03593pt>
 File: Bilder/Material_GFK.png Graphic file (type png)
 <use Bilder/Material_GFK.png>
 Package pdftex.def Info: Bilder/Material_GFK.png  used on input line 544.
@@ -2191,11 +1714,7 @@ Package pdftex.def Info: Bilder/Material_GFK.png  used on input line 544.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/Steg_Material.png, id=544, 469.00218pt x 368.87813pt>
-=======
-<Bilder/Steg_Material.png, id=560, 469.00218pt x 368.87813pt>
->>>>>>> OlesAnhang
+<Bilder/Steg_Material.png, id=563, 469.00218pt x 368.87813pt>
 File: Bilder/Steg_Material.png Graphic file (type png)
 <use Bilder/Steg_Material.png>
 Package pdftex.def Info: Bilder/Steg_Material.png  used on input line 550.
@@ -2203,11 +1722,7 @@ Package pdftex.def Info: Bilder/Steg_Material.png  used on input line 550.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/sicher1.png, id=545, 888.31876pt x 524.55975pt>
-=======
-<Bilder/sicher1.png, id=561, 888.31876pt x 524.55975pt>
->>>>>>> OlesAnhang
+<Bilder/sicher1.png, id=564, 888.31876pt x 524.55975pt>
 File: Bilder/sicher1.png Graphic file (type png)
 <use Bilder/sicher1.png>
 Package pdftex.def Info: Bilder/sicher1.png  used on input line 557.
@@ -2215,11 +1730,7 @@ Package pdftex.def Info: Bilder/sicher1.png  used on input line 557.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/sicher2.png, id=546, 900.966pt x 344.487pt>
-=======
-<Bilder/sicher2.png, id=562, 900.966pt x 344.487pt>
->>>>>>> OlesAnhang
+<Bilder/sicher2.png, id=565, 900.966pt x 344.487pt>
 File: Bilder/sicher2.png Graphic file (type png)
 <use Bilder/sicher2.png>
 Package pdftex.def Info: Bilder/sicher2.png  used on input line 563.
@@ -2227,11 +1738,7 @@ Package pdftex.def Info: Bilder/sicher2.png  used on input line 563.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/sicher3.png, id=547, 1146.08176pt x 560.0925pt>
-=======
-<Bilder/sicher3.png, id=563, 1146.08176pt x 560.0925pt>
->>>>>>> OlesAnhang
+<Bilder/sicher3.png, id=566, 1146.08176pt x 560.0925pt>
 File: Bilder/sicher3.png Graphic file (type png)
 <use Bilder/sicher3.png>
 Package pdftex.def Info: Bilder/sicher3.png  used on input line 568.
@@ -2239,11 +1746,7 @@ Package pdftex.def Info: Bilder/sicher3.png  used on input line 568.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<Bilder/sicher4.png, id=548, 1153.30875pt x 558.28575pt>
-=======
-<Bilder/sicher4.png, id=564, 1153.30875pt x 558.28575pt>
->>>>>>> OlesAnhang
+<Bilder/sicher4.png, id=567, 1153.30875pt x 558.28575pt>
 File: Bilder/sicher4.png Graphic file (type png)
 <use Bilder/sicher4.png>
 Package pdftex.def Info: Bilder/sicher4.png  used on input line 573.
@@ -2251,97 +1754,47 @@ Package pdftex.def Info: Bilder/sicher4.png  used on input line 573.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-) [108 <./Bilder/Lagenaufbau Steg dick.png>] [109 <./Bilder/Lagenaufbau Haut.pn
-g> <./Bilder/Berechnung Holmgurte.png>] [110 <./Bilder/Berechnung Steg dünn.pn
-g>] [111 <./Bilder/Berechnung Steg dick.png>] [112 <./Bilder/Berechnung Haut.pn
-g> <./Bilder/Konstanten Holmgurte.png>] [113 <./Bilder/Konstanten Steg dünn.pn
-g>] [114 <./Bilder/Konstanten Steg dick.png>] [115 <./Bilder/Konstanten Haut.pn
-g> <./Bilder/Längen.png>] [116 <./Bilder/S1.png> <./Bilder/S2.png>] [117 <./Bi
-lder/S3.png> <./Bilder/S4.png>] [118 <./Bilder/S5.png> <./Bilder/S6.png>]
-[119 <./Bilder/S7.png> <./Bilder/S8.png>] [120 <./Bilder/S9.png> <./Bilder/S10.
-png>] [121 <./Bilder/AufbauGesamt.jpg> <./Bilder/SeiteRichtig.jpg>] [122 <./Bil
-der/MontagePlatte.jpg>] [123 <./Bilder/Material_GFK.png>] [124 <./Bilder/Steg_M
-aterial.png>] [125 <./Bilder/sicher1.png> <./Bilder/sicher2.png>] [126 <./Bilde
+) [114 <./Bilder/Lagenaufbau Steg dick.png>] [115 <./Bilder/Lagenaufbau Haut.pn
+g> <./Bilder/Berechnung Holmgurte.png>] [116 <./Bilder/Berechnung Steg dünn.pn
+g>] [117 <./Bilder/Berechnung Steg dick.png>] [118 <./Bilder/Berechnung Haut.pn
+g> <./Bilder/Konstanten Holmgurte.png>] [119 <./Bilder/Konstanten Steg dünn.pn
+g>] [120 <./Bilder/Konstanten Steg dick.png>] [121 <./Bilder/Konstanten Haut.pn
+g> <./Bilder/Längen.png>] [122 <./Bilder/S1.png> <./Bilder/S2.png>] [123 <./Bi
+lder/S3.png> <./Bilder/S4.png>] [124 <./Bilder/S5.png> <./Bilder/S6.png>]
+[125 <./Bilder/S7.png> <./Bilder/S8.png>] [126 <./Bilder/S9.png> <./Bilder/S10.
+png>] [127 <./Bilder/AufbauGesamt.jpg> <./Bilder/SeiteRichtig.jpg>] [128 <./Bil
+der/MontagePlatte.jpg>] [129 <./Bilder/Material_GFK.png>] [130 <./Bilder/Steg_M
+aterial.png>] [131 <./Bilder/sicher1.png> <./Bilder/sicher2.png>] [132 <./Bilde
 r/sicher3.png> <./Bilder/sicher4.png>] ("Projektarbeit - Main.aux") ) 
 Here is how much of TeX's memory you used:
- 5492 strings out of 479799
- 84963 string characters out of 2869723
- 390360 words of memory out of 3000000
- 22266 multiletter control sequences out of 15000+200000
+ 5473 strings out of 479832
+ 82716 string characters out of 2880873
+ 394429 words of memory out of 3000000
+ 22220 multiletter control sequences out of 15000+200000
  546097 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,17n,80p,2114b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,23n,82p,2114b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users
-\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1095.pk> <C:
-\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.p
-k> <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx
-1200.pk> <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\tcrm1095.pk> <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecbx1095.pk> <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecbx1440.pk> <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Henri\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Users/Henri/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Henri/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Henri/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Henri
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Use
-rs/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb
-><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mr6.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmr8.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (131 pages, 4688290 bytes).
+\hgolo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1095.pk> <C:
+\Users\hgolo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.p
+k> <C:\Users\hgolo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx
+1200.pk> <C:\Users\hgolo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1095.pk> <C:\Users\hgolo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx1095.pk> <C:\Users\hgolo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecbx1440.pk> <C:\Users\hgolo\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\hgolo\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Program Files/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program 
+Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb
+><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "Projektarbeit - Main.pdf" (137 pages, 4697999 bytes).
 PDF statistics:
- 1062 PDF objects out of 1200 (max. 8388607)
-=======
-) [113 <./Bilder/Lagenaufbau Steg dick.png>] [114 <./Bilder/Lagenaufbau Haut.pn
-g> <./Bilder/Berechnung Holmgurte.png>] [115 <./Bilder/Berechnung Steg dünn.pn
-g>] [116 <./Bilder/Berechnung Steg dick.png>] [117 <./Bilder/Berechnung Haut.pn
-g> <./Bilder/Konstanten Holmgurte.png>] [118 <./Bilder/Konstanten Steg dünn.pn
-g>] [119 <./Bilder/Konstanten Steg dick.png>] [120 <./Bilder/Konstanten Haut.pn
-g> <./Bilder/Längen.png>] [121 <./Bilder/S1.png> <./Bilder/S2.png>] [122 <./Bi
-lder/S3.png> <./Bilder/S4.png>] [123 <./Bilder/S5.png> <./Bilder/S6.png>]
-[124 <./Bilder/S7.png> <./Bilder/S8.png>] [125 <./Bilder/S9.png> <./Bilder/S10.
-png>] [126 <./Bilder/AufbauGesamt.jpg> <./Bilder/SeiteRichtig.jpg>] [127 <./Bil
-der/MontagePlatte.jpg>] [128 <./Bilder/Material_GFK.png>] [129 <./Bilder/Steg_M
-aterial.png>] [130 <./Bilder/sicher1.png> <./Bilder/sicher2.png>] [131 <./Bilde
-r/sicher3.png> <./Bilder/sicher4.png>] ("Projektarbeit - Main.aux") ) 
-Here is how much of TeX's memory you used:
- 5834 strings out of 479799
- 91730 string characters out of 2870198
- 401671 words of memory out of 3000000
- 22583 multiletter control sequences out of 15000+200000
- 546097 words of font info for 52 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 70i,23n,80p,2088b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users
-\Neu1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1095.pk> <C:\
-Users\Neu1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk>
- <C:\Users\Neu1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx120
-0.pk> <C:\Users\Neu1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
-rm1095.pk> <C:\Users\Neu1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi6
-00\ecbx1095.pk> <C:\Users\Neu1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecbx1440.pk> <C:\Users\Neu1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
-en/ec/dpi600\ecrm1095.pk> <C:\Users\Neu1\AppData\Local\MiKTeX\fonts/pk/ljfour/j
-knappen/ec/dpi600\ecbx2074.pk><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Neu1/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Neu1/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Neu1/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Neu1/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ne
-u1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Us
-ers/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-<C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
-y10.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmsy6.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (136 pages, 4672525 bytes).
-PDF statistics:
- 1077 PDF objects out of 1200 (max. 8388607)
->>>>>>> OlesAnhang
+ 1080 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  381 words of extra memory for PDF output out of 10000 (max. 10000000)
 
