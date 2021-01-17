@@ -4,14 +4,14 @@ Nachdem die Flügelhaut auf Festigkeit ausgelegt worden ist, muss überprüft we
 
 \begin{enumerate}
 	\item Die Flügelschale wird als nahezu ebener, unendlicher Streifen betrachtet. Die tatsächliche Krümmung und die Knicke erhöhen die Stabilität deutlich, sodass durch diese konservative Rechnung die Sicherheit gewährleistet bleibt.
-	\item Es tritt lediglich die ermittelte Schubspannung auf. In der Realität auftretende Zug- und Druckspannungen, hervorgerufen durch aufgeprägte Dehnungen des Holms und durch die Prüfkraft, werden in der Rechnung vernachlässigt.
+	\item Es tritt die ermittelte Schubspannung in der Schale und eine aufgeprägte Druckspannung von dem Holm auf. Vernachlässigt wird, wie in der Auslegung nach  VDI 2013, eine Druckspannung durch die angreifende Prüfkraft selbst.
 	\item Die Flügelschale wird als an beiden Rippen fest gelagert betrachtet. Eine Verformung der Rippen wird außer Acht gelassen.
 	\item Die Flügelnase und Klappenkante werden als stützende Lager angenommen, da diese einen engen Krümmungsradius aufweisen, welcher stabile und steife Strukturen hervorbringt.
-	\item Der Holmsteg wird ebenfalls an seinen beiden Enden, verbunden mit der Flügelschale über die Holmgurte, als freies Lager angenommen.
+	\item Der Holmsteg wird ebenfalls an seinen beiden Enden, verbunden mit der Flügelschale über die Holmgurte, als stützendes Lager angenommen.
 	\item Dadurch ergibt sich die maximale Breite eines Streifens zu $124,5 mm$ - von der Klappenkante zum oberen Steg-Lager.
 \end{enumerate}
 
-\noindent Die Berechnung erfolgt nach den gleichen Formeln der Berechnung des Kapitels \ref{Beulsicherheit Steg}.\\
+\noindent Die Berechnung erfolgt nach den gleichen Formeln der Berechnung des Kapitels \ref{Beulsicherheit Steg}. \\
 
 \noindent Das Seitenverhältnis beträgt für die maximale Streifenbreite
 \begin{equation}
@@ -19,17 +19,39 @@ Nachdem die Flügelhaut auf Festigkeit ausgelegt worden ist, muss überprüft we
 \end{equation}
 und somit wird der Beulfaktor für Schub zu 
 \begin{equation}
-	k=0,5
-\end{equation} ermittelt. Auch hier beträgt die Steifigkeitserhöhung $\kappa=3$ und der Schubmodul $G_{xy}=8577,8 MPa$. Dadurch lässt sich die zulässige Schubspannung ermitteln:
+	k_{s}=5
+\end{equation} 
+ermittelt. Auch hier beträgt die Steifigkeitserhöhung $\kappa=3$ und der Schubmodul $G_{xy}=8577,8 MPa$. Dadurch lässt sich die zulässige Schubspannung ermitteln:
 \begin{equation}
-	\tau_{krit}=3\cdot 5\cdot 8577,8 MPa\cdot\biggl(\frac{4\cdot 0,078mm + 3mm}{124,5 mm}\biggr)^{2} =91,06 MPa
+	\tau_{krit}=3\cdot 5\cdot 8577,8 MPa\cdot\biggl(\frac{2\cdot 0,078mm + 3mm}{124,5 mm}\biggr)^{2} =82,68 MPa
 \end{equation}
 Die Schaumdicke wird durch konstruktive Vorgaben auf $3 mm$ gesetzt. Dia maximal auftretende Schubspannung beträgt
 \begin{equation}
 	\tau_{max}=42,346 MPa
 \end{equation}
-(im Bereich der unteren Steg-Lagerung), sodass die Sicherheit gegen Beulen 
+(im Bereich der unteren Steg-Lagerung), sodass die Sicherheit gegen Schubbeanspruchung 
 \begin{equation}
-	j=2,15
+	j_{1}=1,95
 \end{equation}
-beträgt. Dieses stelltjedoch eine theoretische Sicherheit dar, da die maximale Länge und die größte Schubspannung nicht im gleichen Bau-Abschnitt liegen. Die Sicherheit ist in der Realität somit höher, zusätzlich wird sie durch den gekrümmten Verlauf erhöht.
+beträgt. Der Beulfaktor bei Druckbeanspruchung beträgt
+\begin{equation}
+	k_{d} = 4,9
+\end{equation}
+Mit dem E-Modul $E_{Fl\ddot{u}gelschale} = 6639,8 MPa$ kann die kritische Druckspannung zu
+\begin{equation}
+	\sigma_{krit} = 3\cdot 4,9\cdot 6639,8 Mpa\cdot\Bigl(\frac{2\cdot 0,078mm+3mm}{124,5mm}\Bigr)^{2}=62,72 MPa
+\end{equation}
+Es wird angenommen, dass die Flügelschale eine Druckspannung durch die aufgeprägte Dehnung des Gurtes erfährt, die wiederum aus einer der maximalen Biegespannung erfolgt:
+\begin{equation}
+	\sigma_{max}=E_{Fl\ddot{u}gelschale}\cdot\frac{\sigma_{b}}{E_{Gurt}}=6639,8 MPa\cdot\frac{224,96 MPa}{31580 MPa}=47,29 MPa
+\end{equation}
+Dadurch,dass die Sicherheit gegen Druckbeanspruchung
+\begin{equation}
+	j_{2}=1,32
+\end{equation}
+beträgt, resultiert eine Gesamtsicherheit gegenüber einer Beulerscheinung
+\begin{equation}
+	j=\sqrt{\frac{1}{\frac{1}{1,952}+\frac{1}{1,32}}}=1,09
+\end{equation}\\
+
+ \noindent Dieses stellt jedoch eine theoretische Sicherheit dar, da die maximale Streifenbreite und die größte Schubspannung nicht im selben Bauteil-Bereich liegen und die maximale Randfaserspannung durch Biegung nicht an den tatsächlichen Höhenverlauf angepasst worden ist. Die Sicherheit ist in der Realität somit höher, ebenfalls wird sie durch den tatsächlich gekrümmten Verlauf erhöht.

@@ -3,16 +3,16 @@ Neben der Festigkeit und Steifigkeit ist es bei einer Konstruktion dünnwandiger
 
 \noindent Typische Versagensarten aufgrund zu hoher Druckbeanspruchungen bilden dabei das Knicken (eindimensionale Formänderung) und das Beulen (zweidimensionale Formänderung). Bei Letzterem haben auch Schubbeanspruchungen Einfluss darauf. Dabei entstehen wellenförmige Ausprägungen des Bauteils (in entsprechend vielen Dimensionen). Sie können mit unendlich vielen Eigenwerten beliebig viele Ausprägungen, einer Sinus-Funktion mit unterschiedlichen Frequenzen entsprechend, im Bauteil bilden. Die kritische Last wird für eine einfache Ausprägung definiert, da dieser Fall zuerst eintreten wird. Die Verformungen können auch plastisch auftreten, sodass nach Entlastung des Bauteils irreparable Schäden bleiben. Inwiefern ein Bauteil im geknickten bzw. gebeulten Zustand seine Eigenschaften beibehält, lässt sich kaum vorhersagen.\\
 
-\noindent Die Beulsicherheit der Tragflügel-Bauteile erfolgt nach Hertel \cite{item1}. Dabei handelt es sich um Theorien isotroper Stoffe. Dennoch werden sie hier für FVK angewendet, da im Orthotropie-Achsensystem gleiche Verhaltensweisen wie isotroper Stoffe gelten. Die Orthotropie ist in nachfolgenden Bauteilen hinreichend durch gewählte Belastungsrichtungen und Lagenaufbauten gegeben. Diese Annahme hat sich bei bisherigen Flugzeug-Konstruktionen bewährt. !!!!!BEISPIELE!!!!\\
+\noindent Die Beulsicherheit der Tragflügel-Bauteile erfolgt nach Hertel \cite{item1}. Dabei handelt es sich um Theorien isotroper Stoffe. Dennoch werden sie hier für FVK angewendet, da im Orthotropie-Achsensystem gleiche Verhaltensweisen wie isotroper Stoffe gelten. Die Orthotropie ist in nachfolgenden Bauteilen hinreichend durch gewählte Belastungsrichtungen und Lagenaufbauten gegeben. Diese Annahme hat sich bei bisherigen Flugzeug-Konstruktionen und deren Zulassungen bewährt.\\
 
-\noindent In einer Hautebene des dünnwandigen Bauteils wird zwischen beulkritischen Spannungen unterschieden, die aus reiner Biegung, Druck und Biegung, oder reinem Schub (Indizes $b$/$d$/$s$) resultieren. Sofern Normal- und Schubspannungen gleichzeitig vorliegen, kann lediglich eine kombinierte Belastung als über- oder unterkritisch eingestuft werden. Die Spannungen und Beulausprägungen sind von folgenden Parametern abhängig:
+\noindent In der Hautebene eines dünnwandigen Bauteils wird zwischen beulkritischen Spannungen unterschieden, die aus reiner Biegung, Druck und Biegung, oder reinem Schub (Indizes $b$/$d$/$s$) resultieren. Sofern Normal- und Schubspannungen gleichzeitig vorliegen, kann lediglich eine kombinierte Belastung als über- oder unterkritisch eingestuft werden. Die Spannungen und Beulausprägungen sind von folgenden Parametern abhängig:
 \begin{itemize}
 	\item Seitenverhältnis $\frac{a}{b}$. Für einen Betrag gleich Null wird das Hautfeld \glqq Streifen\grqq genannt. 
-	\item Randbedingungen an den Rändern des Hautfelds. Ränder können frei (alle Freiheitsgrade), gestützt (rotatorischer Freiheitsgrade) und fest gelagert werden.
+	\item Randbedingungen an den Rändern des Hautfelds. Ränder können frei (alle Freiheitsgrade), gestützt (rotatorischer Freiheitsgrade) und fest (keine Freiheitsgrade )gelagert werden.
 	\item relative Hautstärke $\frac{s}{b}$.
 	\item Elastizitätsmodul $E$.
 \end{itemize}
-Dabei stehen $a$ und $b$ für die lange bzw. die kurze Seite des Hautfelds und $s$ für dessen Hautstärke. Mit dem Seitenverhältnis und den Randbedingungen ergibt sich ein Beulfaktor $k$, der, je nach vorherrschender Beanspruchung, in den Abbildungen . . .  ermittelt wird. \\
+Dabei stehen $a$ und $b$ für die lange bzw. die kurze Seite des Hautfelds und $s$ für dessen Hautstärke. Mit dem Seitenverhältnis und den Randbedingungen ergibt sich ein Beulfaktor $k$, der, je nach vorherrschender Beanspruchung, in den Abbildungen \ref{fig: Hertel_Druck}, \ref{fig: Hertel_Biegung} und \ref{fig: Hertel_Schub}  ermittelt wird. \\
 Die beulkritischen Normal- und Schubspannungen lassen sich nach
 \begin{equation}
 	\sigma_{krit}=k\cdot E\cdot\Big(\frac{s}{b}\Big)^{2}
@@ -24,10 +24,10 @@ berechnen. Die Sicherheit gegen Beulen ergibt sich aus dem Verhältnis zur tats�
 \begin{equation}
 	\Big(\frac{\tau_{max}}{\tau_{krit}}\Big)^{2}+\Big(\frac{\sigma_{max}}{\sigma_{krit}}\Big)^{2}=1^{2}=j^{2}
 \end{equation}
-in Abbildung . . . herausgefunden werden, ob es sich um einen überkritischen Zustand handelt.\\
+in Abbildung \ref{fig: Hertel_Sicherheit} herausgefunden werden, ob es sich um einen überkritischen Zustand handelt.\\
 
 \noindent Generell werden Krümmungen und Versteifungen nachfolgend vernachlässigt. Allerdings sind für Sandwich-Bauteile Anpassungen durchzuführen:\\
-Die Dicke $d$ beinhaltet neben den FVK-Lagen die Schaumstoffdicke. Dadurch, dass diese Lagen nun an den Außenseiten konzentriert sind, kann das Trägheitsmoment mit einem Faktor $\kappa$ bis auf das Dreifache maximal erhöht werden. Dieser wird jedoch wieder minimiert, sofern der Lagenaufbau unsymmetrisch und somit das Dickenverhältnis ungleich eins ist. Exakte Beträge können der Abbildung . . . entnommen werden. Die beulkritischen Spannungen berechnen sich somit zu
+Die Dicke $d$ beinhaltet neben den FVK-Lagen die Schaumstoffdicke. Dadurch, dass diese Lagen nun an den Außenseiten konzentriert sind, kann das Trägheitsmoment mit einem Faktor $\kappa$ bis auf das Dreifache maximal erhöht werden. Dieser wird jedoch wieder minimiert, sofern der Lagenaufbau unsymmetrisch und somit das Dickenverhältnis ungleich eins ist. Exakte Beträge können der Abbildung \ref{fig: Hertel_Sandwich} entnommen werden. Die beulkritischen Spannungen berechnen sich somit zu
 \begin{equation}
 	\sigma_{krit}=\kappa\cdot k\cdot E\cdot\Big(\frac{d}{b}\Big)^{2}
 \end{equation}
@@ -38,10 +38,11 @@ Die Dicke $d$ beinhaltet neben den FVK-Lagen die Schaumstoffdicke. Dadurch, dass
 \subsubsection{Beulsicherheit der Gurte (T.B.)}
 Für die Auslegung der Holmgurte werden folgende Annahmen getroffen:
 \begin{enumerate}
+	\item Die Gurte werdne als ebene unendlich lange Streifen betrachtet.
 	\item Da die Mitte der Holmgurte in $x$-Richtung mit dem Holmsteg verklebt ist, kann diese Klebelinie als freie Lagerung gesehen werden. Somit halbiert sich die angenommene Holmgurtbreite.
 	\item Die äußeren Kanten in $x$-Richtung sind frei und nicht gelagert.
 	\item Die äußeren Kanten in $y$-Richtung werden an den jeweiligen Rippen gestützt.
-	\item Der Druckgurt wird nur durch Druckspannungen beansprucht. Die Schubspannungen werden durch das hohe Verhältnis von Länge zu  Höhe vernachlässigt.
+	\item Der Druckgurt wird nur durch Druckspannungen beansprucht. Die Schubspannungen werden durch das hohe Verhältnis von Länge zu  Höhe vernachlässigt. Der auf Zug beanspruchte Gurt wird nicht beulen.
 	\item Als größtmögliche Länge bei höchster Biegespannung wird $l_{3}$ bestimmt.
 \end{enumerate}
 Das Seitenverhältnis beträgt 
@@ -67,7 +68,7 @@ Im Vergleich zu der tatsächlich maximal auftretenden Randfaserspannung der Gurt
 \label{Beulsicherheit Steg}
 Ebenfalls muss der Holmsteg nach der Auslegung hinsichtlich der Sicherheit gegen Beulen überprüft werden. Folgende Annahmen werden dafür getroffen:\\
 \begin{enumerate}
-	\item Der Steg wird als nahezu ebener unendlich langer Streifen betrachtet.
+	\item Der Steg wird teilweise für einzelne lange Bereiche als nahezu ebener unendlich langer Streifen betrachtet.
 	\item Die Verklebung des Steges wird als gestützte gelenkige Lagerung an allen vier Kanten angenommen.
 	\item Der Steg wird durch Biegung und Schubspannung beansprucht.
 \end{enumerate}
@@ -86,7 +87,7 @@ Dadurch lässt sich mit
 \begin{equation}
 	k_{b} = 21,8
 \end{equation}
-Da das Dickenverhältnis von Steglagen zu Schaumkern sehr klein ausgelegt werden soll, wird
+Da das Dickenverhältnis von Steglagen zu Schaumkern sehr klein ausgelegt werden soll, wird sicherheitshalber
 \begin{equation}
 	\kappa = 1
 \end{equation}
@@ -94,11 +95,15 @@ definiert. Dadurch ergibt sich die kritische Biegespannung mit $E_{xx}=6639,8MPa
 \begin{equation}
 	\sigma_{krit,B}=\kappa\cdot\ k_{b}\cdot E_{xx}\cdot\Bigl(\frac{d}{b}\Bigr)^{2}=503,24MPa
 \end{equation}
-Das Verhältnis der Biegespannung zur kritischen Biegespannung ist mit 
+Mit
+\begin{equation}
+	\sigma_{b}=\frac{M_{b}\cdot {h_{i}}}{\tilde{I_{x}}\cdot 2}=\frac{0,773m\cdot500N\cdot (35,8mm - 2\cdot 1,941mm)}{2\cdot 3,075406\cdot 10^{-8} m^{4} }=200,56 MPa
+\end{equation}
+ist das Verhältnis der Biegespannung zur kritischen Biegespannung
 \begin{equation}
 	j_{1}=\frac{503,24MPa}{200,56 Mpa}=2,512.
 \end{equation}
- Für den Schub wird nach Hertel der Beulfaktor zu
+ Für den Schub wird der Beulfaktor zu
 \begin{equation}
 	k_{s}=5,5
 \end{equation}
@@ -108,13 +113,13 @@ Damit wir die kritische Schubspannung mit $G_{xy}=8577,8MPa$zu
 \end{equation}
 Die tatsächlich auftretende Schubspannung beträgt 
 \begin{equation}
-	\tau=\frac{3}{2}\cdot \frac{5085,5 N}{1,882 mm\cdot(35,8 mm-2\cdot 1,941 mm)}=126,99 MPa
+	\tau= \frac{3}{2}\cdot\frac{Q_{max}}{h_{i}\cdot s} =\frac{3}{2}\cdot \frac{5085,5 N}{1,882 mm\cdot(35,8 mm-2\cdot 1,941 mm)}=126,99 MPa
 \end{equation}
 sodass das Verhältnis der Schubspannung zur kritischen 
 \begin{equation}
 	j_{2}=\frac{164,02 MPa}{126,99 MPa}= 1,292
 \end{equation}
-ergibt. Die Gesamtsicherheit beträgt nach [Hertel einfügen]
+ergibt. Die Gesamtsicherheit beträgt
 \begin{equation}
 	j=\sqrt{\frac{1}{\left(\frac{1}{j_{1}}\right)^{2}+\left(\frac{1}{j_{2}}\right)^{2}}}=1,148
 \end{equation}
@@ -193,4 +198,4 @@ ermittelt. Allerdings soll ein Schaum der Dicke $x=2mm$ verbaut werden, um das e
 \begin{equation}
 	j=6,88
 \end{equation}
-Damit die äußeren Steg-Gewebelagen eine konstante Stegdicke bilden, soll in den Bereichen $I$ und $II$ dennoch eine Schaumdicke von $x=0,431mm$ verbaut werden. Der geschliffene Schaum erhöht zudem in diesen Bereichen die Beulsicherheit, obwohl kein zusätzlicher Schaum benötigt worden wäre. Der Übergang der beiden Schaumdicken soll zudem nicht direkt an der Wurzelrippe beginnen, sondern erst $23mm$ zur Flügelspitze versetzt erfolgen, um direkt an dem Kraftangriffspunk $C$ die Sicherheit zusätzlich zu erhöhen.
+Damit die äußeren Steg-Gewebelagen eine konstante Stegdicke bilden, soll in den Bereichen $I$ und $II$ dennoch eine Schaumdicke von $x=0,431mm$ verbaut werden. Der in Form geschliffene Schaum erhöht zudem in diesen Bereichen die Beulsicherheit, obwohl kein zusätzlicher Schaum benötigt worden wäre. Der Übergang der beiden Schaumdicken soll zudem nicht direkt an der Wurzelrippe beginnen, sondern erst $23mm$ zur Flügelspitze versetzt erfolgen, um direkt an dem Kraftangriffspunk $C$ die Sicherheit zusätzlich zu erhöhen.
