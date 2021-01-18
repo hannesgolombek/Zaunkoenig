@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  18 JAN 2021 22:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  18 JAN 2021 23:45
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -432,14 +432,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--12
 
  []
 
-[7]) [8] ("Projektarbeit - Grundlagen.tex" [9]
-Underfull \vbox (badness 4981) has occurred while \output is active []
-
- [10]
-[11] [12]
+[7]) [8] ("Projektarbeit - Grundlagen.tex" [9] [10] [11] [12]
 Underfull \vbox (badness 1565) has occurred while \output is active []
 
  [13]
+Overfull \hbox (19.45645pt too wide) in paragraph at lines 178--185
+\T1/cmr/m/n/10.95 Mit die-sen Wer-ten de-fi-niert Puck sei-ne Bruch-be-din-gun-
+gen aus der Mohr-schen Bruchhypothese[[]],
+ []
+
 [14] [15]
 <Bilder/Schubknicken.png, id=141, 550.4565pt x 210.18526pt>
 File: Bilder/Schubknicken.png Graphic file (type png)
@@ -643,63 +644,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--54
 
 [30]
 
-! Package amsmath Error: Multiple \label's: label 'Dicke' will be lost.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 	\label
-            {gurtlagen}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+LaTeX Warning: Reference `gurtlagen' on page 31 undefined on input line 59.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
 <Bilder/KrummerGurt.jpg, id=199, 1160.83687pt x 342.27875pt>
 File: Bilder/KrummerGurt.jpg Graphic file (type jpg)
 <use Bilder/KrummerGurt.jpg>
-Package pdftex.def Info: Bilder/KrummerGurt.jpg  used on input line 66.
+Package pdftex.def Info: Bilder/KrummerGurt.jpg  used on input line 65.
 (pdftex.def)             Requested size: 455.24411pt x 134.2298pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
 
  []
 
 [31 <./Bilder/KrummerGurt.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--87
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 98--101
+Underfull \hbox (badness 10000) in paragraph at lines 97--100
 
  []
 
 <Bilder/Abtriebskraft.jpg, id=207, 535.2497pt x 222.8325pt>
 File: Bilder/Abtriebskraft.jpg Graphic file (type jpg)
 <use Bilder/Abtriebskraft.jpg>
-Package pdftex.def Info: Bilder/Abtriebskraft.jpg  used on input line 117.
+Package pdftex.def Info: Bilder/Abtriebskraft.jpg  used on input line 116.
 (pdftex.def)             Requested size: 455.24411pt x 189.53432pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
@@ -710,17 +701,17 @@ Underfull \vbox (badness 6252) has occurred while \output is active []
 Underfull \vbox (badness 5119) has occurred while \output is active []
 
  [34 <./Bilder/Abtriebskraft.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 139--45
+Underfull \hbox (badness 10000) in paragraph at lines 138--45
 
  []
 
@@ -732,9 +723,6 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 2.
 LaTeX Warning: Command \textdegree invalid in math mode on input line 2.
 
 Missing character: There is no ° in font cmr10!
-
-LaTeX Warning: Reference `Dicke' on page 36 undefined on input line 2.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
@@ -1061,6 +1049,9 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
+
+
+LaTeX Warning: Reference `gurtlagen' on page 75 undefined on input line 5.
 
 <Bilder/Kontur.jpg, id=353, 1445.90187pt x 326.72063pt>
 File: Bilder/Kontur.jpg Graphic file (type jpg)
@@ -2059,10 +2050,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5533 strings out of 479799
- 86840 string characters out of 2871148
- 394762 words of memory out of 3000000
- 22302 multiletter control sequences out of 15000+200000
+ 5534 strings out of 479799
+ 86848 string characters out of 2871148
+ 394844 words of memory out of 3000000
+ 22303 multiletter control sequences out of 15000+200000
  546097 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,23n,80p,2204b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2085,7 +2076,7 @@ ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/PC/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/PC
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Use
 rs/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (144 pages, 5112289 bytes).
+Output written on "Projektarbeit - Main.pdf" (144 pages, 5112688 bytes).
 PDF statistics:
  1101 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
