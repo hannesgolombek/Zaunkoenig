@@ -18,7 +18,7 @@ und der Normalkraftfluss als
 definiert. Für diese Kraftflüsse gilt das hydrodynamische Analogon. Das heißt mit einer Änderung der Dicke muss der Kraftfluss antiproportional ab- bzw. zunehmen, damit das Kräftegleichgewicht erfüllt bleibt. Für Knotenpunkte muss auch gelten, dass der Betrag der Kraftflüsse in den Knoten hinein denen aus ihm heraus gleichen. Des Weiteren lässt sich noch zwischen offenen und geschlossenen Profilen unterscheiden, wobei es sich bei zweiterem um Ein- oder Mehrzeller handeln kann.\cite{item15}
 
 \paragraph{Koordinatensysteme}~\\
-Bei den Berechnungen kann viel Arbeit gespart werden, indem das Koordinatensystem mit Ursprung und Achsenausrichtung klug gewählt wird. Das allgemeine Koordinatensystem, das unabhängig vom betrachteten Profil ist, bietet hierbei die wenigstem um nicht zu sagen keine Vorteile. Verschiebt man seinen Ursprung in den Schwerpunkt erhält man das Schwerpunkt-Koordinatensystem. Es wird mit einem Querstrich über den Koordinaten gekennzeichnet ($\bar{x},\bar{y},\bar{z}$). Es ist sinnvoll aus dieser Perspektive den Schubfluss zu betrachten.
+Bei den Berechnungen kann viel Arbeit gespart werden, indem das Koordinatensystem mit Ursprung und Achsenausrichtung klug gewählt wird. Das allgemeine Koordinatensystem, das unabhängig vom betrachteten Profil ist, bietet hierbei die wenigsten um nicht zu sagen keine Vorteile. Verschiebt man seinen Ursprung in den Schwerpunkt erhält man das Schwerpunkt-Koordinatensystem. Es wird mit einem Querstrich über den Koordinaten gekennzeichnet ($\bar{x},\bar{y},\bar{z}$). Es ist sinnvoll aus dieser Perspektive den Schubfluss zu betrachten.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\textwidth]{Bilder/schubfluss-infinit}
@@ -50,9 +50,10 @@ ist nur bei geschlossenen Profilen ungleich null. Sie sich aus einem Teil, der a
 Für die Berechnung des Schubmittelpunkts wird das Flügelprofil als vereinfachter Mehrzeller angenommen.
 Dabei wird der Ursprung des Koordinatensystems am unteren rechten Rand gesetzt. Das Modell wird in 10 Teilstrecken $s_{i}$ aufgeteilt. Die Dicke $t$ wird über die Schale konstant angenommen. Der Schaum wird in allen Abschnitten der Schale und im Holm vernachlässigt, da seine Hauptaufgabe der Beulsteifigkeit gilt und er bei der Schubaufnahme im Vergleich zum Laminat nur eine unbedeutende Rolle spielt. Der Steg ist in 2 Abschnitte unterteilt. Für die maximale Belastung und somit für die Auslegung relevant ist nur der Teil mit dem dünneren Gewebe, sodass hier für die Dicke des Stegs $t_{1}=0,314\mathrm{mm}$ angenommen wird. Für die Gurte gilt, dass alle Fasern parallel in x-Richtung ausgerichtet sind. Sie werden in dieser Rechnung ignoriert, da sie folglich im Gegensatz zum $\pm45^\circ$-Gewebe vernachlässigbare Schubkräfte aufnehmen können (D = $t$). Außerdem würde ein über die Dicke variabler Schubmodul die Rechnung unnötig verkomplizieren, da die uns bekannten Methoden zur Schubflussberechnung nur für homogene Werkstoffe gültig sind \cite{item15}.
 
+\noindent 
 Diese Annahmen bezüglich des Schaums und der Gurte sind unproblematisch, da sie so getroffen wurden, dass der Flügel sogar noch höheren Belastungen als errechnet standhalten könnte. Als einziges ist zu betrachten, dass durch das Wegfallen des Schaums in der Schale die GFK-Schichten des Sandwichs aufeinander fallen und ihre Position somit um wenige Millimeter ungenau ist. Da die genau errechnete Dicke auf eine Lagenschicht aufgerundet werden muss, ist dies vermutlich kompensierbar, sollte jedoch im Hinterkopf behalten werden.
 
-Abbildung \ref{Fluegel1} zeigt, dass der Profil durch 4 geraden Strecken und einen viertel Kreis modelliert wurde. Die Längen der einzelnen Teilabschnitte lassen sich im Anhang der Abbildung \ref{fig:LaengenS} entnehmen.
+Abbildung \ref{Fluegel1} zeigt, dass der Profil durch 4 geraden Strecken und einen Viertelkreis modelliert wurde. Die Längen der einzelnen Teilabschnitte lassen sich im Anhang der Abbildung \ref{fig:LaengenS} entnehmen.
 Im Folgenden werden die wichtigsten Rechenschritte und Ergebnisse dargelegt, detailliertere Berechnungen lassen sich im Anhang unter Kapitel \ref{SchubRechnung} finden.
 \begin{figure}[h]
  \centering
@@ -102,7 +103,7 @@ $$
 $$
 	z_{0}=-15,39\mathrm{mm}
 $$
-
+\noindent
 Damit können nun mit
 \begin{equation}
 	S_{\bar{y}}=S_y-z_0A
@@ -129,7 +130,7 @@ Bauteilabschnitt&$S_{\bar{y}}/\mathrm{mm}^3$&$S_{\bar{z}}/\mathrm{mm}^3$\\
 \end{center}
 Für ein offenes Profil muss gelten, dass an den freien Rändern der Schubfluss $ 0 $ ist, was automatisch dadurch erfüllt ist, dass beide statischen Momente ungefähr null sind. Das Profil wird in diesem Fall an den Stellen 1 und 3 geschnitten.
 
-
+\noindent
 Nun werden die Flächenträgheitsmomente 
 \begin{equation}\label{FT1}
 	I_{y} = \int_{A}^{}z^2dA
@@ -178,7 +179,7 @@ Aus dem Zusammenhang
 \end{equation}
 nach \cite{item15} lässt sich erkennen, dass der Winkel ($\varphi =-3,15^\circ$) zwischen dem Hauptachsen- und Schwerpunkt-Koordinatensystem nur sehr gering ist. Im Folgenden finden alle Betrachtungen trotzdem weiterhin mit den Koordinatenachsen in dieser Ausrichtung statt.
 
-\subsubsection{Schubmittelpunkt(H.G.)}
+\subsubsection{Schubmittelpunkt (H.G.)}
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\textwidth]{Bilder/Flügel-Pol-offen}
@@ -296,18 +297,20 @@ $$
 Integriert man diesen konstanten Wert über die gesamte Länge des Flügels, erhält man den Drillwinkel am Ende mit $\varphi = -1,87^\circ$.
 
 \subsubsection{Schubspannung (O.S.)}
-Das Ziel dieser Berechnung war nicht nur den Schubmittelpunkt und den Drillinkel zu bestimmen, sondern hauptsächlich die Schubspannung in der Haut zu erhalten, um diese auslegen zu können. Da die Hautdicke auf dem gesamten Umfang konstant bleiben soll, ist an dieser Stelle nur die maximale Schubspannung für alle Bereiche der Haut $\tau_{max}$, die sich einfach aus Gleichung (\ref{tau}) ermitteln lässt, interessant. Die Dicke $t$ ist jedoch nicht einfach aus den gesamten Rechnungen rausziehbar, weil es auch Anteile, wie zum Beispiel den Holm, gibt, die von $t$ unabhängig sind. Deswegen wird iterativ vorgegangen, wobei zuerst mit einer zufällig gewählten Dicke die Rechenschritte durchgeführt werden, in dem in diesem Kapitel gezeigten Fall mit $t=0,2\mathrm{mm}$. Am Ende der Berechnung wird aus den maximalen Schubfluss die minimale Dicke
+Das Ziel dieser Berechnung war nicht nur den Schubmittelpunkt und den Drillinkel zu bestimmen, sondern hauptsächlich die Schubspannung in der Haut zu erhalten, um diese auslegen zu können. Da die Hautdicke auf dem gesamten Umfang konstant bleiben soll, ist an dieser Stelle nur die maximale Schubspannung für alle Bereiche der Haut $\tau_{max}$, die sich einfach aus Gleichung (\ref{tau}) ermitteln lässt, interessant. Die Dicke $t$ ist jedoch nicht einfach aus den gesamten Rechnungen rausziehbar, weil es auch Anteile wie zum Beispiel den Holm gibt, die von $t$ unabhängig sind. Deswegen wird iterativ vorgegangen, wobei zuerst mit einer zufällig gewählten Dicke die Rechenschritte durchgeführt werden, in dem in diesem Kapitel gezeigten Fall mit $t=0,2\mathrm{mm}$. Am Ende der Berechnung wird aus den maximalen Schubfluss die minimale Dicke
 \begin{equation}
 	t_{min} = \frac{q_{max}}{R_{\tau}}.
 \end{equation} 
-bestimmt. Die Festigkeit bei reiner Schubbelastung $R_{\tau} = 166,67\mathrm{N/mm^2}$ wurde mittels ELamX bestimmt. Diese Dicke kann jedoch nicht als einfach so als Ergebnis genommen werden, da sich der Schubfluss mit variabler Dicke mit verändert. Die Rechnung muss mit dem neuen Wert erneut durchgeführt werden. Somit nähert man sich Schritt für Schritt dem Idealwert, bei dem die vorliegende Dicke der minimalen Dicke entspricht.
+bestimmt. Die Festigkeit bei reiner Schubbelastung $R_{\tau} = 166,67\mathrm{N/mm^2}$ wurde mittels ELamX bestimmt. Diese Dicke kann jedoch nicht einfach so als Ergebnis genommen werden, da sich der Schubfluss bei variabler Dicke mit verändert. Die Rechnung muss mit dem neuen Wert erneut durchgeführt werden. Somit nähert man sich Schritt für Schritt dem Idealwert, bei dem die vorliegende Dicke der minimalen Dicke entspricht.
 
+\noindent
 Nach einigen Iterationen bildet sich der Wert $t = 0,03\mathrm{mm}$ als Grenzwert heraus. Da dies ungefähr 0,4 Lagen bei einer Dicke $0,0783\mathrm{mm}$ des $\pm45^\circ$-Gewebes entspricht, muss für die Fertigung des Flügels auf eine ganzzahlige Lagenanzahl aufgerundet werden. Hier wurde eine Dicke von 
 \begin{equation}
 	t = 0,1566 \mathrm{mm}
 \end{equation}
 gewählt, was $2$ Lagen entspricht. Dies macht einen symmetrischen Aufbau der Haut möglich und gewährleistet die beste Beulsteifigkeit. Außerdem ist eine ausreichende Sicherheit in Folge der getroffenen Vereinfachungen gewährleistet.
 
+\noindent
 Mit dieser Dicke verändern sich die Werte des endgültigen Flügels im Vergleich zu den bisher in diesem Kapitel mit $t=0,2\mathrm{mm}$ durchgeführten Berechnungen. Der Schubmittelpunkt verschiebt sich minimal zu
 $$
 	y_{M_{g}}=75,72\mathrm{mm}
@@ -319,7 +322,7 @@ Auch der Drillwinkel vergrößert sich leicht durch die gesenkte dünnere Haut S
 $$
 	\varphi =-2,32 ^\circ.
 $$
-Aus den Verläufen der Schubflüsse, wie sie in Abbildung \ref{fig:S1}-\ref{fig:S10} zu sehen, erkennt man, dass die betragsmäßig maximale Schubspannung am Endpunkt des Bereichs 8 auftritt.
+Aus den Verläufen der Schubflüsse, wie sie in Abbildung \ref{fig:S1} - \ref{fig:S10} zu sehen, erkennt man, dass die betragsmäßig maximale Schubspannung am Endpunkt des Bereichs 8 auftritt.
 $$
 	|\tau_{max}|=\tau(s_8=14)=47,52\mathrm{N/mm^2}\leq R_{\tau}
 $$
