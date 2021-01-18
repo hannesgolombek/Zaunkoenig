@@ -1,4 +1,4 @@
-\subsection{Berechnung: Analytischen Lösung der Modellierung}\label{Lösung}
+\subsection{Berechnung: Analytische Lösung der Modellierung}\label{Lösung}
 In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:36} herlgeleitet:
 \begin{itemize}
 	\item Aus Gleichung \ref{eq:11} und \ref{eq:22} ergibt sich:
@@ -98,10 +98,10 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 	%1
 	\begin{equation}
 		S_{z,1}(s_1) = t\int_{0}^{s_1} R\bigg(1-\mathrm{cos}\bigg(\frac{s}{R}\bigg)\bigg)ds = tR^2\bigg[\frac{s}{R} - \mathrm{sin}\bigg(\frac{s}{R}\bigg)\bigg]_{s=0}^{s_1} = tR^2\cdot\bigg(\frac{s_1}{R}-\mathrm{sin}\bigg(\frac{s_1}{R}\bigg)\bigg)
-	\end{equation}
+	\end{equation}\\
 	\begin{equation}
 		S_{y,1}(s_1) = t\int_{0}^{s_1} -R\mathrm{sin}\bigg(\frac{s}{R}\bigg)ds_1 = t\biggl[ R^2 \mathrm{cos}\bigg(\frac{s}{R}\bigg)\biggr]^{s_1}_{s=0} = tR^2 \cdot\bigg(\mathrm{cos}\bigg(\frac{s_1}{R}\bigg)-1\bigg)
-	\end{equation}
+	\end{equation}\\
 %2
 \begin{equation}
 	\begin{split}
@@ -109,21 +109,21 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 		&= t\bigg[37,5\mathrm{mm}\cdot s +\frac{\mathrm{cos}(\alpha)}{2}\cdot s^2_2\bigg]_{s=0}^{s_2} + S_{z,1}(s_{1,\mathrm{ende}}) \\\ 
 		&= t\cdot\bigg(37,5\mathrm{mm}\cdot s_2 +\frac{\mathrm{cos}(\alpha)}{2}\cdot s^2_2\bigg) + S_{z,1}(s_{1,\mathrm{ende}})
 	\end{split}
-\end{equation}
+\end{equation}\\
 \begin{equation}
 	\begin{split}
 		S_{y,2}(s_2) &= t\int_{0}^{s_2}\bigg(-37,5\mathrm{mm}+\mathrm{sin}(\alpha)\cdot s\bigg)ds + S_{y,1}(s_{1,\mathrm{ende}}) \\\
 		&= t\bigg[-37,5\mathrm{mm}\cdot s +\frac{\mathrm{sin}(\alpha)}{2}\cdot s^2\bigg]_{s=0}^{s_2} + S_{y,1}(s_{1,\mathrm{ende}})\\\
 		&= t\cdot\bigg(-37,5\mathrm{mm}\cdot s_2 +\frac{\mathrm{sin}(\alpha)}{2}\cdot s^2_2\bigg) + S_{y,1}(s_{1,\mathrm{ende}})
 	\end{split}
-\end{equation}
+\end{equation}\\
 %3
 \begin{equation}
 	S_{z,3}(s_3) = t_1\int_{0}^{s_3}\bigg(37,5\mathrm{mm}+14\mathrm{mm}\bigg)ds = t_1\bigg[51,5\mathrm{mm}\cdot s\bigg]_{s=0}^{s_3} = t_1\cdot\bigg(51,5\mathrm{mm}\cdot s_3\bigg)
-\end{equation}
+\end{equation}\\
 \begin{equation}
 	S_{y,3}(s_3) = t_1\int_{0}^{s_3}-s\ ds= t_1\bigg[-\frac{1}{2}s^2\bigg]_{s=0}^{s_3} = t_1\cdot\bigg(-\frac{1}{2}s^2_3\bigg)
-\end{equation}
+\end{equation}\\
 %4
 \begin{equation}
 \begin{split}
@@ -131,14 +131,14 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 	&= t\bigg[51,37\mathrm{mm}\cdot s + \frac{\mathrm{cos}(\alpha)}{2}s^2\bigg]_{s=0}^{s_4} + S_{z,2}(s_{2,\mathrm{ende}})  + S_{z,3}(s_{3,\mathrm{ende}})\\\
 	&= t\cdot\bigg(51,37\mathrm{mm}\cdot s_4 + \frac{\mathrm{cos}(\alpha)}{2}s^2_4\bigg) + S_{z,2}(s_{2,\mathrm{ende}})  + S_{z,3}(s_{3,\mathrm{ende}})
 \end{split}
-\end{equation}
+\end{equation}\\
 \begin{equation}
 \begin{split}
 	S_{y,4} &= t\int_{0}^{s_4}\bigg(-37,5\mathrm{mm}+\mathrm{sin}(\alpha)(s_{2,\mathrm{ende}}+s)\bigg)ds + S_{y,2}(s_{2,\mathrm{ende}})  + S_{y,3}(s_{3,\mathrm{ende}})\\\
 	&= t\bigg[-35,63\mathrm{mm}\cdot s + \frac{\mathrm{sin}(\alpha)}{2}s^2\bigg]_{s=0}^{s_4} + S_{y,2}(s_{2,\mathrm{ende}})  + S_{y,3}(s_{3,\mathrm{ende}})\\\
 	&= t\cdot\bigg(-35,62\mathrm{mm}\cdot s_4 + \frac{\mathrm{sin}(\alpha)}{2}s^2_4\bigg) + S_{y,2}(s_{2,\mathrm{ende}})  + S_{y,3}(s_{3,\mathrm{ende}})
 \end{split}
-\end{equation}
+\end{equation}\\
 %5
 \begin{equation}
 	\begin{split}
@@ -146,14 +146,14 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 		&= t\bigg[65,25\mathrm{mm}\cdot s +\frac{\mathrm{cos}(\alpha)}{2}s^2\bigg]_{s=0}^{s_5} + S_{z,4}(s_{4,\mathrm{ende}})\\\
 		&= t\cdot\bigg(65,25\mathrm{mm}\cdot s_5 +\frac{\mathrm{cos}(\alpha)}{2}s^2_5\bigg) + S_{z,4}(s_{4,\mathrm{ende}})
 	\end{split}
-\end{equation}
+\end{equation}\\
 \begin{equation}
 	\begin{split}
 		S_{y,5} &= t\int_{0}^{s_5}\bigg(-37,5\mathrm{mm}+\mathrm{sin}(\alpha)(s_{2,\mathrm{ende}}+s_{4,\mathrm{ende}}+s)\bigg)ds + S_{y,4}(s_{4,\mathrm{ende}})\\\
 		&= t\bigg[-33,75\mathrm{mm}\cdot s +\frac{\mathrm{sin}(\alpha)}{2}s^2\bigg]_{s=0}^{s_5} + S_{y,4}(s_{4,\mathrm{ende}})\\\
 		&= t\cdot\bigg(-33,75\mathrm{mm}\cdot s_5 +\frac{\mathrm{sin}(\alpha)}{2}s^2_5\bigg) + S_{y,4}(s_{4,\mathrm{ende}})
 	\end{split}
-\end{equation}
+\end{equation}\\
 %6
 \begin{equation}
 	\begin{split}
@@ -161,14 +161,14 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 		&= t\bigg[172\mathrm{mm}\cdot s-\frac{\mathrm{cos}(\beta)}{2}\cdot s^2\bigg]_{s=0}^{s_6} + S_{z,5}(s_{5,\mathrm{ende}})\\\
 		&= t\cdot\bigg(172\mathrm{mm}\cdot s_6-\frac{\mathrm{cos}(\beta)}{2}\cdot s^2_6\bigg) + S_{z,5}(s_{5,\mathrm{ende}})
 	\end{split}
-\end{equation}
+\end{equation}\\
 \begin{equation}
 	\begin{split}
 	S_{y,6} &= t\int_{0}^{s_6}\bigg(\mathrm{sin}(\beta)\cdot(s-s_{6,\mathrm{ende}})\bigg)ds + S_{y,5}(s_{5,\mathrm{ende}})\\\
 	&= t\bigg[-19,33\mathrm{mm}\cdot s + \frac{\mathrm{sin}(\beta)}{2}\cdot s^2\bigg]_{s=0}^{s_6} + S_{y,5}(s_{5,\mathrm{ende}})\\\
 	&= t\cdot\bigg(-19,33\mathrm{mm}\cdot s_6 + \frac{\mathrm{sin}(\beta)}{2}\cdot s^2_6\bigg) + S_{y,5}(s_{5,\mathrm{ende}})
 	\end{split})
-\end{equation}
+\end{equation}\\
 %7
 \begin{equation}
 	\begin{split}
@@ -176,7 +176,7 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 		&= t\bigg[148,96\mathrm{mm}\cdot s-\frac{1}{2}s^2\bigg]_{s=0}^{s_7} + S_{z,6}(s_{6,\mathrm{ende}})\\\
 		&= t\cdot\bigg(148,96\mathrm{mm}\cdot s_7-\frac{1}{2}s^2_7\bigg) + S_{z,6}(s_{6,\mathrm{ende}})
 	\end{split}
-\end{equation}
+\end{equation}\\
 \begin{equation}
 	S_{y,7} = t\int_{0}^{s_7}0\ ds + S_{y,6}(s_{6,\mathrm{ende}}) = S_{y,6}(s_{6,\mathrm{ende}})
 \end{equation}
@@ -187,21 +187,21 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 	&= t\bigg[65,5\mathrm{mm}\cdot s-\frac{1}{2}s^2\bigg]_{s=0}^{s_8} + S_{z,7}(s_{7,\mathrm{ende}})\\\
 	&= t\cdot\bigg(65,5\mathrm{mm}\cdot s_8-\frac{1}{2}s^2_8\bigg) + S_{z,7}(s_{7,\mathrm{ende}})
 \end{split}
-\end{equation}
+\end{equation}\\
 \begin{equation}
 	S_{y,8} = t\int_{0}^{s_8}0\ ds + S_{y,7}(s_{7,\mathrm{ende}}) =S_{y,7}(s_{7,\mathrm{ende}})
 \end{equation}
 %9
-\begin{equation}
+\begin{equation}\\
 		\begin{split}
 		S_{z,9} &= t\int_{0}^{s_9}\bigg(172\mathrm{mm}-\mathrm{cos}(\beta)s_{6,\mathrm{ende}}-s_{7,\mathrm{ende}}-s_{8,\mathrm{ende}}-s\bigg)ds + S_{z,8}(s_{8,\mathrm{ende}})\\\
 		&= t\bigg[51,5\mathrm{mm}\cdot s-\frac{1}{2}s^2\bigg]_{s=0}^{s_9} + S_{z,8}(s_{8,\mathrm{ende}})\\\
 		&= t\cdot\bigg(51,5\mathrm{mm}\cdot s_9-\frac{1}{2}s^2_9\bigg) + S_{z,8}(s_{8,\mathrm{ende}})
 	\end{split}
-\end{equation}
+\end{equation}\\
 \begin{equation}
 	S_{y,9} = t\int_{0}^{s_9}0\ ds + S_{y,8}(s_{8,\mathrm{ende}}) = S_{y,8}(s_{8,\mathrm{ende}})
-\end{equation}
+\end{equation}\\
 %10
 \begin{equation}
 	\begin{split}
@@ -209,24 +209,24 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 		&= t\bigg[37,5\mathrm{mm}\cdot s - \frac{1}{2}s^2\bigg]_{s=0}^{s_{10}} + S_{z,9}(s_{9,\mathrm{ende}})\\\
 		&= t\cdot\bigg(37,5\mathrm{mm}\cdot s_{10} - \frac{1}{2}s^2\bigg) + S_{z,9}(s_{9,\mathrm{ende}})
 	\end{split}
-\end{equation}
+\end{equation}\\
 \begin{equation}
 	S_{y,10} = t\int_{0}^{s_{10}}0\ ds + S_{z,9}(s_{9,\mathrm{ende}}) = S_{z,9}(s_{9,\mathrm{ende}})
-\end{equation}
+\end{equation}\\
 	\item Integrale über Statische Momente mit $t=0,2$mm
 	\begin{equation}
 		S_{\bar z}(s) = S_z(s) - y_0ts
-	\end{equation}
+	\end{equation}\\
 	\begin{equation}
 		S_{\bar y}(s) = S_y(s) - z_0ts
-	\end{equation}
+	\end{equation}\\
 ~\\%1
 	\begin{equation}
 		\begin{split}
 			\int_{0}^{s_{1,\mathrm{ende}}} S_{\bar z,1}\ ds_1 &= \int_{0}^{s_{1,\mathrm{ende}}}  tR^2\cdot\bigg(\frac{s_1}{R}-\mathrm{sin}\bigg(\frac{s_1}{R}\bigg)-\frac{y_0s_1}{R^2}\bigg)\ ds_1\\\
 			&=tR^3\bigg[\frac{s_1^2}{2R^2}\bigg(1-\frac{y_0}{R}\bigg)+\mathrm{cos}\bigg(\frac{s_1}{R}\bigg)\bigg]_{s_1=0}^{s_{1,\mathrm{ende}}} = -24781,04\mathrm{mm}^4
 		\end{split}
-	\end{equation}
+	\end{equation}\\
 	\begin{equation}
 		\begin{split}
 			\int_{0}^{s_{1,\mathrm{ende}}} S_{\bar y,1}\ ds_1 &= \int_{0}^{s_{1,\mathrm{ende}}} tR^2 \cdot\bigg(\mathrm{cos}\bigg(\frac{s_1}{R}\bigg)-1 - \frac{z_0s_1}{R^2}\bigg)\ ds_1\\\
@@ -240,14 +240,14 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 			&=\bigg[t\bigg(s_2^2\frac{37,5\mathrm{mm}-y_0}{2}+\frac{\mathrm{cos}(\alpha)}{6}\cdot s^3_2\bigg)+S_{\bar z,1}(s_{1,\mathrm{ende}})s_2\bigg]_{s_2=0}^{s_{2,\mathrm{ende}}}\\\
 			&= -11417,94\mathrm{mm}^4
 		\end{split}
-	\end{equation}
+	\end{equation}\\
 	\begin{equation}
 		\begin{split}
 			\int_{0}^{s_{2,\mathrm{ende}}} S_{\bar y,2}\ ds_2 &= \int_{0}^{s_{2,\mathrm{ende}}}\bigg( t\cdot\bigg(-37,5\mathrm{mm}\cdot s_2 +\frac{\mathrm{sin}(\alpha)}{2}\cdot s^2_2\bigg) + S_{\bar y,1}(s_{1,\mathrm{ende}}) - z_0ts_2\bigg)\ ds_2\\\
 			&= \bigg[t\bigg(-s_2^2\frac{37,5\mathrm{mm}+z_0}{2}+\frac{\mathrm{sin}(\alpha)}{6}s_2^3\bigg)+S_{\bar y,1}(s_{1,\mathrm{ende}})s_2\bigg]_{s_2=0}^{s_{2,\mathrm{ende}}}\\\
 			&=-1819,86\mathrm{mm}^4
 		\end{split}
-	\end{equation}
+	\end{equation}\\
 %3
 	\begin{equation}
 		\begin{split}
@@ -255,14 +255,14 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 			&=t_1\bigg[\frac{51,5\mathrm{mm}-y_0}{2}s_3^2\bigg]_{s_3=0}^{s_{3,\mathrm{ende}}}\\\
 			&=-5967,72\mathrm{mm}^4
 		\end{split}
-	\end{equation}
+	\end{equation}\\
 	\begin{equation}
 		\begin{split}
 			\int_{0}^{s_{3,\mathrm{ende}}} S_{\bar y,3}\ ds_3 &= \int_{0}^{s_{3,\mathrm{ende}}} t_1\cdot\bigg(-\frac{1}{2}s^2_3-z_0s_3\bigg)\ ds_3\\\
 			&=t_1\bigg[-\frac{s_3^3}{6}-\frac{z_0}{2}s_3^2\bigg]_{s_3=0}^{s_{3,\mathrm{ende}}}\\\
 			&=638,06\mathrm{mm}^4
 		\end{split}
-	\end{equation}
+	\end{equation}\\
 %4
 	\begin{equation}
 		\begin{split}
@@ -270,14 +270,14 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 			&= \bigg[t\bigg(s_4^2\frac{51,37\mathrm{mm}-y_0}{2}+\frac{\mathrm{cos}(\alpha)}{6}s_4^3\bigg)+s_4\bigg(S_{\bar z,2}(s_{2,\mathrm{ende}})  + S_{\bar z,3}(s_{3,\mathrm{ende}})\bigg)\bigg]_{s_4=0}^{s_{4,\mathrm{ende}}}\\\
 			&=-16954,55\mathrm{mm}^4
 		\end{split}
-	\end{equation}
+	\end{equation}\\
 	\begin{equation}
 		\begin{split}
 			 \int_{0}^{s_{4,\mathrm{ende}}} S_{\bar y,4}\ ds_4 &= \int_{0}^{s_{4,\mathrm{ende}}} \bigg(t\cdot\bigg(-35,62\mathrm{mm}\cdot s_4 + \frac{\mathrm{sin}(\alpha)}{2}s^2_4\bigg) + S_{\bar y,2}(s_{2,\mathrm{ende}})  + S_{\bar y,3}(s_{3,\mathrm{ende}})-tz_0s_4\bigg)\ ds_4\\\
 			 &=\bigg[t\bigg(-s_4^2\frac{35,62\mathrm{mm}+z_0}{2}+s_4^3\frac{\mathrm{sin}(\alpha)}{6}\bigg)+ s_4\bigg(S_{\bar y,2}(s_{2,\mathrm{ende}})  + S_{\bar y,3}(s_{3,\mathrm{ende}})\bigg)\bigg]_{s_4=0}^{s_{4,\mathrm{ende}}}\\\
 			 &=-3166,21\mathrm{mm}^4
 		\end{split}
-	\end{equation}
+	\end{equation}\\
 %5
 	\begin{equation}
 		\begin{split}
@@ -285,14 +285,14 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 			&= \bigg[t\bigg(s_5^2\frac{65,25\mathrm{mm}-y_0}{2}+\frac{\mathrm{cos}(\alpha)}{6}s^3_5\bigg)+s_5S_{\bar z,4}(s_{4,\mathrm{ende}})\bigg]_{s_5=0}^{s_{5,\mathrm{ende}}}\\\
 			&=-107261,55\mathrm{mm}^4
 		\end{split}
-	\end{equation}
+	\end{equation}\\
 	\begin{equation}
 		\begin{split}
 			\int_{0}^{s_{5,\mathrm{ende}}} S_{\bar y,5}\ ds_5 &= \int_{0}^{s_{5,\mathrm{ende}}} \bigg(t\cdot\bigg(-33,75\mathrm{mm}\cdot s_5 +\frac{\mathrm{sin}(\alpha)}{2}s^2_5\bigg) + S_{\bar y,4}(s_{4,\mathrm{ende}})-tz_0s_5\bigg)\ ds_5\\\
 			&=\bigg[t\bigg(-s_5^2\frac{33,75\mathrm{mm}+z_0}{2}+s_5^3\frac{\mathrm{sin}(\alpha)}{6}\bigg)+s_5S_{\bar y,4}(s_{4,\mathrm{ende}})\bigg]_{s_5=0}^{s_{5,\mathrm{ende}}}\\\
 			&=-42977,28\mathrm{mm}^4
 		\end{split}
-	\end{equation}
+	\end{equation}\\
 %6
 	\begin{equation}
 		\begin{split}
@@ -300,14 +300,14 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 			&=\bigg[t\bigg(s_6^2\frac{172\mathrm{mm-y_0}}{2}-s_6^3\frac{\mathrm{cos}(\beta)}{6}\bigg)+ s_6S_{\bar z,5}(s_{5,\mathrm{ende}})\bigg]_{s_6=0}^{s_{6,\mathrm{ende}}}\\\
 			&=-3426,83\mathrm{mm}^4
 		\end{split}
-	\end{equation}
+	\end{equation}\\
 	\begin{equation}
 		\begin{split}
 			\int_{0}^{s_{6,\mathrm{ende}}} S_{\bar y,6}\ ds_6 &= \int_{0}^{s_{6,\mathrm{ende}}} \bigg(t\cdot\bigg(-19,33\mathrm{mm}\cdot s_6 + \frac{\mathrm{sin}(\beta)}{2}\cdot s^2_6\bigg) + S_{\bar y,5}(s_{5,\mathrm{ende}})-tz_0s_6\bigg)\ ds_6\\\
 			&=\bigg[t\bigg(-s_6^2\frac{19,33\mathrm{mm}+z_0}{2}+s_6^3\frac{\mathrm{sin}(\beta)}{6}\bigg)+ s_6S_{\bar y,5}(s_{5,\mathrm{ende}})\bigg]_{s_6=0}^{s_{6,\mathrm{ende}}}\\\
 			&=-14579,38\mathrm{mm}^4
 		\end{split}
-	\end{equation}
+	\end{equation}\\
 %7
 	\begin{equation}
 		\begin{split}
@@ -315,14 +315,14 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 			&=\bigg[t\bigg(s_7^2\frac{148,96\mathrm{mm}-y_0}{2}-\frac{s_7^3}{6}\bigg)+s_7S_{\bar z,6}(s_{6,\mathrm{ende}})\bigg]_{s_7=0}^{s_{7,\mathrm{ende}}}\\\
 			&=39745,58\mathrm{mm}^4
 		\end{split}
-	\end{equation}
+	\end{equation}\\
 	\begin{equation}
 		\begin{split}
 			\int_{0}^{s_{7,\mathrm{ende}}} S_{\bar y,7}\ ds_7 &= \int_{0}^{s_{7,\mathrm{ende}}} \bigg(S_{\bar y,6}(s_{6,\mathrm{ende}})-tz_0s_7\bigg)\ ds_7\\\
 			&=\bigg[-s_7^2\frac{tz_0}{2}+s_7S_{\bar y,6}(s_{6,\mathrm{ende}})\bigg]_{s_7=0}^{s_{7,\mathrm{ende}}}\\\
 			&=-27553,07\mathrm{mm}^4
 		\end{split}
-	\end{equation}
+	\end{equation}\\
 %8
 	\begin{equation}
 		\begin{split}
@@ -330,14 +330,14 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 			&=\bigg[t\bigg(s_8^2\frac{65,5\mathrm{mm}-y_0}{2}-\frac{s_8^3}{6}\bigg)+s_8S_{\bar z,7}(s_{7,\mathrm{ende}})\bigg]_{s_8=0}^{s_{8,\mathrm{ende}}}\\\
 			&=8048,81\mathrm{mm}^4
 		\end{split}
-	\end{equation}
+	\end{equation}\\
 	\begin{equation}
 		\begin{split}
 			\int_{0}^{s_{8,\mathrm{ende}}} S_{\bar y,8}\ ds_8 &= \int_{0}^{s_{8,\mathrm{ende}}} \bigg(S_{\bar y,7}(s_{7,\mathrm{ende}})-tz_0s_8\bigg)\ ds_8\\\
 			&=\bigg[-s_8^2\frac{tz_0}{2}+s_8S_{\bar y,7}(s_{7,\mathrm{ende}})\bigg]_{s_8=0}^{s_{8,\mathrm{ende}}}\\\
 			&=-2521,46\mathrm{mm}^4
 		\end{split}
-	\end{equation}
+	\end{equation}\\
 %9
 	\begin{equation}
 		\begin{split}
@@ -345,14 +345,14 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 			&=\bigg[t\bigg(s_9^2\frac{51,5\mathrm{mm}-y_0}{2}-\frac{s_9^3}{6}\bigg)+s_9S_{\bar z,8}(s_{8,\mathrm{ende}})\bigg]_{s_9=0}^{s_{9,\mathrm{ende}}}\\\
 			&=6989,29\mathrm{mm}^4
 		\end{split}
-	\end{equation}
+	\end{equation}\\
 	\begin{equation}
 		\begin{split}
 			\int_{0}^{s_{9,\mathrm{ende}}} S_{\bar y,9}\ ds_9 &= \int_{0}^{s_{9,\mathrm{ende}}} \bigg(S_{\bar y,8}(s_{8,\mathrm{ende}})-tz_0s_9\bigg)\ ds_9\\\
 			&=\bigg[-s_9^2\frac{tz_0}{2}+s_9S_{\bar y,8}(s_{8,\mathrm{ende}})\bigg]_{s_9=0}^{s_{9,\mathrm{ende}}}\\\
 			&=-1918,06\mathrm{mm}^4
 		\end{split}
-	\end{equation}
+	\end{equation}\\
 %10
 	\begin{equation}
 		\begin{split}
@@ -360,14 +360,14 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 			&=\bigg[t\bigg(s_{10}^2\frac{37,5\mathrm{mm}-y_0}{2}-\frac{s_{10}^3}{6}\bigg)+s_{10}S_{\bar z,9}(s_{9_,\mathrm{ende}})\bigg]_{s_{10}=0}^{s_{10,\mathrm{ende}}}\\\
 			&=9285,09\mathrm{mm}^4
 		\end{split}
-	\end{equation}
+	\end{equation}\\
 	\begin{equation}
 		\begin{split}
 			\int_{0}^{s_{10,\mathrm{ende}}} S_{\bar y,10}\ ds_{10} &= \int_{0}^{s_{10,\mathrm{ende}}}\bigg(S_{\bar y,9}(s_{9,\mathrm{ende}})-tz_0s_{10}\bigg)\ ds_{10}\\\
 			&=\bigg[-s_{10}^2\frac{tz_0}{2}+s_{10}S_{\bar y,9}(s_{9,\mathrm{ende}})\bigg]_{s_{10}=0}^{s_{10,\mathrm{ende}}}\\\
 			&=-2165,16\mathrm{mm}^4
 		\end{split}
-	\end{equation}
+	\end{equation}\\
 \item Hebelarme um den Pol unter Berücksichtigung des positiven Drehsinnes
 \begin{center}
 \begin{tabular}[h]{l|c|c|c}
@@ -393,7 +393,7 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 		q_{0b,2}C&=A+q_{0b,1}B\\\
 		q_{0b,2}&=\frac{A+q_{0b,1}B}{C}
 		\end{split}
-	\end{equation}
+	\end{equation}\\
 	\begin{equation}
 		\begin{split}
 			0 &= \frac{1}{2A_{01}G}(\underbrace{\oint\frac{q_{offen}(s)}{t(s)}ds}_D+q_{0b,2}\underbrace{\oint\frac{1}{t(s)}ds}_E-q_{0b,2}\underbrace{\int\frac{1}{t(s)}ds)}_F\\\
@@ -403,7 +403,7 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 			-\bigg(D+\frac{AE}{C}\bigg)&=q_{0b,1}\bigg(\frac{BE}{C}-F\bigg)\\\
 			q_{0b,1}&=-\frac{D+\frac{AE}{C}}{\frac{BE}{C}-F}=\frac{DC+AE}{BE-FC}
 		\end{split}
-	\end{equation}
+	\end{equation}\\
 \end{itemize}
 \newpage
 \subsection{Abbildungen}\label{Abbildungen}
@@ -448,23 +448,45 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 	\label{fig:Berechnung Haut}
 \end{figure}
 \begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{Bilder/sicher1}
+	\caption{Sicherheit im Steg bei 500N}
+	\label{sicher-steg}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{Bilder/sicher2}
+	\caption{Sicherheit in der Haut bei 500N}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{Bilder/sicher3}
+	\caption{Sicherheit am Gurt oben bei 500N}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{Bilder/sicher4}
+	\caption{Sicherheit am Gurt unten bei 500N}
+	\label{sicher-gurt}
+\end{figure}
+\begin{figure}[h]
 	\includegraphics[width=1.0\textwidth]{Bilder/Konstanten Holmgurte.png}
 	\caption{Ingenieurskonstanten Holmgurte}
 	\label{fig:Ingenieurskonstanten Holmgurte}
 \end{figure}
 \begin{figure}[h]
 	\includegraphics[width=1.0\textwidth]{Bilder/Konstanten Steg dünn.png}
-	\caption{BerechnIngenieurskonstantenung Steg Bereich $III$}
+	\caption{Ingenieurskonstanten Berechnung Steg Bereich $III$}
 	\label{fig:Ingenieurskonstanten Steg dünn}
 \end{figure}
 \begin{figure}[h]
 	\includegraphics[width=1.0\textwidth]{Bilder/Konstanten Steg dick.png}
-	\caption{BerechnIngenieurskonstantenung Steg Bereich $I\&II$}
+	\caption{Ingenieurskonstanten Berechnung Steg Bereich $I\&II$}
 	\label{fig:Ingenieurskonstanten Steg dick}
 \end{figure}
 \begin{figure}[h]
 	\includegraphics[width=1.0\textwidth]{Bilder/Konstanten Haut.png}
-	\caption{Ingenieurskonstanten Flügelschale}
+	\caption{Ingenieurskonstanten Berechnung Flügelschale}
 	\label{fig:Ingenieurskonstanten Haut}
 \end{figure}
 \begin{figure}[h]
@@ -551,30 +573,6 @@ In diesem Abschnitt werden die Gleichungen \ref{eq:34}, \ref{eq:35} und \ref{eq:
 \label{Steg_Material}
 \caption{ABAQUS Section Beispiel:Steg}
 \end{figure}
-
-\begin{figure}[h]
- \centering
- \includegraphics[width=1\textwidth]{Bilder/sicher1}
- \caption{Sicherheit im Steg bei 500N}
- \label{sicher-steg}
-\end{figure}
-\begin{figure}[h]
-\centering
-\includegraphics[width=1\textwidth]{Bilder/sicher2}
-\caption{Sicherheit in der Haut bei 500N}
-\end{figure}
-\begin{figure}[h]
-\centering
-\includegraphics[width=1\textwidth]{Bilder/sicher3}
-\caption{Sicherheit am Gurt oben bei 500N}
-\end{figure}
-\begin{figure}[h]
-\centering
-\includegraphics[width=1\textwidth]{Bilder/sicher4}
-\caption{Sicherheit am Gurt unten bei 500N}
-\label{sicher-gurt}
-\end{figure}
-
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.75\textwidth]{Bilder/Hertel Druck.png}
