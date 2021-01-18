@@ -1,6 +1,6 @@
 \subsubsection{Allgemeine Informationen zu der Richtlinie}
 Auf Basis der in der Balkenberechnung bestimmten Parameter Biegesteifigkeit, maximales Biegemoment und der maximalen Querkraft, sollen die Gurte und der Steg dimensioniert werden. Die Vorauslegung erfolgt dabei anhand der VDI-Richtlinie 2013 \cite{item5}, diese enthält in einem Unterkapitel Informationen speziell zur Auslegung eines I-Trägers. Zur Festigkeitsauslegung werden Gurte und Steg in der Richtlinie getrennt voneinander betrachtet, unter der Annahme, dass der Gurt unter Vernachlässigung der Schubflussaufnahme das gesamte Biegemoment aufnehmen soll und der Steg neben einem über die Höhe konstanten Schubfluss auch durch die aufgeprägte Deformation der Gurte beansprucht wird. Das orthotrope Werkstoffverhalten des Laminats, sowie das Versagensverhalten bei verschiedenen Beanspruchungen, werden allein durch die "charakteristischen K-Werte", die für verschiedene Materialgruppen gültig sind, berücksichtigt. Die Berechnungen der Richtlinie erlauben auf diese Weise keine Aussagen über resultierende Versagensformen des ausgelegten Bauteils. Die vorangestellte Auslegung der Gurte ist in dieser Form nicht Teil der Richtlinie, erfolgt jedoch unter den gleichen Annahmen.     
-Zusätzlich sei angemerkt, dass kapitelübergreifend die gesamte Auslegung nur an ausgewählten und speziell gekennzeichneten Stellen Sicherheitsfaktoren ungleich eins berücksichtigt. Grund dafür ist die Annahme, dass in den bereitgestellten Materialkennwerten ausreichende Sicherheiten verrechnet worden sind. Die grobe Vorauslegung hat den Anspruch die Grundlage für die aufbauende Berechnung mithilfe eines Laminatrechners zu legen.
+Zusätzlich sei angemerkt, dass kapitelübergreifend die gesamte Auslegung nur an ausgewählten und speziell gekennzeichneten Stellen Sicherheitsfaktoren ungleich eins berücksichtigt. Grund dafür ist die Annahme, dass in den bereitgestellten Materialkennwerten ausreichende Sicherheiten verrechnet worden sind. Die grobe Vorauslegung hat den Anspruch, die Grundlage für die aufbauende Berechnung mithilfe eines Laminatrechners zu legen.
 
 \subsubsection{Dimensionierung der Gurte mit rechteckigem Querschnitt}
 \label{GurtDim} 
@@ -52,7 +52,7 @@ Mit den gegebenen Materialkennwerten $ E_{f,11}=74000MPa $, $ E_{m}=3300MPa $ un
 \noindent Mithilfe eines Solvers bestimmt sich aus dem Flächenträgheitsmoment und der Gurtbreite die Gurthöhe $ h=1,866mm $.\\
 \noindent Im nächsten Schritt wird die zu stapelnde Lagenanzahl ermittelt. Als vorwiegend unidirektionales Material steht das Glasgewebe Interglas 92145 mit einem Flächengewicht von $ 220\frac{g}{m^{2}} $ zur Verfügung. Laut Produktdatenblatt \cite{item17} handelt es sich um eine Leinwandbindung, die eine nicht angegebene, da sehr kleine, Zugfestigkeit in Schussrichtung aufweist. Folgend wird das Gewebe als unidirektional behandelt. Nach \cite{item3} berechnet sich die Lagenanzahl $ n $ für eine Dicke des Verbundes $ t_{soll} $ zu:\\
 
-\begin{equation}
+\begin{equation}\label{Dicke}
 	\label{gurtlagen}
 	n=t_{soll}\cdot \frac{\varphi\cdot\rho_{f}}{\left(\frac{m_{f}}{L\cdot b}\right)}.
 \end{equation}
@@ -61,7 +61,7 @@ Mit den gegebenen Materialkennwerten $ E_{f,11}=74000MPa $, $ E_{m}=3300MPa $ un
 
 
 \subsubsection{Nachrechnung der angepassten Gurte} \label{NachrechnungGurte}
- Die Modellierung der Haut und der Holmgurte in einem CAD-Programm zeigt, dass die Gurte mit den berechneten Bemaßungen nicht innerhalb des Profils mit einer vorläufigen, als $ 0,75mm $ dick angenommenen Haut liegen. Die Anpassung der Konstruktion der Gurte erfolgt so, dass die Gurtaußenseite an der Innenseite der Haut anliegt (vgl. Abschnitt \ref{GurtKonstrukt}).Die Gesamtbreite von $ 28mm $, sowie die Gurtdicke $ h $ bleiben dabei erhalten. Die Gesamthöhe $ h_{a} $ muss auf $ \tilde{h_{a}}=35,8mm $ leicht verringert werden. Abbildung ~\ref{fig: KrummerGurt} veranschaulicht die gekrümmte Form des oberen Holmgurtes.
+ Die Modellierung der Haut und der Holmgurte in einem CAD-Programm zeigt, dass die Gurte mit den berechneten Bemaßungen nicht innerhalb des Profils mit einer vorläufigen, als $ 0,75mm $ dick angenommenen Haut liegen. Die Anpassung der Konstruktion der Gurte erfolgt so, dass die Gurtaußenseite an der Innenseite der Haut anliegt (vgl. Abschnitt \ref{GurtKonstrukt}). Die Gesamtbreite von $ 28mm $, sowie die Gurtdicke $ h $ bleiben dabei erhalten. Die Gesamthöhe $ h_{a} $ muss auf $ \tilde{h_{a}}=35,8mm $ leicht verringert werden. Abbildung ~\ref{fig: KrummerGurt} veranschaulicht die gekrümmte Form des oberen Holmgurtes.
  \begin{figure}[h]
  	\includegraphics[width=1.0\textwidth]{Bilder/KrummerGurt.jpg}
  	\caption{Angepasste gekrümmte Gurtkontur}
@@ -75,11 +75,11 @@ Mit den gegebenen Materialkennwerten $ E_{f,11}=74000MPa $, $ E_{m}=3300MPa $ un
 \end{equation}
 gilt, genügen auch die veränderten Gurte der Steifigkeitsanforderung.\\
  
-\noindent Abschließend wird gezeigt, dass die Festigkeit der Gurte einer Belastung der Flügelspitze durch $ F_{pruef}=500N $ standhält. Die aus der Biegung resultierenden und betragsmäßig gleichen Zug- und Druckspannungen werden dazu mit den vorhandenen UD-Festigkeitskennwerten des Handlaminats verglichen. Die Resultate der Balkenberechnungen zeigen, dass das maximale Biegemoment im Holm an Punkt C auftritt und $ M_{b}=500N\cdot 0,773m=386,5Nm $ beträgt.In den Randfasern der Gurte resultieren Spannungen, die sich gemäß \cite{item15} nach\\
+\noindent Abschließend wird gezeigt, dass die Festigkeit der Gurte einer Belastung der Flügelspitze durch $ F_{pruef}=500N $ standhält. Die aus der Biegung resultierenden und betragsmäßig gleichen Zug- und Druckspannungen werden dazu mit den vorhandenen UD-Festigkeitskennwerten des Handlaminats verglichen. Die Resultate der Balkenberechnungen zeigen, dass das maximale Biegemoment im Holm an Punkt C auftritt und $ M_{b}=500N\cdot 0,773m=386,5Nm $ beträgt. In den Randfasern der Gurte resultieren Spannungen, die sich gemäß \cite{item15} zu\\
 \begin{equation}
-	\sigma_{b}=\frac{M_{b}\cdot \tilde{h_{a}}}{\tilde{I_{x}}\cdot 2}
+	\sigma_{b}=\frac{M_{b}\cdot \tilde{h_{a}}}{\tilde{I_{x}}\cdot 2}=224,96MPa
 \end{equation} 
-zu $ \sigma_{b}=224,96MPa $ berechnen. Da 
+berechnen. Da 
 \begin{equation}
 	\sigma_{b}< R^{(+)}_{||}=597,9 MPa < |R^{(-)}_{||}| =650,0 MPa
 \end{equation} 
@@ -118,7 +118,7 @@ Es ist zu beachten, dass in der VDI mit veralteten Einheiten, wie dem Kilopond, 
 	\caption{Prinzip der Druckkraft auf den Steg}
 	\label{fig: Abtriebskraft}
 \end{figure}
-\noindent Darüber hinaus erfährt der Steg einen Schubkraftfluss durch die Querkraft. Wegen der vernachlässigbaren Längskraftaufnahme des Steges im Vergleich zu den Gurten, kann der Schubfluss über die Höhe des Steges als konstant angenommen werden. Die VDI-Richtlinie orientiert sich hier an den Berechnungsmethoden der Schubfeldtheorie, wie sie im entsprechenden Kapitel in \cite{item15} ausgeführt wird. Es muss berücksichtigt werden, dass die Modellierung des Holmes als Balken, der an zwei Punkten gelagert ist und durch die Querkraftbolzen eine weitere Kraft erfährt, zu einem anderen Querkraftverlauf führt als dem konstanten, der in der Richtlinie für den Kragbalken angenommen wurde. Den Berechnungen des Holms als Biegebalken kann für eine Kraft $ F_{prue}=500N $ eine maximale Querkraft von $ Q_{1}=5085,5N $ im Bereich $ 1 $ und eine betragsmäßig maximale Querkraft von $Q_{3}=500N $ im Bereich $ 3 $ entnommen werden. Mit dem Ziel, im langen Bereich $ 3 $ Gewicht einzusparen, ist es vorteilhaft diesen Bereich geringer Querkraft getrennt von dem höher beanspruchten Bereich $ 1 $ auszulegen. Der resultierende Schubfluss berechnet sich mithilfe der folgenden Formel:\\
+\noindent Darüber hinaus erfährt der Steg einen Schubkraftfluss durch die Querkraft. Wegen der vernachlässigbaren Längskraftaufnahme des Steges im Vergleich zu den Gurten, kann der Schubfluss über die Höhe des Steges als konstant angenommen werden. Die VDI-Richtlinie orientiert sich hier an den Berechnungsmethoden der Schubfeldtheorie, wie sie im entsprechenden Kapitel in \cite{item15} ausgeführt wird. Es muss berücksichtigt werden, dass die Modellierung des Holmes als Balken, der an zwei Punkten gelagert ist und durch die Querkraftbolzen eine weitere Kraft erfährt, zu einem anderen Querkraftverlauf führt als dem konstanten, der in der Richtlinie für den Kragbalken angenommen wurde. Den Berechnungen des Holms als Biegebalken kann für eine Kraft $ F_{pruef}=500N $ eine maximale Querkraft von $ Q_{I}=5085,5N $ im Bereich $ I $ und eine betragsmäßig maximale Querkraft von $Q_{III}=500N $ im Bereich $ III $ entnommen werden. Mit dem Ziel, im langen Bereich $ III $ Gewicht einzusparen, ist es vorteilhaft diesen Bereich geringer Querkraft getrennt von dem höher beanspruchten Bereich $ I $ auszulegen. Der resultierende Schubfluss berechnet sich mithilfe der folgenden Formel:\\
 \begin{equation}
 	q_{s||}=q_{s}=\frac{Q}{h_{i}}
 \end{equation}
@@ -128,7 +128,7 @@ Der gesamte Kraftfluss, der durch den Steg aufgenommen werden muss, ergibt sich 
 	n\cdot \bar{q}\cdot K_{\sigma d}\cdot k_{||}=q_{s||}+n_{A||}+n_{\epsilon||}
 \end{equation}
 
-Die Tragfähigkeit einer Schicht des Verbundes unter Druckbeanspruchung wird durch $ K_{\sigma d} $ charakterisiert und kann ebenfalls Tafel 3 der VDI entnommen werden. An dieser Stelle geht die Richtlinie davon aus, dass die Druckfestigkeit des Laminats im Allgemeinen geringer ist als die Zugfestigkeit. Im vorliegenden Fall zeigen die gegebenen Materialkennwerte des Laminats, dass die Druckfestigkeiten $ R_{||}^{-} $ und $ R_{\perp}^{-} $ deutlich größer als die Zugfestigkeiten $ R_{||}^{+} $, bzw. $ R_{\perp}^{+} $ sind. Dies begründet die Vermutung, dass die vorgestellten Dimensionierungswerte nur für die Vorauslegung auf den vorliegenden Fall übertragbar sind. Da ein Teil der Schubbeanspruchung durch die Matrix geleitet wird, besteht die Gefahr eines Zwischenfaserbruches. VDI 2013 schlägt deshalb die Verwendung von $ K_{\sigma d}=30*10^{3}m $ vor. Zusätzlich muss der Anteil der Glasmengen in Kette und Schuß durch den Faktor $ k_{||} $ berücksichtigt werden. Das zur Verfügung stehende Gewebe Interglas 90070 hat annähernd gleiche Fadenanzahlen und Garnarten in Kette- und Schußrichtung (\cite{item18}), damit ist $ k_{||}=0,5 $. 
+\noindent Die Tragfähigkeit einer Schicht des Verbundes unter Druckbeanspruchung wird durch $ K_{\sigma d} $ charakterisiert und kann ebenfalls Tafel 3 der VDI entnommen werden. An dieser Stelle geht die Richtlinie davon aus, dass die Druckfestigkeit des Laminats im Allgemeinen geringer ist als die Zugfestigkeit. Im vorliegenden Fall zeigen die gegebenen Materialkennwerte des Laminats, dass die Druckfestigkeiten $ R_{||}^{-} $ und $ R_{\perp}^{-} $ deutlich größer als die Zugfestigkeiten $ R_{||}^{+} $, bzw. $ R_{\perp}^{+} $ sind. Dies begründet die Vermutung, dass die vorgestellten Dimensionierungswerte nur für die Vorauslegung auf den vorliegenden Fall übertragbar sind. Da ein Teil der Schubbeanspruchung durch die Matrix geleitet wird, besteht die Gefahr eines Zwischenfaserbruches. VDI 2013 schlägt deshalb die Verwendung von $ K_{\sigma d}=30*10^{3}m $ vor. Zusätzlich muss der Anteil der Glasmengen in Kette und Schuß durch den Faktor $ k_{||} $ berücksichtigt werden. Das zur Verfügung stehende Gewebe Interglas 90070 hat annähernd gleiche Fadenanzahlen und Garnarten in Kette- und Schußrichtung (\cite{item18}), damit ist $ k_{||}=0,5 $. 
 
 Die Anzahl der notwendigen Gewebelagen n im Steg lässt sich nun durch Umstellen der Gleichungen und Einsetzen der bekannten Werte ermitteln.\\
 \begin{equation}

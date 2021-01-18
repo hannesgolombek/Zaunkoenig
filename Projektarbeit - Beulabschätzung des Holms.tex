@@ -7,7 +7,7 @@ Neben der Festigkeit und Steifigkeit ist es bei einer Konstruktion dünnwandiger
 
 \noindent In der Hautebene eines dünnwandigen Bauteils wird zwischen beulkritischen Spannungen unterschieden, die aus reiner Biegung, Druck und Biegung, oder reinem Schub (Indizes $b$/$d$/$s$) resultieren. Sofern Normal- und Schubspannungen gleichzeitig vorliegen, kann lediglich eine kombinierte Belastung als über- oder unterkritisch eingestuft werden. Die Spannungen und Beulausprägungen sind von folgenden Parametern abhängig:
 \begin{itemize}
-	\item Seitenverhältnis $\frac{a}{b}$. Für einen Betrag gleich Null wird das Hautfeld \glqq Streifen\grqq genannt. 
+	\item Seitenverhältnis $\frac{a}{b}$. Für einen Betrag gleich Null wird das Hautfeld \glqq Streifen\grqq\: genannt. 
 	\item Randbedingungen an den Rändern des Hautfelds. Ränder können frei (alle Freiheitsgrade), gestützt (rotatorischer Freiheitsgrade) und fest (keine Freiheitsgrade )gelagert werden.
 	\item relative Hautstärke $\frac{s}{b}$.
 	\item Elastizitätsmodul $E$.
@@ -22,7 +22,7 @@ Die beulkritischen Normal- und Schubspannungen lassen sich nach
 \end{equation}
 berechnen. Die Sicherheit gegen Beulen ergibt sich aus dem Verhältnis zur tatsächlich anliegenden Spannung $\sigma_{max}$ bzw. $\tau_{max}$. Falls beide Spannungstypen gleichzeitig anliegen sollten, kann mit der Gleichung
 \begin{equation}
-	\Big(\frac{\tau_{max}}{\tau_{krit}}\Big)^{2}+\Big(\frac{\sigma_{max}}{\sigma_{krit}}\Big)^{2}=1^{2}=j^{2}
+	\Big(\frac{\tau}{\tau_{krit}}\Big)^{2}+\Big(\frac{\sigma}{\sigma_{krit}}\Big)^{2}=1^{2}=j^{2}
 \end{equation}
 in Abbildung \ref{fig: Hertel_Sicherheit} herausgefunden werden, ob es sich um einen überkritischen Zustand handelt.\\
 
@@ -38,7 +38,7 @@ Die Dicke $d$ beinhaltet neben den FVK-Lagen die Schaumstoffdicke. Dadurch, dass
 \subsubsection{Beulsicherheit der Gurte (T.B.)}
 Für die Auslegung der Holmgurte werden folgende Annahmen getroffen:
 \begin{enumerate}
-	\item Die Gurte werdne als ebene unendlich lange Streifen betrachtet.
+	\item Die Gurte werden als ebene unendlich lange Streifen betrachtet.
 	\item Da die Mitte der Holmgurte in $x$-Richtung mit dem Holmsteg verklebt ist, kann diese Klebelinie als freie Lagerung gesehen werden. Somit halbiert sich die angenommene Holmgurtbreite.
 	\item Die äußeren Kanten in $x$-Richtung sind frei und nicht gelagert.
 	\item Die äußeren Kanten in $y$-Richtung werden an den jeweiligen Rippen gestützt.
@@ -53,9 +53,9 @@ Das Seitenverhältnis beträgt
 \begin{equation}
 	k_{d}=0,4
 \end{equation}
-und somit die kritische Spannung mit $E_{xx}=31580MPa$, $d=1,941mm$ und $b=14mm$:
+und somit die kritische Spannung mit $\hat{E}_{xx}=31580MPa$, $d=1,941mm$ und $b=14mm$:
 \begin{equation}
-	\sigma_{krit,d}=k_{d}\cdot E_{xx}\cdot\biggl(\frac{d}{b}\biggr)^{2}\\
+	\sigma_{krit,d}=k_{d}\cdot \hat{E}_{xx}\cdot\biggl(\frac{d}{b}\biggr)^{2}\\
 	= 242,82 MPa
 \end{equation}
 Im Vergleich zu der tatsächlich maximal auftretenden Randfaserspannung der Gurte (siehe Kapitel \ref{NachrechnungGurte} ) ergibt sich die Sicherheit gegen Beulen zu 
@@ -91,15 +91,15 @@ Da das Dickenverhältnis von Steglagen zu Schaumkern sehr klein ausgelegt werden
 \begin{equation}
 	\kappa = 1
 \end{equation}
-definiert. Dadurch ergibt sich die kritische Biegespannung mit $E_{xx}=6639,8MPa$, $d=1,882mm$ und $b=35,8mm-2\cdot 1,941mm$ zu
+definiert. Dadurch ergibt sich die kritische Biegespannung mit $\hat{E}_{xx}=6639,8MPa$, $d=1,882mm$ und $b=35,8mm-2\cdot 1,941mm$ zu
 \begin{equation}
-	\sigma_{krit,B}=\kappa\cdot\ k_{b}\cdot E_{xx}\cdot\Bigl(\frac{d}{b}\Bigr)^{2}=503,24MPa
+	\sigma_{krit,B}=\kappa\cdot\ k_{b}\cdot \hat{E}_{xx}\cdot\Bigl(\frac{d}{b}\Bigr)^{2}=503,24MPa
 \end{equation}
 Mit
 \begin{equation}
 	\sigma_{b}=\frac{M_{b}\cdot {h_{i}}}{\tilde{I_{x}}\cdot 2}=\frac{0,773m\cdot500N\cdot (35,8mm - 2\cdot 1,941mm)}{2\cdot 3,075406\cdot 10^{-8} m^{4} }=200,56 MPa
 \end{equation}
-ist das Verhältnis der Biegespannung zur kritischen Biegespannung
+ist das Verhältnis der vorhandenen Biegespannung zur kritischen 
 \begin{equation}
 	j_{1}=\frac{503,24MPa}{200,56 Mpa}=2,512.
 \end{equation}
@@ -107,15 +107,15 @@ ist das Verhältnis der Biegespannung zur kritischen Biegespannung
 \begin{equation}
 	k_{s}=5,5
 \end{equation}
-Damit wir die kritische Schubspannung mit $G_{xy}=8577,8MPa$zu 
+Damit wir die kritische Schubspannung mit $\hat{G}_{xy}=8577,8MPa$ zu 
 \begin{equation}
-	\tau_{krit}=\kappa\cdot k_{s}\cdot G_{xy}\cdot\Bigl(\frac{1,88 2mm}{35,8 mm - 2\cdot 1,941  mm}\Bigr)^{2}=164,02 MPa
+	\tau_{krit}=\kappa\cdot k_{s}\cdot \hat{G}_{xy}\cdot\Bigl(\frac{1,88 2mm}{35,8 mm - 2\cdot 1,941  mm}\Bigr)^{2}=164,02 MPa
 \end{equation}
 Die tatsächlich auftretende Schubspannung beträgt 
 \begin{equation}
 	\tau= \frac{3}{2}\cdot\frac{Q_{max}}{h_{i}\cdot s} =\frac{3}{2}\cdot \frac{5085,5 N}{1,882 mm\cdot(35,8 mm-2\cdot 1,941 mm)}=126,99 MPa
 \end{equation}
-sodass das Verhältnis der Schubspannung zur kritischen 
+sodass das Verhältnis der vorhandenen Schubspannung zur kritischen 
 \begin{equation}
 	j_{2}=\frac{164,02 MPa}{126,99 MPa}= 1,292
 \end{equation}
@@ -141,7 +141,7 @@ und weiterhin wird mit
 \end{equation}
 gerechnet. Damit lässt sich 
 \begin{equation}
-	 \tau_{krit} = k_{s}\cdot \kappa\cdot G_{xy}\cdot \Bigl(\frac{1,882mm}{35,8mm-2\cdot 1,941mm}\Bigr)^{2}= 202,79 MPa
+	 \tau_{krit} = k_{s}\cdot \kappa\cdot \hat{G}_{xy}\cdot \Bigl(\frac{1,882mm}{35,8mm-2\cdot 1,941mm}\Bigr)^{2}= 202,79 MPa
 \end{equation}
 berechnen. Mit dem gleichen maximalen Schub
 \begin{equation}
@@ -162,7 +162,7 @@ Dadurch ist
 \begin{equation}
 	k_{d}=21,8
 \end{equation}
-nach \cite{item1} für 
+für 
 \begin{equation}
 	\frac{\sigma_{max}}{\sigma_{min}}=-1
 \end{equation} 
@@ -180,15 +180,15 @@ für den Schub wirkt die maximale Schubspannung von
 \end{equation}
 Die Sicherheit gegen Beulen berechnet sich nun zu 
 \begin{equation}
-	j=\sqrt{\frac{1}{(\frac{\sigma_{v}}{\sigma_{krit}})^{2}+(\frac{\tau}{\tau_{krit}})^{2}}}
+	j=\sqrt{\frac{1}{(\frac{\sigma}{\sigma_{krit}})^{2}+(\frac{\tau}{\tau_{krit}})^{2}}}
 \end{equation}
 mit 
 \begin{equation}
-	\sigma_{krit}=k\cdot k\cdot E_{xx}\cdot \Bigl(\frac{0,313mm+x}{35,8mm -2\cdot 1,941mm}\Bigr)^{2}
+	\sigma_{krit}=\kappa\cdot k\cdot \hat{E}_{xx}\cdot \Bigl(\frac{0,313mm+x}{35,8mm -2\cdot 1,941mm}\Bigr)^{2}
 \end{equation}
 und
 \begin{equation}
-	\tau_{krit} = \kappa\cdot k_{s}\cdot G_{xy}\cdot\Bigl(\frac{0,313mm + x}{35,8mm -2\cdot 1,941mm}\Bigr)^{2}
+	\tau_{krit} = \kappa\cdot k_{s}\cdot \hat{G}_{xy}\cdot\Bigl(\frac{0,313mm + x}{35,8mm -2\cdot 1,941mm}\Bigr)^{2}
 \end{equation}
 Dieses mal kann $\kappa=3$ genutzt werden, sofern eine ausreichende Schaumstoff-Dicke $x$ auftritt, dessen Lösung analytisch herausgefunden wird. Dabei wird eine Mindestdicke von 
 \begin{equation}

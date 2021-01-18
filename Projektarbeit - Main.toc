@@ -56,37 +56,38 @@
 \contentsline {subsubsection}{\numberline {5.2.1}$eLamX^{2}$ (T.B.)}{65}{}%
 \contentsline {subsection}{\numberline {5.3}Beulabschätzung der Flügelschale (T.B.)}{66}{}%
 \contentsline {section}{\numberline {6}Numerische Berechnung}{68}{}%
-\contentsline {subsection}{\numberline {6.1}Warum FEM? (O.S.)}{68}{}%
-\contentsline {subsection}{\numberline {6.2}Wie funktioniert FEM? (O.S.)}{68}{}%
+\contentsline {subsection}{\numberline {6.1}Vorteile der Finiten Element Methode (O.S.)}{68}{}%
+\contentsline {subsection}{\numberline {6.2}Funktionsweise der Finiten Element Methode (O.S.)}{68}{}%
 \contentsline {subsubsection}{\numberline {6.2.1}Schwache Lösung der Elastostatik}{68}{}%
 \contentsline {subsubsection}{\numberline {6.2.2}Diskretisierung}{69}{}%
 \contentsline {subsection}{\numberline {6.3}ABAQUS Analyse (H.G.)}{70}{}%
 \contentsline {subsubsection}{\numberline {6.3.1}Modell}{70}{}%
 \contentsline {subsubsection}{\numberline {6.3.2}Analyse}{72}{}%
 \contentsline {subsubsection}{\numberline {6.3.3}Beulanalyse}{74}{}%
-\contentsline {section}{\numberline {7}CAD-Konstruktion des Flügels (H.K.)}{75}{}%
-\contentsline {subsection}{\numberline {7.1}Konstruktion der Gurte}{75}{}%
-\contentsline {subsection}{\numberline {7.2}Konstruktion des Stegs}{76}{}%
-\contentsline {subsection}{\numberline {7.3}Konstruktion der Haut und der Rippen}{78}{}%
-\contentsline {subsection}{\numberline {7.4}Holzkonstruktion an der Aufnahme der Hauptbolzen}{78}{}%
-\contentsline {subsection}{\numberline {7.5}Querkraftbolzen und Montage auf dem Teststand}{79}{}%
-\contentsline {section}{\numberline {8}Massenabschätzung (H.K.)}{81}{}%
-\contentsline {subsection}{\numberline {8.1}Masse der Gurte}{81}{}%
-\contentsline {subsection}{\numberline {8.2}Masse des Stegs}{81}{}%
-\contentsline {subsection}{\numberline {8.3}Masse der Haut}{82}{}%
-\contentsline {subsection}{\numberline {8.4}Masse der Holzklötze und Rippen}{83}{}%
-\contentsline {subsection}{\numberline {8.5}Abschätzung der Verklebungen und der Gesamtmasse}{84}{}%
-\contentsline {section}{\numberline {9}Bauanleitung für Flügelbau (T.B.)}{85}{}%
-\contentsline {section}{\numberline {10}Zusammenfassung}{88}{}%
-\contentsline {subsection}{\numberline {10.1}Die Berechnungen im Überblick (H.K.)}{88}{}%
-\contentsline {subsection}{\numberline {10.2}Die Konstruktion und FEM-Analyse im Überblick (H.K.)}{91}{}%
-\contentsline {subsection}{\numberline {10.3}Gewichtsnormalisiertes Festigkeitskriterium (O.S.)}{92}{}%
-\contentsline {subsection}{\numberline {10.4}Diskussion der Ergebnisse}{93}{}%
-\contentsline {subsection}{\numberline {10.5}Optimierungsmöglichkeiten (H.G.)}{93}{}%
-\contentsline {section}{\numberline {11}Quellenverzeichnis}{95}{}%
-\contentsline {section}{\numberline {12}Abbildungsverzeichnis}{97}{}%
-\contentsline {section}{\numberline {13}Tabellenverzeichnis}{99}{}%
-\contentsline {section}{\numberline {14}Anhang}{100}{}%
-\contentsline {subsection}{\numberline {14.1}Berechnung: Analytischen Lösung der Modellierung}{100}{}%
-\contentsline {subsection}{\numberline {14.2}Berechung: Schubfluss und Schubmittelpunkt}{102}{}%
-\contentsline {subsection}{\numberline {14.3}Abbildungen}{110}{}%
+\contentsline {section}{\numberline {7}Konstruktion und Fertigung des Flügels}{75}{}%
+\contentsline {subsection}{\numberline {7.1}CAD-Konstruktion des Flügels (H.K.)}{75}{}%
+\contentsline {subsubsection}{\numberline {7.1.1}Konstruktion der Gurte}{75}{}%
+\contentsline {subsubsection}{\numberline {7.1.2}Konstruktion des Stegs}{77}{}%
+\contentsline {subsubsection}{\numberline {7.1.3}Konstruktion der Haut und der Rippen}{77}{}%
+\contentsline {subsubsection}{\numberline {7.1.4}Konstruktion unterstützender Bauteile des Holms}{78}{}%
+\contentsline {subsubsection}{\numberline {7.1.5}Querkraftbolzen und Montage auf dem Teststand}{79}{}%
+\contentsline {subsection}{\numberline {7.2}Massenabschätzung (H.K.)}{82}{}%
+\contentsline {subsubsection}{\numberline {7.2.1}Masse der Gurte}{82}{}%
+\contentsline {subsubsection}{\numberline {7.2.2}Masse des Stegs}{82}{}%
+\contentsline {subsubsection}{\numberline {7.2.3}Masse der Haut}{83}{}%
+\contentsline {subsubsection}{\numberline {7.2.4}Masse der Holzklötze und Rippen}{84}{}%
+\contentsline {subsubsection}{\numberline {7.2.5}Abschätzung der Verklebungen und der Gesamtmasse}{85}{}%
+\contentsline {subsection}{\numberline {7.3}Bauanleitung für die Fertigung (T.B.)}{86}{}%
+\contentsline {section}{\numberline {8}Zusammenfassung}{89}{}%
+\contentsline {subsection}{\numberline {8.1}Die Berechnungen im Überblick (H.K.)}{89}{}%
+\contentsline {subsection}{\numberline {8.2}Die Konstruktion und FEM-Analyse im Überblick (H.K.)}{92}{}%
+\contentsline {subsection}{\numberline {8.3}Gewichtsnormalisiertes Festigkeitskriterium (O.S.)}{93}{}%
+\contentsline {subsection}{\numberline {8.4}Diskussion der Ergebnisse}{94}{}%
+\contentsline {subsection}{\numberline {8.5}Ausblick auf Optimierungen der Berechnungen (H.G.)}{94}{}%
+\contentsline {section}{\numberline {9}Quellenverzeichnis}{96}{}%
+\contentsline {section}{\numberline {10}Abbildungsverzeichnis}{98}{}%
+\contentsline {section}{\numberline {11}Tabellenverzeichnis}{100}{}%
+\contentsline {section}{\numberline {12}Anhang}{101}{}%
+\contentsline {subsection}{\numberline {12.1}Berechnung: Analytische Lösung der Modellierung}{101}{}%
+\contentsline {subsection}{\numberline {12.2}Berechung: Schubfluss und Schubmittelpunkt}{103}{}%
+\contentsline {subsection}{\numberline {12.3}Abbildungen}{112}{}%
