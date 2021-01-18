@@ -72,7 +72,7 @@ Die Verzerrung des MSV und somit auch die Verzerrung der Einzelschichten, lässt
 \lbrace\hat{\varepsilon}\rbrace = [A]^{-1}\cdot\lbrace \hat{n}\rbrace
 \end{equation}
 Als nächstes muss die Verzerrungsmatrix noch in die Richtung der Einzelschichten mit dem Faserwinkel $\alpha_{k}$ transformiert werden.\\
-Nun lässt sich mit Hilfe der E-Moduln und Querkontraktionszahlen die Spannung in den einzelnen Fasern bestimmen(siehe Glg \ref{Faserspannung}).
+Nun lässt sich mit Hilfe der E-Moduln, Querkontraktionszahlen und der Steifigkeitsmatrix $[Q]$ die Spannung in den einzelnen Fasern bestimmen(siehe Glg \ref{Faserspannung}).
 \begin{gather}
 \label{Faserspannung}
 \begin{Bmatrix}
@@ -91,6 +91,8 @@ Nun lässt sich mit Hilfe der E-Moduln und Querkontraktionszahlen die Spannung i
 \varepsilon_{2}\\
 \gamma_{21}
 \end{Bmatrix}
+=
+[Q]\cdot \lbrace\varepsilon\rbrace
 \end{gather}
 \noindent
 Um ein passende Anzahl an Faserschichten zu bekommen kann das Ergebnis nun iterativ angepasst werden.\cite{item3}

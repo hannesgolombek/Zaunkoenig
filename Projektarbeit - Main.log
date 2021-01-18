@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.9)  18 JAN 2021 12:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.9)  18 JAN 2021 12:48
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -455,13 +455,13 @@ Underfull \vbox (badness 4981) has occurred while \output is active []
 <Bilder/Schubknicken.png, id=142, 550.4565pt x 210.18526pt>
 File: Bilder/Schubknicken.png Graphic file (type png)
 <use Bilder/Schubknicken.png>
-Package pdftex.def Info: Bilder/Schubknicken.png  used on input line 214.
+Package pdftex.def Info: Bilder/Schubknicken.png  used on input line 216.
 (pdftex.def)             Requested size: 455.24411pt x 173.83473pt.
  [16]
 <Bilder/Holmarten.png, id=146, 158.994pt x 52.998pt>
 File: Bilder/Holmarten.png Graphic file (type png)
 <use Bilder/Holmarten.png>
-Package pdftex.def Info: Bilder/Holmarten.png  used on input line 235.
+Package pdftex.def Info: Bilder/Holmarten.png  used on input line 237.
 (pdftex.def)             Requested size: 455.24411pt x 151.77124pt.
 ) [17 <./Bilder/Schubknicken.png>] [18 <./Bilder/Holmarten.png>] ("Projektarbei
 t - Modellierung des Holms.tex"
@@ -1842,7 +1842,7 @@ s/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb
 iles/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (142 pages, 5113193 bytes).
+Output written on "Projektarbeit - Main.pdf" (142 pages, 5113240 bytes).
 PDF statistics:
  1106 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
