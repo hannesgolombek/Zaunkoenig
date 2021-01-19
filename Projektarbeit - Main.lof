@@ -52,8 +52,8 @@
 \contentsline {figure}{\numberline {11.30}{\ignorespaces Montage der Tragfläche auf dem Teststand}}{133}{}%
 \contentsline {figure}{\numberline {11.31}{\ignorespaces ABAQUS Material Beispiel GFK}}{134}{}%
 \contentsline {figure}{\numberline {11.32}{\ignorespaces ABAQUS Section Beispiel:Steg}}{135}{}%
-\contentsline {figure}{\numberline {11.33}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, verschiedenen Randbedingungen für Druck ohne Versteifungen; nach []}}{136}{}%
-\contentsline {figure}{\numberline {11.34}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, verschiedenen Randbedingungen für Biegung und Druck, ohne Versteifungen; nach []}}{137}{}%
-\contentsline {figure}{\numberline {11.35}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, verschiedenen Randbedingungen für Schub, ohne Versteifungen; nach []}}{138}{}%
-\contentsline {figure}{\numberline {11.36}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, Ränder einseitig gestützt, für Überlagerungnen, ohne Versteifungen; nach []}}{139}{}%
-\contentsline {figure}{\numberline {11.37}{\ignorespaces Sandwichplatte mit unterschiedlichen Hautstärken, Beulsteifigkeit, für Steifigkeits-Erhöhungsfaktor; nach[]}}{139}{}%
+\contentsline {figure}{\numberline {11.33}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, verschiedenen Randbedingungen für Druck ohne Versteifungen; nach \cite {item1}}}{136}{}%
+\contentsline {figure}{\numberline {11.34}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, verschiedenen Randbedingungen für Biegung und Druck, ohne Versteifungen; nach \cite {item1}}}{137}{}%
+\contentsline {figure}{\numberline {11.35}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, verschiedenen Randbedingungen für Schub, ohne Versteifungen; nach \cite {item1}}}{138}{}%
+\contentsline {figure}{\numberline {11.36}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, Ränder einseitig gestützt, für Überlagerungnen, ohne Versteifungen; nach \cite {item1}}}{139}{}%
+\contentsline {figure}{\numberline {11.37}{\ignorespaces Sandwichplatte mit unterschiedlichen Hautstärken, Beulsteifigkeit, für Steifigkeits-Erhöhungsfaktor; nach \cite {item1}}}{139}{}%
