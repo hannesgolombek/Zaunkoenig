@@ -3,7 +3,7 @@
 Im Leichtbau ist es wichtig geeignete Konstruktionen zu entwerfen, um Eigenschaften der Werkstoffe ideal nutzen zu können. Das Gesamtbauteil ist dann meist so kompliziert, dass sich die für das Bauteil zu lösenden Differenzialgleichungen, wie zum Beispiel die der Elastostatik, keine geschlossenen Lösungen finden lassen. Das Ziel ist es nun durch Annahmen und Vereinfachungen ein sinnvolles und lösbares Ingenieursmodell zu finden. Alternativ könnten auch Lösungen mittels numerischer Methoden ermittelt werde, hierzu mehr in Kapitel \ref{FEM}.
 
 \paragraph{Zylindrische, dünnwandige Profile}~\\
-Häufig werden zylindrische, dünnwandige Profil genutzt, da sie bei vergleichsweiser niedriger Masse noch immer gut Werte bei zum Beispiel der Biegesteifigkeit liefern. Sie kennzeichnen sich dadurch aus, dass deutlich höhere Ausmaße in x-Richtung haben, als in jede andere (zylindrisch). Eine Laufvariable $s$ verläuft in der y-z-Ebene durch die Mitte der Profildicke $t(s)$. Die Dicke ist nicht zwangsläufig über $s$ konstant, muss aber deutlich kleiner als alle anderen Abmessungen sein (dünnwandig) \cite{item15}. Man kann vereinfacht annehmen
+Häufig werden zylindrische, dünnwandige Profil genutzt, da sie bei vergleichsweiser niedriger Masse noch immer gute Werte bei zum Beispiel der Biegesteifigkeit liefern. Sie zeichnen sich dadurch aus, dass sie deutlich höhere Ausmaße in x-Richtung haben, als in jede andere (zylindrisch). Eine Laufvariable $s$ verläuft in der y-z-Ebene durch die Mitte der Profildicke $t(s)$. Die Dicke ist nicht zwangsläufig über $s$ konstant, muss aber deutlich kleiner als alle anderen Abmessungen sein (dünnwandig) \cite{item15}. Man kann vereinfacht annehmen
 \begin{equation}
 	\iint dA=\int t(s)ds.
 \end{equation} 
@@ -15,7 +15,7 @@ und der Normalkraftfluss als
 \begin{equation}
 	n_x=\sigma_x t(s)
 \end{equation}
-definiert. Für diese Kraftflüsse gilt das hydrodynamische Analogon. Das heißt, mit einer Änderung der Dicke muss der Kraftfluss antiproportional ab- bzw. zunehmen, damit das Kräftegleichgewicht erfüllt bleibt. Für Knotenpunkte muss auch gelten, dass der Betrag der Kraftflüsse in den Knoten hinein denen aus ihm heraus gleichen. Des Weiteren lässt sich noch zwischen offenen und geschlossenen Profilen unterscheiden, wobei es sich bei zweiterem um Ein- oder Mehrzeller handeln kann.\cite{item15}
+definiert. Für diese Kraftflüsse gilt das hydrodynamische Analogon. Das heißt, mit einer Änderung der Dicke muss der Kraftfluss antiproportional ab- bzw. zunehmen, damit das Kräftegleichgewicht erfüllt bleibt. Für Knotenpunkte muss auch gelten, dass der Betrag der Kraftflüsse in den Knoten hinein denen aus ihm heraus gleicht. Des Weiteren lässt sich noch zwischen offenen und geschlossenen Profilen unterscheiden, wobei es sich bei zweiterem um Ein- oder Mehrzeller handeln kann \cite{item15}.
 
 \paragraph{Koordinatensysteme}~\\
 Bei den Berechnungen kann viel Arbeit gespart werden, indem das Koordinatensystem mit Ursprung und Achsenausrichtung klug gewählt wird. Das allgemeine Koordinatensystem, das unabhängig vom betrachteten Profil ist, bietet hierbei die wenigsten, wenn nicht sogar keine Vorteile. Verschiebt man seinen Ursprung in den Schwerpunkt, erhält man das Schwerpunkt-Koordinatensystem. Es wird mit einem Querstrich über den Koordinaten gekennzeichnet ($\bar{x},\bar{y},\bar{z}$). Es ist sinnvoll aus dieser Perspektive den Schubfluss zu betrachten.
@@ -45,7 +45,7 @@ Hier lässt sich direkt erkennen, wie diese Formel durch die Wahl eines besseren
 \begin{equation}
 	q_{0} = q_{0b}+q_{0T}
 \end{equation}
-ist nur bei geschlossenen Profilen ungleich null. Sie sich aus einem Teil, der aus der Biegung entsteht $q_{0b}$ und einem aus der Torsion $q_{0T}$ zusammen. Es gibt einen Punkt in der y-z-Ebene für jedes Profil, wo eine angreifende Kraft keine Torsion verursacht. Dieser Punkt ist von hoher Bedeutung und wir Schubmittelpunkt genannt.
+ist nur bei geschlossenen Profilen ungleich null. Sie sich aus einem Teil, der aus der Biegung entsteht, $q_{0b}$, und einem aus der Torsion, $q_{0T}$, zusammen. Es gibt einen Punkt in der y-z-Ebene für jedes Profil, wo eine angreifende Kraft keine Torsion verursacht. Dieser Punkt ist von hoher Bedeutung und wird Schubmittelpunkt genannt.
 \subsubsection{Idealisierung(H.G.)}
 Für die Berechnung des Schubmittelpunkts wird das Flügelprofil als vereinfachter Mehrzeller angenommen.
 Dabei wird der Ursprung des Koordinatensystems am unteren rechten Rand gesetzt. Das Modell wird in 10 Teilstrecken $s_{i}$ aufgeteilt. Die Dicke $t$ wird über die Schale konstant angenommen. Der Schaum wird in allen Abschnitten der Schale und im Holm vernachlässigt, da seine Hauptaufgabe der Beulsteifigkeit gilt und er bei der Schubaufnahme im Vergleich zum Laminat nur eine unbedeutende Rolle spielt. Der Steg ist in 2 Abschnitte unterteilt. Für die maximale Belastung und somit für die Auslegung relevant ist nur der Teil mit dem dünneren Gewebe, sodass hier für die Dicke des Stegs $t_{1}=0,314\mathrm{mm}$ angenommen wird. Für die Gurte gilt, dass alle Fasern parallel in x-Richtung ausgerichtet sind. Sie werden in dieser Rechnung ignoriert, da sie folglich im Gegensatz zum $\pm45^\circ$-Gewebe vernachlässigbare Schubkräfte aufnehmen können (D = $t$). Außerdem würde ein über die Dicke variabler Schubmodul die Rechnung unnötig verkomplizieren, da die uns bekannten Methoden zur Schubflussberechnung nur für homogene Werkstoffe gültig sind \cite{item15}.
@@ -58,7 +58,7 @@ Im Folgenden werden die wichtigsten Rechenschritte und Ergebnisse dargelegt, det
 \begin{figure}[h]
  \centering
  \includegraphics[width=1\textwidth]{Bilder/Model1}
- \caption{vereinfachtes Model}
+ \caption{Vereinfachtes Modell}
  \label{Fluegel1}
 \end{figure}
 \subsubsection{Schwerpunktkoordinaten(H.G.)}\label{SP-Koord}
@@ -89,14 +89,14 @@ Bauteilabschnitt&$S_{y}/\mathrm{mm}^3$&$S_{z}/\mathrm{mm}^3$\\
 \end{tabular}
 \end{center}
 
-\noindent Nun kann aus den statischen Momenten der Schwerpunkt bestimmt werden, indem das Statische Moment über alle Flächen summiert wird:
+\noindent Nun kann aus den statischen Momenten der Schwerpunkt bestimmt werden, indem die statischen Momente über alle Flächen summiert werden:
 \begin{equation}
 	y_{0}=\frac{\int_{s}{}t(s)y\mathrm{d}s}{\int_{s}{}t(s)\mathrm{d}s}=\frac{S_{z}}{A}
 \end{equation}
 \begin{equation}
 	z_{0}=\frac{\int_{s}{}t(s)z\mathrm{d}s}{\int_{s}{}t(s)\mathrm{d}s}=\frac{S_{y}}{A}
 \end{equation}
-Mit einer Dicke von $t=0,2\mathrm{mm}$ ergeben sich Lagen der Schwerpunktkoordinaten zu:
+Mit einer Dicke von $t=0,2\mathrm{mm}$ ergibt sich die Lage der Schwerpunktkoordinaten zu:
 $$
 	y_{0}=78,53\mathrm{mm}
 $$
@@ -139,7 +139,7 @@ I_{z} = \int_{A}^{}y^2dA
 \begin{equation}\label{FT3}
 I_{yz} = \int_{A}^{}zydA
 \end{equation}
- zuerst aus ihrem eigenen Schwerpunkt errechnet, sodass die auf den Gesamtschwerpunkt bezogenen Flächenträgheitsmomente $I_{\bar{y}}$, $I_{\bar{z}}$ und $I_{\bar{y}\bar{z}}$ mit Hilfe des Steinerschen Satz
+ zuerst aus ihrem eigenen Schwerpunkt errechnet, sodass die auf den Gesamtschwerpunkt bezogenen Flächenträgheitsmomente $I_{\bar{y}}$, $I_{\bar{z}}$ und $I_{\bar{y}\bar{z}}$ mit Hilfe des Steinerschen Satzes
  \begin{equation}
  	I_{\bar{y}} = I_{y} + z^2A
  \end{equation}
@@ -189,11 +189,11 @@ Zunächst wird der Schubmittelpunkt des wie in Abschnitt \ref{SP-Koord} aufgesch
 \begin{equation}
 	Q=\int_{s}^{}q(s)ds
 \end{equation}
-ist, betrachtet. Gleichzeitig muss aus der Momentenäquivalenz gelten
+ist, betrachtet. Gleichzeitig muss aus der Momentenäquivalenz gelten:
 \begin{equation}
 	Qr=\int_{s}q(s)r(s)ds
 \end{equation}
-wobei $r$ der jeweilige Hebelarm zu einem beliebigen Pol ist. Unter Anwendung des Superpositionsprinzips lässt sich die Querkraft $Q$ in ihre Komponenten der Koordinatenrichtungen zerlegen und jeweils eine gleich null setzten. Zusammen mit Gleichung (\ref{qs}) erhält man dadurch die folgenden Gleichungen zur Bestimmung des Schubmittelpunkts beim offenen Profil nach \cite{item15}:
+wobei $r$ der jeweilige Hebelarm zu einem beliebigen Pol ist. Unter Anwendung des Superpositionsprinzips lässt sich die Querkraft $Q$ in ihre Komponenten der Koordinatenrichtungen zerlegen und jeweils eine gleich null setzen. Zusammen mit Gleichung (\ref{qs}) erhält man dadurch die folgenden Gleichungen zur Bestimmung des Schubmittelpunkts beim offenen Profil nach \cite{item15}:
 \begin{equation}
 	y_{M}=\frac{-I_{\bar{z}}\int S_{\bar{y}}(s) r_{t}\mathrm{d}s+I_{\bar{yz}}\int S_{\bar{z}}(s) r_{t}\mathrm{d}s}{I_{\bar{y}}I_{\bar{z}}-I_{\bar{yz}}^2}
 \end{equation}
@@ -207,8 +207,8 @@ $$
 $$
 	z_{M}=-41,35\mathrm{mm}
 $$
-Im nächsten Schritt wird das Profil geschlossen, sodass ein Zweizeller entsteht. An den vorher noch geschnittenen Kanten kann nun Schubfluss herrschen. Dies wird durch die Konstanten $q_{0b,1}$ und $q_{0b,2}$ in der jeweiligen Zelle erreicht.
-Da die Verwindung $\vartheta$ für beide Zellen gleich und im Falle der weiterhin reinen Biegung null sein müssen, erhält man für jede Koordinatenrichtung zwei Gleichungen mit zwei Unbekannten.
+Im nächsten Schritt wird das Profil geschlossen, sodass ein Zweizeller entsteht. An den vorher noch geschnittenen Kanten kann nun ein Schubfluss herrschen. Dies wird durch die Konstanten $q_{0b,1}$ und $q_{0b,2}$ in der jeweiligen Zelle erreicht.
+Da die Verwindung $\vartheta$ für beide Zellen gleich und im Falle der weiterhin reinen Biegung null sein muss, erhält man für jede Koordinatenrichtung zwei Gleichungen mit zwei Unbekannten.
 \begin{equation}
 	\vartheta_{1}=\vartheta_{2}=0
 \end{equation}
@@ -223,7 +223,7 @@ Die Verwindung ist als spezifischer Drillwinkel mit
 \begin{equation}
 	\vartheta = \frac{d\varphi}{dx}
 \end{equation}
-definiert, wobei der $\varphi$ den Drillwinkel angibt.
+definiert, wobei $\varphi$ den Drillwinkel angibt.
 Mit den Werten für die umschlossenen Flächen
 $$
 	A_{01}=3087,57\mathrm{mm}^2
@@ -241,7 +241,7 @@ $$$$
 $$$$
 	q_{0b,2\bar{y}}=-1,14\cdot10^{-3}\mathrm{mm}Q_{\bar{y}}
 $$
-Mit den Schubfluss des geschlossenen Profils in die Momentenäquivalenz eingesetzt, ergibt sich der Schubmittelpunkt ($y_{Mg}, z_{Mg}$) zu:
+Mit dem Schubfluss des geschlossenen Profils in die Momentenäquivalenz eingesetzt, ergibt sich der Schubmittelpunkt ($y_{Mg}, z_{Mg}$) zu:
 \begin{equation}
 	Q_{\bar{z}}(y_{Mg}-y_{M})=\sum_{i=0}^{2}q_{0b,i\bar{z}}2A_{0,i}
 \end{equation}
@@ -266,7 +266,7 @@ $$
 	\includegraphics[width=1\textwidth]{Bilder/Torsion}
 	\caption{Angreifende Kraft und positive Drehrichtung}
 \end{figure}
-In den bisherigen Berechnungen wurde immer davon ausgegangen, dass die Kraft im Schubmittelpunkt angreift. Durch den Versuchsaufbau ist jedoch vorgegeben, dass eine Prüflast in z-Richtung an den $l/4$-Linie aufgebracht wird. Mit dem errechneten Schubmittelpunkt lässt sich erkennen, dass ein Torsionsmoment 
+In den bisherigen Berechnungen wurde immer davon ausgegangen, dass die Kraft im Schubmittelpunkt angreift. Durch den Versuchsaufbau ist jedoch vorgegeben, dass eine Prüflast in z-Richtung an der $l/4$-Linie aufgebracht wird. Mit dem errechneten Schubmittelpunkt lässt sich erkennen, dass ein Torsionsmoment 
 \begin{equation}
 	M_{xT}=(y_{l/4}-y_{0})\cdot F
 \end{equation}
@@ -281,14 +281,14 @@ Da die bisherigen Anteile des Schubflusses definitionsgemäß weder Verwindung v
 \begin{equation}
 		M_{xT}=2\sum q_{0T,i}\cdot A_{0i}
 \end{equation}
-Für eine maximale Prüflast von $F=500\mathrm{N}$ die der Flügel aushalten muss, erhält man
+Für eine maximale Prüflast von $F=500\mathrm{N}$, die der Flügel aushalten muss, erhält man
 $$
 	q_{0T,1}=-1,80\mathrm{N/mm}
 $$
 $$
 	q_{0T,2}=-1,87\mathrm{N/mm}.
 $$
-Setzt man nun diese Werte in Gleichung (\ref{verdrillung}) erhält man für beide Zellen einer Verwindung von
+Setzt man nun diese Werte in Gleichung (\ref{verdrillung}) erhält man für beide Zellen eine Verwindung von
 $$
 	\vartheta =-0,00242 ^\circ.
 $$
@@ -299,7 +299,7 @@ Das Ziel dieser Berechnung war nicht nur den Schubmittelpunkt und den Drillinkel
 \begin{equation}
 	t_{min} = \frac{q_{max}}{R_{\tau}}.
 \end{equation} 
-bestimmt. Die Festigkeit bei reiner Schubbelastung $R_{\tau} = 166,67\mathrm{N/mm^2}$ wurde mittels ELamX bestimmt. Diese Dicke kann jedoch nicht einfach so als Ergebnis genommen werden, da sich der Schubfluss bei variabler Dicke mit verändert. Die Rechnung muss mit dem neuen Wert erneut durchgeführt werden. Somit nähert man sich Schritt für Schritt dem Idealwert, bei dem die vorliegende Dicke der minimalen Dicke entspricht.
+bestimmt. Die Festigkeit bei reiner Schubbeanspruchung $R_{\tau} = 166,67\mathrm{N/mm^2}$ wurde mittels ELamX bestimmt. Diese Dicke kann jedoch nicht einfach so als Ergebnis genommen werden, da sich der Schubfluss bei variabler Dicke mit verändert. Die Rechnung muss mit dem neuen Wert erneut durchgeführt werden. Somit nähert man sich Schritt für Schritt dem Idealwert, bei dem die vorliegende Dicke der minimalen Dicke entspricht.
 
 \noindent
 Nach einigen Iterationen bildet sich der Wert $t = 0,03\mathrm{mm}$ als Grenzwert heraus. Da dies ungefähr 0,4 Lagen bei einer Dicke $0,0783\mathrm{mm}$ des $\pm45^\circ$-Gewebes entspricht, muss für die Fertigung des Flügels auf eine ganzzahlige Lagenanzahl aufgerundet werden. Hier wurde eine Dicke von 
