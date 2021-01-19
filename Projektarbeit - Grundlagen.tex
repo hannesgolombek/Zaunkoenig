@@ -39,7 +39,7 @@ Der Kraftfluss $\hat{n}$ im ganzen Laminat lässt sich durch die Summe der Kraft
 \end{equation}
 
 \begin{equation}
-\hat{n}_{xy}=\hat{\tau}_{xy}\dot t=\sum n_{xyk}=\sum\sigma_{xyk}\dot t_{k}
+\hat{n}_{xy}=\hat{\tau}_{xy}\cdot t=\sum n_{xyk}=\sum\sigma_{xyk}\cdot t_{k}
 \end{equation}
 Nun lässt sich das Elastizitätsgesetz für den MSV aufstellen:
 \begin{equation}
@@ -71,7 +71,21 @@ Die Verzerrung des MSV und somit auch die Verzerrung der Einzelschichten, lässt
 \begin{equation}
 \lbrace\hat{\varepsilon}\rbrace = [A]^{-1}\cdot\lbrace \hat{n}\rbrace
 \end{equation}
-Als nächstes muss die Verzerrungsmatrix noch in die Richtung der Einzelschichten mit dem Faserwinkel $\alpha_{k}$ transformiert werden.\\
+Mit Gleichung \ref{AQ} lässt sich nun eine Beziehung  zwischen $[A]$ und der Schichtsteifigkeitsmatrix $[Q]$ finden.
+\begin{equation}
+\label{AQ}
+	A_{ij}= \sum_{k=1}^{2} \overline{Q}_{ij,k}\cdot t_{k}
+\end{equation}
+Als nächstes muss die Steifigkeitsmatrix noch in die Richtung der Einzelschichten mit dem Faserwinkel $\alpha_{k}$ und der Transformationsmatrix $[T]$ transformiert werden.\\
+\begin{equation}
+	\underline{\underline{T}}=
+	\begin{bmatrix}
+		\cos^{2}\alpha&\sin^{2}\alpha&-\sin 2\alpha\\
+		\sin^{2}\alpha&\cos^{2}\alpha&\sin 2\alpha\\
+		0,5\cdot \sin2\alpha&-0,5\cdot\sin2\alpha&\cos 2\alpha
+	\end{bmatrix}
+\end{equation}\\
+\noindent
 Nun lässt sich mit Hilfe der E-Moduln, Querkontraktionszahlen und der Steifigkeitsmatrix $[Q]$ die Spannung in den einzelnen Fasern bestimmen.
 \begin{gather}
 \label{Faserspannung}
