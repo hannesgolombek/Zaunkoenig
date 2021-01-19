@@ -1,5 +1,5 @@
 \subsubsection{Beispielrechnung nach Klassischer Laminattheorie}
-Nachdem im Kapitel \ref{CLT} eine Einführung in die klassische Laminattheorie gegeben wurde, wird im Folgenden eine Beispiel-Berechnung eines Lagenaufbaus vorgestellt. Diese beginnt mit den Materialdaten der verwendeten Faser und Matrix und führt bis zu den resultierenden Ingenieurskonstanten. Als repräsentatives Beispiel wird ein Laminat aus zwei Lagen Interglas 92145 mit einer Faserwinkeldifferenz von $\Delta\alpha =90^{circ}$ gewählt. Wie zuvor wird auch hier der Faservolumengehalt $\varphi = 40\%$ genutzt, sodass die Gesamtdicke sich zu $t= 2\cdot 0,216mm=0,432mm$ nach den Formel \ref{Dicke}. \\
+Nachdem im Kapitel \ref{CLT} eine Einführung in die klassische Laminattheorie gegeben wurde, wird im Folgenden eine Beispiel-Berechnung eines Lagenaufbaus vorgestellt. Diese beginnt mit den Materialdaten der verwendeten Faser und Matrix und führt bis zu den resultierenden Ingenieurskonstanten. Als repräsentatives Beispiel wird ein Laminat aus zwei Lagen Interglas 92145 mit einer Faserwinkeldifferenz von $\Delta\alpha =90^{circ}$ gewählt. Wie zuvor wird auch hier der Faservolumengehalt $\varphi = 40\%$ genutzt, sodass die Gesamtdicke sich zu $t= 2\cdot 0,216mm=0,432mm$ nach den Formel \ref{Dicke} \cite{item5}\cite{item3}. \\
 
 \noindent Anhand der Aufgabenstellung sind Materialdaten der Fasern und der Matrix gegeben, die nachfolgend benötigt werden:\\
 
@@ -17,12 +17,12 @@ Nachdem im Kapitel \ref{CLT} eine Einführung in die klassische Laminattheorie g
 	$\nu_{f,\perp\parallel}$ & $0,2$  &$\nu_{m}$ &  $0,35$\\
 \end{tabular}\\
 
-\noindent Da es sich dabei nur um rein isotrope Materialien handelt, gelten $\nu_{f,\perp\parallel} = \nu_{f,\parallel\perp}$ und $G_{f,\parallel\perp} = G_{f,\perp\parallel}$. Der Schubmodul der Matrix berechnet sich zu
+\noindent Da es sich dabei nur um rein isotrope Materialien handelt, gelten $\nu_{f,\perp\parallel} = \nu_{f,\parallel\perp}$ und $G_{f,\parallel\perp} = G_{f,\perp\parallel}$ \cite{item15}. Der Schubmodul der Matrix berechnet sich zu
 \begin{equation}
  	G_{m}=\frac{E_{m}}{2\cdot (1+\nu_{m})}=1222MPa
 \end{equation}.\\
 
-\noindent Nun werden anhand der Mischungsregel, jedoch ohne eine Beachtung von Querkontraktionsbehinderungen der Matrix durch die Fasern, Kennwerte einer einzelnen Lage Interglas 92145 bestimmt:
+\noindent Nun werden anhand der Mischungsregel, jedoch ohne eine Beachtung von Querkontraktionsbehinderungen der Matrix durch die Fasern, Kennwerte einer einzelnen Lage Interglas 92145 bestimmt \cite{item3}:
 
 \begin{equation}
 	\rho=\rho_{F}\cdot\varphi +\rho_{M}\cdot (1-\varphi)=1,728\frac{g}{cm^{3}}
@@ -43,7 +43,7 @@ Nachdem im Kapitel \ref{CLT} eine Einführung in die klassische Laminattheorie g
 \noindent Mit diesen Moduln und Querkontraktionszahlen wird im weiteren die Steifigkeitsmatrix des gesamten Laminats, transformiert in Koordinatensystem-Hauptrichtungen $x$ und $y$, bestimmt. Begonnen wird mit der Steifigkeitsmatrix einer einzelnen Gewebelage, bezogen wird sich auf dessen Faserrichtung. Damit kann  
 \begin{equation}
 	\underline{\sigma}=\underline{\underline{Q}} \cdot \underline{\epsilon}
-\end{equation}\\aufgestellt werden. Bei der Steifigkeitsmatrix $\underline{\underline{Q}}$ handelt es sich um Scheiben-Steifigkeiten.
+\end{equation}\\aufgestellt werden. Bei der Steifigkeitsmatrix $\underline{\underline{Q}}$ handelt es sich um Scheiben-Steifigkeiten \cite{item3}.
 
 \begin{equation}
 \underline{\underline{Q}}=
@@ -94,7 +94,7 @@ Nachdem im Kapitel \ref{CLT} eine Einführung in die klassische Laminattheorie g
 	\end{bmatrix} [MPa], \alpha = 90°
 \end{equation}\\
 
-\noindent Mittels dessen einzelnen Werten $\overline{Q}_{ij, k}$ lassen sich der Scheiben-, der Koppel- und der Plattenquadrant des Mehrschichtverbundes berechnen. In diesem können die Berechnungen teilweise vereinfacht werden, da die beiden Lagendicken $t_{k}$ dem Betrag der Abstände $|z_{k}|$ entspricht.
+\noindent Mittels dessen einzelnen Werten $\overline{Q}_{ij, k}$ lassen sich der Scheiben-, der Koppel- und der Plattenquadrant des Mehrschichtverbundes berechnen. In diesem können die Berechnungen teilweise vereinfacht werden, da die beiden Lagendicken $t_{k}$ dem Betrag der Abstände $|z_{k}|$ entspricht \cite{item3}.
 
 \begin{equation}
 	A_{ij}= \sum_{k=1}^{2} \overline{Q}_{ij,k}\cdot t_{k}
@@ -130,7 +130,7 @@ Nachdem im Kapitel \ref{CLT} eine Einführung in die klassische Laminattheorie g
 	\end{bmatrix} [Nmm]
 \end{equation}\\
 
-\noindent Aus diesen Matrizen lässt sich nun das \textit{ Elastizitätsgesetz des kombinierten Scheiben-Plattenelements} anwenden:
+\noindent Aus diesen Matrizen lässt sich nun das \textit{ Elastizitätsgesetz des kombinierten Scheiben-Plattenelements} anwenden \cite{item3}:
 
 \begin{equation}
 	\begin{pmatrix}
@@ -147,9 +147,9 @@ Nachdem im Kapitel \ref{CLT} eine Einführung in die klassische Laminattheorie g
 	\end{pmatrix}
 \end{equation}\\
 
-\noindent Damit kann für jede einzelne Lage das Festigkeitskriterium nach Puck überprüft werden. Eine Fortsetzung der Beispielrechnung mittels dieses Festigkeitskriteriums wird ab dieser Stelle nicht mehr durchgeführt, da sie bis auf wenige Ausnahmen nicht mehr analytisch zu lösen ist.\\
+\noindent Damit kann für jede einzelne Lage das Festigkeitskriterium nach Puck überprüft werden. Eine Fortsetzung der Beispielrechnung mittels dieses Festigkeitskriteriums wird ab dieser Stelle nicht mehr durchgeführt, da sie bis auf wenige Ausnahmen nicht mehr analytisch zu lösen ist \cite{item3}.\\
 
-\noindent Mit der Inversen der Scheibenmatrix $\underline{\underline{A^{-1}}}$ werden abschließend die Ingenieurskonstanten des Mehrschichtverbundes ohne Querkontraktionsbehinderung ermittelt:
+\noindent Mit der Inversen der Scheibenmatrix $\underline{\underline{A^{-1}}}$ werden abschließend die Ingenieurskonstanten des Mehrschichtverbundes ohne Querkontraktionsbehinderung ermittelt \cite{item3}:
 
 \begin{equation}
 	\hat{E}_{x}=\frac{1}{A_{11}^{-1}\cdot t} = 18727 MPa
@@ -169,9 +169,9 @@ Nachdem im Kapitel \ref{CLT} eine Einführung in die klassische Laminattheorie g
 
 
 \subsubsection{$eLamX^{2}$}\label{elamx}
-$eLamX^{2}$ ist ein Laminat-Berechnungsprogramm der TU Dresden. Es kann anhand der klassischen Laminattheorie mit unterschiedlichen Versagenskriterien berechnen, inwiefern ein gewählter Lagenaufbau den Festigkeitskriterien gerecht wird. Zusätzlich sind weitere Funktionen, wie zum Beispiel Beulberechnungen, Optimierungen etc. nutzbar und andere Einflüssse, z.B. Temperatureinflüsse anwendbar, jedoch für diese Auslegung irrelevant.
+$eLamX^{2}$ ist ein Laminat-Berechnungsprogramm der TU Dresden. Es kann anhand der klassischen Laminattheorie mit unterschiedlichen Versagenskriterien berechnen, inwiefern ein gewählter Lagenaufbau den Festigkeitskriterien gerecht wird. Zusätzlich sind weitere Funktionen, wie zum Beispiel Beulberechnungen, Optimierungen etc. nutzbar und andere Einflüssse, z.B. Temperatureinflüsse anwendbar, jedoch für diese Auslegung irrelevant \cite{item22}\cite{item3}.\\
 
-\noindent Auch hier wurden vorerst die gegeben Materialeigenschaften der Aufgabenstellung als Fasermaterial, Matrixmaterial und  UD-Festigkeitskennwerte definiert (Anmerkung: In $eLamX^{2}$ wird bei der Indizierung die Notierung \glqq Ursache - Wirkung\grqq\: statt \glqq Wirkung - Ursache\grqq\: verwendet). )\\
+\noindent Auch hier wurden vorerst die gegeben Materialeigenschaften der Aufgabenstellung als Fasermaterial, Matrixmaterial und  UD-Festigkeitskennwerte definiert (Anmerkung: In $eLamX^{2}$ wird bei der Indizierung die Notierung \glqq Ursache - Wirkung\grqq\: statt \glqq Wirkung - Ursache\grqq\: verwendet). \cite{item22}\\
 
 \begin{tabular}{ll|ll|ll}
 	\multicolumn{2}{c}{Fasermaterial} &\multicolumn{2}{c}{Matrixmaterial}  &\multicolumn{2}{c}{UD-Festigkeitskennwerte} \\
@@ -203,10 +203,10 @@ $eLamX^{2}$ ist ein Laminat-Berechnungsprogramm der TU Dresden. Es kann anhand d
 
 \noindent Anschließend werden die nach Kapitel ~\ref{VDI2013} berechneten Laminate bzw. Schichtverbunde aus mehreren Gewebe-Lagen zusammengesetzt. Eine bidirektionale Gewebelage wird dabei durch zwei einzelne Materiallagen mit einem Winkel von $90^{\circ}$ zueinander simuliert, sodass sich die doppelte Anzahl des Materials gegenüber der Gewebeanzahl ergibt. Für die Holmgurte ergibt sich ein Lagenaufbau nach Abbildung ~\ref{fig:Lagenaufbau Holmgurte} und für den dünnen Steg nach Abbildung ~\ref{fig:Lagenaufbau Steg dünn}. Für den dicken Steg ergibt sich der gleiche Aufbau wie bei dem dünnen Steg, allerdings mit 24 Materiallagen (siehe Abb. ~\ref{fig:Lagenaufbau Steg dick}). Weshalb sich die Anzahl der Gewebelagen gegenüber der Auslegung nach VDI 2013 unterscheidet, wird im Weiteren beschrieben.\\ 
 
-\noindent Anschließend werden die nach VDI 2013 im Kapitel \ref{VDI} errechneten Normalkraft- und Schubflüsse bzw. Dehnungen eingegeben, sodass nun die Sicherheiten nach den Versagenskriterien von Puck ermittelt werden können. Dabei handelt es sich um leicht abweichende Flüsse bzw. Dehnungen gegenüber der Realität. Diese Werte stammen aus der Auslegung nach VDI 2013, in der teilweise die Lagenanzahl, wie bereits beschrieben, geringer ist. Zu beachten ist außerdem, dass die Flüsse und Dehnungen auf das allgemeine Koordinatensystem und nicht auf die der einzelnen Lagen bezogen werden. Es wird automatisch die niedrigste Sicherheit mit der jeweiligen Versagensart ausgegeben. Auch muss berücksichtigt werden, dass für die komplette Überprüfung der Auslegung ebenfalls $\epsilon_{x}$ negativ angenommen werden muss, um den gegenüberliegenden Gurt mit Druckbelastungen zu betrachten. Dabei ergeben sich jedoch stets höhere Sicherheiten.\\
+\noindent Anschließend werden die nach VDI 2013 im Kapitel \ref{VDI} errechneten Normalkraft- und Schubflüsse bzw. Dehnungen eingegeben, sodass nun die Sicherheiten nach den Versagenskriterien von Puck ermittelt werden können. Dabei handelt es sich um leicht abweichende Flüsse bzw. Dehnungen gegenüber der Realität. Diese Werte stammen aus der Auslegung nach VDI 2013, in der teilweise die Lagenanzahl, wie bereits beschrieben, geringer ist. Zu beachten ist außerdem, dass die Flüsse und Dehnungen auf das allgemeine Koordinatensystem und nicht auf die der einzelnen Lagen bezogen werden. Es wird automatisch die niedrigste Sicherheit mit der jeweiligen Versagensart ausgegeben. Auch muss berücksichtigt werden, dass für die komplette Überprüfung der Auslegung ebenfalls $\epsilon_{x}$ negativ angenommen werden muss, um den gegenüberliegenden Gurt mit Druckbelastungen zu betrachten. Dabei ergeben sich jedoch stets höhere Sicherheiten \cite{item22}\cite{item3}.\\
 
 \noindent Um immer eine Sicherheit von $j>1$ zu garantieren, müssen im Steg nachträglich noch weitere Lagen zu der ursprünglich berechneten Anzahl hinzugefügt werden, sodass sich eine Gesamt-Lagenanzahl von 4 und 24 statt 2 und 20 ergibt. Diese Abweichung kann u.a. daran liegen, dass die VDI 2013 mit Konstanten rechnet, die nur beispielhaft an einem Gewebe ermittelt wurden und somit nicht exakt für die gegebenen Gewebe der Aufgabenstellung gelten können. Außerdem kann der Einfluss, dass lediglich mit der einfachen Mischungsregel ohne Querkontraktionsbehinderung der Matrix gerechnet wurde, eine leichte Abweichung gegenüber anderen Berechnungsmethoden verursachen.
-Dargestellt sind die Rechnungen in Abb. ~\ref{fig:Berechnung Holmgurte}, Abb.~\ref{fig:Berechnung Steg dünn} und Abb.~\ref{fig:Berechnung Steg dick}.\\
+Dargestellt sind die Rechnungen in Abb. ~\ref{fig:Berechnung Holmgurte}, Abb.~\ref{fig:Berechnung Steg dünn} und Abb.~\ref{fig:Berechnung Steg dick} \cite{item3}\cite{item5}.\\
 
 \noindent Als nächstes können die Ingenieurskonstanten (E-Moduln des gesamten Laminats in Hauptachsenrichtungen) ermittelt werden, welche für die spätere Stabilitätsabschätzung benötigt werden (siehe Abb. ~\ref{fig:Ingenieurskonstanten Holmgurte}, Abb. \ref{fig:Ingenieurskonstanten Steg dick} und Abb.~\ref{fig:Ingenieurskonstanten Steg dünn}).\\
 

@@ -1,20 +1,20 @@
 \subsubsection{Einführung in die Balkenbiegung}
 Anhand der \textit{Balkentheorie nach Bernoulli} soll im Folgenden das mechanische Verhalten des Holms unter gegebenen Bedingungen ermittelt werden. Dazu werden einführend diese Theorie und andere Zusammenhänge kurz dargestellt.\\
 
-\noindent Die Balkentheorie beschreibt elastische Längs- und Querverformungen eines Balkens beliebigen Querschnitts, resultierend durch angreifende Kräfte, Streckenlasten und Momente. Diese können durch Lager oder äußere angreifende Lasten in einen solchen Körper eingeleitet werden. Ergänzend sei angemerkt, dass es sich bei einem Balken um einen Körper handelt, dessen Länge sehr viel größere Werte als die der Breite und der Höhe besitzt. Durch die Lasten herrschen im Balken innere Normal- und Querkräfte und innere Momente $(N, Q, M)$. Mittels des Freischneidens können diese an beliebigen Stellen berechnet werden. Folgend ergeben sich Normal- (Zug, Druck) und Schubspannungen $(\sigma, \tau)$, die wiederum über das \textit{Hooke´sche Gesetz} zu Dehnungen und Verzerrungen $(\epsilon, \gamma)$ führen, sodass letztendlich anhand derer beschriebene Verformungen $(u, v, w)$ zu erkennen sind. Durch das hohe Verhältnis der Abmessungen zueinander werden Schubspannungen im Weiteren vernachlässigt. \\
+\noindent Die Balkentheorie beschreibt elastische Längs- und Querverformungen eines Balkens beliebigen Querschnitts, resultierend durch angreifende Kräfte, Streckenlasten und Momente. Diese können durch Lager oder äußere angreifende Lasten in einen solchen Körper eingeleitet werden. Ergänzend sei angemerkt, dass es sich bei einem Balken um einen Körper handelt, dessen Länge sehr viel größere Werte als die der Breite und der Höhe besitzt. Durch die Lasten herrschen im Balken innere Normal- und Querkräfte und innere Momente $(N, Q, M)$. Mittels des Freischneidens können diese an beliebigen Stellen berechnet werden. Folgend ergeben sich Normal- (Zug, Druck) und Schubspannungen $(\sigma, \tau)$, die wiederum über das \textit{Hooke´sche Gesetz} zu Dehnungen und Verzerrungen $(\epsilon, \gamma)$ führen, sodass letztendlich anhand derer beschriebene Verformungen $(u, v, w)$ zu erkennen sind. Durch das hohe Verhältnis der Abmessungen zueinander werden Schubspannungen im Weiteren vernachlässigt \cite{item15}\cite{item16}\cite{item9}. \\
 
-\noindent Für die Reaktionseigenschaften auf angreifende Lasten sind Materialkennwerte und die Geometrie des Balkens verantwortlich, welche mit der Biegesteifigkeit $EI$ repräsentiert werden. Gebildet wird sie durch den E-Modul $E$ und das Flächenträgheitsmoment $I$. Während Ersteres eine wichtige Eigenschaft eines Materials ist, ist Letzteres von der Querschnittsform abhängig. Neben der eigentlichen Form können ebenfalls Steiner-Anteile das Flächenträgheitsmoment erhöhen. Für die zu verwendenden Formeln wird auf das spätere Kapitel \ref{SP-Koord} verwiesen.\\
+\noindent Für die Reaktionseigenschaften auf angreifende Lasten sind Materialkennwerte und die Geometrie des Balkens verantwortlich, welche mit der Biegesteifigkeit $EI$ repräsentiert werden. Gebildet wird sie durch den E-Modul $E$ und das Flächenträgheitsmoment $I$. Während Ersteres eine wichtige Eigenschaft eines Materials ist, ist Letzteres von der Querschnittsform abhängig. Neben der eigentlichen Form können ebenfalls Steiner-Anteile das Flächenträgheitsmoment erhöhen. Für die zu verwendenden Formeln wird auf das spätere Kapitel \ref{SP-Koord} verwiesen \cite{item16}.\\
 
 
 \noindent Innerhalb des gebogenen Balkens gibt es stets eine neutrale Faser, die eine Linie bzw. Fläche ohne eine relative Längenänderung unter angreifenden Kräften und Momenten repräsentiert. Diese Linie wird auch Biegelinie genannt, für welche die vereinfachte \textit{Differentialgleichung des Biegebalkens}
 \begin{equation}
 	w^{''}=-\frac{M}{EI}
 \end{equation}
-aufgestellt wurde. Neben der Krümmung $w^{''}$ kann mittels Integration der Biegewinkel $w^{'}$ und die Absenkung $w$ bestimmt werden. Über Differentiationen werden auch äußere Momente, Kräfte und Streckenlasten in der Balkentheorie mit einbezogen. Durch Integrationskonstanten können geometrische Rand- und Übergangsbedingungen beachtet werden. Während in der neutralen Faser keine Normalspannungen auftreten, sind diese in den Randfasern maximal.\\
+aufgestellt wurde. Neben der Krümmung $w^{''}$ kann mittels Integration der Biegewinkel $w^{'}$ und die Absenkung $w$ bestimmt werden. Über Differentiationen werden auch äußere Momente, Kräfte und Streckenlasten in der Balkentheorie mit einbezogen. Durch Integrationskonstanten können geometrische Rand- und Übergangsbedingungen beachtet werden. Während in der neutralen Faser keine Normalspannungen auftreten, sind diese in den Randfasern maximal \cite{item16}\cite{item9}.\\
 
-\noindent Es sei außerdem angemerkt, dass jederzeit Superpositions-Eigenschaften gelten. Dadurch können einerseits mehrere Balken in einem System betrachtet werden, andererseits aber auch Balken mit mehreren Belastungen in einzelne einfache Berechnungen überführt werden.\\
+\noindent Es sei außerdem angemerkt, dass jederzeit Superpositions-Eigenschaften gelten. Dadurch können einerseits mehrere Balken in einem System betrachtet werden, andererseits aber auch Balken mit mehreren Belastungen in einzelne einfache Berechnungen überführt werden \cite{item16}.\\
 
-\noindent Für die Berechnung einer Balkenbiegung kann nach folgendem Schema vorgegangen werden: Vorerst werden die notwendigen Lagerkräfte und -momente bestimmt. Wichtige Lagerarten bilden dabei das Festlager (ein rotatorischer Freiheitsgrad), das Loslager (ein rotatorischer und ein translatorischer Freiheitsgrad) und eine Einspannung (keine Freiheitsgrade), die Freiheitsgrade seien dabei auf den zweidimensionalen Fall bezogen. Anschließend wird der Balken bereichsweise an  Unstetigkeiten (z.B. Lager oder Krafteinleitungspunkte und ändernde Geometrien) geschnitten, um innere Kräfte am entstandenen positiven und negativen Schnittufer zu ermitteln. Dadurch lassen sich in diesen markanten Orten relevante Rand- und Übergangsbedingungen der Differentialgleichung des Biegebalkens bestimmen. Abschließend führen Integrationen und Differentiationen dieser Gleichung und deren Lösung  zur Absenkung, dem Biegewinkel, der Krümmung sowie innerem Kraft- bzw. Momentverlauf.
+\noindent Für die Berechnung einer Balkenbiegung kann nach folgendem Schema vorgegangen werden: Vorerst werden die notwendigen Lagerkräfte und -momente bestimmt. Wichtige Lagerarten bilden dabei das Festlager (ein rotatorischer Freiheitsgrad), das Loslager (ein rotatorischer und ein translatorischer Freiheitsgrad) und eine Einspannung (keine Freiheitsgrade), die Freiheitsgrade seien dabei auf den zweidimensionalen Fall bezogen. Anschließend wird der Balken bereichsweise an  Unstetigkeiten (z.B. Lager oder Krafteinleitungspunkte und ändernde Geometrien) geschnitten, um innere Kräfte am entstandenen positiven und negativen Schnittufer zu ermitteln. Dadurch lassen sich in diesen markanten Orten relevante Rand- und Übergangsbedingungen der Differentialgleichung des Biegebalkens bestimmen. Abschließend führen Integrationen und Differentiationen dieser Gleichung und deren Lösung  zur Absenkung, dem Biegewinkel, der Krümmung sowie innerem Kraft- bzw. Momentverlauf \cite{item16}\cite{item9}.
 
 
 \subsubsection{Annahmen zur Modellierung}
@@ -54,7 +54,7 @@ Das Koordinatensystem des Flügels entspricht einem allgemeinen Flugzeug-Koordin
 \subsubsection{Analytisches Lösen der Modellierung}
 Um die Differentialgleichungen der Balkenbiegung lösen zu können, wird der Biegebalken vorerst in drei Teilbereiche $I$, $II$ und $III$ aufgeteilt, die sich von Lager $A$ zu $B$, von Lager $B$ zur Wurzelrippe $C$ und von dort aus bis zur Flügelspitze erstrecken. \\
 
-\noindent Dadurch ergeben sich folgende zwölf Differentialgleichungen:
+\noindent Dadurch ergeben sich folgende zwölf Differentialgleichungen \cite{item16}:
 \begin{equation} \label{eq:7}
 	EI_{x}\cdot w_{I}^{''''}(y) = q_{I}(y)
 \end{equation}
@@ -101,7 +101,7 @@ Um die Differentialgleichungen der Balkenbiegung lösen zu können, wird der Bie
 	EI_{x}\cdot w_{III}(y) = \frac{q_{III}(y)}{24}\cdot y^{4} + \frac{R_{9}}{6}\cdot y^{3} + \frac{R_{10}}{2}\cdot y^{2} + R_{11}\cdot y + R_{12}
 \end{equation}\\
 
-\noindent Die Randbedingungen der Modellierung ergeben sich folgend nach gegebenen Definitionen von Lagern und angreifenden Kräften: 
+\noindent Die Randbedingungen der Modellierung ergeben sich folgend nach gegebenen Definitionen von Lagern und angreifenden Kräften \cite{item16}: 
 \begin{equation}\label{eq:22}
 	w_{I}(y=0)=0
 \end{equation}
