@@ -48,13 +48,13 @@
 \contentsline {figure}{\numberline {11.25}{\ignorespaces Schubfluss Bereich 8}}{127}{}%
 \contentsline {figure}{\numberline {11.26}{\ignorespaces Schubfluss Bereich 9}}{128}{}%
 \contentsline {figure}{\numberline {11.27}{\ignorespaces Schubfluss Bereich 10}}{128}{}%
-\contentsline {figure}{\numberline {11.28}{\ignorespaces CAD-Modell der Tragfläche und des Teststandes}}{133}{}%
-\contentsline {figure}{\numberline {11.29}{\ignorespaces Ursprüngliche Lage des hinteren Langlochs der Querkraftbolzen}}{133}{}%
-\contentsline {figure}{\numberline {11.30}{\ignorespaces Montage der Tragfläche auf dem Teststand}}{134}{}%
-\contentsline {figure}{\numberline {11.31}{\ignorespaces ABAQUS Material Beispiel GFK}}{135}{}%
-\contentsline {figure}{\numberline {11.32}{\ignorespaces ABAQUS Section Beispiel:Steg}}{136}{}%
-\contentsline {figure}{\numberline {11.33}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, verschiedenen Randbedingungen für Druck ohne Versteifungen; nach []}}{137}{}%
-\contentsline {figure}{\numberline {11.34}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, verschiedenen Randbedingungen für Biegung und Druck, ohne Versteifungen; nach []}}{138}{}%
-\contentsline {figure}{\numberline {11.35}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, verschiedenen Randbedingungen für Schub, ohne Versteifungen; nach []}}{139}{}%
-\contentsline {figure}{\numberline {11.36}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, Ränder einseitig gestützt, für Überlagerungnen, ohne Versteifungen; nach []}}{140}{}%
-\contentsline {figure}{\numberline {11.37}{\ignorespaces Sandwichplatte mit unterschiedlichen Hautstärken, Beulsteifigkeit, für Steifigkeits-Erhöhungsfaktor; nach[]}}{140}{}%
+\contentsline {figure}{\numberline {11.28}{\ignorespaces CAD-Modell der Tragfläche und des Teststandes}}{129}{}%
+\contentsline {figure}{\numberline {11.29}{\ignorespaces Ursprüngliche Lage des hinteren Langlochs der Querkraftbolzen}}{129}{}%
+\contentsline {figure}{\numberline {11.30}{\ignorespaces Montage der Tragfläche auf dem Teststand}}{130}{}%
+\contentsline {figure}{\numberline {11.31}{\ignorespaces ABAQUS Material Beispiel GFK}}{131}{}%
+\contentsline {figure}{\numberline {11.32}{\ignorespaces ABAQUS Section Beispiel:Steg}}{132}{}%
+\contentsline {figure}{\numberline {11.33}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, verschiedenen Randbedingungen für Druck ohne Versteifungen; nach \cite {item1}}}{133}{}%
+\contentsline {figure}{\numberline {11.34}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, verschiedenen Randbedingungen für Biegung und Druck, ohne Versteifungen; nach \cite {item1}}}{134}{}%
+\contentsline {figure}{\numberline {11.35}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, verschiedenen Randbedingungen für Schub, ohne Versteifungen; nach \cite {item1}}}{135}{}%
+\contentsline {figure}{\numberline {11.36}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, Ränder einseitig gestützt, für Überlagerungnen, ohne Versteifungen; nach \cite {item1}}}{136}{}%
+\contentsline {figure}{\numberline {11.37}{\ignorespaces Sandwichplatte mit unterschiedlichen Hautstärken, Beulsteifigkeit, für Steifigkeits-Erhöhungsfaktor; nach \cite {item1}}}{136}{}%
