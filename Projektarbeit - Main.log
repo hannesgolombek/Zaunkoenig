@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  19 JAN 2021 09:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  19 JAN 2021 16:45
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -975,7 +975,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Bilder/SMP.png, id=302, 598.03426pt x 194.52675pt>
 File: Bilder/SMP.png Graphic file (type png)
 <use Bilder/SMP.png>
-Package pdftex.def Info: Bilder/SMP.png  used on input line 260.
+Package pdftex.def Info: Bilder/SMP.png  used on input line 261.
 (pdftex.def)             Requested size: 455.24411pt x 148.07932pt.
 
 
@@ -984,13 +984,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Bilder/Torsion.png, id=303, 1007.56425pt x 358.33875pt>
 File: Bilder/Torsion.png Graphic file (type png)
 <use Bilder/Torsion.png>
-Package pdftex.def Info: Bilder/Torsion.png  used on input line 266.
+Package pdftex.def Info: Bilder/Torsion.png  used on input line 267.
 (pdftex.def)             Requested size: 455.24411pt x 161.90707pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [62]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2644) has occurred while \output is active []
 
  [63 <./Bilder/SMP.png> <./Bilder/Torsion.png>] [64]) [65]
 ("Projektarbeit - Auslegung der Flügelschale nach CLT.tex"
@@ -2086,7 +2086,7 @@ cm/cmr8.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmsy6.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (143 pages, 5111840 bytes).
+Output written on "Projektarbeit - Main.pdf" (143 pages, 5111954 bytes).
 PDF statistics:
  1097 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
