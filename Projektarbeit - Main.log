@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  19 JAN 2021 12:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.4)  20 JAN 2021 00:02
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
@@ -437,28 +437,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--12
 
  []
 
-[7]) [8] ("Projektarbeit - Grundlagen.tex" [9] [10] [11] [12]
-Underfull \vbox (badness 1565) has occurred while \output is active []
+[7]) [8] ("Projektarbeit - Grundlagen.tex" [9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
 
- [13]
-Overfull \hbox (19.45645pt too wide) in paragraph at lines 178--185
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Underfull \vbox (badness 2635) has occurred while \output is active []
+
+ [12]
+[13]
+Overfull \hbox (19.45645pt too wide) in paragraph at lines 192--199
 \T1/cmr/m/n/10.95 Mit die-sen Wer-ten de-fi-niert Puck sei-ne Bruch-be-din-gun-
 gen aus der Mohr-schen Bruchhypothese[[]],
  []
 
-[14] [15]
+
+Underfull \vbox (badness 2119) has occurred while \output is active []
+
+ [14]
+[15]
 <Bilder/Schubknicken.png, id=141, 550.4565pt x 210.18526pt>
 File: Bilder/Schubknicken.png Graphic file (type png)
 <use Bilder/Schubknicken.png>
-Package pdftex.def Info: Bilder/Schubknicken.png  used on input line 216.
+Package pdftex.def Info: Bilder/Schubknicken.png  used on input line 230.
 (pdftex.def)             Requested size: 455.24411pt x 173.83473pt.
  [16]
-<Bilder/Holmarten.png, id=145, 158.994pt x 52.998pt>
+Underfull \vbox (badness 6927) has occurred while \output is active []
+
+ [17 <./Bilder/Schubknicken.png>]
+<Bilder/Holmarten.png, id=148, 158.994pt x 52.998pt>
 File: Bilder/Holmarten.png Graphic file (type png)
 <use Bilder/Holmarten.png>
-Package pdftex.def Info: Bilder/Holmarten.png  used on input line 237.
+Package pdftex.def Info: Bilder/Holmarten.png  used on input line 251.
 (pdftex.def)             Requested size: 455.24411pt x 151.77124pt.
-) [17 <./Bilder/Schubknicken.png>] [18 <./Bilder/Holmarten.png>]
+) [18 <./Bilder/Holmarten.png>] [19]
 ("Projektarbeit - Modellierung des Holms.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
@@ -479,7 +495,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
-[19]
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
@@ -499,12 +515,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-[20]
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-<Bilder/Balkenmodell2.jpg, id=160, 792.561pt x 371.58826pt>
+<Bilder/Balkenmodell2.jpg, id=163, 792.561pt x 371.58826pt>
 File: Bilder/Balkenmodell2.jpg Graphic file (type jpg)
 <use Bilder/Balkenmodell2.jpg>
 Package pdftex.def Info: Bilder/Balkenmodell2.jpg  used on input line 49.
@@ -517,7 +533,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
 Underfull \vbox (badness 1087) has occurred while \output is active []
 
- [21]
+ [22]
 Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
@@ -525,7 +541,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22 <./Bilder/Balkenmodell2.jpg>]
+ [23 <./Bilder/Balkenmodell2.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
@@ -553,7 +569,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
 Underfull \vbox (badness 1990) has occurred while \output is active []
 
- [23]
+ [24]
 Underfull \hbox (badness 10000) in paragraph at lines 140--142
 
  []
@@ -588,7 +604,7 @@ OT1/cmr/m/n/10.95 ) = []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
+ [25]
 Underfull \hbox (badness 10000) in paragraph at lines 166--168
 
  []
@@ -614,138 +630,138 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
-<Bilder/Grafiken Steifigkeit.png, id=177, 534.798pt x 476.982pt>
+ [26]
+<Bilder/Grafiken Steifigkeit.png, id=181, 534.798pt x 476.982pt>
 File: Bilder/Grafiken Steifigkeit.png Graphic file (type png)
 <use Bilder/Grafiken Steifigkeit.png>
 Package pdftex.def Info: Bilder/Grafiken Steifigkeit.png  used on input line 18
 2.
 (pdftex.def)             Requested size: 455.24411pt x 406.0334pt.
-<Bilder/Grafiken Festigkeit.png, id=179, 532.99126pt x 471.56175pt>
+<Bilder/Grafiken Festigkeit.png, id=183, 532.99126pt x 471.56175pt>
 File: Bilder/Grafiken Festigkeit.png Graphic file (type png)
 <use Bilder/Grafiken Festigkeit.png>
 Package pdftex.def Info: Bilder/Grafiken Festigkeit.png  used on input line 189
 .
 (pdftex.def)             Requested size: 455.24411pt x 402.78653pt.
 )
-[26] [27 <./Bilder/Grafiken Steifigkeit.png>] [28 <./Bilder/Grafiken Festigkeit
+[27] [28 <./Bilder/Grafiken Steifigkeit.png>] [29 <./Bilder/Grafiken Festigkeit
 .png>] ("Projektarbeit - VDI2013.tex"
-Underfull \hbox (badness 10000) in paragraph at lines 7--9
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
-<Bilder/RechteckHolm.jpg, id=192, 963.6pt x 542.025pt>
+<Bilder/RechteckHolm.jpg, id=195, 963.6pt x 542.025pt>
 File: Bilder/RechteckHolm.jpg Graphic file (type jpg)
 <use Bilder/RechteckHolm.jpg>
-Package pdftex.def Info: Bilder/RechteckHolm.jpg  used on input line 11.
+Package pdftex.def Info: Bilder/RechteckHolm.jpg  used on input line 12.
 (pdftex.def)             Requested size: 455.24411pt x 256.07507pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--18
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
 
  []
 
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
 
 Underfull \vbox (badness 1205) has occurred while \output is active []
 
- [30 <./Bilder/RechteckHolm.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+ [31 <./Bilder/RechteckHolm.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--44
+Underfull \hbox (badness 10000) in paragraph at lines 37--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--48
+Underfull \hbox (badness 10000) in paragraph at lines 46--49
 
  []
 
 
-LaTeX Warning: Reference `gurtlagen' on page 31 undefined on input line 53.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+
+LaTeX Warning: Reference `gurtlagen' on page 33 undefined on input line 54.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-
-Underfull \vbox (badness 1910) has occurred while \output is active []
-
- [31]
-<Bilder/KrummerGurt.jpg, id=202, 1160.83687pt x 342.27875pt>
+<Bilder/KrummerGurt.jpg, id=206, 1160.83687pt x 342.27875pt>
 File: Bilder/KrummerGurt.jpg Graphic file (type jpg)
 <use Bilder/KrummerGurt.jpg>
-Package pdftex.def Info: Bilder/KrummerGurt.jpg  used on input line 59.
+Package pdftex.def Info: Bilder/KrummerGurt.jpg  used on input line 60.
 (pdftex.def)             Requested size: 455.24411pt x 134.2298pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--70
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
-[32 <./Bilder/KrummerGurt.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+[33 <./Bilder/KrummerGurt.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--94
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
-[33]
-<Bilder/Abtriebskraft.jpg, id=210, 535.2497pt x 222.8325pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
+
+ []
+
+[34]
+<Bilder/Abtriebskraft.jpg, id=213, 535.2497pt x 222.8325pt>
 File: Bilder/Abtriebskraft.jpg Graphic file (type jpg)
 <use Bilder/Abtriebskraft.jpg>
-Package pdftex.def Info: Bilder/Abtriebskraft.jpg  used on input line 110.
+Package pdftex.def Info: Bilder/Abtriebskraft.jpg  used on input line 111.
 (pdftex.def)             Requested size: 455.24411pt x 189.53432pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
-[34]
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
 
 Underfull \vbox (badness 5119) has occurred while \output is active []
 
- [35 <./Bilder/Abtriebskraft.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 128--130
+ [36 <./Bilder/Abtriebskraft.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 131--45
+Underfull \hbox (badness 10000) in paragraph at lines 132--45
 
  []
 
-[36] ("Auslegung nach Puck.tex"
+[37] ("Auslegung nach Puck.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -765,7 +781,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-[37]
+[38]
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
@@ -797,7 +813,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
-[38]
+[39]
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 94.
 
@@ -826,7 +842,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
-[39]
+[40]
 Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
@@ -846,7 +862,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
-[40]
+[41]
 Underfull \hbox (badness 10000) in paragraph at lines 192--203
 
  []
@@ -869,12 +885,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--210
 
 Underfull \vbox (badness 6428) has occurred while \output is active []
 
- [41]
+ [42]
 Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
 
-) [42] ("Projektarbeit - Beulabschätzung des Holms.tex"
+) [43] ("Projektarbeit - Beulabschätzung des Holms.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -889,12 +905,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-[43]
+[44]
 Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
 
-[44]
+[45]
 Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
@@ -904,10 +920,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
-[45]
+[46]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46]
+ [47]
 Underfull \hbox (badness 10000) in paragraph at lines 125--127
 
  []
@@ -915,7 +931,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--127
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47]
+ [48]
 Underfull \hbox (badness 10000) in paragraph at lines 153--155
 
  []
@@ -923,48 +939,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--155
 
 Underfull \vbox (badness 6775) has occurred while \output is active []
 
- [48])
-[49] ("Projektarbeit - Auslegung der Verklebungen.tex"
+ [49])
+[50] ("Projektarbeit - Auslegung der Verklebungen.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-[50]
+[51]
 Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
-) [51] (Bolzenberechnung.tex
+) [52] (Bolzenberechnung.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52]
+ [53]
 Underfull \hbox (badness 10000) in paragraph at lines 61--63
 
  []
 
-) [53] (Schubmittelpunkt.tex
-<Bilder/schubfluss-infinit.png, id=274, 592.01175pt x 298.716pt>
+) [54] (Schubmittelpunkt.tex
+<Bilder/schubfluss-infinit.png, id=277, 592.01175pt x 298.716pt>
 File: Bilder/schubfluss-infinit.png Graphic file (type png)
 <use Bilder/schubfluss-infinit.png>
 Package pdftex.def Info: Bilder/schubfluss-infinit.png  used on input line 24.
 (pdftex.def)             Requested size: 455.24411pt x 229.70663pt.
- [54]
+ [55]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55 <./Bilder/schubfluss-infinit.png>] [56]
-<Bilder/Model1.png, id=285, 808.82175pt x 422.7795pt>
+ [56 <./Bilder/schubfluss-infinit.png>] [57]
+<Bilder/Model1.png, id=288, 808.82175pt x 422.7795pt>
 File: Bilder/Model1.png Graphic file (type png)
 <use Bilder/Model1.png>
 Package pdftex.def Info: Bilder/Model1.png  used on input line 60.
 (pdftex.def)             Requested size: 455.24411pt x 237.96124pt.
- [57 <./Bilder/Model1.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [58]
+ [58 <./Bilder/Model1.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [59]
-<Bilder/Flügel-Pol-offen.png, id=295, 541.42274pt x 233.07076pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60]
+<Bilder/Flügel-Pol-offen.png, id=298, 541.42274pt x 233.07076pt>
 File: Bilder/Flügel-Pol-offen.png Graphic file (type png)
 <use Bilder/Flügel-Pol-offen.png>
 Package pdftex.def Info: Bilder/Flügel-Pol-offen.png  used on input line 183.
@@ -973,28 +989,28 @@ Package pdftex.def Info: Bilder/Flügel-Pol-offen.png  used on input line 183.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[60] [61 <./Bilder/Flügel-Pol-offen.png>]
-<Bilder/SMP.png, id=302, 598.03426pt x 194.52675pt>
+[61] [62 <./Bilder/Flügel-Pol-offen.png>]
+<Bilder/SMP.png, id=306, 598.03426pt x 194.52675pt>
 File: Bilder/SMP.png Graphic file (type png)
 <use Bilder/SMP.png>
-Package pdftex.def Info: Bilder/SMP.png  used on input line 260.
+Package pdftex.def Info: Bilder/SMP.png  used on input line 261.
 (pdftex.def)             Requested size: 455.24411pt x 148.07932pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Torsion.png, id=303, 1007.56425pt x 358.33875pt>
+<Bilder/Torsion.png, id=307, 1007.56425pt x 358.33875pt>
 File: Bilder/Torsion.png Graphic file (type png)
 <use Bilder/Torsion.png>
-Package pdftex.def Info: Bilder/Torsion.png  used on input line 266.
+Package pdftex.def Info: Bilder/Torsion.png  used on input line 267.
 (pdftex.def)             Requested size: 455.24411pt x 161.90707pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[62]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[63]
+Underfull \vbox (badness 2644) has occurred while \output is active []
 
- [63 <./Bilder/SMP.png> <./Bilder/Torsion.png>] [64]) [65]
+ [64 <./Bilder/SMP.png> <./Bilder/Torsion.png>] [65]) [66]
 ("Projektarbeit - Auslegung der Flügelschale nach CLT.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
@@ -1005,7 +1021,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) [66] ("Projektarbeit - Beulabschätzung Flügelschale.tex"
+) [67] ("Projektarbeit - Beulabschätzung Flügelschale.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -1023,19 +1039,19 @@ o-dul $[] \OT1/cmr/m/n/10.95 = 8577\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 8\O
 ML/cmm/m/it/10.95 MPa$\T1/cmr/m/n/10.95 .
  []
 
-[67]
+[68]
 Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
-) [68] ("Projektarbeit - FEM.tex"
+) [69] ("Projektarbeit - FEM.tex"
 Overfull \hbox (2.36885pt too wide) in paragraph at lines 5--6
 \T1/cmr/m/n/10.95 F�r die Be-rech-nung der Elas-to-sta-tik sind die Gleich-ge-w
 ichts-be-din-gung (6.1[]), Verzerrungs-Verschie 
  []
 
-[69]) [70] (abaqus.tex
-<Bilder/Flügel_ABAQUS.png, id=333, 831.105pt x 478.78876pt>
+[70]) [71] (abaqus.tex
+<Bilder/Flügel_ABAQUS.png, id=336, 831.105pt x 478.78876pt>
 File: Bilder/Flügel_ABAQUS.png Graphic file (type png)
 <use Bilder/Flügel_ABAQUS.png>
 Package pdftex.def Info: Bilder/Flügel_ABAQUS.png  used on input line 8.
@@ -1045,20 +1061,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--19
 
  []
 
-[71 <./Bilder/Flügel_ABAQUS.png>] [72]
-<Bilder/Absenkung_100N.png, id=341, 590.205pt x 391.4625pt>
+[72 <./Bilder/Flügel_ABAQUS.png>] [73]
+<Bilder/Absenkung_100N.png, id=344, 590.205pt x 391.4625pt>
 File: Bilder/Absenkung_100N.png Graphic file (type png)
 <use Bilder/Absenkung_100N.png>
 Package pdftex.def Info: Bilder/Absenkung_100N.png  used on input line 24.
 (pdftex.def)             Requested size: 236.0778pt x 156.58221pt.
- [73 <./Bilder/Absenkung_100N.png>]
-[74]
-<Bilder/Beuleinspannung.png, id=350, 542.025pt x 422.32782pt>
+ [74 <./Bilder/Absenkung_100N.png>]
+[75]
+<Bilder/Beuleinspannung.png, id=353, 542.025pt x 422.32782pt>
 File: Bilder/Beuleinspannung.png Graphic file (type png)
 <use Bilder/Beuleinspannung.png>
 Package pdftex.def Info: Bilder/Beuleinspannung.png  used on input line 57.
 (pdftex.def)             Requested size: 216.80615pt x 168.92813pt.
-<Bilder/Beulen100N.png, id=351, 833.36343pt x 460.72125pt>
+<Bilder/Beulen100N.png, id=354, 833.36343pt x 460.72125pt>
 File: Bilder/Beulen100N.png Graphic file (type png)
 <use Bilder/Beulen100N.png>
 Package pdftex.def Info: Bilder/Beulen100N.png  used on input line 77.
@@ -1067,15 +1083,15 @@ Package pdftex.def Info: Bilder/Beulen100N.png  used on input line 77.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[75 <./Bilder/Beuleinspannung.png>]) ("Projektarbeit - CAD-Modell.tex"
+[76 <./Bilder/Beuleinspannung.png>]) ("Projektarbeit - CAD-Modell.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
 
-LaTeX Warning: Reference `gurtlagen' on page 76 undefined on input line 5.
+LaTeX Warning: Reference `gurtlagen' on page 77 undefined on input line 5.
 
-<Bilder/Kontur.jpg, id=356, 1445.90187pt x 326.72063pt>
+<Bilder/Kontur.jpg, id=359, 1445.90187pt x 326.72063pt>
 File: Bilder/Kontur.jpg Graphic file (type jpg)
 <use Bilder/Kontur.jpg>
 Package pdftex.def Info: Bilder/Kontur.jpg  used on input line 8.
@@ -1085,8 +1101,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--13
 
  []
 
-[76 <./Bilder/Beulen100N.png>] [77 <./Bilder/Kontur.jpg>]
-<Bilder/StegPrinzip.jpg, id=364, 963.6pt x 542.025pt>
+[77 <./Bilder/Beulen100N.png>] [78 <./Bilder/Kontur.jpg>]
+<Bilder/StegPrinzip.jpg, id=367, 963.6pt x 542.025pt>
 File: Bilder/StegPrinzip.jpg Graphic file (type jpg)
 <use Bilder/StegPrinzip.jpg>
 Package pdftex.def Info: Bilder/StegPrinzip.jpg  used on input line 18.
@@ -1099,8 +1115,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
 Underfull \vbox (badness 2393) has occurred while \output is active []
 
- [78 <./Bilder/StegPrinzip.jpg>]
-<Bilder/Hautuebergang.jpg, id=368, 691.58376pt x 334.75063pt>
+ [79 <./Bilder/StegPrinzip.jpg>]
+<Bilder/Hautuebergang.jpg, id=371, 691.58376pt x 334.75063pt>
 File: Bilder/Hautuebergang.jpg Graphic file (type jpg)
 <use Bilder/Hautuebergang.jpg>
 Package pdftex.def Info: Bilder/Hautuebergang.jpg  used on input line 30.
@@ -1109,12 +1125,12 @@ Package pdftex.def Info: Bilder/Hautuebergang.jpg  used on input line 30.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Klotz.jpg, id=369, 738.25812pt x 441.65pt>
+<Bilder/Klotz.jpg, id=372, 738.25812pt x 441.65pt>
 File: Bilder/Klotz.jpg Graphic file (type jpg)
 <use Bilder/Klotz.jpg>
 Package pdftex.def Info: Bilder/Klotz.jpg  used on input line 38.
 (pdftex.def)             Requested size: 455.24411pt x 272.33757pt.
-[79]
+[80]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1123,26 +1139,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-[80 <./Bilder/Hautuebergang.jpg>]) [81 <./Bilder/Klotz.jpg>]
-("Projektarbeit - Massenabschaetzung.tex" [82]
+[81 <./Bilder/Hautuebergang.jpg>]) [82 <./Bilder/Klotz.jpg>]
+("Projektarbeit - Massenabschaetzung.tex" [83]
 Underfull \vbox (badness 1655) has occurred while \output is active []
 
- [83]
+ [84]
 Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
-[84]) [85] ("Projektarbeit - Anleitung für Flügelbau.tex"
+[85]
+<Bilder/Mumpe.jpg, id=392, 495.8525pt x 200.24812pt>
+File: Bilder/Mumpe.jpg Graphic file (type jpg)
+<use Bilder/Mumpe.jpg>
+Package pdftex.def Info: Bilder/Mumpe.jpg  used on input line 108.
+(pdftex.def)             Requested size: 341.43307pt x 137.88719pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86 <./Bilder/Mumpe.jpg>]) [87] ("Projektarbeit - Anleitung für Flügelbau.te
+x"
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-[86] [87]
+[88] [89]
 Underfull \hbox (badness 10000) in paragraph at lines 37--40
 
  []
 
-) [88] ("Projektarbeit - Zusammenfassung.tex"
+) [90] ("Projektarbeit - Zusammenfassung.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -1162,7 +1188,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-[89]
+[91]
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
@@ -1182,7 +1208,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-[90]
+[92]
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
@@ -1192,7 +1218,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-[91]
+[93]
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
@@ -1202,7 +1228,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-[92]
+[94]
 Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
@@ -1212,19 +1238,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--45
 
  []
 
-[93]
+[95]
 Underfull \hbox (badness 10000) in paragraph at lines 52--66
 
  []
 
-[94]) [95] ("Projektarbeit - Quellenverzeichnis.tex" [96]) [97]
-("Projektarbeit - Main.lof" [98]
-Overfull \hbox (1.53062pt too wide) in paragraph at lines 55--55
- [][] []\T1/cmr/m/n/10.95 Beulfaktor bei Beul-span-nun-gen ei-ner ebe-nen iso-t
-ro-pen Plat-te, ver-schie-de-nen Rand- 
- []
-
-
+[96]) [97] ("Projektarbeit - Quellenverzeichnis.tex" [98]) [99]
+("Projektarbeit - Main.lof" [100]
 Overfull \hbox (1.53062pt too wide) in paragraph at lines 56--56
  [][] []\T1/cmr/m/n/10.95 Beulfaktor bei Beul-span-nun-gen ei-ner ebe-nen iso-t
 ro-pen Plat-te, ver-schie-de-nen Rand- 
@@ -1236,17 +1256,23 @@ Overfull \hbox (1.53062pt too wide) in paragraph at lines 57--57
 ro-pen Plat-te, ver-schie-de-nen Rand- 
  []
 
+
+Overfull \hbox (1.53062pt too wide) in paragraph at lines 58--58
+ [][] []\T1/cmr/m/n/10.95 Beulfaktor bei Beul-span-nun-gen ei-ner ebe-nen iso-t
+ro-pen Plat-te, ver-schie-de-nen Rand- 
+ []
+
 )
 \tf@lof=\write4
 \openout4 = `"Projektarbeit - Main.lof"'.
 
- [99] ("Projektarbeit - Anhang.tex" [100]
+ [101] ("Projektarbeit - Anhang.tex" [102]
 Overfull \hbox (0.58931pt too wide) detected at line 75
 \OML/cmm/m/it/10.95 w\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 y; F[]; F[]; EI[]\
 OT1/cmr/m/n/10.95 ) = []
  []
 
-[101]
+[103]
 Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
@@ -1264,7 +1290,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [102]
+ [104]
 Underfull \hbox (badness 10000) in paragraph at lines 119--121
 
  []
@@ -1297,7 +1323,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [103]
+ [105]
 Underfull \hbox (badness 10000) in paragraph at lines 156--158
 
  []
@@ -1325,7 +1351,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [104]
+ [106]
 Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
@@ -1363,7 +1389,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--224
 
 Underfull \vbox (badness 1769) has occurred while \output is active []
 
- [105]
+ [107]
 Underfull \hbox (badness 10000) in paragraph at lines 229--230
 
  []
@@ -1401,7 +1427,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--267
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [106]
+ [108]
 Overfull \hbox (58.56969pt too wide) detected at line 273
 []
  []
@@ -1454,7 +1480,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 295--297
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [107]
+ [109]
 Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
@@ -1492,7 +1518,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 333--334
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [108]
+ [110]
 Underfull \hbox (badness 10000) in paragraph at lines 340--342
 
  []
@@ -1520,7 +1546,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 370--371
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [109]
+ [111]
 Underfull \hbox (badness 10000) in paragraph at lines 396--397
 
  []
@@ -1530,20 +1556,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 406--407
 
  []
 
-[110]
-<Bilder/Lagenaufbau Holmgurte.png, id=472, 588.39825pt x 178.86826pt>
+[112]
+<Bilder/Lagenaufbau Holmgurte.png, id=479, 588.39825pt x 178.86826pt>
 File: Bilder/Lagenaufbau Holmgurte.png Graphic file (type png)
 <use Bilder/Lagenaufbau Holmgurte.png>
 Package pdftex.def Info: Bilder/Lagenaufbau Holmgurte.png  used on input line 4
 11.
 (pdftex.def)             Requested size: 455.24411pt x 138.39493pt.
-<Bilder/Lagenaufbau Steg dünn.png, id=473, 584.78474pt x 161.403pt>
+<Bilder/Lagenaufbau Steg dünn.png, id=480, 584.78474pt x 161.403pt>
 File: Bilder/Lagenaufbau Steg dünn.png Graphic file (type png)
 <use Bilder/Lagenaufbau Steg dünn.png>
 Package pdftex.def Info: Bilder/Lagenaufbau Steg dünn.png  used on input line 
 416.
 (pdftex.def)             Requested size: 455.24411pt x 125.64755pt.
-<Bilder/Lagenaufbau Steg dick.png, id=474, 343.2825pt x 496.85625pt>
+<Bilder/Lagenaufbau Steg dick.png, id=481, 343.2825pt x 496.85625pt>
 File: Bilder/Lagenaufbau Steg dick.png Graphic file (type png)
 <use Bilder/Lagenaufbau Steg dick.png>
 Package pdftex.def Info: Bilder/Lagenaufbau Steg dick.png  used on input line 4
@@ -1556,7 +1582,7 @@ LaTeX Warning: Float too large for page by 93.09843pt on input line 424.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Lagenaufbau Haut.png, id=475, 668.4975pt x 95.1555pt>
+<Bilder/Lagenaufbau Haut.png, id=482, 668.4975pt x 95.1555pt>
 File: Bilder/Lagenaufbau Haut.png Graphic file (type png)
 <use Bilder/Lagenaufbau Haut.png>
 Package pdftex.def Info: Bilder/Lagenaufbau Haut.png  used on input line 426.
@@ -1564,7 +1590,7 @@ Package pdftex.def Info: Bilder/Lagenaufbau Haut.png  used on input line 426.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Berechnung Holmgurte.png, id=476, 894.9435pt x 463.7325pt>
+<Bilder/Berechnung Holmgurte.png, id=483, 894.9435pt x 463.7325pt>
 File: Bilder/Berechnung Holmgurte.png Graphic file (type png)
 <use Bilder/Berechnung Holmgurte.png>
 Package pdftex.def Info: Bilder/Berechnung Holmgurte.png  used on input line 43
@@ -1573,7 +1599,7 @@ Package pdftex.def Info: Bilder/Berechnung Holmgurte.png  used on input line 43
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Berechnung Steg dünn.png, id=477, 901.56825pt x 440.847pt>
+<Bilder/Berechnung Steg dünn.png, id=484, 901.56825pt x 440.847pt>
 File: Bilder/Berechnung Steg dünn.png Graphic file (type png)
 <use Bilder/Berechnung Steg dünn.png>
 Package pdftex.def Info: Bilder/Berechnung Steg dünn.png  used on input line 4
@@ -1582,7 +1608,7 @@ Package pdftex.def Info: Bilder/Berechnung Steg dünn.png  used on input line 4
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Berechnung Steg dick.png, id=478, 542.025pt x 504.08325pt>
+<Bilder/Berechnung Steg dick.png, id=485, 542.025pt x 504.08325pt>
 File: Bilder/Berechnung Steg dick.png Graphic file (type png)
 <use Bilder/Berechnung Steg dick.png>
 Package pdftex.def Info: Bilder/Berechnung Steg dick.png  used on input line 44
@@ -1591,7 +1617,7 @@ Package pdftex.def Info: Bilder/Berechnung Steg dick.png  used on input line 44
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Berechnung Haut.png, id=479, 1000.33725pt x 342.078pt>
+<Bilder/Berechnung Haut.png, id=486, 1000.33725pt x 342.078pt>
 File: Bilder/Berechnung Haut.png Graphic file (type png)
 <use Bilder/Berechnung Haut.png>
 Package pdftex.def Info: Bilder/Berechnung Haut.png  used on input line 446.
@@ -1599,7 +1625,7 @@ Package pdftex.def Info: Bilder/Berechnung Haut.png  used on input line 446.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/sicher1.png, id=480, 888.31876pt x 524.55975pt>
+<Bilder/sicher1.png, id=487, 888.31876pt x 524.55975pt>
 File: Bilder/sicher1.png Graphic file (type png)
 <use Bilder/sicher1.png>
 Package pdftex.def Info: Bilder/sicher1.png  used on input line 452.
@@ -1607,7 +1633,7 @@ Package pdftex.def Info: Bilder/sicher1.png  used on input line 452.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/sicher2.png, id=481, 900.966pt x 344.487pt>
+<Bilder/sicher2.png, id=488, 900.966pt x 344.487pt>
 File: Bilder/sicher2.png Graphic file (type png)
 <use Bilder/sicher2.png>
 Package pdftex.def Info: Bilder/sicher2.png  used on input line 458.
@@ -1615,7 +1641,7 @@ Package pdftex.def Info: Bilder/sicher2.png  used on input line 458.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/sicher3.png, id=482, 1146.08176pt x 560.0925pt>
+<Bilder/sicher3.png, id=489, 1146.08176pt x 560.0925pt>
 File: Bilder/sicher3.png Graphic file (type png)
 <use Bilder/sicher3.png>
 Package pdftex.def Info: Bilder/sicher3.png  used on input line 463.
@@ -1623,7 +1649,7 @@ Package pdftex.def Info: Bilder/sicher3.png  used on input line 463.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/sicher4.png, id=483, 1153.30875pt x 558.28575pt>
+<Bilder/sicher4.png, id=490, 1153.30875pt x 558.28575pt>
 File: Bilder/sicher4.png Graphic file (type png)
 <use Bilder/sicher4.png>
 Package pdftex.def Info: Bilder/sicher4.png  used on input line 468.
@@ -1631,7 +1657,7 @@ Package pdftex.def Info: Bilder/sicher4.png  used on input line 468.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Konstanten Holmgurte.png, id=484, 595.023pt x 370.38374pt>
+<Bilder/Konstanten Holmgurte.png, id=491, 595.023pt x 370.38374pt>
 File: Bilder/Konstanten Holmgurte.png Graphic file (type png)
 <use Bilder/Konstanten Holmgurte.png>
 Package pdftex.def Info: Bilder/Konstanten Holmgurte.png  used on input line 47
@@ -1640,7 +1666,7 @@ Package pdftex.def Info: Bilder/Konstanten Holmgurte.png  used on input line 47
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Konstanten Steg dünn.png, id=485, 590.205pt x 374.5995pt>
+<Bilder/Konstanten Steg dünn.png, id=492, 590.205pt x 374.5995pt>
 File: Bilder/Konstanten Steg dünn.png Graphic file (type png)
 <use Bilder/Konstanten Steg dünn.png>
 Package pdftex.def Info: Bilder/Konstanten Steg dünn.png  used on input line 4
@@ -1649,7 +1675,7 @@ Package pdftex.def Info: Bilder/Konstanten Steg dünn.png  used on input line 4
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Konstanten Steg dick.png, id=486, 585.98924pt x 369.7815pt>
+<Bilder/Konstanten Steg dick.png, id=493, 585.98924pt x 369.7815pt>
 File: Bilder/Konstanten Steg dick.png Graphic file (type png)
 <use Bilder/Konstanten Steg dick.png>
 Package pdftex.def Info: Bilder/Konstanten Steg dick.png  used on input line 48
@@ -1658,7 +1684,7 @@ Package pdftex.def Info: Bilder/Konstanten Steg dick.png  used on input line 48
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Konstanten Haut.png, id=487, 648.021pt x 371.58826pt>
+<Bilder/Konstanten Haut.png, id=494, 648.021pt x 371.58826pt>
 File: Bilder/Konstanten Haut.png Graphic file (type png)
 <use Bilder/Konstanten Haut.png>
 Package pdftex.def Info: Bilder/Konstanten Haut.png  used on input line 488.
@@ -1666,7 +1692,7 @@ Package pdftex.def Info: Bilder/Konstanten Haut.png  used on input line 488.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Längen.png, id=488, 155.3805pt x 224.037pt>
+<Bilder/Längen.png, id=495, 155.3805pt x 224.037pt>
 File: Bilder/Längen.png Graphic file (type png)
 <use Bilder/Längen.png>
 Package pdftex.def Info: Bilder/Längen.png  used on input line 494.
@@ -1674,7 +1700,7 @@ Package pdftex.def Info: Bilder/Längen.png  used on input line 494.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S1.png, id=489, 598.6365pt x 313.17pt>
+<Bilder/S1.png, id=496, 598.6365pt x 313.17pt>
 File: Bilder/S1.png Graphic file (type png)
 <use Bilder/S1.png>
 Package pdftex.def Info: Bilder/S1.png  used on input line 499.
@@ -1682,7 +1708,7 @@ Package pdftex.def Info: Bilder/S1.png  used on input line 499.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S2.png, id=490, 599.841pt x 313.77225pt>
+<Bilder/S2.png, id=497, 599.841pt x 313.77225pt>
 File: Bilder/S2.png Graphic file (type png)
 <use Bilder/S2.png>
 Package pdftex.def Info: Bilder/S2.png  used on input line 504.
@@ -1690,7 +1716,7 @@ Package pdftex.def Info: Bilder/S2.png  used on input line 504.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S3.png, id=491, 599.841pt x 316.18124pt>
+<Bilder/S3.png, id=498, 599.841pt x 316.18124pt>
 File: Bilder/S3.png Graphic file (type png)
 <use Bilder/S3.png>
 Package pdftex.def Info: Bilder/S3.png  used on input line 508.
@@ -1698,7 +1724,7 @@ Package pdftex.def Info: Bilder/S3.png  used on input line 508.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S4.png, id=492, 598.03426pt x 314.3745pt>
+<Bilder/S4.png, id=499, 598.03426pt x 314.3745pt>
 File: Bilder/S4.png Graphic file (type png)
 <use Bilder/S4.png>
 Package pdftex.def Info: Bilder/S4.png  used on input line 512.
@@ -1706,7 +1732,7 @@ Package pdftex.def Info: Bilder/S4.png  used on input line 512.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S5.png, id=493, 598.6365pt x 318.59026pt>
+<Bilder/S5.png, id=500, 598.6365pt x 318.59026pt>
 File: Bilder/S5.png Graphic file (type png)
 <use Bilder/S5.png>
 Package pdftex.def Info: Bilder/S5.png  used on input line 517.
@@ -1714,7 +1740,7 @@ Package pdftex.def Info: Bilder/S5.png  used on input line 517.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S6.png, id=494, 599.23875pt x 313.17pt>
+<Bilder/S6.png, id=501, 599.23875pt x 313.17pt>
 File: Bilder/S6.png Graphic file (type png)
 <use Bilder/S6.png>
 Package pdftex.def Info: Bilder/S6.png  used on input line 521.
@@ -1722,7 +1748,7 @@ Package pdftex.def Info: Bilder/S6.png  used on input line 521.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S7.png, id=495, 599.23875pt x 313.77225pt>
+<Bilder/S7.png, id=502, 599.23875pt x 313.77225pt>
 File: Bilder/S7.png Graphic file (type png)
 <use Bilder/S7.png>
 Package pdftex.def Info: Bilder/S7.png  used on input line 525.
@@ -1730,7 +1756,7 @@ Package pdftex.def Info: Bilder/S7.png  used on input line 525.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S8.png, id=496, 598.6365pt x 316.7835pt>
+<Bilder/S8.png, id=503, 598.6365pt x 316.7835pt>
 File: Bilder/S8.png Graphic file (type png)
 <use Bilder/S8.png>
 Package pdftex.def Info: Bilder/S8.png  used on input line 529.
@@ -1738,7 +1764,7 @@ Package pdftex.def Info: Bilder/S8.png  used on input line 529.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S9.png, id=497, 598.6365pt x 313.77225pt>
+<Bilder/S9.png, id=504, 598.6365pt x 313.77225pt>
 File: Bilder/S9.png Graphic file (type png)
 <use Bilder/S9.png>
 Package pdftex.def Info: Bilder/S9.png  used on input line 533.
@@ -1746,7 +1772,7 @@ Package pdftex.def Info: Bilder/S9.png  used on input line 533.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/S10.png, id=498, 596.2275pt x 311.9655pt>
+<Bilder/S10.png, id=505, 596.2275pt x 311.9655pt>
 File: Bilder/S10.png Graphic file (type png)
 <use Bilder/S10.png>
 Package pdftex.def Info: Bilder/S10.png  used on input line 537.
@@ -1754,287 +1780,140 @@ Package pdftex.def Info: Bilder/S10.png  used on input line 537.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[111 <./Bilder/Lagenaufbau Holmgurte.png> <./Bilder/Lagenaufbau Steg dünn.png>
+[113 <./Bilder/Lagenaufbau Holmgurte.png> <./Bilder/Lagenaufbau Steg dünn.png>
 ]
+<PDFs/Explosionsdarstellung.pdf, id=511, 845.1575pt x 597.23125pt>
+File: PDFs/Explosionsdarstellung.pdf Graphic file (type pdf)
+<use PDFs/Explosionsdarstellung.pdf>
+Package pdftex.def Info: PDFs/Explosionsdarstellung.pdf  used on input line 544
+.
+(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 
-pdfTeX warning: pdflatex.exe (file ./PDFs/ExplosionConvBez.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-<PDFs/ExplosionConvBez.pdf, id=504, 597.55246pt x 845.07718pt>
-File: PDFs/ExplosionConvBez.pdf Graphic file (type pdf)
-<use PDFs/ExplosionConvBez.pdf>
-Package pdftex.def Info: PDFs/ExplosionConvBez.pdf  used on input line 543.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./PDFs/ExplosionConvBez.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-File: PDFs/ExplosionConvBez.pdf Graphic file (type pdf)
-<use PDFs/ExplosionConvBez.pdf>
-Package pdftex.def Info: PDFs/ExplosionConvBez.pdf  used on input line 543.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+Overfull \hbox (82.25905pt too wide) in paragraph at lines 544--546
+ [][] 
+ []
 
 
-pdfTeX warning: pdflatex.exe (file ./PDFs/ExplosionConvBez.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
+LaTeX Warning: Float too large for page by 169.10454pt on input line 546.
+
+<PDFs/Profilkontur.pdf, id=512, 845.1575pt x 597.23125pt>
+File: PDFs/Profilkontur.pdf Graphic file (type pdf)
+<use PDFs/Profilkontur.pdf>
+Package pdftex.def Info: PDFs/Profilkontur.pdf  used on input line 548.
+(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
+
+Overfull \hbox (82.25905pt too wide) in paragraph at lines 548--550
+ [][] 
+ []
 
 
-pdfTeX warning: pdflatex.exe (file ./PDFs/ExplosionConvBez.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-<PDFs/ExplosionConvBez.pdf, id=507, page=1, 597.55246pt x 845.07718pt>
-File: PDFs/ExplosionConvBez.pdf Graphic file (type pdf)
-<use PDFs/ExplosionConvBez.pdf, page 1>
-Package pdftex.def Info: PDFs/ExplosionConvBez.pdf , page1 used on input line 5
-43.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: PDFs/ExplosionConvBez.pdf Graphic file (type pdf)
-<use PDFs/ExplosionConvBez.pdf, page 1>
-Package pdftex.def Info: PDFs/ExplosionConvBez.pdf , page1 used on input line 5
-43.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: PDFs/ExplosionConvBez.pdf Graphic file (type pdf)
-<use PDFs/ExplosionConvBez.pdf, page 1>
-Package pdftex.def Info: PDFs/ExplosionConvBez.pdf , page1 used on input line 5
-43.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: PDFs/ExplosionConvBez.pdf Graphic file (type pdf)
-<use PDFs/ExplosionConvBez.pdf, page 1>
-Package pdftex.def Info: PDFs/ExplosionConvBez.pdf , page1 used on input line 5
-43.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: PDFs/ExplosionConvBez.pdf Graphic file (type pdf)
-<use PDFs/ExplosionConvBez.pdf, page 1>
-Package pdftex.def Info: PDFs/ExplosionConvBez.pdf , page1 used on input line 5
-43.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[112 <./PDFs/ExplosionConvBez.pdf>]
+LaTeX Warning: Float too large for page by 169.10454pt on input line 550.
 
-pdfTeX warning: pdflatex.exe (file ./PDFs/ProfilkonturConv.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-<PDFs/ProfilkonturConv.pdf, id=521, 597.55246pt x 845.07718pt>
-File: PDFs/ProfilkonturConv.pdf Graphic file (type pdf)
-<use PDFs/ProfilkonturConv.pdf>
-Package pdftex.def Info: PDFs/ProfilkonturConv.pdf  used on input line 544.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./PDFs/ProfilkonturConv.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-File: PDFs/ProfilkonturConv.pdf Graphic file (type pdf)
-<use PDFs/ProfilkonturConv.pdf>
-Package pdftex.def Info: PDFs/ProfilkonturConv.pdf  used on input line 544.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./PDFs/ProfilkonturConv.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex.exe (file ./PDFs/ProfilkonturConv.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-<PDFs/ProfilkonturConv.pdf, id=524, page=1, 597.55246pt x 845.07718pt>
-File: PDFs/ProfilkonturConv.pdf Graphic file (type pdf)
-<use PDFs/ProfilkonturConv.pdf, page 1>
-Package pdftex.def Info: PDFs/ProfilkonturConv.pdf , page1 used on input line 5
-44.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: PDFs/ProfilkonturConv.pdf Graphic file (type pdf)
-<use PDFs/ProfilkonturConv.pdf, page 1>
-Package pdftex.def Info: PDFs/ProfilkonturConv.pdf , page1 used on input line 5
-44.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: PDFs/ProfilkonturConv.pdf Graphic file (type pdf)
-<use PDFs/ProfilkonturConv.pdf, page 1>
-Package pdftex.def Info: PDFs/ProfilkonturConv.pdf , page1 used on input line 5
-44.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: PDFs/ProfilkonturConv.pdf Graphic file (type pdf)
-<use PDFs/ProfilkonturConv.pdf, page 1>
-Package pdftex.def Info: PDFs/ProfilkonturConv.pdf , page1 used on input line 5
-44.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: PDFs/ProfilkonturConv.pdf Graphic file (type pdf)
-<use PDFs/ProfilkonturConv.pdf, page 1>
-Package pdftex.def Info: PDFs/ProfilkonturConv.pdf , page1 used on input line 5
-44.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[113 <./PDFs/ProfilkonturConv.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./PDFs/KlotzVorne.pdf): PDF inclusion: found
- PDF version <1.7>, but at most version <1.5> allowed
-<PDFs/KlotzVorne.pdf, id=537, 597.55246pt x 845.07718pt>
+<PDFs/KlotzVorne.pdf, id=513, 845.1575pt x 597.23125pt>
 File: PDFs/KlotzVorne.pdf Graphic file (type pdf)
 <use PDFs/KlotzVorne.pdf>
-Package pdftex.def Info: PDFs/KlotzVorne.pdf  used on input line 545.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+Package pdftex.def Info: PDFs/KlotzVorne.pdf  used on input line 552.
+(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
+
+Overfull \hbox (82.25905pt too wide) in paragraph at lines 552--554
+ [][] 
+ []
 
 
-pdfTeX warning: pdflatex.exe (file ./PDFs/KlotzVorne.pdf): PDF inclusion: found
- PDF version <1.7>, but at most version <1.5> allowed
-File: PDFs/KlotzVorne.pdf Graphic file (type pdf)
-<use PDFs/KlotzVorne.pdf>
-Package pdftex.def Info: PDFs/KlotzVorne.pdf  used on input line 545.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+LaTeX Warning: Float too large for page by 169.10454pt on input line 554.
 
-
-pdfTeX warning: pdflatex.exe (file ./PDFs/KlotzVorne.pdf): PDF inclusion: found
- PDF version <1.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex.exe (file ./PDFs/KlotzVorne.pdf): PDF inclusion: found
- PDF version <1.7>, but at most version <1.5> allowed
-<PDFs/KlotzVorne.pdf, id=540, page=1, 597.55246pt x 845.07718pt>
-File: PDFs/KlotzVorne.pdf Graphic file (type pdf)
-<use PDFs/KlotzVorne.pdf, page 1>
-Package pdftex.def Info: PDFs/KlotzVorne.pdf , page1 used on input line 545.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: PDFs/KlotzVorne.pdf Graphic file (type pdf)
-<use PDFs/KlotzVorne.pdf, page 1>
-Package pdftex.def Info: PDFs/KlotzVorne.pdf , page1 used on input line 545.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: PDFs/KlotzVorne.pdf Graphic file (type pdf)
-<use PDFs/KlotzVorne.pdf, page 1>
-Package pdftex.def Info: PDFs/KlotzVorne.pdf , page1 used on input line 545.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: PDFs/KlotzVorne.pdf Graphic file (type pdf)
-<use PDFs/KlotzVorne.pdf, page 1>
-Package pdftex.def Info: PDFs/KlotzVorne.pdf , page1 used on input line 545.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: PDFs/KlotzVorne.pdf Graphic file (type pdf)
-<use PDFs/KlotzVorne.pdf, page 1>
-Package pdftex.def Info: PDFs/KlotzVorne.pdf , page1 used on input line 545.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[114 <./PDFs/KlotzVorne.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./PDFs/Holmquerschnitte.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-<PDFs/Holmquerschnitte.pdf, id=553, 597.55246pt x 845.07718pt>
+<PDFs/Holmquerschnitte.pdf, id=514, 845.1575pt x 597.23125pt>
 File: PDFs/Holmquerschnitte.pdf Graphic file (type pdf)
 <use PDFs/Holmquerschnitte.pdf>
-Package pdftex.def Info: PDFs/Holmquerschnitte.pdf  used on input line 546.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+Package pdftex.def Info: PDFs/Holmquerschnitte.pdf  used on input line 556.
+(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
+
+Overfull \hbox (82.25905pt too wide) in paragraph at lines 556--558
+ [][] 
+ []
 
 
-pdfTeX warning: pdflatex.exe (file ./PDFs/Holmquerschnitte.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-File: PDFs/Holmquerschnitte.pdf Graphic file (type pdf)
-<use PDFs/Holmquerschnitte.pdf>
-Package pdftex.def Info: PDFs/Holmquerschnitte.pdf  used on input line 546.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+LaTeX Warning: Float too large for page by 169.10454pt on input line 558.
 
-
-pdfTeX warning: pdflatex.exe (file ./PDFs/Holmquerschnitte.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex.exe (file ./PDFs/Holmquerschnitte.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-<PDFs/Holmquerschnitte.pdf, id=556, page=1, 597.55246pt x 845.07718pt>
-File: PDFs/Holmquerschnitte.pdf Graphic file (type pdf)
-<use PDFs/Holmquerschnitte.pdf, page 1>
-Package pdftex.def Info: PDFs/Holmquerschnitte.pdf , page1 used on input line 5
-46.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: PDFs/Holmquerschnitte.pdf Graphic file (type pdf)
-<use PDFs/Holmquerschnitte.pdf, page 1>
-Package pdftex.def Info: PDFs/Holmquerschnitte.pdf , page1 used on input line 5
-46.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: PDFs/Holmquerschnitte.pdf Graphic file (type pdf)
-<use PDFs/Holmquerschnitte.pdf, page 1>
-Package pdftex.def Info: PDFs/Holmquerschnitte.pdf , page1 used on input line 5
-46.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: PDFs/Holmquerschnitte.pdf Graphic file (type pdf)
-<use PDFs/Holmquerschnitte.pdf, page 1>
-Package pdftex.def Info: PDFs/Holmquerschnitte.pdf , page1 used on input line 5
-46.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: PDFs/Holmquerschnitte.pdf Graphic file (type pdf)
-<use PDFs/Holmquerschnitte.pdf, page 1>
-Package pdftex.def Info: PDFs/Holmquerschnitte.pdf , page1 used on input line 5
-46.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[115 <./PDFs/Holmquerschnitte.pdf>]
-<Bilder/AufbauGesamt.jpg, id=569, 623.83063pt x 419.06563pt>
+<Bilder/AufbauGesamt.jpg, id=515, 623.83063pt x 419.06563pt>
 File: Bilder/AufbauGesamt.jpg Graphic file (type jpg)
 <use Bilder/AufbauGesamt.jpg>
-Package pdftex.def Info: Bilder/AufbauGesamt.jpg  used on input line 549.
+Package pdftex.def Info: Bilder/AufbauGesamt.jpg  used on input line 562.
 (pdftex.def)             Requested size: 455.24411pt x 305.81944pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/SeiteRichtig.jpg, id=570, 723.20187pt x 331.73938pt>
+<Bilder/SeiteRichtig.jpg, id=516, 723.20187pt x 331.73938pt>
 File: Bilder/SeiteRichtig.jpg Graphic file (type jpg)
 <use Bilder/SeiteRichtig.jpg>
-Package pdftex.def Info: Bilder/SeiteRichtig.jpg  used on input line 555.
+Package pdftex.def Info: Bilder/SeiteRichtig.jpg  used on input line 568.
 (pdftex.def)             Requested size: 455.24411pt x 208.8248pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/MontagePlatte.jpg, id=571, 998.73125pt x 460.72125pt>
+<Bilder/MontagePlatte.jpg, id=517, 998.73125pt x 460.72125pt>
 File: Bilder/MontagePlatte.jpg Graphic file (type jpg)
 <use Bilder/MontagePlatte.jpg>
-Package pdftex.def Info: Bilder/MontagePlatte.jpg  used on input line 561.
+Package pdftex.def Info: Bilder/MontagePlatte.jpg  used on input line 574.
 (pdftex.def)             Requested size: 455.24411pt x 210.00812pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Material_GFK.png, id=572, 522.45187pt x 478.03593pt>
+<Bilder/Material_GFK.png, id=518, 522.45187pt x 478.03593pt>
 File: Bilder/Material_GFK.png Graphic file (type png)
 <use Bilder/Material_GFK.png>
-Package pdftex.def Info: Bilder/Material_GFK.png  used on input line 566.
+Package pdftex.def Info: Bilder/Material_GFK.png  used on input line 579.
 (pdftex.def)             Requested size: 364.19667pt x 333.23695pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Steg_Material.png, id=573, 469.00218pt x 368.87813pt>
+<Bilder/Steg_Material.png, id=519, 469.00218pt x 368.87813pt>
 File: Bilder/Steg_Material.png Graphic file (type png)
 <use Bilder/Steg_Material.png>
-Package pdftex.def Info: Bilder/Steg_Material.png  used on input line 572.
+Package pdftex.def Info: Bilder/Steg_Material.png  used on input line 585.
 (pdftex.def)             Requested size: 364.19667pt x 286.44608pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Hertel Druck.png, id=574, 366.77025pt x 467.346pt>
+<Bilder/Hertel Druck.png, id=520, 366.77025pt x 467.346pt>
 File: Bilder/Hertel Druck.png Graphic file (type png)
 <use Bilder/Hertel Druck.png>
-Package pdftex.def Info: Bilder/Hertel Druck.png  used on input line 578.
+Package pdftex.def Info: Bilder/Hertel Druck.png  used on input line 591.
 (pdftex.def)             Requested size: 341.43307pt x 435.08366pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Hertel Biegung.png, id=575, 325.81725pt x 457.71pt>
+<Bilder/Hertel Biegung.png, id=521, 325.81725pt x 457.71pt>
 File: Bilder/Hertel Biegung.png Graphic file (type png)
 <use Bilder/Hertel Biegung.png>
-Package pdftex.def Info: Bilder/Hertel Biegung.png  used on input line 584.
+Package pdftex.def Info: Bilder/Hertel Biegung.png  used on input line 597.
 (pdftex.def)             Requested size: 341.43307pt x 479.65288pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Hertel Schub.png, id=576, 325.215pt x 349.305pt>
+<Bilder/Hertel Schub.png, id=522, 325.215pt x 349.305pt>
 File: Bilder/Hertel Schub.png Graphic file (type png)
 <use Bilder/Hertel Schub.png>
-Package pdftex.def Info: Bilder/Hertel Schub.png  used on input line 590.
+Package pdftex.def Info: Bilder/Hertel Schub.png  used on input line 603.
 (pdftex.def)             Requested size: 341.43307pt x 366.75441pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Hertel Sicherheit.png, id=577, 278.2395pt x 348.70274pt>
+<Bilder/Hertel Sicherheit.png, id=523, 278.2395pt x 348.70274pt>
 File: Bilder/Hertel Sicherheit.png Graphic file (type png)
 <use Bilder/Hertel Sicherheit.png>
-Package pdftex.def Info: Bilder/Hertel Sicherheit.png  used on input line 596.
+Package pdftex.def Info: Bilder/Hertel Sicherheit.png  used on input line 609.
 (pdftex.def)             Requested size: 227.62206pt x 285.26767pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Hertel Sandwich.png, id=578, 234.27525pt x 213.1965pt>
+<Bilder/Hertel Sandwich.png, id=524, 234.27525pt x 213.1965pt>
 File: Bilder/Hertel Sandwich.png Graphic file (type png)
 <use Bilder/Hertel Sandwich.png>
-Package pdftex.def Info: Bilder/Hertel Sandwich.png  used on input line 602.
+Package pdftex.def Info: Bilder/Hertel Sandwich.png  used on input line 615.
 (pdftex.def)             Requested size: 227.62206pt x 207.14842pt.
 
-Underfull \hbox (badness 2326) in paragraph at lines 604--604
+Underfull \hbox (badness 2326) in paragraph at lines 617--617
 []\T1/cmr/m/n/10.95 Abbildung 11.37: Sand-wich-plat-te mit un-ter-schied-li-che
 n Haut-st�r-ken, Beul-stei-fig-keit, f�r
  []
@@ -2042,29 +1921,33 @@ n Haut-st�r-ken, Beul-stei-fig-keit, f�r
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [116 <./Bilder/Lagenaufbau Steg dick.png>] [117 <./Bilder/Lagenaufbau Haut.pn
-g> <./Bilder/Berechnung Holmgurte.png>] [118 <./Bilder/Berechnung Steg dünn.pn
-g>] [119 <./Bilder/Berechnung Steg dick.png>] [120 <./Bilder/Berechnung Haut.pn
-g> <./Bilder/sicher1.png>] [121 <./Bilder/sicher2.png> <./Bilder/sicher3.png>]
-[122 <./Bilder/sicher4.png> <./Bilder/Konstanten Holmgurte.png>] [123 <./Bilder
-/Konstanten Steg dünn.png>] [124 <./Bilder/Konstanten Steg dick.png>] [125 <./
-Bilder/Konstanten Haut.png> <./Bilder/Längen.png>] [126 <./Bilder/S1.png> <./B
-ilder/S2.png>] [127 <./Bilder/S3.png> <./Bilder/S4.png>] [128 <./Bilder/S5.png>
- <./Bilder/S6.png>] [129 <./Bilder/S7.png> <./Bilder/S8.png>] [130 <./Bilder/S9
-.png> <./Bilder/S10.png>] [131 <./Bilder/AufbauGesamt.jpg> <./Bilder/SeiteRicht
-ig.jpg>] [132 <./Bilder/MontagePlatte.jpg>] [133 <./Bilder/Material_GFK.png>]
-[134 <./Bilder/Steg_Material.png>] [135 <./Bilder/Hertel Druck.png>] [136 <./Bi
-lder/Hertel Biegung.png>] [137 <./Bilder/Hertel Schub.png>] [138 <./Bilder/Hert
-el Sicherheit.png> <./Bilder/Hertel Sandwich.png>] ("Projektarbeit - Main.aux")
+) [114 <./Bilder/Lagenaufbau Steg dick.png>] [115 <./Bilder/Lagenaufbau Haut.pn
+g> <./Bilder/Berechnung Holmgurte.png>] [116 <./Bilder/Berechnung Steg dünn.pn
+g>] [117 <./Bilder/Berechnung Steg dick.png>] [118 <./Bilder/Berechnung Haut.pn
+g> <./Bilder/sicher1.png>] [119 <./Bilder/sicher2.png> <./Bilder/sicher3.png>]
+[120 <./Bilder/sicher4.png> <./Bilder/Konstanten Holmgurte.png>] [121 <./Bilder
+/Konstanten Steg dünn.png>] [122 <./Bilder/Konstanten Steg dick.png>] [123 <./
+Bilder/Konstanten Haut.png> <./Bilder/Längen.png>] [124 <./Bilder/S1.png> <./B
+ilder/S2.png>] [125 <./Bilder/S3.png> <./Bilder/S4.png>] [126 <./Bilder/S5.png>
+ <./Bilder/S6.png>] [127 <./Bilder/S7.png> <./Bilder/S8.png>] [128 <./Bilder/S9
+.png> <./Bilder/S10.png>] [129 <./PDFs/Explosionsdarstellung.pdf, page is rotat
+ed 90 degrees>] [130 <./PDFs/Profilkontur.pdf, page is rotated 90 degrees>]
+[131 <./PDFs/KlotzVorne.pdf, page is rotated 90 degrees>] [132 <./PDFs/Holmquer
+schnitte.pdf, page is rotated 90 degrees>] [133 <./Bilder/AufbauGesamt.jpg> <./
+Bilder/SeiteRichtig.jpg>] [134 <./Bilder/MontagePlatte.jpg>] [135 <./Bilder/Mat
+erial_GFK.png>] [136 <./Bilder/Steg_Material.png>] [137 <./Bilder/Hertel Druck.
+png>] [138 <./Bilder/Hertel Biegung.png>] [139 <./Bilder/Hertel Schub.png>]
+[140 <./Bilder/Hertel Sicherheit.png> <./Bilder/Hertel Sandwich.png>]
+("Projektarbeit - Main.aux")
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5528 strings out of 479799
- 85841 string characters out of 2869723
- 394835 words of memory out of 3000000
- 22300 multiletter control sequences out of 15000+200000
+ 5514 strings out of 479799
+ 85268 string characters out of 2869723
+ 392744 words of memory out of 3000000
+ 22289 multiletter control sequences out of 15000+200000
  546097 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,23n,80p,2204b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2088,9 +1971,9 @@ ublic/amsfonts/cm/cmr8.pfb><C:/Users/Henri/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Henri/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Henri/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Projektarbeit - Main.pdf" (143 pages, 5111859 bytes).
+Output written on "Projektarbeit - Main.pdf" (145 pages, 4395172 bytes).
 PDF statistics:
- 1097 PDF objects out of 1200 (max. 8388607)
+ 1100 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 406 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 351 words of extra memory for PDF output out of 10000 (max. 10000000)
 
