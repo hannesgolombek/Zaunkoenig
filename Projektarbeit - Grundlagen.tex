@@ -4,10 +4,12 @@ Glasfasern gelten als älteste synthetische Faserart und wurden schon vor 3500 J
 Die hohe Festigkeit der Glasfaser beruht auf den kovalenten Bindungen von Silizium- und Sauerstoff-Atomen. Zugesetzte Metalloxide verhindern eine Ausbildung eines geordneten Gefüges und erhöhen somit zusätzlich die Festigkeit. Die Fasern können in Längsrichtung sehr hohe Kräfte aufnehmen, jedoch nicht in Querrichtung. Deshalb werden sie in eine Matrix integriert, die die Querkräfte aufnimmt und die Faser vor dem Knicken schützt. Glasfasern lassen sich auch um enge Radien sehr gut drapieren und sind durch ihre einfache Herstellungsweise im Vergleich zu anderen Faserarten sehr preiswert \cite{item4}.
 Durch die zuvor erläuterten Eigenschaften sind Glasfasern sehr gut für dieses Projekt geeignet, für einen größeren Flügel wäre jedoch der Elastizitätsmodul zu gering und es müsste auf andere Fasern, wie zum Beispiel Kohlefasern, zurückgegriffen werden. 
 Für die Konstruktion des Flügels stehen die Glasfasern Interglas 90070 (bidirektional) und Interglas 92145 (idealisiert unidirektional) des Herstellers Interglas Technologies zur Verfügung. 
-
+\parskip
+\parskip
 \subsection{Matrix (H.G.)}
 Unter der Matrix versteht man den Fasern umgebenden Teil des Faserverbundstoffs. Dabei werden im Bereich des Faser-Kunststoff-Verbunds Polymere, wie z.B. Epoxidharz, verwendet. Die Matrix ist meist der schwache Teil des FKV und hat die Aufgabe, die Fasern gegen Knicken bei Druckbelastung zu schützen und eine gleichmäßige Krafteinleitung in die Fasern zu ermöglichen. Zusätzlich hält sie die Fasern in Position und verhindert Reibung zwischen den einzelnen Fasern \cite{item3}.\\
 Für den Flügel wird der Epoxy-Kunststoff L 385 des Herstellers \textit{MGScheufler} zusammen mit dem Härter H 386 im Mischverhältnis 100/40 verwendet.
+\newpage
 \subsection{Netztheorie (H.G.)}
 Bevor die klassische Laminattheorie entwickelt wurde, verwendete man die sogenannte Netztheorie. 
 Bei der Netztheorie wird das Mittragen der Matrix vernachlässigt. Dadurch lassen sich die Schichtkräfte mit Hilfe eines Kräftegleichgewichts bestimmen. 
@@ -25,6 +27,7 @@ Für die Verwendung der Netztheorie sollte das Gelege zunächst in ein Hauptachs
 Da der gesamte Kraftfluss als Summe der Kraftflüsse in den einzelnen Fasern angenommen werden kann, lässt sich dadurch der Kraftfluss in den einzelnen Faserschichten und somit die benötigte Dicke der Schichten, bzw. die Anzahl der Lagen bestimmen\cite{item3}.
 
 \noindent In der folgenden Berechnung wird die Netztheorie jedoch nicht verwendet, da die Auslegung vorerst mit der VDI 2013 erfolgt und anhand der Klassischen Laminattheorie.
+\newpage
 \subsection{Klassische Laminattheorie (H.G.)}\label{CLT}
 Das Prinzip der klassischen Laminattheorie ist die Beschreibung des Elastizitätsgesetzes eines MSV durch die Elastizitätsgesetze der einzelnen Schichten. Dies lässt sich durch die Annahme eines ideal elastischen und fehlerfrei verklebten Mehrschichtverbund (MSV), wovon ein infinitesimales Scheibenelement betrachtet wird, realisieren. Zusätzlich gilt die Annahme, dass ein ebener Spannungszustand vorliegt, die Schnittspannungen über die Dicke konstant sind und keine Verwölbungen auftreten.\\
 \noindent
@@ -67,16 +70,25 @@ A_{16}&A_{26}&A_{66}
 \hat{\gamma}_{xy}\\
 \end{Bmatrix}
 \end{gather}
+\noindent
 Die Verzerrung des MSV und somit auch die Verzerrung der Einzelschichten, lässt sich nun durch die Umstellung von Gleichung \ref{Aep} bestimmen.
 \begin{equation}
+\label{SpannungDehnung}
 \lbrace\hat{\varepsilon}\rbrace = [A]^{-1}\cdot\lbrace \hat{n}\rbrace
 \end{equation}
-Mit Gleichung \ref{AQ} lässt sich nun eine Beziehung  zwischen $[A]$ und der Schichtsteifigkeitsmatrix $[Q]$ finden.
+\noindent
+Um die Matrix A zu bestimmen werden die Steifigkeitsmatritzen der Einzelschichten $[Q]$ benötigt. Diese lassen sich mit Hilfe der E-Moduln, Querkontraktionszahlen definieren.
 \begin{equation}
-\label{AQ}
-	A_{ij}= \sum_{k=1}^{2} \overline{Q}_{ij,k}\cdot t_{k}
+[Q]
+=
+\begin{bmatrix}
+\frac{E_{\|}}{1-\nu_{\bot\|}\cdot \nu_{\|}\bot}&\frac{\nu_{\bot\|}\cdot E_{\bot}}{1-\nu_{\bot\|}\cdot \nu_{\|}\bot}&0\\
+\frac{\nu_{\|\bot}\cdot E_{\|}}{1-\nu_{\bot\|}\cdot \nu_{\|}\bot}&\frac{E_{\bot}}{1-\nu_{\bot\|}\cdot \nu_{\|}\bot}&0\\
+0&0&G_{\bot\|}
+\end{bmatrix}
 \end{equation}
-Als nächstes muss die Steifigkeitsmatrix noch in die Richtung der Einzelschichten mit dem Faserwinkel $\alpha_{k}$ und der Transformationsmatrix $[T]$ transformiert werden.\\
+\noindent
+Da manche Faserschichten um einen Winkel $\alpha$ gedreht sein können, muss für diese Schichten die Steifigkeitsmatrix mit Hilfe der Transformationsmatrix $[T]$  nach der Transformationsregel aus Gleichung \ref{trafo} transforniert werden.
 \begin{equation}
 	\underline{\underline{T}}=
 	\begin{bmatrix}
@@ -85,29 +97,16 @@ Als nächstes muss die Steifigkeitsmatrix noch in die Richtung der Einzelschicht
 		0,5\cdot \sin2\alpha&-0,5\cdot\sin2\alpha&\cos 2\alpha
 	\end{bmatrix}
 \end{equation}\\
+\begin{equation}
+\label{trafo}
+	\overline{\underline{\underline{Q}}}=\underline{\underline{T}}\cdot \underline{\underline{Q}} \cdot \underline{\underline{T}}^{T}  
+\end{equation}\\
 \noindent
-Nun lässt sich mit Hilfe der E-Moduln, Querkontraktionszahlen und der Steifigkeitsmatrix $[Q]$ die Spannung in den einzelnen Fasern bestimmen.
-\begin{gather}
-\label{Faserspannung}
-\begin{Bmatrix}
-\sigma_{1}\\
-\sigma_{2}\\
-\tau_{21}
-\end{Bmatrix}
-=
-\begin{bmatrix}
-\frac{E_{\|}}{1-\nu_{\bot\|}\cdot \nu_{\|}\bot}&\frac{\nu_{\bot\|}\cdot E_{\bot}}{1-\nu_{\bot\|}\cdot \nu_{\|}\bot}&0\\
-\frac{\nu_{\|\bot}\cdot E_{\|}}{1-\nu_{\bot\|}\cdot \nu_{\|}\bot}&\frac{E_{\bot}}{1-\nu_{\bot\|}\cdot \nu_{\|}\bot}&0\\
-0&0&G_{\bot\|}
-\end{bmatrix}
-\begin{Bmatrix}
-\varepsilon_{1}\\
-\varepsilon_{2}\\
-\gamma_{21}
-\end{Bmatrix}
-=
-[Q]\cdot \lbrace\varepsilon\rbrace
-\end{gather}
+Nun lässt sich die Scheibensteifigkeits-Matrix [A] aus den Steifigkeitsmatritzen der einzelnen Schichten zusammensetzen (siehe Glg.\ref{AQ}).
+\begin{equation}
+\label{AQ}
+	A_{ij}= \sum_{k=1}^{n} \overline{Q}_{ij,k}\cdot t_{k}
+\end{equation}
 \noindent
 Um ein passende Anzahl an Faserschichten zu bekommen kann das Ergebnis nun iterativ angepasst werden.\cite{item3}
 \subsubsection{Ingenieurskonstanten des MSV}
@@ -125,9 +124,39 @@ Diese lassen sich experimentell über z.B. einen Zugversuch oder rechnerisch aus
 \hat{\nu}_{yx}=-\frac{A_{12}^{-1}}{A_{11}^{-1}}
 \end{equation}
 \noindent
+Die Spannungen lassen sich jetzt durch Gleichung \ref{SpannungDehnung} errechnen.\\
+\noindent
 Bei den Elastizitätsmoduln ist darauf zu achten, dass es sich um Moduln ohne Querkontraktionsbehinderung handelt \cite{item3}.
+\subsubsection{Plattenelement}
+Um ein Plattenelement zu Berechnen werden zusätzliche Beziehungen benötigt, da nun ein zweiachsiger Spannungszustand vorliegt. Zu Gleichung \ref{AQ} kommen nun noch 2 weitere Gleichungen (siehe Glg.\ref{BQ}/\ref{DQ}) hinzu. $|z_{k}|$ ist der Abstand zwischen den Schichten.
+\begin{equation}
+\label{BQ}
+	B_{ij}= \cdot \sum_{k=1}^{n} \overline{Q}_{ij,k}\cdot t_{k}\cdot \left(z_{k}-\frac{t_{k}}{2}\right)
+\end{equation}
+\begin{equation}
+\label{DQ} 
+	D_{ij}=\sum_{k=1}^{n} \overline{Q}_{ij,k}\cdot \left(\frac{t_{k}^{3}}{12}+t_{k}\left(z_{k}-\frac{t_{k}}{2}\right)^{2}\right)
+\end{equation}
+\noindent
+Nun lässt sich die Scheiben-Platten-Beziehung als Gleichung \ref{S-P} schreiben.\cite{item3}
+\begin{equation}
+\label{S-P}
+	\begin{pmatrix}
+		\hat{\underline{n}}\\
+		\hat{\underline{m}}
+	\end{pmatrix}
+	= \begin{bmatrix}
+		\underline{\underline{A}}&\underline{\underline{B}}\\
+		\underline{\underline{B}}&\underline{\underline{D}}
+	\end{bmatrix}
+	\cdot \begin{pmatrix}
+		\underline{\epsilon}\\
+		\underline{\kappa}
+	\end{pmatrix}
+\end{equation}\\
 
 
+\newpage
 \subsection{Mischungsregel (H.G.)}
 Um die Materialkonstanten des FKV zu ermitteln kann die Mischungsregel verwendet werden. Darin werden die Materialkonstanten der Fasern und der Matrix im Verhältnis zu ihrem Massenanteil zu einer FKV-Materialkonstante zusammengestellt.\\
 \noindent
@@ -137,7 +166,7 @@ Die Dichte des FKV lässt sich aus der Dichte der einzelnen Komponenten errechne
 	\rho=\rho_{F}\cdot\varphi +\rho_{M}\cdot (1-\varphi)
 \end{equation}
 \noindent
-Der E-Modul parallel (siehe Glg. \ref{Eparallel}) und orthogonal (siehe Glg. \ref{Eorthogonal}) kann mit den E-Modulen von Faser und Matrix, sowie dem Faservolumenanteil $\varphi$ errechnet werden.
+Der E-Modul parallel (siehe Glg. \ref{Eparallel}) und orthogonal (siehe Glg. \ref{Eorthogonal}) kann mit den E-Modulen von Faser und Matrix, sowie dem Faservolumenanteil $\varphi$ errechnet werden. Zu betonen ist hierbei, dass auf eine Querkontraktionsbehinderung der Matrix durch die Fasern nicht eingegangen wird. In diesem Fall wären die resultierenden Steifigkeiten größer. Um sicher konservativ rechnen zu können, wird demnach die vereinfachte Rechnung benutzt. Aus selbigem Grund wird daher auch auf höhere Mischungsregeln, wie z.B. nach Puck, verzichtet. 
 \begin{equation}
 \label{Eparallel}
 E_{\|}=E_{f\|}\cdot \varphi+E_{m}\cdot (1-\varphi)
@@ -157,7 +186,7 @@ Außerdem lassen sich die Querkontraktionszahlen berechnen.
 \nu_{\bot\|}=\varphi\cdot \nu_{f\bot\|}+(1-\varphi)\cdot \nu_{m}
 \end{equation}
 Aus diesen Werten lassen sich alle weiteren durch die Beziehungen zwischen den Materialkonstanten berechnen.\cite{item3}
-
+\newpage
 \subsection{Versagenskriterium nach Puck (O.S.)}
 Da für einen anisotropen FKV nicht das Versagen mittels einer allgemeinen resultierenden Spannung für jeden Lastfall ermittelt werden kann, müssen Versagenskriterien für die speziellen Beanspruchungsmodi definiert werden. Für die in dieser Projektarbeit durchgeführten Auslegungen wurden die Festigkeitskriterien von Puck verwendet. Hierbei werden die einzelnen UD-Schichten des Laminats getrennt betrachtet. Auch wenn diese Betrachtungen physikalisch begründet sind (vgl. \cite{EdL}), hat dies zur Folge, dass Effekte wie Delamination nicht berücksichtigt werden.
 \subsubsection{Definitionen}
@@ -228,7 +257,7 @@ Hieran lässt sich auch erkennen, dass die Spannungen, die in den Fasern herrsch
 Bei hohen Druckspannungen, besonders bei dünnen Bauteilen des Leichtbaus, muss es nicht zum Versagen des Materials in Folge vom Erreichen der Fließgrenze oder Schubbelastung spröder Werkstoffe kommen. Es handelt sich stattdessen um ein Stabilitätsproblem, bei dem die Fasern einer UD-Schicht knicken. Jedoch kommt es nur in einem nie wirklich erreichbaren idealen Laminat zu einem Verzweigungsproblem, wie es beim Eulerknicken zu beobachten ist. Bei realen Laminaten gibt es immer Imperfektionen, bei denen die Fasern durch Welligkeiten lokal eine variierende Orientierung haben, die das sogenannte Schubknicken auslösen.
 \begin{figure}
 	\includegraphics[width=1.0\textwidth]{Bilder/Schubknicken.png}
-	\caption{Schubknicken}
+	\caption{Kräfte beim Schubknicken von VFK}
 	\label{fig:Schubknicken}
 \end{figure} 
 Schon ohne Lastangriff liegt also eine Orientierungsabweichung mit dem Winkel $\phi_0$ vor. Da trotzdem an jeder Stelle das Momentengleichgewicht herrschen muss, aber es an diesem Ort nicht mehr nur durch die Druckspannungen erfüllt ist, entstehen Schubspannungen $\tau_{\perp\parallel}$. Aus dem Momentengleichgewicht in Abbildung \ref{fig:Schubknicken} lässt sich der Zusammenhang
@@ -245,12 +274,21 @@ bestimmen. $G_{\perp\parallel,\mathrm{T}}(\gamma_{\perp\parallel})$ ist der Tang
 \noindent Häufig kommt es aber gar nicht zur Überschreitung dieser Festigkeit. Lokale Spannungsmaxima können schon vorher zum Versagen durch Zfb führen, bevor es zum Schubknicken kommt. In dem zu konstruierenden Flügel soll sich ein Holm befinden, in dessen Gurten es durch ihre relativ hohe Dicke jedoch trotzdem vorkommen kann. Somit ist dieser Fall für diese Projektarbeit nicht vernachlässigbar.
 
 \noindent Sowohl die Längs-Druckfestigkeit $R_\parallel^-$ als auch die Längs-Zugfestigkeit $R_\parallel^+$ sind als Materialkennwerte der UD-Schicht im Rahmen der Aufgabenstellung gegeben und ergänzen die Pucksche Zigarre, indem der Bruchkörper durch diese beiden Festigkeiten in die $\sigma_1$-Richtung beschränkt wird.
+\begin{figure}[h]
+	\includegraphics[width=1.0\textwidth]{Bilder/Zigarre.png}
+	\caption{Pucksche Zigarre aus \cite{item3}}
+\end{figure} 
+\newpage
+\FloatBarrier
+\:
+\newpage
 \subsection{Bauweise (O.S.)}
 In der Aufgabenstellung wird gefordert, dass der Flügel in der Holm-Bauweise konstruiert wird. Ein Holm besteht aus zwei parallelen Gurten, die durch einen oder mehrere Stege miteinander verbunden werden. Dabei sind verschiedene Varianten möglich. Abbildung ~\ref{fig: Holmarten} veranschaulicht Konstruktionsmöglichkeiten. Neben der Festigkeit ist die Steifigkeit die einzige strukturmechanische Anforderung. Somit lässt sich das Problem als Biegebalken betrachten, der bei der vorgegebenen Prüflast $ F_{pruef}=100\mathrm{N} $ am freien Ende die vorgegebene Durchbiegung $ w(100\mathrm{N})=22\mathrm{mm} $ einhält. Das entstehende Biegemoment wird hauptsächlich von den Gurten getragen, weswegen man sich bei der Wahl des Steges auf andere Kriterien konzentrieren kann. Da kein maximaler Drillwinkel vorgegeben ist und die Torsionssteifigkeit fast ausschließlich von der Haut bewirkt wird, führen mehrere Stege, wie man sie bei einem geschlossenen Profil hat, nur zu unerwünschter Gewichtszunahme. Nach diesen Überlegungen wurde der I-Holm ausgewählt, da dieser bei einfacher Fertigung die gewünschten Eigenschaften mit sich bringt.
 \begin{figure}[h]
 	\includegraphics[width=1.0\textwidth]{Bilder/Holmarten.png}
-	\caption{a) I-Holm   b) C-Holm    c) Kastenholm}
+	\caption{Holmarten: a) I-Holm   b) C-Holm    c) Kastenholm}
 	\label{fig: Holmarten}
 \end{figure}\\ 
 \noindent
 Das aerodynamische Profil des Flügels wird durch die Schale erreicht. Hierbei wird eine dünne Haut nur an kritischen Stellen mit der Sandwichbauweise oder Rippen verstärkt, um Beulen zu verhindern. Die Schale trägt dabei so gut wie gar nicht die Last des Flügels, jedoch ist sie für die Torsionssteifigkeit entscheidend.
+\FloatBarrier
