@@ -254,7 +254,7 @@ Hieran lässt sich auch erkennen, dass die Spannungen, die in den Fasern herrsch
 Bei hohen Druckspannungen, besonders bei dünnen Bauteilen des Leichtbaus, muss es nicht zum Versagen des Materials in Folge vom Erreichen der Fließgrenze oder Schubbelastung spröder Werkstoffe kommen. Es handelt sich stattdessen um ein Stabilitätsproblem, bei dem die Fasern einer UD-Schicht knicken. Jedoch kommt es nur in einem nie wirklich erreichbaren idealen Laminat zu einem Verzweigungsproblem, wie es beim Eulerknicken zu beobachten ist. Bei realen Laminaten gibt es immer Imperfektionen, bei denen die Fasern durch Welligkeiten lokal eine variierende Orientierung haben, die das sogenannte Schubknicken auslösen.
 \begin{figure}
 	\includegraphics[width=1.0\textwidth]{Bilder/Schubknicken.png}
-	\caption{Schubknicken}
+	\caption{Kräfte beim Schubknicken von VFK}
 	\label{fig:Schubknicken}
 \end{figure} 
 Schon ohne Lastangriff liegt also eine Orientierungsabweichung mit dem Winkel $\phi_0$ vor. Da trotzdem an jeder Stelle das Momentengleichgewicht herrschen muss, aber es an diesem Ort nicht mehr nur durch die Druckspannungen erfüllt ist, entstehen Schubspannungen $\tau_{\perp\parallel}$. Aus dem Momentengleichgewicht in Abbildung \ref{fig:Schubknicken} lässt sich der Zusammenhang
@@ -271,11 +271,15 @@ bestimmen. $G_{\perp\parallel,\mathrm{T}}(\gamma_{\perp\parallel})$ ist der Tang
 \noindent Häufig kommt es aber gar nicht zur Überschreitung dieser Festigkeit. Lokale Spannungsmaxima können schon vorher zum Versagen durch Zfb führen, bevor es zum Schubknicken kommt. In dem zu konstruierenden Flügel soll sich ein Holm befinden, in dessen Gurten es durch ihre relativ hohe Dicke jedoch trotzdem vorkommen kann. Somit ist dieser Fall für diese Projektarbeit nicht vernachlässigbar.
 
 \noindent Sowohl die Längs-Druckfestigkeit $R_\parallel^-$ als auch die Längs-Zugfestigkeit $R_\parallel^+$ sind als Materialkennwerte der UD-Schicht im Rahmen der Aufgabenstellung gegeben und ergänzen die Pucksche Zigarre, indem der Bruchkörper durch diese beiden Festigkeiten in die $\sigma_1$-Richtung beschränkt wird.
+\begin{figure}
+	\includegraphics[width=1.0\textwidth]{Bilder/Zigarre.png}
+	\caption{Pucksche Zigarre aus \cite{item3}}
+\end{figure} 
 \subsection{Bauweise (O.S.)}
 In der Aufgabenstellung wird gefordert, dass der Flügel in der Holm-Bauweise konstruiert wird. Ein Holm besteht aus zwei parallelen Gurten, die durch einen oder mehrere Stege miteinander verbunden werden. Dabei sind verschiedene Varianten möglich. Abbildung ~\ref{fig: Holmarten} veranschaulicht Konstruktionsmöglichkeiten. Neben der Festigkeit ist die Steifigkeit die einzige strukturmechanische Anforderung. Somit lässt sich das Problem als Biegebalken betrachten, der bei der vorgegebenen Prüflast $ F_{pruef}=100\mathrm{N} $ am freien Ende die vorgegebene Durchbiegung $ w(100\mathrm{N})=22\mathrm{mm} $ einhält. Das entstehende Biegemoment wird hauptsächlich von den Gurten getragen, weswegen man sich bei der Wahl des Steges auf andere Kriterien konzentrieren kann. Da kein maximaler Drillwinkel vorgegeben ist und die Torsionssteifigkeit fast ausschließlich von der Haut bewirkt wird, führen mehrere Stege, wie man sie bei einem geschlossenen Profil hat, nur zu unerwünschter Gewichtszunahme. Nach diesen Überlegungen wurde der I-Holm ausgewählt, da dieser bei einfacher Fertigung die gewünschten Eigenschaften mit sich bringt.
 \begin{figure}[h]
 	\includegraphics[width=1.0\textwidth]{Bilder/Holmarten.png}
-	\caption{a) I-Holm   b) C-Holm    c) Kastenholm}
+	\caption{Holmarten: a) I-Holm   b) C-Holm    c) Kastenholm}
 	\label{fig: Holmarten}
 \end{figure}\\ 
 \noindent
