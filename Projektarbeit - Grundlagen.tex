@@ -102,7 +102,7 @@ Da manche Faserschichten um einen Winkel $\alpha$ gedreht sein können, muss fü
 Nun lässt sich die Scheibensteifigkeits-Matrix [A] aus den Steifigkeitsmatritzen der einzelnen Schichten zusammensetzen (siehe Glg.\ref{AQ}).
 \begin{equation}
 \label{AQ}
-	A_{ij}= \sum_{k=1}^{2} \overline{Q}_{ij,k}\cdot t_{k}
+	A_{ij}= \sum_{k=1}^{n} \overline{Q}_{ij,k}\cdot t_{k}
 \end{equation}
 \noindent
 Um ein passende Anzahl an Faserschichten zu bekommen kann das Ergebnis nun iterativ angepasst werden.\cite{item3}
@@ -125,14 +125,14 @@ Die Spannungen lassen sich jetzt durch Gleichung \ref{SpannungDehnung} errechnen
 \noindent
 Bei den Elastizitätsmoduln ist darauf zu achten, dass es sich um Moduln ohne Querkontraktionsbehinderung handelt \cite{item3}.
 \subsubsection{Plattenelement}
-Um ein Plattenelement zu Berechnen werden zusätzliche Beziehungen benötigt, da nun ein zweiachsiger Spannungszustand vorliegt. Zu Gleichung \ref{AQ} kommen nun noch 2 weitere Gleichungen (siehe Glg.\ref{BQ}/\ref{DQ}) hinzu.
+Um ein Plattenelement zu Berechnen werden zusätzliche Beziehungen benötigt, da nun ein zweiachsiger Spannungszustand vorliegt. Zu Gleichung \ref{AQ} kommen nun noch 2 weitere Gleichungen (siehe Glg.\ref{BQ}/\ref{DQ}) hinzu. $|z_{k}|$ ist der Abstand zwischen den Schichten.
 \begin{equation}
 \label{BQ}
-	B_{ij}= \cdot \sum_{k=1}^{2} \overline{Q}_{ij,k}\cdot t_{k}\cdot \left(z_{k}-\frac{t_{k}}{2}\right)
+	B_{ij}= \cdot \sum_{k=1}^{n} \overline{Q}_{ij,k}\cdot t_{k}\cdot \left(z_{k}-\frac{t_{k}}{2}\right)
 \end{equation}
 \begin{equation}
 \label{DQ} 
-	D_{ij}=\sum_{k=1}^{2} \overline{Q}_{ij,k}\cdot \left(\frac{t_{k}^{3}}{12}+t_{k}\left(z_{k}-\frac{t_{k}}{2}\right)^{2}\right)
+	D_{ij}=\sum_{k=1}^{n} \overline{Q}_{ij,k}\cdot \left(\frac{t_{k}^{3}}{12}+t_{k}\left(z_{k}-\frac{t_{k}}{2}\right)^{2}\right)
 \end{equation}
 \noindent
 Nun lässt sich die Scheiben-Platten-Beziehung als Gleichung \ref{S-P} schreiben.\cite{item3}
