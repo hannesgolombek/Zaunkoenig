@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.9)  20 JAN 2021 12:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  20 JAN 2021 13:34
 entering extended mode
 **"./Projektarbeit - Main.tex"
 ("Projektarbeit - Main.tex"
 LaTeX2e <2020-10-01> patch level 2
 L3 programming layer <2020-10-27> xparse <2020-03-03>
-("C:\Program Files\MiKTeX\tex/latex/base\article.cls"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-("C:\Program Files\MiKTeX\tex/latex/base\size11.clo"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
 File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count175
@@ -21,16 +21,16 @@ File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-("C:\Program Files\MiKTeX\tex/generic/babel\babel.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2020/10/27 3.51 The Babel package
 
-("C:\Program Files\MiKTeX\tex/generic/babel\babel.def"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
 File: babel.def 2020/10/27 3.51 Babel common definitions
 \babel@savecnt=\count183
 \U@D=\dimen139
 \l@babelnohyphens=\language79
 
-("C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def")
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 )
 \bbl@dirlevel=\count184
@@ -38,33 +38,32 @@ File: babel.def 2020/10/27 3.51 Babel common definitions
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Program Files\MiKTeX\tex/latex/babel-german\ngerman.ldf"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ldf
 Language: ngerman 2020/07/21 v2.12 German support for babel (post-1996 orthogra
 phy)
 
-("C:\Program Files\MiKTeX\tex/latex/babel-german\ngermanb.ldf"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.ldf
 Language: ngermanb 2020/07/21 v2.12 German support for babel (post-1996 orthogr
 aphy)
 Package babel Info: Making " an active character on input line 121.
-)))
-("C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty"
+))) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 )
-("C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-("C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-("C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-("C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 \Gm@cnth=\count185
@@ -80,34 +79,32 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutvoffset=\dimen147
 \Gm@dimlist=\toks16
 
-("C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg"))
-("C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
-
-("C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
-)
-("C:\Program Files\MiKTeX\tex/latex/pdfpages\pdfpages.sty"
+) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
 
-("C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files\MiKTeX\tex/latex/tools\calc.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count188
 \calc@Bcount=\count189
@@ -120,15 +117,21 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count190
 \calc@Cskip=\skip51
 )
-("C:\Program Files\MiKTeX\tex/latex/eso-pic\eso-pic.sty"
-Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2020/09/27 v2.0i eso-pic (RN)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
 \ESO@tempdima=\dimen152
 \ESO@tempdimb=\dimen153
 
-("C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -145,7 +148,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 \AM@pagewidth=\dimen154
 \AM@pageheight=\dimen155
 
-("C:\Program Files\MiKTeX\tex/latex/pdfpages\pppdftex.def"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box47
@@ -155,32 +158,32 @@ File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count192
 \AM@templatesizebox=\box48
 )
-("C:\Program Files\MiKTeX\tex/latex/tabto-ltx\tabto.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tabto-ltx\tabto.sty
 Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
 \CurrentLineWidth=\dimen156
 \TabPrevPos=\dimen157
 )
-("C:\Program Files\MiKTeX\tex/latex/setspace\setspace.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-("C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen158
 ))
-("C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen159
 )
-("C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count193
@@ -221,7 +224,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
-("C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTleft=\skip55
 \LTright=\skip56
@@ -239,29 +242,31 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \c@LT@chunks=\count275
 \LT@p@ftn=\toks24
 )
-("C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 )
-("C:\Program Files\MiKTeX\tex/latex/koma-script\scrlayer-scrpage.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer-scrpa
+ge.sty
 Package: scrlayer-scrpage 2020/09/21 v3.32 KOMA-Script package (end user interf
 ace for scrlayer)
 
-("C:\Program Files\MiKTeX\tex/latex/koma-script\scrlayer.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer.sty
 Package: scrlayer 2020/09/21 v3.32 KOMA-Script package (defining layers and pag
 e styles)
 
-("C:\Program Files\MiKTeX\tex/latex/koma-script\scrkbase.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.sty
 Package: scrkbase 2020/09/21 v3.32 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
-("C:\Program Files\MiKTeX\tex/latex/koma-script\scrbase.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
 Package: scrbase 2020/09/21 v3.32 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-("C:\Program Files\MiKTeX\tex/latex/koma-script\scrlfile.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
 Package: scrlfile 2020/09/21 v3.32 KOMA-Script package (file load hooks)
 
-("C:\Program Files\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hook.
+sty
 Package: scrlfile-hook 2020/09/21 v3.32 KOMA-Script package (using LaTeX hooks)
 
 
@@ -343,7 +348,7 @@ LaTeX3 Info: Defining command \protected@immediate@write with sig. 'm+m+m' on
 (LaTeX3)     line 298.
 
 
-("C:\Program Files\MiKTeX\tex/latex/koma-script\scrlogo.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
 Package: scrlogo 2020/09/21 v3.32 KOMA-Script package (logo)
 )))))
 \footheight=\skip59
@@ -351,29 +356,31 @@ Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 211
 6.
 ))
 Package scrlayer-scrpage Info: auto-selection of `pagestyleset=standard'.
-
-("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def"
+ (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex
+.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count276
 \l__pdf_internal_box=\box55
-)
-("Projektarbeit - Main.aux")
+) ("Projektarbeit - Main.aux")
 \openout1 = `"Projektarbeit - Main.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -409,7 +416,7 @@ LaTeX Font Info:    ... okay on input line 14.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count277
 \scratchdimen=\dimen168
@@ -422,51 +429,23 @@ LaTeX Font Info:    ... okay on input line 14.
 \MPnumerator=\count281
 \makeMPintoPDFobject=\count282
 \everyMPtoPDFconversion=\toks26
-) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base
+.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-("C:\Program Files\MiKTeX\tex/generic/infwarerr\infwarerr.sty"
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX\tex/latex/grfext\grfext.sty"
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-
-("C:\Program Files\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty"
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-))
-("C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty"
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
-
-("C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty"
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-("C:\Program Files\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty"
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-))
-("C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty"
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 )
-("C:\Program Files\MiKTeX\tex/latex/pdflscape\pdflscape.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
-("C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty"
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 14.
+(scrlayer)             \begin{document} on input line 15.
 
 
 Package scrlayer-scrpage Warning: Very small head height detected!
@@ -504,7 +483,7 @@ ut line 2.
 
 [1
 
-{C:/Users/hgolo/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+{C:/Users/PC/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 <use PDFs/Aufgabenstellung Gruppe 2.pdf, page 1>
 Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page1 used on inp
@@ -554,8 +533,7 @@ File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 Package pdftex.def Info: PDFs/Aufgabenstellung Gruppe 2.pdf , page3 used on inp
 ut line 2.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-
-[4 <./PDFs/Aufgabenstellung Gruppe 2.pdf>]
+ [4 <./PDFs/Aufgabenstellung Gruppe 2.pdf>]
 <PDFs/Aufgabenstellung Gruppe 2.pdf, id=74, page=4, 597.55246pt x 845.07718pt>
 File: PDFs/Aufgabenstellung Gruppe 2.pdf Graphic file (type pdf)
 <use PDFs/Aufgabenstellung Gruppe 2.pdf, page 4>
@@ -575,7 +553,7 @@ ut line 2.
  [5 <./PDFs/Aufgabenstellung Gruppe 2.pdf>])
 
 Package scrlayer-scrpage Warning: replacing deprecated \clearscrheadfoot by
-(scrlayer-scrpage)                \clearpairofpagestyles on input line 24.
+(scrlayer-scrpage)                \clearpairofpagestyles on input line 25.
 
 ("Projektarbeit - Übersicht.tex")
 
@@ -587,7 +565,7 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=16.49675pt'.
 (scrlayer-scrpage)                I'll also decrease \topmargin on input line 2
-8.
+9.
 
 
 Overfull \vbox (4.49675pt too high) has occurred while \output is active []
@@ -602,13 +580,13 @@ Package scrlayer-scrpage Warning: \footheight to low.
 (scrlayer-scrpage)                e.g., using
 (scrlayer-scrpage)                  \setlength{\footheight}{16.49675pt}
 (scrlayer-scrpage)                in your preamble.
-(scrlayer-scrpage)                I'll also increase \footskip on input line 28
+(scrlayer-scrpage)                I'll also increase \footskip on input line 29
 .
 
 [6] ("Projektarbeit - Abstract.tex") [7]
 
 Package scrlayer-scrpage Warning: replacing deprecated \clearscrheadfoot by
-(scrlayer-scrpage)                \clearpairofpagestyles on input line 33.
+(scrlayer-scrpage)                \clearpairofpagestyles on input line 34.
 
 1: section
 ("Projektarbeit - Main.toc" [1] [2])
@@ -616,158 +594,34 @@ Package scrlayer-scrpage Warning: replacing deprecated \clearscrheadfoot by
 \openout3 = `"Projektarbeit - Main.toc"'.
 
  [3] ("Projektarbeit - Bezeichnungen.tex"
-
-LaTeX Warning: Citation `item5' on page 4 undefined on input line 16.
-
-
-LaTeX Warning: Citation `item1' on page 4 undefined on input line 25.
-
-
-LaTeX Warning: Citation `item1' on page 4 undefined on input line 26.
-
-
-LaTeX Warning: Citation `item5' on page 4 undefined on input line 37.
-
-
-LaTeX Warning: Citation `item1' on page 4 undefined on input line 38.
-
-
-LaTeX Warning: Citation `item3' on page 4 undefined on input line 41.
-
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 2 on input line 46.
-
-[4]
-
-LaTeX Warning: Citation `item1' on page 5 undefined on input line 59.
-
-[5]) [6] ("Projektarbeit - Einleitung.tex"
-
-LaTeX Warning: Reference `Glasfaser' on page 7 undefined on input line 7.
-
-
+[4] [5]) [6] ("Projektarbeit - Einleitung.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 9--12
 
  []
 
-[7]) [8] ("Projektarbeit - Grundlagen.tex"
-
-LaTeX Warning: Citation `item3' on page 9 undefined on input line 3.
-
-
-LaTeX Warning: Citation `item4' on page 9 undefined on input line 4.
-
-
-LaTeX Warning: Citation `item3' on page 9 undefined on input line 9.
-
-[9]
-
-LaTeX Warning: Citation `item3' on page 10 undefined on input line 25.
-
-[10]
-
-LaTeX Warning: Reference `Kraftfluss' on page 11 undefined on input line 49.
-
-
-LaTeX Warning: Reference `Aep' on page 11 undefined on input line 71.
-
-
-LaTeX Warning: Reference `trafo' on page 11 undefined on input line 88.
-
-
+[7]) [8] ("Projektarbeit - Grundlagen.tex" [9] [10]
 Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
-
-LaTeX Warning: Reference `AQ' on page 11 undefined on input line 102.
-
 [11]
-
-LaTeX Warning: Citation `item3' on page 12 undefined on input line 108.
-
-
-LaTeX Warning: Reference `SpannungDehnung' on page 12 undefined on input line 1
-24.
-
-
-LaTeX Warning: Citation `item3' on page 12 undefined on input line 126.
-
-
-LaTeX Warning: Reference `AQ' on page 12 undefined on input line 128.
-
-
-LaTeX Warning: Reference `BQ' on page 12 undefined on input line 128.
-
-
-LaTeX Warning: Reference `DQ' on page 12 undefined on input line 128.
-
-
-LaTeX Warning: Reference `S-P' on page 12 undefined on input line 138.
-
-
-LaTeX Warning: Citation `item3' on page 12 undefined on input line 138.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
+[12] [13] [14]
+Overfull \hbox (19.45645pt too wide) in paragraph at lines 218--225
+\T1/cmr/m/n/10.95 Mit die-sen Wer-ten de-fi-niert Puck sei-ne Bruch-be-din-gun-
+gen aus der Mohr-schen Bruchhypothese[[]],
+ []
 
-LaTeX Warning: Reference `dichte' on page 12 undefined on input line 160.
-
-[12]
-
-LaTeX Warning: Reference `Eparallel' on page 13 undefined on input line 166.
-
-
-LaTeX Warning: Reference `Eorthogonal' on page 13 undefined on input line 166.
-
-
-LaTeX Warning: Citation `item3' on page 13 undefined on input line 185.
-
-
-LaTeX Warning: Citation `EdL' on page 13 undefined on input line 188.
-
-[13]
-
-LaTeX Warning: Citation `item3' on page 14 undefined on input line 193.
-
-
-LaTeX Warning: Reference `Bruchebene' on page 14 undefined on input line 195.
-
-[14]
-
-LaTeX Warning: Citation `item3' on page 15 undefined on input line 224.
-
-[15]
-
-LaTeX Warning: Reference `Zfb1' on page 16 undefined on input line 236.
-
-
-LaTeX Warning: Reference `Zfb2' on page 16 undefined on input line 236.
-
-[16]
+[15] [16]
 <Bilder/Schubknicken.png, id=151, 550.4565pt x 210.18526pt>
 File: Bilder/Schubknicken.png Graphic file (type png)
 <use Bilder/Schubknicken.png>
 Package pdftex.def Info: Bilder/Schubknicken.png  used on input line 256.
 (pdftex.def)             Requested size: 455.24411pt x 173.83473pt.
-
-
-LaTeX Warning: Reference `fig:Schubknicken' on page 17 undefined on input line 
-260.
-
-
-LaTeX Warning: Reference `SchubknickSigma' on page 17 undefined on input line 2
-65.
-
-[17]
-
-LaTeX Warning: Reference `fig: Holmarten' on page 18 undefined on input line 27
-5.
-
+ [17]
 <Bilder/Holmarten.png, id=155, 158.994pt x 52.998pt>
 File: Bilder/Holmarten.png Graphic file (type png)
 <use Bilder/Holmarten.png>
@@ -780,24 +634,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 
-LaTeX Warning: Citation `item15' on page 20 undefined on input line 4.
-
-
-LaTeX Warning: Citation `item16' on page 20 undefined on input line 4.
-
-
-LaTeX Warning: Citation `item9' on page 20 undefined on input line 4.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
-
-
-LaTeX Warning: Reference `SP-Koord' on page 20 undefined on input line 6.
-
-
-LaTeX Warning: Citation `item16' on page 20 undefined on input line 6.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
@@ -805,38 +644,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
  []
 
 
-LaTeX Warning: Citation `item16' on page 20 undefined on input line 13.
-
-
-LaTeX Warning: Citation `item9' on page 20 undefined on input line 13.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
 [20]
-
-LaTeX Warning: Citation `item16' on page 21 undefined on input line 15.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
 
-LaTeX Warning: Citation `item16' on page 21 undefined on input line 17.
-
-
-LaTeX Warning: Citation `item9' on page 21 undefined on input line 17.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
-
-
-LaTeX Warning: Citation `item21' on page 21 undefined on input line 23.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 23--24
@@ -853,10 +673,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-
-LaTeX Warning: Reference `fig:Holmmodellierung' on page 22 undefined on input l
-ine 29.
-
 <Bilder/Balkenmodell2.jpg, id=170, 792.561pt x 371.58826pt>
 File: Bilder/Balkenmodell2.jpg Graphic file (type jpg)
 <use Bilder/Balkenmodell2.jpg>
@@ -866,9 +682,6 @@ Package pdftex.def Info: Bilder/Balkenmodell2.jpg  used on input line 49.
 Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
-
-
-LaTeX Warning: Citation `item16' on page 22 undefined on input line 57.
 
 [22]
 Underfull \hbox (badness 10000) in paragraph at lines 72--73
@@ -884,9 +697,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--88
 Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
-
-
-LaTeX Warning: Citation `item16' on page 24 undefined on input line 104.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 110--111
@@ -936,10 +746,6 @@ OT1/cmr/m/n/10.95 ) = []
  []
 
 [25]
-
-LaTeX Warning: Reference `Lösung' on page 26 undefined on input line 167.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 166--168
 
  []
@@ -948,10 +754,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--168
 Overfull \hbox (33.81723pt too wide) detected at line 176
 []
  []
-
-
-LaTeX Warning: Reference `fig:Steifigkeitsauslegung' on page 26 undefined on in
-put line 179.
 
 
 Overfull \hbox (7.69572pt too wide) in paragraph at lines 179--180
@@ -973,11 +775,6 @@ File: Bilder/Grafiken Steifigkeit.png Graphic file (type png)
 Package pdftex.def Info: Bilder/Grafiken Steifigkeit.png  used on input line 18
 2.
 (pdftex.def)             Requested size: 455.24411pt x 406.0334pt.
-
-
-LaTeX Warning: Reference `fig:Festigkeitsauslegung' on page 27 undefined on inp
-ut line 187.
-
 <Bilder/Grafiken Festigkeit.png, id=190, 532.99126pt x 471.56175pt>
 File: Bilder/Grafiken Festigkeit.png Graphic file (type png)
 <use Bilder/Grafiken Festigkeit.png>
@@ -986,20 +783,6 @@ Package pdftex.def Info: Bilder/Grafiken Festigkeit.png  used on input line 189
 (pdftex.def)             Requested size: 455.24411pt x 402.78653pt.
 ) [27] [28 <./Bilder/Grafiken Steifigkeit.png>] [29 <./Bilder/Grafiken Festigke
 it.png>] ("Projektarbeit - VDI2013.tex"
-
-LaTeX Warning: Citation `item5' on page 30 undefined on input line 2.
-
-
-LaTeX Warning: Citation `item5' on page 30 undefined on input line 2.
-
-
-LaTeX Warning: Citation `item5' on page 30 undefined on input line 2.
-
-
-LaTeX Warning: Reference `fig: Rechteckholm' on page 30 undefined on input line
- 9.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
@@ -1013,21 +796,11 @@ Package pdftex.def Info: Bilder/RechteckHolm.jpg  used on input line 12.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `item3' on page 30 undefined on input line 18.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 17--19
 
  []
 
 [30]
-
-LaTeX Warning: Citation `item15' on page 31 undefined on input line 27.
-
-
-LaTeX Warning: Reference `CAD' on page 31 undefined on input line 33.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
@@ -1043,12 +816,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--45
  []
 
 
-LaTeX Warning: Citation `item17' on page 32 undefined on input line 48.
-
-
-LaTeX Warning: Citation `item3' on page 32 undefined on input line 48.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 46--49
 
  []
@@ -1062,14 +829,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-
-LaTeX Warning: Reference `GurtKonstrukt' on page 33 undefined on input line 58.
-
-
-
-LaTeX Warning: Reference `fig: KrummerGurt' on page 33 undefined on input line 
-58.
-
 <Bilder/KrummerGurt.jpg, id=213, 1160.83687pt x 342.27875pt>
 File: Bilder/KrummerGurt.jpg Graphic file (type jpg)
 <use Bilder/KrummerGurt.jpg>
@@ -1079,9 +838,6 @@ Package pdftex.def Info: Bilder/KrummerGurt.jpg  used on input line 60.
 Underfull \hbox (badness 10000) in paragraph at lines 69--71
 
  []
-
-
-LaTeX Warning: Citation `item15' on page 33 undefined on input line 72.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 72--73
@@ -1099,31 +855,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
  []
 
 
-LaTeX Warning: Citation `item16' on page 34 undefined on input line 85.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 92--95
 
  []
 
 [34]
-
-LaTeX Warning: Citation `item5' on page 35 undefined on input line 101.
-
-
-LaTeX Warning: Reference `fig: Abtriebskraft' on page 35 undefined on input lin
-e 101.
-
 <Bilder/Abtriebskraft.jpg, id=220, 535.2497pt x 222.8325pt>
 File: Bilder/Abtriebskraft.jpg Graphic file (type jpg)
 <use Bilder/Abtriebskraft.jpg>
 Package pdftex.def Info: Bilder/Abtriebskraft.jpg  used on input line 111.
 (pdftex.def)             Requested size: 455.24411pt x 189.53432pt.
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Citation `item15' on page 35 undefined on input line 115.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 115--116
@@ -1131,10 +875,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--116
  []
 
 [35]
-
-LaTeX Warning: Citation `item18' on page 36 undefined on input line 125.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
@@ -1144,28 +884,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--131
 
  []
 
-
-LaTeX Warning: Reference `Puck' on page 37 undefined on input line 132.
-
 )
-Underfull \hbox (badness 10000) in paragraph at lines 132--61
+Underfull \hbox (badness 10000) in paragraph at lines 132--62
 
  []
 
 [37] ("Auslegung nach Puck.tex"
-
-LaTeX Warning: Reference `CLT' on page 38 undefined on input line 2.
-
-
-LaTeX Warning: Reference `Dicke' on page 38 undefined on input line 2.
-
-
-LaTeX Warning: Citation `item5' on page 38 undefined on input line 2.
-
-
-LaTeX Warning: Citation `item3' on page 38 undefined on input line 2.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -1181,23 +905,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--19
  []
 
 
-LaTeX Warning: Citation `item15' on page 38 undefined on input line 20.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
-
-
-LaTeX Warning: Citation `item3' on page 38 undefined on input line 25.
 
 [38]
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
-
-
-LaTeX Warning: Citation `item3' on page 39 undefined on input line 46.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 62--63
@@ -1240,15 +955,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--96
  []
 
 
-LaTeX Warning: Citation `item3' on page 40 undefined on input line 97.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
-
-
-LaTeX Warning: Citation `item3' on page 40 undefined on input line 133.
 
 
 Overfull \hbox (11.20679pt too wide) in paragraph at lines 133--134
@@ -1262,30 +971,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--149
  []
 
 [40]
-
-LaTeX Warning: Citation `item3' on page 41 undefined on input line 150.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
 
-LaTeX Warning: Citation `item3' on page 41 undefined on input line 152.
-
-
-LaTeX Warning: Citation `item22' on page 41 undefined on input line 172.
-
-
-LaTeX Warning: Citation `item3' on page 41 undefined on input line 172.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
-
-
-LaTeX Warning: Citation `item22' on page 41 undefined on input line 174.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 174--175
@@ -1308,33 +1001,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--203
  []
 
 
-LaTeX Warning: Reference `VDI2013' on page 42 undefined on input line 204.
-
-
-LaTeX Warning: Reference `fig:Lagenaufbau Holmgurte' on page 42 undefined on in
-put line 204.
-
-
-LaTeX Warning: Reference `fig:Lagenaufbau Steg dünn' on page 42 undefined on i
-nput line 204.
-
-
-LaTeX Warning: Reference `fig:Lagenaufbau Steg dick' on page 42 undefined on in
-put line 204.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
  []
-
-
-LaTeX Warning: Reference `VDI' on page 42 undefined on input line 206.
-
-
-LaTeX Warning: Citation `item22' on page 42 undefined on input line 206.
-
-
-LaTeX Warning: Citation `item3' on page 42 undefined on input line 206.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 206--207
@@ -1342,60 +1011,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 206--207
  []
 
 
-LaTeX Warning: Reference `fig:Berechnung Holmgurte' on page 42 undefined on inp
-ut line 209.
-
-
-LaTeX Warning: Reference `fig:Berechnung Steg dünn' on page 42 undefined on in
-put line 209.
-
-
-LaTeX Warning: Reference `fig:Berechnung Steg dick' on page 42 undefined on inp
-ut line 209.
-
-
-LaTeX Warning: Citation `item3' on page 42 undefined on input line 209.
-
-
-LaTeX Warning: Citation `item5' on page 42 undefined on input line 209.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 208--210
 
  []
 
 [42]
-
-LaTeX Warning: Reference `fig:Ingenieurskonstanten Holmgurte' on page 43 undefi
-ned on input line 211.
-
-
-LaTeX Warning: Reference `fig:Ingenieurskonstanten Steg dick' on page 43 undefi
-ned on input line 211.
-
-
-LaTeX Warning: Reference `fig:Ingenieurskonstanten Steg dünn' on page 43 undef
-ined on input line 211.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
 
-
-LaTeX Warning: Reference `Abbildungen' on page 43 undefined on input line 213.
-
 ) [43] ("Projektarbeit - Beulabschätzung des Holms.tex"
-
-LaTeX Warning: Citation `item16' on page 44 undefined on input line 2.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
-
-
-LaTeX Warning: Citation `item16' on page 44 undefined on input line 4.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
@@ -1403,57 +1031,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
  []
 
 
-LaTeX Warning: Citation `item1' on page 44 undefined on input line 6.
-
-
-LaTeX Warning: Citation `item21' on page 44 undefined on input line 6.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-
-LaTeX Warning: Citation `item1' on page 44 undefined on input line 8.
-
 [44]
-
-LaTeX Warning: Reference `fig: Hertel_Druck' on page 45 undefined on input line
- 15.
-
-
-LaTeX Warning: Reference `fig: Hertel_Biegung' on page 45 undefined on input li
-ne 15.
-
-
-LaTeX Warning: Reference `fig: Hertel_Schub' on page 45 undefined on input line
- 15.
-
-
-LaTeX Warning: Reference `fig: Hertel_Sicherheit' on page 45 undefined on input
- line 27.
-
-
-LaTeX Warning: Citation `item1' on page 45 undefined on input line 27.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
 
-
-LaTeX Warning: Reference `fig: Hertel_Sandwich' on page 45 undefined on input l
-ine 30.
-
-
-LaTeX Warning: Citation `item1' on page 45 undefined on input line 30.
-
 [45]
-
-LaTeX Warning: Reference `NachrechnungGurte' on page 46 undefined on input line
- 61.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
@@ -1474,152 +1061,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--155
  []
 
 [49]) [50] ("Projektarbeit - Auslegung der Verklebungen.tex"
-
-LaTeX Warning: Citation `item23' on page 51 undefined on input line 1.
-
-
-LaTeX Warning: Citation `item4' on page 51 undefined on input line 1.
-
-
-LaTeX Warning: Citation `item23' on page 51 undefined on input line 8.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
-
-
-LaTeX Warning: Citation `item23' on page 51 undefined on input line 12.
-
-
-LaTeX Warning: Citation `item5' on page 51 undefined on input line 12.
 
 [51]
 Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
-) [52] (Bolzenberechnung.tex
-
-LaTeX Warning: Reference `Fpressung' on page 53 undefined on input line 11.
-
-
-LaTeX Warning: Reference `Biegespannung1' on page 53 undefined on input line 18
-.
-
-
-LaTeX Warning: Reference `WKreis' on page 53 undefined on input line 33.
-
-
-LaTeX Warning: Reference `Moment' on page 53 undefined on input line 33.
-
-
-LaTeX Warning: Reference `Biegespannung' on page 53 undefined on input line 33.
-
-
-
-LaTeX Warning: Reference `KraftB' on page 53 undefined on input line 38.
-
-
-LaTeX Warning: Reference `RE' on page 53 undefined on input line 43.
-
-[53]
-
-LaTeX Warning: Reference `Biegespannung' on page 54 undefined on input line 54.
-
-
-
-LaTeX Warning: Citation `item6' on page 54 undefined on input line 62.
-
-
+) [52] (Bolzenberechnung.tex [53]
 Underfull \hbox (badness 10000) in paragraph at lines 61--63
 
  []
 
 ) [54] (Schubmittelpunkt.tex
-
-LaTeX Warning: Reference `FEM' on page 55 undefined on input line 3.
-
-
-LaTeX Warning: Citation `item15' on page 55 undefined on input line 6.
-
-
-LaTeX Warning: Citation `item15' on page 55 undefined on input line 18.
-
 <Bilder/schubfluss-infinit.png, id=285, 592.01175pt x 298.716pt>
 File: Bilder/schubfluss-infinit.png Graphic file (type png)
 <use Bilder/schubfluss-infinit.png>
 Package pdftex.def Info: Bilder/schubfluss-infinit.png  used on input line 24.
 (pdftex.def)             Requested size: 455.24411pt x 229.70663pt.
-
-LaTeX Warning: Citation `item15' on page 55 undefined on input line 25.
-
-[55]
-
-LaTeX Warning: Reference `n_s' on page 56 undefined on input line 35.
-
-
-LaTeX Warning: Citation `item15' on page 56 undefined on input line 39.
-
-[56 <./Bilder/schubfluss-infinit.png>]
-
-LaTeX Warning: Reference `FT1' on page 57 undefined on input line 43.
-
-
-LaTeX Warning: Reference `FT3' on page 57 undefined on input line 43.
-
-
-LaTeX Warning: Citation `item15' on page 57 undefined on input line 51.
-
+ [55] [56 <./Bilder/schubfluss-infinit.png>]
 [57]
-
-LaTeX Warning: Reference `Fluegel1' on page 58 undefined on input line 56.
-
-
-LaTeX Warning: Reference `fig:LaengenS' on page 58 undefined on input line 56.
-
-
-LaTeX Warning: Reference `SchubRechnung' on page 58 undefined on input line 57.
-
-
 <Bilder/Model1.png, id=295, 808.82175pt x 422.7795pt>
 File: Bilder/Model1.png Graphic file (type png)
 <use Bilder/Model1.png>
 Package pdftex.def Info: Bilder/Model1.png  used on input line 60.
 (pdftex.def)             Requested size: 455.24411pt x 237.96124pt.
-[58 <./Bilder/Model1.png>]
-
-LaTeX Warning: Citation `TMk' on page 59 undefined on input line 113.
-
-[59] [60]
-
-LaTeX Warning: Citation `item15' on page 61 undefined on input line 178.
-
+ [58 <./Bilder/Model1.png>] [59] [60]
 <Bilder/Flügel-Pol-offen.png, id=306, 541.42274pt x 233.07076pt>
 File: Bilder/Flügel-Pol-offen.png Graphic file (type png)
 <use Bilder/Flügel-Pol-offen.png>
 Package pdftex.def Info: Bilder/Flügel-Pol-offen.png  used on input line 183.
 (pdftex.def)             Requested size: 455.24411pt x 195.97725pt.
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `SP-Koord' on page 61 undefined on input line 188.
-
-
-LaTeX Warning: Reference `Fluegel2' on page 61 undefined on input line 188.
-
-
-LaTeX Warning: Reference `qs' on page 61 undefined on input line 196.
-
-
-LaTeX Warning: Citation `item15' on page 61 undefined on input line 196.
-
-[61]
-
-LaTeX Warning: Citation `item15' on page 62 undefined on input line 215.
-
-[62 <./Bilder/Flügel-Pol-offen.png>]
+[61] [62 <./Bilder/Flügel-Pol-offen.png>]
 <Bilder/SMP.png, id=313, 598.03426pt x 194.52675pt>
 File: Bilder/SMP.png Graphic file (type png)
 <use Bilder/SMP.png>
@@ -1637,30 +1116,12 @@ Package pdftex.def Info: Bilder/Torsion.png  used on input line 267.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[63]
-
-LaTeX Warning: Citation `item15' on page 64 undefined on input line 274.
-
-[64 <./Bilder/SMP.png> <./Bilder/Torsion.png>]
-
-LaTeX Warning: Reference `verdrillung' on page 65 undefined on input line 292.
-
-
-LaTeX Warning: Reference `tau' on page 65 undefined on input line 299.
-
-[65]
-
-LaTeX Warning: Reference `fig:S1' on page 66 undefined on input line 323.
-
-
-LaTeX Warning: Reference `fig:S10' on page 66 undefined on input line 323.
-
-) [66] ("Projektarbeit - Auslegung der Flügelschale nach CLT.tex"
-
-LaTeX Warning: Citation `item22' on page 67 undefined on input line 3.
-
-
-LaTeX Warning: Citation `item3' on page 67 undefined on input line 3.
+[63] [64 <./Bilder/SMP.png> <./Bilder/Torsion.png>] [65]) [66]
+("Projektarbeit - Auslegung der Flügelschale nach CLT.tex"
+Overfull \hbox (9.52116pt too wide) in paragraph at lines 3--4
+\T1/cmr/m/n/10.95 Auch hier wird die Rech-nung nach Handbuch-Methoden mit-tels 
+$\OML/cmm/m/it/10.95 eLamX[]$ \T1/cmr/m/n/10.95 �ber-pr�ft [[]][[]]. 
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -1668,40 +1129,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
  []
 
 
-LaTeX Warning: Reference `fig:Lagenaufbau Haut' on page 67 undefined on input l
-ine 5.
-
-
-LaTeX Warning: Reference `fig:Berechnung Haut' on page 67 undefined on input li
-ne 5.
-
-
-LaTeX Warning: Reference `Abbildungen' on page 67 undefined on input line 5.
-
-
-LaTeX Warning: Reference `fig:Ingenieurskonstanten Haut' on page 67 undefined o
-n input line 5.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-
-LaTeX Warning: Reference `elamx' on page 67 undefined on input line 7.
-
 ) [67] ("Projektarbeit - Beulabschätzung Flügelschale.tex"
-
-LaTeX Warning: Citation `item1' on page 68 undefined on input line 1.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
-
-
-LaTeX Warning: Reference `Beulsicherheit Steg' on page 68 undefined on input li
-ne 14.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
@@ -1722,90 +1157,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
  []
 
 ) [69] ("Projektarbeit - FEM.tex"
-
-LaTeX Warning: Reference `GGB' on page 70 undefined on input line 5.
-
-
-LaTeX Warning: Reference `VVB' on page 70 undefined on input line 5.
-
-
-LaTeX Warning: Reference `SG' on page 70 undefined on input line 5.
-
-
-Overfull \hbox (0.26982pt too wide) in paragraph at lines 5--6
+Overfull \hbox (2.36885pt too wide) in paragraph at lines 5--6
 \T1/cmr/m/n/10.95 F�r die Be-rech-nung der Elas-to-sta-tik sind die Gleich-ge-w
-ichts-be-din-gung ([]), Verzerrungs-Verschie 
+ichts-be-din-gung (6.1[]), Verzerrungs-Verschie 
  []
 
-
-LaTeX Warning: Citation `item14' on page 70 undefined on input line 15.
-
-[70]
-
-LaTeX Warning: Reference `VVB' on page 71 undefined on input line 24.
-
-
-LaTeX Warning: Reference `SG' on page 71 undefined on input line 24.
-
-
-LaTeX Warning: Reference `SL' on page 71 undefined on input line 31.
-
-) [71] (abaqus.tex
-
-LaTeX Warning: Reference `Schalenmodell' on page 72 undefined on input line 4.
-
+[70]) [71] (abaqus.tex
 <Bilder/Flügel_ABAQUS.png, id=343, 831.105pt x 478.78876pt>
 File: Bilder/Flügel_ABAQUS.png Graphic file (type png)
 <use Bilder/Flügel_ABAQUS.png>
 Package pdftex.def Info: Bilder/Flügel_ABAQUS.png  used on input line 8.
 (pdftex.def)             Requested size: 332.43611pt x 191.5121pt.
 
-LaTeX Warning: Reference `Material' on page 72 undefined on input line 13.
-
-
-LaTeX Warning: Reference `elamx' on page 72 undefined on input line 13.
-
-
-LaTeX Warning: Reference `Steg_Material' on page 72 undefined on input line 15.
-
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 12--19
 
  []
 
 [72 <./Bilder/Flügel_ABAQUS.png>] [73]
-
-LaTeX Warning: Reference `Absenkung' on page 74 undefined on input line 21.
-
 <Bilder/Absenkung_100N.png, id=352, 590.205pt x 391.4625pt>
 File: Bilder/Absenkung_100N.png Graphic file (type png)
 <use Bilder/Absenkung_100N.png>
 Package pdftex.def Info: Bilder/Absenkung_100N.png  used on input line 24.
 (pdftex.def)             Requested size: 236.0778pt x 156.58221pt.
-
-LaTeX Warning: Reference `sicher-steg' on page 74 undefined on input line 36.
-
-
-LaTeX Warning: Reference `sicher-gurt' on page 74 undefined on input line 36.
-
-[74 <./Bilder/Absenkung_100N.png>] [75]
-
-LaTeX Warning: Reference `BEinspannung' on page 76 undefined on input line 54.
-
+ [74 <./Bilder/Absenkung_100N.png>]
+[75]
 <Bilder/Beuleinspannung.png, id=360, 542.025pt x 422.32782pt>
 File: Bilder/Beuleinspannung.png Graphic file (type png)
 <use Bilder/Beuleinspannung.png>
 Package pdftex.def Info: Bilder/Beuleinspannung.png  used on input line 57.
 (pdftex.def)             Requested size: 216.80615pt x 168.92813pt.
-
-LaTeX Warning: Reference `Beulform' on page 76 undefined on input line 74.
-
 <Bilder/Beulen100N.png, id=361, 833.36343pt x 460.72125pt>
 File: Bilder/Beulen100N.png Graphic file (type png)
 <use Bilder/Beulen100N.png>
 Package pdftex.def Info: Bilder/Beulen100N.png  used on input line 77.
 (pdftex.def)             Requested size: 333.33946pt x 184.28523pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1817,40 +1203,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
 LaTeX Warning: Reference `gurtlagen' on page 77 undefined on input line 5.
 
-
-LaTeX Warning: Reference `GurtDim' on page 77 undefined on input line 6.
-
 <Bilder/Kontur.jpg, id=366, 1445.90187pt x 326.72063pt>
 File: Bilder/Kontur.jpg Graphic file (type jpg)
 <use Bilder/Kontur.jpg>
 Package pdftex.def Info: Bilder/Kontur.jpg  used on input line 8.
 (pdftex.def)             Requested size: 455.24411pt x 102.86768pt.
 
-LaTeX Warning: Reference `IVergleich' on page 77 undefined on input line 12.
-
-
-LaTeX Warning: Reference `fig: Kontur' on page 77 undefined on input line 12.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 5--13
 
  []
 
-[77 <./Bilder/Beulen100N.png>]
-
-LaTeX Warning: Reference `fig: Steg' on page 78 undefined on input line 15.
-
-[78 <./Bilder/Kontur.jpg>]
+[77 <./Bilder/Beulen100N.png>] [78 <./Bilder/Kontur.jpg>]
 <Bilder/StegPrinzip.jpg, id=375, 963.6pt x 542.025pt>
 File: Bilder/StegPrinzip.jpg Graphic file (type jpg)
 <use Bilder/StegPrinzip.jpg>
 Package pdftex.def Info: Bilder/StegPrinzip.jpg  used on input line 18.
 (pdftex.def)             Requested size: 455.24411pt x 256.07507pt.
-
-
-LaTeX Warning: Reference `fig: Hautuebergang' on page 79 undefined on input lin
-e 25.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
@@ -1866,9 +1234,6 @@ Package pdftex.def Info: Bilder/Hautuebergang.jpg  used on input line 30.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `fig: Klotz' on page 80 undefined on input line 36.
-
 <Bilder/Klotz.jpg, id=380, 738.25812pt x 441.65pt>
 File: Bilder/Klotz.jpg Graphic file (type jpg)
 <use Bilder/Klotz.jpg>
@@ -1879,55 +1244,12 @@ Package pdftex.def Info: Bilder/Klotz.jpg  used on input line 38.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `fig: SeiteRichtig' on page 81 undefined on input line
- 44.
-
-
-LaTeX Warning: Reference `fig: Klotz' on page 81 undefined on input line 44.
-
-
-LaTeX Warning: Reference `Bolzenberechnung' on page 81 undefined on input line 
-44.
-
-
-LaTeX Warning: Reference `fig: Klotz' on page 81 undefined on input line 44.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-[81 <./Bilder/Hautuebergang.jpg>]
-
-LaTeX Warning: Reference `fig:AufbauGesamt' on page 82 undefined on input line 
-46.
-
-
-LaTeX Warning: Reference `fig:MontagePlatte' on page 82 undefined on input line
- 46.
-
-) [82 <./Bilder/Klotz.jpg>] ("Projektarbeit - Massenabschaetzung.tex"
-
-LaTeX Warning: Citation `item3' on page 83 undefined on input line 12.
-
-[83]
-
-LaTeX Warning: Citation `item7' on page 84 undefined on input line 40.
-
-
-LaTeX Warning: Citation `item3' on page 84 undefined on input line 59.
-
-[84]
-
-LaTeX Warning: Citation `item19' on page 85 undefined on input line 101.
-
-
-LaTeX Warning: Citation `item20' on page 85 undefined on input line 102.
-
-
-LaTeX Warning: Reference `fig: Mumpe' on page 85 undefined on input line 105.
-
-
+[81 <./Bilder/Hautuebergang.jpg>]) [82 <./Bilder/Klotz.jpg>]
+("Projektarbeit - Massenabschaetzung.tex" [83] [84]
 Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
@@ -1945,10 +1267,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
  []
 
 [88] [89]
-
-LaTeX Warning: Citation `item4' on page 90 undefined on input line 39.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 37--40
 
  []
@@ -2024,336 +1342,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--45
  []
 
 [95]
-
-LaTeX Warning: Reference `sicher-steg' on page 96 undefined on input line 46.
-
-
-LaTeX Warning: Reference `sicher-gurt' on page 96 undefined on input line 46.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 52--66
 
  []
 
-[96]) [97] ("Projektarbeit - Quellenverzeichnis.tex" [98]
-Underfull \hbox (badness 5756) in paragraph at lines 109--112
+[96]) [97] ("Projektarbeit - Quellenverzeichnis.tex"
+Underfull \hbox (badness 5756) in paragraph at lines 16--19
 []\T1/cmr/m/n/10.95 Andreas Hauf-fe: \T1/cmr/m/it/10.95 ex-pan-da-ble La-mi-na-
 te eX-plo-rer - eLamX \T1/cmr/m/n/10.95 TU Dres-den, ilr;
  []
 
-) [99] ("Projektarbeit - Main.lof"
-
-LaTeX Warning: Citation `item15' on page 100 undefined on input line 10.
-
-[100]
-
-LaTeX Warning: Citation `item1' on page 101 undefined on input line 56.
-
-
-Overfull \hbox (1.53062pt too wide) in paragraph at lines 56--56
+[98]) [99] ("Projektarbeit - Main.lof" [100]
+Overfull \hbox (1.53062pt too wide) in paragraph at lines 40--40
  [][] []\T1/cmr/m/n/10.95 Beulfaktor bei Beul-span-nun-gen ei-ner ebe-nen iso-t
 ro-pen Plat-te, ver-schie-de-nen Rand- 
  []
 
 
-LaTeX Warning: Citation `item1' on page 101 undefined on input line 57.
-
-
-Overfull \hbox (1.53062pt too wide) in paragraph at lines 57--57
+Overfull \hbox (1.53062pt too wide) in paragraph at lines 41--41
  [][] []\T1/cmr/m/n/10.95 Beulfaktor bei Beul-span-nun-gen ei-ner ebe-nen iso-t
 ro-pen Plat-te, ver-schie-de-nen Rand- 
  []
 
 
-LaTeX Warning: Citation `item1' on page 101 undefined on input line 58.
-
-
-Overfull \hbox (1.53062pt too wide) in paragraph at lines 58--58
+Overfull \hbox (1.53062pt too wide) in paragraph at lines 42--42
  [][] []\T1/cmr/m/n/10.95 Beulfaktor bei Beul-span-nun-gen ei-ner ebe-nen iso-t
 ro-pen Plat-te, ver-schie-de-nen Rand- 
  []
-
-
-LaTeX Warning: Citation `item1' on page 101 undefined on input line 59.
-
-
-LaTeX Warning: Citation `item1' on page 101 undefined on input line 60.
 
 )
 \tf@lof=\write4
 \openout4 = `"Projektarbeit - Main.lof"'.
 
- [101] ("Projektarbeit - Anhang.tex"
-
-LaTeX Warning: Reference `eq:34' on page 102 undefined on input line 2.
-
-
-LaTeX Warning: Reference `eq:35' on page 102 undefined on input line 2.
-
-
-LaTeX Warning: Reference `eq:36' on page 102 undefined on input line 2.
-
-
-LaTeX Warning: Citation `item16' on page 102 undefined on input line 2.
-
-
-LaTeX Warning: Citation `item9' on page 102 undefined on input line 2.
-
-
-LaTeX Warning: Reference `eq:11' on page 102 undefined on input line 4.
-
-
-LaTeX Warning: Reference `eq:22' on page 102 undefined on input line 4.
-
-
-LaTeX Warning: Reference `eq:9' on page 102 undefined on input line 8.
-
-
-LaTeX Warning: Reference `eq:23' on page 102 undefined on input line 8.
-
-
-LaTeX Warning: Reference `eq:18' on page 102 undefined on input line 12.
-
-
-LaTeX Warning: Reference `eq:33' on page 102 undefined on input line 12.
-
-
-LaTeX Warning: Reference `eq:13' on page 102 undefined on input line 16.
-
-
-LaTeX Warning: Reference `eq:18' on page 102 undefined on input line 16.
-
-
-LaTeX Warning: Reference `eq:33' on page 102 undefined on input line 16.
-
-
-LaTeX Warning: Reference `eq:166' on page 102 undefined on input line 16.
-
-
-LaTeX Warning: Reference `eq:19' on page 102 undefined on input line 20.
-
-
-LaTeX Warning: Reference `eq:32' on page 102 undefined on input line 20.
-
-
-LaTeX Warning: Reference `eq:166' on page 102 undefined on input line 20.
-
-
-LaTeX Warning: Reference `eq:14' on page 102 undefined on input line 24.
-
-
-LaTeX Warning: Reference `eq:19' on page 102 undefined on input line 24.
-
-
-LaTeX Warning: Reference `eq:30' on page 102 undefined on input line 24.
-
-
-LaTeX Warning: Reference `eq:166' on page 102 undefined on input line 24.
-
-
-LaTeX Warning: Reference `eq:167' on page 102 undefined on input line 24.
-
-
-LaTeX Warning: Reference `eq:168' on page 102 undefined on input line 24.
-
-
-LaTeX Warning: Reference `eq:9' on page 102 undefined on input line 28.
-
-
-LaTeX Warning: Reference `eq:14' on page 102 undefined on input line 28.
-
-
-LaTeX Warning: Reference `eq:27' on page 102 undefined on input line 28.
-
-
-LaTeX Warning: Reference `eq:167' on page 102 undefined on input line 28.
-
-
-LaTeX Warning: Reference `eq:169' on page 102 undefined on input line 28.
-
-
-LaTeX Warning: Reference `eq:11' on page 102 undefined on input line 32.
-
-
-LaTeX Warning: Reference `eq:24' on page 102 undefined on input line 32.
-
-
-LaTeX Warning: Reference `eq:170' on page 102 undefined on input line 32.
-
-
-LaTeX Warning: Reference `eq:10' on page 102 undefined on input line 36.
-
-
-LaTeX Warning: Reference `eq:15' on page 102 undefined on input line 36.
-
-
-LaTeX Warning: Reference `eq:26' on page 102 undefined on input line 36.
-
-
-LaTeX Warning: Reference `eq:167' on page 102 undefined on input line 36.
-
-
-LaTeX Warning: Reference `eq:169' on page 102 undefined on input line 36.
-
-
-LaTeX Warning: Reference `eq:170' on page 102 undefined on input line 36.
-
-
-LaTeX Warning: Reference `eq:171' on page 102 undefined on input line 36.
-
-[102]
-
-LaTeX Warning: Reference `eq:16' on page 103 undefined on input line 40.
-
-
-LaTeX Warning: Reference `eq:25' on page 103 undefined on input line 40.
-
-
-LaTeX Warning: Reference `eq:167' on page 103 undefined on input line 40.
-
-
-LaTeX Warning: Reference `eq:169' on page 103 undefined on input line 40.
-
-
-LaTeX Warning: Reference `eq:172' on page 103 undefined on input line 40.
-
-
-LaTeX Warning: Reference `eq:15' on page 103 undefined on input line 44.
-
-
-LaTeX Warning: Reference `eq:20' on page 103 undefined on input line 44.
-
-
-LaTeX Warning: Reference `eq:29' on page 103 undefined on input line 44.
-
-
-LaTeX Warning: Reference `eq:166' on page 103 undefined on input line 44.
-
-
-LaTeX Warning: Reference `eq:167' on page 103 undefined on input line 44.
-
-
-LaTeX Warning: Reference `eq:168' on page 103 undefined on input line 44.
-
-
-LaTeX Warning: Reference `eq:169' on page 103 undefined on input line 44.
-
-
-LaTeX Warning: Reference `eq:172' on page 103 undefined on input line 44.
-
-
-LaTeX Warning: Reference `eq:16' on page 103 undefined on input line 48.
-
-
-LaTeX Warning: Reference `eq:21' on page 103 undefined on input line 48.
-
-
-LaTeX Warning: Reference `eq:28' on page 103 undefined on input line 48.
-
-
-LaTeX Warning: Reference `eq:166' on page 103 undefined on input line 48.
-
-
-LaTeX Warning: Reference `eq:167' on page 103 undefined on input line 48.
-
-
-LaTeX Warning: Reference `eq:168' on page 103 undefined on input line 48.
-
-
-LaTeX Warning: Reference `eq:169' on page 103 undefined on input line 48.
-
-
-LaTeX Warning: Reference `eq:172' on page 103 undefined on input line 48.
-
-
-LaTeX Warning: Reference `eq:173' on page 103 undefined on input line 48.
-
-
-LaTeX Warning: Reference `eq:174' on page 103 undefined on input line 48.
-
-
-LaTeX Warning: Reference `eq:166' on page 103 undefined on input line 52.
-
-
-LaTeX Warning: Reference `eq:167' on page 103 undefined on input line 52.
-
-
-LaTeX Warning: Reference `eq:170' on page 103 undefined on input line 52.
-
-
-LaTeX Warning: Reference `eq:34' on page 103 undefined on input line 52.
-
-
-LaTeX Warning: Reference `eq:165' on page 103 undefined on input line 60.
-
-
-LaTeX Warning: Reference `eq:166' on page 103 undefined on input line 60.
-
-
-LaTeX Warning: Reference `eq:167' on page 103 undefined on input line 60.
-
-
-LaTeX Warning: Reference `eq:168' on page 103 undefined on input line 60.
-
-
-LaTeX Warning: Reference `eq:169' on page 103 undefined on input line 60.
-
-
-LaTeX Warning: Reference `eq:170' on page 103 undefined on input line 60.
-
-
-LaTeX Warning: Reference `eq:35' on page 103 undefined on input line 60.
-
-
-LaTeX Warning: Reference `eq:164' on page 103 undefined on input line 68.
-
-
-LaTeX Warning: Reference `eq:165' on page 103 undefined on input line 68.
-
-
-LaTeX Warning: Reference `eq:166' on page 103 undefined on input line 68.
-
-
-LaTeX Warning: Reference `eq:167' on page 103 undefined on input line 68.
-
-
-LaTeX Warning: Reference `eq:168' on page 103 undefined on input line 68.
-
-
-LaTeX Warning: Reference `eq:169' on page 103 undefined on input line 68.
-
-
-LaTeX Warning: Reference `eq:170' on page 103 undefined on input line 68.
-
-
-LaTeX Warning: Reference `eq:171' on page 103 undefined on input line 68.
-
-
-LaTeX Warning: Reference `eq:172' on page 103 undefined on input line 68.
-
-
-LaTeX Warning: Reference `eq:172' on page 103 undefined on input line 68.
-
-
-LaTeX Warning: Reference `eq:174' on page 103 undefined on input line 68.
-
-
-LaTeX Warning: Reference `eq:175' on page 103 undefined on input line 68.
-
-
-LaTeX Warning: Reference `eq:36' on page 103 undefined on input line 68.
-
-
+ [101] ("Projektarbeit - Anhang.tex" [102]
 Overfull \hbox (0.58931pt too wide) detected at line 75
 \OML/cmm/m/it/10.95 w\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 y; F[]; F[]; EI[]\
 OT1/cmr/m/n/10.95 ) = []
  []
 
 [103]
-
-LaTeX Warning: Reference `Fluegel1' on page 104 undefined on input line 97.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
@@ -2604,11 +1631,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 370--371
  []
 
 [111]
-
-LaTeX Warning: Reference `dickeFormel' on page 112 undefined on input line 388.
-
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 396--397
 
  []
@@ -2754,336 +1776,281 @@ Package pdftex.def Info: Bilder/Konstanten Haut.png  used on input line 488.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Längen.png, id=502, 155.3805pt x 224.037pt>
-File: Bilder/Längen.png Graphic file (type png)
-<use Bilder/Längen.png>
-Package pdftex.def Info: Bilder/Längen.png  used on input line 494.
-(pdftex.def)             Requested size: 136.57462pt x 196.92754pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Bilder/S1.png, id=503, 598.6365pt x 313.17pt>
-File: Bilder/S1.png Graphic file (type png)
-<use Bilder/S1.png>
-Package pdftex.def Info: Bilder/S1.png  used on input line 499.
-(pdftex.def)             Requested size: 455.24411pt x 238.15979pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Bilder/S2.png, id=504, 599.841pt x 313.77225pt>
-File: Bilder/S2.png Graphic file (type png)
-<use Bilder/S2.png>
-Package pdftex.def Info: Bilder/S2.png  used on input line 504.
-(pdftex.def)             Requested size: 455.24411pt x 238.1438pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Bilder/S3.png, id=505, 599.841pt x 316.18124pt>
-File: Bilder/S3.png Graphic file (type png)
-<use Bilder/S3.png>
-Package pdftex.def Info: Bilder/S3.png  used on input line 508.
-(pdftex.def)             Requested size: 455.24411pt x 239.97217pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Bilder/S4.png, id=506, 598.03426pt x 314.3745pt>
-File: Bilder/S4.png Graphic file (type png)
-<use Bilder/S4.png>
-Package pdftex.def Info: Bilder/S4.png  used on input line 512.
-(pdftex.def)             Requested size: 455.24411pt x 239.31085pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Bilder/S5.png, id=507, 598.6365pt x 318.59026pt>
-File: Bilder/S5.png Graphic file (type png)
-<use Bilder/S5.png>
-Package pdftex.def Info: Bilder/S5.png  used on input line 517.
-(pdftex.def)             Requested size: 455.24411pt x 242.2818pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Bilder/S6.png, id=508, 599.23875pt x 313.17pt>
-File: Bilder/S6.png Graphic file (type png)
-<use Bilder/S6.png>
-Package pdftex.def Info: Bilder/S6.png  used on input line 521.
-(pdftex.def)             Requested size: 455.24411pt x 237.92087pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Bilder/S7.png, id=509, 599.23875pt x 313.77225pt>
-File: Bilder/S7.png Graphic file (type png)
-<use Bilder/S7.png>
-Package pdftex.def Info: Bilder/S7.png  used on input line 525.
-(pdftex.def)             Requested size: 455.24411pt x 238.3784pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Bilder/S8.png, id=510, 598.6365pt x 316.7835pt>
-File: Bilder/S8.png Graphic file (type png)
-<use Bilder/S8.png>
-Package pdftex.def Info: Bilder/S8.png  used on input line 529.
-(pdftex.def)             Requested size: 455.24411pt x 240.90779pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Bilder/S9.png, id=511, 598.6365pt x 313.77225pt>
-File: Bilder/S9.png Graphic file (type png)
-<use Bilder/S9.png>
-Package pdftex.def Info: Bilder/S9.png  used on input line 533.
-(pdftex.def)             Requested size: 455.24411pt x 238.6178pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Bilder/S10.png, id=512, 596.2275pt x 311.9655pt>
-File: Bilder/S10.png Graphic file (type png)
-<use Bilder/S10.png>
-Package pdftex.def Info: Bilder/S10.png  used on input line 537.
-(pdftex.def)             Requested size: 455.24411pt x 238.2006pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Bilder/AufbauGesamt.jpg, id=513, 623.83063pt x 419.06563pt>
-File: Bilder/AufbauGesamt.jpg Graphic file (type jpg)
-<use Bilder/AufbauGesamt.jpg>
-Package pdftex.def Info: Bilder/AufbauGesamt.jpg  used on input line 542.
-(pdftex.def)             Requested size: 455.24411pt x 305.81944pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Bilder/SeiteRichtig.jpg, id=514, 723.20187pt x 331.73938pt>
-File: Bilder/SeiteRichtig.jpg Graphic file (type jpg)
-<use Bilder/SeiteRichtig.jpg>
-Package pdftex.def Info: Bilder/SeiteRichtig.jpg  used on input line 548.
-(pdftex.def)             Requested size: 455.24411pt x 208.8248pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Bilder/MontagePlatte.jpg, id=515, 998.73125pt x 460.72125pt>
-File: Bilder/MontagePlatte.jpg Graphic file (type jpg)
-<use Bilder/MontagePlatte.jpg>
-Package pdftex.def Info: Bilder/MontagePlatte.jpg  used on input line 554.
-(pdftex.def)             Requested size: 455.24411pt x 210.00812pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Bilder/Material_GFK.png, id=516, 522.45187pt x 478.03593pt>
-File: Bilder/Material_GFK.png Graphic file (type png)
-<use Bilder/Material_GFK.png>
-Package pdftex.def Info: Bilder/Material_GFK.png  used on input line 559.
-(pdftex.def)             Requested size: 364.19667pt x 333.23695pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Bilder/Steg_Material.png, id=517, 469.00218pt x 368.87813pt>
-File: Bilder/Steg_Material.png Graphic file (type png)
-<use Bilder/Steg_Material.png>
-Package pdftex.def Info: Bilder/Steg_Material.png  used on input line 565.
-(pdftex.def)             Requested size: 364.19667pt x 286.44608pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Bilder/Hertel Druck.png, id=518, 366.77025pt x 467.346pt>
+[113 <./Bilder/Lagenaufbau Holmgurte.png> <./Bilder/Lagenaufbau Steg dünn.png>
+] [114 <./Bilder/Lagenaufbau Steg dick.png>] [115 <./Bilder/Lagenaufbau Haut.pn
+g> <./Bilder/Berechnung Holmgurte.png>] [116 <./Bilder/Berechnung Steg dünn.pn
+g>] [117 <./Bilder/Berechnung Steg dick.png>] [118 <./Bilder/Berechnung Haut.pn
+g> <./Bilder/sicher1.png>] [119 <./Bilder/sicher2.png> <./Bilder/sicher3.png>]
+[120 <./Bilder/sicher4.png> <./Bilder/Konstanten Holmgurte.png>] [121 <./Bilder
+/Konstanten Steg dünn.png>] [122 <./Bilder/Konstanten Steg dick.png>] [123 <./
+Bilder/Konstanten Haut.png>]
+<Bilder/Hertel Druck.png, id=554, 366.77025pt x 467.346pt>
 File: Bilder/Hertel Druck.png Graphic file (type png)
 <use Bilder/Hertel Druck.png>
-Package pdftex.def Info: Bilder/Hertel Druck.png  used on input line 571.
-(pdftex.def)             Requested size: 341.43307pt x 435.08366pt.
-
-LaTeX Warning: Citation `item1' on page 113 undefined on input line 573.
-
-
-LaTeX Warning: Citation `item1' on page 113 undefined on input line 573.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Bilder/Hertel Biegung.png, id=519, 325.81725pt x 457.71pt>
+Package pdftex.def Info: Bilder/Hertel Druck.png  used on input line 497.
+(pdftex.def)             Requested size: 318.66948pt x 406.0743pt.
+<Bilder/Hertel Biegung.png, id=555, 325.81725pt x 457.71pt>
 File: Bilder/Hertel Biegung.png Graphic file (type png)
 <use Bilder/Hertel Biegung.png>
-Package pdftex.def Info: Bilder/Hertel Biegung.png  used on input line 577.
+Package pdftex.def Info: Bilder/Hertel Biegung.png  used on input line 503.
 (pdftex.def)             Requested size: 341.43307pt x 479.65288pt.
 
-LaTeX Warning: Citation `item1' on page 113 undefined on input line 579.
-
-
-LaTeX Warning: Citation `item1' on page 113 undefined on input line 579.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Hertel Schub.png, id=520, 325.215pt x 349.305pt>
+<Bilder/Hertel Schub.png, id=556, 325.215pt x 349.305pt>
 File: Bilder/Hertel Schub.png Graphic file (type png)
 <use Bilder/Hertel Schub.png>
-Package pdftex.def Info: Bilder/Hertel Schub.png  used on input line 583.
+Package pdftex.def Info: Bilder/Hertel Schub.png  used on input line 509.
 (pdftex.def)             Requested size: 341.43307pt x 366.75441pt.
 
-LaTeX Warning: Citation `item1' on page 113 undefined on input line 585.
-
-
-LaTeX Warning: Citation `item1' on page 113 undefined on input line 585.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Hertel Sicherheit.png, id=521, 278.2395pt x 348.70274pt>
+<Bilder/Hertel Sicherheit.png, id=557, 278.2395pt x 348.70274pt>
 File: Bilder/Hertel Sicherheit.png Graphic file (type png)
 <use Bilder/Hertel Sicherheit.png>
-Package pdftex.def Info: Bilder/Hertel Sicherheit.png  used on input line 589.
+Package pdftex.def Info: Bilder/Hertel Sicherheit.png  used on input line 515.
 (pdftex.def)             Requested size: 227.62206pt x 285.26767pt.
-
-LaTeX Warning: Citation `item1' on page 113 undefined on input line 591.
-
-
-LaTeX Warning: Citation `item1' on page 113 undefined on input line 591.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Hertel Sandwich.png, id=522, 234.27525pt x 213.1965pt>
+<Bilder/Hertel Sandwich.png, id=558, 234.27525pt x 213.1965pt>
 File: Bilder/Hertel Sandwich.png Graphic file (type png)
 <use Bilder/Hertel Sandwich.png>
-Package pdftex.def Info: Bilder/Hertel Sandwich.png  used on input line 595.
+Package pdftex.def Info: Bilder/Hertel Sandwich.png  used on input line 521.
 (pdftex.def)             Requested size: 227.62206pt x 207.14842pt.
 
-LaTeX Warning: Citation `item1' on page 113 undefined on input line 597.
-
-
-LaTeX Warning: Citation `item1' on page 113 undefined on input line 597.
-
-
-Underfull \hbox (badness 2326) in paragraph at lines 597--597
-[]\T1/cmr/m/n/10.95 Abbildung 11.37: Sand-wich-plat-te mit un-ter-schied-li-che
+Underfull \hbox (badness 2326) in paragraph at lines 523--523
+[]\T1/cmr/m/n/10.95 Abbildung 11.21: Sand-wich-plat-te mit un-ter-schied-li-che
 n Haut-st�r-ken, Beul-stei-fig-keit, f�r
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[113 <./Bilder/Lagenaufbau Holmgurte.png> <./Bilder/Lagenaufbau Steg dünn.png>
-]
-<PDFs/Explosionsdarstellung.pdf, id=528, 845.1575pt x 597.23125pt>
+[124
+
+ <./Bilder/Hertel Druck.png>] [125 <./Bilder/Hertel Biegung.png>] [126 <./Bilde
+r/Hertel Schub.png>] [127 <./Bilder/Hertel Sicherheit.png> <./Bilder/Hertel San
+dwich.png>]
+<Bilder/Längen.png, id=577, 155.3805pt x 224.037pt>
+File: Bilder/Längen.png Graphic file (type png)
+<use Bilder/Längen.png>
+Package pdftex.def Info: Bilder/Längen.png  used on input line 530.
+(pdftex.def)             Requested size: 136.57462pt x 196.92754pt.
+<Bilder/S1.png, id=578, 598.6365pt x 313.17pt>
+File: Bilder/S1.png Graphic file (type png)
+<use Bilder/S1.png>
+Package pdftex.def Info: Bilder/S1.png  used on input line 535.
+(pdftex.def)             Requested size: 455.24411pt x 238.15979pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Bilder/S2.png, id=579, 599.841pt x 313.77225pt>
+File: Bilder/S2.png Graphic file (type png)
+<use Bilder/S2.png>
+Package pdftex.def Info: Bilder/S2.png  used on input line 540.
+(pdftex.def)             Requested size: 455.24411pt x 238.1438pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Bilder/S3.png, id=580, 599.841pt x 316.18124pt>
+File: Bilder/S3.png Graphic file (type png)
+<use Bilder/S3.png>
+Package pdftex.def Info: Bilder/S3.png  used on input line 544.
+(pdftex.def)             Requested size: 455.24411pt x 239.97217pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Bilder/S4.png, id=581, 598.03426pt x 314.3745pt>
+File: Bilder/S4.png Graphic file (type png)
+<use Bilder/S4.png>
+Package pdftex.def Info: Bilder/S4.png  used on input line 548.
+(pdftex.def)             Requested size: 455.24411pt x 239.31085pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Bilder/S5.png, id=582, 598.6365pt x 318.59026pt>
+File: Bilder/S5.png Graphic file (type png)
+<use Bilder/S5.png>
+Package pdftex.def Info: Bilder/S5.png  used on input line 553.
+(pdftex.def)             Requested size: 455.24411pt x 242.2818pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Bilder/S6.png, id=583, 599.23875pt x 313.17pt>
+File: Bilder/S6.png Graphic file (type png)
+<use Bilder/S6.png>
+Package pdftex.def Info: Bilder/S6.png  used on input line 557.
+(pdftex.def)             Requested size: 455.24411pt x 237.92087pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Bilder/S7.png, id=584, 599.23875pt x 313.77225pt>
+File: Bilder/S7.png Graphic file (type png)
+<use Bilder/S7.png>
+Package pdftex.def Info: Bilder/S7.png  used on input line 561.
+(pdftex.def)             Requested size: 455.24411pt x 238.3784pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Bilder/S8.png, id=585, 598.6365pt x 316.7835pt>
+File: Bilder/S8.png Graphic file (type png)
+<use Bilder/S8.png>
+Package pdftex.def Info: Bilder/S8.png  used on input line 565.
+(pdftex.def)             Requested size: 455.24411pt x 240.90779pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Bilder/S9.png, id=586, 598.6365pt x 313.77225pt>
+File: Bilder/S9.png Graphic file (type png)
+<use Bilder/S9.png>
+Package pdftex.def Info: Bilder/S9.png  used on input line 569.
+(pdftex.def)             Requested size: 455.24411pt x 238.6178pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Bilder/S10.png, id=587, 596.2275pt x 311.9655pt>
+File: Bilder/S10.png Graphic file (type png)
+<use Bilder/S10.png>
+Package pdftex.def Info: Bilder/S10.png  used on input line 573.
+(pdftex.def)             Requested size: 455.24411pt x 238.2006pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[128
+
+ <./Bilder/Längen.png>] [129 <./Bilder/S1.png> <./Bilder/S2.png>] [130 <./Bild
+er/S3.png> <./Bilder/S4.png>] [131 <./Bilder/S5.png> <./Bilder/S6.png>]
+[132 <./Bilder/S7.png> <./Bilder/S8.png>] [133 <./Bilder/S9.png> <./Bilder/S10.
+png>]
+<Bilder/Material_GFK.png, id=607, 522.45187pt x 478.03593pt>
+File: Bilder/Material_GFK.png Graphic file (type png)
+<use Bilder/Material_GFK.png>
+Package pdftex.def Info: Bilder/Material_GFK.png  used on input line 581.
+(pdftex.def)             Requested size: 364.19667pt x 333.23695pt.
+<Bilder/Steg_Material.png, id=608, 469.00218pt x 368.87813pt>
+File: Bilder/Steg_Material.png Graphic file (type png)
+<use Bilder/Steg_Material.png>
+Package pdftex.def Info: Bilder/Steg_Material.png  used on input line 587.
+(pdftex.def)             Requested size: 364.19667pt x 286.44608pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[134
+
+ <./Bilder/Material_GFK.png>] [135 <./Bilder/Steg_Material.png>]
+<Bilder/AufbauGesamt.jpg, id=617, 623.83063pt x 419.06563pt>
+File: Bilder/AufbauGesamt.jpg Graphic file (type jpg)
+<use Bilder/AufbauGesamt.jpg>
+Package pdftex.def Info: Bilder/AufbauGesamt.jpg  used on input line 597.
+(pdftex.def)             Requested size: 455.24411pt x 305.81944pt.
+<Bilder/SeiteRichtig.jpg, id=618, 723.20187pt x 331.73938pt>
+File: Bilder/SeiteRichtig.jpg Graphic file (type jpg)
+<use Bilder/SeiteRichtig.jpg>
+Package pdftex.def Info: Bilder/SeiteRichtig.jpg  used on input line 603.
+(pdftex.def)             Requested size: 455.24411pt x 208.8248pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Bilder/MontagePlatte.jpg, id=619, 998.73125pt x 460.72125pt>
+File: Bilder/MontagePlatte.jpg Graphic file (type jpg)
+<use Bilder/MontagePlatte.jpg>
+Package pdftex.def Info: Bilder/MontagePlatte.jpg  used on input line 609.
+(pdftex.def)             Requested size: 455.24411pt x 210.00812pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<PDFs/Explosionsdarstellung.pdf, id=620, 845.1575pt x 597.23125pt>
 File: PDFs/Explosionsdarstellung.pdf Graphic file (type pdf)
 <use PDFs/Explosionsdarstellung.pdf>
-Package pdftex.def Info: PDFs/Explosionsdarstellung.pdf  used on input line 602
+Package pdftex.def Info: PDFs/Explosionsdarstellung.pdf  used on input line 615
 .
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 
-Overfull \hbox (82.25905pt too wide) in paragraph at lines 602--604
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 169.10454pt on input line 604.
+LaTeX Warning: Float too large for page by 42.33638pt on input line 617.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<PDFs/Profilkontur.pdf, id=529, 845.1575pt x 597.23125pt>
+<PDFs/Profilkontur.pdf, id=621, 845.1575pt x 597.23125pt>
 File: PDFs/Profilkontur.pdf Graphic file (type pdf)
 <use PDFs/Profilkontur.pdf>
-Package pdftex.def Info: PDFs/Profilkontur.pdf  used on input line 606.
+Package pdftex.def Info: PDFs/Profilkontur.pdf  used on input line 619.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 
-Overfull \hbox (82.25905pt too wide) in paragraph at lines 606--608
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 169.10454pt on input line 608.
+LaTeX Warning: Float too large for page by 42.33638pt on input line 621.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<PDFs/KlotzVorne.pdf, id=530, 845.1575pt x 597.23125pt>
+<PDFs/KlotzVorne.pdf, id=622, 845.1575pt x 597.23125pt>
 File: PDFs/KlotzVorne.pdf Graphic file (type pdf)
 <use PDFs/KlotzVorne.pdf>
-Package pdftex.def Info: PDFs/KlotzVorne.pdf  used on input line 610.
+Package pdftex.def Info: PDFs/KlotzVorne.pdf  used on input line 623.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 
-Overfull \hbox (82.25905pt too wide) in paragraph at lines 610--612
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 169.10454pt on input line 612.
+LaTeX Warning: Float too large for page by 42.33638pt on input line 625.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<PDFs/Holmquerschnitte.pdf, id=531, 845.1575pt x 597.23125pt>
+<PDFs/Holmquerschnitte.pdf, id=623, 845.1575pt x 597.23125pt>
 File: PDFs/Holmquerschnitte.pdf Graphic file (type pdf)
 <use PDFs/Holmquerschnitte.pdf>
-Package pdftex.def Info: PDFs/Holmquerschnitte.pdf  used on input line 614.
+Package pdftex.def Info: PDFs/Holmquerschnitte.pdf  used on input line 627.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 
-Overfull \hbox (82.25905pt too wide) in paragraph at lines 614--616
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 169.10454pt on input line 616.
+LaTeX Warning: Float too large for page by 42.33638pt on input line 629.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)
-
-Package longtable Warning: Table widths have changed. Rerun LaTeX.
-
-[114 <./Bilder/Lagenaufbau Steg dick.png>] [115 <./Bilder/Lagenaufbau Haut.png>
- <./Bilder/Berechnung Holmgurte.png>] [116 <./Bilder/Berechnung Steg dünn.png>
-] [117 <./Bilder/Berechnung Steg dick.png>] [118 <./Bilder/Berechnung Haut.png>
- <./Bilder/sicher1.png>] [119 <./Bilder/sicher2.png> <./Bilder/sicher3.png>]
-[120 <./Bilder/sicher4.png> <./Bilder/Konstanten Holmgurte.png>] [121 <./Bilder
-/Konstanten Steg dünn.png>] [122 <./Bilder/Konstanten Steg dick.png>] [123 <./
-Bilder/Konstanten Haut.png> <./Bilder/Längen.png>] [124 <./Bilder/S1.png> <./B
-ilder/S2.png>] [125 <./Bilder/S3.png> <./Bilder/S4.png>] [126 <./Bilder/S5.png>
- <./Bilder/S6.png>] [127 <./Bilder/S7.png> <./Bilder/S8.png>] [128 <./Bilder/S9
-.png> <./Bilder/S10.png>] [129 <./Bilder/AufbauGesamt.jpg> <./Bilder/SeiteRicht
-ig.jpg>] [130 <./Bilder/MontagePlatte.jpg>] [131 <./Bilder/Material_GFK.png>]
-[132 <./Bilder/Steg_Material.png>] [133 <./Bilder/Hertel Druck.png>] [134 <./Bi
-lder/Hertel Biegung.png>] [135 <./Bilder/Hertel Schub.png>] [136 <./Bilder/Hert
-el Sicherheit.png> <./Bilder/Hertel Sandwich.png>] [137 <./PDFs/Explosionsdarst
-ellung.pdf, page is rotated 90 degrees>] [138 <./PDFs/Profilkontur.pdf, page is
- rotated 90 degrees>] [139 <./PDFs/KlotzVorne.pdf, page is rotated 90 degrees>]
-[140 <./PDFs/Holmquerschnitte.pdf, page is rotated 90 degrees>]
-("Projektarbeit - Main.aux")
+) [136 <./Bilder/AufbauGesamt.jpg>] [137 <./Bilder/SeiteRichtig.jpg> <./Bilder/
+MontagePlatte.jpg>] [138 <./PDFs/Explosionsdarstellung.pdf, page is rotated 90 
+degrees>] [139 <./PDFs/Profilkontur.pdf, page is rotated 90 degrees>] [140 <./P
+DFs/KlotzVorne.pdf, page is rotated 90 degrees>] [141 <./PDFs/Holmquerschnitte.
+pdf, page is rotated 90 degrees>] ("Projektarbeit - Main.aux")
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 7822 strings out of 479832
- 147953 string characters out of 2880873
- 501368 words of memory out of 3000000
- 24514 multiletter control sequences out of 15000+200000
- 546923 words of font info for 53 fonts, out of 3000000 for 9000
+ 7431 strings out of 479799
+ 144289 string characters out of 2871148
+ 490898 words of memory out of 3000000
+ 24172 multiletter control sequences out of 15000+200000
+ 548060 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 120i,23n,124p,2207b,640s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\hgolo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti
-1095.pk> <C:\Users\hgolo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecti1095.pk> <C:\Users\hgolo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecbx1200.pk> <C:\Users\hgolo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\tcrm1095.pk> <C:\Users\hgolo\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\hgolo\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\hgolo\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecsl1095.pk> <C:\Users\hgolo\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\hgolo\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk><C:/Program Files/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
-8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pro
-gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
-8.pfb>
-Output written on "Projektarbeit - Main.pdf" (147 pages, 4433550 bytes).
+ 120i,23n,124p,2204b,636s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti109
+5.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
+1095.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
+cbx1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1095.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
+i600\ecbx1095.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx1440.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
+/ec/dpi600\ecsl1095.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecbx2074.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
+nappen/ec/dpi600\ecrm1095.pk><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/PC/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/PC/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/PC/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/PC/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/PC/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/PC/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users
+/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
+/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pf
+b><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
+y8.pfb>
+Output written on "Projektarbeit - Main.pdf" (148 pages, 4441425 bytes).
 PDF statistics:
- 1151 PDF objects out of 1200 (max. 8388607)
+ 1158 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  351 words of extra memory for PDF output out of 10000 (max. 10000000)
 
