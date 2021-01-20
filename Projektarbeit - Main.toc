@@ -5,15 +5,15 @@
 \contentsline {subsection}{\numberline {2.2}Motivation (O.S.)}{7}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Lösungsstrategie (H.G.)}{7}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Grundlagen}{9}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Glasfaser (H.G.)}{9}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Matrix (H.G.)}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.1}Einführung zu Glasfasern (H.G.)}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Einführung zur Matrix (H.G.)}{9}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Einführung in die Balkenbiegung (T.B.)}{10}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Netztheorie (H.G.)}{12}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Klassische Laminattheorie (H.G.)}{13}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.4}Einführung in die Netztheorie (H.G.)}{12}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Einführung in die Klassische Laminattheorie (H.G.)}{13}{subsection.3.5}%
 \contentsline {subsubsection}{\numberline {3.5.1}Ingenieurskonstanten des MSV}{14}{subsubsection.3.5.1}%
 \contentsline {subsubsection}{\numberline {3.5.2}Plattenelement}{14}{subsubsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.6}Mischungsregel (H.G.)}{16}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Versagenskriterium nach Puck (O.S.)}{17}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.6}Einführung in die Mischungsregel (H.G.)}{16}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Einführung in das Versagenskriterium nach Puck (O.S.)}{17}{subsection.3.7}%
 \contentsline {subsubsection}{\numberline {3.7.1}Definitionen}{17}{subsubsection.3.7.1}%
 \contentsline {subsubsection}{\numberline {3.7.2}Zwischenfaserbruch ohne Längsspannung}{17}{subsubsection.3.7.2}%
 \contentsline {subsubsection}{\numberline {3.7.3}Einfluss der Längsspannung}{19}{subsubsection.3.7.3}%
@@ -21,8 +21,8 @@
 \contentsline {paragraph}{Zugspannung $\sigma _{\parallel }^+$}{20}{section*.2}%
 \contentsline {paragraph}{Druckspannung $\sigma _{\parallel }^-$}{20}{section*.3}%
 \contentsline {subsection}{\numberline {3.8}Einführung in Stabilitäts-Überprüfungen (T.B.)}{23}{subsection.3.8}%
-\contentsline {subsection}{\numberline {3.9}Einführung in die Verklebung (T.B.)}{25}{subsection.3.9}%
-\contentsline {subsection}{\numberline {3.10}Bauweise (O.S.)}{26}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.9}Einführung zu Verklebung (T.B.)}{25}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}Einführung in Bauweisen (O.S.)}{26}{subsection.3.10}%
 \contentsline {section}{\numberline {4}Auslegung des Holms nach Handbuchmethoden}{27}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Modellierung des Holms (T.B.)}{27}{subsection.4.1}%
 \contentsline {subsubsection}{\numberline {4.1.1}Annahmen zur Modellierung}{27}{subsubsection.4.1.1}%
@@ -92,7 +92,7 @@
 \contentsline {subsection}{\numberline {11.1}Berechnung: Analytische Lösung der Modellierung (T.B.)}{105}{subsection.11.1}%
 \contentsline {subsection}{\numberline {11.2}Berechnung: Schubfluss und Schubmittelpunkt (O.S.)}{107}{subsection.11.2}%
 \contentsline {subsection}{\numberline {11.3}Abbildungen: $eLamX^{2}$}{116}{subsection.11.3}%
-\contentsline {subsection}{\numberline {11.4}Abbildungen: Beulberechnung}{124}{subsection.11.4}%
-\contentsline {subsection}{\numberline {11.5}Abbildungen Schubfluss}{128}{subsection.11.5}%
-\contentsline {subsection}{\numberline {11.6}Abbildungen: Numerische Berechnung}{134}{subsection.11.6}%
-\contentsline {subsection}{\numberline {11.7}Abbildungen: Konstruktion und Fertigung}{136}{subsection.11.7}%
+\contentsline {subsection}{\numberline {11.4}Abbildungen: Beulberechnung}{125}{subsection.11.4}%
+\contentsline {subsection}{\numberline {11.5}Abbildungen Schubfluss}{129}{subsection.11.5}%
+\contentsline {subsection}{\numberline {11.6}Abbildungen: Numerische Berechnung}{135}{subsection.11.6}%
+\contentsline {subsection}{\numberline {11.7}Abbildungen: Konstruktion und Fertigung}{137}{subsection.11.7}%
