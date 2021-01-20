@@ -10,14 +10,15 @@
 \contentsline {subsection}{\numberline {3.3}Netztheorie (H.G.)}{9}{}%
 \contentsline {subsection}{\numberline {3.4}Klassische Laminattheorie (H.G.)}{10}{}%
 \contentsline {subsubsection}{\numberline {3.4.1}Ingenieurskonstanten des MSV}{12}{}%
-\contentsline {subsection}{\numberline {3.5}Mischungsregel (H.G.)}{12}{}%
+\contentsline {subsubsection}{\numberline {3.4.2}Plattenelement}{12}{}%
+\contentsline {subsection}{\numberline {3.5}Mischungsregel (H.G.)}{13}{}%
 \contentsline {subsection}{\numberline {3.6}Versagenskriterium nach Puck (O.S.)}{13}{}%
-\contentsline {subsubsection}{\numberline {3.6.1}Definitionen}{13}{}%
+\contentsline {subsubsection}{\numberline {3.6.1}Definitionen}{14}{}%
 \contentsline {subsubsection}{\numberline {3.6.2}Zwischenfaserbruch ohne Längsspannung}{14}{}%
 \contentsline {subsubsection}{\numberline {3.6.3}Einfluss der Längsspannung}{15}{}%
-\contentsline {subsubsection}{\numberline {3.6.4}Faserbruch}{15}{}%
+\contentsline {subsubsection}{\numberline {3.6.4}Faserbruch}{16}{}%
 \contentsline {paragraph}{Zugspannung $\sigma _{\parallel }^+$}{16}{}%
-\contentsline {paragraph}{Druckspannung $\sigma _{\parallel }^-$}{16}{}%
+\contentsline {paragraph}{Druckspannung $\sigma _{\parallel }^-$}{17}{}%
 \contentsline {subsection}{\numberline {3.7}Bauweise (O.S.)}{18}{}%
 \contentsline {section}{\numberline {4}Auslegung des Holms nach Handbuchmethoden}{20}{}%
 \contentsline {subsection}{\numberline {4.1}Modellierung des Holms (T.B.)}{20}{}%
@@ -77,21 +78,6 @@
 \contentsline {subsubsection}{\numberline {7.2.3}Masse der Haut}{84}{}%
 \contentsline {subsubsection}{\numberline {7.2.4}Masse der Holzklötze und Rippen}{85}{}%
 \contentsline {subsubsection}{\numberline {7.2.5}Abschätzung der Verklebungen und der Gesamtmasse}{86}{}%
-<<<<<<< HEAD
-\contentsline {subsection}{\numberline {7.3}Bauanleitung für die Fertigung (T.B.)}{87}{}%
-\contentsline {section}{\numberline {8}Zusammenfassung}{90}{}%
-\contentsline {subsection}{\numberline {8.1}Die Berechnungen im Überblick (H.K.)}{90}{}%
-\contentsline {subsection}{\numberline {8.2}Die Konstruktion und FEM-Analyse im Überblick (H.K.)}{93}{}%
-\contentsline {subsection}{\numberline {8.3}Gewichtsnormalisiertes Festigkeitskriterium (O.S.)}{94}{}%
-\contentsline {subsection}{\numberline {8.4}Diskussion der Ergebnisse}{95}{}%
-\contentsline {subsection}{\numberline {8.5}Ausblick auf Optimierungen der Berechnungen (H.G.)}{95}{}%
-\contentsline {section}{\numberline {9}Quellenverzeichnis}{97}{}%
-\contentsline {section}{\numberline {10}Abbildungsverzeichnis}{99}{}%
-\contentsline {section}{\numberline {11}Anhang}{101}{}%
-\contentsline {subsection}{\numberline {11.1}Berechnung: Analytische Lösung der Modellierung}{101}{}%
-\contentsline {subsection}{\numberline {11.2}Berechnung: Schubfluss und Schubmittelpunkt}{103}{}%
-\contentsline {subsection}{\numberline {11.3}Abbildungen}{112}{}%
-=======
 \contentsline {subsection}{\numberline {7.3}Bauanleitung für die Fertigung (T.B.)}{88}{}%
 \contentsline {section}{\numberline {8}Zusammenfassung}{91}{}%
 \contentsline {subsection}{\numberline {8.1}Die Berechnungen im Überblick (H.K.)}{91}{}%
@@ -103,6 +89,5 @@
 \contentsline {section}{\numberline {10}Abbildungsverzeichnis}{100}{}%
 \contentsline {section}{\numberline {11}Anhang}{102}{}%
 \contentsline {subsection}{\numberline {11.1}Berechnung: Analytische Lösung der Modellierung}{102}{}%
-\contentsline {subsection}{\numberline {11.2}Berechung: Schubfluss und Schubmittelpunkt}{104}{}%
+\contentsline {subsection}{\numberline {11.2}Berechnung: Schubfluss und Schubmittelpunkt}{104}{}%
 \contentsline {subsection}{\numberline {11.3}Abbildungen}{113}{}%
->>>>>>> main

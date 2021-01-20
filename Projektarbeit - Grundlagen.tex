@@ -67,16 +67,25 @@ A_{16}&A_{26}&A_{66}
 \hat{\gamma}_{xy}\\
 \end{Bmatrix}
 \end{gather}
+\noindent
 Die Verzerrung des MSV und somit auch die Verzerrung der Einzelschichten, lässt sich nun durch die Umstellung von Gleichung \ref{Aep} bestimmen.
 \begin{equation}
+\label{SpannungDehnung}
 \lbrace\hat{\varepsilon}\rbrace = [A]^{-1}\cdot\lbrace \hat{n}\rbrace
 \end{equation}
-Mit Gleichung \ref{AQ} lässt sich nun eine Beziehung  zwischen $[A]$ und der Schichtsteifigkeitsmatrix $[Q]$ finden.
+\noindent
+Um die Matrix A zu bestimmen werden die Steifigkeitsmatritzen der Einzelschichten $[Q]$ benötigt. Diese lassen sich mit Hilfe der E-Moduln, Querkontraktionszahlen definieren.
 \begin{equation}
-\label{AQ}
-	A_{ij}= \sum_{k=1}^{2} \overline{Q}_{ij,k}\cdot t_{k}
+[Q]
+=
+\begin{bmatrix}
+\frac{E_{\|}}{1-\nu_{\bot\|}\cdot \nu_{\|}\bot}&\frac{\nu_{\bot\|}\cdot E_{\bot}}{1-\nu_{\bot\|}\cdot \nu_{\|}\bot}&0\\
+\frac{\nu_{\|\bot}\cdot E_{\|}}{1-\nu_{\bot\|}\cdot \nu_{\|}\bot}&\frac{E_{\bot}}{1-\nu_{\bot\|}\cdot \nu_{\|}\bot}&0\\
+0&0&G_{\bot\|}
+\end{bmatrix}
 \end{equation}
-Als nächstes muss die Steifigkeitsmatrix noch in die Richtung der Einzelschichten mit dem Faserwinkel $\alpha_{k}$ und der Transformationsmatrix $[T]$ transformiert werden.\\
+\noindent
+Da manche Faserschichten um einen Winkel $\alpha$ gedreht sein können, muss für diese Schichten die Steifigkeitsmatrix mit Hilfe der Transformationsmatrix $[T]$  nach der Transformationsregel aus Gleichung \ref{trafo} transforniert werden.
 \begin{equation}
 	\underline{\underline{T}}=
 	\begin{bmatrix}
@@ -85,29 +94,16 @@ Als nächstes muss die Steifigkeitsmatrix noch in die Richtung der Einzelschicht
 		0,5\cdot \sin2\alpha&-0,5\cdot\sin2\alpha&\cos 2\alpha
 	\end{bmatrix}
 \end{equation}\\
+\begin{equation}
+\label{trafo}
+	\overline{\underline{\underline{Q}}}=\underline{\underline{T}}\cdot \underline{\underline{Q}} \cdot \underline{\underline{T}}^{T}  
+\end{equation}\\
 \noindent
-Nun lässt sich mit Hilfe der E-Moduln, Querkontraktionszahlen und der Steifigkeitsmatrix $[Q]$ die Spannung in den einzelnen Fasern bestimmen.
-\begin{gather}
-\label{Faserspannung}
-\begin{Bmatrix}
-\sigma_{1}\\
-\sigma_{2}\\
-\tau_{21}
-\end{Bmatrix}
-=
-\begin{bmatrix}
-\frac{E_{\|}}{1-\nu_{\bot\|}\cdot \nu_{\|}\bot}&\frac{\nu_{\bot\|}\cdot E_{\bot}}{1-\nu_{\bot\|}\cdot \nu_{\|}\bot}&0\\
-\frac{\nu_{\|\bot}\cdot E_{\|}}{1-\nu_{\bot\|}\cdot \nu_{\|}\bot}&\frac{E_{\bot}}{1-\nu_{\bot\|}\cdot \nu_{\|}\bot}&0\\
-0&0&G_{\bot\|}
-\end{bmatrix}
-\begin{Bmatrix}
-\varepsilon_{1}\\
-\varepsilon_{2}\\
-\gamma_{21}
-\end{Bmatrix}
-=
-[Q]\cdot \lbrace\varepsilon\rbrace
-\end{gather}
+Nun lässt sich die Scheibensteifigkeits-Matrix [A] aus den Steifigkeitsmatritzen der einzelnen Schichten zusammensetzen (siehe Glg.\ref{AQ}).
+\begin{equation}
+\label{AQ}
+	A_{ij}= \sum_{k=1}^{2} \overline{Q}_{ij,k}\cdot t_{k}
+\end{equation}
 \noindent
 Um ein passende Anzahl an Faserschichten zu bekommen kann das Ergebnis nun iterativ angepasst werden.\cite{item3}
 \subsubsection{Ingenieurskonstanten des MSV}
@@ -125,7 +121,37 @@ Diese lassen sich experimentell über z.B. einen Zugversuch oder rechnerisch aus
 \hat{\nu}_{yx}=-\frac{A_{12}^{-1}}{A_{11}^{-1}}
 \end{equation}
 \noindent
+Die Spannungen lassen sich jetzt durch Gleichung \ref{SpannungDehnung} errechnen.\\
+\noindent
 Bei den Elastizitätsmoduln ist darauf zu achten, dass es sich um Moduln ohne Querkontraktionsbehinderung handelt \cite{item3}.
+\subsubsection{Plattenelement}
+Um ein Plattenelement zu Berechnen werden zusätzliche Beziehungen benötigt, da nun ein zweiachsiger Spannungszustand vorliegt. Zu Gleichung \ref{AQ} kommen nun noch 2 weitere Gleichungen (siehe Glg.\ref{BQ}/\ref{DQ}) hinzu.
+\begin{equation}
+\label{BQ}
+	B_{ij}= \cdot \sum_{k=1}^{2} \overline{Q}_{ij,k}\cdot t_{k}\cdot \left(z_{k}-\frac{t_{k}}{2}\right)
+\end{equation}
+\begin{equation}
+\label{DQ} 
+	D_{ij}=\sum_{k=1}^{2} \overline{Q}_{ij,k}\cdot \left(\frac{t_{k}^{3}}{12}+t_{k}\left(z_{k}-\frac{t_{k}}{2}\right)^{2}\right)
+\end{equation}
+\noindent
+Nun lässt sich die Scheiben-Platten-Beziehung als Gleichung \ref{S-P} schreiben.\cite{item3}
+\begin{equation}
+\label{S-P}
+	\begin{pmatrix}
+		\hat{\underline{n}}\\
+		\hat{\underline{m}}
+	\end{pmatrix}
+	= \begin{bmatrix}
+		\underline{\underline{A}}&\underline{\underline{B}}\\
+		\underline{\underline{B}}&\underline{\underline{D}}
+	\end{bmatrix}
+	\cdot \begin{pmatrix}
+		\underline{\epsilon}\\
+		\underline{\kappa}
+	\end{pmatrix}
+\end{equation}\\
+
 
 
 \subsection{Mischungsregel (H.G.)}
