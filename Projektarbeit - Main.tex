@@ -1,13 +1,15 @@
-\documentclass[a4paper,twoside,11pt]{article}
+\documentclass[a4paper,oneside,11pt]{article}
 \usepackage[ngerman]{babel}
 \usepackage[T1]{fontenc}
-\usepackage[left=2cm,right=3cm]{geometry}
+\usepackage[right=2cm,left=3cm]{geometry}
 \usepackage{graphicx}
 \usepackage{pdfpages}
 \usepackage{tabto}
 \usepackage{setspace}
 \usepackage{amsmath}
 \usepackage{longtable}
+\usepackage[T1]{fontenc}
+\usepackage[headsepline]{scrlayer-scrpage}
 
 \begin{document}
 	
@@ -16,15 +18,29 @@
 \onehalfspacing
 \pagestyle{empty}	
 \input{Projektarbeit - Deckblatt}
-%\newpage
 \input{Projektarbeit - Aufgabenstellung}
-\newpage
+
+\pagestyle{scrheadings}
+\clearscrheadfoot
+\ihead{Übersicht}
+\ohead{}
 \input{Projektarbeit - Übersicht}
 \newpage
-\pagestyle{plain}
+\ihead{Abstract}
+\ohead{ }
+\input{Projektarbeit - Abstract}
+\newpage
+\clearscrheadfoot
+\ohead{Seite \pagemark}
+\ihead{\headmark}
+\automark{section}
+%\cfoot{Auslegung eines alternativen Modellflügels für das Flugzeug „Zaunkönig“ in Glasfaserverbund-Holm-Bauweise}
+
+\newpage
 \setcounter{page}{1}
 \tableofcontents
 \newpage
+
 \section{Bezeichnungen}
 \input{Projektarbeit - Bezeichnungen}
 \newpage

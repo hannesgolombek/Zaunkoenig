@@ -88,5 +88,5 @@
 \contentsline {section}{\numberline {10}Abbildungsverzeichnis}{99}{}%
 \contentsline {section}{\numberline {11}Anhang}{101}{}%
 \contentsline {subsection}{\numberline {11.1}Berechnung: Analytische Lösung der Modellierung}{101}{}%
-\contentsline {subsection}{\numberline {11.2}Berechung: Schubfluss und Schubmittelpunkt}{103}{}%
+\contentsline {subsection}{\numberline {11.2}Berechnung: Schubfluss und Schubmittelpunkt}{103}{}%
 \contentsline {subsection}{\numberline {11.3}Abbildungen}{112}{}%
