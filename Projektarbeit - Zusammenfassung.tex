@@ -34,8 +34,9 @@ Als \textit{Grundlage der FEM-Analyse} und zur Veranschaulichung der vorangegang
 
 
 \subsection{Gewichtsnormalisiertes Festigkeitskriterium (O.S.)}
-Um eine Vergleichbarkeit zwischen verschiedenen Flügeln zu schaffen wird die gewichtsnormalisierten Festigkeit
+Um eine Vergleichbarkeit zwischen verschiedenen Flügeln zu schaffen wird die gewichtsnormalisierte Festigkeit
 \begin{equation}
+\label{GewichtF}
 	P=\frac{m_{\mathrm{Belastung,max}}}{m_{\mathrm{Fluegel}}}
 \end{equation}
 definiert. Es wird also die Gewichtskraft als Masse $m_{\mathrm{Belastung,max}}$, die der Flügel im Testaufbau maximal aushält, ins Verhältnis mit der Flügelmasse $m_{\mathrm{Fluegel}}$ gesetzt. Auch wenn das Ziel war, einen möglichst leichten Flügel, der den in der Aufgabenstellung formulierten Anforderungen entspricht, zu konstruieren, wird somit berücksichtigt, dass mehr Material zwar eine höhere Masse mit sich bringt, aber er wahrscheinlich auch größere Lasten aushalten kann. Üblicher Weise würde man die Bruchlast im Teststand ermitteln, aber auf Grund der COVID-19 Pandemie ist es uns nicht möglich den Flügel zu bauen, geschweige denn zu testen.\\
@@ -48,6 +49,20 @@ $$m_{\mathrm{Belastung,max}} = 66,26\mathrm{kg}. $$ Eine erneute FEM-Berechnung 
 Für das Gewichtsnormalisiertes Festigkeitskriterium ergibt sich nun also mit $m_{\mathrm{Fluegel}}$ aus der Massenabschätzung ungefähr ein Wert von
 $$P = 181,04.$$
 \subsection{Diskussion der Ergebnisse}
+Die Ergebnisse der Messwerte sollen nun mit den Werten anderer Gruppen verglichen werden.\\
+\noindent
+Ein Aufgabenkriterium ist die Absenkung der Flügelspitze bei einer Belastung von 100N. Unser Flügel erreichte dabei eine Absenkung von 17,34 $mm$. Aus den Daten der uns zur Verfügung stehenden Testreihe geht eine Absenkung von 40,833 $mm$ bei einer Last von 100N hervor.\\
+\noindent
+Ein weiteres Vergleichskriterium ist die Bruchlast, die bei unserem Flügel 650 N betrug. Die Bruchlast der Testreihe betrug nur 434,63 N. Da jedoch nicht nur die maximal aushaltbare Last, sondern auch das Gewicht eine große Rolle spielt wird das gewichtsnormalisierte Festigkeitskriterium herangezogen (Glg. \ref{GewichtF}). Für unseren Flügel ergab sich dort ein Wert von $P=181,04$. Für den Vergleichsflügel ergibt sich mit $m_{max}=44,305kg$und $m_{ges}=0,699kg$ ein Wert von $P=66,38$.\\
+\noindent
+Zusätzlich kann der der Maximal auftretende Torsionswinkel verglichen werden. Unser Flügel wies bei einer Belastung von 650N einen Torsionswinkel von 3,01 Grad auf. Der Winkel des Vergleichsobjektes wies bei 434,63 N einen Winkel von 1,5 Grad auf. Diese Werte sind aufgrund der verschiedenen Kräfte jedoch nur schwer vergleichbar.\\
+Allgemein lässt sich sagen, dass unser Flügel in fast allen Kategorien besser abschneidet. Jedoch kann dies auch durch zwangsläufige Ungenauigkeiten in der Herstellung verursacht sein, die in unserem theoretischen Modell nicht berücksichtigt werden können.\\
+\noindent
+Etwas aussagekräftiger ist der Vergleich mit der Parallelgruppe, die die gleiche Aufgabe haben wie wir.\\
+\noindent
+Die Absenkung bei einer Last von 100N betrug dort $Z_{100N}=$
+
+
 \subsection{Ausblick auf Optimierungen der Berechnungen (H.G.)}
 Da für die Auslegung viele Annahmen und Vereinfachungen getroffen wurden, lassen sich einige Optimierungsmöglichkeiten für das Projekt nennen.\\
 \noindent
