@@ -11,9 +11,15 @@
 \usepackage[T1]{fontenc}
 \usepackage[headsepline]{scrlayer-scrpage}
 \usepackage{placeins}
+\usepackage[colorlinks=true,
+linkcolor=black,
+filecolor=black,      
+urlcolor=black,
+citecolor=black,
+pdftitle={Auslegung eines alternativen Modellflügels für das Flugzeug „Zaunkönigin Glasfaserverbund-Holm-Bauweise},
+bookmarks=true,]{hyperref}
 
 \begin{document}
-	
 \numberwithin{equation}{section}
 \numberwithin{figure}{section}
 \onehalfspacing
@@ -107,6 +113,9 @@
 \section{Abbildungsverzeichnis}
 \begingroup
 \renewcommand{\section}[2]{}%
+\makeatletter
+\renewcommand*\l@figure{\@dottedtocline{1}{1.5em}{3em}}
+\makeatother
 \listoffigures
 \endgroup
 \newpage

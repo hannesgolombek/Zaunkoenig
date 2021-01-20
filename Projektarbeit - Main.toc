@@ -1,97 +1,97 @@
 \babel@toc {ngerman}{}
-\contentsline {section}{\numberline {1}Bezeichnungen}{4}{}%
-\contentsline {section}{\numberline {2}Einleitung}{7}{}%
-\contentsline {subsection}{\numberline {2.1}Projektbeschreibung (H.G.)}{7}{}%
-\contentsline {subsection}{\numberline {2.2}Motivation (O.S.)}{7}{}%
-\contentsline {subsection}{\numberline {2.3}Lösungsstrategie (H.G.)}{7}{}%
-\contentsline {section}{\numberline {3}Grundlagen}{9}{}%
-\contentsline {subsection}{\numberline {3.1}Glasfaser (H.G.)}{9}{}%
-\contentsline {subsection}{\numberline {3.2}Matrix (H.G.)}{9}{}%
-\contentsline {subsection}{\numberline {3.3}Netztheorie (H.G.)}{9}{}%
-\contentsline {subsection}{\numberline {3.4}Klassische Laminattheorie (H.G.)}{10}{}%
-\contentsline {subsubsection}{\numberline {3.4.1}Ingenieurskonstanten des MSV}{12}{}%
-\contentsline {subsubsection}{\numberline {3.4.2}Plattenelement}{12}{}%
-\contentsline {subsection}{\numberline {3.5}Mischungsregel (H.G.)}{13}{}%
-\contentsline {subsection}{\numberline {3.6}Versagenskriterium nach Puck (O.S.)}{13}{}%
-\contentsline {subsubsection}{\numberline {3.6.1}Definitionen}{14}{}%
-\contentsline {subsubsection}{\numberline {3.6.2}Zwischenfaserbruch ohne Längsspannung}{14}{}%
-\contentsline {subsubsection}{\numberline {3.6.3}Einfluss der Längsspannung}{15}{}%
-\contentsline {subsubsection}{\numberline {3.6.4}Faserbruch}{16}{}%
-\contentsline {paragraph}{Zugspannung $\sigma _{\parallel }^+$}{16}{}%
-\contentsline {paragraph}{Druckspannung $\sigma _{\parallel }^-$}{17}{}%
-\contentsline {subsection}{\numberline {3.7}Bauweise (O.S.)}{18}{}%
-\contentsline {section}{\numberline {4}Auslegung des Holms nach Handbuchmethoden}{20}{}%
-\contentsline {subsection}{\numberline {4.1}Modellierung des Holms (T.B.)}{20}{}%
-\contentsline {subsubsection}{\numberline {4.1.1}Einführung in die Balkenbiegung}{20}{}%
-\contentsline {subsubsection}{\numberline {4.1.2}Annahmen zur Modellierung}{21}{}%
-\contentsline {subsubsection}{\numberline {4.1.3}Analytisches Lösen der Modellierung}{22}{}%
-\contentsline {subsubsection}{\numberline {4.1.4}Analyse der Modellierung}{27}{}%
-\contentsline {subsection}{\numberline {4.2}Auslegung des Holms nach VDI 2013 (H.K.)}{30}{}%
-\contentsline {subsubsection}{\numberline {4.2.1}Allgemeine Informationen zu der Richtlinie}{30}{}%
-\contentsline {subsubsection}{\numberline {4.2.2}Dimensionierung der Gurte mit rechteckigen Querschnitten}{30}{}%
-\contentsline {subsubsection}{\numberline {4.2.3}Nachrechnung der angepassten Gurte}{33}{}%
-\contentsline {subsubsection}{\numberline {4.2.4}Bestimmung der Lagenanzahl des Steges}{34}{}%
-\contentsline {subsection}{\numberline {4.3}Auslegung des Holms nach Klassischer Laminattheorie (T.B.)}{38}{}%
-\contentsline {subsubsection}{\numberline {4.3.1}Beispielrechnung nach Klassischer Laminattheorie}{38}{}%
-\contentsline {subsubsection}{\numberline {4.3.2}$eLamX^{2}$}{41}{}%
-\contentsline {subsection}{\numberline {4.4}Beulabschätzung des Holms (T.B.)}{44}{}%
-\contentsline {subsubsection}{\numberline {4.4.1}Einführung in Stabilitäts-Überprüfungen}{44}{}%
-\contentsline {subsubsection}{\numberline {4.4.2}Beulsicherheit der Gurte}{45}{}%
-\contentsline {subsubsection}{\numberline {4.4.3}Beulsicherheit des Steges}{46}{}%
-\contentsline {subsection}{\numberline {4.5}Auslegung der Klebeverbindung (T.B.)}{51}{}%
-\contentsline {subsubsection}{\numberline {4.5.1}Klebeverbindung Steg - Gurt}{51}{}%
-\contentsline {subsubsection}{\numberline {4.5.2}Klebeverbindung Holm - Rippen}{52}{}%
-\contentsline {subsection}{\numberline {4.6}Bolzenauslegung (H.G.)}{53}{}%
-\contentsline {subsubsection}{\numberline {4.6.1}Bolzenberechnung}{53}{}%
-\contentsline {section}{\numberline {5}Auslegung der Flügelschale nach Handbuchmethoden}{55}{}%
-\contentsline {subsection}{\numberline {5.1}Schubfluss}{55}{}%
-\contentsline {subsubsection}{\numberline {5.1.1}Theorie (O.S.)}{55}{}%
-\contentsline {paragraph}{Zylindrische, dünnwandige Profile}{55}{}%
-\contentsline {paragraph}{Koordinatensysteme}{55}{}%
-\contentsline {subsubsection}{\numberline {5.1.2}Idealisierung(H.G.)}{57}{}%
-\contentsline {subsubsection}{\numberline {5.1.3}Schwerpunktkoordinaten(H.G.)}{58}{}%
-\contentsline {subsubsection}{\numberline {5.1.4}Schubmittelpunkt (H.G.)}{61}{}%
-\contentsline {subsubsection}{\numberline {5.1.5}Torsion (O.S.)}{63}{}%
-\contentsline {subsubsection}{\numberline {5.1.6}Schubspannung (O.S.)}{65}{}%
-\contentsline {subsection}{\numberline {5.2}Auslegung der Flügelschale nach Klassischer Laminattheorie (T.B.)}{67}{}%
-\contentsline {subsubsection}{\numberline {5.2.1}$eLamX^{2}$}{67}{}%
-\contentsline {subsection}{\numberline {5.3}Beulabschätzung der Flügelschale (T.B.)}{68}{}%
-\contentsline {section}{\numberline {6}Numerische Berechnung}{70}{}%
-\contentsline {subsection}{\numberline {6.1}Vorteile der Finiten Element Methode (O.S.)}{70}{}%
-\contentsline {subsection}{\numberline {6.2}Funktionsweise der Finiten Element Methode (O.S.)}{70}{}%
-\contentsline {subsubsection}{\numberline {6.2.1}Schwache Lösung der Elastostatik}{70}{}%
-\contentsline {subsubsection}{\numberline {6.2.2}Diskretisierung}{71}{}%
-\contentsline {subsection}{\numberline {6.3}ABAQUS Analyse (H.G.)}{72}{}%
-\contentsline {subsubsection}{\numberline {6.3.1}Modell}{72}{}%
-\contentsline {subsubsection}{\numberline {6.3.2}Analyse}{74}{}%
-\contentsline {subsubsection}{\numberline {6.3.3}Beulanalyse}{76}{}%
-\contentsline {section}{\numberline {7}Konstruktion und Fertigung des Flügels}{77}{}%
-\contentsline {subsection}{\numberline {7.1}CAD-Konstruktion des Flügels (H.K.)}{77}{}%
-\contentsline {subsubsection}{\numberline {7.1.1}Konstruktion der Gurte}{77}{}%
-\contentsline {subsubsection}{\numberline {7.1.2}Konstruktion des Stegs}{78}{}%
-\contentsline {subsubsection}{\numberline {7.1.3}Konstruktion der Haut und der Rippen}{80}{}%
-\contentsline {subsubsection}{\numberline {7.1.4}Konstruktion unterstützender Bauteile des Holms}{80}{}%
-\contentsline {subsubsection}{\numberline {7.1.5}Querkraftbolzen und Montage auf dem Teststand}{81}{}%
-\contentsline {subsection}{\numberline {7.2}Massenabschätzung (H.K.)}{83}{}%
-\contentsline {subsubsection}{\numberline {7.2.1}Masse der Gurte}{83}{}%
-\contentsline {subsubsection}{\numberline {7.2.2}Masse des Stegs}{83}{}%
-\contentsline {subsubsection}{\numberline {7.2.3}Masse der Haut}{84}{}%
-\contentsline {subsubsection}{\numberline {7.2.4}Masse der Holzklötze und Rippen}{85}{}%
-\contentsline {subsubsection}{\numberline {7.2.5}Abschätzung der Verklebungen und der Gesamtmasse}{86}{}%
-\contentsline {subsection}{\numberline {7.3}Bauanleitung für die Fertigung (T.B.)}{88}{}%
-\contentsline {section}{\numberline {8}Zusammenfassung}{91}{}%
-\contentsline {subsection}{\numberline {8.1}Die Berechnungen im Überblick (H.K.)}{91}{}%
-\contentsline {subsection}{\numberline {8.2}Die Konstruktion und FEM-Analyse im Überblick (H.K.)}{94}{}%
-\contentsline {subsection}{\numberline {8.3}Gewichtsnormalisiertes Festigkeitskriterium (O.S.)}{95}{}%
-\contentsline {subsection}{\numberline {8.4}Diskussion der Ergebnisse}{96}{}%
-\contentsline {subsection}{\numberline {8.5}Ausblick auf Optimierungen der Berechnungen (H.G.)}{96}{}%
-\contentsline {section}{\numberline {9}Quellenverzeichnis}{98}{}%
-\contentsline {section}{\numberline {10}Abbildungsverzeichnis}{100}{}%
-\contentsline {section}{\numberline {11}Anhang}{102}{}%
-\contentsline {subsection}{\numberline {11.1}Berechnung: Analytische Lösung der Modellierung (T.B.)}{102}{}%
-\contentsline {subsection}{\numberline {11.2}Berechnung: Schubfluss und Schubmittelpunkt (O.S.)}{104}{}%
-\contentsline {subsection}{\numberline {11.3}Abbildungen: $eLamX^{2}$}{113}{}%
-\contentsline {subsection}{\numberline {11.4}Abbildungen: Beulberechnung}{124}{}%
-\contentsline {subsection}{\numberline {11.5}Abbildungen Schubfluss}{128}{}%
-\contentsline {subsection}{\numberline {11.6}Abbildungen: Numerische Berechnung}{134}{}%
-\contentsline {subsection}{\numberline {11.7}Abbildungen: Konstruktion und Fertigung}{136}{}%
+\contentsline {section}{\numberline {1}Bezeichnungen}{4}{section.1}%
+\contentsline {section}{\numberline {2}Einleitung}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Projektbeschreibung (H.G.)}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Motivation (O.S.)}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Lösungsstrategie (H.G.)}{7}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Grundlagen}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Glasfaser (H.G.)}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Matrix (H.G.)}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Netztheorie (H.G.)}{9}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Klassische Laminattheorie (H.G.)}{10}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Ingenieurskonstanten des MSV}{12}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Plattenelement}{12}{subsubsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.5}Mischungsregel (H.G.)}{13}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Versagenskriterium nach Puck (O.S.)}{13}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Definitionen}{14}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Zwischenfaserbruch ohne Längsspannung}{14}{subsubsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.3}Einfluss der Längsspannung}{15}{subsubsection.3.6.3}%
+\contentsline {subsubsection}{\numberline {3.6.4}Faserbruch}{16}{subsubsection.3.6.4}%
+\contentsline {paragraph}{Zugspannung $\sigma _{\parallel }^+$}{16}{section*.2}%
+\contentsline {paragraph}{Druckspannung $\sigma _{\parallel }^-$}{17}{section*.3}%
+\contentsline {subsection}{\numberline {3.7}Bauweise (O.S.)}{18}{subsection.3.7}%
+\contentsline {section}{\numberline {4}Auslegung des Holms nach Handbuchmethoden}{20}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Modellierung des Holms (T.B.)}{20}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Einführung in die Balkenbiegung}{20}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Annahmen zur Modellierung}{21}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Analytisches Lösen der Modellierung}{22}{subsubsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.4}Analyse der Modellierung}{27}{subsubsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.2}Auslegung des Holms nach VDI 2013 (H.K.)}{30}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Allgemeine Informationen zu der Richtlinie}{30}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Dimensionierung der Gurte mit rechteckigen Querschnitten}{30}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Nachrechnung der angepassten Gurte}{33}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}Bestimmung der Lagenanzahl des Steges}{34}{subsubsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.3}Auslegung des Holms nach Klassischer Laminattheorie (T.B.)}{38}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Beispielrechnung nach Klassischer Laminattheorie}{38}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}$eLamX^{2}$}{41}{subsubsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.4}Beulabschätzung des Holms (T.B.)}{44}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Einführung in Stabilitäts-Überprüfungen}{44}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}Beulsicherheit der Gurte}{45}{subsubsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.3}Beulsicherheit des Steges}{46}{subsubsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.5}Auslegung der Klebeverbindung (T.B.)}{51}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Klebeverbindung Steg - Gurt}{51}{subsubsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.2}Klebeverbindung Holm - Rippen}{52}{subsubsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.6}Bolzenauslegung (H.G.)}{53}{subsection.4.6}%
+\contentsline {subsubsection}{\numberline {4.6.1}Bolzenberechnung}{53}{subsubsection.4.6.1}%
+\contentsline {section}{\numberline {5}Auslegung der Flügelschale nach Handbuchmethoden}{55}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Schubfluss}{55}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Theorie (O.S.)}{55}{subsubsection.5.1.1}%
+\contentsline {paragraph}{Zylindrische, dünnwandige Profile}{55}{section*.4}%
+\contentsline {paragraph}{Koordinatensysteme}{55}{section*.5}%
+\contentsline {subsubsection}{\numberline {5.1.2}Idealisierung(H.G.)}{57}{subsubsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.3}Schwerpunktkoordinaten(H.G.)}{58}{subsubsection.5.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.4}Schubmittelpunkt (H.G.)}{61}{subsubsection.5.1.4}%
+\contentsline {subsubsection}{\numberline {5.1.5}Torsion (O.S.)}{63}{subsubsection.5.1.5}%
+\contentsline {subsubsection}{\numberline {5.1.6}Schubspannung (O.S.)}{65}{subsubsection.5.1.6}%
+\contentsline {subsection}{\numberline {5.2}Auslegung der Flügelschale nach Klassischer Laminattheorie (T.B.)}{67}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}$eLamX^{2}$}{67}{subsubsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.3}Beulabschätzung der Flügelschale (T.B.)}{68}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Numerische Berechnung}{70}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Vorteile der Finiten Element Methode (O.S.)}{70}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Funktionsweise der Finiten Element Methode (O.S.)}{70}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Schwache Lösung der Elastostatik}{70}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Diskretisierung}{71}{subsubsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.3}ABAQUS Analyse (H.G.)}{72}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Modell}{72}{subsubsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.2}Analyse}{74}{subsubsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3}Beulanalyse}{76}{subsubsection.6.3.3}%
+\contentsline {section}{\numberline {7}Konstruktion und Fertigung des Flügels}{77}{section.7}%
+\contentsline {subsection}{\numberline {7.1}CAD-Konstruktion des Flügels (H.K.)}{77}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Konstruktion der Gurte}{77}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Konstruktion des Stegs}{78}{subsubsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.3}Konstruktion der Haut und der Rippen}{80}{subsubsection.7.1.3}%
+\contentsline {subsubsection}{\numberline {7.1.4}Konstruktion unterstützender Bauteile des Holms}{80}{subsubsection.7.1.4}%
+\contentsline {subsubsection}{\numberline {7.1.5}Querkraftbolzen und Montage auf dem Teststand}{81}{subsubsection.7.1.5}%
+\contentsline {subsection}{\numberline {7.2}Massenabschätzung (H.K.)}{83}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Masse der Gurte}{83}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Masse des Stegs}{83}{subsubsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.3}Masse der Haut}{84}{subsubsection.7.2.3}%
+\contentsline {subsubsection}{\numberline {7.2.4}Masse der Holzklötze und Rippen}{85}{subsubsection.7.2.4}%
+\contentsline {subsubsection}{\numberline {7.2.5}Abschätzung der Verklebungen und der Gesamtmasse}{86}{subsubsection.7.2.5}%
+\contentsline {subsection}{\numberline {7.3}Bauanleitung für die Fertigung (T.B.)}{88}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Zusammenfassung}{91}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Die Berechnungen im Überblick (H.K.)}{91}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Die Konstruktion und FEM-Analyse im Überblick (H.K.)}{94}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Gewichtsnormalisiertes Festigkeitskriterium (O.S.)}{95}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Diskussion der Ergebnisse}{96}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Ausblick auf Optimierungen der Berechnungen (H.G.)}{96}{subsection.8.5}%
+\contentsline {section}{\numberline {9}Quellenverzeichnis}{98}{section.9}%
+\contentsline {section}{\numberline {10}Abbildungsverzeichnis}{100}{section.10}%
+\contentsline {section}{\numberline {11}Anhang}{102}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Berechnung: Analytische Lösung der Modellierung (T.B.)}{102}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Berechnung: Schubfluss und Schubmittelpunkt (O.S.)}{104}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Abbildungen: $eLamX^{2}$}{113}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Abbildungen: Beulberechnung}{124}{subsection.11.4}%
+\contentsline {subsection}{\numberline {11.5}Abbildungen Schubfluss}{128}{subsection.11.5}%
+\contentsline {subsection}{\numberline {11.6}Abbildungen: Numerische Berechnung}{134}{subsection.11.6}%
+\contentsline {subsection}{\numberline {11.7}Abbildungen: Konstruktion und Fertigung}{136}{subsection.11.7}%
