@@ -22,7 +22,7 @@
 \BOOKMARK [2][-]{subsection.3.10}{Einf\374hrung in die Finite Elemente Methode \(O.S.\)}{section.3}% 22
 \BOOKMARK [3][-]{subsubsection.3.10.1}{Schwache L\366sung der Elastostatik}{subsection.3.10}% 23
 \BOOKMARK [3][-]{subsubsection.3.10.2}{Diskretisierung}{subsection.3.10}% 24
-\BOOKMARK [2][-]{subsection.3.11}{Einf\374hrung zu Verklebung \(T.B.\)}{section.3}% 25
+\BOOKMARK [2][-]{subsection.3.11}{Einf\374hrung zu Verklebungen \(T.B.\)}{section.3}% 25
 \BOOKMARK [2][-]{subsection.3.12}{Einf\374hrung in Bauweisen \(O.S.\)}{section.3}% 26
 \BOOKMARK [1][-]{section.4}{Auslegung des Holms nach Handbuchmethoden}{}% 27
 \BOOKMARK [2][-]{subsection.4.1}{Modellierung des Holms \(T.B.\)}{section.4}% 28
@@ -41,7 +41,7 @@
 \BOOKMARK [2][-]{subsection.4.4}{Beulabsch\344tzung des Holms \(T.B.\)}{section.4}% 41
 \BOOKMARK [3][-]{subsubsection.4.4.1}{Beulsicherheit der Gurte}{subsection.4.4}% 42
 \BOOKMARK [3][-]{subsubsection.4.4.2}{Beulsicherheit des Steges}{subsection.4.4}% 43
-\BOOKMARK [2][-]{subsection.4.5}{Auslegung der Klebeverbindung \(T.B.\)}{section.4}% 44
+\BOOKMARK [2][-]{subsection.4.5}{Dimensionierung der Klebeverbindungen \(T.B.\)}{section.4}% 44
 \BOOKMARK [3][-]{subsubsection.4.5.1}{Klebeverbindung Steg - Gurt}{subsection.4.5}% 45
 \BOOKMARK [3][-]{subsubsection.4.5.2}{Klebeverbindung Holm - Rippen}{subsection.4.5}% 46
 \BOOKMARK [2][-]{subsection.4.6}{Bolzenauslegung \(H.G.\)}{section.4}% 47
@@ -90,6 +90,6 @@
 \BOOKMARK [2][-]{subsection.12.2}{Berechnung: Schubfluss und Schubmittelpunkt \(O.S.\)}{section.12}% 90
 \BOOKMARK [2][-]{subsection.12.3}{Abbildungen: eLamX2}{section.12}% 91
 \BOOKMARK [2][-]{subsection.12.4}{Abbildungen: Beulberechnung}{section.12}% 92
-\BOOKMARK [2][-]{subsection.12.5}{Abbildungen Schubfluss}{section.12}% 93
+\BOOKMARK [2][-]{subsection.12.5}{Abbildungen: Schubfluss}{section.12}% 93
 \BOOKMARK [2][-]{subsection.12.6}{Abbildungen: Numerische Berechnung}{section.12}% 94
 \BOOKMARK [2][-]{subsection.12.7}{Abbildungen: Konstruktion und Fertigung}{section.12}% 95
