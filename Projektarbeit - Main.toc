@@ -84,16 +84,16 @@
 \contentsline {subsection}{\numberline {8.1}Gewichtsnormalisiertes Festigkeitskriterium (O.S.)}{94}{subsection.8.1}%
 \contentsline {subsection}{\numberline {8.2}Diskussion der Ergebnisse (H.G.)}{95}{subsection.8.2}%
 \contentsline {subsection}{\numberline {8.3}Ausblick auf Optimierungen der Berechnungen (H.G.)}{96}{subsection.8.3}%
-\contentsline {section}{\numberline {9}Zusammenfassung}{97}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Die Berechnungen im Überblick (H.K.)}{97}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Die Konstruktion und FEM-Analyse im Überblick (H.K.)}{100}{subsection.9.2}%
-\contentsline {section}{\numberline {10}Quellenverzeichnis}{102}{section.10}%
-\contentsline {section}{\numberline {11}Abbildungsverzeichnis}{104}{section.11}%
-\contentsline {section}{\numberline {12}Anhang}{106}{section.12}%
-\contentsline {subsection}{\numberline {12.1}Berechnung: Analytische Lösung der Modellierung (T.B.)}{106}{subsection.12.1}%
-\contentsline {subsection}{\numberline {12.2}Berechnung: Schubfluss und Schubmittelpunkt (O.S.)}{108}{subsection.12.2}%
-\contentsline {subsection}{\numberline {12.3}Abbildungen: $eLamX^{2}$}{117}{subsection.12.3}%
-\contentsline {subsection}{\numberline {12.4}Abbildungen: Beulberechnung}{126}{subsection.12.4}%
-\contentsline {subsection}{\numberline {12.5}Abbildungen Schubfluss}{130}{subsection.12.5}%
-\contentsline {subsection}{\numberline {12.6}Abbildungen: Numerische Berechnung}{136}{subsection.12.6}%
-\contentsline {subsection}{\numberline {12.7}Abbildungen: Konstruktion und Fertigung}{138}{subsection.12.7}%
+\contentsline {section}{\numberline {9}Zusammenfassung}{98}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Die Berechnungen im Überblick (H.K.)}{98}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Die Konstruktion und FEM-Analyse im Überblick (H.K.)}{101}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Quellenverzeichnis}{103}{section.10}%
+\contentsline {section}{\numberline {11}Abbildungsverzeichnis}{105}{section.11}%
+\contentsline {section}{\numberline {12}Anhang}{107}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Berechnung: Analytische Lösung der Modellierung (T.B.)}{107}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Berechnung: Schubfluss und Schubmittelpunkt (O.S.)}{109}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}Abbildungen: $eLamX^{2}$}{118}{subsection.12.3}%
+\contentsline {subsection}{\numberline {12.4}Abbildungen: Beulberechnung}{127}{subsection.12.4}%
+\contentsline {subsection}{\numberline {12.5}Abbildungen Schubfluss}{131}{subsection.12.5}%
+\contentsline {subsection}{\numberline {12.6}Abbildungen: Numerische Berechnung}{137}{subsection.12.6}%
+\contentsline {subsection}{\numberline {12.7}Abbildungen: Konstruktion und Fertigung}{139}{subsection.12.7}%
