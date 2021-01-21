@@ -19,48 +19,48 @@
 \BOOKMARK [3][-]{subsubsection.3.7.4}{Faserbruch}{subsection.3.7}% 19
 \BOOKMARK [2][-]{subsection.3.8}{Einf\374hrung in Stabilit\344ts-\334berpr\374fungen \(T.B.\)}{section.3}% 20
 \BOOKMARK [2][-]{subsection.3.9}{Einf\374hrung in den Kraftfluss d\374nnwandiger Profile \(O.S.\)}{section.3}% 21
-\BOOKMARK [2][-]{subsection.3.10}{Einf\374hrung zu Verklebung \(T.B.\)}{section.3}% 22
-\BOOKMARK [2][-]{subsection.3.11}{Einf\374hrung in Bauweisen \(O.S.\)}{section.3}% 23
-\BOOKMARK [1][-]{section.4}{Auslegung des Holms nach Handbuchmethoden}{}% 24
-\BOOKMARK [2][-]{subsection.4.1}{Modellierung des Holms \(T.B.\)}{section.4}% 25
-\BOOKMARK [3][-]{subsubsection.4.1.1}{Annahmen zur Modellierung}{subsection.4.1}% 26
-\BOOKMARK [3][-]{subsubsection.4.1.2}{Analytisches L\366sen der Modellierung}{subsection.4.1}% 27
-\BOOKMARK [3][-]{subsubsection.4.1.3}{Analyse der Modellierung}{subsection.4.1}% 28
-\BOOKMARK [2][-]{subsection.4.2}{Auslegung des Holms nach VDI 2013 \(H.K.\)}{section.4}% 29
-\BOOKMARK [3][-]{subsubsection.4.2.1}{Allgemeine Informationen zu der Richtlinie}{subsection.4.2}% 30
-\BOOKMARK [3][-]{subsubsection.4.2.2}{Dimensionierung der Gurte mit rechteckigen Querschnitten}{subsection.4.2}% 31
-\BOOKMARK [3][-]{subsubsection.4.2.3}{Nachrechnung der angepassten Gurte}{subsection.4.2}% 32
-\BOOKMARK [3][-]{subsubsection.4.2.4}{Bestimmung der Lagenanzahl des Steges}{subsection.4.2}% 33
-\BOOKMARK [2][-]{subsection.4.3}{Auslegung des Holms nach Klassischer Laminattheorie \(T.B.\)}{section.4}% 34
-\BOOKMARK [3][-]{subsubsection.4.3.1}{Beispielrechnung nach Klassischer Laminattheorie}{subsection.4.3}% 35
-\BOOKMARK [3][-]{subsubsection.4.3.2}{eLamX2}{subsection.4.3}% 36
-\BOOKMARK [2][-]{subsection.4.4}{Beulabsch\344tzung des Holms \(T.B.\)}{section.4}% 37
-\BOOKMARK [3][-]{subsubsection.4.4.1}{Beulsicherheit der Gurte}{subsection.4.4}% 38
-\BOOKMARK [3][-]{subsubsection.4.4.2}{Beulsicherheit des Steges}{subsection.4.4}% 39
-\BOOKMARK [2][-]{subsection.4.5}{Auslegung der Klebeverbindung \(T.B.\)}{section.4}% 40
-\BOOKMARK [3][-]{subsubsection.4.5.1}{Klebeverbindung Steg - Gurt}{subsection.4.5}% 41
-\BOOKMARK [3][-]{subsubsection.4.5.2}{Klebeverbindung Holm - Rippen}{subsection.4.5}% 42
-\BOOKMARK [2][-]{subsection.4.6}{Bolzenauslegung \(H.G.\)}{section.4}% 43
-\BOOKMARK [3][-]{subsubsection.4.6.1}{Bolzenberechnung}{subsection.4.6}% 44
-\BOOKMARK [1][-]{section.5}{Auslegung der Fl\374gelschale nach Handbuchmethoden}{}% 45
-\BOOKMARK [2][-]{subsection.5.1}{Schubfluss}{section.5}% 46
-\BOOKMARK [3][-]{subsubsection.5.1.1}{Idealisierung\(H.G.\)}{subsection.5.1}% 47
-\BOOKMARK [3][-]{subsubsection.5.1.2}{Schwerpunktkoordinaten\(H.G.\)}{subsection.5.1}% 48
-\BOOKMARK [3][-]{subsubsection.5.1.3}{Schubmittelpunkt \(H.G.\)}{subsection.5.1}% 49
-\BOOKMARK [3][-]{subsubsection.5.1.4}{Torsion \(O.S.\)}{subsection.5.1}% 50
-\BOOKMARK [3][-]{subsubsection.5.1.5}{Schubspannung \(O.S.\)}{subsection.5.1}% 51
-\BOOKMARK [2][-]{subsection.5.2}{Auslegung der Fl\374gelschale nach Klassischer Laminattheorie \(T.B.\)}{section.5}% 52
-\BOOKMARK [3][-]{subsubsection.5.2.1}{eLamX2}{subsection.5.2}% 53
-\BOOKMARK [2][-]{subsection.5.3}{Beulabsch\344tzung der Fl\374gelschale \(T.B.\)}{section.5}% 54
-\BOOKMARK [1][-]{section.6}{Numerische Berechnung}{}% 55
-\BOOKMARK [2][-]{subsection.6.1}{Vorteile der Finiten Element Methode \(O.S.\)}{section.6}% 56
-\BOOKMARK [2][-]{subsection.6.2}{Funktionsweise der Finiten Element Methode \(O.S.\)}{section.6}% 57
-\BOOKMARK [3][-]{subsubsection.6.2.1}{Schwache L\366sung der Elastostatik}{subsection.6.2}% 58
-\BOOKMARK [3][-]{subsubsection.6.2.2}{Diskretisierung}{subsection.6.2}% 59
-\BOOKMARK [2][-]{subsection.6.3}{ABAQUS Analyse \(H.G.\)}{section.6}% 60
-\BOOKMARK [3][-]{subsubsection.6.3.1}{Modell}{subsection.6.3}% 61
-\BOOKMARK [3][-]{subsubsection.6.3.2}{Analyse}{subsection.6.3}% 62
-\BOOKMARK [3][-]{subsubsection.6.3.3}{Beulanalyse}{subsection.6.3}% 63
+\BOOKMARK [2][-]{subsection.3.10}{Einf\374hrung in die Finite Elemente Methode \(O.S.\)}{section.3}% 22
+\BOOKMARK [3][-]{subsubsection.3.10.1}{Schwache L\366sung der Elastostatik}{subsection.3.10}% 23
+\BOOKMARK [3][-]{subsubsection.3.10.2}{Diskretisierung}{subsection.3.10}% 24
+\BOOKMARK [2][-]{subsection.3.11}{Einf\374hrung zu Verklebung \(T.B.\)}{section.3}% 25
+\BOOKMARK [2][-]{subsection.3.12}{Einf\374hrung in Bauweisen \(O.S.\)}{section.3}% 26
+\BOOKMARK [1][-]{section.4}{Auslegung des Holms nach Handbuchmethoden}{}% 27
+\BOOKMARK [2][-]{subsection.4.1}{Modellierung des Holms \(T.B.\)}{section.4}% 28
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Annahmen zur Modellierung}{subsection.4.1}% 29
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Analytisches L\366sen der Modellierung}{subsection.4.1}% 30
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Analyse der Modellierung}{subsection.4.1}% 31
+\BOOKMARK [2][-]{subsection.4.2}{Auslegung des Holms nach VDI 2013 \(H.K.\)}{section.4}% 32
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Allgemeine Informationen zu der Richtlinie}{subsection.4.2}% 33
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Dimensionierung der Gurte mit rechteckigen Querschnitten}{subsection.4.2}% 34
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Nachrechnung der angepassten Gurte}{subsection.4.2}% 35
+\BOOKMARK [3][-]{subsubsection.4.2.4}{Bestimmung der Lagenanzahl des Steges}{subsection.4.2}% 36
+\BOOKMARK [2][-]{subsection.4.3}{Auslegung des Holms nach Klassischer Laminattheorie \(T.B.\)}{section.4}% 37
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Beispielrechnung nach Klassischer Laminattheorie}{subsection.4.3}% 38
+\BOOKMARK [3][-]{subsubsection.4.3.2}{eLamX2}{subsection.4.3}% 39
+\BOOKMARK [2][-]{subsection.4.4}{Beulabsch\344tzung des Holms \(T.B.\)}{section.4}% 40
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Beulsicherheit der Gurte}{subsection.4.4}% 41
+\BOOKMARK [3][-]{subsubsection.4.4.2}{Beulsicherheit des Steges}{subsection.4.4}% 42
+\BOOKMARK [2][-]{subsection.4.5}{Auslegung der Klebeverbindung \(T.B.\)}{section.4}% 43
+\BOOKMARK [3][-]{subsubsection.4.5.1}{Klebeverbindung Steg - Gurt}{subsection.4.5}% 44
+\BOOKMARK [3][-]{subsubsection.4.5.2}{Klebeverbindung Holm - Rippen}{subsection.4.5}% 45
+\BOOKMARK [2][-]{subsection.4.6}{Bolzenauslegung \(H.G.\)}{section.4}% 46
+\BOOKMARK [3][-]{subsubsection.4.6.1}{Bolzenberechnung}{subsection.4.6}% 47
+\BOOKMARK [1][-]{section.5}{Auslegung der Fl\374gelschale nach Handbuchmethoden}{}% 48
+\BOOKMARK [2][-]{subsection.5.1}{Schubfluss}{section.5}% 49
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Idealisierung\(H.G.\)}{subsection.5.1}% 50
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Schwerpunktkoordinaten\(H.G.\)}{subsection.5.1}% 51
+\BOOKMARK [3][-]{subsubsection.5.1.3}{Schubmittelpunkt \(H.G.\)}{subsection.5.1}% 52
+\BOOKMARK [3][-]{subsubsection.5.1.4}{Torsion \(O.S.\)}{subsection.5.1}% 53
+\BOOKMARK [3][-]{subsubsection.5.1.5}{Schubspannung \(O.S.\)}{subsection.5.1}% 54
+\BOOKMARK [2][-]{subsection.5.2}{Auslegung der Fl\374gelschale nach Klassischer Laminattheorie \(T.B.\)}{section.5}% 55
+\BOOKMARK [3][-]{subsubsection.5.2.1}{eLamX2}{subsection.5.2}% 56
+\BOOKMARK [2][-]{subsection.5.3}{Beulabsch\344tzung der Fl\374gelschale \(T.B.\)}{section.5}% 57
+\BOOKMARK [1][-]{section.6}{Numerische Berechnung}{}% 58
+\BOOKMARK [2][-]{subsection.6.1}{Vorteile der Finiten Element Methode \(O.S.\)}{section.6}% 59
+\BOOKMARK [2][-]{subsection.6.2}{ABAQUS Analyse \(H.G.\)}{section.6}% 60
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Modell}{subsection.6.2}% 61
+\BOOKMARK [3][-]{subsubsection.6.2.2}{Analyse}{subsection.6.2}% 62
+\BOOKMARK [3][-]{subsubsection.6.2.3}{Beulanalyse}{subsection.6.2}% 63
 \BOOKMARK [1][-]{section.7}{Konstruktion und Fertigung des Fl\374gels}{}% 64
 \BOOKMARK [2][-]{subsection.7.1}{CAD-Konstruktion des Fl\374gels \(H.K.\)}{section.7}% 65
 \BOOKMARK [3][-]{subsubsection.7.1.1}{Konstruktion der Gurte}{subsection.7.1}% 66
