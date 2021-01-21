@@ -127,7 +127,7 @@ Zusätzlich wird angenommen, dass $q_{I}(y)=q_{II}(y)=q_{III}(y)=0$ gilt, da kei
 
 \begin{equation}\label{eq:34}
 	Q(y,F_{pruef},F_{Q},EI_{x})=\left\{\begin{array}{ll}
-		F_{pruef}\cdot \frac{l_{2}+l_{3}}{l_{1}}-F_{Q}\cdot \frac{l_{2}}{l_{1}}&,y\epsilon (0,l_{1})\\
+		-F_{pruef}\cdot \frac{l_{2}+l_{3}}{l_{1}}-F_{Q}\cdot \frac{l_{2}}{l_{1}}&,y\epsilon (0,l_{1})\\
 		F_{pruef}+F_{Q}&,y\epsilon (l_{1}, l_{1}+l_{2})\\
 		F_{pruef}&,y\epsilon (l_{1}+l_{2}, l_{1}+l_{2}+l_{3})
 	\end{array}\right.
@@ -135,16 +135,16 @@ Zusätzlich wird angenommen, dass $q_{I}(y)=q_{II}(y)=q_{III}(y)=0$ gilt, da kei
 \begin{equation}\label{eq:35}
 	M(y,F_{pruef},F_{Q},EI_{x})=\left\{\begin{array}{ll}
 		(-F_{pruef}\cdot \frac{l_{2}+l_{3}}{l_{1}}-F_{Q}\cdot \frac{l_{2}}{l_{1}})\cdot y&,y\epsilon (0,l_{1})\\
-		F_{pruef}\cdot (y-l_{1}+l_{2}+l_{3})+F_{Q}\cdot (y-l_{1}+l_{2})&,y\epsilon (l_{1}, l_{1}+l_{2})\\
-		F_{pruef}\cdot (y-l_{1}+l_{2}+l_{3})&,y\epsilon (l_{1}+l_{2}, l_{1}+l_{2}+l_{3})
+		F_{pruef}\cdot (y-(l_{1}+l_{2}+l_{3}))+F_{Q}\cdot (y-(l_{1}+l_{2}))&,y\epsilon (l_{1}, l_{1}+l_{2})\\
+		F_{pruef}\cdot (y-(l_{1}+l_{2}+l_{3}))&,y\epsilon (l_{1}+l_{2}, l_{1}+l_{2}+l_{3})
 	\end{array}\right.
 \end{equation}\\
 \begin{equation}\label{eq:36}
 	w(y,F_{pruef},F_{Q},EI_{x})=\left\{\begin{array}{ll}
-		\frac{1}{EI_{x}}\cdot\frac{1}{6}\cdot\biggl((F_{pruef}\cdot \frac{l_{2}+l_{3}}{l_{1}}-F_{Q}\cdot \frac{l_{2}}{l_{1}})\cdot y^{3}-\Bigl((l_{2}+l_{3})\cdot l_{1}\cdot F_{pruef}\\-l_{1}\cdot l_{2}\cdot F_{Q}\Bigl)\cdot y \biggr)\:,y\epsilon (0,l_{1})&\\&\\
+		\frac{1}{EI_{x}}\cdot\frac{1}{6}\cdot\biggl((F_{pruef}\cdot \frac{l_{2}+l_{3}}{l_{1}}+F_{Q}\cdot \frac{l_{2}}{l_{1}})\cdot y^{3}-\Bigl((l_{2}+l_{3})\cdot l_{1}\cdot F_{pruef}\\+l_{1}\cdot l_{2}\cdot F_{Q}\Bigl)\cdot y \biggr)\:,y\epsilon (0,l_{1})&\\&\\
 		\frac{1}{EI_{x}}\cdot\biggl(\frac{(-F_{pruef}-F_{Q})}{6}\cdot y^{3} + \frac{F_{pruef}\cdot (l_{1}+l_{2}+l_{3})+F_{Q}\cdot (l_{1}+L_{2})}{2}\cdot y^{2}\\ + \Bigl(F_{pruef}\cdot(-\frac{1}{2}\cdot l_{1}^{2}-\frac{2}{3}\cdot l_{1}\cdot l_{2}-\frac{2}{3}\cdot l_{1}\cdot l_{3})+ \\F_{Q}\cdot(-\frac{1}{2}l_{1}^{2}-\frac{2}{3}\cdot l_{1}\cdot l_{2})\Bigr)\cdot y + F_{pruef}\cdot\frac{1}{6}\cdot(l_{1}^{3}+l_{1}^{2}\cdot l_{2}+l_{1}^{2}\cdot l_{3}) \\+ F_{Q}\cdot\frac{1}{6}\cdot(l_{1}^{3}+l_{1}^{2}\cdot l_{2})\biggr),y\epsilon (l_{1}, l_{1}+l_{2})&\\&\\
 		\frac{1}{EI_{x}}\cdot\biggl(-\frac{F_{pruef}}{6}\cdot y^{3} + \frac{ F_{pruef}\cdot (l_{1}+l_{2}+l_{3})}{2}\cdot y^{2} + \Bigl(F_{pruef} 
-		\cdot(-\frac{1}{2}\cdot l_{1}^{2} \\-\frac{2}{3}\cdot l_{1}\cdot l_{2}-\frac{2}{3}\cdot l_{1}\cdot l_{3}) + F_{Q}\cdot(\frac{1}{2}\cdot l_{2}^{2}+\frac{1}{2}\cdot l_{1}\cdot l_{2})\Bigr)\cdot y \\ +F_{pruef}\cdot\frac{1}{6}\cdot(l_{1}^{3}+l_{1}^{2}\cdot l_{2}+l_{1}^{2}\cdot l_{3}) + F_{Q}\cdot(-\frac{1}{6}\cdot l_{2}^{3}-\frac{1}{3}\cdot l_{1}^{2}\cdot l_{2}\\-\frac{1}{2}\cdot l_{2}^{2}\cdot l_{1})\biggr),y\epsilon (l_{1}+l_{2}, l_{1}+l_{2}+l_{3})&
+		\cdot(-\frac{1}{2}\cdot l_{1}^{2} \\-\frac{2}{3}\cdot l_{1}\cdot l_{2}-\frac{2}{3}\cdot l_{1}\cdot l_{3}) + F_{Q}\cdot(\frac{1}{2}\cdot l_{2}^{2}+\frac{1}{3}\cdot l_{1}\cdot l_{2})\Bigr)\cdot y \\ +F_{pruef}\cdot\frac{1}{6}\cdot(l_{1}^{3}+l_{1}^{2}\cdot l_{2}+l_{1}^{2}\cdot l_{3}) + F_{Q}\cdot(-\frac{1}{6}\cdot l_{2}^{3}-\frac{1}{3}\cdot l_{1}^{2}\cdot l_{2}\\-\frac{1}{2}\cdot l_{2}^{2}\cdot l_{1})\biggr),y\epsilon (l_{1}+l_{2}, l_{1}+l_{2}+l_{3})&
 	\end{array}\right.
 \end{equation}\\
 Die Herleitung der Lösung kann im Kapitel \ref{Lösung} nachvollzogen werden.\\
