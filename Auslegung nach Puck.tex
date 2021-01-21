@@ -1,11 +1,11 @@
 \subsubsection{Beispielrechnung nach Klassischer Laminattheorie}
-Nachdem im Kapitel \ref{CLT} eine Einführung in die klassische Laminattheorie gegeben wurde, wird im Folgenden eine Beispiel-Berechnung eines Lagenaufbaus vorgestellt. Diese beginnt mit den Materialdaten der verwendeten Faser und Matrix und führt bis zu den resultierenden Ingenieurskonstanten. Als repräsentatives Beispiel wird ein Laminat aus zwei Lagen Interglas 92145 mit einer Faserwinkeldifferenz von $\Delta\alpha =90^{circ}$ gewählt. Wie zuvor wird auch hier der Faservolumengehalt $\varphi = 40\%$ genutzt, sodass die Gesamtdicke sich zu $t= 2\cdot 0,216mm=0,432mm$ nach den Formel \ref{Dicke} ergibt \cite{item5}\cite{item3}. \\
+Nachdem im Kapitel \ref{CLT} eine Einführung in die klassische Laminattheorie gegeben wurde, wird im Folgenden eine Beispiel-Berechnung eines Lagenaufbaus vorgestellt. Diese beginnt mit den Materialdaten der verwendeten Faser und Matrix und führt bis zu den resultierenden Ingenieurskonstanten. Als repräsentatives Beispiel wird ein Laminat aus zwei Lagen Interglas 92145 mit einer Faserwinkeldifferenz von $\Delta\alpha =90^{\circ}$ gewählt. Wie zuvor wird auch hier der Faservolumengehalt $\varphi = 40\%$ genutzt, sodass die Gesamtdicke sich zu $t= 2\cdot 0,216mm=0,432mm$ nach den Formel \ref{Dicke} ergibt \cite{item5}\cite{item3}. \\
 
 \noindent Anhand der Aufgabenstellung sind Materialdaten der Fasern und der Matrix gegeben, die nachfolgend benötigt werden:\\
 
 \begin{tabular}{ll|ll}
 	\multicolumn{2}{c}{Fasermaterial} &\multicolumn{2}{c}{Matrixmaterial}\\
-	\hline
+	\hline\hline
 	$\rho_{f}$ & $2,55 \frac{g}{cm^{3}}$  & $\rho_{m}$ & $1,18 \frac{g}{cm^{3}}$\\
 	\hline
 	$E_{f,\parallel}$ & $74000MPa$  & $E_{m}$ & $3300MPa$\\
@@ -15,7 +15,7 @@ Nachdem im Kapitel \ref{CLT} eine Einführung in die klassische Laminattheorie g
 	$G_{f,\parallel\perp}$ & $30800MPa$ &  & - \\
 	\hline
 	$\nu_{f,\perp\parallel}$ & $0,2$  &$\nu_{m}$ &  $0,35$\\
-\end{tabular}\\
+\end{tabular}
 
 \noindent Da es sich dabei nur um rein isotrope Materialien handelt, gelten $\nu_{f,\perp\parallel} = \nu_{f,\parallel\perp}$ und $G_{f,\parallel\perp} = G_{f,\perp\parallel}$ \cite{item15}. Der Schubmodul der Matrix berechnet sich zu
 \begin{equation}
@@ -175,7 +175,7 @@ $eLamX^{2}$ ist ein Laminat-Berechnungsprogramm der TU Dresden. Es kann anhand d
 
 \begin{tabular}{ll|ll|ll}
 	\multicolumn{2}{c}{Fasermaterial} &\multicolumn{2}{c}{Matrixmaterial}  &\multicolumn{2}{c}{UD-Festigkeitskennwerte} \\
-	\hline
+	\hline\hline
 	$\rho_{f}$ & $2,55 \frac{g}{cm^{3}}$  & $\rho_{m}$ & $1,18 \frac{g}{cm^{3}}$  & $R_{\parallel}^{+}$ & $597,9MPa$ \\
 	\hline
 	$E_{f,\parallel}$ & $74000MPa$  & $E_{m}$ & $3300MPa$  & $R_{\parallel}^{-}$ & $650,0MPa$\\
@@ -190,6 +190,7 @@ $eLamX^{2}$ ist ein Laminat-Berechnungsprogramm der TU Dresden. Es kann anhand d
 \noindent Mit einem Faservolumenanteil $\varphi=0,4$ ergeben sich folgende weitere Materialeigenschaften:\\
 
 \begin{tabular}{ll}
+	\multicolumn{2}{c}{Materialeigenschaften}\\\hline\hline
 	$\rho$ & $1,728 \frac{g}{cm^{3}}$ \\
 	\hline
 	$E_{\parallel}$ & $31580 MPa$\\
@@ -214,15 +215,15 @@ Dargestellt sind die Rechnungen in Abb. ~\ref{fig:Berechnung Holmgurte}, Abb.~\r
 
 \begin{longtable}{lllll}
 
-Laminat&Lagenaufbau&$E_{x}$&$E_{y}$&$G_{xy}$\\
-\hline
+Laminat&Lagenaufbau&$\hat{E}_{x}$&$ßhat{E}_{y}$&$\hat{G}_{xy}$\\
+\hline\hline
 Holmgurt&$9\cdot[0^{\circ}]$&31580 MPa&5341,2 MPa&1984,5 MPa\\
 Steg Bereich $I\&II$&$12\cdot[-45^{\circ}]$(sym.)&6639,8 MPa&6639,8 MPa&8577,8 MPa\\
 Steg Bereich $III$&$8\cdot[-45^{\circ}]$(sym.)&6639,8 MPa&6639,8 MPa&8577,8 MPa\\
 \hline
 &$\nu_{xy}$&$\nu_{yx}$&Sicherheit&Versagensart\\
 &&&nach Puck&\\
-\cline{2-5}
+\hhline{~====}
 &0,29&0,045&2,657&Faserbruch\\
 &0.673&0,673&1,027&Zwischenfaserbruch\\
 &0,673&0,673&1,186&Zwischenfaserbruch\\
