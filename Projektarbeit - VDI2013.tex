@@ -134,7 +134,7 @@ Damit ergibt sich die Lagenanzahl bei einer Prüfrkraft $ F_{pruef}=500N $ von $
 \noindent Es ist zu betonen, dass diese Lagenanzahlen maßgeblich durch die Annahmen der Dimensionierungskennwerte $ K_{E\#} $ und $ K_{\sigma d} $ beeinflusst werden. Da sie als nur beschränkt gültig für den vorliegenden Fall angenommen werden, bedarf es einer aufbauenden Berechnung, die unter anderem die Sicherheiten gegen Zwischenfaserbruch bestimmen kann. Im Kapitel \ref{Puck} wird die hier ermittelte Lagenanzahl mit tatsächlichen Laminatkennwerten und einem Laminatrechner überprüft und angepasst.
 
 \subsubsection{Überprüfung der Faserausrichtung}
-Im vorangegangenen Abschnitt \ref{LagenSteg} wurde zur Bestimmung der Belegung des Stegs angenommen, dass die Fadenrichtungen in $ \pm 45^{\circ} $-Richtung zur Holmlängsrichtung ausgerichtet sind. Unter der Annahme, dass der Steg allein durch den Kraftkraftschub beansprucht wird, stimmen diese Richtungen mit denen der Hauptspannungen überein. Die Belastung wird in diesem Fall folglich allein durch die Fasern getragen. Die Kenntnis der Lagenanzahlen erlaubt, mithilfe der oben genannten Gleichungen \ref{ne}, \ref{na} und \ref{qs} auf die Spannungen zurückzuschließen. Auf diese Weise kann, über die Inhalte der VDI 2013 hinaus, geprüft werden, inwiefern die überlagerten Spannungen im Steg die Hauptspannungsrichtung verändern. Im Folgenden geschieht dies Anhand eines infinitesimalen Elements (Abbildung \ref{fig: Element}), dessen Oberkante parallel zum oberen Gurt ausgerichtet sei. Zur Analyse des ebenen Spannungszustands werden für diese Berechnungen die Koordinaten x und y verwendet. Die x-Richtung verläuft parallel zur Holmlängsachse, die y-Richtung senkrecht zu den Holmgurten. Die Dicke des Stegs liegt folglich in z-Richtung und ist für die folgenden Betrachtungen konstant.  
+Im vorangegangenen Abschnitt \ref{LagenSteg} wurde zur Bestimmung der Belegung des Stegs angenommen, dass die Fadenrichtungen in $ \pm 45^{\circ} $-Richtung zur Holmlängsachse ausgerichtet sind. Für den Fall, dass der Steg allein durch den Querkraftschub beansprucht wird, stimmen diese Richtungen mit denen der Hauptspannungen überein. Die Belastung wird in diesem Fall folglich allein durch die Fasern getragen. Die Kenntnis der Lagenanzahlen erlaubt, mithilfe der oben genannten Gleichungen \ref{ne}, \ref{na} und \ref{qs} auf die Spannungen zurückzuschließen. Auf diese Weise kann, über die Auslegungsschritte der VDI 2013 hinaus, geprüft werden, inwiefern die überlagerten Spannungen im Steg die Hauptspannungsrichtung verändern. Im Folgenden geschieht dies anhand eines infinitesimalen Stegelements (Abbildung \ref{fig: Element}), dessen Oberkante parallel zum oberen Gurt ausgerichtet sei. Zur Analyse des ebenen Spannungszustands werden für diese Berechnungen die Koordinaten x und y verwendet. Die x-Richtung verläuft parallel zur Holmlängsachse, die y-Richtung senkrecht zu den Holmgurten. Die Dicke des Stegs liegt folglich in z-Richtung und ist für die folgenden Betrachtungen konstant.  
 
 \begin{figure}[h]
 	\includegraphics[width=0.3\textwidth]{Bilder/Element.jpg}
@@ -143,7 +143,7 @@ Im vorangegangenen Abschnitt \ref{LagenSteg} wurde zur Bestimmung der Belegung d
 	\label{fig: Element}
 \end{figure}
 
-Zunächst werden die Spannungen am infinitesimalen Element aus den Kraftflüssen und der Dicke des Stegs bestimmt. Es wird die am höchsten beanspruchte Stelle, Punkt C, betrachtet. Für diesen Bereich wurden $ n=20 $ Lagen ermittelt. Gemäß der Beziehung \ref{Dicke} ergibt sich eine Dicke des GFK von $ t=1,57mm $. Der Schubfluss $ q_{s} $ und der Normalkraftfluss senkrecht zu den Gurten $ n_{A} $ sind über die Höhe des Stegs konstant. Aus dem Schubfluss lässt sich auf die Schubspannung schließen:
+\noindent Zunächst werden die Spannungen am infinitesimalen Element aus den Kraftflüssen und der Dicke des Stegs bestimmt. Es wird die am höchsten beanspruchte Stelle, Punkt C, betrachtet. Für diesen Bereich wurden $ n=20 $ Lagen ermittelt. Gemäß der Beziehung \ref{Dicke} ergibt sich eine Dicke des GFK von $ t=1,57mm $. Der Schubfluss $ q_{s} $ und der Normalkraftfluss senkrecht zu den Gurten $ n_{A} $ sind über die Höhe des Stegs (y-Richtung) konstant. Aus dem Schubfluss lässt sich auf die Schubspannung schließen:
 \begin{equation}
 	\tau_{xy}=\tau_{yx}=\frac{q_{s}}{h_{i}\cdot t}
 	=102,1MPa
@@ -152,7 +152,7 @@ Mit Gleichung \ref{na} ergibt sich die Normalspannung $ \sigma_{y} $ unter Berü
 \begin{equation}
 	\sigma_{y}=\frac{-2\cdot F_{pruef}\cdot l_{3} \cdot \epsilon_{Gurt}}{\left(h_{m}\right)^{2}\cdot t}=\left(-2,73MPa\right)
 \end{equation}
-Die Spannung $\sigma_{x} $ ist abhängig von der Gurthöhe. Am oberen (Zug-)Gurt ist sie maximal, an der neutralen Faser ist wegen fehlender Dehnung $ \sigma_{x}=0 $ und am unteren (Druck-)Gurt nimmt $ \sigma_{x,m} $ den gleichen Betrag wie am oberen Gurt an, jedoch mit negativem Vorzeichen. Am oberen Gurt gilt:
+Die Spannung $\sigma_{x} $ ist abhängig von der Gurthöhe. Am oberen Zuggurt ist sie maximal, an der neutralen Faser ist wegen fehlender Dehnung $ \sigma_{x,m}=0 $ und am unteren Druckgurt nimmt $ \sigma_{x,u} $ den gleichen Betrag wie am oberen Gurt an, jedoch mit negativem Vorzeichen. Am oberen Gurt gilt:
 \begin{equation}
 	\sigma_{x,o}=\frac{n\cdot \bar{q}\cdot K_{E\#}\cdot \epsilon_{Gurt}}{t}=73,1MPa
 \end{equation}
@@ -167,7 +167,7 @@ Die Spannungen lassen sich in Mohrsche Spannungskreise eintragen, um die Lage de
 	\caption{Mohrsche Spannungskreise für den oberen, mittleren und unteren Bereich}
 	\label{fig: Mohren}
 \end{figure}
-Die Hauptspannungen liegen unter den Winkeln $ \psi $ und $ \psi \pm 90^{\circ} $. Für den Winkel $ \psi $ gilt nach \cite{item16} folgende Beziehung, die sich aus den Seitenverhältnissen des rechtwinkligen Dreiecks zwischen den zwei roten Markierungen und einer Parallelen zur $ \tau $-Achse ergibt:
+Die Hauptspannungen liegen unter den Winkeln $ \psi $ und $ \psi \pm 90^{\circ} $ (\cite{item16}). Für den Winkel $ \psi $ gilt nach \cite{item16} folgende Beziehung, die sich aus den Seitenverhältnissen des rechtwinkligen Dreiecks zwischen den zwei roten Markierungen und einer Parallelen zur $ \tau $-Achse ergibt:
 \begin{equation}
 	\tan 2\psi=\frac{2\tau_{yx}}{\sigma_{x}-\sigma_{y}}
 \end{equation}
@@ -181,4 +181,4 @@ Die Umformung nach $ \psi $ und das Einsetzen der Werte für jeden betrachteten 
 \begin{equation}
 	\psi_{u}=\left(-35,5^{\circ}\right)\hat{=}54,5^{\circ}
 \end{equation}  
-Für den mittleren Bereich des Stegs ist die Wahl einer $ \pm 45^{\circ} $ Ausrichtung der Gewebelagen besonders günstig. Die verhältnismäßig geringe Spannung aus der Abtriebskraft verschiebt die Hauptspannungsrichtung nur leicht, sodass die Fasern in diesem Bereich die nahezu komplette Last aufnehmen. Die Hauptspannungsrichtungen im oberen und unteren Bereich werden stärker durch die Normalspannung $ \sigma_{x} $ beeinflusst, sie weichen um ca. $ -10^{\circ} $, bzw. $ 10^{\circ} $ von 
+Für den mittleren Bereich des Stegs ist die Wahl einer $ \pm 45^{\circ} $ Ausrichtung der Gewebelagen besonders günstig. Die verhältnismäßig geringe Spannung aus der Abtriebskraft verschiebt die Hauptspannungsrichtung nur leicht, sodass die Fasern in diesem Bereich die nahezu komplette Last aufnehmen. Die Hauptspannungsrichtungen im oberen und unteren Bereich werden stärker durch die Normalspannung $ \sigma_{x} $ beeinflusst, sie weichen um ca. $ -10^{\circ} $, bzw. $ +10^{\circ} $ von denen im mittleren Bereich ab. Diese Ergebnisse belegen, dass die Gewebeausrichtung von $ \pm 45^{\circ} $ zur Holmlängsachse einen sinnvollen Mittelwert darstellt. Dennoch ist davon auszugehen, dass in den äußeren Bereichen auch die Matrix beansprucht wird. Die Verwendung eines niedrigen $ K_{\sigma d} $, wie von der Richtlinie vorgeschlagen, ist vor diesem Hintergrund gerechtfertigt.   

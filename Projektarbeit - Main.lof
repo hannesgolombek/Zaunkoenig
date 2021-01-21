@@ -27,40 +27,40 @@
 \contentsline {figure}{\numberline {7.3}{\ignorespaces Hautsandwich am Übergang zum Gurt}}{86}{figure.7.3}%
 \contentsline {figure}{\numberline {7.4}{\ignorespaces Holzklötze und Hülsen}}{87}{figure.7.4}%
 \contentsline {figure}{\numberline {7.5}{\ignorespaces Verklebung von Steg und Gurt}}{92}{figure.7.5}%
-\contentsline {figure}{\numberline {12.1}{\ignorespaces Lagenaufbau Holmgurte nach $eLamX^{2}$}}{119}{figure.12.1}%
-\contentsline {figure}{\numberline {12.2}{\ignorespaces Lagenaufbau Steg Bereich $III$ nach $eLamX^{2}$}}{119}{figure.12.2}%
-\contentsline {figure}{\numberline {12.3}{\ignorespaces Lagenaufbau Steg Bereich $I$\&$II$ nach $eLamX^{2}$}}{120}{figure.12.3}%
-\contentsline {figure}{\numberline {12.4}{\ignorespaces Lagenaufbau Flügelschale nach $eLamX^{2}$}}{121}{figure.12.4}%
-\contentsline {figure}{\numberline {12.5}{\ignorespaces Berechnung Holmgurte nach $eLamX^{2}$}}{121}{figure.12.5}%
-\contentsline {figure}{\numberline {12.6}{\ignorespaces Berechnung Steg Bereich $III$ nach $eLamX^{2}$}}{121}{figure.12.6}%
-\contentsline {figure}{\numberline {12.7}{\ignorespaces Berechnung Steg Bereich $I$\&$II$ nach $eLamX^{2}$}}{122}{figure.12.7}%
-\contentsline {figure}{\numberline {12.8}{\ignorespaces Berechnung Flügelschale nach $eLamX^{2}$}}{123}{figure.12.8}%
-\contentsline {figure}{\numberline {12.9}{\ignorespaces Ingenieurskonstanten Holmgurte nach $eLamX^{2}$}}{123}{figure.12.9}%
-\contentsline {figure}{\numberline {12.10}{\ignorespaces Ingenieurskonstanten Berechnung Steg Bereich $III$ nach $eLamX^{2}$}}{124}{figure.12.10}%
-\contentsline {figure}{\numberline {12.11}{\ignorespaces Ingenieurskonstanten Berechnung Steg Bereich $I\&II$ nach $eLamX^{2}$}}{124}{figure.12.11}%
-\contentsline {figure}{\numberline {12.12}{\ignorespaces Ingenieurskonstanten Berechnung Flügelschale nach $eLamX^{2}$}}{125}{figure.12.12}%
-\contentsline {figure}{\numberline {12.13}{\ignorespaces Sicherheit im Steg bei 500N nach $eLamX^{2}$}}{125}{figure.12.13}%
-\contentsline {figure}{\numberline {12.14}{\ignorespaces Sicherheit in der Haut bei 500N nach $eLamX^{2}$}}{126}{figure.12.14}%
-\contentsline {figure}{\numberline {12.15}{\ignorespaces Sicherheit am Gurt oben bei 500N nach $eLamX^{2}$}}{126}{figure.12.15}%
-\contentsline {figure}{\numberline {12.16}{\ignorespaces Sicherheit am Gurt unten bei 500N nach $eLamX^{2}$}}{127}{figure.12.16}%
-\contentsline {figure}{\numberline {12.17}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, verschiedenen Randbedingungen für Druck ohne Versteifungen; nach \cite {item1}}}{128}{figure.12.17}%
-\contentsline {figure}{\numberline {12.18}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, verschiedenen Randbedingungen für Biegung und Druck, ohne Versteifungen; nach \cite {item1}}}{129}{figure.12.18}%
-\contentsline {figure}{\numberline {12.19}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, verschiedenen Randbedingungen für Schub, ohne Versteifungen; nach \cite {item1}}}{130}{figure.12.19}%
-\contentsline {figure}{\numberline {12.20}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, Ränder einseitig gestützt, für Überlagerungnen, ohne Versteifungen; nach \cite {item1}}}{131}{figure.12.20}%
-\contentsline {figure}{\numberline {12.21}{\ignorespaces Sandwichplatte mit unterschiedlichen Hautstärken, Beulsteifigkeit, für Steifigkeits-Erhöhungsfaktor; nach \cite {item1}}}{131}{figure.12.21}%
-\contentsline {figure}{\numberline {12.22}{\ignorespaces Wertebereich der Laufvariablen $s_i$}}{132}{figure.12.22}%
-\contentsline {figure}{\numberline {12.23}{\ignorespaces Schubfluss Bereich 1}}{132}{figure.12.23}%
-\contentsline {figure}{\numberline {12.24}{\ignorespaces Schubfluss Bereich 2}}{133}{figure.12.24}%
-\contentsline {figure}{\numberline {12.25}{\ignorespaces Schubfluss Bereich 3}}{133}{figure.12.25}%
-\contentsline {figure}{\numberline {12.26}{\ignorespaces Schubfluss Bereich 4}}{134}{figure.12.26}%
-\contentsline {figure}{\numberline {12.27}{\ignorespaces Schubfluss Bereich 5}}{134}{figure.12.27}%
-\contentsline {figure}{\numberline {12.28}{\ignorespaces Schubfluss Bereich 6}}{135}{figure.12.28}%
-\contentsline {figure}{\numberline {12.29}{\ignorespaces Schubfluss Bereich 7}}{135}{figure.12.29}%
-\contentsline {figure}{\numberline {12.30}{\ignorespaces Schubfluss Bereich 8}}{136}{figure.12.30}%
-\contentsline {figure}{\numberline {12.31}{\ignorespaces Schubfluss Bereich 9}}{136}{figure.12.31}%
-\contentsline {figure}{\numberline {12.32}{\ignorespaces Schubfluss Bereich 10}}{137}{figure.12.32}%
-\contentsline {figure}{\numberline {12.33}{\ignorespaces ABAQUS Material Beispiel GFK}}{138}{figure.12.33}%
-\contentsline {figure}{\numberline {12.34}{\ignorespaces ABAQUS Section Beispiel:Steg}}{139}{figure.12.34}%
-\contentsline {figure}{\numberline {12.35}{\ignorespaces CAD-Modell der Tragfläche und des Teststandes}}{140}{figure.12.35}%
-\contentsline {figure}{\numberline {12.36}{\ignorespaces Ursprüngliche Lage des hinteren Langlochs der Querkraftbolzen}}{141}{figure.12.36}%
-\contentsline {figure}{\numberline {12.37}{\ignorespaces Montage der Tragfläche auf dem Teststand}}{141}{figure.12.37}%
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Lagenaufbau Holmgurte nach $eLamX^{2}$}}{120}{figure.12.1}%
+\contentsline {figure}{\numberline {12.2}{\ignorespaces Lagenaufbau Steg Bereich $III$ nach $eLamX^{2}$}}{120}{figure.12.2}%
+\contentsline {figure}{\numberline {12.3}{\ignorespaces Lagenaufbau Steg Bereich $I$\&$II$ nach $eLamX^{2}$}}{121}{figure.12.3}%
+\contentsline {figure}{\numberline {12.4}{\ignorespaces Lagenaufbau Flügelschale nach $eLamX^{2}$}}{122}{figure.12.4}%
+\contentsline {figure}{\numberline {12.5}{\ignorespaces Berechnung Holmgurte nach $eLamX^{2}$}}{122}{figure.12.5}%
+\contentsline {figure}{\numberline {12.6}{\ignorespaces Berechnung Steg Bereich $III$ nach $eLamX^{2}$}}{122}{figure.12.6}%
+\contentsline {figure}{\numberline {12.7}{\ignorespaces Berechnung Steg Bereich $I$\&$II$ nach $eLamX^{2}$}}{123}{figure.12.7}%
+\contentsline {figure}{\numberline {12.8}{\ignorespaces Berechnung Flügelschale nach $eLamX^{2}$}}{124}{figure.12.8}%
+\contentsline {figure}{\numberline {12.9}{\ignorespaces Ingenieurskonstanten Holmgurte nach $eLamX^{2}$}}{124}{figure.12.9}%
+\contentsline {figure}{\numberline {12.10}{\ignorespaces Ingenieurskonstanten Berechnung Steg Bereich $III$ nach $eLamX^{2}$}}{125}{figure.12.10}%
+\contentsline {figure}{\numberline {12.11}{\ignorespaces Ingenieurskonstanten Berechnung Steg Bereich $I\&II$ nach $eLamX^{2}$}}{125}{figure.12.11}%
+\contentsline {figure}{\numberline {12.12}{\ignorespaces Ingenieurskonstanten Berechnung Flügelschale nach $eLamX^{2}$}}{126}{figure.12.12}%
+\contentsline {figure}{\numberline {12.13}{\ignorespaces Sicherheit im Steg bei 500N nach $eLamX^{2}$}}{126}{figure.12.13}%
+\contentsline {figure}{\numberline {12.14}{\ignorespaces Sicherheit in der Haut bei 500N nach $eLamX^{2}$}}{127}{figure.12.14}%
+\contentsline {figure}{\numberline {12.15}{\ignorespaces Sicherheit am Gurt oben bei 500N nach $eLamX^{2}$}}{127}{figure.12.15}%
+\contentsline {figure}{\numberline {12.16}{\ignorespaces Sicherheit am Gurt unten bei 500N nach $eLamX^{2}$}}{128}{figure.12.16}%
+\contentsline {figure}{\numberline {12.17}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, verschiedenen Randbedingungen für Druck ohne Versteifungen; nach \cite {item1}}}{129}{figure.12.17}%
+\contentsline {figure}{\numberline {12.18}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, verschiedenen Randbedingungen für Biegung und Druck, ohne Versteifungen; nach \cite {item1}}}{130}{figure.12.18}%
+\contentsline {figure}{\numberline {12.19}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, verschiedenen Randbedingungen für Schub, ohne Versteifungen; nach \cite {item1}}}{131}{figure.12.19}%
+\contentsline {figure}{\numberline {12.20}{\ignorespaces Beulfaktor bei Beulspannungen einer ebenen isotropen Platte, Ränder einseitig gestützt, für Überlagerungnen, ohne Versteifungen; nach \cite {item1}}}{132}{figure.12.20}%
+\contentsline {figure}{\numberline {12.21}{\ignorespaces Sandwichplatte mit unterschiedlichen Hautstärken, Beulsteifigkeit, für Steifigkeits-Erhöhungsfaktor; nach \cite {item1}}}{132}{figure.12.21}%
+\contentsline {figure}{\numberline {12.22}{\ignorespaces Wertebereich der Laufvariablen $s_i$}}{133}{figure.12.22}%
+\contentsline {figure}{\numberline {12.23}{\ignorespaces Schubfluss Bereich 1}}{133}{figure.12.23}%
+\contentsline {figure}{\numberline {12.24}{\ignorespaces Schubfluss Bereich 2}}{134}{figure.12.24}%
+\contentsline {figure}{\numberline {12.25}{\ignorespaces Schubfluss Bereich 3}}{134}{figure.12.25}%
+\contentsline {figure}{\numberline {12.26}{\ignorespaces Schubfluss Bereich 4}}{135}{figure.12.26}%
+\contentsline {figure}{\numberline {12.27}{\ignorespaces Schubfluss Bereich 5}}{135}{figure.12.27}%
+\contentsline {figure}{\numberline {12.28}{\ignorespaces Schubfluss Bereich 6}}{136}{figure.12.28}%
+\contentsline {figure}{\numberline {12.29}{\ignorespaces Schubfluss Bereich 7}}{136}{figure.12.29}%
+\contentsline {figure}{\numberline {12.30}{\ignorespaces Schubfluss Bereich 8}}{137}{figure.12.30}%
+\contentsline {figure}{\numberline {12.31}{\ignorespaces Schubfluss Bereich 9}}{137}{figure.12.31}%
+\contentsline {figure}{\numberline {12.32}{\ignorespaces Schubfluss Bereich 10}}{138}{figure.12.32}%
+\contentsline {figure}{\numberline {12.33}{\ignorespaces ABAQUS Material Beispiel GFK}}{139}{figure.12.33}%
+\contentsline {figure}{\numberline {12.34}{\ignorespaces ABAQUS Section Beispiel:Steg}}{140}{figure.12.34}%
+\contentsline {figure}{\numberline {12.35}{\ignorespaces CAD-Modell der Tragfläche und des Teststandes}}{141}{figure.12.35}%
+\contentsline {figure}{\numberline {12.36}{\ignorespaces Ursprüngliche Lage des hinteren Langlochs der Querkraftbolzen}}{142}{figure.12.36}%
+\contentsline {figure}{\numberline {12.37}{\ignorespaces Montage der Tragfläche auf dem Teststand}}{142}{figure.12.37}%
