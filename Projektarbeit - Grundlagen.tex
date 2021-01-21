@@ -27,10 +27,19 @@ aufgestellt wurde. Neben der Krümmung $w^{''}$ kann mittels Integration die Nei
 
 \noindent Es sei außerdem angemerkt, dass jederzeit Superpositions-Eigenschaften gelten. Dadurch können einerseits mehrere Balken in einem System betrachtet werden, andererseits aber auch Balken mit mehreren Belastungen in einzelne einfache Berechnungen überführt werden \cite{item16}.\\
 
-%	\noindent Für die Berechnung einer Balkenbiegung kann nach folgendem Schema vorgegangen werden: Vorerst werden die notwendigen Lagerkräfte und -momente bestimmt. Wichtige Lagerarten bilden dabei das Festlager (ein rotatorischer Freiheitsgrad), das Loslager (ein rotatorischer und ein translatorischer Freiheitsgrad) und eine Einspannung (keine Freiheitsgrade), die Freiheitsgrade seien dabei auf den zweidimensionalen Fall bezogen. Anschließend wird der Balken bereichsweise an  Unstetigkeiten (z.B. Lager oder Krafteinleitungspunkte und ändernde Geometrien) geschnitten, um innere Kräfte am entstandenen positiven und negativen Schnittufer zu ermitteln. Dadurch lassen sich in diesen markanten Orten relevante Rand- und Übergangsbedingungen der Differentialgleichung des Biegebalkens bestimmen. Abschließend führen Integrationen und Differentiationen dieser Gleichung und deren Lösung  zur Absenkung, dem Biegewinkel, der Krümmung sowie innerem Kraft- bzw. Momentverlauf \cite{item16}\cite{item9}.
-%
+\noindent Für die Berechnung einer Balkenbiegung kann nach folgendem Schema vorgegangen werden: Vorerst werden die notwendigen Lagerarten bestimmt. Wichtige Lagerarten bilden dabei das Festlager (ein rotatorischer Freiheitsgrad), das Loslager (ein rotatorischer und ein translatorischer Freiheitsgrad) und eine feste Einspannung (keine Freiheitsgrade), die Freiheitsgrade seien dabei auf den zweidimensionalen Fall bezogen. Anschließend wird der Balken bereichsweise an  Unstetigkeiten (z.B. Lager oder Krafteinleitungspunkte und ändernde Geometrien) geschnitten, um Bedingungen für innere Kräfte und Momente am entstandenen positiven und negativen Schnittufer zu ermitteln. Dadurch lassen sich in diesen markanten Orten relevante Rand- und Übergangsbedingungen der Differentialgleichung des Biegebalkens bestimmen. Abschließend führen Integrationen und Differentiationen dieser Gleichung und deren Lösung  zur Absenkung, dem Biegewinkel, der Krümmung sowie innerem Kraft- bzw. Momentverlauf \cite{item16}\cite{item9}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.3\textwidth]{Bilder/Einspannungen.png}
+	\caption{Lagerarten mit ihren Freiheitsgradbeschränkungen (2D)}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Bilder/Schnittufer.png}
+	\caption{Schnittkräfte und -momente in einem Balkenschnitt (2D)}
+\end{figure}
 
-\noindent Für die Berechnung einer Balkenbiegung kann nach folgendem Schema vorgegangen werden: Vorerst werden die notwendigen Lagerarten bestimmt. Wichtige Lagerarten bilden dabei das Festlager (ein rotatorischer Freiheitsgrad), das Loslager (ein rotatorischer und ein translatorischer Freiheitsgrad) und eine Einspannung (keine Freiheitsgrade), die Freiheitsgrade seien dabei auf den zweidimensionalen Fall bezogen. Anschließend wird der Balken bereichsweise an  Unstetigkeiten (z.B. Lager oder Krafteinleitungspunkte und ändernde Geometrien) geschnitten, um Bedingungen für innere Kräfte und Momente am entstandenen positiven und negativen Schnittufer zu ermitteln. Dadurch lassen sich in diesen markanten Orten relevante Rand- und Übergangsbedingungen der Differentialgleichung des Biegebalkens bestimmen. Abschließend führen Integrationen und Differentiationen dieser Gleichung und deren Lösung  zur Absenkung, dem Biegewinkel, der Krümmung sowie innerem Kraft- bzw. Momentverlauf \cite{item16}\cite{item9}.
+\FloatBarrier
 \newpage
 
 
@@ -451,8 +460,14 @@ Der Traglügel wird aus verschiedenen Bauteilen gefertigt, die miteinander verbu
 
 \noindent In der folgenden Dimensionierungsmethode für Klebeflächen wird lediglich auf Schubspannungen in deren Flächen-Ebene eingegangen. Normale Spannungen, aber auch Schälen oder senkrechte Spannungen dazu sind somit ausgeschlossen. Außerdem soll nur mit einfachen Klebeverbindungen von aufeinander liegenden Bauteilen gerechnet werden, da ein Anschrägen bzw. Schäften an Bauteilen solch kleiner Abmessungen teilweise ausgeschlossen werden muss. Mit diesen Annahmen kann folgende Gleichung genutzt werden \cite{item23}:
 \begin{equation}
-	\tau=\frac{F_{Schub}}{A}
+	\tau=\frac{F}{A}
 \end{equation}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{Bilder/Kleben.png}
+	\caption{Vereinfachte Verklebung zweier Bauteile}
+\end{figure}
+\FloatBarrier
 
 \newpage
 \subsection{Einführung in Bauweisen (O.S.)}
@@ -461,7 +476,8 @@ In der Aufgabenstellung wird gefordert, dass der Flügel in der Holm-Bauweise ko
 	\includegraphics[width=1.0\textwidth]{Bilder/Holmarten.png}
 	\caption{Holmarten: a) I-Holm   b) C-Holm    c) Kastenholm}
 	\label{fig: Holmarten}
-\end{figure}\\ 
+\end{figure} 
+
 \noindent
 Das aerodynamische Profil des Flügels wird durch die Schale erreicht. Hierbei wird eine dünne Haut nur an kritischen Stellen mit der Sandwichbauweise oder Rippen verstärkt, um Beulen zu verhindern. Die Schale trägt dabei so gut wie gar nicht die Last des Flügels, jedoch ist sie für die Torsionssteifigkeit entscheidend.
 \FloatBarrier
