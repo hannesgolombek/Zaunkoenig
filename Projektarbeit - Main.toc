@@ -80,6 +80,7 @@
 \contentsline {subsubsection}{\numberline {7.2.4}Masse der Holzklötze und Rippen}{88}{subsubsection.7.2.4}%
 \contentsline {subsubsection}{\numberline {7.2.5}Abschätzung der Verklebungen und der Gesamtmasse}{88}{subsubsection.7.2.5}%
 \contentsline {subsection}{\numberline {7.3}Bauanleitung für die Fertigung (T.B.)}{90}{subsection.7.3}%
+<<<<<<< HEAD
 \contentsline {section}{\numberline {8}Begutachtung der erarbeiteten Ergebnisse}{93}{section.8}%
 \contentsline {subsection}{\numberline {8.1}Gewichtsnormalisiertes Festigkeitskriterium (O.S.)}{93}{subsection.8.1}%
 \contentsline {subsection}{\numberline {8.2}Diskussion der Ergebnisse (H.G.)}{94}{subsection.8.2}%
@@ -97,3 +98,21 @@
 \contentsline {subsection}{\numberline {12.5}Abbildungen Schubfluss}{129}{subsection.12.5}%
 \contentsline {subsection}{\numberline {12.6}Abbildungen: Numerische Berechnung}{135}{subsection.12.6}%
 \contentsline {subsection}{\numberline {12.7}Abbildungen: Konstruktion und Fertigung}{137}{subsection.12.7}%
+=======
+\contentsline {section}{\numberline {8}Zusammenfassung}{93}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Die Berechnungen im Überblick (H.K.)}{93}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Die Konstruktion und FEM-Analyse im Überblick (H.K.)}{96}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Gewichtsnormalisiertes Festigkeitskriterium (O.S.)}{97}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Diskussion der Ergebnisse}{98}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Ausblick auf Optimierungen der Berechnungen (H.G.)}{99}{subsection.8.5}%
+\contentsline {section}{\numberline {9}Quellenverzeichnis}{101}{section.9}%
+\contentsline {section}{\numberline {10}Abbildungsverzeichnis}{103}{section.10}%
+\contentsline {section}{\numberline {11}Anhang}{105}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Berechnung: Analytische Lösung der Modellierung (T.B.)}{105}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Berechnung: Schubfluss und Schubmittelpunkt (O.S.)}{107}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Abbildungen: $eLamX^{2}$}{116}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Abbildungen: Beulberechnung}{125}{subsection.11.4}%
+\contentsline {subsection}{\numberline {11.5}Abbildungen Schubfluss}{129}{subsection.11.5}%
+\contentsline {subsection}{\numberline {11.6}Abbildungen: Numerische Berechnung}{135}{subsection.11.6}%
+\contentsline {subsection}{\numberline {11.7}Abbildungen: Konstruktion und Fertigung}{137}{subsection.11.7}%
+>>>>>>> main
