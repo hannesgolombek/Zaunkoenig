@@ -34,61 +34,62 @@
 \BOOKMARK [3][-]{subsubsection.4.2.2}{Dimensionierung der Gurte mit rechteckigen Querschnitten}{subsection.4.2}% 34
 \BOOKMARK [3][-]{subsubsection.4.2.3}{Nachrechnung der angepassten Gurte}{subsection.4.2}% 35
 \BOOKMARK [3][-]{subsubsection.4.2.4}{Bestimmung der Lagenanzahl des Steges}{subsection.4.2}% 36
-\BOOKMARK [2][-]{subsection.4.3}{Auslegung des Holms nach Klassischer Laminattheorie \(T.B.\)}{section.4}% 37
-\BOOKMARK [3][-]{subsubsection.4.3.1}{Beispielrechnung nach Klassischer Laminattheorie}{subsection.4.3}% 38
-\BOOKMARK [3][-]{subsubsection.4.3.2}{eLamX2}{subsection.4.3}% 39
-\BOOKMARK [2][-]{subsection.4.4}{Beulabsch\344tzung des Holms \(T.B.\)}{section.4}% 40
-\BOOKMARK [3][-]{subsubsection.4.4.1}{Beulsicherheit der Gurte}{subsection.4.4}% 41
-\BOOKMARK [3][-]{subsubsection.4.4.2}{Beulsicherheit des Steges}{subsection.4.4}% 42
-\BOOKMARK [2][-]{subsection.4.5}{Auslegung der Klebeverbindung \(T.B.\)}{section.4}% 43
-\BOOKMARK [3][-]{subsubsection.4.5.1}{Klebeverbindung Steg - Gurt}{subsection.4.5}% 44
-\BOOKMARK [3][-]{subsubsection.4.5.2}{Klebeverbindung Holm - Rippen}{subsection.4.5}% 45
-\BOOKMARK [2][-]{subsection.4.6}{Bolzenauslegung \(H.G.\)}{section.4}% 46
-\BOOKMARK [3][-]{subsubsection.4.6.1}{Bolzenberechnung}{subsection.4.6}% 47
-\BOOKMARK [1][-]{section.5}{Auslegung der Fl\374gelschale nach Handbuchmethoden}{}% 48
-\BOOKMARK [2][-]{subsection.5.1}{Schubfluss}{section.5}% 49
-\BOOKMARK [3][-]{subsubsection.5.1.1}{Idealisierung\(H.G.\)}{subsection.5.1}% 50
-\BOOKMARK [3][-]{subsubsection.5.1.2}{Schwerpunktkoordinaten\(H.G.\)}{subsection.5.1}% 51
-\BOOKMARK [3][-]{subsubsection.5.1.3}{Schubmittelpunkt \(H.G.\)}{subsection.5.1}% 52
-\BOOKMARK [3][-]{subsubsection.5.1.4}{Torsion \(O.S.\)}{subsection.5.1}% 53
-\BOOKMARK [3][-]{subsubsection.5.1.5}{Schubspannung \(O.S.\)}{subsection.5.1}% 54
-\BOOKMARK [2][-]{subsection.5.2}{Auslegung der Fl\374gelschale nach Klassischer Laminattheorie \(T.B.\)}{section.5}% 55
-\BOOKMARK [3][-]{subsubsection.5.2.1}{eLamX2}{subsection.5.2}% 56
-\BOOKMARK [2][-]{subsection.5.3}{Beulabsch\344tzung der Fl\374gelschale \(T.B.\)}{section.5}% 57
-\BOOKMARK [1][-]{section.6}{Numerische Berechnung}{}% 58
-\BOOKMARK [2][-]{subsection.6.1}{Vorteile der Finiten Element Methode \(O.S.\)}{section.6}% 59
-\BOOKMARK [2][-]{subsection.6.2}{ABAQUS Analyse \(H.G.\)}{section.6}% 60
-\BOOKMARK [3][-]{subsubsection.6.2.1}{Modell}{subsection.6.2}% 61
-\BOOKMARK [3][-]{subsubsection.6.2.2}{Analyse}{subsection.6.2}% 62
-\BOOKMARK [3][-]{subsubsection.6.2.3}{Beulanalyse}{subsection.6.2}% 63
-\BOOKMARK [1][-]{section.7}{Konstruktion und Fertigung des Fl\374gels}{}% 64
-\BOOKMARK [2][-]{subsection.7.1}{CAD-Konstruktion des Fl\374gels \(H.K.\)}{section.7}% 65
-\BOOKMARK [3][-]{subsubsection.7.1.1}{Konstruktion der Gurte}{subsection.7.1}% 66
-\BOOKMARK [3][-]{subsubsection.7.1.2}{Konstruktion des Stegs}{subsection.7.1}% 67
-\BOOKMARK [3][-]{subsubsection.7.1.3}{Konstruktion der Haut und der Rippen}{subsection.7.1}% 68
-\BOOKMARK [3][-]{subsubsection.7.1.4}{Konstruktion unterst\374tzender Bauteile des Holms}{subsection.7.1}% 69
-\BOOKMARK [3][-]{subsubsection.7.1.5}{Querkraftbolzen und Montage auf dem Teststand}{subsection.7.1}% 70
-\BOOKMARK [2][-]{subsection.7.2}{Massenabsch\344tzung \(H.K.\)}{section.7}% 71
-\BOOKMARK [3][-]{subsubsection.7.2.1}{Masse der Gurte}{subsection.7.2}% 72
-\BOOKMARK [3][-]{subsubsection.7.2.2}{Masse des Stegs}{subsection.7.2}% 73
-\BOOKMARK [3][-]{subsubsection.7.2.3}{Masse der Haut}{subsection.7.2}% 74
-\BOOKMARK [3][-]{subsubsection.7.2.4}{Masse der Holzkl\366tze und Rippen}{subsection.7.2}% 75
-\BOOKMARK [3][-]{subsubsection.7.2.5}{Absch\344tzung der Verklebungen und der Gesamtmasse}{subsection.7.2}% 76
-\BOOKMARK [2][-]{subsection.7.3}{Bauanleitung f\374r die Fertigung \(T.B.\)}{section.7}% 77
-\BOOKMARK [1][-]{section.8}{Begutachtung der erarbeiteten Ergebnisse}{}% 78
-\BOOKMARK [2][-]{subsection.8.1}{Gewichtsnormalisiertes Festigkeitskriterium \(O.S.\)}{section.8}% 79
-\BOOKMARK [2][-]{subsection.8.2}{Diskussion der Ergebnisse \(H.G.\)}{section.8}% 80
-\BOOKMARK [2][-]{subsection.8.3}{Ausblick auf Optimierungen der Berechnungen \(H.G.\)}{section.8}% 81
-\BOOKMARK [1][-]{section.9}{Zusammenfassung}{}% 82
-\BOOKMARK [2][-]{subsection.9.1}{Die Berechnungen im \334berblick \(H.K.\)}{section.9}% 83
-\BOOKMARK [2][-]{subsection.9.2}{Die Konstruktion und FEM-Analyse im \334berblick \(H.K.\)}{section.9}% 84
-\BOOKMARK [1][-]{section.10}{Quellenverzeichnis}{}% 85
-\BOOKMARK [1][-]{section.11}{Abbildungsverzeichnis}{}% 86
-\BOOKMARK [1][-]{section.12}{Anhang}{}% 87
-\BOOKMARK [2][-]{subsection.12.1}{Berechnung: Analytische L\366sung der Modellierung \(T.B.\)}{section.12}% 88
-\BOOKMARK [2][-]{subsection.12.2}{Berechnung: Schubfluss und Schubmittelpunkt \(O.S.\)}{section.12}% 89
-\BOOKMARK [2][-]{subsection.12.3}{Abbildungen: eLamX2}{section.12}% 90
-\BOOKMARK [2][-]{subsection.12.4}{Abbildungen: Beulberechnung}{section.12}% 91
-\BOOKMARK [2][-]{subsection.12.5}{Abbildungen Schubfluss}{section.12}% 92
-\BOOKMARK [2][-]{subsection.12.6}{Abbildungen: Numerische Berechnung}{section.12}% 93
-\BOOKMARK [2][-]{subsection.12.7}{Abbildungen: Konstruktion und Fertigung}{section.12}% 94
+\BOOKMARK [3][-]{subsubsection.4.2.5}{\334berpr\374fung der Faserausrichtung}{subsection.4.2}% 37
+\BOOKMARK [2][-]{subsection.4.3}{Auslegung des Holms nach Klassischer Laminattheorie \(T.B.\)}{section.4}% 38
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Beispielrechnung nach Klassischer Laminattheorie}{subsection.4.3}% 39
+\BOOKMARK [3][-]{subsubsection.4.3.2}{eLamX2}{subsection.4.3}% 40
+\BOOKMARK [2][-]{subsection.4.4}{Beulabsch\344tzung des Holms \(T.B.\)}{section.4}% 41
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Beulsicherheit der Gurte}{subsection.4.4}% 42
+\BOOKMARK [3][-]{subsubsection.4.4.2}{Beulsicherheit des Steges}{subsection.4.4}% 43
+\BOOKMARK [2][-]{subsection.4.5}{Auslegung der Klebeverbindung \(T.B.\)}{section.4}% 44
+\BOOKMARK [3][-]{subsubsection.4.5.1}{Klebeverbindung Steg - Gurt}{subsection.4.5}% 45
+\BOOKMARK [3][-]{subsubsection.4.5.2}{Klebeverbindung Holm - Rippen}{subsection.4.5}% 46
+\BOOKMARK [2][-]{subsection.4.6}{Bolzenauslegung \(H.G.\)}{section.4}% 47
+\BOOKMARK [3][-]{subsubsection.4.6.1}{Bolzenberechnung}{subsection.4.6}% 48
+\BOOKMARK [1][-]{section.5}{Auslegung der Fl\374gelschale nach Handbuchmethoden}{}% 49
+\BOOKMARK [2][-]{subsection.5.1}{Schubfluss}{section.5}% 50
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Idealisierung\(H.G.\)}{subsection.5.1}% 51
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Schwerpunktkoordinaten\(H.G.\)}{subsection.5.1}% 52
+\BOOKMARK [3][-]{subsubsection.5.1.3}{Schubmittelpunkt \(H.G.\)}{subsection.5.1}% 53
+\BOOKMARK [3][-]{subsubsection.5.1.4}{Torsion \(O.S.\)}{subsection.5.1}% 54
+\BOOKMARK [3][-]{subsubsection.5.1.5}{Schubspannung \(O.S.\)}{subsection.5.1}% 55
+\BOOKMARK [2][-]{subsection.5.2}{Auslegung der Fl\374gelschale nach Klassischer Laminattheorie \(T.B.\)}{section.5}% 56
+\BOOKMARK [3][-]{subsubsection.5.2.1}{eLamX2}{subsection.5.2}% 57
+\BOOKMARK [2][-]{subsection.5.3}{Beulabsch\344tzung der Fl\374gelschale \(T.B.\)}{section.5}% 58
+\BOOKMARK [1][-]{section.6}{Numerische Berechnung}{}% 59
+\BOOKMARK [2][-]{subsection.6.1}{Vorteile der Finiten Element Methode \(O.S.\)}{section.6}% 60
+\BOOKMARK [2][-]{subsection.6.2}{ABAQUS Analyse \(H.G.\)}{section.6}% 61
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Modell}{subsection.6.2}% 62
+\BOOKMARK [3][-]{subsubsection.6.2.2}{Analyse}{subsection.6.2}% 63
+\BOOKMARK [3][-]{subsubsection.6.2.3}{Beulanalyse}{subsection.6.2}% 64
+\BOOKMARK [1][-]{section.7}{Konstruktion und Fertigung des Fl\374gels}{}% 65
+\BOOKMARK [2][-]{subsection.7.1}{CAD-Konstruktion des Fl\374gels \(H.K.\)}{section.7}% 66
+\BOOKMARK [3][-]{subsubsection.7.1.1}{Konstruktion der Gurte}{subsection.7.1}% 67
+\BOOKMARK [3][-]{subsubsection.7.1.2}{Konstruktion des Stegs}{subsection.7.1}% 68
+\BOOKMARK [3][-]{subsubsection.7.1.3}{Konstruktion der Haut und der Rippen}{subsection.7.1}% 69
+\BOOKMARK [3][-]{subsubsection.7.1.4}{Konstruktion unterst\374tzender Bauteile des Holms}{subsection.7.1}% 70
+\BOOKMARK [3][-]{subsubsection.7.1.5}{Querkraftbolzen und Montage auf dem Teststand}{subsection.7.1}% 71
+\BOOKMARK [2][-]{subsection.7.2}{Massenabsch\344tzung \(H.K.\)}{section.7}% 72
+\BOOKMARK [3][-]{subsubsection.7.2.1}{Masse der Gurte}{subsection.7.2}% 73
+\BOOKMARK [3][-]{subsubsection.7.2.2}{Masse des Stegs}{subsection.7.2}% 74
+\BOOKMARK [3][-]{subsubsection.7.2.3}{Masse der Haut}{subsection.7.2}% 75
+\BOOKMARK [3][-]{subsubsection.7.2.4}{Masse der Holzkl\366tze und Rippen}{subsection.7.2}% 76
+\BOOKMARK [3][-]{subsubsection.7.2.5}{Absch\344tzung der Verklebungen und der Gesamtmasse}{subsection.7.2}% 77
+\BOOKMARK [2][-]{subsection.7.3}{Bauanleitung f\374r die Fertigung \(T.B.\)}{section.7}% 78
+\BOOKMARK [1][-]{section.8}{Begutachtung der erarbeiteten Ergebnisse}{}% 79
+\BOOKMARK [2][-]{subsection.8.1}{Gewichtsnormalisiertes Festigkeitskriterium \(O.S.\)}{section.8}% 80
+\BOOKMARK [2][-]{subsection.8.2}{Diskussion der Ergebnisse \(H.G.\)}{section.8}% 81
+\BOOKMARK [2][-]{subsection.8.3}{Ausblick auf Optimierungen der Berechnungen \(H.G.\)}{section.8}% 82
+\BOOKMARK [1][-]{section.9}{Zusammenfassung}{}% 83
+\BOOKMARK [2][-]{subsection.9.1}{Die Berechnungen im \334berblick \(H.K.\)}{section.9}% 84
+\BOOKMARK [2][-]{subsection.9.2}{Die Konstruktion und FEM-Analyse im \334berblick \(H.K.\)}{section.9}% 85
+\BOOKMARK [1][-]{section.10}{Quellenverzeichnis}{}% 86
+\BOOKMARK [1][-]{section.11}{Abbildungsverzeichnis}{}% 87
+\BOOKMARK [1][-]{section.12}{Anhang}{}% 88
+\BOOKMARK [2][-]{subsection.12.1}{Berechnung: Analytische L\366sung der Modellierung \(T.B.\)}{section.12}% 89
+\BOOKMARK [2][-]{subsection.12.2}{Berechnung: Schubfluss und Schubmittelpunkt \(O.S.\)}{section.12}% 90
+\BOOKMARK [2][-]{subsection.12.3}{Abbildungen: eLamX2}{section.12}% 91
+\BOOKMARK [2][-]{subsection.12.4}{Abbildungen: Beulberechnung}{section.12}% 92
+\BOOKMARK [2][-]{subsection.12.5}{Abbildungen Schubfluss}{section.12}% 93
+\BOOKMARK [2][-]{subsection.12.6}{Abbildungen: Numerische Berechnung}{section.12}% 94
+\BOOKMARK [2][-]{subsection.12.7}{Abbildungen: Konstruktion und Fertigung}{section.12}% 95
