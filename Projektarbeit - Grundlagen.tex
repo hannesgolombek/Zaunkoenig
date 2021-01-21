@@ -163,7 +163,7 @@ Die Spannungen lassen sich jetzt durch Gleichung \ref{SpannungDehnung} errechnen
 \noindent
 Bei den Elastizitätsmoduln ist darauf zu achten, dass es sich um Moduln ohne Querkontraktionsbehinderung handelt \cite{item3}.
 \subsubsection{Plattenelement}
-Um ein Plattenelement zu Berechnen werden zusätzliche Beziehungen benötigt, da nun ein zweiachsiger Spannungszustand vorliegt. Zu Gleichung \ref{AQ} kommen nun noch 2 weitere Gleichungen (siehe Glg.\ref{BQ}/\ref{DQ}) hinzu. $|z_{k}|$ ist der Abstand zwischen den Schichten.
+Um ein Plattenelement zu Berechnen werden zusätzliche Beziehungen benötigt, da nun ein zweiachsiger Spannungszustand vorliegt. Zu Gleichung \ref{AQ} kommen nun noch 2 weitere Gleichungen (siehe Glg.\ref{BQ}/\ref{DQ}) hinzu. $|z_{k}|$ ist der Abstand zwischen den Schichten. Bei $t_{k}$ handelt es sich dabei um die jeweilige Plattendicke, bei $z_{k}$ um die maximale Entfernung vom gesetzten Kordinatensystem.
 \begin{equation}
 \label{BQ}
 	B_{ij}= \cdot \sum_{k=1}^{n} \overline{Q}_{ij,k}\cdot t_{k}\cdot \left(z_{k}-\frac{t_{k}}{2}\right)
@@ -458,7 +458,7 @@ Wobei sich das linke Integral zu der Elementsteifigkeitsmatrix $\underline{\unde
 Die einzelnen Elementsteifigkeitsmatrizen lassen sich zu einer Gesamtsteifigkeitsmatrix zusammenfassen, mit der dann die Lösung berechnet wird.
 \newpage
 \subsection{Einführung zu Verklebungen (T.B.)}\label{Verklebung}
-Der Tragflügel wird aus verschiedenen Bauteilen gefertigt, die miteinander verbunden werden müssen. Unterschieden werden kann beim Fügen zwischen kraftschlüssiger Verbindung (z.B. Schrauben), formschlüssiger Verbindung (z.B. Schnapphaken) und stoffschlüssiger Verbindung (z.B. Löten oder Kleben) \cite{item23}. FKV werden meistens miteinander verklebt, dabei muss kann man auf drei Varianten zurückgreifen \cite{item4}:
+Der Tragflügel wird aus verschiedenen Bauteilen gefertigt, die miteinander verbunden werden müssen. Unterschieden werden kann beim Fügen zwischen kraftschlüssiger Verbindung (z.B. Schrauben), formschlüssiger Verbindung (z.B. Schnapphaken) und stoffschlüssiger Verbindung (z.B. Löten oder Kleben) \cite{item23}. FKV werden meistens miteinander verklebt, dabei muss kann man auf drei Varianten zurückgreifen \cite{item4}\cite{Traktor}:
 \begin{itemize}
 	\item Nass-Nass-Verklebung: Zwei Laminate werden im nicht ausgehärteten Zustand, also während ihrer Fertigung, gefügt.
 	\item Trocken-Nass-Verklebung: Obwohl ein Laminat schon gehärtet ist, kann es dennoch mit einem zweiten, nicht gehärteten Laminat gefügt werden. Bei dem gehärteten Laminat muss eine geforderte Rauheit garantiert werden.
