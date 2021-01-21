@@ -1,4 +1,4 @@
-\subsection{Glasfaser (H.G.)}
+\subsection{Einführung  zu Glasfasern (H.G.)}
 \label{Glasfaser}
 Glasfasern gelten als älteste synthetische Faserart und wurden schon vor 3500 Jahren verwendet. Heutzutage werden Glasfasern überwiegend aus SiO2 und Metalloxiden hergestellt. Die Bestandteile werden bei ca. 1400°C aufgeschmolzen und durch kleine Düsen im Boden des Kessels als dünne Fäden ausgelassen. Die Fäden werden aufgewickelt und zu größeren Fasern versponnen\cite{item3}.
 Die hohe Festigkeit der Glasfaser beruht auf den kovalenten Bindungen von Silizium- und Sauerstoff-Atomen. Zugesetzte Metalloxide verhindern eine Ausbildung eines geordneten Gefüges und erhöhen somit zusätzlich die Festigkeit. Die Fasern können in Längsrichtung sehr hohe Kräfte aufnehmen, jedoch nicht in Querrichtung. Deshalb werden sie in eine Matrix integriert, die die Querkräfte aufnimmt und die Faser vor dem Knicken schützt. Glasfasern lassen sich auch um enge Radien sehr gut drapieren und sind durch ihre einfache Herstellungsweise im Vergleich zu anderen Faserarten sehr preiswert \cite{item4}.
@@ -6,11 +6,32 @@ Durch die zuvor erläuterten Eigenschaften sind Glasfasern sehr gut für dieses 
 Für die Konstruktion des Flügels stehen die Glasfasern Interglas 90070 (bidirektional) und Interglas 92145 (idealisiert unidirektional) des Herstellers Interglas Technologies zur Verfügung. 
 \parskip
 \parskip
-\subsection{Matrix (H.G.)}
+\subsection{Einführung zur Matrix (H.G.)}
 Unter der Matrix versteht man den Fasern umgebenden Teil des Faserverbundstoffs. Dabei werden im Bereich des Faser-Kunststoff-Verbunds Polymere, wie z.B. Epoxidharz, verwendet. Die Matrix ist meist der schwache Teil des FKV und hat die Aufgabe, die Fasern gegen Knicken bei Druckbelastung zu schützen und eine gleichmäßige Krafteinleitung in die Fasern zu ermöglichen. Zusätzlich hält sie die Fasern in Position und verhindert Reibung zwischen den einzelnen Fasern \cite{item3}.\\
 Für den Flügel wird der Epoxy-Kunststoff L 385 des Herstellers \textit{MGScheufler} zusammen mit dem Härter H 386 im Mischverhältnis 100/40 verwendet.
 \newpage
-\subsection{Netztheorie (H.G.)}
+
+\subsection{Einführung in die Balkenbiegung (T.B.)}\label{Balken}
+Anhand der \textit{Balkentheorie nach Bernoulli} soll das mechanische Verhalten eines Balkens unter gegebenen Bedingungen ermittelt werden. Dazu werden einführend diese Theorie und zusätzliche Zusammenhänge kurz dargestellt.\\
+
+\noindent Die Balkentheorie beschreibt elastische Längs- und Querverformungen eines Balkens beliebigen Querschnitts, resultierend durch angreifende Kräfte, Streckenlasten und Momente. Diese können durch Lager oder äußere angreifende Lasten in einen solchen Körper eingeleitet werden. Ergänzend sei angemerkt, dass es sich bei einem Balken um einen Körper handelt, dessen Länge sehr viel größere Werte als die der Breite und der Höhe besitzt. Durch die Lasten herrschen im Balken innere Normal- und Querkräfte und innere Momente $(N, Q, M)$. Mittels des Freischneidens können diese an beliebigen Stellen berechnet werden. Folgend ergeben sich Normal- (Zug, Druck) und Schubspannungen $(\sigma, \tau)$, die wiederum über das \textit{Hooke´sche Gesetz} zu Dehnungen und Verzerrungen $(\epsilon, \gamma)$ führen, sodass letztendlich anhand derer beschriebene Verformungen $(u, v, w)$ zu erkennen sind. Durch das hohe Verhältnis der Abmessungen zueinander werden Schubspannungen im Weiteren vernachlässigt \cite{item15}\cite{item16}\cite{item9}. \\
+
+\noindent Für die Reaktionseigenschaften auf angreifende Lasten sind Materialkennwerte und die Geometrie des Balkens verantwortlich, welche mit der Biegesteifigkeit $EI$ repräsentiert werden. Gebildet wird sie durch den E-Modul $E$ und das Flächenträgheitsmoment $I$. Während Ersteres eine wichtige Eigenschaft eines Materials ist, ist Letzteres von der Querschnittsform abhängig. Neben der eigentlichen Form können ebenfalls Steiner-Anteile das Flächenträgheitsmoment erhöhen. Für die zu verwendenden Formeln wird auf das spätere Kapitel \ref{SP-Koord} verwiesen \cite{item16}.\\
+
+
+\noindent Innerhalb des gebogenen Balkens gibt es stets eine neutrale Faser, die eine Linie bzw. Fläche ohne eine relative Längenänderung unter angreifenden Kräften und Momenten repräsentiert. Diese Linie wird auch Biegelinie genannt, für welche die vereinfachte \textit{Differentialgleichung des Biegebalkens}
+\begin{equation}
+	w^{''}=-\frac{M}{EI}
+\end{equation}
+aufgestellt wurde. Neben der Krümmung $w^{''}$ kann mittels Integration der Biegewinkel $w^{'}$ und die Absenkung $w$ bestimmt werden. Über Differentiationen werden auch äußere Momente, Kräfte und Streckenlasten in der Balkentheorie mit einbezogen. Durch Integrationskonstanten können geometrische Rand- und Übergangsbedingungen beachtet werden. Während in der neutralen Faser keine Normalspannungen auftreten, sind diese in den Randfasern maximal \cite{item16}\cite{item9}.\\
+
+\noindent Es sei außerdem angemerkt, dass jederzeit Superpositions-Eigenschaften gelten. Dadurch können einerseits mehrere Balken in einem System betrachtet werden, andererseits aber auch Balken mit mehreren Belastungen in einzelne einfache Berechnungen überführt werden \cite{item16}.\\
+
+\noindent Für die Berechnung einer Balkenbiegung kann nach folgendem Schema vorgegangen werden: Vorerst werden die notwendigen Lagerkräfte und -momente bestimmt. Wichtige Lagerarten bilden dabei das Festlager (ein rotatorischer Freiheitsgrad), das Loslager (ein rotatorischer und ein translatorischer Freiheitsgrad) und eine Einspannung (keine Freiheitsgrade), die Freiheitsgrade seien dabei auf den zweidimensionalen Fall bezogen. Anschließend wird der Balken bereichsweise an  Unstetigkeiten (z.B. Lager oder Krafteinleitungspunkte und ändernde Geometrien) geschnitten, um innere Kräfte am entstandenen positiven und negativen Schnittufer zu ermitteln. Dadurch lassen sich in diesen markanten Orten relevante Rand- und Übergangsbedingungen der Differentialgleichung des Biegebalkens bestimmen. Abschließend führen Integrationen und Differentiationen dieser Gleichung und deren Lösung  zur Absenkung, dem Biegewinkel, der Krümmung sowie innerem Kraft- bzw. Momentverlauf \cite{item16}\cite{item9}.
+\newpage
+
+
+\subsection{Einführung in die Netztheorie (H.G.)}
 Bevor die klassische Laminattheorie entwickelt wurde, verwendete man die sogenannte Netztheorie. 
 Bei der Netztheorie wird das Mittragen der Matrix vernachlässigt. Dadurch lassen sich die Schichtkräfte mit Hilfe eines Kräftegleichgewichts bestimmen. 
 Durch diese Vereinfachungen kann der Konstrukteur schnell feststellen, ob die Fasern alleine der Belastung standhalten können. Wenn dies nicht der Fall ist werden die Kräfte größtenteils über die Matrix übertragen und das Laminat wird als \textit{ungesund} bezeichnet. Durch die Annahme, dass die Matrix nicht tragend ist, wird das Laminat jedoch unterschätzt und weist deutlich höhere Festigkeiten auf, als in der Netztheorie angenommen. Damit wird in jedem Fall eine Sicherheit mit eingerechnet.\\
@@ -28,7 +49,7 @@ Da der gesamte Kraftfluss als Summe der Kraftflüsse in den einzelnen Fasern ang
 
 \noindent In der folgenden Berechnung wird die Netztheorie jedoch nicht verwendet, da die Auslegung vorerst mit der VDI 2013 erfolgt und anhand der Klassischen Laminattheorie.
 \newpage
-\subsection{Klassische Laminattheorie (H.G.)}\label{CLT}
+\subsection{Einführung in die Klassische Laminattheorie (H.G.)}\label{CLT}
 Das Prinzip der klassischen Laminattheorie ist die Beschreibung des Elastizitätsgesetzes eines MSV durch die Elastizitätsgesetze der einzelnen Schichten. Dies lässt sich durch die Annahme eines ideal elastischen und fehlerfrei verklebten Mehrschichtverbund (MSV), wovon ein infinitesimales Scheibenelement betrachtet wird, realisieren. Zusätzlich gilt die Annahme, dass ein ebener Spannungszustand vorliegt, die Schnittspannungen über die Dicke konstant sind und keine Verwölbungen auftreten.\\
 \noindent
 Der Kraftfluss $\hat{n}$ im ganzen Laminat lässt sich durch die Summe der Kraftflüsse in den einzelnen Schichten zusammensetzen.
@@ -157,7 +178,7 @@ Nun lässt sich die Scheiben-Platten-Beziehung als Gleichung \ref{S-P} schreiben
 
 
 \newpage
-\subsection{Mischungsregel (H.G.)}
+\subsection{Einführung in die Mischungsregel (H.G.)}
 Um die Materialkonstanten des FKV zu ermitteln kann die Mischungsregel verwendet werden. Darin werden die Materialkonstanten der Fasern und der Matrix im Verhältnis zu ihrem Massenanteil zu einer FKV-Materialkonstante zusammengestellt.\\
 \noindent
 Die Dichte des FKV lässt sich aus der Dichte der einzelnen Komponenten errechnen (siehe Glg. \ref{dichte}).
@@ -187,7 +208,7 @@ Außerdem lassen sich die Querkontraktionszahlen berechnen.
 \end{equation}
 Aus diesen Werten lassen sich alle weiteren durch die Beziehungen zwischen den Materialkonstanten berechnen.\cite{item3}
 \newpage
-\subsection{Versagenskriterium nach Puck (O.S.)}
+\subsection{Einführung in das Versagenskriterium nach Puck (O.S.)}
 Da für einen anisotropen FKV nicht das Versagen mittels einer allgemeinen resultierenden Spannung für jeden Lastfall ermittelt werden kann, müssen Versagenskriterien für die speziellen Beanspruchungsmodi definiert werden. Für die in dieser Projektarbeit durchgeführten Auslegungen wurden die Festigkeitskriterien von Puck verwendet. Hierbei werden die einzelnen UD-Schichten des Laminats getrennt betrachtet. Auch wenn diese Betrachtungen physikalisch begründet sind (vgl. \cite{EdL}), hat dies zur Folge, dass Effekte wie Delamination nicht berücksichtigt werden.
 \subsubsection{Definitionen}
 Zunächst sind einige Begriffe zu definieren. An einer UD-Schicht können zwei verschiedene Normalspannungen wirken, die sich, je nachdem, ob es sich um Druck- oder Zugbelastung handelt, unterschiedlich auf das Versagen auswirken: die Längsbeanspruchung $\sigma_{\parallel}$ parallel und die Querbeanspruchung $\sigma_{\perp}$ orthogonal zur Faserrichtung. Auch bei der Schubspannung muss zwischen der Quer-/Quer-Schubbeanspruchung $\tau_{\perp\perp}$ und der Längs-/Quer-Schubbeanspruchung $\tau_{\parallel\perp}$ unterschieden werden. Wegen des durch die Fasern bedingten stark anisotropen Aufbaus muss zwischen zwei grundlegenden Versagensarten unterschieden werden: dem Faserbruch (Fb) und dem Zwischenfaserbruch (Zfb). Der Begriff Bruch ist hier bewusst als Schadensbezeichnung gewählt, da bei beiden Fällen kein plastisches Verhalten auftritt und es sich um einen Sprödbruch ohne nennenswertes Fließen handelt.
@@ -282,7 +303,58 @@ bestimmen. $G_{\perp\parallel,\mathrm{T}}(\gamma_{\perp\parallel})$ ist der Tang
 \FloatBarrier
 \:
 \newpage
-\subsection{Bauweise (O.S.)}
+\subsection{Einführung in Stabilitäts-Überprüfungen (T.B.)}\label{Beulen}
+Neben der Festigkeit und Steifigkeit ist es bei einer Konstruktion dünnwandiger Bauteile notwendig, sie auf Versagen durch mangelnde statische Stabilität zu überprüfen. Stabilität bedeutet, dass ein System bestimmte maximale Lasten erträgt, es bei schon kleinen Erhöhungen jedoch zu drastischen Systemänderungen, wie z.B. in der Tragfähigkeit, kommen wird. Bemerkbar ist dieses auch in Veränderungen der Bauteilgeometrie \cite{item16}.\\
+
+\noindent Typische Versagensarten aufgrund zu hoher Druckbeanspruchungen bilden dabei das Knicken (eindimensionale Formänderung) und das Beulen (zweidimensionale Formänderung). Bei Letzterem haben auch Schubbeanspruchungen Einfluss darauf. Dabei entstehen wellenförmige Ausprägungen des Bauteils (in entsprechend vielen Dimensionen). Sie können mit unendlich vielen Eigenwerten beliebig viele Ausprägungen, einer Sinus-Funktion mit unterschiedlichen Frequenzen entsprechend, im Bauteil bilden. Die kritische Last wird für eine einfache Ausprägung definiert, da dieser Fall zuerst eintreten wird. Die Verformungen können auch plastisch auftreten, sodass nach Entlastung des Bauteils irreparable Schäden bleiben. Inwiefern ein Bauteil im geknickten bzw. gebeulten Zustand seine Eigenschaften beibehält, lässt sich kaum vorhersagen \cite{item16}.\\
+
+\noindent Die Beulsicherheit der Tragflügel-Bauteile erfolgt nach Hertel \cite{item1}. Dabei handelt es sich um Theorien isotroper Stoffe. Dennoch werden sie hier für FVK angewendet, da im Orthotropie-Achsensystem gleiche Verhaltensweisen wie isotroper Stoffe gelten. Die Orthotropie ist in nachfolgenden Bauteilen hinreichend durch gewählte Belastungsrichtungen und Lagenaufbauten gegeben. Diese Annahme hat sich bei bisherigen Flugzeug-Konstruktionen und deren Zulassungen bewährt \cite{item21}.\\
+
+\noindent In der Hautebene eines dünnwandigen Bauteils wird zwischen beulkritischen Spannungen unterschieden, die aus reiner Biegung, Druck und Biegung, oder reinem Schub (Indizes $b$/$d$/$s$) resultieren. Sofern Normal- und Schubspannungen gleichzeitig vorliegen, kann lediglich eine kombinierte Belastung als über- oder unterkritisch eingestuft werden. Die Spannungen und Beulausprägungen sind von folgenden Parametern abhängig \cite{item1}:
+\begin{itemize}
+	\item Seitenverhältnis $\frac{a}{b}$. Für einen Betrag gleich Null wird das Hautfeld \glqq Streifen\grqq\: genannt. 
+	\item Randbedingungen an den Rändern des Hautfelds. Ränder können frei (alle Freiheitsgrade), gestützt (rotatorischer Freiheitsgrade) und fest (keine Freiheitsgrade )gelagert werden.
+	\item relative Hautstärke $\frac{s}{b}$.
+	\item Elastizitätsmodul $E$.
+\end{itemize}
+Dabei stehen $a$ und $b$ für die lange bzw. die kurze Seite des Hautfelds und $s$ für dessen Hautstärke. Mit dem Seitenverhältnis und den Randbedingungen ergibt sich ein Beulfaktor $k$, der, je nach vorherrschender Beanspruchung, in den Abbildungen \ref{fig: Hertel_Druck}, \ref{fig: Hertel_Biegung} und \ref{fig: Hertel_Schub}  ermittelt wird. \\
+Die beulkritischen Normal- und Schubspannungen lassen sich nach
+\begin{equation}
+	\sigma_{krit}=k\cdot E\cdot\Big(\frac{s}{b}\Big)^{2}
+\end{equation}
+\begin{equation}
+	\tau_{krit}=k\cdot E\cdot\Big(\frac{s}{b}\Big)^{2}
+\end{equation}
+berechnen. Die Sicherheit gegen Beulen ergibt sich aus dem Verhältnis zur tatsächlich anliegenden Spannung $\sigma_{max}$ bzw. $\tau_{max}$. Falls beide Spannungstypen gleichzeitig anliegen sollten, kann mit der Gleichung
+\begin{equation}
+	\Big(\frac{\tau}{\tau_{krit}}\Big)^{2}+\Big(\frac{\sigma}{\sigma_{krit}}\Big)^{2}=1^{2}=j^{2}
+\end{equation}
+in Abbildung \ref{fig: Hertel_Sicherheit} herausgefunden werden, ob es sich um einen überkritischen Zustand handelt \cite{item1}.\\
+
+\noindent Generell werden Krümmungen und Versteifungen nachfolgend vernachlässigt. Allerdings sind für Sandwich-Bauteile Anpassungen durchzuführen:\\
+Die Dicke $d$ beinhaltet neben den FVK-Lagen die Schaumstoffdicke. Dadurch, dass diese Lagen nun an den Außenseiten konzentriert sind, kann das Trägheitsmoment mit einem Faktor $\kappa$ bis auf das Dreifache maximal erhöht werden. Dieser wird jedoch wieder minimiert, sofern der Lagenaufbau unsymmetrisch und somit das Dickenverhältnis ungleich eins ist. Exakte Beträge können der Abbildung \ref{fig: Hertel_Sandwich} entnommen werden. Die beulkritischen Spannungen berechnen sich somit nach \cite{item1} zu
+\begin{equation}
+	\sigma_{krit}=\kappa\cdot k\cdot E\cdot\Big(\frac{d}{b}\Big)^{2}
+\end{equation}
+\begin{equation}
+	\tau_{krit}=\kappa\cdot k\cdot E\cdot\Big(\frac{d}{b}\Big)^{2}
+\end{equation}
+\newpage
+
+\subsection{Einführung zu Verklebung (T.B.)}\label{Verklebung}
+Der Traglügel wird aus verschiedenen Bauteilen gefertigt, die miteinander verbunden werden müssen. Unterschieden werden kann beim Fügen zwischen kraftschlüssiger Verbindung (z.B. Schrauben), formschlüssiger Verbindung (z.B. Schnapphaken) und stoffschlüssiger Verbindung (z.B. Löten oder Kleben) \cite{item23}. FVK werden meistens miteinander verklebt, dabei muss kann man auf drei Varianten zurückgreifen \cite{item4}:
+\begin{itemize}
+	\item Nass-Nass-Verklebung: Zwei Laminate werden im nicht ausgehärteten Zustand, also während ihrer Fertigung, gefügt.
+	\item Trocken-Nass-Verklebung: Obwohl ein Laminat schon gehärtet ist, kann es dennoch mit einem zweiten, nicht gehärteten Laminat gefügt werden. Bei dem gehärteten Laminat muss eine geforderte Rauheit garantiert werden.
+	\item Trocken-Trocken-Verklebung: Um hierbei eine Verbindung zweier gehärteten Laminate zu schaffen, wird ein Fügestoff genutzt. Dieser wird durch das verwendete Harzsystem mit einer Beimischung von Aerosil oder Baumwollflocken zur Andickung gebildet. Beide Bauteile müssen eine Mindestrauheit in der Klebefläche aufweisen können.
+\end{itemize}
+
+\noindent In der folgenden Dimensionierungsmethode für Klebeflächen wird lediglich auf Schubspannungen in deren Flächen-Ebene eingegangen. Normale Spannungen, aber auch Schälen oder senkrechte Spannungen dazu sind somit ausgeschlossen. Außerdem soll nur mit einfachen Klebeverbindungen von aufeinander liegenden Bauteilen gerechnet werden, da ein Anschrägen bzw. Schäften an Bauteilen solch kleiner Abmessungen teilweise ausgeschlossen werden muss \cite{item23}.\\
+
+Formeln!!!
+
+\newpage
+\subsection{Einführung in Bauweisen (O.S.)}
 In der Aufgabenstellung wird gefordert, dass der Flügel in der Holm-Bauweise konstruiert wird. Ein Holm besteht aus zwei parallelen Gurten, die durch einen oder mehrere Stege miteinander verbunden werden. Dabei sind verschiedene Varianten möglich. Abbildung ~\ref{fig: Holmarten} veranschaulicht Konstruktionsmöglichkeiten. Neben der Festigkeit ist die Steifigkeit die einzige strukturmechanische Anforderung. Somit lässt sich das Problem als Biegebalken betrachten, der bei der vorgegebenen Prüflast $ F_{pruef}=100\mathrm{N} $ am freien Ende die vorgegebene Durchbiegung $ w(100\mathrm{N})=22\mathrm{mm} $ einhält. Das entstehende Biegemoment wird hauptsächlich von den Gurten getragen, weswegen man sich bei der Wahl des Steges auf andere Kriterien konzentrieren kann. Da kein maximaler Drillwinkel vorgegeben ist und die Torsionssteifigkeit fast ausschließlich von der Haut bewirkt wird, führen mehrere Stege, wie man sie bei einem geschlossenen Profil hat, nur zu unerwünschter Gewichtszunahme. Nach diesen Überlegungen wurde der I-Holm ausgewählt, da dieser bei einfacher Fertigung die gewünschten Eigenschaften mit sich bringt.
 \begin{figure}[h]
 	\includegraphics[width=1.0\textwidth]{Bilder/Holmarten.png}

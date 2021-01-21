@@ -1,40 +1,4 @@
-\subsubsection{Einführung in Stabilitäts-Überprüfungen}
-Neben der Festigkeit und Steifigkeit ist es bei einer Konstruktion dünnwandiger Bauteile notwendig, sie auf Versagen durch mangelnde statische Stabilität zu überprüfen. Stabilität bedeutet, dass ein System bestimmte maximale Lasten erträgt, es bei schon kleinen Erhöhungen jedoch zu drastischen Systemänderungen, wie z.B. in der Tragfähigkeit, kommen wird. Bemerkbar ist dieses auch in Veränderungen der Bauteilgeometrie \cite{item16}.\\
-
-\noindent Typische Versagensarten aufgrund zu hoher Druckbeanspruchungen bilden dabei das Knicken (eindimensionale Formänderung) und das Beulen (zweidimensionale Formänderung). Bei Letzterem haben auch Schubbeanspruchungen Einfluss darauf. Dabei entstehen wellenförmige Ausprägungen des Bauteils (in entsprechend vielen Dimensionen). Sie können mit unendlich vielen Eigenwerten beliebig viele Ausprägungen, einer Sinus-Funktion mit unterschiedlichen Frequenzen entsprechend, im Bauteil bilden. Die kritische Last wird für eine einfache Ausprägung definiert, da dieser Fall zuerst eintreten wird. Die Verformungen können auch plastisch auftreten, sodass nach Entlastung des Bauteils irreparable Schäden bleiben. Inwiefern ein Bauteil im geknickten bzw. gebeulten Zustand seine Eigenschaften beibehält, lässt sich kaum vorhersagen \cite{item16}.\\
-
-\noindent Die Beulsicherheit der Tragflügel-Bauteile erfolgt nach Hertel \cite{item1}. Dabei handelt es sich um Theorien isotroper Stoffe. Dennoch werden sie hier für FVK angewendet, da im Orthotropie-Achsensystem gleiche Verhaltensweisen wie isotroper Stoffe gelten. Die Orthotropie ist in nachfolgenden Bauteilen hinreichend durch gewählte Belastungsrichtungen und Lagenaufbauten gegeben. Diese Annahme hat sich bei bisherigen Flugzeug-Konstruktionen und deren Zulassungen bewährt \cite{item21}.\\
-
-\noindent In der Hautebene eines dünnwandigen Bauteils wird zwischen beulkritischen Spannungen unterschieden, die aus reiner Biegung, Druck und Biegung, oder reinem Schub (Indizes $b$/$d$/$s$) resultieren. Sofern Normal- und Schubspannungen gleichzeitig vorliegen, kann lediglich eine kombinierte Belastung als über- oder unterkritisch eingestuft werden. Die Spannungen und Beulausprägungen sind von folgenden Parametern abhängig \cite{item1}:
-\begin{itemize}
-	\item Seitenverhältnis $\frac{a}{b}$. Für einen Betrag gleich Null wird das Hautfeld \glqq Streifen\grqq\: genannt. 
-	\item Randbedingungen an den Rändern des Hautfelds. Ränder können frei (alle Freiheitsgrade), gestützt (rotatorischer Freiheitsgrade) und fest (keine Freiheitsgrade )gelagert werden.
-	\item relative Hautstärke $\frac{s}{b}$.
-	\item Elastizitätsmodul $E$.
-\end{itemize}
-Dabei stehen $a$ und $b$ für die lange bzw. die kurze Seite des Hautfelds und $s$ für dessen Hautstärke. Mit dem Seitenverhältnis und den Randbedingungen ergibt sich ein Beulfaktor $k$, der, je nach vorherrschender Beanspruchung, in den Abbildungen \ref{fig: Hertel_Druck}, \ref{fig: Hertel_Biegung} und \ref{fig: Hertel_Schub}  ermittelt wird. \\
-Die beulkritischen Normal- und Schubspannungen lassen sich nach
-\begin{equation}
-	\sigma_{krit}=k\cdot E\cdot\Big(\frac{s}{b}\Big)^{2}
-\end{equation}
-\begin{equation}
-	\tau_{krit}=k\cdot E\cdot\Big(\frac{s}{b}\Big)^{2}
-\end{equation}
-berechnen. Die Sicherheit gegen Beulen ergibt sich aus dem Verhältnis zur tatsächlich anliegenden Spannung $\sigma_{max}$ bzw. $\tau_{max}$. Falls beide Spannungstypen gleichzeitig anliegen sollten, kann mit der Gleichung
-\begin{equation}
-	\Big(\frac{\tau}{\tau_{krit}}\Big)^{2}+\Big(\frac{\sigma}{\sigma_{krit}}\Big)^{2}=1^{2}=j^{2}
-\end{equation}
-in Abbildung \ref{fig: Hertel_Sicherheit} herausgefunden werden, ob es sich um einen überkritischen Zustand handelt \cite{item1}.\\
-
-\noindent Generell werden Krümmungen und Versteifungen nachfolgend vernachlässigt. Allerdings sind für Sandwich-Bauteile Anpassungen durchzuführen:\\
-Die Dicke $d$ beinhaltet neben den FVK-Lagen die Schaumstoffdicke. Dadurch, dass diese Lagen nun an den Außenseiten konzentriert sind, kann das Trägheitsmoment mit einem Faktor $\kappa$ bis auf das Dreifache maximal erhöht werden. Dieser wird jedoch wieder minimiert, sofern der Lagenaufbau unsymmetrisch und somit das Dickenverhältnis ungleich eins ist. Exakte Beträge können der Abbildung \ref{fig: Hertel_Sandwich} entnommen werden. Die beulkritischen Spannungen berechnen sich somit nach \cite{item1} zu
-\begin{equation}
-	\sigma_{krit}=\kappa\cdot k\cdot E\cdot\Big(\frac{d}{b}\Big)^{2}
-\end{equation}
-\begin{equation}
-	\tau_{krit}=\kappa\cdot k\cdot E\cdot\Big(\frac{d}{b}\Big)^{2}
-\end{equation}
-
+Nachdem der Holm auf Steifigkeit und Festigkeit ausgelegt wurde, soll er nun fortführend auf Stabilität überprüft werden. Dabei werden sowohl die Gurte als auch der Steg betrachtet, gerechnet wird nach den Verfahren des Kapitels \ref{Beulen}.
 \subsubsection{Beulsicherheit der Gurte}
 Für die Auslegung der Holmgurte werden folgende Annahmen getroffen:
 \begin{enumerate}
