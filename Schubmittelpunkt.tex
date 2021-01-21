@@ -1,51 +1,3 @@
-
-\subsubsection{Theorie (O.S.)}
-Im Leichtbau ist es wichtig geeignete Konstruktionen zu entwerfen, um Eigenschaften der Werkstoffe ideal nutzen zu können. Das Gesamtbauteil ist dann meist so kompliziert, dass sich die für das Bauteil zu lösenden Differenzialgleichungen, wie zum Beispiel die der Elastostatik, keine geschlossenen Lösungen finden lassen. Das Ziel ist es nun durch Annahmen und Vereinfachungen ein sinnvolles und lösbares Ingenieursmodell zu finden. Alternativ könnten auch Lösungen mittels numerischer Methoden ermittelt werde, hierzu mehr in Kapitel \ref{FEM}.
-
-\paragraph{Zylindrische, dünnwandige Profile}~\\
-Häufig werden zylindrische, dünnwandige Profil genutzt, da sie bei vergleichsweiser niedriger Masse noch immer gute Werte bei zum Beispiel der Biegesteifigkeit liefern. Sie zeichnen sich dadurch aus, dass sie deutlich höhere Ausmaße in x-Richtung haben, als in jede andere (zylindrisch). Eine Laufvariable $s$ verläuft in der y-z-Ebene durch die Mitte der Profildicke $t(s)$. Die Dicke ist nicht zwangsläufig über $s$ konstant, muss aber deutlich kleiner als alle anderen Abmessungen sein (dünnwandig) \cite{item15}. Man kann vereinfacht annehmen
-\begin{equation}
-	\iint dA=\int t(s)ds.
-\end{equation} 
-Der Querschnitt muss in x-Richtung konstant sein und auch bei Belastung seine Gestalt beibehalten. Der Schubfluss im Profil ist als
-\begin{equation}\label{tau}
-	q=\tau t(s)
-\end{equation}
-und der Normalkraftfluss als
-\begin{equation}
-	n_x=\sigma_x t(s)
-\end{equation}
-definiert. Für diese Kraftflüsse gilt das hydrodynamische Analogon. Das heißt, mit einer Änderung der Dicke muss der Kraftfluss antiproportional ab- bzw. zunehmen, damit das Kräftegleichgewicht erfüllt bleibt. Für Knotenpunkte muss auch gelten, dass der Betrag der Kraftflüsse in den Knoten hinein denen aus ihm heraus gleicht. Des Weiteren lässt sich noch zwischen offenen und geschlossenen Profilen unterscheiden, wobei es sich bei zweiterem um Ein- oder Mehrzeller handeln kann \cite{item15}.
-
-\paragraph{Koordinatensysteme}~\\
-Bei den Berechnungen kann viel Arbeit gespart werden, indem das Koordinatensystem mit Ursprung und Achsenausrichtung klug gewählt wird. Das allgemeine Koordinatensystem, das unabhängig vom betrachteten Profil ist, bietet hierbei die wenigsten, wenn nicht sogar keine Vorteile. Verschiebt man seinen Ursprung in den Schwerpunkt, erhält man das Schwerpunkt-Koordinatensystem. Es wird mit einem Querstrich über den Koordinaten gekennzeichnet ($\bar{x},\bar{y},\bar{z}$). Es ist sinnvoll aus dieser Perspektive den Schubfluss zu betrachten.
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=1\textwidth]{Bilder/schubfluss-infinit}
-	\caption{Infinitesimales Profilelement aus \cite{item15}}
-	\label{schubfluss-infinit}
-\end{figure}
-Aus dem Kräftegleichgewicht in $x$- und $s$-Richtung an einem infinitesimalen Volumen des dünnwandigen Profils ergibt sich der Zusammenhang zwischen den Kraftflüssen zu
-\begin{equation}
-	\frac{\partial n_x}{\partial x} + \frac{\partial q}{\partial s} = 0
-\end{equation}
-\begin{equation}\label{n_s}
-\frac{\partial n_s}{\partial s} + \frac{\partial q}{\partial x} = 0
-\end{equation}
-Da jedoch eine Krümmung in $s$-Richtung vorliegen kann, zeigt die Resultierende des Normalkraftflusses $n_s$ aus der Ebene heraus. Da bei dünnen Scheibenelementen ein ebener Spannungszustand herrscht, darf dies nicht sein. Daraus folgt, dass beide Terme in Gleichung \ref{n_s} gleich null sein müssen. Der Schubfluss ist also in $x$-Richtung konstant und lässt sich somit zu
-\begin{equation}
-	q(s)=-\int\frac{\partial n_x(x,s)}{\partial x}ds+q_0.
-\end{equation}
-integrieren. Wird nun der Normalkraftfluss in Abhängigkeit von der Querkraft $Q$ gesetzt, ergibt sich die $Q$-$SI$nen-Formel nach \cite{item15}:
-\begin{equation}\label{qs}
-	q(s)=-(Q_{\bar{z}}\frac{S_{\bar{y}}(s)I_{\bar{z}}-S_{\bar{z}}(s)I_{\bar{yz}}}{I_{\bar{y}}I_{\bar{z}}-I_{\bar{yz}}^2}+Q_{\bar{y}}\frac{S_{\bar{z}}(s)I_{\bar{y}}-S_{\bar{y}}(s)I_{\bar{yz}}}{I_{\bar{z}}I_{\bar{y}}-I_{\bar{yz}}^2})+q_0
-\end{equation}
-mit den Flächenträgheitsmomenten $I$ (siehe Gleichungen \ref{FT1}-\ref{FT3}). Spätestens hier zeigt sich, dass für dieses Modell das Superpositionsprinzip anwendbar ist und man die Kräfte $Q_y$ und $Q_z$ getrennt betrachten kann.
-Hier lässt sich direkt erkennen, wie diese Formel durch die Wahl eines besseren Koordinatensystems vereinfacht werden kann. Für das Hauptachsen-Koordinatensystem bleibt der Schwerpunkt weiterhin der Ursprung, jedoch werden die Achsen so um die x-Achse gedreht, dass die Deviationsmomente $I_{yz}$ verschwinden. Es wird mit einem Dach über den Koordinaten gekennzeichnet ($\hat{x},\hat{y},\hat{z}$). Die Integrationskonstante
-\begin{equation}
-	q_{0} = q_{0b}+q_{0T}
-\end{equation}
-ist nur bei geschlossenen Profilen ungleich null. Sie sich aus einem Teil, der aus der Biegung entsteht, $q_{0b}$, und einem aus der Torsion, $q_{0T}$, zusammen. Es gibt einen Punkt in der y-z-Ebene für jedes Profil, wo eine angreifende Kraft keine Torsion verursacht. Dieser Punkt ist von hoher Bedeutung und wird Schubmittelpunkt genannt.
 \subsubsection{Idealisierung(H.G.)}
 Für die Berechnung des Schubmittelpunkts wird das Flügelprofil als vereinfachter Mehrzeller angenommen.
 Dabei wird der Ursprung des Koordinatensystems am unteren rechten Rand gesetzt. Das Modell wird in 10 Teilstrecken $s_{i}$ aufgeteilt. Die Dicke $t$ wird über die Schale konstant angenommen. Der Schaum wird in allen Abschnitten der Schale und im Holm vernachlässigt, da seine Hauptaufgabe der Beulsteifigkeit gilt und er bei der Schubaufnahme im Vergleich zum Laminat nur eine unbedeutende Rolle spielt. Der Steg ist in 2 Abschnitte unterteilt. Für die maximale Belastung und somit für die Auslegung relevant ist nur der Teil mit dem dünneren Gewebe, sodass hier für die Dicke des Stegs $t_{1}=0,314\mathrm{mm}$ angenommen wird. Für die Gurte gilt, dass alle Fasern parallel in x-Richtung ausgerichtet sind. Sie werden in dieser Rechnung ignoriert, da sie folglich im Gegensatz zum $\pm45^\circ$-Gewebe vernachlässigbare Schubkräfte aufnehmen können (D = $t$). Außerdem würde ein über die Dicke variabler Schubmodul die Rechnung unnötig verkomplizieren, da die uns bekannten Methoden zur Schubflussberechnung nur für homogene Werkstoffe gültig sind \cite{item15}.
@@ -129,17 +81,7 @@ Bauteilabschnitt&$S_{\bar{y}}/\mathrm{mm}^3$&$S_{\bar{z}}/\mathrm{mm}^3$\\
 \end{center}
 Für ein offenes Profil muss gelten, dass an den freien Rändern der Schubfluss $ 0 $ ist, was automatisch dadurch erfüllt ist, dass beide statischen Momente ungefähr null sind. Das Profil wird in diesem Fall an den Stellen 1 und 3 geschnitten.
 
-\noindent Nun werden die Flächenträgheitsmomente 
-\begin{equation}\label{FT1}
-	I_{y} = \int_{A}^{}z^2dA
-\end{equation}
-\begin{equation}
-I_{z} = \int_{A}^{}y^2dA
-\end{equation}
-\begin{equation}\label{FT3}
-I_{yz} = \int_{A}^{}zydA
-\end{equation}
- zuerst aus ihrem eigenen Schwerpunkt errechnet, sodass die auf den Gesamtschwerpunkt bezogenen Flächenträgheitsmomente $I_{\bar{y}}$, $I_{\bar{z}}$ und $I_{\bar{y}\bar{z}}$ mit Hilfe des Steinerschen Satzes
+\noindent Nun werden die Flächenträgheitsmomente nach Gleichungen \ref{FT1}-\ref{FT3} zuerst aus ihrem eigenen Schwerpunkt errechnet, sodass die auf den Gesamtschwerpunkt bezogenen Flächenträgheitsmomente $I_{\bar{y}}$, $I_{\bar{z}}$ und $I_{\bar{y}\bar{z}}$ mit Hilfe des Steinerschen Satzes
  \begin{equation}
  	I_{\bar{y}} = I_{y} + z^2A
  \end{equation}

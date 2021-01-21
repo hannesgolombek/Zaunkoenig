@@ -1,4 +1,4 @@
-\subsection{Einführung  zu Glasfasern (H.G.)}
+\subsection{Einführung zu Glasfasern (H.G.)}
 \label{Glasfaser}
 Glasfasern gelten als älteste synthetische Faserart und wurden schon vor 3500 Jahren verwendet. Heutzutage werden Glasfasern überwiegend aus SiO2 und Metalloxiden hergestellt. Die Bestandteile werden bei ca. 1400°C aufgeschmolzen und durch kleine Düsen im Boden des Kessels als dünne Fäden ausgelassen. Die Fäden werden aufgewickelt und zu größeren Fasern versponnen\cite{item3}.
 Die hohe Festigkeit der Glasfaser beruht auf den kovalenten Bindungen von Silizium- und Sauerstoff-Atomen. Zugesetzte Metalloxide verhindern eine Ausbildung eines geordneten Gefüges und erhöhen somit zusätzlich die Festigkeit. Die Fasern können in Längsrichtung sehr hohe Kräfte aufnehmen, jedoch nicht in Querrichtung. Deshalb werden sie in eine Matrix integriert, die die Querkräfte aufnimmt und die Faser vor dem Knicken schützt. Glasfasern lassen sich auch um enge Radien sehr gut drapieren und sind durch ihre einfache Herstellungsweise im Vergleich zu anderen Faserarten sehr preiswert \cite{item4}.
@@ -341,6 +341,65 @@ Die Dicke $d$ beinhaltet neben den FVK-Lagen die Schaumstoffdicke. Dadurch, dass
 \end{equation}
 \newpage
 
+\subsection{Einführung in den Kraftfluss dünnwandiger Profile (O.S.)}
+Im Leichtbau ist es wichtig geeignete Konstruktionen zu entwerfen, um Eigenschaften der Werkstoffe ideal nutzen zu können. Das Gesamtbauteil ist dann meist so kompliziert, dass sich die für das Bauteil zu lösenden Differenzialgleichungen, wie zum Beispiel die der Elastostatik, keine geschlossenen Lösungen finden lassen. Das Ziel ist es nun durch Annahmen und Vereinfachungen ein sinnvolles und lösbares Ingenieursmodell zu finden. Alternativ könnten auch Lösungen mittels numerischer Methoden ermittelt werde, hierzu mehr in Kapitel \ref{FEM}.
+
+\paragraph{Zylindrische, dünnwandige Profile}~\\
+Häufig werden zylindrische, dünnwandige Profil genutzt, da sie bei vergleichsweiser niedriger Masse noch immer gute Werte bei zum Beispiel der Biegesteifigkeit liefern. Sie zeichnen sich dadurch aus, dass sie deutlich höhere Ausmaße in x-Richtung haben, als in jede andere (zylindrisch). Eine Laufvariable $s$ verläuft in der y-z-Ebene durch die Mitte der Profildicke $t(s)$. Die Dicke ist nicht zwangsläufig über $s$ konstant, muss aber deutlich kleiner als alle anderen Abmessungen sein (dünnwandig) \cite{item15}. Man kann vereinfacht annehmen
+\begin{equation}
+	\iint dA=\int t(s)ds.
+\end{equation} 
+Der Querschnitt muss in x-Richtung konstant sein und auch bei Belastung seine Gestalt beibehalten. Der Schubfluss im Profil ist als
+\begin{equation}\label{tau}
+	q=\tau t(s)
+\end{equation}
+und der Normalkraftfluss als
+\begin{equation}
+	n_x=\sigma_x t(s)
+\end{equation}
+definiert. Für diese Kraftflüsse gilt das hydrodynamische Analogon. Das heißt, mit einer Änderung der Dicke muss der Kraftfluss antiproportional ab- bzw. zunehmen, damit das Kräftegleichgewicht erfüllt bleibt. Für Knotenpunkte muss auch gelten, dass der Betrag der Kraftflüsse in den Knoten hinein denen aus ihm heraus gleicht. Des Weiteren lässt sich noch zwischen offenen und geschlossenen Profilen unterscheiden, wobei es sich bei zweiterem um Ein- oder Mehrzeller handeln kann \cite{item15}.
+
+\paragraph{Koordinatensysteme}~\\
+Bei den Berechnungen kann viel Arbeit gespart werden, indem das Koordinatensystem mit Ursprung und Achsenausrichtung klug gewählt wird. Das allgemeine Koordinatensystem, das unabhängig vom betrachteten Profil ist, bietet hierbei die wenigsten, wenn nicht sogar keine Vorteile. Verschiebt man seinen Ursprung in den Schwerpunkt, erhält man das Schwerpunkt-Koordinatensystem. Es wird mit einem Querstrich über den Koordinaten gekennzeichnet ($\bar{x},\bar{y},\bar{z}$). Es ist sinnvoll aus dieser Perspektive den Schubfluss zu betrachten.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{Bilder/schubfluss-infinit}
+	\caption{Infinitesimales Profilelement aus \cite{item15}}
+	\label{schubfluss-infinit}
+\end{figure}
+Aus dem Kräftegleichgewicht in $x$- und $s$-Richtung an einem infinitesimalen Volumen des dünnwandigen Profils ergibt sich der Zusammenhang zwischen den Kraftflüssen zu
+\begin{equation}
+	\frac{\partial n_x}{\partial x} + \frac{\partial q}{\partial s} = 0
+\end{equation}
+\begin{equation}\label{n_s}
+	\frac{\partial n_s}{\partial s} + \frac{\partial q}{\partial x} = 0
+\end{equation}
+Da jedoch eine Krümmung in $s$-Richtung vorliegen kann, zeigt die Resultierende des Normalkraftflusses $n_s$ aus der Ebene heraus. Da bei dünnen Scheibenelementen ein ebener Spannungszustand herrscht, darf dies nicht sein. Daraus folgt, dass beide Terme in Gleichung \ref{n_s} gleich null sein müssen. Der Schubfluss ist also in $x$-Richtung konstant und lässt sich somit zu
+\begin{equation}
+	q(s)=-\int\frac{\partial n_x(x,s)}{\partial x}ds+q_0.
+\end{equation}
+integrieren. Wird nun der Normalkraftfluss in Abhängigkeit von der Querkraft $Q$ gesetzt, ergibt sich die $Q$-$SI$nen-Formel nach \cite{item15}:
+\begin{equation}\label{qs}
+	q(s)=-(Q_{\bar{z}}\frac{S_{\bar{y}}(s)I_{\bar{z}}-S_{\bar{z}}(s)I_{\bar{yz}}}{I_{\bar{y}}I_{\bar{z}}-I_{\bar{yz}}^2}+Q_{\bar{y}}\frac{S_{\bar{z}}(s)I_{\bar{y}}-S_{\bar{y}}(s)I_{\bar{yz}}}{I_{\bar{z}}I_{\bar{y}}-I_{\bar{yz}}^2})+q_0
+\end{equation}
+mit den Flächenträgheitsmomenten
+\begin{equation}\label{FT1}
+	I_{y} = \int_{A}^{}z^2dA ~\ ,
+\end{equation}
+\begin{equation}
+	I_{z} = \int_{A}^{}y^2dA
+\end{equation}
+und
+\begin{equation}\label{FT3}
+	I_{yz} = \int_{A}^{}zydA  ~\ .
+\end{equation} 
+Spätestens hier zeigt sich, dass für dieses Modell das Superpositionsprinzip anwendbar ist und man die Kräfte $Q_y$ und $Q_z$ getrennt betrachten kann.
+Hier lässt sich direkt erkennen, wie diese Formel durch die Wahl eines besseren Koordinatensystems vereinfacht werden kann. Für das Hauptachsen-Koordinatensystem bleibt der Schwerpunkt weiterhin der Ursprung, jedoch werden die Achsen so um die x-Achse gedreht, dass die Deviationsmomente $I_{yz}$ verschwinden. Es wird mit einem Dach über den Koordinaten gekennzeichnet ($\hat{x},\hat{y},\hat{z}$). Die Integrationskonstante
+\begin{equation}
+	q_{0} = q_{0b}+q_{0T}
+\end{equation}
+ist nur bei geschlossenen Profilen ungleich null. Sie sich aus einem Teil, der aus der Biegung entsteht, $q_{0b}$, und einem aus der Torsion, $q_{0T}$, zusammen. Es gibt einen Punkt in der y-z-Ebene für jedes Profil, wo eine angreifende Kraft keine Torsion verursacht. Dieser Punkt ist von hoher Bedeutung und wird Schubmittelpunkt genannt.
+\newpage
 \subsection{Einführung zu Verklebung (T.B.)}\label{Verklebung}
 Der Traglügel wird aus verschiedenen Bauteilen gefertigt, die miteinander verbunden werden müssen. Unterschieden werden kann beim Fügen zwischen kraftschlüssiger Verbindung (z.B. Schrauben), formschlüssiger Verbindung (z.B. Schnapphaken) und stoffschlüssiger Verbindung (z.B. Löten oder Kleben) \cite{item23}. FVK werden meistens miteinander verklebt, dabei muss kann man auf drei Varianten zurückgreifen \cite{item4}:
 \begin{itemize}
