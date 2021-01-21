@@ -47,7 +47,7 @@ Das Koordinatensystem des Flügels entspricht einem allgemeinen Flugzeug-Koordin
 \end{equation}
 \begin{figure}
 	\includegraphics[width=1.0\textwidth]{Bilder/Balkenmodell2.jpg}
-	\caption{Modellierung des Holms als Balken}
+	\caption{Modellierung des Holms}
 	\label{fig:Holmmodellierung}
 \end{figure}
 
@@ -167,7 +167,7 @@ Zusätzlich wird angenommen, dass $q_{I}(y)=q_{II}(y)=q_{III}(y)=0$ gilt, da kei
 Die Herleitung der Lösung kann im Kapitel \ref{Lösung} nachvollzogen werden.\\
 
 \noindent Um nun für die später geforderte Biegesteifigkeit $EI_{x}$ ein Ergebnis zu erhalten, wird die Gleichung $w(y,F_{pruef},F_{Q}, EI_{x})$ nach $EI_{x}(y,F_{pruef},F_{Q},w)$ umgestellt. Die eingesetzten Werte ergeben sich aus der Auslegung auf Steifigkeit. Über die Wurzelrippe werden Kräfte des Holms in die Querkraftbolzen abgesetzt. Aufgrund der biegeweichen Wurzelrippe als Verbindungselement zwischen Holm und den Querkraftbolzen darf die Absenkung des Holms dort nicht mit null angenommen werden. Vereinfacht wird definiert, dass die eingeleitete Prüfkraft $F_{pruef}$ an den Querkraftbolzen um ihren Betrag abgesetzt wird, wie es tatsächlich an einem Flugzeugrumpf geschehen würde. Dieses entspricht sehr wahrscheinlich jedoch nicht der tatsächlichen Kraftaufnahme im Versuchsaufbau.
-\begin{equation}
+\begin{equation}\label{EIx}
 	\begin{array}{l}
 		EI_{x}(0.886m, 100N, -100N, 0.02m)= \\
 		\frac{1}{w}\cdot\biggl(-\frac{F_{pruef}}{6}\cdot y^{3} + \frac{ F_{pruef}\cdot (l_{1}+l_{2}+l_{3})}{2}\cdot y^{2} + \Bigl(F_{pruef}\cdot(-\frac{1}{2}\cdot l_{1}^{2} -\frac{2}{3}\cdot l_{1}\cdot l_{2}-\frac{2}{3}\cdot l_{1}\cdot l_{3}) \\ +F_{Q}\cdot(\frac{1}{2}\cdot l_{2}^{2}+\frac{1}{2}\cdot l_{1}\cdot l_{2})\Bigr)\cdot y + F_{pruef}\cdot\frac{1}{6}\cdot(l_{1}^{3}+l_{1}^{2}\cdot l_{2}+l_{1}^{2}\cdot l_{3}) + F_{Q}\cdot(-\frac{1}{6}\cdot l_{2}^{3}-\frac{1}{3}\cdot l_{1}^{2}\cdot l_{2}-\frac{1}{2}\cdot l_{2}^{2}\cdot l_{1})\biggr)\\
@@ -180,14 +180,14 @@ In Abb. ~\ref{fig:Steifigkeitsauslegung} werden die Querkraftverläufe $Q(y,F_{p
 
 \begin{figure}
 	\includegraphics[width=1.0\textwidth]{Bilder/Grafiken Steifigkeit.png}
-	\caption{Kraft-, Moment- und Absenkungsverlauf der Steifigkeitsauslegung des Holms}
+	\caption{Verläufe der Steifigkeitsauslegung des Holms}
 	\label{fig:Steifigkeitsauslegung}
 \end{figure}
 
 \noindent Jedoch werden nicht bei dem Nachweis der Steifigkeit, sondern bei dem Nachweis der Festigkeit das maximale Schnittmoment und die maximale Schnittkraft erreicht. Bei diesem Nachweis beträgt die Prüfkraft $F_{pruef} = 500N$ und somit auch $|F_{Q}| = 500N$. Diese Kraft wird bei der Berechnung von $EI_{x}$ nicht beachtet, da bei dem Nachweis der Festigkeit die Absenkung $w$ kein Rolle spielt. In Abb. ~\ref{fig:Festigkeitsauslegung} werden die genannten Verläufe nun für den Festigkeitsnachweis dargestellt.
 \begin{figure}
 	\includegraphics[width=1.0\textwidth]{Bilder/Grafiken Festigkeit.png}
-	\caption{Kraft-, Moment- und Absenkungsverlauf der Festigkeitsauslegung des Holms}
+	\caption{Verläufe der Festigkeitsauslegung des Holms}
 	\label{fig:Festigkeitsauslegung}
 \end{figure}
 
