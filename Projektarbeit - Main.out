@@ -75,19 +75,20 @@
 \BOOKMARK [3][-]{subsubsection.7.2.4}{Masse der Holzkl\366tze und Rippen}{subsection.7.2}% 75
 \BOOKMARK [3][-]{subsubsection.7.2.5}{Absch\344tzung der Verklebungen und der Gesamtmasse}{subsection.7.2}% 76
 \BOOKMARK [2][-]{subsection.7.3}{Bauanleitung f\374r die Fertigung \(T.B.\)}{section.7}% 77
-\BOOKMARK [1][-]{section.8}{Zusammenfassung}{}% 78
-\BOOKMARK [2][-]{subsection.8.1}{Die Berechnungen im \334berblick \(H.K.\)}{section.8}% 79
-\BOOKMARK [2][-]{subsection.8.2}{Die Konstruktion und FEM-Analyse im \334berblick \(H.K.\)}{section.8}% 80
-\BOOKMARK [2][-]{subsection.8.3}{Gewichtsnormalisiertes Festigkeitskriterium \(O.S.\)}{section.8}% 81
-\BOOKMARK [2][-]{subsection.8.4}{Diskussion der Ergebnisse}{section.8}% 82
-\BOOKMARK [2][-]{subsection.8.5}{Ausblick auf Optimierungen der Berechnungen \(H.G.\)}{section.8}% 83
-\BOOKMARK [1][-]{section.9}{Quellenverzeichnis}{}% 84
-\BOOKMARK [1][-]{section.10}{Abbildungsverzeichnis}{}% 85
-\BOOKMARK [1][-]{section.11}{Anhang}{}% 86
-\BOOKMARK [2][-]{subsection.11.1}{Berechnung: Analytische L\366sung der Modellierung \(T.B.\)}{section.11}% 87
-\BOOKMARK [2][-]{subsection.11.2}{Berechnung: Schubfluss und Schubmittelpunkt \(O.S.\)}{section.11}% 88
-\BOOKMARK [2][-]{subsection.11.3}{Abbildungen: eLamX2}{section.11}% 89
-\BOOKMARK [2][-]{subsection.11.4}{Abbildungen: Beulberechnung}{section.11}% 90
-\BOOKMARK [2][-]{subsection.11.5}{Abbildungen Schubfluss}{section.11}% 91
-\BOOKMARK [2][-]{subsection.11.6}{Abbildungen: Numerische Berechnung}{section.11}% 92
-\BOOKMARK [2][-]{subsection.11.7}{Abbildungen: Konstruktion und Fertigung}{section.11}% 93
+\BOOKMARK [1][-]{section.8}{Begutachtung der erarbeiteten Ergebnisse}{}% 78
+\BOOKMARK [2][-]{subsection.8.1}{Gewichtsnormalisiertes Festigkeitskriterium \(O.S.\)}{section.8}% 79
+\BOOKMARK [2][-]{subsection.8.2}{Diskussion der Ergebnisse \(H.G.\)}{section.8}% 80
+\BOOKMARK [2][-]{subsection.8.3}{Ausblick auf Optimierungen der Berechnungen \(H.G.\)}{section.8}% 81
+\BOOKMARK [1][-]{section.9}{Zusammenfassung}{}% 82
+\BOOKMARK [2][-]{subsection.9.1}{Die Berechnungen im \334berblick \(H.K.\)}{section.9}% 83
+\BOOKMARK [2][-]{subsection.9.2}{Die Konstruktion und FEM-Analyse im \334berblick \(H.K.\)}{section.9}% 84
+\BOOKMARK [1][-]{section.10}{Quellenverzeichnis}{}% 85
+\BOOKMARK [1][-]{section.11}{Abbildungsverzeichnis}{}% 86
+\BOOKMARK [1][-]{section.12}{Anhang}{}% 87
+\BOOKMARK [2][-]{subsection.12.1}{Berechnung: Analytische L\366sung der Modellierung \(T.B.\)}{section.12}% 88
+\BOOKMARK [2][-]{subsection.12.2}{Berechnung: Schubfluss und Schubmittelpunkt \(O.S.\)}{section.12}% 89
+\BOOKMARK [2][-]{subsection.12.3}{Abbildungen: eLamX2}{section.12}% 90
+\BOOKMARK [2][-]{subsection.12.4}{Abbildungen: Beulberechnung}{section.12}% 91
+\BOOKMARK [2][-]{subsection.12.5}{Abbildungen Schubfluss}{section.12}% 92
+\BOOKMARK [2][-]{subsection.12.6}{Abbildungen: Numerische Berechnung}{section.12}% 93
+\BOOKMARK [2][-]{subsection.12.7}{Abbildungen: Konstruktion und Fertigung}{section.12}% 94
