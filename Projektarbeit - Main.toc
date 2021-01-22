@@ -27,7 +27,7 @@
 \contentsline {subsection}{\numberline {3.10}Einführung in die Finite Elemente Methode (O.S.)}{28}{subsection.3.10}%
 \contentsline {subsubsection}{\numberline {3.10.1}Schwache Lösung der Elastostatik}{28}{subsubsection.3.10.1}%
 \contentsline {subsubsection}{\numberline {3.10.2}Diskretisierung}{28}{subsubsection.3.10.2}%
-\contentsline {subsection}{\numberline {3.11}Einführung zu Verklebung (T.B.)}{30}{subsection.3.11}%
+\contentsline {subsection}{\numberline {3.11}Einführung zu Verklebungen (T.B.)}{30}{subsection.3.11}%
 \contentsline {subsection}{\numberline {3.12}Einführung in Bauweisen (O.S.)}{31}{subsection.3.12}%
 \contentsline {section}{\numberline {4}Auslegung des Holms nach Handbuchmethoden}{32}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Modellierung des Holms (T.B.)}{32}{subsection.4.1}%
@@ -46,9 +46,9 @@
 \contentsline {subsection}{\numberline {4.4}Beulabschätzung des Holms (T.B.)}{56}{subsection.4.4}%
 \contentsline {subsubsection}{\numberline {4.4.1}Beulsicherheit der Gurte}{56}{subsubsection.4.4.1}%
 \contentsline {subsubsection}{\numberline {4.4.2}Beulsicherheit des Steges}{57}{subsubsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.5}Auslegung der Klebeverbindung (T.B.)}{61}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.5}Dimensionierung der Klebeverbindungen (T.B.)}{61}{subsection.4.5}%
 \contentsline {subsubsection}{\numberline {4.5.1}Klebeverbindung Steg - Gurt}{61}{subsubsection.4.5.1}%
-\contentsline {subsubsection}{\numberline {4.5.2}Klebeverbindung Holm - Rippen}{61}{subsubsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.2}Klebeverbindung Holm - Rippen}{62}{subsubsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.6}Bolzenauslegung (H.G.)}{63}{subsection.4.6}%
 \contentsline {subsubsection}{\numberline {4.6.1}Bolzenberechnung}{63}{subsubsection.4.6.1}%
 \contentsline {section}{\numberline {5}Auslegung der Flügelschale nach Handbuchmethoden}{65}{section.5}%
@@ -95,6 +95,6 @@
 \contentsline {subsection}{\numberline {12.2}Berechnung: Schubfluss und Schubmittelpunkt (O.S.)}{112}{subsection.12.2}%
 \contentsline {subsection}{\numberline {12.3}Abbildungen: $eLamX^{2}$}{121}{subsection.12.3}%
 \contentsline {subsection}{\numberline {12.4}Abbildungen: Beulberechnung}{130}{subsection.12.4}%
-\contentsline {subsection}{\numberline {12.5}Abbildungen Schubfluss}{134}{subsection.12.5}%
+\contentsline {subsection}{\numberline {12.5}Abbildungen: Schubfluss}{134}{subsection.12.5}%
 \contentsline {subsection}{\numberline {12.6}Abbildungen: Numerische Berechnung}{140}{subsection.12.6}%
 \contentsline {subsection}{\numberline {12.7}Abbildungen: Konstruktion und Fertigung}{142}{subsection.12.7}%
