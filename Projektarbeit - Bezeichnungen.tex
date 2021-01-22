@@ -8,40 +8,51 @@ $ A $&Festlager\\
 &in Bezug auf Wirkebene (hoch gestellt)\\
 &Fläche\\
 &Scheibensteifigkeit\\
+&Abtriebskraft\\
 $ B $&Loslager\\
 $ C $&Krafteinleitung der Querkraftbolzen\\
-$ E $&Elastizitätsmodul (allgemein)\\
-$ F $&Kraft (allgemein)\\
-$ G $&Schubmodul (allgemein)\\
-$ I $&Flächenträgheitsmoment (allgemein)\\
+$ E $&Elastizitätsmodul \\
+$ F $&Kraft \\
+$ G $&Schubmodul\\
+$ I $&Flächenträgheitsmoment \\
 $ K $&Dimensionierungskennwert nach \cite{item5},\\
  &Elementsteifigkeitsmatrix (zweifach unterstrichen)\\
-$ Q $&Querkraft (allgemein)\\
+ $M$&Moment\\
+$N$& Normalkraft\\
+$ Q $&Querkraft\\
 &Steifigkeit Einzelschicht\\
-$ R $&Integrationskonstante (allgemein)\\
+$ R $&Integrationskonstante \\
 &Festigkeit\\
 $ P $&Gewichtsnormalisierte Festigkeit\\
 $ S $&Statisches Moment\\
 $ T $&Bei Torsion\\
+&Transformationsmatrix\\
 & \\
 $ a $&Lange Seite des Streifens nach \cite{item1}\\
 $ b $&Kurze Seite des Streifens nach \cite{item1}\\
 &Biegung\\
 $ d$& Druck\\
 $ f $&Anstrengung (mit E als Index)\\
-$ h $&Höhenabmessung des Holmes (allgemein)\\
+&Faser\\
+$ h $&Höhenabmessung des Holmes \\
 $ j $&Sicherheitsfaktor\\
-$ l $&Längenabmessung des Holmes (allgemein)\\
+$k$&Beuklfaktor nach \cite{item1}\\
+$ l $&Längenabmessung des Holmes a\\
 $ n $&Lagenanzahl\\
 &Normalkraftfluss\\
+$m$&Matrix\\
 $ p $&Steigungs-/Neigungsparameter\\
 $ q $&Schubfluss\\
 $ \bar{q} $&Flächengewicht nach \cite{item5}\\
 $ s $&Dicke des Streifens nach \cite{item1}\\
+&Schub\\
 &Laufvariable in der y-z-Ebene\\
-& Schub\\
+&Halbspannweite\\
 $ t $&Dicke des Verbunds nach \cite{item3}\\
+$u$&Verschiebung in x-Richtung\\
+$v$&Verschiebung in y-Richtung\\
 $ w $&Absenkung des Balkens unter Prüfkraft\\
+&Verschiebung in z-Richtung (allgemein)\\
 $ x $&x-Koordinate in Flugzeuglängsrichtung\\
 $ y $&y-Koordinate in Spannweitenrichtung, positiv Richtung von Rumpf zur Endrippe\\
 $ z $&z-Koordinate der Rechtssystems\\
@@ -53,17 +64,18 @@ $ z $&z-Koordinate der Rechtssystems\\
 \onehalfspacing
 $\alpha$&Drehwinkel Fasern\\
 $\beta$&Drehwinkel Fasern\\
-$ \epsilon $&Dehnung (allgemein)\\
+$ \epsilon $&Dehnung \\
 $ \eta $&Schwächungsfaktor\\
+$\gamma$&Schubverzerrung\\
 $ \vartheta $&Verwindung\\
 $ \theta $ &Winkel der Bruchebene\\
 $ \varphi $&Faservolumengehalt\\
 &Winkel zwischen Hauptachsen- und Schwerpunkt-Koordinatensystem\\
 $ \phi $&Orientierungsabweichung, Drillwinkel\\
 $ \kappa $&Steifigkeitserhöhung des Sandwich nach \cite{item1}\\
-$ \rho $&Dichte (allgemein)\\
-$ \sigma $&Zug-/Druckspannung (allgemein)\\
-$ \tau $&Schubspannung (allgemein)\\
+$ \rho $&Dichte\\
+$ \sigma $&Zug-/Druckspannung\\
+$ \tau $&Schubspannung \\
 \end{longtable}
 \begin{longtable}[l]{l}
 \onehalfspacing
@@ -71,6 +83,10 @@ $ \tau $&Schubspannung (allgemein)\\
 \end{longtable}
 \begin{longtable}[l]{ll}
 \onehalfspacing
+$0$&Länge von Holmstummelende zu A\\
+$1$&Länge von A zu B\\
+$2$&Länge von B zu C\\
+$3$&Länge von C zu Flügelende\\
 $ 11 $&Faserhauptrichtung\\
 $ 22 $&Fasernebenrichtung\\
 $ 12 $& Richtung \glqq Wirkung (1) - Ursache (2)\grqq\\
@@ -82,11 +98,15 @@ $ + $&Bei Zugbeanspruchung\\
 $ - $&Bei Druckbeanspruchung\\
 $ \bar{()} $&Bei Schwerpunkt-Koordinaten\\
 $ \hat{()} $&Bei Hauptachsen-Koordinaten\\
+$()^{'}$&Differentiation\\
+$\underline{\underline{()}}$&Matrix\\
+$()^{T}$&Transponiert\\
 $ I $ &Holmbereich zwischen A und B\\
 $ II $ &Holmbereich zwischen B und C\\
 $ III $ &Holmbereich zwischen C und Flügelspitze\\
 $ f $&Faser\\
 $ m $&Matrix\\
+$krit$&kritisch\\
 $ max$& maximal\\
 $ min$& mindestens\\
 $ pruef$& Prüfkraft\\
