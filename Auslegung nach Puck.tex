@@ -15,12 +15,12 @@ Nachdem im Kapitel \ref{CLT} eine Einführung in die klassische Laminattheorie g
 	$G_{f,\parallel\perp}$ & $30800MPa$ &  & - \\
 	\hline
 	$\nu_{f,\perp\parallel}$ & $0,2$  &$\nu_{m}$ &  $0,35$\\
-\end{tabular}
+\end{tabular}\\
 
 \noindent Da es sich dabei nur um rein isotrope Materialien handelt, gelten $\nu_{f,\perp\parallel} = \nu_{f,\parallel\perp}$ und $G_{f,\parallel\perp} = G_{f,\perp\parallel}$ \cite{item15}. Der Schubmodul der Matrix berechnet sich zu
 \begin{equation}
  	G_{m}=\frac{E_{m}}{2\cdot (1+\nu_{m})}=1222MPa
-\end{equation}.\\
+\end{equation}.
 
 \noindent Nun werden anhand der Mischungsregel, jedoch ohne eine Beachtung von Querkontraktionsbehinderungen der Matrix durch die Fasern, Kennwerte einer einzelnen Lage Interglas 92145 bestimmt \cite{item3}:
 
@@ -38,12 +38,13 @@ Nachdem im Kapitel \ref{CLT} eine Einführung in die klassische Laminattheorie g
 \end{equation}
 \begin{equation}
 	\nu_{\parallel\perp}=\nu_{\perp\parallel}\cdot\frac{E_{\parallel}}{E_{\perp}}=0,049
-\end{equation}\\
+\end{equation}
 
 \noindent Mit diesen Moduln und Querkontraktionszahlen wird im weiteren die Steifigkeitsmatrix des gesamten Laminats, transformiert in Koordinatensystem-Hauptrichtungen $x$ und $y$, bestimmt. Begonnen wird mit der Steifigkeitsmatrix einer einzelnen Gewebelage, bezogen wird sich auf dessen Faserrichtung. Damit kann  
 \begin{equation}
 	\underline{\sigma}=\underline{\underline{Q}} \cdot \underline{\epsilon}
-\end{equation}\\aufgestellt werden. Bei der Steifigkeitsmatrix $\underline{\underline{Q}}$ handelt es sich um Scheiben-Steifigkeiten \cite{item3}.
+\end{equation}
+aufgestellt werden. Bei der Steifigkeitsmatrix $\underline{\underline{Q}}$ handelt es sich um Scheiben-Steifigkeiten \cite{item3}.
 
 \begin{equation}
 \underline{\underline{Q}}=
@@ -75,7 +76,7 @@ Nachdem im Kapitel \ref{CLT} eine Einführung in die klassische Laminattheorie g
 \noindent Somit lauten die neuen Steifigkeitsmatrizen nach 
 \begin{equation}
 	\overline{\underline{\underline{Q}}}=\underline{\underline{T}}\cdot \underline{\underline{Q}} \cdot \underline{\underline{T}}^{T}  
-\end{equation}\\
+\end{equation}
 
 \begin{equation}
 \underline{\underline{\overline{Q}_{k=1}}}=
@@ -202,7 +203,7 @@ $eLamX^{2}$ ist ein Laminat-Berechnungsprogramm der TU Dresden. Es kann anhand d
 	$G_{\parallel\perp}$ & $1984,5 MPa$\\
 \end{tabular}\\
 
-\noindent Anschließend werden die nach Kapitel ~\ref{VDI2013} berechneten Laminate bzw. Schichtverbunde aus mehreren Gewebe-Lagen zusammengesetzt. Eine bidirektionale Gewebelage wird dabei durch zwei einzelne Materiallagen mit einem Winkel von $90^{\circ}$ zueinander simuliert, sodass sich die doppelte Anzahl des Materials gegenüber der Gewebeanzahl ergibt. Für die Holmgurte ergibt sich ein Lagenaufbau nach Abbildung ~\ref{fig:Lagenaufbau Holmgurte} und für den dünnen Steg nach Abbildung ~\ref{fig:Lagenaufbau Steg dünn}. Für den dicken Steg ergibt sich der gleiche Aufbau wie bei dem dünnen Steg, allerdings mit 24 Materiallagen (siehe Abb. ~\ref{fig:Lagenaufbau Steg dick}). Weshalb sich die Anzahl der Gewebelagen gegenüber der Auslegung nach VDI 2013 unterscheidet, wird im Weiteren beschrieben.\\ 
+\noindent Anschließend werden die nach Kapitel ~\ref{VDI2013} berechneten Laminate bzw. Schichtverbunde aus mehreren Gewebe-Lagen zusammengesetzt. Eine bidirektionale Gewebelage wird dabei durch zwei einzelne Materiallagen mit einem Winkel von $90^{\circ}$ zueinander simuliert, sodass sich die doppelte Anzahl des Materials gegenüber der Gewebeanzahl ergibt. Für die Holmgurte ergibt sich ein Lagenaufbau nach Abbildung ~\ref{fig:Lagenaufbau Holmgurte} und für den dünnen Steg nach Abbildung ~\ref{fig:Lagenaufbau Steg dünn}. Für den dicken Steg ergibt sich der gleiche Aufbau wie bei dem dünnen Steg, allerdings mit 24 Materiallagen (siehe Abb. ~\ref{fig:Lagenaufbau Steg dick}). Weshalb sich die Anzahl der Gewebelagen gegenüber der Auslegung nach VDI 2013 unterscheidet, wird im Weiteren beschrieben. Es sei zudem angemerkt, dass der Schaum im Lagenaufbau nicht betrachtet wird, da vorerst nur die Gewebelagen alleine den Belastungen standhalten sollen.\\ 
 
 \noindent Nun werden die nach VDI 2013 im Kapitel \ref{VDI} errechneten Normalkraft- und Schubflüsse bzw. Dehnungen eingegeben, sodass nun die Sicherheiten nach den Versagenskriterien von Puck ermittelt werden können. Dabei handelt es sich um leicht abweichende Flüsse bzw. Dehnungen gegenüber der Realität. Diese Werte stammen aus der Auslegung nach VDI 2013, in der teilweise die Lagenanzahl, wie bereits beschrieben, geringer ist. Zu beachten ist außerdem, dass die Flüsse und Dehnungen auf das allgemeine Koordinatensystem und nicht auf die der einzelnen Lagen bezogen werden. Es wird automatisch die niedrigste Sicherheit mit der jeweiligen Versagensart ausgegeben. Auch muss berücksichtigt werden, dass für die komplette Überprüfung der Auslegung ebenfalls $\epsilon_{x}$ negativ angenommen werden muss, um den gegenüberliegenden Gurt mit Druckbelastungen zu betrachten. Dabei ergeben sich jedoch stets höhere Sicherheiten \cite{item22}\cite{item3}.\\
 

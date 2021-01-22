@@ -1,11 +1,11 @@
 \subsubsection{Annahmen zur Modellierung}
-Im Folgenden soll das mechanische Verhalten des Holms unter einer angreifenden Querkraft untersucht werden. Dazu wird dieser nach Kapitel  \ref{Balken} als Holm modelliert.\\
+Im Folgenden soll das mechanische Verhalten des Holms unter einer angreifenden Querkraft untersucht werden. Dazu wird dieser nach Kapitel  \ref{Balken} als Balken modelliert.\\
 
-\noindent Zur Vereinfachung aller analytischen Berechnungen soll anfangs eine wichtige Annahme getroffen werden: Der Holm wird lediglich auf Biegung durch eine Querkraft und die Flügelschale nur auf Torsion durch ein resultierendes Torsionsmoment beansprucht. Diese Annahme kann getroffen werden, da die jeweiligen Belastungensarten auf das entsprechend andere Bauteil eine sehr kleine relative Auswirkung haben gegenüber dem gesamten Flügel als Baugruppe. Diese Annahme ist auch bei Segelflugzeugen, wie z.B. der SB 14 der \glqq Akademische[n] Fliegergruppe Braunschweig e.V.\grqq\: erfolgt und vom Luftfahrtbundesamt akzeptiert worden \cite{item21}.\\
+\noindent Zur Vereinfachung aller analytischen Berechnungen soll anfangs eine wichtige Annahme getroffen werden: Der Holm wird lediglich auf Biegung durch eine Querkraft und die Flügelschale nur auf Torsion durch ein resultierendes Torsionsmoment beansprucht. Diese Annahme kann getroffen werden, da die jeweiligen Belastungensarten auf das entsprechend andere Bauteil eine sehr kleine relative Auswirkung gegenüber dem gesamten Flügel als Baugruppe haben. Diese Annahme ist auch bei Segelflugzeugen, wie z.B. der SB 14 der \glqq Akademische[n] Fliegergruppe Braunschweig e.V.\grqq\: erfolgt und vom Luftfahrtbundesamt akzeptiert worden \cite{item21}.\\
 
 \noindent Das Koordinatensystem des Flügels entspricht einem allgemeinen Flugzeug-Koordinaten-\\system, sodass die Flügellängskoordinate durch $y$ definiert ist. Der Koordinatenursprung ist im Lager A positioniert, da es keinen allgemeinen Flugzeugschwerpunkt gibt. \\
 
-\noindent Der Holm inklusive des Holmstummels wird für die Belastung durch eine Prüfkraft $F_{pruef}$ in negative z-Richtung als Biegebalken ausgelegt. Dafür ist er an zwei Stellen gelagert, am Lager $A$ und am Lager $B$. Die Lager entsprechen den Verstiftungen (siehe Bauteil U-Profil der Aufgabenstellung). Um eine Überbestimmung des Systems zu vermeiden, wird das Lager $B$ als Loslager angenommen. Die Querkraftbolzen werden nicht durch ein Lager, sondern durch eine zusätzlich angreifende Kraft $F_{Q}$ simuliert, da eine biegeweiche Wurzelrippe, an der die Querkraftbolzen die Kraft aufnehmen, eine nicht definierbare, unbekannte Absenkung erlaubt.\\
+\noindent Der Holm inklusive des Holmstummels wird für die Belastung durch eine Prüfkraft $F_{pruef}$ in negative z-Richtung als Biegebalken ausgelegt. Dafür ist er an zwei Stellen gelagert, am Lager $A$ und am Lager $B$. Die Lager entsprechen den Verstiftungen (siehe Bauteil U-Profil der Aufgabenstellung). Um eine Überbestimmung des Systems zu vermeiden, wird das Lager $B$ als Loslager angenommen. Die Querkraftbolzen werden nicht durch ein Lager, sondern durch eine zusätzlich angreifende Kraft $F_{Q}$ simuliert, da eine biegeweiche Wurzelrippe, an der die Querkraftbolzen die abgesetzte Kraft aufnehmen, eine nicht definierbare, unbekannte Absenkung erlaubt.\\
 
 \noindent Als Randbedingungen der Modellierung sind die Halbspannweite $s$ und die Absenkung $w$ (bezogen auf KOS) gegeben. Für die Absenkung $w$ soll eine Sicherheit $j=1,1$ gesetzt werden. Zwischen Lager $A$ und $B$ wird die Länge $l_{1}$ angenommen, zwischen Lager $B$ und der Wurzelrippe $C$ die Länge $l_{2}$. Die verbleibende Länge bis zur Flügelspitze, an der die Prüfkraft $F_{pruef}$ wirkt, wird $l_{3}$ bezeichnet. Die Halbspannweite $s$ wird, beginnend in der Mitte der Verstiftungen, bis zur Flügelspitze gemessen. Ausgehend von dem Holmstummelende bis zum Lager $A$ wird $l_{0}$ als Länge definiert. Diese Länge ist jedoch unerheblich für die Modellierung, sie wird erst für die Massenbestimmung benötigt.\\
 
@@ -29,13 +29,13 @@ Im Folgenden soll das mechanische Verhalten des Holms unter einer angreifenden Q
 	w_{j=1,1} = \frac{1}{j} * w = \frac{1}{1,1} * 0,022 m = 0,02 m
 \end{equation}
 \begin{figure}
-	\includegraphics[width=1.0\textwidth]{Bilder/Balkenmodell2.jpg}
-	\caption{Modellierung des Holms}
+	\includegraphics[width=1.0\textwidth]{Bilder/Balkenmodell.jpg}
+	\caption{Modellierung des Holms als Biegebalken}
 	\label{fig:Holmmodellierung}
 \end{figure}
 
 \subsubsection{Analytisches Lösen der Modellierung}
-Um die Differentialgleichungen der Balkenbiegung lösen zu können, wird der Biegebalken vorerst in drei Teilbereiche $I$, $II$ und $III$ aufgeteilt, die sich von Lager $A$ zu $B$, von Lager $B$ zur Wurzelrippe $C$ und von dort aus bis zur Flügelspitze erstrecken. \\
+Um die Differentialgleichungen der Balkenbiegung lösen zu können, wird der Biegebalken vorerst in drei Teilbereiche $I$, $II$ und $III$ aufgeteilt, die sich vom Lager $A$ zum $B$, vom Lager $B$ zur Wurzelrippe $C$ und von dort aus bis zur Flügelspitze erstrecken. \\
 
 \noindent Dadurch ergeben sich folgende zwölf Differentialgleichungen \cite{item16}:
 \begin{equation} \label{eq:7}
@@ -72,10 +72,10 @@ Um die Differentialgleichungen der Balkenbiegung lösen zu können, wird der Bie
 	EI_{x}\cdot w_{III}^{''''}(y) = q_{III}(y)
 \end{equation}
 \begin{equation}\label{eq:18}
-	EI_{x}\cdot w_{III}^{'''}(y) = q_{III}(y)\cdot y + R_{9} = -Q_{I}(y)
+	EI_{x}\cdot w_{III}^{'''}(y) = q_{III}(y)\cdot y + R_{9} = -Q_{III}(y)
 \end{equation}
 \begin{equation}\label{eq:19}
-	EI_{x}\cdot w_{III}^{''}(y) = \frac{q_{III}(y)}{2}\cdot y^{2} + R_{9}\cdot y + R_{10} = -M_{I}(y)
+	EI_{x}\cdot w_{III}^{''}(y) = \frac{q_{III}(y)}{2}\cdot y^{2} + R_{9}\cdot y + R_{10} = -M_{III}(y)
 \end{equation}
 \begin{equation}\label{eq:20}
 	EI_{x}\cdot w_{III}^{'}(y) = \frac{q_{III}(y)}{6}\cdot y^{3} + \frac{R_{9}}{2}\cdot y^{2} + R_{10}\cdot y + R_{11} 
@@ -84,7 +84,7 @@ Um die Differentialgleichungen der Balkenbiegung lösen zu können, wird der Bie
 	EI_{x}\cdot w_{III}(y) = \frac{q_{III}(y)}{24}\cdot y^{4} + \frac{R_{9}}{6}\cdot y^{3} + \frac{R_{10}}{2}\cdot y^{2} + R_{11}\cdot y + R_{12}
 \end{equation}\\
 
-\noindent Die Randbedingungen der Modellierung ergeben sich folgend nach gegebenen Definitionen von Lagern und angreifenden Kräften \cite{item16}: 
+\noindent Die Rand- und Übergangsbedingungen der Modellierung ergeben sich folgend nach gegebenen Definitionen von Lagern und angreifenden Kräften \cite{item16}: 
 \begin{equation}\label{eq:22}
 	w_{I}(y=0)=0
 \end{equation}
@@ -136,13 +136,13 @@ Zusätzlich wird angenommen, dass $q_{I}(y)=q_{II}(y)=q_{III}(y)=0$ gilt, da kei
 	M(y,F_{pruef},F_{Q},EI_{x})=\left\{\begin{array}{ll}
 		(-F_{pruef}\cdot \frac{l_{2}+l_{3}}{l_{1}}-F_{Q}\cdot \frac{l_{2}}{l_{1}})\cdot y&,y\epsilon (0,l_{1})\\
 		F_{pruef}\cdot (y-(l_{1}+l_{2}+l_{3}))+F_{Q}\cdot (y-(l_{1}+l_{2}))&,y\epsilon (l_{1}, l_{1}+l_{2})\\
-		F_{pruef}\cdot (y-(l_{1}+l_{2}+l_{3}))&,y\epsilon (l_{1}+l_{2}, l_{1}+l_{2}+l_{3})
+		F_{pruef}\cdot (y-(l_{1}+l_{2}+l_{3}))&,y\epsilon (l_{1}+l_{2}, l_{1}\\&\:\:+l_{2}+l_{3})
 	\end{array}\right.
 \end{equation}\\
 \begin{equation}\label{eq:36}
 	w(y,F_{pruef},F_{Q},EI_{x})=\left\{\begin{array}{ll}
 		\frac{1}{EI_{x}}\cdot\frac{1}{6}\cdot\biggl((F_{pruef}\cdot \frac{l_{2}+l_{3}}{l_{1}}+F_{Q}\cdot \frac{l_{2}}{l_{1}})\cdot y^{3}-\Bigl((l_{2}+l_{3})\cdot l_{1}\cdot F_{pruef}\\+l_{1}\cdot l_{2}\cdot F_{Q}\Bigl)\cdot y \biggr)\:,y\epsilon (0,l_{1})&\\&\\
-		\frac{1}{EI_{x}}\cdot\biggl(\frac{(-F_{pruef}-F_{Q})}{6}\cdot y^{3} + \frac{F_{pruef}\cdot (l_{1}+l_{2}+l_{3})+F_{Q}\cdot (l_{1}+L_{2})}{2}\cdot y^{2}\\ + \Bigl(F_{pruef}\cdot(-\frac{1}{2}\cdot l_{1}^{2}-\frac{2}{3}\cdot l_{1}\cdot l_{2}-\frac{2}{3}\cdot l_{1}\cdot l_{3})+ \\F_{Q}\cdot(-\frac{1}{2}l_{1}^{2}-\frac{2}{3}\cdot l_{1}\cdot l_{2})\Bigr)\cdot y + F_{pruef}\cdot\frac{1}{6}\cdot(l_{1}^{3}+l_{1}^{2}\cdot l_{2}+l_{1}^{2}\cdot l_{3}) \\+ F_{Q}\cdot\frac{1}{6}\cdot(l_{1}^{3}+l_{1}^{2}\cdot l_{2})\biggr),y\epsilon (l_{1}, l_{1}+l_{2})&\\&\\
+		\frac{1}{EI_{x}}\cdot\biggl(\frac{(-F_{pruef}-F_{Q})}{6}\cdot y^{3} + \frac{F_{pruef}\cdot (l_{1}+l_{2}+l_{3})+F_{Q}\cdot (l_{1}+l_{2})}{2}\cdot y^{2}\\ + \Bigl(F_{pruef}\cdot(-\frac{1}{2}\cdot l_{1}^{2}-\frac{2}{3}\cdot l_{1}\cdot l_{2}-\frac{2}{3}\cdot l_{1}\cdot l_{3})+ \\F_{Q}\cdot(-\frac{1}{2}l_{1}^{2}-\frac{2}{3}\cdot l_{1}\cdot l_{2})\Bigr)\cdot y + F_{pruef}\cdot\frac{1}{6}\cdot(l_{1}^{3}+l_{1}^{2}\cdot l_{2}+l_{1}^{2}\cdot l_{3}) \\+ F_{Q}\cdot\frac{1}{6}\cdot(l_{1}^{3}+l_{1}^{2}\cdot l_{2})\biggr),y\epsilon (l_{1}, l_{1}+l_{2})&\\&\\
 		\frac{1}{EI_{x}}\cdot\biggl(-\frac{F_{pruef}}{6}\cdot y^{3} + \frac{ F_{pruef}\cdot (l_{1}+l_{2}+l_{3})}{2}\cdot y^{2} + \Bigl(F_{pruef} 
 		\cdot(-\frac{1}{2}\cdot l_{1}^{2} \\-\frac{2}{3}\cdot l_{1}\cdot l_{2}-\frac{2}{3}\cdot l_{1}\cdot l_{3}) + F_{Q}\cdot(\frac{1}{2}\cdot l_{2}^{2}+\frac{1}{3}\cdot l_{1}\cdot l_{2})\Bigr)\cdot y \\ +F_{pruef}\cdot\frac{1}{6}\cdot(l_{1}^{3}+l_{1}^{2}\cdot l_{2}+l_{1}^{2}\cdot l_{3}) + F_{Q}\cdot(-\frac{1}{6}\cdot l_{2}^{3}-\frac{1}{3}\cdot l_{1}^{2}\cdot l_{2}\\-\frac{1}{2}\cdot l_{2}^{2}\cdot l_{1})\biggr),y\epsilon (l_{1}+l_{2}, l_{1}+l_{2}+l_{3})&
 	\end{array}\right.
@@ -153,13 +153,13 @@ Die Herleitung der Lösung kann im Kapitel \ref{Lösung} nachvollzogen werden.\\
 \begin{equation}\label{EIx}
 	\begin{array}{l}
 		EI_{x}(0.886m, 100N, -100N, 0.02m)= \\
-		\frac{1}{w}\cdot\biggl(-\frac{F_{pruef}}{6}\cdot y^{3} + \frac{ F_{pruef}\cdot (l_{1}+l_{2}+l_{3})}{2}\cdot y^{2} + \Bigl(F_{pruef}\cdot(-\frac{1}{2}\cdot l_{1}^{2} -\frac{2}{3}\cdot l_{1}\cdot l_{2}-\frac{2}{3}\cdot l_{1}\cdot l_{3}) \\ +F_{Q}\cdot(\frac{1}{2}\cdot l_{2}^{2}+\frac{1}{2}\cdot l_{1}\cdot l_{2})\Bigr)\cdot y + F_{pruef}\cdot\frac{1}{6}\cdot(l_{1}^{3}+l_{1}^{2}\cdot l_{2}+l_{1}^{2}\cdot l_{3}) + F_{Q}\cdot(-\frac{1}{6}\cdot l_{2}^{3}-\frac{1}{3}\cdot l_{1}^{2}\cdot l_{2}\\-\frac{1}{2}\cdot l_{2}^{2}\cdot l_{1})\biggr)
+		\frac{1}{w}\cdot\biggl(-\frac{F_{pruef}}{6}\cdot y^{3} + \frac{ F_{pruef}\cdot (l_{1}+l_{2}+l_{3})}{2}\cdot y^{2} + \Bigl(F_{pruef}\cdot(-\frac{1}{2}\cdot l_{1}^{2} -\frac{2}{3}\cdot l_{1}\cdot l_{2}-\frac{2}{3}\cdot l_{1}\cdot l_{3}) \\ +F_{Q}\cdot(\frac{1}{2}\cdot l_{2}^{2}+\frac{1}{3}\cdot l_{1}\cdot l_{2})\Bigr)\cdot y + F_{pruef}\cdot\frac{1}{6}\cdot(l_{1}^{3}+l_{1}^{2}\cdot l_{2}+l_{1}^{2}\cdot l_{3}) + F_{Q}\cdot(-\frac{1}{6}\cdot l_{2}^{3}-\frac{1}{3}\cdot l_{1}^{2}\cdot l_{2}\\-\frac{1}{2}\cdot l_{2}^{2}\cdot l_{1})\biggr)
 		=962,552Nm^{2}
 	\end{array}
 \end{equation}
 
 \subsubsection{Analyse der Modellierung}
-In Abb. ~\ref{fig:Steifigkeitsauslegung} werden die Querkraftverläufe $Q(y,F_{pruef},F_{Q},EI_{x})$ als innere Schnittkraft, der Momentenverlauf $M(y,F_{pruef},F_{Q},EI_{x})$ als inneres Schnittmoment und die Biegelinie $w(y,F_{pruef},F_{Q},EI_{x})$ für den Nachweis der Steifigkeit graphisch dargestellt, über die gesamte Holmlänge und in einem vergrößerten Ausschnitt im Bereich der Lager. \\
+In Abb. ~\ref{fig:Steifigkeitsauslegung} werden der Querkraftverlauf $Q(y,F_{pruef},F_{Q},EI_{x})$ als innere Schnittkraft, der Momentenverlauf $M(y,F_{pruef},F_{Q},EI_{x})$ als inneres Schnittmoment und die Biegelinie $w(y,F_{pruef},F_{Q},EI_{x})$ für den Nachweis der Steifigkeit graphisch dargestellt, über die gesamte Holmlänge und in einem vergrößerten Ausschnitt im Bereich der Lager. \\
 
 \noindent Jedoch werden nicht bei dem Nachweis der Steifigkeit, sondern bei dem Nachweis der Festigkeit das maximale Schnittmoment und die maximale Schnittkraft erreicht. Bei diesem Nachweis beträgt die Prüfkraft $F_{pruef} = 500N$ und somit auch $|F_{Q}| = 500N$. Diese Kraft wird bei der Berechnung von $EI_{x}$ nicht beachtet, da bei dem Nachweis der Festigkeit die Absenkung $w$ kein Rolle spielt. In Abb. ~\ref{fig:Festigkeitsauslegung} werden die genannten Verläufe nun für den Festigkeitsnachweis dargestellt.
 \FloatBarrier
